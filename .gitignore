@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Large data files (download separately — see data/README.md)
+*.tsv
+*.tsv.gz
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

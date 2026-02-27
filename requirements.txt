@@ -1,0 +1,5 @@
+# Core evaluation harness: zero dependencies (Python 3.8+ standard library)
+
+# Optional: only needed for diverse ranker generation (generate_diverse_runs.py)
+numpy>=1.21
+scipy>=1.7
