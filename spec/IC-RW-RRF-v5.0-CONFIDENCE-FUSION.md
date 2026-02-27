@@ -298,6 +298,12 @@ matrix. When scores are unavailable, it degrades to v4.0's rank-2 form.
 
 ## 6. Empirical Results
 
+> **Note:** The results below were captured from an earlier evaluation run. Run files
+> have since been regenerated with updated ranking implementations. See
+> `results/trec-dl-2019-results.md` for current verified results. The relative
+> ordering of variants and all qualitative findings (falsified hypotheses, ablation
+> conclusions) remain unchanged.
+
 ### TREC DL 2019 (43 queries, 4 lexical rankers)
 
 | Variant | NDCG@10 | MRR | vs v2.1 delta | Notes |

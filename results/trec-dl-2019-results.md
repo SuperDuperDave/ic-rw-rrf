@@ -6,25 +6,25 @@
 
 | Variant | NDCG@10 | MRR | vs v2.1 | Notes |
 |---------|---------|-----|---------|-------|
-| Vanilla RRF | 0.3173 | 0.5327 | -0.0044 | Baseline — uniform 1/(k+rank) |
-| v2.1 IC(R/W)-RRF | 0.3218 | 0.5523 | -- | Per-query adaptive consensus |
-| v3.0 DGAF | 0.3251 | **0.5658** | +0.0034 | Per-document gating — **Best MRR** |
-| v4.0 Soft-Routed | 0.3250 | 0.5527 | +0.0033 | Per-ranker modulation |
-| **v5.0** | **0.3314** | 0.5309 | **+0.0096** | Per-document confidence — **Best NDCG@10** |
-| v4.1 (all 3 refs) | 0.3253 | 0.5039 | +0.0036 | Ref1 interferes with Ref3 |
+| Vanilla RRF | 0.3645 | 0.7308 | -0.0065 | Baseline — uniform 1/(k+rank) |
+| v2.1 IC(R/W)-RRF | 0.3710 | 0.7553 | -- | Per-query adaptive consensus |
+| v3.0 DGAF | 0.3742 | 0.7610 | +0.0032 | Per-document gating |
+| v4.0 Soft-Routed | 0.3750 | 0.7642 | +0.0040 | Per-ranker modulation |
+| **v5.0 (v4.0+Ref3)** | **0.3800** | 0.7108 | **+0.0090** | Per-document confidence — **Best NDCG@10** |
+| v4.1 (all 3 refs) | 0.3747 | 0.6957 | +0.0037 | Ref1 interferes with Ref3 |
 
-v5.0: +4.4% NDCG@10 over vanilla RRF, +3.0% over v2.1.
+v5.0: +4.3% NDCG@10 over vanilla RRF, +2.4% over v2.1.
 
 ## Ablation Results (v4.x experimental series)
 
 | Ablation | NDCG@10 | MRR | Finding |
 |----------|---------|-----|---------|
-| v4.0 + Ref1 only | 0.3233 | 0.5529 | Contribution-space dispersion hurts NDCG slightly |
-| v4.0 + Ref2 only | 0.3250 | 0.5527 | Reliability gate = no-op (p_S = 0 with homogeneous rankers) |
-| v4.0 + Ref3 only | **0.3314** | 0.5309 | Per-document confidence = sole source of gain (**= v5.0**) |
-| v4.0 + all three | 0.3253 | 0.5039 | Ref1 interferes with Ref3 |
-| v4.2 (conf-gated) | 0.3238 | 0.5038 | Type S inert with homogeneous rankers |
-| PACA-K3 | 0.3221 | 0.4999 | Position protection protects wrong documents |
+| v4.0 + Ref1 only | 0.3734 | 0.7673 | Contribution-space dispersion: marginal NDCG effect |
+| v4.0 + Ref2 only | 0.3750 | 0.7642 | Reliability gate = no-op (p_S = 0 with homogeneous rankers) |
+| v4.0 + Ref3 only | **0.3800** | 0.7108 | Per-document confidence = sole source of NDCG gain (**= v5.0**) |
+| v4.0 + all three | 0.3747 | 0.6957 | Ref1 interferes with Ref3 |
+| v4.2-sig | 0.3731 | 0.6957 | Type S inert with homogeneous rankers |
+| PACA-K3 | 0.3692 | 0.6420 | Position protection protects wrong documents |
 
 ## Falsified Hypotheses
 
@@ -44,11 +44,23 @@ v5.0: +4.4% NDCG@10 over vanilla RRF, +3.0% over v2.1.
 | Confidence resolution | Per-ranker | Per-ranker | Per-ranker | **Per-document per-ranker** |
 | Parameters | 3+ | 5+ | 3 | **3** |
 | Score requirement | No | No | No | Optional (graceful fallback) |
-| Best metric | -- | MRR | -- | NDCG@10 |
+| Best metric | -- | -- | -- | NDCG@10 |
 | Degradation path | -> RRF | -> v2.1 | -> v2.1 | -> v4.0 -> v2.1 -> RRF |
 
 ## Known Trade-offs
 
-v5.0 improves NDCG@10 but shows MRR regression (-0.0218 vs v4.0). Per-document confidence promotes relevant documents into top-1 on most queries, but on ~2 of 43 queries it promotes the wrong document. This is a genuine NDCG-vs-MRR trade-off. v3.0 DGAF remains the MRR-optimal operating point.
+v5.0 improves NDCG@10 but shows MRR regression (-0.0534 vs v4.0). Per-document confidence promotes relevant documents into top-10 on most queries, but on some queries it promotes the wrong document into top-1. This is a genuine NDCG-vs-MRR trade-off.
 
 No result reaches statistical significance at p<0.05 with 43 queries. Evaluation on TREC DL 2020 with expanded ranker diversity is planned.
+
+## Reproduction
+
+```bash
+# Exact command to reproduce these results:
+python evaluation/trec_eval_harness.py \
+  --qrels data/trec-dl-2019/2019qrels-pass.txt \
+  --runs data/trec-dl-2019/runs/bm25.txt \
+        data/trec-dl-2019/runs/bm25_tuned.txt \
+        data/trec-dl-2019/runs/tfidf.txt \
+        data/trec-dl-2019/runs/ql_dirichlet.txt
+```

@@ -6,10 +6,10 @@ Unsupervised rank fusion that adapts per-query, per-document, and per-ranker —
 
 | Variant | NDCG@10 | MRR | vs Vanilla RRF |
 |---------|---------|-----|----------------|
-| Vanilla RRF | 0.3173 | 0.5327 | -- |
-| IC-RRF v2.1 | 0.3218 | 0.5523 | +1.4% |
-| IC-RRF v3.0 DGAF | 0.3251 | **0.5658** | +2.5% |
-| **IC-RRF v5.0** | **0.3314** | 0.5309 | **+4.4%** |
+| Vanilla RRF | 0.3645 | 0.7308 | -- |
+| IC-RRF v2.1 | 0.3710 | 0.7553 | +1.8% |
+| IC-RRF v3.0 DGAF | 0.3742 | 0.7610 | +2.7% |
+| **IC-RRF v5.0** | **0.3800** | 0.7108 | **+4.3%** |
 
 TREC Deep Learning 2019 | 43 queries | 4 lexical rankers | [Full results](results/trec-dl-2019-results.md)
 
