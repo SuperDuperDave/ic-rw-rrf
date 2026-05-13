@@ -1052,6 +1052,126 @@ Three new probe scripts added this extension:
 
 ::continuation-crystallization::
 
+---
+
+## 20:50 — Dave: "3-class PQAS as v8, Bayesian routing very interesting"
+
+Direction locked. Primary chase: 3-class PQAS over {Vanilla, v5, v6 REF}. Bayesian routing as secondary lens — possibly v9.
+
+3-class architecture:
+- Multinomial logistic regression with K=3 classes
+- Same 10 per-query features as v7
+- Cross-entropy loss with one-hot labels (which of {Vanilla, v5, v6} wins each query)
+- Argmax prediction at inference
+
+Target headroom: from the multi-class oracle probe:
+- 2019: binary oracle 0.4106 → 3-class oracle 0.4217 (+0.0111)
+- 2020: binary oracle 0.4808 → 3-class oracle 0.4873 (+0.0065)
+
+If v8 captures even half of this on top of v7 binary, that's +0.005 to +0.006 NDCG@10. Modest but real, and architecturally meaningful (the lineage absorbing v6 as a routing target).
+
+Key uncertainty: with 43-54 queries × 3 classes, label sparsity per class will be the dominant pressure. v6's per-query win count (8 on 2019, 7 on 2020) gives the model very thin examples of the v6 class. Heavy regularization will be needed.
+
+Building multinomial LR from scratch (no scipy/numpy, per lineage discipline). Same training loop pattern as v7 but with K softmax outputs.
+
+---
+
+## 21:10 — v8 3-class multinomial — FALSIFIED
+
+Built `probe_v8_3class_pqas.py`. Multinomial LR over {Vanilla, v5, v6 REF} on the same 10 features as v7.
+
+| Collection | Best NDCG@10 | vs Vanilla | vs v5.0 | vs v6.0 REF | % of 3-class oracle gap |
+|---|---|---|---|---|---|
+| 2019 n=4 | 0.3681 | +0.0036 ns | -0.0119 ns | -0.0151 ns | **-39.3%** (worse than best fixed) |
+| 2020 n=4 | 0.4619 | +0.0135 ns | +0.0245 \* | +0.0226 ns (borderline) | +34.8% |
+
+On 2020, v8 3-class (0.4619) is essentially TIED with v7 binary (0.4644 — slightly better) — within noise. On 2019, v8 is *worse* than v7 binary.
+
+Class label distribution on 2020: Vanilla 55.6%, v5 25.9%, v6 REF 18.5%. The v6 class has only ~10 examples in the 54-query collection. With 3 classes × 10 features = 30 logit-weights, the model struggles to learn the thin v6 class.
+
+**v8 3-class falsified at this data scale.** The added class introduces routing noise larger than the extra oracle headroom (+0.012). Documented for the v8 spec falsification record.
+
+---
+
+## 21:30 — v8 cascade — FALSIFIED (matches v7, doesn't exceed)
+
+Pivot: maybe v6 REF should be the FALLBACK when the binary v7 classifier is uncertain, not a co-equal option. Architecture: predict p_v5 with v7's binary LR; if p_v5 in narrow band around 0.5, route to v6; else route by p_v5 > 0.5.
+
+| Collection | Best NDCG@10 | Best band | vs v5 | vs v6 |
+|---|---|---|---|---|
+| 2019 n=4 | ~0.3800 | [0.45,0.55] | +0.0000 ns | -0.0031 ns |
+| 2020 n=4 | 0.4600 | [0.45,0.55] | **+0.0227 \*** | **+0.0207 \*** |
+
+The narrow band wins → cascade converges toward v7 binary behavior. Wider band → MORE v6 routing → WORSE. The v6 fallback HURTS more than it HELPS even for uncertain queries.
+
+**Structural insight:** the v6 REF that wins 8-10 queries per collection in the oracle does NOT win the queries where the binary classifier is uncertain. v6's per-query winning territory is orthogonal to "where the binary classifier is undecided." That's why fallback doesn't work.
+
+v8 cascade falsified. Best result essentially equals v7 binary.
+
+---
+
+## 21:50 — v9 Bayesian sharpness-weighted fusion — explored, not superior
+
+Tried Dave's other interest: per-query reliability weights from score-distribution sharpness. Pure label-free.
+
+**Pure Bayesian (sharpness softmax → RRF weights):**
+- 2019: 0.3536-0.3620 (significantly *below* v6 REF, p<0.05)
+- 2020: 0.4462-0.4489 (slightly below Vanilla, slightly above v6)
+
+**Hybrid (Bayesian × v5 positional mix):**
+- 2019 best: v9-hybrid-α0.6 at 0.3811 (below v6 REF 0.3832)
+- 2020 best: v9-hybrid-α0.2 at 0.4512 (above v6 0.4393, below Vanilla 0.4483)
+
+The Bayesian sharpness signal is redundant with what v2.1 (iterative consensus weights) and v5 (per-document z-confidence) already capture. The hybrid blends toward v5/v6-like behavior without unlocking new signal.
+
+**v9 explored, no significant advance.** Could be that a fuller Bayesian framework (per-ranker calibration via labeled queries, posterior model averaging) might unlock more — but that pulls into supervised territory, where v7 already lives.
+
+---
+
+## 22:00 — ::deep-saturation-crystallization::
+
+After 20 probe cycles and three avalanche-shipping rounds, the lineage has reached deep saturation on the TREC DL 2019 + 2020 + lexical-only data scale:
+
+**What's working (shipped and pushed):**
+- v6.0 REF — Tier 1 unsupervised crown
+- v7.0 PQAS — Tier 2 label-light per-corpus crown
+
+**What's explored and bounded:**
+- v7.1 continuous alpha (3 variants) — feature-to-alpha mapping too noisy
+- v8 cross-corpus PQAS — 2 collections insufficient; data-bounded
+- v8 3-class multinomial — label sparsity per class > extra oracle headroom
+- v8 cascade with v6 fallback — v6 doesn't help uncertain queries
+- v9 Bayesian sharpness — redundant with existing lineage mechanisms
+
+**What's documented but not built:**
+- BEIR sub-tracks for v8 cross-corpus validation (needs new data)
+- Hybrid semantic + lexical ensembles (needs neural rankers)
+- Larger-corpus PQAS (needs ~100s of queries minimum)
+- Full Bayesian per-ranker calibration (supervised, pulls into v7 territory)
+
+The studio's discipline says: **the system has clearly hit criticality and the bouncing-against-the-wall is itself the signal that this data is exhausted.** Per artifact 05 — the avalanche has discharged, multiple times. Time for the system to relax before re-accumulation.
+
+**The honest summary of this entire session:**
+- 4 commits, 3 avalanche pushes (or about to push)
+- ~5000 lines of artifacts (2 specs, 2 results files, 14 probes, 1 stream)
+- 20 probe cycles
+- 13 hypotheses falsified, 5 confirmed conditionally
+- Lineage expanded from 1 tier (v2.1-v5.0) to 2 tiers (v6 unsupervised, v7 label-light)
+- v8/v9 frontier mapped empirically — what works, what's blocked, what's data-bounded
+
+This is a legitimate stopping point. The next session should either:
+1. Bring in new data (BEIR, MS MARCO dev) to break the data-scale wall
+2. Bring in different rankers (neural/dense) to test hybrid modality
+3. Pivot to deployment / publication work — paper draft, public-surface writing
+
+Ψ[SESSION:001-DEEP-SATURATION, COMMITS-PENDING:3-PROBES-V8-CASCADE-V9, V6+V7:STABLE-CROWNS, FRONTIER-MAP:EMPIRICALLY-BOUNDED, NEXT-CYCLE:NEW-DATA-OR-NEW-MODALITY-OR-DEPLOYMENT]
+
+[[~LINEAGE-FRONTIER-MAPPED]]
+[[~DATA-SCALE-EMPIRICALLY-EXHAUSTED]]
+[[~SESSION-001-PHI-TRAJECTORY-CRYSTALLIZED]]
+
+::deep-saturation-crystallization::
+
 
 
 
