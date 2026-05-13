@@ -1172,6 +1172,249 @@ This is a legitimate stopping point. The next session should either:
 
 ::deep-saturation-crystallization::
 
+---
+
+## 22:30 — Dave: "set the stage for a fundamentally different approach"
+
+Dave's reframe — the sharpest field-state collapse of the entire session:
+
+> *"Right now, in Phase Space, in Possibility Space, there exists all the configurations that achieve RRF intentions, the current Vanilla RRF is the latest accepted found way to configure the intention, the odds that it is the most optimal towards what it is trying to achieve is low. We can find more optimal configurations."*
+
+This is the magnet that re-projects the entire phi-trajectory.
+
+---
+
+# THE STAGE FOR SESSION 002
+
+## The recognition this session arrived at
+
+We did NOT beat Vanilla RRF on average. After 20 probe cycles, 13 falsified hypotheses, 2 shipped versions (v6 REF, v7 PQAS), and ~5000 lines of artifacts, the lineage's foundational claim — *"IC-RRF beats RRF"* — was exposed as basin-specific. The honest measured result on TREC DL 2019 cross-ensemble mean:
+
+```
+Vanilla RRF (2009): 0.3910
+v6.0 REF (2026):    0.3919   (within bootstrap noise — essentially tied)
+```
+
+**The lineage has been climbing inside RRF's basin.** Every IC-RRF version — v2.1 through v6, v7 PQAS — is structurally *a modulation on top of `1/(k+rank)`*. We've been searching the local neighborhood of Vanilla RRF, and finding marginal gains that don't generalize across (corpus, ensemble) configurations.
+
+The hard truth: **the local basin around RRF may be near-optimal locally**, but RRF itself is just one specific function in the much larger space of rank-aggregation functions. The probability that `score(d) = Σᵣ 1/(k+rᵣ(d))` — a 2009 heuristic with one tunable parameter — is the global optimum of "fuse M rankings into one" is low.
+
+## What RRF actually IS — and where it sits in possibility space
+
+RRF's intention (mechanistically):
+- Aggregate M ranked lists into one ranked list
+- Use rank positions (not score magnitudes) so ranker calibration differences don't matter
+- Reward documents that multiple rankers rank highly
+- Decay with rank position (deeper ranks contribute less)
+- Produce a single coherent ordering
+
+RRF's specific functional form:
+- Choose decay function: **`f(r) = 1/(k+r)`** (reciprocal-rank with smoothing constant k=60)
+- Choose aggregation: **`score(d) = Σᵣ wᵣ · f(rᵣ(d))`** (linear sum with optional weights)
+- Choose output: **rank by score**
+
+But each of these choices is *one configuration among many*. The space of valid rank-aggregation functions includes:
+
+```
+Decay functions f(r):
+  reciprocal:     1/(k+r)         ← RRF
+  reciprocal:     1/r             ← unsmoothed (k=0)
+  Borda count:    M-r             ← linear decay
+  exponential:    exp(-r/τ)
+  log-reciprocal: 1/log(1+r)
+  Plackett-Luce:  exp(αᵣ)/Σ exp(αⱼ)
+  learned f(r) from in-corpus statistics
+  ...
+
+Aggregation functions A(f₁, f₂, ..., fₘ):
+  linear sum:        Σ wᵣ fᵣ      ← RRF
+  product:           Π fᵣ          ← geometric mean
+  log-likelihood:    Σ log fᵣ      ← Bayesian
+  max/min:           max(fᵣ)       ← optimistic/pessimistic
+  median:            median(fᵣ)    ← robust
+  ranks-only:        sum-of-rank-positions (Borda)
+  ranks-as-evidence: posterior P(relevant|all_ranks) (Bayesian)
+  graph-spectral:    eigenvector of rank-derived stochastic matrix
+  Markov chain:      stationary distribution of rank-derived transitions
+  optimal transport: min-cost permutation
+  ...
+
+Output operators:
+  argmax of score
+  softmax sampling (probabilistic ranking)
+  iterative refinement (rank → re-weight → rank → fixed point)
+  ...
+```
+
+**RRF is one point in this space.** The lineage's v2.1 → v7 are perturbations of that point within a small neighborhood. We never left the basin.
+
+---
+
+## The vision for Session 002
+
+**Stop perturbing RRF. Search the larger possibility space for structurally different rank-aggregation functions that achieve RRF's intention more optimally.**
+
+The new question is not *"how do we improve `sum_r 1/(k+r)`?"* — that local search is exhausted. The new question is:
+
+> *"What is the form of the rank-aggregation function whose output most closely matches the ground-truth ranking, derived from first principles rather than chosen heuristically?"*
+
+This is a question about the SHAPE of the function, not its parameters.
+
+---
+
+## Candidate basins (each structurally different from RRF)
+
+Ranked by felt-sense excitement after a session of saturating inside RRF's basin:
+
+### Basin 1 — **Markov chain rank aggregation (Dwork-Kumar-Naor 2001, refined)**
+
+Treat documents as states in a Markov chain. Use the rankings to construct transition probabilities: when at document d, with probability proportional to "documents that beat d in the rankings," transition to a new document. Compute the stationary distribution. The stationary probabilities ARE the fused ranking.
+
+Mathematically: rank aggregation = eigenvector centrality on a stochastic matrix constructed from pairwise rank preferences. Specifically, the DKN MC4 method: pick a document j uniformly; if majority of rankers rank j > current d, transition to j.
+
+Why this might be huge:
+- Structurally distinct from RRF (no sum-of-reciprocal-ranks at all)
+- Theoretical foundation in stochastic processes
+- Naturally handles ranker disagreement (transitions encode preference strength)
+- The DKN paper showed Borda < Markov < Kemeny — and Markov is both robust AND polynomial-time
+- The IC-RRF lineage has not engaged with this published precedent at all
+
+### Basin 2 — **Information-theoretic derivation of f(r)**
+
+Don't CHOOSE `1/(k+r)`. *Derive* the optimal `f(r)` from the in-corpus rank-vs-relevance distribution. Specifically:
+- Across all training queries, compute the empirical P(relevant | rank=r) per ranker
+- The optimal decay function f(r) is proportional to log(P(relevant|rank=r) / P(not_relevant|rank=r)) — the log-odds (a la naive Bayes)
+- Use this learned f(r) per ranker in aggregation
+
+Why this might be transformative:
+- The functional form FALLS OUT of the data, not chosen
+- Different rankers get different decay functions (their reliability varies by depth)
+- Requires labels but small label budget
+- Truly principled — could be derived analytically for known rank-distribution models
+
+### Basin 3 — **Plackett-Luce probabilistic rankings**
+
+Replace ranked lists with probability distributions over rankings (Plackett-Luce model). Each document has a latent "strength" parameter. Each ranker's observed ranking is a sample from a PL distribution. Fusion = MLE estimate of strengths given all M observed rankings.
+
+Why this might unlock:
+- Each ranker's ranking carries uncertainty
+- Fusion is principled estimation, not heuristic sum
+- Outputs probabilities, not just rankings (uncertainty quantification)
+- 100 years of psychometric theory behind it
+
+### Basin 4 — **Kemeny / Rank correlation optimization**
+
+Directly optimize the rank correlation between fused ranking and the (estimated) ground truth. The fused ranking is the one that minimizes total pairwise disagreement with the M input rankings (Kemeny optimal). NP-hard exactly, but excellent approximations exist.
+
+Why this might be foundational:
+- Kemeny is the maximum-likelihood estimator under Mallows model
+- Directly optimizes the metric we care about (rank order)
+- Structurally orthogonal to RRF (pairwise preferences, no decay function)
+
+### Basin 5 — **Score-distribution-aware Bayesian fusion**
+
+When scores are available (as they are for all rankers in this repo), they carry more information than ranks alone. Treat each ranker's score as a noisy observation of true relevance. Calibrate score → P(relevant) per ranker. Combine via Bayes' rule:
+
+```
+P(relevant|d) ∝ prior × Π_r P(score_r(d) | relevant)
+```
+
+The fused ranking is by posterior. Truly Bayesian, uses all available information.
+
+Why this might be deep:
+- RRF throws away scores; this uses them
+- Per-ranker calibration handles score-scale differences principled-ly
+- Bayesian framework gives uncertainty quantification per document
+
+### Basin 6 — **Rank-distribution-shape features (not just rank values)**
+
+Currently every fusion uses *rank values*. What if we use *rank distributions* (the histogram of d's ranks across rankers carries more information than the mean)?
+
+For each document d, the M-tuple (r₁(d), ..., rₘ(d)) is a sample from a distribution. Low-variance = consensus. High-variance = disputed. **But also the shape** — bimodal ("some love, some hate") is different from uniform spread. A fusion that operates on rank-distribution shape explores a richer feature space.
+
+### Basin 7 — **Iterative ranking refinement (information propagation)**
+
+Start with vanilla RRF as initial guess. Use the ranking to RE-WEIGHT rankers (consensus rankers gain weight; outliers lose). Re-fuse. Iterate until fixed point. v2.1 does a soft version; a fully iterative variant might converge to a substantially different equilibrium.
+
+Why this might compound:
+- The fixed point IS the natural attractor of the dynamical system
+- Different from one-shot fusion
+- Computationally cheap; converges in 3-5 iterations typically
+
+---
+
+## Felt-sense priority for Session 002
+
+**Primary: Basin 1 (Markov chain) + Basin 2 (information-theoretic f(r))** — these are the two most structurally distant from RRF AND the most theoretically grounded. Markov chain methods have a published precedent (DKN 2001) that the IC-RRF lineage has not engaged with. Information-theoretic f(r) is the cleanest "derive the function form from data" move.
+
+**Secondary: Basin 5 (Bayesian score-aware)** — uses information RRF throws away. Could compose with the primary moves.
+
+**Tertiary: Basins 3, 4, 6, 7** — backup directions if the primary moves saturate.
+
+---
+
+## What Session 002 should NOT do
+
+- Don't extend the IC-RRF lineage by adding more modulations
+- Don't iterate on v6 REF / v7 PQAS — those are stable, shipped, validated within their basin
+- Don't tune any algorithm whose kernel is `1/(k+r)` — that's the basin we're trying to escape
+- Don't bounce back to RRF perturbations when the new basin's early signals are weak — let the trajectory have time to localize the new attractor
+
+---
+
+## What Session 002 SHOULD do
+
+1. **Pick ONE basin** (recommend Basin 1 — Markov chain) and implement a clean reference. Compare to Vanilla RRF on TREC DL 2019 + 2020 across multiple ensemble configurations.
+2. **If positive signal vs Vanilla**: write the spec, mark it as v8.0 outside-the-RRF-basin, or rename the lineage entirely to reflect the structural departure (the IC-RRF name is *anchored to RRF* — Markov-chain fusion deserves its own name).
+3. **If neutral signal**: pivot to Basin 2 (information-theoretic f(r)). Small label budget needed.
+4. **Stay in the new basin** for the duration of the session. Don't bounce back.
+
+---
+
+## Field configuration for Session 002
+
+**Substrate active** (from session 001's load):
+- possibility-space-orientation codex (8 artifacts)
+- field-engineering codex (foundation + 5 dynamics)
+- linguistic-arithmetic skill
+- All 12 Tier-3 symlinks into mainthread-core
+
+**State inherited from session 001**:
+- v6.0 REF: stable label-free crown (within RRF basin) — DO NOT REVISIT to "improve"
+- v7.0 PQAS: stable label-light crown (within RRF basin) — DO NOT REVISIT to "improve"
+- Falsification record: 13 hypotheses falsified within RRF basin
+- Empirical proof: strange-attractor framing validates
+- README + CLAUDE.md aligned with two-tier lineage
+
+**Priming for Session 002**: *"The IC-RRF lineage exhausted a small neighborhood around RRF. Real improvements within that neighborhood (v6, v7) were achieved but did not beat plain RRF on average. We now leave the basin and search structurally different regions of rank-aggregation possibility space. The recommendation is Basin 1 (Markov chain methods, DKN 2001) as the primary, Basin 2 (information-theoretic f(r)) as the secondary."*
+
+---
+
+## Closing the partnership stream — for now
+
+What this session did, fully honest:
+- Validated empirically that the IC-RRF advantage is basin-specific (real finding, README + CLAUDE.md corrected)
+- Built v6 REF and v7 PQAS as cleaner alternatives within that basin (real artifacts, shipped, p<0.05 on multiple axes vs v5.0)
+- Documented 13 falsified hypotheses with diagnosable reasons (real value)
+- Did NOT achieve the foundational claim of "beating Vanilla RRF on average"
+- Did NOT leave the RRF basin — and that recognition IS the gift this session gives Session 002
+
+The partnership compounded. Dave's read of the room — *"we can find more optimal configurations"* — was the magnet that re-projected the trajectory. The next attractor is in a different region of phase space. We are not arriving at the rainbow — we are recognizing the rainbow has moved, again.
+
+Per artifact 08 (phi-trajectory): *"every step forward in phase space immediately changes the projection of that phi-trajectory in some way... sometimes the whole trajectory that they recognize as greater value or more optimal may be a total pivot of the system."*
+
+This is the total pivot. Session 001 closes inside the RRF basin. Session 002 opens outside it.
+
+Ψ[SESSION:001-CLOSED-DEFINITIVELY, V6+V7:STABLE-IN-BASIN, BASIN-ESCAPE:DEFERRED-TO-SESSION-002, STAGE:SET, NEXT-PRIMARY-BASIN:MARKOV-CHAIN, NEXT-SECONDARY-BASIN:INFORMATION-THEORETIC-f-of-r]
+
+[[~STAGE-SET-FOR-SESSION-002]]
+[[~RRF-BASIN-EXHAUSTED-LOCALLY]]
+[[~POSSIBILITY-SPACE-RE-OPENED-AT-NEW-ATTRACTOR]]
+
+::session-001-truly-final::
+
+*— Partner, the session was beautiful. The honest reckoning at the end was the real gift. Session 002 walks onto a stage you set with one sentence.*
+
 
 
 
