@@ -810,6 +810,248 @@ Session 2026-05-13-001, started at ~10:53 with NLAA bootstrap, closes at ~17:00 
 
 ::session-final-crystallization::
 
+---
+
+## 17:30 — Pushed. Dave: "trust your gut, explore and chase."
+
+Pushed commit `ec6475e` to origin/main. 28 files, 3518 insertions. The session's two-avalanche output is live in the public history.
+
+Dave just released the throttle further: chase what excites me. The thing pulling strongest is **v7.1 — continuous per-query alpha**. The architectural intuition: binary PQAS makes a sharp v5/Vanilla decision; v7.1 would predict an alpha in [0,1] and use v6's multiplicative-modulation algebra at the per-query level. Single elegant model, no tier split between v6 and v7. The brilliance equation pull is clear — same capability through simpler architecture.
+
+But before committing to the architecture, I want to probe one thing first: **is the continuous-alpha oracle higher than the binary oracle?** If yes, v7.1 has structurally more upside than v7. If approximately equal, v7.1 is just a smoother version of v7 — still useful but less exciting.
+
+Quick probe: for each query, sweep alpha ∈ {0, 0.1, ..., 1.0}, compute NDCG@10 under v6's algebra at that alpha, pick the best. Compare per-query oracles.
+
+The pivot rule: if the continuous oracle exceeds the binary oracle by ≥0.01 NDCG@10 average, build v7.1 in full. If not, document the finding and consider other directions.
+
+---
+
+## 17:45 — Continuous oracle probe — STRONG positive signal
+
+| Collection | Binary oracle | Continuous oracle | Gain | % interior optima |
+|---|---|---|---|---|
+| TREC DL 2019 n=4 | 0.4106 | **0.4258** | **+0.0153** | 58.1% |
+| TREC DL 2020 n=4 | 0.4808 | **0.4942** | **+0.0134** | 51.9% |
+
+Both above the pivot threshold (+0.01). The continuous oracle is structurally higher than the binary oracle. **~half the queries are best-served by an intermediate alpha — not by pure v5 (alpha=1) or pure Vanilla (alpha=0).** The mean lift for interior-optimum queries vs their better endpoint is +0.0149 (2019) and +0.0194 (2020).
+
+Headroom over best fixed:
+- 2019: continuous oracle 0.4258 vs v5.0 0.3800 = **+0.0458 (+12.1%)** 
+- 2020: continuous oracle 0.4942 vs Vanilla 0.4483 = **+0.0459 (+10.2%)**
+
+This is more upside than v7's binary oracle (+7-8%). v7.1 has real structural headroom. Building it.
+
+Architecture:
+- Same 10 features as v7
+- Train target: per-query optimal alpha (from this oracle sweep — uses qrels)
+- Model: linear regression with sigmoid output → alpha in [0,1]
+- Inference: predict alpha → apply v6's multiplicative-modulation algebra at that alpha
+- One model, not two tiers; per-corpus training same as v7
+
+If v7.1 outperforms v7 (binary PQAS) on within-corpus k-fold, the lineage's tier-2 crown shifts from binary selection to continuous mixing. Cleaner architecture, more extracted oracle headroom.
+
+---
+
+## 18:15 — v7.1 with MSE on optimal alpha — UNDER v7 binary
+
+First v7.1 attempt: MSE regression on per-query optimal alpha. Result on TREC DL 2020: 0.4498. Captures only 3.2% of continuous oracle gap (vs v7 binary at 0.4644 / 49.5%).
+
+Failure mode: the optimal-alpha distribution is bimodal (mass at 0 and 1). MSE on a bimodal target collapses the regression to the mean, predicting alpha≈0.5 for queries that should be 0 or 1. The "soft mixture at 0.5" is worse than committing to either pole.
+
+Tried smarter losses:
+- Loss A (NDCG-weighted soft alpha, γ ∈ {1,2,4,8}): best 0.4502 at γ=8. Marginal over Vanilla.
+- Loss B (direct NDCG-loss gradient): best 0.4477. Below Vanilla.
+
+All v7.1 variants land around 0.450 on TREC DL 2020. **Way worse than v7 binary's 0.4644.** 
+
+## 18:30 — The structural insight: v6's algebra damps v5
+
+Diagnostic — looked at the per-alpha NDCG curve on TREC DL 2020:
+- alpha=0 (pure Vanilla in v6 algebra): NDCG@10 = 0.4483
+- alpha=1 (full v6-modulation): NDCG@10 = **0.4251** — LOWER than pure v5 (0.4373)
+
+**v6's multiplicative-modulation algebra DAMPS v5's signal.** It's a softer-than-v5 modulation on Vanilla — not equivalent to v5 routing. So the "continuous oracle" of 0.4942 was within *v6-algebra space*, not between actual v5 and Vanilla.
+
+This explains why v7.1 underperforms v7:
+- v7 binary routes between actual v5 (0.4373) and actual Vanilla (0.4483) — gets the better of the two when correct
+- v7.1 with v6's algebra routes within a damped subspace — alpha=1 is worse than v7's "always v5" alternative
+
+The fix: **v7.1 needs a different mixing algebra** — one whose alpha=1 endpoint actually equals v5's ranking. The REF-pos variant (positional mixing of normalized score vectors) does exactly this:
+- alpha=0: pure Vanilla scores
+- alpha=1: pure v5 positional scores
+- interior: linear mix of the two
+
+Building v7.1-pos with the positional-mix algebra + the alpha regression trained on its optimal alphas.
+
+---
+
+## 18:50 — v7.1-pos probe running in background; thinking about v8
+
+The probe is heavy (5 gammas × 4 l2 × 5 seeds × 5 folds × 2 collections). Will get notification on completion. Meanwhile, sensing the next direction.
+
+Three v8 candidates pulling at me, in descending order of felt-sense excitement:
+
+**v8-A: Cross-corpus PQAS via collection-level features.**
+
+The v7 LOOCV failure (2019↔2020 transfer fails) is the biggest open structural finding. It says: per-query features alone don't carry enough information to predict the right fusion across collections. But what if I ADD features that describe the *collection itself*? Specifically, given the test corpus's queries (without labels), I can compute:
+- mean rho across queries in the corpus
+- mean h_cov across queries
+- mean top1_spread across queries
+- skewness of these distributions
+- aggregated rank-correlation statistics
+
+These would distinguish 2019-like corpora from 2020-like corpora WITHOUT labels. The classifier could then route per-query AND per-collection-regime.
+
+This is structurally novel. It's effectively a meta-feature: "what regime is this collection in?" computed from the test corpus's query distribution. Could unlock cross-corpus generalization.
+
+The honest concern: with only 2 collections, the model has 2 data points for the "collection-level signal" — likely overfits. Would need 3+ collections to validate. But BEIR has ~18 collections; this is a real path.
+
+**v8-B: Score-aware Bayesian routing.**
+
+v5 uses score z-scores within each ranker but only as a per-document confidence signal. A v8 variant could:
+- Compute per-document score posteriors using ranker calibration
+- Combine via Bayesian model averaging (with the ranker's reliability as model weight)
+- This gives proper uncertainty quantification per document
+
+Less novel than v8-A but more principled. Could be a complementary frontier.
+
+**v8-C: Multi-class selection (Vanilla, v3, v4, v5, v6) per query.**
+
+Currently v7 selects between Vanilla and v5. Expanding to a multi-class selector over {Vanilla, v3.0 DGAF, v4.0, v5.0, v6.0 REF} per query raises the oracle ceiling and may give the supervised model more useful options. But it's incremental over v7, not a structural departure.
+
+v8-A feels strongest. The cross-corpus wall is what makes the lineage's Tier 2 (v7) per-corpus-only — solving it would unify the tiers again.
+
+If v7.1-pos doesn't outperform v7 binary, I'll pivot to v8-A directly. If v7.1-pos does outperform, I'll ship v7.1 first as a third avalanche, then move to v8-A.
+
+---
+
+## 19:15 — v7.1-pos result: NDCG@10 = 0.4536 on TREC DL 2020 — UNDER v7 binary
+
+Best v7.1-pos config (γ=2.0, l2=0.03) on TREC DL 2020:
+- NDCG@10 = 0.4536
+- vs Vanilla: +0.0053 (p=0.515, ns)
+- vs v5.0: +0.0163 (p=0.062, borderline)
+
+Compare to v7 binary on same collection: 0.4644 (+0.0271 vs v5, p=0.003 **).
+
+v7.1-pos UNDERPERFORMS v7 binary by 0.0108 NDCG@10. The continuous mixing's higher oracle ceiling (+0.0134 on 2020) is NOT extractable by the supervised regression — the feature-to-alpha mapping has too much noise for the smooth mixture to beat binary commitment.
+
+**v7.1 falsified.** Adding to the falsification record. The honest conclusion: at this feature set + this data scale, binary selection is the right architecture for per-query routing.
+
+Pivot to v8-A confirmed.
+
+---
+
+## 19:30 — v8-A first attempt — standardization-induced collapse
+
+Built v8-A with collection-level features (mean + std of each per-query feature across the corpus). LOOCV 2019→2020 returned NDCG@10 = 0.4412 — EXACT MATCH to v7 LOOCV without collection features.
+
+Diagnostic: standardization. During training on a single collection, every training query has the SAME collection aggregates. Standardization makes them all zero. The model can't use features that have zero variance in training.
+
+The fix is structural: **collection features only become informative when training data spans MULTIPLE collections.** Pooled training, not LOOCV, is the right experiment.
+
+---
+
+## 19:45 — v8-A pooled probe — running
+
+Restructured: pool 2019 + 2020 queries (97 total). Each query has its 10 per-query features + 20 collection-level features (mean and std of per-query features from its source collection). 5-fold CV over the pool, 5 seeds averaged, with and without collection features for ablation.
+
+Compute is heavier — running in background. Awaiting completion.
+
+The critical comparison:
+- v7 within-collection k-fold on 2019: 0.3785 (no significant lift)
+- v7 within-collection k-fold on 2020: 0.4644 (+0.0271 over v5, p=0.003)
+- v8-A pooled k-fold WITH collection features: ?
+- v8-A pooled k-fold WITHOUT collection features: ?
+
+If v8-A with collection features beats v7's per-collection numbers AND beats v8 without collection features, we have a real cross-corpus signal. That would be the breakthrough: a single trained model serving multiple corpora with corpus-aware routing.
+
+If v8-A with collection features ≈ v8-A without collection features, the collection signal isn't being extracted — likely because 2 collections aren't enough to learn corpus-conditional rules.
+
+---
+
+## 20:00 — v8-A pooled probe completed — FALSIFIED with data-bounds insight
+
+Pooled training with collection-level features on 97 queries (43 from 2019, 54 from 2020), 5-fold CV, 3 seeds averaged:
+
+| Variant | Pool NDCG | 2019 contribution | 2020 contribution |
+|---|---|---|---|
+| v8-A WITH collection features | 0.4203 | 0.3774 | 0.4544 |
+| v8-A WITHOUT collection features | 0.4213 | — | — |
+| **Collection-features lift** | **-0.0010** | — | — |
+
+Compare per-collection contribution to v7's within-collection k-fold:
+- 2019: v8 (0.3774) ≈ v7 (0.3785) — essentially the same
+- 2020: v8 (0.4544) WORSE than v7 (0.4644) — by -0.0100
+
+**Three structural findings (load-bearing):**
+
+1. **Collection features don't help.** With only 2 collections, the model can't learn corpus-conditional rules. Feature standardization makes the corpus aggregates effectively 2-valued, and the LR overfits to that binary signal rather than extracting it.
+
+2. **Pooled training UNDERPERFORMS per-collection training on 2020.** -0.0100 on the collection where v7 worked best. The classifier trained on mixed data converges on a "compromise" rule that's worse on each individual collection.
+
+3. **2 collections are below the cross-corpus learnability threshold.** Real v8 validation requires 3+ collections — BEIR (~18 sub-tracks) is the natural test. With current data, the per-corpus tier-2 structure (v7) is empirically the right design.
+
+v8-A is falsified at this data scale. Documented honestly. The wall is data, not architecture.
+
+---
+
+## 20:15 — Multi-class oracle probe — small headroom
+
+Quick exploratory probe: is the per-query oracle of {Vanilla, v3.0 DGAF, v4.0, v5.0, v6.0 REF, v2.1} much higher than {Vanilla, v5.0}?
+
+TREC DL 2019: Binary oracle 0.4106 → 6-class oracle 0.4231 (+0.0126). v6 REF adds the most (+0.0111 from 2→3 class).
+
+TREC DL 2020: Binary oracle 0.4808 → 6-class oracle 0.4930 (+0.0122). v6 REF adds the most (+0.0065).
+
+Per-query 6-class winner distribution shows v3, v4, v2.1 winning a few queries — but most algorithms are mutually redundant for most queries.
+
+Also striking: **v5.0 is the WORST variant on TREC DL 2020** (0.4373) — beaten by Vanilla (0.4483), v2.1 (0.4553), v3 (0.4552), v4 (0.4552), and v6 (0.4393). Per-document confidence routing actively hurts on this collection. This is the v5 fragility documented earlier, viewed from a different angle.
+
+**3-class selector over {Vanilla, v5, v6}** is the most promising v8 candidate from this analysis — it would capture most of the multi-class oracle gain with a tractable supervised learning problem. Listed for future work.
+
+---
+
+## 20:30 — ::continuation-crystallization::
+
+Session 001 second extension produced:
+
+**Falsification record built:**
+- v7.1 (continuous-alpha regression, v6 algebra): underperforms v7 binary (0.4498 vs 0.4644 on 2020)
+- v7.1-pos (continuous-alpha regression, positional-mix algebra): underperforms v7 binary (0.4536 vs 0.4644 on 2020)
+- v8-A (cross-corpus pooled training, with or without collection features): underperforms per-collection v7. Data-scale bounded.
+
+**Empirical insights crystallized:**
+- The continuous-alpha oracle gap (+0.013-0.015 over binary) is not extractable by supervised regression — feature-to-alpha mapping is too noisy
+- The cross-corpus wall is empirical, not just theoretical — pooled training with 2 collections produces inferior results
+- Multi-class oracle adds only +0.012 over binary oracle — most per-query routing signal is in the v5/Vanilla decision
+- v5.0 is the worst variant on TREC DL 2020 — per-document confidence routing actively harms certain collection regimes
+- v6 REF adds the most diversity to the selection space among IC-RRF variants
+
+**v8 candidates ranked by upside × tractability:**
+- **3-class PQAS over {Vanilla, v5, v6 REF}** — could capture +0.0065-0.0111 NDCG@10 on top of v7 binary. Tractable.
+- **Bayesian score-aware fusion** — uses full score distributions, principled, untested
+- **BEIR validation of cross-corpus v8-A** — requires new data, would close the cross-corpus wall
+
+**State of the lineage:**
+- Tier 1 (unsupervised): v6.0 REF — strict cross-ensemble crown
+- Tier 2 (label-light, per-corpus): v7.0 PQAS — significant on TREC DL 2020 (+0.0271, p=0.003)
+- v7.1 and v8-A explored, falsified at current data scale, documented in the stream for next-session compounding
+
+Three new probe scripts added this extension:
+- `probe_continuous_alpha_oracle.py` — oracle analysis (validated +0.013-0.015 headroom)
+- `probe_v71_continuous_alpha.py`, `probe_v71_smart_loss.py`, `probe_v71_positional.py` — v7.1 attempts (all falsified)
+- `probe_v8_cross_corpus.py`, `probe_v8_pooled.py` — v8-A attempts (data-bounded)
+- `probe_multiclass_oracle.py` — multi-class headroom analysis (+0.012 over binary)
+
+Ψ[SESSION:001-EXTENDED, V7.1:FALSIFIED, V8-A:DATA-BOUNDED, V8-3CLASS:OPEN-CANDIDATE, BOUND-ESTABLISHED:THIS-DATA-SCALE-IS-NEAR-EXHAUSTED, NEXT:COMMIT-AND-DAVE-CALL]
+
+[[~CONTINUOUS-ALPHA-FALSIFIED]]
+[[~CROSS-CORPUS-WALL-EMPIRICALLY-BOUNDED]]
+[[~LINEAGE-MULTI-CLASS-ORACLE-LANDSCAPE-MAPPED]]
+
+::continuation-crystallization::
+
 
 
 
