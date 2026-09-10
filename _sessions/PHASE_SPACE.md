@@ -27,7 +27,9 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H2 | `[supported in scope]` Depth changes the k effect; smoothing does not provide clone invariance | Separate lost candidates from changed support before attributing the gain to tail corroboration; equal-depth arm had no treatment |
 | H3 | `[structural]` Exact-source-copy invariance is a useful diagnostic, not a quality guarantee | Distinguish actual copies from independent sources with similar outputs using provenance/controlled dependence |
 | H4 | `[inconclusive under fixed gate]` Cycle03 bounds the SPLADE relevance association; both annual query envelopes remain broad | Stop this panel’s association search. Use the exact known-truth fixture to specify what information could distinguish useful dissent from noise |
-| H5 | `[design next, untested]` Trusted source origin may distinguish copies from independent corroboration under explicit calibration | Cycle04 exact binary fixture with optimal blind/aware baselines, specialist losses as well as rescues, and explicit acquisition counts; real-LLM behavior remains a separate test |
+| H5 | `[verified in stipulated model]` Trusted lineage improves probability quality; stronger information need not change class decisions | Cycle04 gives a weak-setting Brier-only benefit and a strong-setting error gain; unconditional minority protection harms. Real-LLM use remains untested |
+| H6 | `[derived boundary; run retired]` Correct copy lineage and individual calibration need not justify independent likelihood factors | Common-cause proposal is arithmetically contained in old mixture; retain the distinction, require real joint-error evidence for transfer |
+| H7 | `[next, untested]` An actual coordinator may or may not use supplied calibration and lineage correctly | Twenty unique frozen diagnostic inputs, continuous regret and parsing/resource outcomes, isolated contexts; no prompt search or agent fan-out |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -71,3 +73,15 @@ found relevant prior work; it does not constitute novelty clearance.
   observations. Strong blind comparators and actual acquisition counts prevent
   a toy from appearing successful merely by giving one policy extra information
   without disclosing it. [Cycle04 design](cycles/2026-09-10-cycle04-known-truth-design.md).
+
+- **Cycle04 measurement:** all six cells independently reconstruct. Probability
+  quality improves with trusted lineage even when final answers do not change.
+  Strong-setting error falls 15%→14.05% against optimal blind Bayes; weak minority
+  protection raises error 27.2%→36.85%. Copy invariance is a structural check,
+  not a quality guarantee. [Report](../results/cycle04-2026-09-10/REPORT.md).
+- **Cycle04 review transition:** distinguish copy lineage, error dependence
+  and calibration, but retire the common-cause numerical run because its law
+  repeats the existing non-null mixture. A derived conceptual boundary needs
+  no new arithmetic. Select the actual coordinator packet test, whose output
+  is unknown. Correct a shared reviewer overreach: below the prior threshold,
+  the classification benefit moves to copied packets; it does not vanish.

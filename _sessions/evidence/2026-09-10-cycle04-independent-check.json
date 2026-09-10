@@ -1,0 +1,87 @@
+{
+  "argv": [
+    "/usr/bin/python3",
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle04_evidence.py",
+    "--results",
+    "results/cycle04-2026-09-10/exact",
+    "--output",
+    "_sessions/evidence/2026-09-10-cycle04-independent-check.json"
+  ],
+  "checks": {
+    "aware_arm_optimality": 72,
+    "aware_conditional_product": 192,
+    "blind_mixture_optimality": 16,
+    "brier_information_identity": 2,
+    "canonical_rationals": 12382,
+    "checker_custody": 2,
+    "copy_counts": 12,
+    "copy_invariance": 4,
+    "custody": 32,
+    "exact_evidence": 6191,
+    "normalization": 10,
+    "observation": 1536,
+    "observation_equivalence": 896,
+    "paired_decomposition": 1152,
+    "resource_accounting": 393,
+    "root_renaming": 192,
+    "row_identity": 768,
+    "schema": 1414,
+    "shared_tie_self_comparison": 194,
+    "sign_symmetry": 5952,
+    "summary_claims": 3,
+    "summary_counts": 20,
+    "tower_identity": 40,
+    "unambiguous_observation": 112
+  },
+  "error": null,
+  "finished_utc": "2026-09-10T23:36:27.177229+00:00",
+  "limitations": [
+    "Numerical evidence and observation equivalence are checked; runtime input isolation requires source/test review.",
+    "No empirical generalization, provenance acquisition cost, or model calibration is measured."
+  ],
+  "method": "Independent standard-library finite-table reconstruction; no production-code imports",
+  "output_sha256_after": {
+    "manifest-start.json": "d8f0ac9a47a44922c9227d5f27adfc6ae46026ea7217aeaafb13e15c946e06cf",
+    "manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+  },
+  "output_sha256_before": {
+    "manifest-start.json": "d8f0ac9a47a44922c9227d5f27adfc6ae46026ea7217aeaafb13e15c946e06cf",
+    "manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+  },
+  "python": "3.12.3",
+  "results_directory": "/home/david-wsl/repos/ic-rw-rrf/results/cycle04-2026-09-10/exact",
+  "schema_version": 1,
+  "scope": {
+    "cells": 6,
+    "known_parameter_mixtures": 2,
+    "policies": [
+      "naive_report_independence",
+      "payload_quotient",
+      "optimal_blind_bayes",
+      "equal_root_weighting",
+      "optimal_aware_bayes",
+      "protected_minority"
+    ],
+    "world_arm_rows": 192
+  },
+  "source_sha256_after": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+    "_sessions/tools/check_cycle04_evidence.py": "6c8a1b924b4832b270d1948ab0e79a928124acf47529ec8c3674e4bb9129eef1",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f"
+  },
+  "source_sha256_before": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+    "_sessions/tools/check_cycle04_evidence.py": "6c8a1b924b4832b270d1948ab0e79a928124acf47529ec8c3674e4bb9129eef1",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f"
+  },
+  "started_utc": "2026-09-10T23:36:27.101413+00:00",
+  "status": "passed"
+}

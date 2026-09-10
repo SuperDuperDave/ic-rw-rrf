@@ -1,0 +1,38 @@
+{
+  "argv": [
+    "evaluation/cycle04_known_truth.py",
+    "--output",
+    "results/cycle04-2026-09-10/exact"
+  ],
+  "cwd": "/home/david-wsl/repos/ic-rw-rrf",
+  "design": "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md",
+  "frozen_sha256": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b"
+  },
+  "git_state_start": {
+    "dirty_status": [
+      " M _sessions/streams/2026-09-10-002-recursive-phase-space.md",
+      "?? _sessions/cycles/2026-09-10-cycle04-execution-protocol.md",
+      "?? _sessions/cycles/2026-09-10-cycle05-common-cause-design.md",
+      "?? _sessions/evidence/2026-09-10-cycle04-preflight.json",
+      "?? _sessions/tools/check_cycle04_evidence.py",
+      "?? evaluation/cycle04_known_truth.py",
+      "?? evaluation/tests/test_cycle04_known_truth.py",
+      "?? results/cycle04-2026-09-10/plot_known_truth.py"
+    ],
+    "head": "44869862be44178ebeedc132bc662ee436e84a6b"
+  },
+  "protocol": "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md",
+  "python_executable": "/usr/bin/python3",
+  "python_implementation": "CPython",
+  "python_version": "3.12.3",
+  "source_sha256_start": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f"
+  },
+  "started_utc": "2026-09-10T23:36:13.787769+00:00",
+  "status": "started"
+}

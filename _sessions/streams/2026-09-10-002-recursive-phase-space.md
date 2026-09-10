@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle03 is complete at this commit; the coordinator verifies the GitHub push before reporting completion. Both primary annual results are inconclusive under the frozen resource rule. Cycle02 is preserved at3b7d148.
-- Next: PLANNING R5 / cycle04 known-truth design. Review/freeze the exact packet contract, implement rational enumeration and independent conditioning checks, then run the six cells. That fixture stops before any real-LLM benchmark or retrieval sweep.
-- In flight: no provider or worker remains active. Native Claude session baf23afa-0571-4efb-8326-6aded40006a4 emitted a review memo but ended at its budget cap; request21 was consumed and coordinator-ACKed as24. Final brief is clear; future manual resume remains available.
-- Preserve: historical inputs, cycle01/cycle02 artifacts, and frozen cycle03 protocol/code/inputs/results. Raw source text and provider transcripts stay ignored.
+- Now: cycle04 is complete at this checkpoint; verify the GitHub push before reporting completion. Its six cells and every numerical field independently reconstruct. Cycle03 is preserved at4486986.
+- Next: PLANNING R7 / cycle05-coordinator-packet-design. Freeze20 exact empirical requests, weights, parser and verified native context/resource controls before the first call. The common-cause numerical candidate was retired as redundant; do not execute it on resume.
+- In flight: no provider or worker remains active. Fresh Claude session3aa95d47-60aa-4387-91a5-7020b8d04744 completed successfully with one Fable5.1 coordinator/Opus5 scout. Request25 consumed, coordinator ACK29 recorded, final brief clear. No pending user approval.
+- Preserve: historical inputs and cycle01–04 frozen code/protocols/numerical evidence. Raw source text and provider transcripts stay ignored. Cycle05 is design only.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -116,3 +116,28 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R5 / cycle04 exact-known-truth design is first action. Freeze any design amendments before outcomes.
 - R1owns unrelated evaluation/generator maintenance; R2/R4performance promotion remains parked.
 - Reuse this stream, preserve all frozen evidence, and account for any future native budget outcome honestly. No pending user approval or live job blocks the next local work.
+
+## Cycle04 — contract and implementation
+
+- Dave reported Claude's usage reset and authorized continuation. The existing per-invocation cap remains distinct from provider allowance; use a compact fresh coordinator to avoid carrying the preceding large transcript.
+- Independent design review identified acquisition-count leakage and opaque-ID requirements. Froze explicit packet/evaluator separation, unpriced trusted provenance, exact serialization and conditioning/Brier checks in cycle04-execution-protocol before outcomes. The original cycle04 design remains unchanged.
+- Implementation and independent checker have disjoint ownership. No actual agent benchmark, data acquisition, parameter sweep or novelty assertion belongs in this six-cell calibration experiment.
+
+## Cycle04 evidence, critique and checkpoint
+
+- Final12 synthetic tests passed before durable execution; the worker's final exact-parameter/symlink safeguards triggered a fresh preflight, with final source hashes recorded. No source/protocol change after the run.
+- Exact fixture:32 primitive worlds ×3 constructions ×2 known specialist accuracies,192 rows. Independent table reconstruction verified all six policy probabilities/losses, six cells, two mixtures, paired correction/harm and copy statistics;31,587 checks, no discrepancy.
+- Weak-setting aware-minus-blind Brier−.00464682875 with no class changes; strong-setting Brier−.00350220280 and error15%→14.05%. That class benefit is confined to unanimous independent generalists opposing strong S. Protected weak-minority error rises27.2%→36.85%; strong protection changes no classes but worsens Brier.
+- Read-only boundary review kept costs/truth/arm metadata away from blind policies. Known calibration, symmetric independent primitive errors and freely supplied true lineage remain strong idealizations. Exact posterior identities are calibration checks, not novel results or measured LLM gains.
+- Initial automatic provider launch rejection misread standing authority. Verified current user authorization and synthetic payload, then the identical bounded command was accepted. No provider launched from the rejected attempt, no alternate route or new permission.
+- Fresh native review succeeded in370.6s, list accounting$2.52308675 under the same$4 cap. Native Fable5.1 and canonical Opus5 confirmed; one agent dispatched. Memo1096words exceeded advisory1000 target. Signal25 returned its exact marker, lifecycle26–28 complete, coordinator ACK29 after consumption; final brief clear.
+- Review changed the branch: common-cause λ=.5 repeats the old non-null mixture's truth/payload distribution, and λ0 repeats independent evidence. Retired that numerical run, retained the derived copy-lineage versus dependence boundary. Selected a20-request actual coordinator diagnostic; design independently reviewed, not run.
+- Corrected both reviewers' prior claim. Thresholdw=19/119 switches the blind conflict decision, but non-null classification benefit is min(3w/20,57(1-w)/2000), positive for0<w<1. It moves to copies below the threshold. Post-result algebra, no new sweep or modified primary evidence. The protected trigger explicitly requires three non-null reports; padded remains excluded.
+- Report, exportable figure, public draft, phase map and backlog updated. R5done; R7next. All66 research plus29 helper tests pass. Final artifact/link/privacy checks live in the cycle04 checks receipt. No empirical coordinator request or website publication occurred.
+- Ratchet: F1/F2 startup continuity now outcome-verified. F15 separates successful fresh review from prior budget termination; F16 records proof of standing authorization on the identical request. F10 gains another checked counterexample to treating reviewer agreement as proof. SUBTRACT the redundant proposed run. DROP one-off display rounding/patch retries as framework work.
+
+## Current cycle04 carryforward
+
+- R7 / cycle05 coordinator packets is first action. Exact payload/context/resource freeze precedes any model response.
+- R1 owns unrelated legacy maintenance; R2/R4 remain parked. The common-cause candidate is retired, not another queued experiment.
+- Reuse this stream and preserve all frozen evidence. No live job or unresolved approval blocks the next design implementation.

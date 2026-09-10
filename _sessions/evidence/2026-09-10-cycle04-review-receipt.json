@@ -1,0 +1,89 @@
+{
+  "agent_dispatch": [
+    {
+      "description": "Scout: challenge cycle04 conditioning",
+      "model": "opus",
+      "run_in_background": false,
+      "subagent_type": "ic-evidence"
+    }
+  ],
+  "cost_basis": "native list-price accounting; not subscription billing",
+  "duration_seconds": 370.6,
+  "effort": "high",
+  "exit_code": 0,
+  "final_memo_word_count": 1096,
+  "memo_sha256": "f9e7d48dcf107cb60f37141e2037c659d41873052952157ae0aa17fb56707a7c",
+  "mission_sha256": "20d465107afb2fe877dfc2beec3bcf107dee01c162509aeb46f633e82cff9d48",
+  "native_budget_usd": 4,
+  "native_is_error": false,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "cacheCreationInputTokens": 56042,
+      "cacheReadInputTokens": 108413,
+      "canonicalModel": "claude-fable-5-1",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 1.86507325,
+      "inputTokens": 98,
+      "maxOutputTokens": 64000,
+      "outputTokens": 14323,
+      "provider": "firstParty",
+      "thinkingTokens": 7841,
+      "webSearchRequests": 0
+    },
+    "claude-opus-5[1m]": {
+      "cacheCreationInputTokens": 46674,
+      "cacheReadInputTokens": 100652,
+      "canonicalModel": "claude-opus-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.6580135,
+      "inputTokens": 10,
+      "maxOutputTokens": 64000,
+      "outputTokens": 12637,
+      "provider": "firstParty",
+      "thinkingTokens": 9815,
+      "webSearchRequests": 0
+    }
+  },
+  "native_num_turns": 10,
+  "native_output_sha256": "6e9e1ce48fe06f99dc9462ca086b9bc411af89f463241719891ea97ad3d16523",
+  "native_subtype": "success",
+  "native_total_cost_usd": 2.52308675,
+  "notes": [
+    "Fresh compact coordinator handoff after previous invocation budget limit; no permanent configuration change.",
+    "One Opus alias override was observed at dispatch; native canonical Opus5 model confirmed.",
+    "Initial automatic approval rejection was resolved by proving existing ongoing user authorization and exact synthetic scope; identical command accepted.",
+    "Requested prose length was advisory; final memo exceeded 1000 words. Native turn/spend limits succeeded.",
+    "Reviewer numerical/interpretive claims are independently adjudicated; successful execution is not correctness."
+  ],
+  "observed_models": [
+    "claude-fable-5-1",
+    "claude-opus-5"
+  ],
+  "relay": {
+    "ack_recorded_by": "Codex on Claude request after consuming full request and memo",
+    "ack_seq": 29,
+    "request_seq": 25,
+    "session_ended_seq": 28,
+    "session_started_seq": 26,
+    "turn_completed_seq": 27
+  },
+  "request_marker": "cycle04-review-cca669293e",
+  "requested_root_model": "claude-fable-5-1",
+  "requested_scout_definition_model": "claude-opus-5",
+  "reviewed_artifact_sha256": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+    "_sessions/cycles/2026-09-10-cycle05-common-cause-design.md": "0f829b01239028d85ab7fd8bb306df14a4c1285bb7c70fb9a073b173230b9819",
+    "_sessions/evidence/2026-09-10-cycle04-independent-check.json": "62532f682959577ad0c8f123cd552cf4a20a1cfc0e489cea5a52da0400d01e03",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f",
+    "results/cycle04-2026-09-10/REPORT.md": "2993f1d20fa4bbe24b0279b22a75033bdf293f625a9e1438d79b093be63f8732",
+    "results/cycle04-2026-09-10/exact/summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+  },
+  "runner_sha256": "e5d30b24ac5e0a51422fcb404b20818a1ae19d1d710dfbcc6dee693c2d82244c",
+  "session_id": "3aa95d47-60aa-4387-91a5-7020b8d04744",
+  "status": "success",
+  "timed_out": false
+}

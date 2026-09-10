@@ -48,6 +48,17 @@ brief has no pending signals or active claims, and the provider process exited.
 [Qualified cycle03 receipt](evidence/2026-09-10-cycle03-review-receipt.json).
 A consumed request with useful text is distinct from successful native execution.
 
+Cycle04 used a fresh compact Claude session
+`3aa95d47-60aa-4387-91a5-7020b8d04744`, with Fable5.1 coordination and one Opus5
+scout. Native execution succeeded within its unchanged $4 cap. Request25's
+context marker returned; seq26–28 record startup, turn-completed and end.
+Codex read the full request/memo and recorded Claude's requested ACK29. The
+final Claude brief is clear, with no pending signals or active claims. This is
+an explicit bounded handoff, not an automatic listener. The retired common-cause
+run and corrected reviewer prior argument are documented in the
+[integration](cycles/2026-09-10-cycle04-review-integration.md) and
+[receipt](evidence/2026-09-10-cycle04-review-receipt.json).
+
 ## Commands
 
 From the repository root:

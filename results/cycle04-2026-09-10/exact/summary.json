@@ -1,0 +1,507 @@
+{
+  "arms": [
+    "padded",
+    "copied",
+    "independent"
+  ],
+  "cells": {
+    "11/20": {
+      "copied": {
+        "aware_minus_blind": {
+          "brier_loss": "-369307478925/98841071048096",
+          "classification_error": "0"
+        },
+        "informative_acquisitions": 2,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "51/200",
+            "classification_error": "3/8",
+            "correction": "33/400",
+            "harm": "63/400"
+          },
+          "naive_report_independence": {
+            "brier_loss": "9273836649/35627317504",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "12893106051441/60825274491136",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "protected_minority": {
+            "brier_loss": "29906977617/129888160000",
+            "classification_error": "9/20",
+            "correction": "33/200",
+            "harm": "63/200"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      },
+      "independent": {
+        "aware_minus_blind": {
+          "brier_loss": "-3661008796974375/358777881585965696",
+          "classification_error": "0"
+        },
+        "informative_acquisitions": 4,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "27/160",
+            "classification_error": "1053/4000",
+            "correction": "2079/40000",
+            "harm": "3969/40000"
+          },
+          "naive_report_independence": {
+            "brier_loss": "24521805/157041664",
+            "classification_error": "27/125",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "24521805/157041664",
+            "classification_error": "27/125",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "526158735521265/3162914273539072",
+            "classification_error": "27/125",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "86499567/432640000",
+            "classification_error": "621/2000",
+            "correction": "2079/20000",
+            "harm": "3969/20000"
+          },
+          "protected_minority": {
+            "brier_loss": "33170260958109/168854608000000",
+            "classification_error": "711/2000",
+            "correction": "297/20000",
+            "harm": "3087/20000"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      },
+      "padded": {
+        "aware_minus_blind": {
+          "brier_loss": "0",
+          "classification_error": "0"
+        },
+        "informative_acquisitions": 2,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "51/200",
+            "classification_error": "3/8",
+            "correction": "33/400",
+            "harm": "63/400"
+          },
+          "naive_report_independence": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          },
+          "protected_minority": {
+            "brier_loss": "693/3328",
+            "classification_error": "3/10",
+            "correction": "0",
+            "harm": "0"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      }
+    },
+    "17/20": {
+      "copied": {
+        "aware_minus_blind": {
+          "brier_loss": "-347473059325/183534431110144",
+          "classification_error": "0"
+        },
+        "informative_acquisitions": 2,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "27/200",
+            "classification_error": "9/40",
+            "correction": "21/400",
+            "harm": "51/400"
+          },
+          "naive_report_independence": {
+            "brier_loss": "23622658941/134354503936",
+            "classification_error": "3/10",
+            "correction": "21/200",
+            "harm": "51/200"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "5419045340541/45883607777536",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "protected_minority": {
+            "brier_loss": "13528568397/109418420000",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      },
+      "independent": {
+        "aware_minus_blind": {
+          "brier_loss": "-4526965406420625/525573785287786112",
+          "classification_error": "-57/2000"
+        },
+        "informative_acquisitions": 4,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "93/800",
+            "classification_error": "27/160",
+            "correction": "3381/40000",
+            "harm": "4131/40000"
+          },
+          "naive_report_independence": {
+            "brier_loss": "8734005/93835264",
+            "classification_error": "243/2000",
+            "correction": "1029/20000",
+            "harm": "459/20000"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "8734005/93835264",
+            "classification_error": "243/2000",
+            "correction": "1029/20000",
+            "harm": "459/20000"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "74655525727545/734137724440576",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "13889561/122880000",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "protected_minority": {
+            "brier_loss": "40384920082641/350138944000000",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      },
+      "padded": {
+        "aware_minus_blind": {
+          "brier_loss": "0",
+          "classification_error": "0"
+        },
+        "informative_acquisitions": 2,
+        "policies": {
+          "equal_root_weighting": {
+            "brier_loss": "27/200",
+            "classification_error": "9/40",
+            "correction": "21/400",
+            "harm": "51/400"
+          },
+          "naive_report_independence": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_aware_bayes": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "optimal_blind_bayes": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "payload_quotient": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          },
+          "protected_minority": {
+            "brier_loss": "119/1024",
+            "classification_error": "3/20",
+            "correction": "0",
+            "harm": "0"
+          }
+        },
+        "probability_mass": "1",
+        "world_count": 32
+      }
+    }
+  },
+  "checks": {
+    "all_cell_masses_one": true,
+    "all_mixture_masses_one": true,
+    "aware_conditioning_rows": 192,
+    "aware_copy_invariance": true,
+    "conditional_expectation_and_brier_identity": true,
+    "paired_decomposition_rows": 1152,
+    "world_rows": 192
+  },
+  "comparator": "optimal_blind_bayes",
+  "copy_invariance": {
+    "11/20": {
+      "equal_root_weighting": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "naive_report_independence": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      },
+      "optimal_aware_bayes": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "optimal_blind_bayes": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      },
+      "payload_quotient": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "protected_minority": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      }
+    },
+    "17/20": {
+      "equal_root_weighting": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "naive_report_independence": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      },
+      "optimal_aware_bayes": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "optimal_blind_bayes": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      },
+      "payload_quotient": {
+        "changed_count": 0,
+        "changed_probability_mass": "0",
+        "world_pairs": 32
+      },
+      "protected_minority": {
+        "changed_count": 32,
+        "changed_probability_mass": "1",
+        "world_pairs": 32
+      }
+    }
+  },
+  "correction_harm_sign": "correction - harm = error(optimal blind) - error(policy)",
+  "gap_sign": "aware minus optimal blind; negative is improvement",
+  "known_parameters": {
+    "arm_prior": {
+      "copied": "1/3",
+      "independent": "1/3",
+      "padded": "1/3"
+    },
+    "p_generalist": "7/10",
+    "p_specialist_values": [
+      "11/20",
+      "17/20"
+    ],
+    "truth_prior_positive": "1/2"
+  },
+  "mixtures": {
+    "11/20": {
+      "arm_probability": "1/3",
+      "aware_minus_blind": {
+        "brier_loss": "-44463497925/9568568217728",
+        "classification_error": "0"
+      },
+      "conditional_expectation_identity": true,
+      "expected_informative_acquisitions": "8/3",
+      "policies": {
+        "equal_root_weighting": {
+          "brier_loss": "181/800",
+          "classification_error": "1351/4000",
+          "correction": "2893/40000",
+          "harm": "5523/40000"
+        },
+        "naive_report_independence": {
+          "brier_loss": "385766762227/1852620510208",
+          "classification_error": "34/125",
+          "correction": "0",
+          "harm": "0"
+        },
+        "optimal_aware_bayes": {
+          "brier_loss": "29974791/157041664",
+          "classification_error": "34/125",
+          "correction": "0",
+          "harm": "0"
+        },
+        "optimal_blind_bayes": {
+          "brier_loss": "1268682723/6488814592",
+          "classification_error": "34/125",
+          "correction": "0",
+          "harm": "0"
+        },
+        "payload_quotient": {
+          "brier_loss": "88893189/432640000",
+          "classification_error": "607/2000",
+          "correction": "693/20000",
+          "harm": "1323/20000"
+        },
+        "protected_minority": {
+          "brier_loss": "39663508203/187408000000",
+          "classification_error": "737/2000",
+          "correction": "1199/20000",
+          "harm": "3129/20000"
+        }
+      },
+      "posterior_squared_gap": "44463497925/9568568217728",
+      "probability_mass": "1",
+      "world_arm_rows": 96
+    },
+    "17/20": {
+      "arm_probability": "1/3",
+      "aware_minus_blind": {
+        "brier_loss": "-104346390575/29794502648832",
+        "classification_error": "-19/2000"
+      },
+      "conditional_expectation_identity": true,
+      "expected_informative_acquisitions": "8/3",
+      "policies": {
+        "equal_root_weighting": {
+          "brier_loss": "103/800",
+          "classification_error": "33/160",
+          "correction": "2527/40000",
+          "harm": "4777/40000"
+        },
+        "naive_report_independence": {
+          "brier_loss": "827865269357/6449016188928",
+          "classification_error": "381/2000",
+          "correction": "1043/20000",
+          "harm": "1853/20000"
+        },
+        "optimal_aware_bayes": {
+          "brier_loss": "30543373/281505792",
+          "classification_error": "281/2000",
+          "correction": "343/20000",
+          "harm": "153/20000"
+        },
+        "optimal_blind_bayes": {
+          "brier_loss": "582661723/5202235392",
+          "classification_error": "3/20",
+          "correction": "0",
+          "harm": "0"
+        },
+        "payload_quotient": {
+          "brier_loss": "42449561/368640000",
+          "classification_error": "3/20",
+          "correction": "0",
+          "harm": "0"
+        },
+        "protected_minority": {
+          "brier_loss": "53170719919/449088000000",
+          "classification_error": "3/20",
+          "correction": "0",
+          "harm": "0"
+        }
+      },
+      "posterior_squared_gap": "104346390575/29794502648832",
+      "probability_mass": "1",
+      "world_arm_rows": 96
+    }
+  },
+  "policy_order": [
+    "naive_report_independence",
+    "payload_quotient",
+    "optimal_blind_bayes",
+    "equal_root_weighting",
+    "optimal_aware_bayes",
+    "protected_minority"
+  ],
+  "resource_accounting": {
+    "acquisition_ceiling": 4,
+    "informative_acquisitions": {
+      "copied": 2,
+      "independent": 4,
+      "padded": 2
+    },
+    "provenance_cost": "trusted lineage supplied; acquisition cost not modeled",
+    "report_slots": 4
+  },
+  "schema_version": 1
+}

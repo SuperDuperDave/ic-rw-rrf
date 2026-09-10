@@ -58,7 +58,7 @@ Independent arithmetic and all query/outcome records agree. Claude supplied a
 usable critique before native budget termination, recorded honestly in its
 receipt. Follow the prespecified stop: no additional source, threshold, or
 existing-panel association sweep. [Report](../results/cycle03-2026-09-10/REPORT.md).
-R5 now owns the next experiment design.
+R5 executed the subsequent known-truth fixture; R7 now owns the empirical step.
 
 ### R1 — NEXT maintenance as needed: finish the broader evaluation contract
 
@@ -106,25 +106,45 @@ make the queries untouched.
 untouched evaluation runs against the same baselines. Verify provenance, access,
 usage terms, candidate pools, and current primary literature before promotion.
 
-### R5 — NEXT: exact known-truth evidence fixture
+### R5 — DONE 2026-09-10: exact known-truth evidence fixture
 
-Start with the [cycle04 design](cycles/2026-09-10-cycle04-known-truth-design.md).
-Enumerate a small binary world under two fixed factors: copied versus fresh
-corroboration, and weak versus strong specialist calibration. Compare identical
-packets within each cell, include optimal blind and aware Bayes baselines, and
-make the true origin partition's information advantage explicit. Count fresh
-acquisitions separately from report slots; provenance never labels correctness.
+The six-cell [cycle04 report](../results/cycle04-2026-09-10/REPORT.md) preserves
+192 world-arm rows, six policies, exact Brier/error/correction/harm, and copy
+invariance checks. An independent implementation reconstructs every numerical
+output. Known calibration and unpriced true lineage are explicit inputs.
 
-**First action:** review/freeze the exact packet and probability contract, then
-implement rational enumeration and independent conditioning checks. No actual
-LLM calls, retrieval tuning, Monte Carlo grid, or algorithm promotion in this
-fixture. The analytic predictions are calibration targets, not novel results.
+Aware versus optimal blind yields a weak-setting Brier-only improvement and a
+strong-setting error reduction from 15% to 14.05%, confined to one disagreement pattern
+in the independent arm. Unconditional weak-minority protection raises mixture
+error from 27.2% to 36.85%. These are designed finite-model properties, not actual LLM
+performance or a new algorithm. All 95 tests pass.
 
-**Checkpoint:** all six cells, exact Brier/error tables, paired correction/harm,
-copy invariance with fixed primitive evidence, and an information-boundary note.
-Choose what a later empirical agent test would need to observe; do not silently
-start it. A trusted-lineage toy does not establish real source independence,
-metadata quality, or LLM reasoning gains.
+Claude's completed review retired a numerically redundant common-cause run;
+an independent audit corrected its claim that lineage's classification benefit
+vanishes below a particular prior. [Integration](cycles/2026-09-10-cycle04-review-integration.md).
+No new prior sweep or changed frozen result was needed. R7 owns the next step.
+
+### R7 — NEXT: one coordinator on fixed known-truth packets
+
+Start with the independently reviewed
+[cycle05 design](cycles/2026-09-10-cycle05-coordinator-packet-design.md):
+12 unique aware plus 8 blind disagreement inputs, one pinned Opus5 configuration,
+fresh isolated contexts and no proposer agents. Score continuous probability
+regret against each view's exact posterior and compare expected Brier on the
+same diagnostic worlds. Reuse identical blind observations, preserve invalid
+outputs and denominators, and do not infer model-repeat uncertainty from packets.
+
+**First action:** verify native context/output/batch controls, prepare and freeze
+the exact 20 request payloads/order, reference weights, parser and resource
+contract before any model call. Proposed batch scheduling ceiling $4; native
+limits and possible single-call overshoot must be stated accurately. Current
+design is not an executed benchmark or a guarantee about native controls.
+
+**Checkpoint:** at most 20 requests, one fixed prompt/model, no retries or prompt
+search, observed usage and failure states, scoring plus independent review.
+Choose a later replication/calibration/metadata test from the result. The
+[retired common-cause candidate](cycles/2026-09-10-cycle05-common-cause-design.md)
+is a derived boundary; do not run it as if it supplied new numerical evidence.
 
 ## Communication and operations
 

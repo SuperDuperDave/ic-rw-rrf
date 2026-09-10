@@ -1,0 +1,15 @@
+{
+  "command": "python3 -B -m unittest discover -s evaluation/tests -p test_cycle04_known_truth.py -v",
+  "git_parent": "44869862be44178ebeedc132bc662ee436e84a6b",
+  "preflight_note": "Final frozen code/test checks repeated after worker added a symlink-escape test and exact-parameter safeguard before its freeze acknowledgement. All occurred before durable experiment execution.",
+  "scope": "Synthetic and structural checks plus temporary CLI artifacts before the durable exact run. No data-selected configurations.",
+  "sha256": {
+    "_sessions/cycles/2026-09-10-cycle04-execution-protocol.md": "8f39df12a59f57baa533ebdd878e01b836cb0017189ba4942aa3e4290f250c9c",
+    "_sessions/cycles/2026-09-10-cycle04-known-truth-design.md": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f"
+  },
+  "status": "passed",
+  "tests_passed": 12,
+  "utc": "2026-09-10T23:36:13.554443+00:00"
+}

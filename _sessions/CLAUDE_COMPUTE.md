@@ -39,6 +39,24 @@ scope. Do not raise limits automatically or equate a readable memo with success.
 [Cycle03 receipt](evidence/2026-09-10-cycle03-review-receipt.json),
 [integration](cycles/2026-09-10-cycle03-review-integration.md).
 
+Cycle04 used a fresh compact coordinator handoff after Dave reported allowance
+reset. The $4 native invocation cap stayed unchanged. One Fable5.1 coordinator
+and one canonical Opus5 scout completed successfully in370.6 seconds, with
+$2.52308675 list-price accounting. The Opus usage key was `claude-opus-5[1m]`;
+canonical identity and message output agree. The coordinator supplied an `opus`
+override despite the pinned definition, so future missions should omit such
+overrides or use the intended exact model when supported. Do not infer identity
+from self-description. The final memo exceeded its advisory word target; native
+turn/spend limits succeeded. Different scope/context means the cost comparison
+with cycle03 is observational, not a measured general efficiency gain.
+[Cycle04 receipt](evidence/2026-09-10-cycle04-review-receipt.json),
+[integration](cycles/2026-09-10-cycle04-review-integration.md).
+
+The next design measures a single fixed coordinator configuration on synthetic
+packets. Those calls would be experimental observations, unlike the research
+reviewer calls above; keep their evidence and interpretation separate. Verify
+native isolated-context and budget/output semantics before freezing that batch.
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome

@@ -26,6 +26,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `evaluation/cycle02_observation_audit.py` | Candidate and judgment-availability inventory; fixed specialist cohort under cropping |
 | `evaluation/cycle03_specialist_association.py` | Fixed-cohort relevance bounds and paired query bootstrap; prespecified branch decision |
 | `_sessions/tools/check_cycle03_evidence.py` | Independent exhaustive synthetic sharpness and actual Fraction/bootstrap reconstruction |
+| `evaluation/cycle04_known_truth.py` | Exact binary evidence fixture; six policies with separate blind/aware packets and immutable output custody |
+| `_sessions/tools/check_cycle04_evidence.py` | Independent finite-table reconstruction, conditional identities and all cycle04 numerical evidence |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |
@@ -46,6 +48,7 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `results/cycle02-2026-09-10/REPORT.md` | Source feasibility result, exportable figure, support/access distinction, and next decision |
 | `results/cycle02-2026-09-10/observations/` | Frozen judgment-membership/candidate inventory and input/output hashes |
 | `results/cycle03-2026-09-10/REPORT.md`, `association/` | Completed relevance-association result, immutable evidence, and exact-known-truth branch decision |
+| `results/cycle04-2026-09-10/REPORT.md`, `exact/` | Known-truth findings, exportable figure and exact world/policy/cell/mixture evidence |
 
 ## Experimental families
 

@@ -17,9 +17,50 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
-## Cycle03: follow the inconclusive-result branch
+## Cycle04: separate probability quality, final answers and evidence origin
 
-The latest [cycle03 report](../results/cycle03-2026-09-10/REPORT.md) owns the new
+The latest [cycle04 report](../results/cycle04-2026-09-10/REPORT.md) records an
+exact six-cell known-truth fixture. Two known specialist accuracies cross padded,
+copied and independent report constructions. All policies know the calibration
+and construction mixture; aware policies additionally receive trusted lineage,
+whose acquisition cost is not modeled. Actual primitive acquisitions are 2/2/4.
+
+| Known specialist accuracy | Optimal blind Brier → aware Brier | Blind error → aware error |
+| --- | ---: | ---: |
+| 55% | 0.195518 → 0.190872 | 27.2% → 27.2% |
+| 85% | 0.112002 → 0.108500 | 15% → 14.05% |
+
+The weak-setting improvement changes no class decisions. The strong-setting
+error gain comes from independent corroboration; the optimal blind comparator
+already follows strong S against ambiguous consensus. Protected minority
+worsens Brier loss in both settings and raises weak-setting error from 27.2%
+to 36.85%. Copy invariance alone is insufficient: payload quotient is invariant
+but discards genuine independent repeated answers. These are expected finite
+model properties, not new theorems, LLM performance or retrieval gains.
+
+The independent checker reconstructed all 192 world-arm rows and all six policy
+outputs, six cells and two mixtures. Exact conditional/Brier identities hold;
+no numerical discrepancy was found. Runtime input isolation is separately
+checked in code/tests. The frozen design and execution contract preserve all
+idealizations, including conditional independence across primitive roots.
+
+Claude review found the candidate common-cause run arithmetically redundant
+with the existing non-null mixture; it is [retired as a numerical run](cycles/2026-09-10-cycle05-common-cause-design.md)
+and retained as a conceptual boundary. A further independent audit corrected
+a shared reviewer error: changing the copy prior can move the classification
+benefit between arms, rather than remove it. No frozen outcome changed.
+[Review integration](cycles/2026-09-10-cycle04-review-integration.md)
+
+**Next: R7 / [one coordinator on fixed packets](cycles/2026-09-10-cycle05-coordinator-packet-design.md).**
+Twelve unique aware and eight blind requests could measure actual use of the
+supplied assumptions. Payloads, weights, native context/resource controls and
+parsing must be frozen before the first call. No empirical model outputs exist
+yet. The conditional-independence/calibration assumptions still require separate
+real-world evidence.
+
+## Cycle03: preceding inconclusive-result branch
+
+The preceding [cycle03 report](../results/cycle03-2026-09-10/REPORT.md) owns its
 outcomes. The full-arm SPLADE specialist association was run under the unchanged
 prospective protocol, with 20/23 candidate-paired queries and equal query weights.
 Primary supported-minus-isolated relevance differences, in percentage points:
@@ -41,13 +82,10 @@ budget and returned an error. The [integration note](cycles/2026-09-10-cycle03-r
 distinguishes the recovered critique from successful execution and corrects its
 minor sign error and interpretive overreach. No new provider call was needed.
 
-**Next:** R5 / [cycle04 known-truth design](cycles/2026-09-10-cycle04-known-truth-design.md).
-The prespecified stop parks more source/threshold sweeps for this association.
-Drafted an exact binary-evidence fixture to separate copies from independent
-corroboration and quantify harm as well as rescue from a specialist. Trusted
-lineage and known reliability are explicit idealized inputs; an optimal blind
-Bayes baseline prevents comparison only against naive voting. Design only,
-not run; no real-LLM or retrieval-performance claim is promoted.
+The prespecified stop parked more source/threshold sweeps for this association.
+Its [next design](cycles/2026-09-10-cycle04-known-truth-design.md) was executed
+as cycle04 above. Original cycle03 evidence remains unchanged; it does not
+become a small-effect finding because the laboratory changed.
 
 ## Cycle02: the specialist association is observable, its mechanism is not isolated
 

@@ -1,0 +1,45 @@
+{
+  "artifact_sha256": {
+    "_sessions/evidence/2026-09-10-cycle04-independent-check.json": "62532f682959577ad0c8f123cd552cf4a20a1cfc0e489cea5a52da0400d01e03",
+    "_sessions/evidence/2026-09-10-cycle04-preflight.json": "f1d415aafa62c6cec7a6f7dcb04a0ba9ae996ea78828d926b78cbf095f04179d",
+    "_sessions/evidence/2026-09-10-cycle04-review-receipt.json": "6d9a80abc1f5a9b6ad526c1bd1767f146741c13471b10f4ede0e185797e37788",
+    "_sessions/tools/check_cycle04_evidence.py": "6c8a1b924b4832b270d1948ab0e79a928124acf47529ec8c3674e4bb9129eef1",
+    "evaluation/cycle04_known_truth.py": "7f75f90891b0c38ad23a0f56ae632c43594edc4383035befb5546e1aebd36ea0",
+    "evaluation/tests/test_cycle04_known_truth.py": "7490806ab8267cb3e51f19252459d656fdfe253bbe80bdf0194b3a153d1dda4f",
+    "results/cycle04-2026-09-10/exact/manifest-start.json": "d8f0ac9a47a44922c9227d5f27adfc6ae46026ea7217aeaafb13e15c946e06cf",
+    "results/cycle04-2026-09-10/exact/manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "results/cycle04-2026-09-10/exact/per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "results/cycle04-2026-09-10/exact/summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b",
+    "results/cycle04-2026-09-10/known_truth.png": "36e2953450f336e54dc37784f58525549ec46d84a3147e9f804f4c85190b83c8",
+    "results/cycle04-2026-09-10/known_truth.svg": "675d57281c2e7c44ab0357a8e4d1b96a951aeb8b5196c245029547f050b6c885",
+    "results/cycle04-2026-09-10/plot_known_truth.py": "cc19e881693fc32e5137fff880559bae9f8d2d0e8ada09536e61e18f39713af7"
+  },
+  "date_utc": "2026-09-10T23:55:39.212038+00:00",
+  "git_parent": "44869862be44178ebeedc132bc662ee436e84a6b",
+  "limits": [
+    "Known calibration and independent primitive errors are stipulated; trusted lineage is supplied without modeled cost.",
+    "Cycle05 and actual coordinator experiment not run."
+  ],
+  "next_design_sha256": "ebb5a3298cd3a8aa88a4b759af6a380e598c43d8f94e24da6f7359dfc8cfe6ca",
+  "status": "passed",
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s evaluation/tests -v",
+      "passed": 66
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -v",
+      "passed": 29
+    }
+  ],
+  "verification": {
+    "frozen_custody": "design/protocol/code/tests/output hashes match",
+    "git_remote": "commit/push checked separately after this receipt",
+    "historical_evidence": "unchanged",
+    "independent": "all192 rows,6policies,6cells,2mixtures and copy statistics reconstructed",
+    "local_markdown_links_checked": 108,
+    "missing_links": [],
+    "plot": "PNG/SVG exact metadata matches summary and script; visually inspected",
+    "private_runtime": "ignored and excluded"
+  }
+}
