@@ -1,0 +1,66 @@
+{
+  "session_id": "baf23afa-0571-4efb-8326-6aded40006a4",
+  "request_marker": "cycle03-review-149dae43df",
+  "mission_sha256": "6e31b88af10ebf6a867d9fc67d3eff253c2edf9640028b7bb63139b5e6763934",
+  "exit_code": 1,
+  "timed_out": false,
+  "duration_seconds": 103.6,
+  "observed_models": [
+    "claude-fable-5-1",
+    "claude-opus-5"
+  ],
+  "agent_dispatch": [
+    {
+      "subagent_type": "ic-statistics",
+      "description": "Cycle03 code contract check",
+      "run_in_background": false
+    }
+  ],
+  "native_result": {
+    "subtype": "error_max_budget_usd",
+    "is_error": true,
+    "num_turns": 5,
+    "total_cost_usd": 4.0096155,
+    "modelUsage": {
+      "claude-fable-5-1": {
+        "inputTokens": 66,
+        "outputTokens": 5117,
+        "cacheReadInputTokens": 334544,
+        "cacheCreationInputTokens": 175771,
+        "webSearchRequests": 0,
+        "costUSD": 3.8555659999999996,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 2038,
+        "canonicalModel": "claude-fable-5-1",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5[1m]": {
+        "inputTokens": 6,
+        "outputTokens": 1766,
+        "cacheReadInputTokens": 18739,
+        "cacheCreationInputTokens": 16080,
+        "webSearchRequests": 0,
+        "costUSD": 0.1540495,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 411,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "session_id": "baf23afa-0571-4efb-8326-6aded40006a4"
+  },
+  "memo_status": "A substantive coordinator text memo was emitted before the terminal budget error; recovered from an assistant text block, not the absent result field.",
+  "memo_sha256": "41b46f0a0ffeea15b45cb98f90de41620b7e446b8a37845646691fca8e28ed60",
+  "native_output_sha256": "e50f3696aa83e8aab179ec0519c91366a3d3b6215a63d5acb0b1972ec25f6fb3",
+  "cost_note": "Native API list-price accounting; not a subscription invoice or allowance conversion. Configured cap4 USD; native final accounting4.0096155 USD.",
+  "limitations": [
+    "Native phase ended error_max_budget_usd, exit1; no success or turn.completed receipt is claimed.",
+    "Recovered review memo is usable critique; its claims remain independently assessed.",
+    "One Fable coordinator and one Opus scout observed; scout read implementation and test names but not full protocol.",
+    "Codex records requested exact-signal ACK as consumption, not successful native completion."
+  ]
+}

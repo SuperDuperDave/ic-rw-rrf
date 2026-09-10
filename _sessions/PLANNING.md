@@ -45,20 +45,20 @@ candidate access remains inseparable from support in this cohort. No relevance
 or ranking effect was measured. Independent reconstruction plus Fable/Opus review
 are integrated in the [cycle02 report](../results/cycle02-2026-09-10/REPORT.md).
 
-### R6 — NEXT: bound the specialist relevance association
+### R6 — DONE 2026-09-10: bounded specialist relevance association
 
-Follow the prospective [cycle03 protocol](cycles/2026-09-10-cycle03-specialist-association-protocol.md).
-Implement and synthetically test sharp missing-label bounds before examining
-actual grades. Use full-arm SPLADE specialists, candidate-only paired eligibility
-(20/43 and 23/54), equal-query contrasts, separate years, one primary grade>=2
-outcome, and a fixed descriptive grade>0 sensitivity. No fusion or source search.
+The frozen [cycle03 protocol](cycles/2026-09-10-cycle03-specialist-association-protocol.md)
+ran with 20/23 candidate-paired queries, sharp missing-label bounds, and separate
+year bootstrap envelopes. Both primary results are inconclusive under the fixed
+delta=.10 rule. The 2020 finite-panel interval remains positive despite missing
+labels; its broad query envelope does not establish a stable material association.
+No small-effect or fusion-improvement claim is supported.
 
-**Decision contract:** delta=.10 is a project resource threshold, not an RRF
-probability calibration. Combine worst-case missing labels with a conditional
-query bootstrap envelope. Only material same-direction association in both years
-advances to a new fusion-contribution protocol; small, conflicting, or inconclusive
-results route to R5 without another existing-panel sweep. The protocol owns the
-exact precision gate. No cycle03 outcomes have been computed.
+Independent arithmetic and all query/outcome records agree. Claude supplied a
+usable critique before native budget termination, recorded honestly in its
+receipt. Follow the prespecified stop: no additional source, threshold, or
+existing-panel association sweep. [Report](../results/cycle03-2026-09-10/REPORT.md).
+R5 now owns the next experiment design.
 
 ### R1 — NEXT maintenance as needed: finish the broader evaluation contract
 
@@ -106,14 +106,25 @@ make the queries untouched.
 untouched evaluation runs against the same baselines. Verify provenance, access,
 usage terms, candidate pools, and current primary literature before promotion.
 
-### R5 — PARKED broader branch: evidence-aware agent collaboration
+### R5 — NEXT: exact known-truth evidence fixture
 
-Define a controlled task with known truth, different evidence available to
-agents, communication policy, correlated-error measurement, and matched compute
-budgets. Compare whether source/evidence provenance helps a coordinator use
-useful dissent. Retrieval outcomes and exact copied lists are not evidence about
-repeated stochastic model samples. Reopen when the protocol can distinguish
-competing explanations more cheaply than additional retrieval work.
+Start with the [cycle04 design](cycles/2026-09-10-cycle04-known-truth-design.md).
+Enumerate a small binary world under two fixed factors: copied versus fresh
+corroboration, and weak versus strong specialist calibration. Compare identical
+packets within each cell, include optimal blind and aware Bayes baselines, and
+make the true origin partition's information advantage explicit. Count fresh
+acquisitions separately from report slots; provenance never labels correctness.
+
+**First action:** review/freeze the exact packet and probability contract, then
+implement rational enumeration and independent conditioning checks. No actual
+LLM calls, retrieval tuning, Monte Carlo grid, or algorithm promotion in this
+fixture. The analytic predictions are calibration targets, not novel results.
+
+**Checkpoint:** all six cells, exact Brier/error tables, paired correction/harm,
+copy invariance with fixed primitive evidence, and an information-boundary note.
+Choose what a later empirical agent test would need to observe; do not silently
+start it. A trusted-lineage toy does not establish real source independence,
+metadata quality, or LLM reasoning gains.
 
 ## Communication and operations
 

@@ -53,14 +53,21 @@ exposed a measurement limit: too few judged examples to tell whether a specialis
 corroborated deep in another list is more useful than an isolated one.
 [Cycle01 report and reproducible figure](../results/cycle01-2026-09-10/REPORT.md)
 
-**Current frontier.** A new SPLADE++ retrieval source made the question more
-observable: 19 of 43 and 22 of 54 queries have judged examples of both specialist
-groups. It also revealed a sharper ambiguity. Its isolated specialists are
-exactly documents absent from the retained lexical rankings, so comparing the
-groups mixes support with candidate access. We have not measured relevance or
-a fusion gain from this source. The next bounded test estimates an association
-while allowing every missing judgment to favor the opposite conclusion.
-[Cycle02 inventory and figure](../results/cycle02-2026-09-10/REPORT.md)
+**Changing the observations.** A new SPLADE++ source supplied judged examples
+of both specialist groups on 19 of 43 and 22 of 54 queries. It also exposed an
+ambiguity: its isolated specialists are exactly documents absent from the
+retained lexical rankings, coupling support with candidate access.
+[Cycle02 inventory](../results/cycle02-2026-09-10/REPORT.md)
+
+**Current frontier.** We then ran one prospective relevance comparison, allowing
+unknown judgments to favor either group. The primary 2020 association remains
+positive on its observed eligible queries, but uncertainty across queries is
+broad in both years. Neither result meets the frozen rule for pursuing another
+fusion method, and neither establishes a negligible effect. We followed the
+planned stop. The next design uses known truth to distinguish copied reports
+from independent corroboration and to measure harm as well as rescue from a
+minority specialist. It is a new laboratory to verify, not a demonstrated LLM
+improvement. [Cycle03 result and figure](../results/cycle03-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -68,7 +75,9 @@ to critique the results. Codex implemented the experiments and integrated
 independent checks. Critique changed the experiment, and numerical evidence
 changed the question. A further review of the new source preserved a useful
 association test while an independent check corrected its missing-label bounds.
-Reviewer mistakes were recorded and corrected too.
+Reviewer mistakes were recorded and corrected too. A later native review hit
+its configured budget after emitting a useful memo; its limit is preserved
+alongside the critique, rather than reported as successful execution.
 
 ## What the project demonstrates
 
@@ -98,5 +107,5 @@ The existing specifications and May notebooks are historical artifacts. Current
 qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
 research process now; a new technical contribution still needs its own related
 work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next bounded association test from parked algorithm promotion. The separate
+the next known-truth fixture from parked algorithm promotion. The separate
 website task owns integration and publication.

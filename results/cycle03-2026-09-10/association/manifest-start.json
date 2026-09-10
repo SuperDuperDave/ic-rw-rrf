@@ -1,0 +1,55 @@
+{
+  "argv": [
+    "evaluation/cycle03_specialist_association.py",
+    "--output",
+    "results/cycle03-2026-09-10/association"
+  ],
+  "cwd": "/home/david-wsl/repos/ic-rw-rrf",
+  "frozen_observation_manifest_sha256": "74a41d2e96754cd658c8486b296a7a8e01691c4c6fa894a9f256b05d23da5bea",
+  "git_state_start": {
+    "dirty_status": [
+      " M _sessions/PLANNING.md",
+      " M _sessions/streams/2026-09-10-002-recursive-phase-space.md",
+      "?? _sessions/evidence/2026-09-10-cycle03-synthetic-check.json",
+      "?? _sessions/tools/check_cycle03_evidence.py",
+      "?? evaluation/cycle03_specialist_association.py",
+      "?? evaluation/tests/test_cycle03_specialist_association.py",
+      "?? results/cycle03-2026-09-10/plot_association.py"
+    ],
+    "head": "3b7d148e6a57e6e7bf442d1554b04b8091f97fb3"
+  },
+  "input_sha256_start": {
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c"
+  },
+  "protocol": "_sessions/cycles/2026-09-10-cycle03-specialist-association-protocol.md",
+  "python_executable": "/usr/bin/python3",
+  "python_implementation": "CPython",
+  "python_version": "3.12.3",
+  "source_id": "splade_pp_ensemble_distil",
+  "source_sha256_start": {
+    "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md": "737ad042308cd933d76a3e51f17a8db55b1c7e47eb2cff105202d99c2cc94c67",
+    "_sessions/cycles/2026-09-10-cycle03-specialist-association-protocol.md": "ad99ecf75bc952ff3ee73a3bd2f42f77ed08c58bbcf41151ccbaf46bb5982f5c",
+    "data/cycle02/acquired/source-manifest.json": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+    "data/cycle02/source-selection.json": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "evaluation/cycle03_specialist_association.py": "ee7127a00c11584d5237bd7354db4d1f3637a3b59ab4adc9f5b03b31a0ec75eb",
+    "evaluation/tests/test_cycle03_specialist_association.py": "bc06d23b526a917dd5cd6fb8f892c78007e04e1df75d3e8ffcfd2a1743f03b0f",
+    "results/cycle02-2026-09-10/observations/manifest-start.json": "3126314504748b777bd5cd13829b45cbe768f10a7266479d4da60940ea760a13",
+    "results/cycle02-2026-09-10/observations/manifest.json": "74a41d2e96754cd658c8486b296a7a8e01691c4c6fa894a9f256b05d23da5bea",
+    "results/cycle02-2026-09-10/observations/per_query.json": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+    "results/cycle02-2026-09-10/observations/summary.json": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"
+  },
+  "started_utc": "2026-09-10T22:49:50.780485+00:00",
+  "status": "started"
+}

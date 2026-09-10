@@ -17,10 +17,42 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle03: follow the inconclusive-result branch
+
+The latest [cycle03 report](../results/cycle03-2026-09-10/REPORT.md) owns the new
+outcomes. The full-arm SPLADE specialist association was run under the unchanged
+prospective protocol, with 20/23 candidate-paired queries and equal query weights.
+Primary supported-minus-isolated relevance differences, in percentage points:
+
+| Year | Finite-panel sharp interval | Conditional bootstrap envelope |
+| --- | ---: | ---: |
+| 2019 | [−0.14,+9.86] | [−17.50,+27.78] |
+| 2020 | [+6.96,+17.83] | [−16.38,+37.83] |
+
+Both primary results are inconclusive under the fixed ten-point resource gate.
+Neither qualifies as small under the chosen bound. Preserve the positive2020
+finite-panel association without turning it into stable generalization or a
+causal support effect. The secondary threshold is descriptive and cannot decide
+the branch. Exact endpoints, draw hashes and194 query/outcome rows were checked
+independently; all historical inputs and prior numerical evidence are unchanged.
+
+Claude emitted a usable review memo before its native invocation reached its
+budget and returned an error. The [integration note](cycles/2026-09-10-cycle03-review-integration.md)
+distinguishes the recovered critique from successful execution and corrects its
+minor sign error and interpretive overreach. No new provider call was needed.
+
+**Next:** R5 / [cycle04 known-truth design](cycles/2026-09-10-cycle04-known-truth-design.md).
+The prespecified stop parks more source/threshold sweeps for this association.
+Drafted an exact binary-evidence fixture to separate copies from independent
+corroboration and quantify harm as well as rescue from a specialist. Trusted
+lineage and known reliability are explicit idealized inputs; an optimal blind
+Bayes baseline prevents comparison only against naive voting. Design only,
+not run; no real-LLM or retrieval-performance claim is promoted.
+
 ## Cycle02: the specialist association is observable, its mechanism is not isolated
 
-The [cycle02 report](../results/cycle02-2026-09-10/REPORT.md) is the latest
-checkpoint. A pinned SPLADE++ neural sparse source adds 97,000 numeric rankings
+The [cycle02 report](../results/cycle02-2026-09-10/REPORT.md) records the preceding
+observation checkpoint. A pinned SPLADE++ neural sparse source adds 97,000 numeric rankings
 across the same 43/54 queries. Both raw hashes and all converted tuples were
 independently verified. Selection followed a three-family access/provenance
 inventory before measuring coverage. Historical inputs and cycle01 outputs
@@ -39,13 +71,8 @@ a descriptive relevance association can still be measured. We corrected its
 missing-label bounds, unsupported RRF-derived threshold, and overly strong
 uniqueness language; see [review integration](cycles/2026-09-10-cycle02-review-integration.md).
 
-**Next:** PLANNING R6 / [cycle03 protocol](cycles/2026-09-10-cycle03-specialist-association-protocol.md).
-Implement synthetic sharp-bound checks before looking at actual outcomes. Use
-all 20/23 candidate-paired queries, fixed full-arm cohorts, opposite missing-label
-assignments, equal-query estimates, and separate-year bootstrap envelopes.
-Delta=.10 is an explicit research resource threshold, not a performance claim.
-The protocol chooses between a later fusion-contribution test and the controlled
-known-truth branch; it has not run. No new selector or method is promoted.
+The prospective association protocol prepared here was subsequently executed in
+cycle03 above. Its original source/cohort observation artifacts remain frozen.
 
 ## Cycle01 evidence and change of direction
 

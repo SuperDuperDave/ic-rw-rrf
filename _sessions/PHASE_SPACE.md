@@ -19,15 +19,15 @@ exploration, not claims that all useful methods fit the current taxonomy.
 Objectives include relevance, robustness to redundant/noisy inputs, transfer,
 interpretability, and cost. An improvement on one axis may trade off another.
 
-## Hypotheses after cycle01
+## Current hypotheses
 
 | ID | Hypothesis / status | Next discriminating observation |
 | --- | --- | --- |
 | H1 | `[observed, narrow]` n6 gain survives; 2019 aggregate remains uncertain and both n4 annual transfers lose | Park further existing-panel tuning; untouched diverse inputs would test transfer |
 | H2 | `[supported in scope]` Depth changes the k effect; smoothing does not provide clone invariance | Separate lost candidates from changed support before attributing the gain to tail corroboration; equal-depth arm had no treatment |
 | H3 | `[structural]` Exact-source-copy invariance is a useful diagnostic, not a quality guarantee | Distinguish actual copies from independent sources with similar outputs using provenance/controlled dependence |
-| H4 | `[observable association, mechanism open]` SPLADE supplies judged specialist pairs; support and retained lexical candidate access coincide for its specialists | Cycle03 bounds the full-cohort relevance association with missing labels; a positive association still does not establish fusion value or independent evidence |
-| H5 | `[open, broader branch]` Agent agreement may have a related dependence problem | Define an agent task, independent unit, matched resource budget, and correlated-error metric; retrieval results do not establish the analogy |
+| H4 | `[inconclusive under fixed gate]` Cycle03 bounds the SPLADE relevance association; both annual query envelopes remain broad | Stop this panel’s association search. Use the exact known-truth fixture to specify what information could distinguish useful dissent from noise |
+| H5 | `[design next, untested]` Trusted source origin may distinguish copies from independent corroboration under explicit calibration | Cycle04 exact binary fixture with optimal blind/aware baselines, specialist losses as well as rescues, and explicit acquisition counts; real-LLM behavior remains a separate test |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -62,3 +62,12 @@ found relevant prior work; it does not constitute novelty clearance.
   uses20/23 candidate-paired queries and can end inconclusively; H5 remains the
   alternate branch. Neither a judged document nor an association is a proven
   useful specialist.
+
+- **Cycle03 outcome:** both primary associations are inconclusive under the fixed
+  resource gate. A positive finite2020 interval coexists with a wide conditional
+  query envelope; no null or stable material association is established.
+- **Cycle03 branch:** follow the promised stop and prepare the exact known-truth
+  fixture. Separate truthful lineage from known reliability and from useful
+  observations. Strong blind comparators and actual acquisition counts prevent
+  a toy from appearing successful merely by giving one policy extra information
+  without disclosing it. [Cycle04 design](cycles/2026-09-10-cycle04-known-truth-design.md).

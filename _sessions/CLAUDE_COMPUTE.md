@@ -28,6 +28,17 @@ missing-label bounds were corrected before adoption.
 [Cycle02 receipt](evidence/2026-09-10-cycle02-review-receipt.json),
 [integration](cycles/2026-09-10-cycle02-review-integration.md).
 
+Cycle03 observed the same two model IDs and one scout, but the native phase
+terminated with `error_max_budget_usd`, exit1, after103.6 seconds. It emitted a
+substantive coordinator memo before termination; that text was recovered and
+reviewed, while the terminal error remained explicit. Native list-price
+accounting was$4.0096155 against a$4 cap, not subscription billing. No further
+provider invocation was needed. A growing resumed context can consume much of
+a small phase budget; inspect native usage before choosing the next invocation's
+scope. Do not raise limits automatically or equate a readable memo with success.
+[Cycle03 receipt](evidence/2026-09-10-cycle03-review-receipt.json),
+[integration](cycles/2026-09-10-cycle03-review-integration.md).
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome

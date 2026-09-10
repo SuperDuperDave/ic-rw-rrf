@@ -40,6 +40,14 @@ native session. The final brief is clear: no pending signals or active claims,
 and the bounded provider process exited. [Cycle02 receipt](evidence/2026-09-10-cycle02-review-receipt.json).
 This is another verified manual resume, not an automatic listener.
 
+Cycle03 returned its new request21 context marker and a substantive memo, then
+ended at the configured native budget limit. Seq22 records startup; seq23 records
+session end; there is no `turn.completed` event. Codex recovered and read the
+memo, then recorded the requested consumption ACK as seq24. The final Claude
+brief has no pending signals or active claims, and the provider process exited.
+[Qualified cycle03 receipt](evidence/2026-09-10-cycle03-review-receipt.json).
+A consumed request with useful text is distinct from successful native execution.
+
 ## Commands
 
 From the repository root:

@@ -1,0 +1,18 @@
+{
+  "all_missing_interval": [
+    -1,
+    1
+  ],
+  "binary_completion_pairs": 7056,
+  "checker_sha256": "52b404c814e9f766f26204b00092be61db679e36b0dca2b498f23e32b525fb28",
+  "dataset_reads": 0,
+  "equal_query_vs_pooled_example": {
+    "equal_query": 0.5,
+    "pooled": 0.1
+  },
+  "group_pair_cases": 1521,
+  "method": "Exhaustively enumerate missing binary completions, compare Fraction extrema.",
+  "note": "Final independent checker version passed before actual qrel grade access; earlier draft preflight had identical exhaustive outcomes.",
+  "protocol_sha256": "ad99ecf75bc952ff3ee73a3bd2f42f77ed08c58bbcf41151ccbaf46bb5982f5c",
+  "status": "passed"
+}

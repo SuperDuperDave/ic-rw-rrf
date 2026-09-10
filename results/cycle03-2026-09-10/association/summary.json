@@ -1,0 +1,707 @@
+{
+  "analysis_kind": "descriptive equal-query specialist relevance association",
+  "assumptions_and_limits": [
+    "Fixed full-arm specialist candidates; eligibility uses candidates, not judgment presence.",
+    "Each query has equal weight; documents and annual panels are never pooled as independent samples.",
+    "Observed qrel grades are fixed; every unjudged binary label may independently be zero or one.",
+    "Opposite missing assignments in supported and isolated groups jointly attain the sharp endpoints.",
+    "Empirical sharp bounds describe missing-label uncertainty for this finite eligible-query panel.",
+    "The exploratory bootstrap uncertainty envelope assumes exchangeable queries within each year.",
+    "Bootstrap quantiles linearly interpolate at (B-1)p; no exact coverage or calibrated p-value claim.",
+    "These annual panels were previously used for development and are not untouched evaluation data.",
+    "Support is coupled to lexical candidate access; association does not identify mechanism or fusion value.",
+    "Secondary grade>0 cannot override the primary two-year decision gate."
+  ],
+  "branch_decision": "stop_association_branch_and_draft_R5_controlled_known_truth_task",
+  "comparator": "SPLADE-owned tail-supported minus SPLADE-owned isolated specialists",
+  "delta": 0.1,
+  "primary_outcome": "grade_ge_2",
+  "secondary_outcome": "grade_gt_0",
+  "small_envelope_maximum_width": 0.1,
+  "years": {
+    "2019": {
+      "all_qids": [
+        "1037798",
+        "104861",
+        "1063750",
+        "1103812",
+        "1106007",
+        "1110199",
+        "1112341",
+        "1113437",
+        "1114646",
+        "1114819",
+        "1115776",
+        "1117099",
+        "1121402",
+        "1121709",
+        "1124210",
+        "1129237",
+        "1133167",
+        "130510",
+        "131843",
+        "146187",
+        "148538",
+        "156493",
+        "168216",
+        "182539",
+        "183378",
+        "19335",
+        "207786",
+        "264014",
+        "359349",
+        "405717",
+        "443396",
+        "451602",
+        "47923",
+        "489204",
+        "490595",
+        "527433",
+        "573724",
+        "833860",
+        "855410",
+        "87181",
+        "87452",
+        "915593",
+        "962179"
+      ],
+      "bootstrap_draws": {
+        "B": 10000,
+        "encoding": "UTF-8 bytes of json.dumps(draw_matrix, separators=(\",\",\":\"), ensure_ascii=True), no trailing newline",
+        "generator": "random.Random(42), randrange(n) n times per replicate; reset per year",
+        "indices_sha256": "aeeca6e6eae5f240d50dec689aa1a44760c3281b631dc983c692f8808278edf4",
+        "n": 20,
+        "seed": 42,
+        "sorted_qids": [
+          "1037798",
+          "104861",
+          "1063750",
+          "1103812",
+          "1106007",
+          "1112341",
+          "1114646",
+          "1121402",
+          "1129237",
+          "1133167",
+          "148538",
+          "168216",
+          "264014",
+          "443396",
+          "451602",
+          "489204",
+          "833860",
+          "87452",
+          "915593",
+          "962179"
+        ]
+      },
+      "eligible_qids": [
+        "1037798",
+        "104861",
+        "1063750",
+        "1103812",
+        "1106007",
+        "1112341",
+        "1114646",
+        "1121402",
+        "1129237",
+        "1133167",
+        "148538",
+        "168216",
+        "264014",
+        "443396",
+        "451602",
+        "489204",
+        "833860",
+        "87452",
+        "915593",
+        "962179"
+      ],
+      "excluded_qids": [
+        "1110199",
+        "1113437",
+        "1114819",
+        "1115776",
+        "1117099",
+        "1121709",
+        "1124210",
+        "130510",
+        "131843",
+        "146187",
+        "156493",
+        "182539",
+        "183378",
+        "19335",
+        "207786",
+        "359349",
+        "405717",
+        "47923",
+        "490595",
+        "527433",
+        "573724",
+        "855410",
+        "87181"
+      ],
+      "exclusions": {
+        "1110199": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1113437": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1114819": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1115776": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1117099": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1121709": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1124210": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "130510": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "131843": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "146187": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "156493": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "182539": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "183378": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "19335": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "207786": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "359349": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "405717": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "47923": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "490595": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "527433": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "573724": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "855410": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "87181": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        }
+      },
+      "frozen_observation_inventory": {
+        "n_qrel_queries": 43,
+        "per_query_path": "results/cycle02-2026-09-10/observations/per_query.json",
+        "per_query_sha256": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+        "summary_path": "results/cycle02-2026-09-10/observations/summary.json",
+        "summary_sha256": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"
+      },
+      "n_queries_all": 43,
+      "n_queries_eligible": 20,
+      "outcomes": {
+        "grade_ge_2": {
+          "bootstrap": {
+            "exploratory_uncertainty_envelope": {
+              "lower": -0.175,
+              "upper": 0.2777777777777778,
+              "width": 0.4527777777777778
+            },
+            "lower_endpoint_quantiles": {
+              "0.025": -0.175,
+              "0.975": 0.17777777777777776
+            },
+            "upper_endpoint_quantiles": {
+              "0.025": -0.07086805555555552,
+              "0.975": 0.2777777777777778
+            }
+          },
+          "empirical_sharp_interval": {
+            "lower": -0.001388888888888888,
+            "upper": 0.09861111111111112,
+            "width": 0.1
+          },
+          "interpretation": "inconclusive",
+          "missing_width_invariant": {
+            "holds": true,
+            "mean_missing_fraction_sum": 0.1
+          }
+        },
+        "grade_gt_0": {
+          "bootstrap": {
+            "exploratory_uncertainty_envelope": {
+              "lower": -0.10833333333333335,
+              "upper": 0.23472222222222222,
+              "width": 0.34305555555555556
+            },
+            "lower_endpoint_quantiles": {
+              "0.025": -0.10833333333333335,
+              "0.975": 0.11111111111111112
+            },
+            "upper_endpoint_quantiles": {
+              "0.025": -0.0125,
+              "0.975": 0.23472222222222222
+            }
+          },
+          "empirical_sharp_interval": {
+            "lower": 0.002777777777777776,
+            "upper": 0.10277777777777777,
+            "width": 0.09999999999999999
+          },
+          "missing_width_invariant": {
+            "holds": true,
+            "mean_missing_fraction_sum": 0.1
+          }
+        }
+      }
+    },
+    "2020": {
+      "all_qids": [
+        "1030303",
+        "1037496",
+        "1043135",
+        "1051399",
+        "1064670",
+        "1071750",
+        "1105792",
+        "1106979",
+        "1108651",
+        "1109707",
+        "1110678",
+        "1113256",
+        "1115210",
+        "1116380",
+        "1121353",
+        "1122767",
+        "1127540",
+        "1131069",
+        "1132532",
+        "1133579",
+        "1136043",
+        "1136047",
+        "1136962",
+        "118440",
+        "121171",
+        "135802",
+        "141630",
+        "156498",
+        "169208",
+        "174463",
+        "23849",
+        "258062",
+        "324585",
+        "330975",
+        "332593",
+        "336901",
+        "390360",
+        "405163",
+        "42255",
+        "47210",
+        "555530",
+        "583468",
+        "640502",
+        "67316",
+        "673670",
+        "701453",
+        "730539",
+        "768208",
+        "877809",
+        "911232",
+        "914916",
+        "938400",
+        "940547",
+        "997622"
+      ],
+      "bootstrap_draws": {
+        "B": 10000,
+        "encoding": "UTF-8 bytes of json.dumps(draw_matrix, separators=(\",\",\":\"), ensure_ascii=True), no trailing newline",
+        "generator": "random.Random(42), randrange(n) n times per replicate; reset per year",
+        "indices_sha256": "f9fcdcdfec8b8686293e5a27202b181e836083b7f28262b72352cadffad01699",
+        "n": 23,
+        "seed": 42,
+        "sorted_qids": [
+          "1064670",
+          "1108651",
+          "1109707",
+          "1115210",
+          "1121353",
+          "1132532",
+          "1133579",
+          "1136043",
+          "1136047",
+          "1136962",
+          "118440",
+          "121171",
+          "156498",
+          "23849",
+          "330975",
+          "390360",
+          "42255",
+          "47210",
+          "555530",
+          "640502",
+          "67316",
+          "938400",
+          "997622"
+        ]
+      },
+      "eligible_qids": [
+        "1064670",
+        "1108651",
+        "1109707",
+        "1115210",
+        "1121353",
+        "1132532",
+        "1133579",
+        "1136043",
+        "1136047",
+        "1136962",
+        "118440",
+        "121171",
+        "156498",
+        "23849",
+        "330975",
+        "390360",
+        "42255",
+        "47210",
+        "555530",
+        "640502",
+        "67316",
+        "938400",
+        "997622"
+      ],
+      "excluded_qids": [
+        "1030303",
+        "1037496",
+        "1043135",
+        "1051399",
+        "1071750",
+        "1105792",
+        "1106979",
+        "1110678",
+        "1113256",
+        "1116380",
+        "1122767",
+        "1127540",
+        "1131069",
+        "135802",
+        "141630",
+        "169208",
+        "174463",
+        "258062",
+        "324585",
+        "332593",
+        "336901",
+        "405163",
+        "583468",
+        "673670",
+        "701453",
+        "730539",
+        "768208",
+        "877809",
+        "911232",
+        "914916",
+        "940547"
+      ],
+      "exclusions": {
+        "1030303": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "1037496": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1043135": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1051399": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1071750": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1105792": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1106979": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1110678": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1113256": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "1116380": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "1122767": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "1127540": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "1131069": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "135802": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "141630": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "169208": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "174463": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "258062": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "324585": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "332593": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "336901": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "405163": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "583468": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "673670": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "701453": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "730539": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "768208": {
+          "missing_candidate_groups": [
+            "tail_supported"
+          ]
+        },
+        "877809": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "911232": {
+          "missing_candidate_groups": [
+            "tail_supported",
+            "isolated"
+          ]
+        },
+        "914916": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        },
+        "940547": {
+          "missing_candidate_groups": [
+            "isolated"
+          ]
+        }
+      },
+      "frozen_observation_inventory": {
+        "n_qrel_queries": 54,
+        "per_query_path": "results/cycle02-2026-09-10/observations/per_query.json",
+        "per_query_sha256": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+        "summary_path": "results/cycle02-2026-09-10/observations/summary.json",
+        "summary_sha256": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"
+      },
+      "n_queries_all": 54,
+      "n_queries_eligible": 23,
+      "outcomes": {
+        "grade_ge_2": {
+          "bootstrap": {
+            "exploratory_uncertainty_envelope": {
+              "lower": -0.16378623188405797,
+              "upper": 0.37826086956521743,
+              "width": 0.5420471014492754
+            },
+            "lower_endpoint_quantiles": {
+              "0.025": -0.16378623188405797,
+              "0.975": 0.2927536231884058
+            },
+            "upper_endpoint_quantiles": {
+              "0.025": -0.02101449275362318,
+              "0.975": 0.37826086956521743
+            }
+          },
+          "empirical_sharp_interval": {
+            "lower": 0.06956521739130435,
+            "upper": 0.17826086956521742,
+            "width": 0.10869565217391307
+          },
+          "interpretation": "inconclusive",
+          "missing_width_invariant": {
+            "holds": true,
+            "mean_missing_fraction_sum": 0.10869565217391304
+          }
+        },
+        "grade_gt_0": {
+          "bootstrap": {
+            "exploratory_uncertainty_envelope": {
+              "lower": -0.21014492753623187,
+              "upper": 0.23768115942028986,
+              "width": 0.4478260869565217
+            },
+            "lower_endpoint_quantiles": {
+              "0.025": -0.21014492753623187,
+              "0.975": 0.1391304347826087
+            },
+            "upper_endpoint_quantiles": {
+              "0.025": -0.08695652173913043,
+              "0.975": 0.23768115942028986
+            }
+          },
+          "empirical_sharp_interval": {
+            "lower": -0.03333333333333333,
+            "upper": 0.07536231884057971,
+            "width": 0.10869565217391305
+          },
+          "missing_width_invariant": {
+            "holds": true,
+            "mean_missing_fraction_sum": 0.10869565217391304
+          }
+        }
+      }
+    }
+  }
+}

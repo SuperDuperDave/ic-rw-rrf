@@ -1,0 +1,49 @@
+{
+  "artifact_sha256": {
+    "_sessions/evidence/2026-09-10-cycle03-independent-check.json": "2139c88382f66d07be9848bc544477c9029392cacdf0c1fcf2a7c55030ed74c6",
+    "_sessions/evidence/2026-09-10-cycle03-review-receipt.json": "a7b85b45e604a8810097561185c1115c7902ca4184fd551673344042f74929a7",
+    "_sessions/evidence/2026-09-10-cycle03-synthetic-check.json": "a96b0b121672ed3f0cf59a1bfae7a0fe3dbffa5c0f9272e3ddf1be99a319c2e3",
+    "_sessions/tools/check_cycle03_evidence.py": "52b404c814e9f766f26204b00092be61db679e36b0dca2b498f23e32b525fb28",
+    "evaluation/cycle03_specialist_association.py": "ee7127a00c11584d5237bd7354db4d1f3637a3b59ab4adc9f5b03b31a0ec75eb",
+    "evaluation/tests/test_cycle03_specialist_association.py": "bc06d23b526a917dd5cd6fb8f892c78007e04e1df75d3e8ffcfd2a1743f03b0f",
+    "results/cycle03-2026-09-10/association.png": "8f3123096148875a9b56caf3c3eedbca8745c5959cefd037d61de2b77f1b37b3",
+    "results/cycle03-2026-09-10/association.svg": "46d6abc7a5c4807ecc77733df97435fa9932ec4524653e91314c32af8c0a8006",
+    "results/cycle03-2026-09-10/association/manifest-start.json": "527144d2ec0ffece77864eca8f3a463e330b43ed76bc745e43c2a778752204bc",
+    "results/cycle03-2026-09-10/association/manifest.json": "66a83b0ef64337f868b6230ee6b961d4b3bee4bf4129c85b4fd717a074a0ae57",
+    "results/cycle03-2026-09-10/association/per_query.json": "01f060091ad9ecf63b3f7549c473443d0982668d33b3852aa66d22dd33423f51",
+    "results/cycle03-2026-09-10/association/summary.json": "f516b01d2d52c0db196ebff06d0a3a877587927041ef6045e98ee0fdbfc6c9e1",
+    "results/cycle03-2026-09-10/plot_association.py": "40b31bcb01650152efb6b32a30f0b58dddc6f93121c455e7fe942554c09fedf0"
+  },
+  "date": "2026-09-10",
+  "git_parent": "3b7d148e6a57e6e7bf442d1554b04b8091f97fb3",
+  "limits": [
+    "No cycle04 enumeration or real-LLM experiment run.",
+    "Both primary annual relevance outcomes inconclusive under the fixed resource rule, not a negligible-effect finding.",
+    "Git commit and remote identity verified separately after this receipt."
+  ],
+  "next_design_sha256": "319827f9bae8d902318f34d79f7d8cfdb67a0a917f9e57c0894f2517ce7b3d7b",
+  "status": "passed",
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s evaluation/tests -v",
+      "passed": 54
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -v",
+      "passed": 29
+    }
+  ],
+  "verification": {
+    "frozen_custody": "all declared source/input/output hashes match",
+    "history": "no historical input or cycle01/cycle02 artifact modified",
+    "independent_results": "all194 query/outcome rows, group counts, Fraction endpoints, eligible queries, draw hashes, bootstrap envelopes, primary labels and branch decision",
+    "local_markdown_links_checked": 89,
+    "missing_local_links": [],
+    "plot": "both PNG/SVG metadata exactly match saved values and source/script hashes; visually inspected",
+    "pre_outcome_synthetic": "1521 exact group configurations,7056 binary completions; actual input grades not read for preflight",
+    "private_runtime": "Relay/native transcripts and raw caches remain ignored",
+    "protocol": "matches preceding GitHub checkpoint SHA256",
+    "provider": "text memo emitted before native error_max_budget_usd; terminal limit explicitly preserved; no second provider invocation",
+    "relay": "request21 consumed; coordinator ACK24; final Claude brief has no pending signals or claims"
+  }
+}

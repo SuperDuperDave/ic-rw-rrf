@@ -24,6 +24,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `evaluation/fusion_contract.py` | Canonical one-based RRF, exact asymptotic ordering, exact-duplicate quotient |
 | `evaluation/cycle01_rank_geometry.py`, `evaluation/cycle01_tail_evidence.py` | Reproducible geometry/selection and depth/specialist evidence experiments |
 | `evaluation/cycle02_observation_audit.py` | Candidate and judgment-availability inventory; fixed specialist cohort under cropping |
+| `evaluation/cycle03_specialist_association.py` | Fixed-cohort relevance bounds and paired query bootstrap; prespecified branch decision |
+| `_sessions/tools/check_cycle03_evidence.py` | Independent exhaustive synthetic sharpness and actual Fraction/bootstrap reconstruction |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |
@@ -43,6 +45,7 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `results/cycle01-2026-09-10/geometry/`, `results/cycle01-2026-09-10/tail/` | Immutable numerical evidence, per-query outputs, and provenance manifests |
 | `results/cycle02-2026-09-10/REPORT.md` | Source feasibility result, exportable figure, support/access distinction, and next decision |
 | `results/cycle02-2026-09-10/observations/` | Frozen judgment-membership/candidate inventory and input/output hashes |
+| `results/cycle03-2026-09-10/REPORT.md`, `association/` | Completed relevance-association result, immutable evidence, and exact-known-truth branch decision |
 
 ## Experimental families
 

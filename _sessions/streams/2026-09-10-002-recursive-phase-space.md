@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle02 source/observation research is complete at this commit; the coordinator verifies its GitHub push before reporting completion. Cycle01 is preserved at56e089c.
-- Next: PLANNING R6 / cycle03 specialist-association protocol. Implement synthetic sharp missing-label bound tests before examining actual relevance outcomes; then run one frozen association analysis and its branch decision.
-- In flight: no provider or worker remains active. Relay request16 consumed and coordinator-ACKed as20 for native Claude session baf23afa-0571-4efb-8326-6aded40006a4; final brief clear. The session remains available for deliberate future resume.
-- Preserve: historical inputs and cycle01 evidence, frozen cycle02 source selection/protocol/code/manifests, numeric runs, and observation results. Raw source text and provider transcripts remain ignored.
+- Now: cycle03 is complete at this commit; the coordinator verifies the GitHub push before reporting completion. Both primary annual results are inconclusive under the frozen resource rule. Cycle02 is preserved at3b7d148.
+- Next: PLANNING R5 / cycle04 known-truth design. Review/freeze the exact packet contract, implement rational enumeration and independent conditioning checks, then run the six cells. That fixture stops before any real-LLM benchmark or retrieval sweep.
+- In flight: no provider or worker remains active. Native Claude session baf23afa-0571-4efb-8326-6aded40006a4 emitted a review memo but ended at its budget cap; request21 was consumed and coordinator-ACKed as24. Final brief is clear; future manual resume remains available.
+- Preserve: historical inputs, cycle01/cycle02 artifacts, and frozen cycle03 protocol/code/inputs/results. Raw source text and provider transcripts stay ignored.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -91,3 +91,28 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R6 / cycle03 protocol is the first action; do not rerun cycle01 or retune this panel at startup.
 - R1 retains unrelated metric/regeneration maintenance; R2/R4 performance promotion stays parked.
 - Keep the same coordinating stream on resume. No pending user approval or external dependency blocks the next local implementation.
+
+## Cycle03 — specialist relevance association
+
+- Continue from frozen protocol in commit3b7d148; do not change cohort, grade thresholds, bootstrap plan, decision bound, or stopping rule after outcomes.
+- Before actual grades: bounded implementation/synthetic tests, independent endpoint specification and provenance checks. No new source acquisition or tuning.
+
+- Independent pre-outcome arithmetic check exhaustively verified1521 group configurations/7056 completions, using exact fractions. Frozen membership alone implies empirical sharp widths1/10 and5/46 for the20/23 eligible queries. Neither computation inspected actual grades.
+
+## Cycle03 measured outcome and closure
+
+- Implementation16 synthetic tests passed before actual grade access. Independent exact-fraction preflight covered1,521 group configurations/7,056 completions. The protocol hash still matches the previous GitHub checkpoint.
+- Ran one immutable association experiment. All194 query/outcome rows were independently rebuilt from original grades and frozen cohort IDs, with exact endpoints, draw hashes, multiplicity-weighted bootstrap quantiles, and matching branch decisions. No production imports in the checker.
+- Primary finite-panel sharp intervals:2019[−.0013889,+.0986111];2020[+.0695652,+.1782609]. Conditional bootstrap envelopes:[−.175,+.2777778] and[−.1637862,+.3782609]. Both primary outcomes are inconclusive, not small under the chosen bound. Secondary outcomes remain descriptive.
+- Followed the frozen stop instead of changing a threshold/source/owner subset. The positive2020 finite interval is local evidence; it does not establish stable transfer, causal corroboration, or a useful fusion weight.
+- One Fable5.1 coordinator and one Opus5 scout observed. Claude emitted a substantive memo, then native error_max_budget_usd, exit1,103.6s, list accounting$4.0096155 against$4 cap. This is not subscription billing or successful native completion. Recovered text and native receipt remain separate; exact Relay marker21 returned, ACK24 recorded after request/memo consumption, final brief clear.
+- Review agreed on implementation and the primary stop. Corrected its claim that2019's interval was nonnegative and declined to infer composition from the different grade cut. A suggested provenance/output-quotient equivalence also fails when independent sources produce identical outputs.
+- Next-design synthesis chooses an exact binary fixture over a larger noisy-ranking grid: three report constructions ×two specialist reliability settings,32 primitive worlds, optimal blind and aware Bayes, explicit trusted-lineage/calibration access, real acquisition counts, Brier/error and correction/harm. Design independently reviewed; no cycle04 outputs exist. Named comparators matter: strong optimal-blind Bayes already follows S in one proposed rescue pattern.
+- Updated report/figure, public brief, map, research state and planning. R6done; R5next. All54 research and29 helper/acquisition tests pass. Final artifact/link/privacy checks recorded in evidence/2026-09-10-cycle03-checks.json.
+- Ratchet: F13now verified by actual bound/eligibility use; F15preserves provider budget termination separately from useful text. SUBTRACT repeated full-inventory copies through immutable path+hash references; SUBTRACT SVG trailing-whitespace noise at plot generation. DROP transient patch/navigation mistakes; no additional framework.
+
+## Latest carryforward
+
+- R5 / cycle04 exact-known-truth design is first action. Freeze any design amendments before outcomes.
+- R1owns unrelated evaluation/generator maintenance; R2/R4performance promotion remains parked.
+- Reuse this stream, preserve all frozen evidence, and account for any future native budget outcome honestly. No pending user approval or live job blocks the next local work.
