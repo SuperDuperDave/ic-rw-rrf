@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1080pt" height="669.6pt" viewBox="0 0 1080 669.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Judgment availability and candidate access</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Judgment availability and candidate access</dc:title>
+    <dc:description>{"matplotlib_version": "3.6.3", "rows": [{"n_queries": 43, "outside_top10": {"n_candidates": 129, "n_judged": 102, "n_unjudged": 27}, "owners": {"new_source": {"groups": {"isolated": {"n_candidates": 129, "n_judged": 102, "n_unjudged": 27}, "tail_supported": {"n_candidates": 93, "n_judged": 88, "n_unjudged": 5}}, "n_queries_judged_both_groups": 19}, "pooled_lexical": {"groups": {"isolated": {"n_candidates": 7, "n_judged": 1, "n_unjudged": 6}, "tail_supported": {"n_candidates": 95, "n_judged": 26, "n_unjudged": 69}}, "n_queries_judged_both_groups": 1}}, "whole_top10": {"n_candidates": 430, "n_judged": 398, "n_unjudged": 32}, "year": "2019"}, {"n_queries": 54, "outside_top10": {"n_candidates": 95, "n_judged": 81, "n_unjudged": 14}, "owners": {"new_source": {"groups": {"isolated": {"n_candidates": 95, "n_judged": 81, "n_unjudged": 14}, "tail_supported": {"n_candidates": 121, "n_judged": 119, "n_unjudged": 2}}, "n_queries_judged_both_groups": 22}, "pooled_lexical": {"groups": {"isolated": {"n_candidates": 4, "n_judged": 2, "n_unjudged": 2}, "tail_supported": {"n_candidates": 120, "n_judged": 54, "n_unjudged": 66}}, "n_queries_judged_both_groups": 2}}, "whole_top10": {"n_candidates": 540, "n_judged": 524, "n_unjudged": 16}, "year": "2020"}], "script_sha256": "3820235cf524c6e34f5b778759d121b72f9b73a3b796f43327ca7e4ce3935ebe", "source_id": "splade_pp_ensemble_distil", "source_sha256": {"observations/summary.json": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"}}</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>plot_observations.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 669.6 
+L 1080 669.6 
+L 1080 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 212.76 474.0768 
+L 641.52 474.0768 
+L 641.52 152.6688 
+L 212.76 152.6688 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 212.76 474.0768 
+L 212.76 152.6688 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: middle" x="212.76" y="489.675237" transform="rotate(-0 212.76 489.675237)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 317.33561 474.0768 
+L 317.33561 152.6688 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: middle" x="317.33561" y="489.675237" transform="rotate(-0 317.33561 489.675237)">50</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 421.91122 474.0768 
+L 421.91122 152.6688 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: middle" x="421.91122" y="489.675237" transform="rotate(-0 421.91122 489.675237)">100</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 526.486829 474.0768 
+L 526.486829 152.6688 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: middle" x="526.486829" y="489.675237" transform="rotate(-0 526.486829 489.675237)">150</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 631.062439 474.0768 
+L 631.062439 152.6688 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: middle" x="631.062439" y="489.675237" transform="rotate(-0 631.062439 489.675237)">200</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="fill: #243442; font: 10px 'DejaVu Sans'; text-anchor: middle" x="427.14" y="511.353363" transform="rotate(-0 427.14 511.353363)">Query-document count  ·  labels: judged (J) / unjudged (U)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="191.579817" transform="rotate(-0 204.76 191.579817)">SPLADE++ · tail supported</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="218.588893" transform="rotate(-0 204.76 218.588893)">SPLADE++ · isolated</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="256.401599" transform="rotate(-0 204.76 256.401599)">Lexical pooled · tail supported</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14"/>
+     <g id="text_10">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="283.410674" transform="rotate(-0 204.76 283.410674)">Lexical pooled · isolated</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="356.335178" transform="rotate(-0 204.76 356.335178)">SPLADE++ · tail supported</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="383.344254" transform="rotate(-0 204.76 383.344254)">SPLADE++ · isolated</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17"/>
+     <g id="text_13">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="421.15696" transform="rotate(-0 204.76 421.15696)">Lexical pooled · tail supported</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18"/>
+     <g id="text_14">
+      <text style="fill: #586a78; font: 10px 'DejaVu Sans'; text-anchor: end" x="204.76" y="448.166036" transform="rotate(-0 204.76 448.166036)">Lexical pooled · isolated</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <path d="M 212.76 313.3728 
+L 641.52 313.3728 
+" clip-path="url(#pdae76d9e8d)" style="fill: none; stroke-dasharray: 2.55,2.55; stroke-dashoffset: 0; stroke: #cbd5dc; stroke-width: 0.85"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 212.76 474.0768 
+L 641.52 474.0768 
+" style="fill: none; stroke: #bcc7ce; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="fill: #243442; font: 700 11.5px 'DejaVu Sans'; text-anchor: start" x="39.54096" y="165.363066" transform="rotate(-0 39.54096 165.363066)">2019  ·  43 queries</text>
+   </g>
+   <g id="2019-new_source-tail_supported-judged">
+    <path d="M 212.76 179.677876 
+L 396.813073 179.677876 
+L 396.813073 195.883321 
+L 212.76 195.883321 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2019-new_source-tail_supported-unjudged">
+    <path d="M 396.813073 179.677876 
+L 407.270634 179.677876 
+L 407.270634 195.883321 
+L 396.813073 195.883321 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_16">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="413.545171" y="190.374411" transform="rotate(-0 413.545171 190.374411)">88 J / 5 U</text>
+   </g>
+   <g id="2019-new_source-isolated-judged">
+    <path d="M 212.76 206.686951 
+L 426.094244 206.686951 
+L 426.094244 222.892397 
+L 212.76 222.892397 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2019-new_source-isolated-unjudged">
+    <path d="M 426.094244 206.686951 
+L 482.565073 206.686951 
+L 482.565073 222.892397 
+L 426.094244 222.892397 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_17">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="488.83961" y="217.383486" transform="rotate(-0 488.83961 217.383486)">102 J / 27 U</text>
+   </g>
+   <g id="2019-pooled_lexical-tail_supported-judged">
+    <path d="M 212.76 244.499657 
+L 267.139317 244.499657 
+L 267.139317 260.705103 
+L 212.76 260.705103 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2019-pooled_lexical-tail_supported-unjudged">
+    <path d="M 267.139317 244.499657 
+L 411.453659 244.499657 
+L 411.453659 260.705103 
+L 267.139317 260.705103 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="417.728195" y="255.196192" transform="rotate(-0 417.728195 255.196192)">26 J / 69 U</text>
+   </g>
+   <g id="2019-pooled_lexical-isolated-judged">
+    <path d="M 212.76 271.508733 
+L 214.851512 271.508733 
+L 214.851512 287.714178 
+L 212.76 287.714178 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2019-pooled_lexical-isolated-unjudged">
+    <path d="M 214.851512 271.508733 
+L 227.400585 271.508733 
+L 227.400585 287.714178 
+L 214.851512 287.714178 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_19">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="233.675122" y="282.205268" transform="rotate(-0 233.675122 282.205268)">1 J / 6 U</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #243442; font: 700 11.5px 'DejaVu Sans'; text-anchor: start" x="39.54096" y="330.118427" transform="rotate(-0 39.54096 330.118427)">2020  ·  54 queries</text>
+   </g>
+   <g id="2020-new_source-tail_supported-judged">
+    <path d="M 212.76 344.433237 
+L 461.649951 344.433237 
+L 461.649951 360.638682 
+L 212.76 360.638682 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2020-new_source-tail_supported-unjudged">
+    <path d="M 461.649951 344.433237 
+L 465.832976 344.433237 
+L 465.832976 360.638682 
+L 461.649951 360.638682 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="472.107512" y="355.129772" transform="rotate(-0 472.107512 355.129772)">119 J / 2 U</text>
+   </g>
+   <g id="2020-new_source-isolated-judged">
+    <path d="M 212.76 371.442313 
+L 382.172488 371.442313 
+L 382.172488 387.647758 
+L 212.76 387.647758 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2020-new_source-isolated-unjudged">
+    <path d="M 382.172488 371.442313 
+L 411.453659 371.442313 
+L 411.453659 387.647758 
+L 382.172488 387.647758 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_22">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="417.728195" y="382.138848" transform="rotate(-0 417.728195 382.138848)">81 J / 14 U</text>
+   </g>
+   <g id="2020-pooled_lexical-tail_supported-judged">
+    <path d="M 212.76 409.255018 
+L 325.701659 409.255018 
+L 325.701659 425.460464 
+L 212.76 425.460464 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2020-pooled_lexical-tail_supported-unjudged">
+    <path d="M 325.701659 409.255018 
+L 463.741463 409.255018 
+L 463.741463 425.460464 
+L 325.701659 425.460464 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_23">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="470.016" y="419.951554" transform="rotate(-0 470.016 419.951554)">54 J / 66 U</text>
+   </g>
+   <g id="2020-pooled_lexical-isolated-judged">
+    <path d="M 212.76 436.264094 
+L 216.943024 436.264094 
+L 216.943024 452.469539 
+L 212.76 452.469539 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: #267786"/>
+   </g>
+   <g id="2020-pooled_lexical-isolated-unjudged">
+    <path d="M 216.943024 436.264094 
+L 221.126049 436.264094 
+L 221.126049 452.469539 
+L 216.943024 452.469539 
+z
+" clip-path="url(#pdae76d9e8d)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_24">
+    <text style="fill: #243442; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="227.400585" y="446.960629" transform="rotate(-0 227.400585 446.960629)">2 J / 2 U</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_4">
+     <path d="M 213.1848 135.803769 
+L 229.1848 135.803769 
+L 229.1848 128.803769 
+L 213.1848 128.803769 
+z
+" style="fill: #267786"/>
+    </g>
+    <g id="text_25">
+     <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="237.1848" y="135.803769" transform="rotate(-0 237.1848 135.803769)">Judged</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 289.670738 135.803769 
+L 305.670738 135.803769 
+L 305.670738 128.803769 
+L 289.670738 128.803769 
+z
+" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font: 10px 'DejaVu Sans'; text-anchor: start" x="313.670738" y="135.803769" transform="rotate(-0 313.670738 135.803769)">No judgment</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_6">
+    <path d="M 735.48 285.9192 
+L 1034.64 285.9192 
+L 1034.64 156.6864 
+L 735.48 156.6864 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_6">
+     <g id="line2d_20">
+      <path d="M 735.48 285.9192 
+L 735.48 156.6864 
+" clip-path="url(#pdba589cd2c)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_27">
+      <text style="fill: #586a78; font: 9px 'DejaVu Sans'; text-anchor: middle" x="735.48" y="300.757794" transform="rotate(-0 735.48 300.757794)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_22">
+      <path d="M 810.27 285.9192 
+L 810.27 156.6864 
+" clip-path="url(#pdba589cd2c)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_23"/>
+     <g id="text_28">
+      <text style="fill: #586a78; font: 9px 'DejaVu Sans'; text-anchor: middle" x="810.27" y="300.757794" transform="rotate(-0 810.27 300.757794)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_24">
+      <path d="M 885.06 285.9192 
+L 885.06 156.6864 
+" clip-path="url(#pdba589cd2c)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_25"/>
+     <g id="text_29">
+      <text style="fill: #586a78; font: 9px 'DejaVu Sans'; text-anchor: middle" x="885.06" y="300.757794" transform="rotate(-0 885.06 300.757794)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_26">
+      <path d="M 959.85 285.9192 
+L 959.85 156.6864 
+" clip-path="url(#pdba589cd2c)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_27"/>
+     <g id="text_30">
+      <text style="fill: #586a78; font: 9px 'DejaVu Sans'; text-anchor: middle" x="959.85" y="300.757794" transform="rotate(-0 959.85 300.757794)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_28">
+      <path d="M 1034.64 285.9192 
+L 1034.64 156.6864 
+" clip-path="url(#pdba589cd2c)" style="fill: none; stroke: #e5eaed; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_29"/>
+     <g id="text_31">
+      <text style="fill: #586a78; font: 9px 'DejaVu Sans'; text-anchor: middle" x="1034.64" y="300.757794" transform="rotate(-0 1034.64 300.757794)">100%</text>
+     </g>
+    </g>
+    <g id="text_32">
+     <text style="fill: #243442; font: 9.5px 'DejaVu Sans'; text-anchor: middle" x="885.06" y="318.848028" transform="rotate(-0 885.06 318.848028)">Share of all SPLADE++ top10 documents</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_7">
+    <path d="M 735.48 285.9192 
+L 1034.64 285.9192 
+" style="fill: none; stroke: #bcc7ce; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="2019-outside-judged">
+    <path d="M 735.48 180.686777 
+L 806.443535 180.686777 
+L 806.443535 194.717767 
+L 735.48 194.717767 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: #267786; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="2019-outside-unjudged">
+    <path d="M 806.443535 180.686777 
+L 825.228 180.686777 
+L 825.228 194.717767 
+L 806.443535 194.717767 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="2019-in-lexical-union">
+    <path d="M 825.228 180.686777 
+L 1034.64 180.686777 
+L 1034.64 194.717767 
+L 825.228 194.717767 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: #dce3e7; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="fill: #243442; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="735.48" y="169.60968" transform="rotate(-0 735.48 169.60968)">2019</text>
+   </g>
+   <g id="text_34">
+    <text style="fill: #243442; font: 10.5px 'DejaVu Sans'; text-anchor: end" x="1034.64" y="169.60968" transform="rotate(-0 1034.64 169.60968)">129 / 430 outside</text>
+   </g>
+   <g id="text_35">
+    <text style="fill: #586a78; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="735.48" y="205.056391" transform="rotate(-0 735.48 205.056391)">Outside: 102 judged · 27 unjudged</text>
+   </g>
+   <g id="2020-outside-judged">
+    <path d="M 735.48 250.841726 
+L 780.354 250.841726 
+L 780.354 264.872715 
+L 735.48 264.872715 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: #267786; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="2020-outside-unjudged">
+    <path d="M 780.354 250.841726 
+L 788.11 250.841726 
+L 788.11 264.872715 
+L 780.354 264.872715 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: url(#hccadd31ffd); stroke: #9f724c; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="2020-in-lexical-union">
+    <path d="M 788.11 250.841726 
+L 1034.64 250.841726 
+L 1034.64 264.872715 
+L 788.11 264.872715 
+z
+" clip-path="url(#pdba589cd2c)" style="fill: #dce3e7; stroke: #ffffff; stroke-width: 0.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_36">
+    <text style="fill: #243442; font: 700 11px 'DejaVu Sans'; text-anchor: start" x="735.48" y="239.764629" transform="rotate(-0 735.48 239.764629)">2020</text>
+   </g>
+   <g id="text_37">
+    <text style="fill: #243442; font: 10.5px 'DejaVu Sans'; text-anchor: end" x="1034.64" y="239.764629" transform="rotate(-0 1034.64 239.764629)">95 / 540 outside</text>
+   </g>
+   <g id="text_38">
+    <text style="fill: #586a78; font: 9.4px 'DejaVu Sans'; text-anchor: start" x="735.48" y="275.211339" transform="rotate(-0 735.48 275.211339)">Outside: 81 judged · 14 unjudged</text>
+   </g>
+   <g id="legend_2">
+    <g id="patch_8">
+     <path d="M 737.8668 143.797635 
+L 756.4668 143.797635 
+L 756.4668 137.287635 
+L 737.8668 137.287635 
+z
+" style="fill: #dce3e7"/>
+    </g>
+    <g id="text_39">
+     <text style="font: 9.3px 'DejaVu Sans'; text-anchor: start" x="763.9068" y="143.797635" transform="rotate(-0 763.9068 143.797635)">Already in the lexical union</text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="text_40">
+    <text style="fill: #243442; font: 700 10.8px 'DejaVu Sans'; text-anchor: start" x="722.52" y="345.78144" transform="rotate(-0 722.52 345.78144)">Queries with ≥1 judged specialist in each group</text>
+   </g>
+   <g id="text_41">
+    <text style="fill: #267786; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="871.56" y="384.21648" transform="rotate(-0 871.56 384.21648)">SPLADE++</text>
+   </g>
+   <g id="text_42">
+    <text style="fill: #243442; font: 700 10px 'DejaVu Sans'; text-anchor: middle" x="997.92" y="384.21648" transform="rotate(-0 997.92 384.21648)">Lexical pooled</text>
+   </g>
+   <g id="text_43">
+    <text style="fill: #243442; font: 11px 'DejaVu Sans'; text-anchor: start" x="722.52" y="414.41544" transform="rotate(-0 722.52 414.41544)">2019</text>
+   </g>
+   <g id="text_44">
+    <text style="fill: #267786; font: 700 17px 'DejaVu Sans'; text-anchor: middle" x="871.56" y="414.41544" transform="rotate(-0 871.56 414.41544)">19 / 43</text>
+   </g>
+   <g id="text_45">
+    <text style="fill: #243442; font: 700 17px 'DejaVu Sans'; text-anchor: middle" x="997.92" y="414.41544" transform="rotate(-0 997.92 414.41544)">1 / 43</text>
+   </g>
+   <g id="text_46">
+    <text style="fill: #243442; font: 11px 'DejaVu Sans'; text-anchor: start" x="722.52" y="452.85048" transform="rotate(-0 722.52 452.85048)">2020</text>
+   </g>
+   <g id="text_47">
+    <text style="fill: #267786; font: 700 17px 'DejaVu Sans'; text-anchor: middle" x="871.56" y="452.85048" transform="rotate(-0 871.56 452.85048)">22 / 54</text>
+   </g>
+   <g id="text_48">
+    <text style="fill: #243442; font: 700 17px 'DejaVu Sans'; text-anchor: middle" x="997.92" y="452.85048" transform="rotate(-0 997.92 452.85048)">2 / 54</text>
+   </g>
+  </g>
+  <g id="text_49">
+   <text style="fill: #243442; font: 700 23px 'DejaVu Sans'; text-anchor: start" x="37.8" y="36.1584" transform="rotate(-0 37.8 36.1584)">Judgment availability and candidate access</text>
+  </g>
+  <g id="text_50">
+   <text style="fill: #586a78; font: 11px 'DejaVu Sans'; text-anchor: start" x="37.8" y="65.6208" transform="rotate(-0 37.8 65.6208)">Cycle 02  |  TREC Deep Learning 2019–2020  |  Frozen full-list observation inventory</text>
+  </g>
+  <g id="text_51">
+   <text style="fill: #243442; font: 700 13px 'DejaVu Sans'; text-anchor: start" x="37.8" y="99.1008" transform="rotate(-0 37.8 99.1008)">A   Specialist candidates by owner and support</text>
+  </g>
+  <g id="text_52">
+   <text style="fill: #243442; font: 700 13px 'DejaVu Sans'; text-anchor: start" x="722.52" y="99.1008" transform="rotate(-0 722.52 99.1008)">B   Beyond the retained lexical rankings</text>
+  </g>
+  <g id="text_53">
+   <text style="fill: #586a78; font: 9.5px 'DejaVu Sans'; text-anchor: start" x="722.52" y="123.876" transform="rotate(-0 722.52 123.876)">SPLADE++ top10 against the original lexical full-list union</text>
+  </g>
+  <g id="text_54">
+   <text style="fill: #586a78; font: 9.7px 'DejaVu Sans'; text-anchor: start" x="37.8" y="531.6624" transform="rotate(-0 37.8 531.6624)">Judged means a recorded assessment exists, including grade 0. Judgment availability does not establish relevance.</text>
+  </g>
+  <g id="text_55">
+   <text style="fill: #586a78; font: 9.7px 'DejaVu Sans'; text-anchor: start" x="37.8" y="554.4288" transform="rotate(-0 37.8 554.4288)">Specialist: source top10 and absent from every other source’s top30. Tail supported: rank &gt;30 in another full list.</text>
+  </g>
+  <g id="text_56">
+   <text style="fill: #586a78; font: 9.7px 'DejaVu Sans'; text-anchor: start" x="37.8" y="577.1952" transform="rotate(-0 37.8 577.1952)">Full lists: four supplied lexical sources plus SPLADE++ top1000. All groups are fixed from these original lists.</text>
+  </g>
+  <g id="text_57">
+   <text style="fill: #586a78; font: 9.7px 'DejaVu Sans'; text-anchor: start" x="37.8" y="599.9616" transform="rotate(-0 37.8 599.9616)">Counts are query-document observations, not independent samples. Paired-query counts alone do not establish adequate precision.</text>
+  </g>
+  <g id="text_58">
+   <text style="fill: #6b7d89; font: 9px 'DejaVu Sans'; text-anchor: start" x="37.8" y="634.7808" transform="rotate(-0 37.8 634.7808)">Source: observations/summary.json  ·  Cycle02 observation inventory  ·  2026-09-10</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pdae76d9e8d">
+   <rect x="212.76" y="152.6688" width="428.76" height="321.408"/>
+  </clipPath>
+  <clipPath id="pdba589cd2c">
+   <rect x="735.48" y="156.6864" width="299.16" height="129.2328"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hccadd31ffd" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#dbac83"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #9f724c; stroke: #9f724c; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

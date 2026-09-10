@@ -32,6 +32,14 @@ consumed and acknowledged by the coordinator for the exact Claude session, as
 the read-only provider phases had no shell tool. No pending signals or active
 claims remain; no task-owned provider process remains running.
 
+Cycle02 additionally resumed the same native coordinator for one Fable5.1/Opus5
+observation review. Request16 returned its exact context marker; lifecycle
+seq17–19 records successful startup/completion/end. After reading the complete
+request and memo, Codex recorded Claude's requested ACK as seq20 on the exact
+native session. The final brief is clear: no pending signals or active claims,
+and the bounded provider process exited. [Cycle02 receipt](evidence/2026-09-10-cycle02-review-receipt.json).
+This is another verified manual resume, not an automatic listener.
+
 ## Commands
 
 From the repository root:

@@ -1,0 +1,68 @@
+{
+  "session_id": "baf23afa-0571-4efb-8326-6aded40006a4",
+  "request_marker": "cycle02-review-ac3932daca",
+  "mission_sha256": "c198a206014f04cd3143602ea12bdca51c7d9a5adf6869970d6a4df026d151db",
+  "exit_code": 0,
+  "timed_out": false,
+  "duration_seconds": 151.2,
+  "observed_models": [
+    "claude-fable-5-1",
+    "claude-opus-5"
+  ],
+  "agent_dispatch": [
+    {
+      "subagent_type": "ic-statistics",
+      "description": "Cycle02 identifiability check",
+      "run_in_background": false
+    }
+  ],
+  "native_result": {
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 8,
+    "total_cost_usd": 3.7525074999999997,
+    "modelUsage": {
+      "claude-fable-5-1": {
+        "inputTokens": 66,
+        "outputTokens": 6432,
+        "cacheReadInputTokens": 267130,
+        "cacheCreationInputTokens": 154435,
+        "webSearchRequests": 0,
+        "costUSD": 3.4777424999999997,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 2468,
+        "canonicalModel": "claude-fable-5-1",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5[1m]": {
+        "inputTokens": 8,
+        "outputTokens": 3384,
+        "cacheReadInputTokens": 53175,
+        "cacheCreationInputTokens": 26166,
+        "webSearchRequests": 0,
+        "costUSD": 0.27476500000000004,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 1443,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "session_id": "baf23afa-0571-4efb-8326-6aded40006a4"
+  },
+  "cost_note": "Native API list-price accounting; not a subscription invoice or allowance conversion.",
+  "limitations": [
+    "Read-only review; no Claude code edits or automatic wakeup.",
+    "Codex records requested ACK after exact request/review consumption.",
+    "Scientific recommendations were independently evaluated; some were rejected or corrected."
+  ],
+  "mission_artifact": "sha256:c198a206014f04cd3143602ea12bdca51c7d9a5adf6869970d6a4df026d151db",
+  "native_output_sha256": "43e1a1383a6a9203ec687a9228fad5e6241ba3a5fe86aed5d3cdbff93a4cdcf2",
+  "memo_sha256": "8a2630cb96462677b41c0e841a565c5a1990004123b284c53d11047d301770f4",
+  "reviewed_digest_sha256": "d84f21ba09c6e18a69ad7669f060e32b34b9ca84e75d1bd5774fb5b3d0bff88f",
+  "clarified_digest_sha256": "8c2b7d341e82b3c70537ead298dae27c46ae627e58dee4961eac6199986bdc54",
+  "digest_change": "Added explicit visible-only owner-summary label and source-summary identity; no counts changed."
+}

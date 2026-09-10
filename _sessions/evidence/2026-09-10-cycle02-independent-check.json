@@ -1,0 +1,350 @@
+{
+  "claims": [
+    "Every raw candidate matches its derived query/document/rank/score/source tuple and serialized order, including ties.",
+    "Independent serialization reconstructs both derived TREC byte hashes; raw bytes/hashes and URL identities match the frozen selection and source manifest.",
+    "Core observation counts were independently rebuilt from actual run IDs and qrel membership without importing production acquisition or observation code.",
+    "Both arms, fixed and visible cohorts, all owners, every query-level group denominator, and both-group/with-judgment eligibility match the published summary.",
+    "For every query, isolated new-source specialists equal new-source top10 outside the original lexical full union; this support label exactly encodes that candidate-access indicator within the new-source specialist cohort.",
+    "All start/end input, source, and output hashes in the observation manifest match the current artifacts."
+  ],
+  "conversion": {
+    "2019": {
+      "adjacent_score_ties": 1366,
+      "all_numeric_tuples_and_serialized_bytes_match": true,
+      "depth_max": 1000,
+      "depth_min": 1000,
+      "derived_bytes": 2411578,
+      "derived_sha256": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+      "queries_with_score_ties": 43,
+      "query_count": 43,
+      "raw_bytes": 19107545,
+      "raw_sha256": "8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831",
+      "row_count": 43000
+    },
+    "2020": {
+      "adjacent_score_ties": 1968,
+      "all_numeric_tuples_and_serialized_bytes_match": true,
+      "depth_max": 1000,
+      "depth_min": 1000,
+      "derived_bytes": 3034290,
+      "derived_sha256": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+      "queries_with_score_ties": 54,
+      "query_count": 54,
+      "raw_bytes": 23881164,
+      "raw_sha256": "ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5",
+      "row_count": 54000
+    }
+  },
+  "input_artifact_sha256": {
+    "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md": "737ad042308cd933d76a3e51f17a8db55b1c7e47eb2cff105202d99c2cc94c67",
+    "_sessions/local/cycle02/source-cache/8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831-retrieve_results_dl19_top1000.jsonl": "8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831",
+    "_sessions/local/cycle02/source-cache/ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5-retrieve_results_dl20_top1000.jsonl": "ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5",
+    "_sessions/tools/acquire_cycle02_source.py": "f060182fc7b7c6bf80ef328be344f98580a900ff16d142c841e0fb880ccd7e1d",
+    "_sessions/tools/check_cycle02_evidence.py": "889c811ad4fba4bb7f3783b74ff1888ca7226071835ce068600f5450a7dac00c",
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+    "data/cycle02/acquired/source-manifest.json": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+    "data/cycle02/source-selection.json": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "results/cycle02-2026-09-10/observations/manifest-start.json": "3126314504748b777bd5cd13829b45cbe768f10a7266479d4da60940ea760a13",
+    "results/cycle02-2026-09-10/observations/manifest.json": "74a41d2e96754cd658c8486b296a7a8e01691c4c6fa894a9f256b05d23da5bea",
+    "results/cycle02-2026-09-10/observations/per_query.json": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+    "results/cycle02-2026-09-10/observations/summary.json": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"
+  },
+  "input_artifacts_unchanged_during_check": true,
+  "limits": [
+    "No relevance grades, retrieval-effect metrics, or power claims were evaluated.",
+    "Provenance verification establishes agreement with the frozen metadata, not undocumented historical generation details.",
+    "Candidate-union/intersection and all source-depth judgment-coverage tables were outside this bounded count cross-check."
+  ],
+  "observations": {
+    "2019": {
+      "all_group_and_paired_eligibility_query_ids_match": true,
+      "all_per_query_group_denominators_match": true,
+      "eligible_queries": 43,
+      "isolated_new_source_equals_top10_outside_lexical_full_union_for_every_query": true,
+      "new_source_top10_outside_lexical_full_union": {
+        "full": {
+          "judged_fraction": 0.7906976744186046,
+          "n_candidates": 129,
+          "n_judged": 102,
+          "n_unjudged": 27
+        },
+        "shared_depth": {
+          "judged_fraction": 0.8015873015873016,
+          "n_candidates": 126,
+          "n_judged": 101,
+          "n_unjudged": 25
+        }
+      },
+      "shared_depth_max": 200,
+      "shared_depth_min": 5,
+      "specialist_counts_differing_from_full_fixed": {
+        "shared_depth/visible_only/splade_pp_ensemble_distil": {
+          "eligibility_queries": {
+            "with_both_groups": 20,
+            "with_candidates": 39,
+            "with_judged_both_groups": 19
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 126,
+              "judged": 101
+            },
+            "tail_supported": {
+              "candidates": 93,
+              "judged": 88
+            }
+          }
+        }
+      },
+      "specialist_counts_full_fixed": {
+        "bm25": {
+          "eligibility_queries": {
+            "with_both_groups": 0,
+            "with_candidates": 0,
+            "with_judged_both_groups": 0
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 0,
+              "judged": 0
+            },
+            "tail_supported": {
+              "candidates": 0,
+              "judged": 0
+            }
+          }
+        },
+        "bm25_tuned": {
+          "eligibility_queries": {
+            "with_both_groups": 0,
+            "with_candidates": 2,
+            "with_judged_both_groups": 0
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 0,
+              "judged": 0
+            },
+            "tail_supported": {
+              "candidates": 2,
+              "judged": 2
+            }
+          }
+        },
+        "pooled_lexical": {
+          "eligibility_queries": {
+            "with_both_groups": 5,
+            "with_candidates": 27,
+            "with_judged_both_groups": 1
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 7,
+              "judged": 1
+            },
+            "tail_supported": {
+              "candidates": 95,
+              "judged": 26
+            }
+          }
+        },
+        "ql_dirichlet": {
+          "eligibility_queries": {
+            "with_both_groups": 2,
+            "with_candidates": 23,
+            "with_judged_both_groups": 1
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 3,
+              "judged": 1
+            },
+            "tail_supported": {
+              "candidates": 68,
+              "judged": 19
+            }
+          }
+        },
+        "splade_pp_ensemble_distil": {
+          "eligibility_queries": {
+            "with_both_groups": 20,
+            "with_candidates": 39,
+            "with_judged_both_groups": 19
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 129,
+              "judged": 102
+            },
+            "tail_supported": {
+              "candidates": 93,
+              "judged": 88
+            }
+          }
+        },
+        "tfidf": {
+          "eligibility_queries": {
+            "with_both_groups": 1,
+            "with_candidates": 13,
+            "with_judged_both_groups": 0
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 4,
+              "judged": 0
+            },
+            "tail_supported": {
+              "candidates": 25,
+              "judged": 5
+            }
+          }
+        }
+      },
+      "specialist_counts_identical_across_arms_and_visibility": false
+    },
+    "2020": {
+      "all_group_and_paired_eligibility_query_ids_match": true,
+      "all_per_query_group_denominators_match": true,
+      "eligible_queries": 54,
+      "isolated_new_source_equals_top10_outside_lexical_full_union_for_every_query": true,
+      "new_source_top10_outside_lexical_full_union": {
+        "full": {
+          "judged_fraction": 0.8526315789473684,
+          "n_candidates": 95,
+          "n_judged": 81,
+          "n_unjudged": 14
+        },
+        "shared_depth": {
+          "judged_fraction": 0.8526315789473684,
+          "n_candidates": 95,
+          "n_judged": 81,
+          "n_unjudged": 14
+        }
+      },
+      "shared_depth_max": 200,
+      "shared_depth_min": 28,
+      "specialist_counts_differing_from_full_fixed": {},
+      "specialist_counts_full_fixed": {
+        "bm25": {
+          "eligibility_queries": {
+            "with_both_groups": 0,
+            "with_candidates": 0,
+            "with_judged_both_groups": 0
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 0,
+              "judged": 0
+            },
+            "tail_supported": {
+              "candidates": 0,
+              "judged": 0
+            }
+          }
+        },
+        "bm25_tuned": {
+          "eligibility_queries": {
+            "with_both_groups": 0,
+            "with_candidates": 3,
+            "with_judged_both_groups": 0
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 0,
+              "judged": 0
+            },
+            "tail_supported": {
+              "candidates": 3,
+              "judged": 2
+            }
+          }
+        },
+        "pooled_lexical": {
+          "eligibility_queries": {
+            "with_both_groups": 2,
+            "with_candidates": 35,
+            "with_judged_both_groups": 2
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 4,
+              "judged": 2
+            },
+            "tail_supported": {
+              "candidates": 120,
+              "judged": 54
+            }
+          }
+        },
+        "ql_dirichlet": {
+          "eligibility_queries": {
+            "with_both_groups": 1,
+            "with_candidates": 30,
+            "with_judged_both_groups": 1
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 1,
+              "judged": 1
+            },
+            "tail_supported": {
+              "candidates": 80,
+              "judged": 36
+            }
+          }
+        },
+        "splade_pp_ensemble_distil": {
+          "eligibility_queries": {
+            "with_both_groups": 23,
+            "with_candidates": 49,
+            "with_judged_both_groups": 22
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 95,
+              "judged": 81
+            },
+            "tail_supported": {
+              "candidates": 121,
+              "judged": 119
+            }
+          }
+        },
+        "tfidf": {
+          "eligibility_queries": {
+            "with_both_groups": 1,
+            "with_candidates": 22,
+            "with_judged_both_groups": 1
+          },
+          "groups": {
+            "isolated": {
+              "candidates": 3,
+              "judged": 1
+            },
+            "tail_supported": {
+              "candidates": 37,
+              "judged": 16
+            }
+          }
+        }
+      },
+      "specialist_counts_identical_across_arms_and_visibility": true
+    }
+  },
+  "schema_version": 1,
+  "source_id": "splade_pp_ensemble_distil",
+  "status": "verified",
+  "verification_date": "2026-09-10"
+}

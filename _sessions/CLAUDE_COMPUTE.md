@@ -19,6 +19,15 @@ IDs were again observed. It took 324.9 seconds with $2.318103 native list-price
 accounting; the two research phases total $5.29422225 on that basis.
 [Results receipt](evidence/2026-09-10-cycle01-review-receipt.json)
 
+Cycle02 resumed the same coordinator with one Opus scout and Fable synthesis.
+Native output again confirms both IDs; the phase completed in 151.2 seconds,
+with $3.7525075 native list-price accounting. This approached its $4 invocation
+cap, largely through coordinator context/cache accounting; no additional review
+wave was needed. Scientific recommendations were checked independently, and
+missing-label bounds were corrected before adoption.
+[Cycle02 receipt](evidence/2026-09-10-cycle02-review-receipt.json),
+[integration](cycles/2026-09-10-cycle02-review-integration.md).
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome

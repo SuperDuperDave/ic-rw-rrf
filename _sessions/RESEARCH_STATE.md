@@ -17,6 +17,36 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle02: the specialist association is observable, its mechanism is not isolated
+
+The [cycle02 report](../results/cycle02-2026-09-10/REPORT.md) is the latest
+checkpoint. A pinned SPLADE++ neural sparse source adds 97,000 numeric rankings
+across the same 43/54 queries. Both raw hashes and all converted tuples were
+independently verified. Selection followed a three-family access/provenance
+inventory before measuring coverage. Historical inputs and cycle01 outputs
+remain unchanged.
+
+For SPLADE specialists, 19/43 and 22/54 queries have judged members in both
+support groups, versus 1/43 and 2/54 for pooled lexical owners in this new
+five-source inventory. Judgedness is not relevance. Isolated SPLADE specialists
+are exactly the source top10 outside the retained lexical full union, so support
+and that access indicator are perfectly coupled. Equalizing depth changes only
+SPLADE and changes every query's candidate set. These are observation results;
+no relevance or fusion effects were computed.
+
+A resumed Fable5.1 coordinator and one Opus5 scout prompted a useful distinction:
+a descriptive relevance association can still be measured. We corrected its
+missing-label bounds, unsupported RRF-derived threshold, and overly strong
+uniqueness language; see [review integration](cycles/2026-09-10-cycle02-review-integration.md).
+
+**Next:** PLANNING R6 / [cycle03 protocol](cycles/2026-09-10-cycle03-specialist-association-protocol.md).
+Implement synthetic sharp-bound checks before looking at actual outcomes. Use
+all 20/23 candidate-paired queries, fixed full-arm cohorts, opposite missing-label
+assignments, equal-query estimates, and separate-year bootstrap envelopes.
+Delta=.10 is an explicit research resource threshold, not a performance claim.
+The protocol chooses between a later fusion-contribution test and the controlled
+known-truth branch; it has not run. No new selector or method is promoted.
+
 ## Cycle01 evidence and change of direction
 
 - **H1 bounded:** canonical n6 k60=.4072603, training-selected k=.4273351.

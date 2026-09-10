@@ -1,11 +1,11 @@
 # Recursive phase-space research — 2026-09-10
 
 ## Resume
-- Goal: autonomous, curiosity-led research with Codex and Claude; first meaningful evidence checkpoint.
-- Now: first autonomous research cycle complete at a reproducible findings checkpoint. Geometry and tail experiments, two native Claude phases, independent audits, report, figure, and case-study update are done.
-- Next: PLANNING R3 → cycles/cycle02-source-feasibility.md. Begin with source access and observation eligibility, not another existing-panel k sweep.
-- In flight: none. All task workers and the final report audit completed; no provider process or unconsumed Relay request remains. Native coordinator session baf23afa-0571-4efb-8326-6aded40006a4 remains available for deliberate resume on this host.
-- Preserve: previous restart changes and five May probes; historical inputs remain frozen in restart receipt.
+- Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
+- Now: cycle02 source/observation research is complete at this commit; the coordinator verifies its GitHub push before reporting completion. Cycle01 is preserved at56e089c.
+- Next: PLANNING R6 / cycle03 specialist-association protocol. Implement synthetic sharp missing-label bound tests before examining actual relevance outcomes; then run one frozen association analysis and its branch decision.
+- In flight: no provider or worker remains active. Relay request16 consumed and coordinator-ACKed as20 for native Claude session baf23afa-0571-4efb-8326-6aded40006a4; final brief clear. The session remains available for deliberate future resume.
+- Preserve: historical inputs and cycle01 evidence, frozen cycle02 source selection/protocol/code/manifests, numeric runs, and observation results. Raw source text and provider transcripts remain ignored.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -65,3 +65,29 @@ Read-only review found no private runtime/transcript/credential files in scope;
 check receipts retain their original contents and describe their run-time state.
 Git commit metadata and remote verification provide the preservation receipt.
 The next research action remains PLANNING R3 / cycle02 source feasibility.
+
+## Cycle02 — source and observation feasibility
+
+- Selected SPLADE++ EnsembleDistil after a three-family access/provenance inventory. TCT-ColBERT-v2 lacked a small cached artifact in the checked route; IDST BERT's official raw run returned401 and cross-year continuity was not established. No selection by comparative relevance outcomes.
+- Frozen observation protocol: cycles/2026-09-10-cycle02-observation-protocol.md; pinned metadata: data/cycle02/source-selection.json. Two raw inputs total42,988,709 expected bytes and have published LFS SHA256 identities. No model, index, or corpus generation is needed.
+- Code ownership: source_access owns acquisition utility/tests; observation_audit owns observation utility/tests; coordinator owns source files, protocols, review, and synthesis. Raw passage/query text stays ignored; durable ranking outputs contain IDs/ranks/scores only.
+- Fixed original-full specialist cohort remains fixed under the common-depth arm. Explicit grade0 is judged; unjudged remains missing. This phase measures observability/candidate access, not NDCG or specialist correctness.
+
+## Cycle02 evidence, critique, and checkpoint
+
+- Both selected raw files verified their frozen SHA256s and sizes. Conversion emitted43,000/54,000 one-based numeric ranking rows, exactly1,000 perquery. An independent implementation reconstructed all97,000 tuples and both output byte hashes, including ties.
+- All43/54 qrel queries remained eligible. Full-arm SPLADE specialists: tail-supported88/93 judged and isolated102/129 in2019;119/121 and81/95 in2020. Both-group judged queries19/43 and22/54; pooled lexical1/43 and2/54. These are membership counts, not relevance rates.
+- SPLADE isolation equals its original top10 outside the lexical full union, query by query. A support comparison cannot separate access to retained candidates, although a descriptive relevance association remains measurable. Upstream-pool absence and independent expertise were not established.
+- Shared depth changes only SPLADE and changes candidate unions for every query. In2019 it hides three isolated SPLADE specialists, one judged; fixed cohorts/labels remain unchanged and the19 paired-judgment queries persist.
+- Same Claude session resumed with one Fable5.1 coordinator and one Opus5 scout: success in151.2 seconds, native list-price accounting$3.7525075. Native IDs observed; Relay request16 marker returned, exact ACK20 coordinator-recorded after full request/review consumption. No provider edits or automatic listener were implied.
+- Accepted a narrower descriptive relevance test instead of abandoning this observation panel. Corrected digest cohort-label ambiguity with no numerical changes. Rejected same-value missing-label bounds, a relevance-gap threshold supposedly implied by rank-onlyRRF, and “only neural could retrieve” wording. Integration note owns details.
+- Prospective cycle03 protocol uses20/23 candidate-paired queries, full-arm SPLADE specialists, opposite-group missing assignments, equal-query sharp intervals and paired bootstrap envelopes, fixed primary/sensitivity outcomes, and explicit delta=.10 resource gate. Independent synthetic reasoning verified its math and clarified exact query order/resampling. No new relevance grades or effects were analyzed.
+- Figure, report, public brief, phase map, and backlog updated. R3 is complete; R6 is next; R5 remains the controlled known-truth fallback. Website publication remains with the separate task.
+- Verification:38 research tests and29 helper/acquisition tests pass. Independent conversion/group-count receipt matches all declared source/input/output hashes. Final custody/link/privacy checks are recorded in evidence/2026-09-10-cycle02-checks.json. Numerical artifacts and historical inputs remain unchanged.
+- Ratchet: F11 now has outcome evidence from actual feasibility-first use; F13 promotes sharp missing-label bounds before effect analysis; F14 removes an ambiguous presentation label. Transient navigation/patch retries need no new framework (DROP).
+
+## Current carryforward
+
+- R6 / cycle03 protocol is the first action; do not rerun cycle01 or retune this panel at startup.
+- R1 retains unrelated metric/regeneration maintenance; R2/R4 performance promotion stays parked.
+- Keep the same coordinating stream on resume. No pending user approval or external dependency blocks the next local implementation.

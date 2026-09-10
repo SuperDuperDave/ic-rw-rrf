@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-10",
+  "durable_artifact_sha256": {
+    "_sessions/evidence/2026-09-10-cycle02-independent-check.json": "f4727d7137ef70ee97a56c5155b0a717a15e332a6714351d83ddaaa5b52fb371",
+    "_sessions/evidence/2026-09-10-cycle02-review-receipt.json": "bce9ef6f43e897b134a91c5068fe219d4db450f11ad3b90714d40251bfd1b478",
+    "_sessions/tools/acquire_cycle02_source.py": "f060182fc7b7c6bf80ef328be344f98580a900ff16d142c841e0fb880ccd7e1d",
+    "_sessions/tools/check_cycle02_evidence.py": "889c811ad4fba4bb7f3783b74ff1888ca7226071835ce068600f5450a7dac00c",
+    "_sessions/tools/tests/test_acquire_cycle02_source.py": "fc8dcb508e5b67bc656c82bc96e471a10dde09ad4112165be025b71203ca7795",
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+    "data/cycle02/acquired/source-manifest.json": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+    "data/cycle02/source-selection.json": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "evaluation/tests/test_cycle02_observation_audit.py": "676c624f2cf80389ae1c78325a08199a4bbc4051272841f94f7e2e01cae78381",
+    "results/cycle02-2026-09-10/observation-digest.json": "8c2b7d341e82b3c70537ead298dae27c46ae627e58dee4961eac6199986bdc54",
+    "results/cycle02-2026-09-10/observations.png": "62168ee8365e00b5ac8e72d6cddee793147f56f6191245d87870df0ebf5793ee",
+    "results/cycle02-2026-09-10/observations.svg": "fc1807b4927fade59e454c2c0a094bb5134d8c1c82796349555159dd7880cadd",
+    "results/cycle02-2026-09-10/observations/manifest-start.json": "3126314504748b777bd5cd13829b45cbe768f10a7266479d4da60940ea760a13",
+    "results/cycle02-2026-09-10/observations/manifest.json": "74a41d2e96754cd658c8486b296a7a8e01691c4c6fa894a9f256b05d23da5bea",
+    "results/cycle02-2026-09-10/observations/per_query.json": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+    "results/cycle02-2026-09-10/observations/summary.json": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab",
+    "results/cycle02-2026-09-10/plot_observations.py": "3820235cf524c6e34f5b778759d121b72f9b73a3b796f43327ca7e4ce3935ebe"
+  },
+  "git_parent": "56e089cb5b6cfc2bcc353b1b5cc32e876a7ff707",
+  "limits": [
+    "No cycle02 relevance grades/effects evaluated.",
+    "Cycle03 is a prospective protocol only; no outcome analysis run.",
+    "Commit and remote identity are verified separately by Git after this receipt."
+  ],
+  "prospective_cycle03_protocol_sha256": "ad99ecf75bc952ff3ee73a3bd2f42f77ed08c58bbcf41151ccbaf46bb5982f5c",
+  "status": "passed",
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s evaluation/tests -v",
+      "passed": 38
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -v",
+      "passed": 29
+    }
+  ],
+  "verification": {
+    "active_local_markdown_links_checked": 87,
+    "coordinator_candidate_checks": {
+      "query_arm_records": 194,
+      "scope": "union/intersection, retained lexical union, outside candidates, every source depth/cutoff judgment count, all pairwise source overlaps; independent from production audit"
+    },
+    "digest": "visible-only label explicit; source summary hash matches",
+    "figure": "PNG/SVG metadata matches frozen plotted counts and script/source hashes; visually inspected",
+    "frozen_observation_custody": "all input/source/output hashes match",
+    "historical_inputs_and_cycle01_outputs_unmodified": true,
+    "independent_conversion_and_specialist_counts": "see independent-check receipt;97000 tuples",
+    "missing_local_links": [],
+    "provider": "bounded review exited0 successfully; no task-owned provider process remains",
+    "raw_source_and_provider_runtime_ignored": true,
+    "relay": "request16 consumed; coordinator ACK20; final Claude brief no pending signals or claims",
+    "staged_diff_whitespace": {
+      "all_other_staged_paths": "passed",
+      "reason": "Matplotlib-generated SVG path-coordinate line endings; preserve emitted artifact hash.",
+      "reviewed_exception": "results/cycle02-2026-09-10/observations.svg",
+      "trailing_whitespace_lines": 176
+    }
+  }
+}

@@ -14,6 +14,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/CLAUDE_COMPUTE.md` | Verified Fable5.1/Opus5 roles, phased orchestration, actual usage receipts |
 | `_sessions/cycles/` | Frozen experiment protocols, checked sources, and qualified Claude review memos |
 | `_sessions/tools/session.py` | Portable status and exclusive-create stream helper |
+| `_sessions/tools/check_cycle02_evidence.py` | Independent raw-to-TREC and per-query observation reconstruction; raw ignored cache required |
+| `_sessions/tools/acquire_cycle02_source.py` | Bounded checksum-verified external retrieval acquisition; strips passage/query text from durable ranks |
 | `_sessions/RELAY.md`, `_sessions/tools/relay.py` | Installed Relay integration and invocation-only Claude launch |
 | `_sessions/FRICTION.md` | Process fixes and unresolved recurring obstacles |
 | `README.md` | Public research introduction and historical result tables |
@@ -21,11 +23,13 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `evaluation/trec_eval_harness.py` | Shared run/qrel parsing, metrics, RRF and v2–v5 implementations, demo, evaluation CLI |
 | `evaluation/fusion_contract.py` | Canonical one-based RRF, exact asymptotic ordering, exact-duplicate quotient |
 | `evaluation/cycle01_rank_geometry.py`, `evaluation/cycle01_tail_evidence.py` | Reproducible geometry/selection and depth/specialist evidence experiments |
+| `evaluation/cycle02_observation_audit.py` | Candidate and judgment-availability inventory; fixed specialist cohort under cropping |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |
 | `data/trec-dl-2019/` | Qrels and seven included generated ranker runs |
 | `data/trec-dl-2020/` | Qrels and four included generated ranker runs |
+| `data/cycle02/` | Pinned SPLADE++ source selection, provenance, derived numeric ranks and acquisition manifest |
 | `diagnostics/` | Synthetic mechanism checks for DGAF and v4 variants |
 | `spec/IC-RW-RRF-v3.0-DGAF.md` | Per-document gating specification |
 | `spec/IC-RW-RRF-v4.0-SOFT-ROUTED.md`, `spec/IC-RW-RRF-v4.1-SIGNAL-REFINED.md` | Soft routing and its refinements/failure record |
@@ -37,6 +41,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `results/v7.0-pqas-results.md` | PQAS CV/transfer evidence; comparator and selection caveats matter |
 | `results/cycle01-2026-09-10/REPORT.md` | First autonomous cycle's current findings and research pivot |
 | `results/cycle01-2026-09-10/geometry/`, `results/cycle01-2026-09-10/tail/` | Immutable numerical evidence, per-query outputs, and provenance manifests |
+| `results/cycle02-2026-09-10/REPORT.md` | Source feasibility result, exportable figure, support/access distinction, and next decision |
+| `results/cycle02-2026-09-10/observations/` | Frozen judgment-membership/candidate inventory and input/output hashes |
 
 ## Experimental families
 
@@ -66,7 +72,7 @@ September restart**. A filename mentioning v8/v9 is not a shipped version.
 - `streams/2026-09-10-001-project-restart.md`: workflow adoption, Relay enrollment,
   research audit, verification, and current handoff.
 - `streams/2026-09-10-002-recursive-phase-space.md`: autonomous charter, native
-  Claude phases, geometry/tail experiments, and first research checkpoint.
+  Claude phases, geometry/tail experiments, source acquisition/observation, and ongoing checkpoints.
 
 ## Verified entry points
 

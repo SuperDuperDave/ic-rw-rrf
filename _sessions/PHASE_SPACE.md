@@ -26,7 +26,7 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H1 | `[observed, narrow]` n6 gain survives; 2019 aggregate remains uncertain and both n4 annual transfers lose | Park further existing-panel tuning; untouched diverse inputs would test transfer |
 | H2 | `[supported in scope]` Depth changes the k effect; smoothing does not provide clone invariance | Separate lost candidates from changed support before attributing the gain to tail corroboration; equal-depth arm had no treatment |
 | H3 | `[structural]` Exact-source-copy invariance is a useful diagnostic, not a quality guarantee | Distinguish actual copies from independent sources with similar outputs using provenance/controlled dependence |
-| H4 | `[open]` Agreement alone cannot identify correctness in rank-isomorphic worlds; real tail evidence is too sparsely judged | A feasible observation plan with known truth or sufficient group judgments must precede another specialist gate |
+| H4 | `[observable association, mechanism open]` SPLADE supplies judged specialist pairs; support and retained lexical candidate access coincide for its specialists | Cycle03 bounds the full-cohort relevance association with missing labels; a positive association still does not establish fusion value or independent evidence |
 | H5 | `[open, broader branch]` Agent agreement may have a related dependence problem | Define an agent task, independent unit, matched resource budget, and correlated-error metric; retrieval results do not establish the analogy |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
@@ -51,3 +51,14 @@ found relevant prior work; it does not constitute novelty clearance.
   independence or correctness. [Cycle02](cycles/cycle02-source-feasibility.md)
   begins with access and observation feasibility. Existing-panel k sweeps are
   parked. A controlled agent-evidence branch remains separate and untested.
+
+- **Cycle02 observation:** SPLADE top10 is mostly judged, with19/22 queries
+  judged in both specialist groups. The source's isolation is exactly absence
+  from the retained lexical union; equal depths do not separate access/support.
+  More observation reveals a definitional coupling, not just a label shortage.
+- **Cycle02 critique:** retain one descriptive association measurement before
+  changing laboratories. Correct missing-label bounds and define an explicit
+  resource threshold. [Cycle03](cycles/2026-09-10-cycle03-specialist-association-protocol.md)
+  uses20/23 candidate-paired queries and can end inconclusively; H5 remains the
+  alternate branch. Neither a judged document nor an association is a proven
+  useful specialist.

@@ -1,0 +1,57 @@
+{
+  "command": "/usr/bin/python3 /home/david-wsl/repos/ic-rw-rrf/_sessions/tools/acquire_cycle02_source.py --selection /home/david-wsl/repos/ic-rw-rrf/data/cycle02/source-selection.json --cache-dir /home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle02/source-cache --output /home/david-wsl/repos/ic-rw-rrf/data/cycle02/acquired",
+  "dataset_id": "castorini/rank_llm_data",
+  "dataset_revision": "39db0a25a552dd2a12012df22029686bf7fdc050",
+  "derived_runs": [
+    {
+      "adjacent_score_ties": 1366,
+      "bytes": 2411578,
+      "depth_max": 1000,
+      "depth_min": 1000,
+      "path": "data/cycle02/acquired/dl2019.trec",
+      "queries_with_score_ties": 43,
+      "query_count": 43,
+      "rank_origin": 1,
+      "row_count": 43000,
+      "sha256": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+      "tie_policy": "preserve candidate array order",
+      "year": 2019
+    },
+    {
+      "adjacent_score_ties": 1968,
+      "bytes": 3034290,
+      "depth_max": 1000,
+      "depth_min": 1000,
+      "path": "data/cycle02/acquired/dl2020.trec",
+      "queries_with_score_ties": 54,
+      "query_count": 54,
+      "rank_origin": 1,
+      "row_count": 54000,
+      "sha256": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+      "tie_policy": "preserve candidate array order",
+      "year": 2020
+    }
+  ],
+  "original_inputs": [
+    {
+      "bytes": 19107545,
+      "cache_reused": false,
+      "filename": "retrieve_results_dl19_top1000.jsonl",
+      "sha256": "8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_dl19_top1000.jsonl",
+      "year": 2019
+    },
+    {
+      "bytes": 23881164,
+      "cache_reused": false,
+      "filename": "retrieve_results_dl20_top1000.jsonl",
+      "sha256": "ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_dl20_top1000.jsonl",
+      "year": 2020
+    }
+  ],
+  "schema_version": 1,
+  "script_sha256": "f060182fc7b7c6bf80ef328be344f98580a900ff16d142c841e0fb880ccd7e1d",
+  "selection_sha256": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+  "source_id": "splade_pp_ensemble_distil"
+}

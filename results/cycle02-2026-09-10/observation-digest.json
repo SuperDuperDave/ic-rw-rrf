@@ -1,0 +1,1196 @@
+{
+  "definitions": {
+    "eligible_queries": "qrel queries with a nonempty run from every one of the five sources",
+    "full_arm": "four complete supplied lexical lists plus the selected source top1000",
+    "judged": "qrel document membership, including explicit grade zero; grades are discarded",
+    "outside_candidates": "new-source documents outside the original lexical full-list union in both arms",
+    "paired_observability": "intersection of visible-only query eligibility across arms; no effect contrast",
+    "pooled_counts": "query-document counts, not independent document samples or mean per-query fractions",
+    "shared_depth_arm": "all five full-arm lists cropped to Dq=min(200,minimum full-arm source length)",
+    "specialist": "fixed original full-arm owner top10 and absent every other original full-arm top30",
+    "support_group": "tail_supported iff any other original full-arm source rank>30; otherwise isolated",
+    "visible_only": "fixed-cohort members still present in their owning source for the specified arm"
+  },
+  "derived_from": "observations/summary.json; presentation extract only",
+  "limits": [
+    "Judgment coverage is potentially nonrandom and cannot establish relevance or comparative retrieval quality.",
+    "Query counts and judged fractions alone do not establish precision or sample-size adequacy.",
+    "The two depth arms reuse queries and documents and are not independent samples.",
+    "These previously explored annual panels are not untouched evaluation data."
+  ],
+  "owner_summary_cohort": "visible_only; original full-list cohort annotated with per-arm owner visibility",
+  "source_id": "splade_pp_ensemble_distil",
+  "source_summary_sha256": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab",
+  "years": {
+    "2019": {
+      "arms": {
+        "full": {
+          "candidate_counts": {
+            "candidate_intersection": {
+              "judged_fraction": 0.6251370113262696,
+              "n_candidates": 2737,
+              "n_judged": 1711,
+              "n_unjudged": 1026
+            },
+            "candidate_union": {
+              "judged_fraction": 0.11044811507152454,
+              "n_candidates": 50612,
+              "n_judged": 5590,
+              "n_unjudged": 45022
+            },
+            "lexical_candidate_intersection": {
+              "judged_fraction": 0.44566010211524437,
+              "n_candidates": 4113,
+              "n_judged": 1833,
+              "n_unjudged": 2280
+            },
+            "lexical_candidate_union": {
+              "judged_fraction": 0.2369783959751406,
+              "n_candidates": 13516,
+              "n_judged": 3203,
+              "n_unjudged": 10313
+            },
+            "new_source_outside_active_lexical_union": {
+              "judged_fraction": 0.06434656027604055,
+              "n_candidates": 37096,
+              "n_judged": 2387,
+              "n_unjudged": 34709
+            },
+            "new_source_outside_lexical_full_union": {
+              "judged_fraction": 0.06434656027604055,
+              "n_candidates": 37096,
+              "n_judged": 2387,
+              "n_unjudged": 34709
+            },
+            "new_source_outside_only_due_to_lexical_cropping": {
+              "judged_fraction": null,
+              "n_candidates": 0,
+              "n_judged": 0,
+              "n_unjudged": 0
+            }
+          },
+          "new_source_judgment_coverage": {
+            "top10": {
+              "judged_fraction": 0.9255813953488372,
+              "n_candidates": 430,
+              "n_judged": 398,
+              "n_unjudged": 32
+            },
+            "top100": {
+              "judged_fraction": 0.5204651162790698,
+              "n_candidates": 4300,
+              "n_judged": 2238,
+              "n_unjudged": 2062
+            },
+            "top30": {
+              "judged_fraction": 0.8031007751937984,
+              "n_candidates": 1290,
+              "n_judged": 1036,
+              "n_unjudged": 254
+            },
+            "whole_source": {
+              "judged_fraction": 0.11955813953488371,
+              "n_candidates": 43000,
+              "n_judged": 5141,
+              "n_unjudged": 37859
+            }
+          },
+          "new_source_top10_outside_lexical_full_union": {
+            "judged_fraction": 0.7906976744186046,
+            "n_candidates": 129,
+            "n_judged": 102,
+            "n_unjudged": 27
+          },
+          "owners": {
+            "new_source": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 20,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1103812",
+                    "1106007",
+                    "1112341",
+                    "1114646",
+                    "1121402",
+                    "1129237",
+                    "1133167",
+                    "148538",
+                    "168216",
+                    "264014",
+                    "443396",
+                    "451602",
+                    "489204",
+                    "833860",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 39,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1103812",
+                    "1106007",
+                    "1110199",
+                    "1112341",
+                    "1113437",
+                    "1114646",
+                    "1114819",
+                    "1115776",
+                    "1117099",
+                    "1121402",
+                    "1121709",
+                    "1124210",
+                    "1129237",
+                    "1133167",
+                    "131843",
+                    "146187",
+                    "148538",
+                    "156493",
+                    "168216",
+                    "183378",
+                    "19335",
+                    "264014",
+                    "405717",
+                    "443396",
+                    "451602",
+                    "47923",
+                    "489204",
+                    "490595",
+                    "527433",
+                    "573724",
+                    "833860",
+                    "855410",
+                    "87181",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 19,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1106007",
+                    "1112341",
+                    "1114646",
+                    "1121402",
+                    "1129237",
+                    "1133167",
+                    "148538",
+                    "168216",
+                    "264014",
+                    "443396",
+                    "451602",
+                    "489204",
+                    "833860",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.7906976744186046,
+                  "n_candidates": 129,
+                  "n_judged": 102,
+                  "n_queries_with_candidates": 30,
+                  "n_queries_with_judgments": 27,
+                  "n_unjudged": 27
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.946236559139785,
+                  "n_candidates": 93,
+                  "n_judged": 88,
+                  "n_queries_with_candidates": 29,
+                  "n_queries_with_judgments": 28,
+                  "n_unjudged": 5
+                }
+              }
+            },
+            "pooled_lexical": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 5,
+                  "qids": [
+                    "1112341",
+                    "130510",
+                    "183378",
+                    "19335",
+                    "443396"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 27,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1103812",
+                    "1106007",
+                    "1110199",
+                    "1112341",
+                    "1113437",
+                    "1114646",
+                    "1114819",
+                    "1115776",
+                    "1121402",
+                    "1124210",
+                    "1129237",
+                    "130510",
+                    "148538",
+                    "156493",
+                    "183378",
+                    "19335",
+                    "207786",
+                    "264014",
+                    "443396",
+                    "47923",
+                    "490595",
+                    "527433",
+                    "833860",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 1,
+                  "qids": [
+                    "19335"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.14285714285714285,
+                  "n_candidates": 7,
+                  "n_judged": 1,
+                  "n_queries_with_candidates": 5,
+                  "n_queries_with_judgments": 1,
+                  "n_unjudged": 6
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.2736842105263158,
+                  "n_candidates": 95,
+                  "n_judged": 26,
+                  "n_queries_with_candidates": 27,
+                  "n_queries_with_judgments": 15,
+                  "n_unjudged": 69
+                }
+              }
+            }
+          }
+        },
+        "shared_depth": {
+          "candidate_counts": {
+            "candidate_intersection": {
+              "judged_fraction": 0.7709130672498633,
+              "n_candidates": 1829,
+              "n_judged": 1410,
+              "n_unjudged": 419
+            },
+            "candidate_union": {
+              "judged_fraction": 0.2307486773900497,
+              "n_candidates": 18713,
+              "n_judged": 4318,
+              "n_unjudged": 14395
+            },
+            "lexical_candidate_intersection": {
+              "judged_fraction": 0.44566010211524437,
+              "n_candidates": 4113,
+              "n_judged": 1833,
+              "n_unjudged": 2280
+            },
+            "lexical_candidate_union": {
+              "judged_fraction": 0.2369783959751406,
+              "n_candidates": 13516,
+              "n_judged": 3203,
+              "n_unjudged": 10313
+            },
+            "new_source_outside_active_lexical_union": {
+              "judged_fraction": 0.21454685395420434,
+              "n_candidates": 5197,
+              "n_judged": 1115,
+              "n_unjudged": 4082
+            },
+            "new_source_outside_lexical_full_union": {
+              "judged_fraction": 0.21454685395420434,
+              "n_candidates": 5197,
+              "n_judged": 1115,
+              "n_unjudged": 4082
+            },
+            "new_source_outside_only_due_to_lexical_cropping": {
+              "judged_fraction": null,
+              "n_candidates": 0,
+              "n_judged": 0,
+              "n_unjudged": 0
+            }
+          },
+          "new_source_judgment_coverage": {
+            "top10": {
+              "judged_fraction": 0.9294117647058824,
+              "n_candidates": 425,
+              "n_judged": 395,
+              "n_unjudged": 30
+            },
+            "top100": {
+              "judged_fraction": 0.5393529695799131,
+              "n_candidates": 4142,
+              "n_judged": 2234,
+              "n_unjudged": 1908
+            },
+            "top30": {
+              "judged_fraction": 0.8166007905138339,
+              "n_candidates": 1265,
+              "n_judged": 1033,
+              "n_unjudged": 232
+            },
+            "whole_source": {
+              "judged_fraction": 0.38243144867750545,
+              "n_candidates": 8242,
+              "n_judged": 3152,
+              "n_unjudged": 5090
+            }
+          },
+          "new_source_top10_outside_lexical_full_union": {
+            "judged_fraction": 0.8015873015873016,
+            "n_candidates": 126,
+            "n_judged": 101,
+            "n_unjudged": 25
+          },
+          "owners": {
+            "new_source": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 20,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1103812",
+                    "1106007",
+                    "1112341",
+                    "1114646",
+                    "1121402",
+                    "1129237",
+                    "1133167",
+                    "148538",
+                    "168216",
+                    "264014",
+                    "443396",
+                    "451602",
+                    "489204",
+                    "833860",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 39,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1103812",
+                    "1106007",
+                    "1110199",
+                    "1112341",
+                    "1113437",
+                    "1114646",
+                    "1114819",
+                    "1115776",
+                    "1117099",
+                    "1121402",
+                    "1121709",
+                    "1124210",
+                    "1129237",
+                    "1133167",
+                    "131843",
+                    "146187",
+                    "148538",
+                    "156493",
+                    "168216",
+                    "183378",
+                    "19335",
+                    "264014",
+                    "405717",
+                    "443396",
+                    "451602",
+                    "47923",
+                    "489204",
+                    "490595",
+                    "527433",
+                    "573724",
+                    "833860",
+                    "855410",
+                    "87181",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 19,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1063750",
+                    "1106007",
+                    "1112341",
+                    "1114646",
+                    "1121402",
+                    "1129237",
+                    "1133167",
+                    "148538",
+                    "168216",
+                    "264014",
+                    "443396",
+                    "451602",
+                    "489204",
+                    "833860",
+                    "87452",
+                    "915593",
+                    "962179"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.8015873015873016,
+                  "n_candidates": 126,
+                  "n_judged": 101,
+                  "n_queries_with_candidates": 30,
+                  "n_queries_with_judgments": 26,
+                  "n_unjudged": 25
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.946236559139785,
+                  "n_candidates": 93,
+                  "n_judged": 88,
+                  "n_queries_with_candidates": 29,
+                  "n_queries_with_judgments": 28,
+                  "n_unjudged": 5
+                }
+              }
+            },
+            "pooled_lexical": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 5,
+                  "qids": [
+                    "1112341",
+                    "130510",
+                    "183378",
+                    "19335",
+                    "443396"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 27,
+                  "qids": [
+                    "1037798",
+                    "104861",
+                    "1103812",
+                    "1106007",
+                    "1110199",
+                    "1112341",
+                    "1113437",
+                    "1114646",
+                    "1114819",
+                    "1115776",
+                    "1121402",
+                    "1124210",
+                    "1129237",
+                    "130510",
+                    "148538",
+                    "156493",
+                    "183378",
+                    "19335",
+                    "207786",
+                    "264014",
+                    "443396",
+                    "47923",
+                    "490595",
+                    "527433",
+                    "833860",
+                    "915593",
+                    "962179"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 1,
+                  "qids": [
+                    "19335"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.14285714285714285,
+                  "n_candidates": 7,
+                  "n_judged": 1,
+                  "n_queries_with_candidates": 5,
+                  "n_queries_with_judgments": 1,
+                  "n_unjudged": 6
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.2736842105263158,
+                  "n_candidates": 95,
+                  "n_judged": 26,
+                  "n_queries_with_candidates": 27,
+                  "n_queries_with_judgments": 15,
+                  "n_unjudged": 69
+                }
+              }
+            }
+          }
+        }
+      },
+      "excluded_qrel_queries": {},
+      "n_eligible_queries": 43,
+      "n_queries_changed_by_source": {
+        "bm25": 0,
+        "bm25_tuned": 0,
+        "ql_dirichlet": 0,
+        "splade_pp_ensemble_distil": 43,
+        "tfidf": 0
+      },
+      "outside_candidate_coverage": {
+        "capped": {
+          "judged_fraction": 0.21454685395420434,
+          "n_candidates": 5197,
+          "n_judged": 1115,
+          "n_unjudged": 4082
+        },
+        "full": {
+          "judged_fraction": 0.06434656027604055,
+          "n_candidates": 37096,
+          "n_judged": 2387,
+          "n_unjudged": 34709
+        },
+        "removed_by_cap": {
+          "judged_fraction": 0.03987585817737233,
+          "n_candidates": 31899,
+          "n_judged": 1272,
+          "n_unjudged": 30627
+        }
+      }
+    },
+    "2020": {
+      "arms": {
+        "full": {
+          "candidate_counts": {
+            "candidate_intersection": {
+              "judged_fraction": 0.6542553191489362,
+              "n_candidates": 3196,
+              "n_judged": 2091,
+              "n_unjudged": 1105
+            },
+            "candidate_union": {
+              "judged_fraction": 0.10709521492804344,
+              "n_candidates": 63719,
+              "n_judged": 6824,
+              "n_unjudged": 56895
+            },
+            "lexical_candidate_intersection": {
+              "judged_fraction": 0.46172792724516865,
+              "n_candidates": 5278,
+              "n_judged": 2437,
+              "n_unjudged": 2841
+            },
+            "lexical_candidate_union": {
+              "judged_fraction": 0.25521262810696194,
+              "n_candidates": 16978,
+              "n_judged": 4333,
+              "n_unjudged": 12645
+            },
+            "new_source_outside_active_lexical_union": {
+              "judged_fraction": 0.05329368220620012,
+              "n_candidates": 46741,
+              "n_judged": 2491,
+              "n_unjudged": 44250
+            },
+            "new_source_outside_lexical_full_union": {
+              "judged_fraction": 0.05329368220620012,
+              "n_candidates": 46741,
+              "n_judged": 2491,
+              "n_unjudged": 44250
+            },
+            "new_source_outside_only_due_to_lexical_cropping": {
+              "judged_fraction": null,
+              "n_candidates": 0,
+              "n_judged": 0,
+              "n_unjudged": 0
+            }
+          },
+          "new_source_judgment_coverage": {
+            "top10": {
+              "judged_fraction": 0.9703703703703703,
+              "n_candidates": 540,
+              "n_judged": 524,
+              "n_unjudged": 16
+            },
+            "top100": {
+              "judged_fraction": 0.5518518518518518,
+              "n_candidates": 5400,
+              "n_judged": 2980,
+              "n_unjudged": 2420
+            },
+            "top30": {
+              "judged_fraction": 0.8506172839506173,
+              "n_candidates": 1620,
+              "n_judged": 1378,
+              "n_unjudged": 242
+            },
+            "whole_source": {
+              "judged_fraction": 0.11242592592592593,
+              "n_candidates": 54000,
+              "n_judged": 6071,
+              "n_unjudged": 47929
+            }
+          },
+          "new_source_top10_outside_lexical_full_union": {
+            "judged_fraction": 0.8526315789473684,
+            "n_candidates": 95,
+            "n_judged": 81,
+            "n_unjudged": 14
+          },
+          "owners": {
+            "new_source": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 23,
+                  "qids": [
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1115210",
+                    "1121353",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "156498",
+                    "23849",
+                    "330975",
+                    "390360",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "938400",
+                    "997622"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 49,
+                  "qids": [
+                    "1037496",
+                    "1043135",
+                    "1051399",
+                    "1064670",
+                    "1071750",
+                    "1105792",
+                    "1106979",
+                    "1108651",
+                    "1109707",
+                    "1110678",
+                    "1115210",
+                    "1116380",
+                    "1121353",
+                    "1122767",
+                    "1131069",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "141630",
+                    "156498",
+                    "169208",
+                    "174463",
+                    "23849",
+                    "258062",
+                    "324585",
+                    "330975",
+                    "332593",
+                    "336901",
+                    "390360",
+                    "405163",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "583468",
+                    "640502",
+                    "67316",
+                    "673670",
+                    "701453",
+                    "730539",
+                    "768208",
+                    "877809",
+                    "914916",
+                    "938400",
+                    "940547",
+                    "997622"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 22,
+                  "qids": [
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1115210",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "156498",
+                    "23849",
+                    "330975",
+                    "390360",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "938400",
+                    "997622"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.8526315789473684,
+                  "n_candidates": 95,
+                  "n_judged": 81,
+                  "n_queries_with_candidates": 32,
+                  "n_queries_with_judgments": 29,
+                  "n_unjudged": 14
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.9834710743801653,
+                  "n_candidates": 121,
+                  "n_judged": 119,
+                  "n_queries_with_candidates": 40,
+                  "n_queries_with_judgments": 39,
+                  "n_unjudged": 2
+                }
+              }
+            },
+            "pooled_lexical": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 2,
+                  "qids": [
+                    "1121353",
+                    "23849"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 35,
+                  "qids": [
+                    "1051399",
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1116380",
+                    "1121353",
+                    "1122767",
+                    "1127540",
+                    "1132532",
+                    "1136043",
+                    "1136047",
+                    "118440",
+                    "141630",
+                    "156498",
+                    "169208",
+                    "174463",
+                    "23849",
+                    "258062",
+                    "324585",
+                    "330975",
+                    "332593",
+                    "390360",
+                    "405163",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "701453",
+                    "730539",
+                    "877809",
+                    "914916",
+                    "938400",
+                    "940547",
+                    "997622"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 2,
+                  "qids": [
+                    "1121353",
+                    "23849"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.5,
+                  "n_candidates": 4,
+                  "n_judged": 2,
+                  "n_queries_with_candidates": 3,
+                  "n_queries_with_judgments": 2,
+                  "n_unjudged": 2
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.45,
+                  "n_candidates": 120,
+                  "n_judged": 54,
+                  "n_queries_with_candidates": 34,
+                  "n_queries_with_judgments": 28,
+                  "n_unjudged": 66
+                }
+              }
+            }
+          }
+        },
+        "shared_depth": {
+          "candidate_counts": {
+            "candidate_intersection": {
+              "judged_fraction": 0.7916863486065187,
+              "n_candidates": 2117,
+              "n_judged": 1676,
+              "n_unjudged": 441
+            },
+            "candidate_union": {
+              "judged_fraction": 0.2397193694264824,
+              "n_candidates": 23661,
+              "n_judged": 5672,
+              "n_unjudged": 17989
+            },
+            "lexical_candidate_intersection": {
+              "judged_fraction": 0.46172792724516865,
+              "n_candidates": 5278,
+              "n_judged": 2437,
+              "n_unjudged": 2841
+            },
+            "lexical_candidate_union": {
+              "judged_fraction": 0.25521262810696194,
+              "n_candidates": 16978,
+              "n_judged": 4333,
+              "n_unjudged": 12645
+            },
+            "new_source_outside_active_lexical_union": {
+              "judged_fraction": 0.20035912015561874,
+              "n_candidates": 6683,
+              "n_judged": 1339,
+              "n_unjudged": 5344
+            },
+            "new_source_outside_lexical_full_union": {
+              "judged_fraction": 0.20035912015561874,
+              "n_candidates": 6683,
+              "n_judged": 1339,
+              "n_unjudged": 5344
+            },
+            "new_source_outside_only_due_to_lexical_cropping": {
+              "judged_fraction": null,
+              "n_candidates": 0,
+              "n_judged": 0,
+              "n_unjudged": 0
+            }
+          },
+          "new_source_judgment_coverage": {
+            "top10": {
+              "judged_fraction": 0.9703703703703703,
+              "n_candidates": 540,
+              "n_judged": 524,
+              "n_unjudged": 16
+            },
+            "top100": {
+              "judged_fraction": 0.5583708708708709,
+              "n_candidates": 5328,
+              "n_judged": 2975,
+              "n_unjudged": 2353
+            },
+            "top30": {
+              "judged_fraction": 0.8516687268232386,
+              "n_candidates": 1618,
+              "n_judged": 1378,
+              "n_unjudged": 240
+            },
+            "whole_source": {
+              "judged_fraction": 0.3819706103993971,
+              "n_candidates": 10616,
+              "n_judged": 4055,
+              "n_unjudged": 6561
+            }
+          },
+          "new_source_top10_outside_lexical_full_union": {
+            "judged_fraction": 0.8526315789473684,
+            "n_candidates": 95,
+            "n_judged": 81,
+            "n_unjudged": 14
+          },
+          "owners": {
+            "new_source": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 23,
+                  "qids": [
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1115210",
+                    "1121353",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "156498",
+                    "23849",
+                    "330975",
+                    "390360",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "938400",
+                    "997622"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 49,
+                  "qids": [
+                    "1037496",
+                    "1043135",
+                    "1051399",
+                    "1064670",
+                    "1071750",
+                    "1105792",
+                    "1106979",
+                    "1108651",
+                    "1109707",
+                    "1110678",
+                    "1115210",
+                    "1116380",
+                    "1121353",
+                    "1122767",
+                    "1131069",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "141630",
+                    "156498",
+                    "169208",
+                    "174463",
+                    "23849",
+                    "258062",
+                    "324585",
+                    "330975",
+                    "332593",
+                    "336901",
+                    "390360",
+                    "405163",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "583468",
+                    "640502",
+                    "67316",
+                    "673670",
+                    "701453",
+                    "730539",
+                    "768208",
+                    "877809",
+                    "914916",
+                    "938400",
+                    "940547",
+                    "997622"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 22,
+                  "qids": [
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1115210",
+                    "1132532",
+                    "1133579",
+                    "1136043",
+                    "1136047",
+                    "1136962",
+                    "118440",
+                    "121171",
+                    "156498",
+                    "23849",
+                    "330975",
+                    "390360",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "938400",
+                    "997622"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.8526315789473684,
+                  "n_candidates": 95,
+                  "n_judged": 81,
+                  "n_queries_with_candidates": 32,
+                  "n_queries_with_judgments": 29,
+                  "n_unjudged": 14
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.9834710743801653,
+                  "n_candidates": 121,
+                  "n_judged": 119,
+                  "n_queries_with_candidates": 40,
+                  "n_queries_with_judgments": 39,
+                  "n_unjudged": 2
+                }
+              }
+            },
+            "pooled_lexical": {
+              "eligibility": {
+                "with_both_groups": {
+                  "n_queries": 2,
+                  "qids": [
+                    "1121353",
+                    "23849"
+                  ]
+                },
+                "with_candidates": {
+                  "n_queries": 35,
+                  "qids": [
+                    "1051399",
+                    "1064670",
+                    "1108651",
+                    "1109707",
+                    "1116380",
+                    "1121353",
+                    "1122767",
+                    "1127540",
+                    "1132532",
+                    "1136043",
+                    "1136047",
+                    "118440",
+                    "141630",
+                    "156498",
+                    "169208",
+                    "174463",
+                    "23849",
+                    "258062",
+                    "324585",
+                    "330975",
+                    "332593",
+                    "390360",
+                    "405163",
+                    "42255",
+                    "47210",
+                    "555530",
+                    "640502",
+                    "67316",
+                    "701453",
+                    "730539",
+                    "877809",
+                    "914916",
+                    "938400",
+                    "940547",
+                    "997622"
+                  ]
+                },
+                "with_judged_both_groups": {
+                  "n_queries": 2,
+                  "qids": [
+                    "1121353",
+                    "23849"
+                  ]
+                }
+              },
+              "groups": {
+                "isolated": {
+                  "judged_fraction": 0.5,
+                  "n_candidates": 4,
+                  "n_judged": 2,
+                  "n_queries_with_candidates": 3,
+                  "n_queries_with_judgments": 2,
+                  "n_unjudged": 2
+                },
+                "tail_supported": {
+                  "judged_fraction": 0.45,
+                  "n_candidates": 120,
+                  "n_judged": 54,
+                  "n_queries_with_candidates": 34,
+                  "n_queries_with_judgments": 28,
+                  "n_unjudged": 66
+                }
+              }
+            }
+          }
+        }
+      },
+      "excluded_qrel_queries": {},
+      "n_eligible_queries": 54,
+      "n_queries_changed_by_source": {
+        "bm25": 0,
+        "bm25_tuned": 0,
+        "ql_dirichlet": 0,
+        "splade_pp_ensemble_distil": 54,
+        "tfidf": 0
+      },
+      "outside_candidate_coverage": {
+        "capped": {
+          "judged_fraction": 0.20035912015561874,
+          "n_candidates": 6683,
+          "n_judged": 1339,
+          "n_unjudged": 5344
+        },
+        "full": {
+          "judged_fraction": 0.05329368220620012,
+          "n_candidates": 46741,
+          "n_judged": 2491,
+          "n_unjudged": 44250
+        },
+        "removed_by_cap": {
+          "judged_fraction": 0.028758300464326727,
+          "n_candidates": 40058,
+          "n_judged": 1152,
+          "n_unjudged": 38906
+        }
+      }
+    }
+  }
+}

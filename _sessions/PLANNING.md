@@ -26,24 +26,39 @@ promoted. The next step changes the evidence available to answer the question.
 
 ## Next research sequence
 
-### R3 — NEXT: make useful dissent observable
+### R3 — DONE 2026-09-10: source and observation feasibility
 
 **Question:** what evidence distinguishes a useful specialist from isolated
 noise and repeated agreement? Cycle01 proves that k tuning does not provide
 clone invariance. Its tail probe reveals only 1–5 paired judged queries per
 configuration; source-length equalization had no treatment on these inputs.
 
-**First action:** follow the bounded [cycle02 source-feasibility proposal](cycles/cycle02-source-feasibility.md).
-Inspect at most three candidate source families, choose at most one based on
-provenance/access before comparative outcomes, and audit actual candidate and
-judgment coverage. New neural/dense evidence is not guaranteed to be independent
-or better judged. Separate new candidate access from aggregation quality.
+**Completed:** considered exactly three access/provenance families, selected
+SPLADE++ before outcome analysis, verified both cached files and 97,000 numeric
+rankings, and ran the frozen observation inventory. New-source specialist groups
+have 19/43 and 22/54 judged paired queries; lexical groups have 1/43 and 2/54.
+Isolation equals absence from the retained lexical union for SPLADE specialists.
+The cap changes only SPLADE and changes every query's candidate union.
 
-**Acceptance/checkpoint:** a source/observation manifest and a justified choice
-to freeze an effect experiment, change datasets, or use a known-truth task.
-Specify precision and a meaningful-effect bound before interpreting nulls.
-Codex coordinates; Opus audits evidence; Fable interprets a substantive ambiguity
-or result. No new approval is needed for ordinary authorized research work.
+**Decision:** better observation permits a bounded descriptive association;
+candidate access remains inseparable from support in this cohort. No relevance
+or ranking effect was measured. Independent reconstruction plus Fable/Opus review
+are integrated in the [cycle02 report](../results/cycle02-2026-09-10/REPORT.md).
+
+### R6 — NEXT: bound the specialist relevance association
+
+Follow the prospective [cycle03 protocol](cycles/2026-09-10-cycle03-specialist-association-protocol.md).
+Implement and synthetically test sharp missing-label bounds before examining
+actual grades. Use full-arm SPLADE specialists, candidate-only paired eligibility
+(20/43 and 23/54), equal-query contrasts, separate years, one primary grade>=2
+outcome, and a fixed descriptive grade>0 sensitivity. No fusion or source search.
+
+**Decision contract:** delta=.10 is a project resource threshold, not an RRF
+probability calibration. Combine worst-case missing labels with a conditional
+query bootstrap envelope. Only material same-direction association in both years
+advances to a new fusion-contribution protocol; small, conflicting, or inconclusive
+results route to R5 without another existing-panel sweep. The protocol owns the
+exact precision gate. No cycle03 outcomes have been computed.
 
 ### R1 — NEXT maintenance as needed: finish the broader evaluation contract
 
@@ -51,7 +66,7 @@ or result. No new approval is needed for ordinary authorized research work.
 exact-duplicate quotient, training-only k selection, query-level ensemble/seed
 aggregation, two frozen protocols, immutable numerical evidence and input/source
 hashes. The five-configuration cycle reproduces and explains the baseline
-convention differences. The current research suite has 25 passing tests.
+convention differences. Cycle01 has 25 research tests; cycle02 adds 13 observation tests.
 
 **Remaining:** independently cross-check general metrics against an authoritative
 evaluator; repair legacy PQAS nested selection/unequal-fold aggregation if that

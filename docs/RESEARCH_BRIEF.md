@@ -47,23 +47,28 @@ define the next experiments; they do not rule out whole classes of methods.
 **The next loop.** A canonical rerun confirmed a six-ranker gain from 0.4073 to
 0.4273 NDCG@10, while the aggregate result remained uncertain and both tested
 annual transfers lost. A source-copy counterexample showed that smoothing cannot
-guarantee independence from repeated evidence. Capping lists at30 reduced that
+guarantee independence from repeated evidence. Capping lists at 30 reduced that
 configuration's fixed-k contrast from about+0.0201 to+0.0026. A follow-up then
 exposed a measurement limit: too few judged examples to tell whether a specialist
 corroborated deep in another list is more useful than an isolated one.
 [Cycle01 report and reproducible figure](../results/cycle01-2026-09-10/REPORT.md)
 
-**Current frontier.** The question became sharper: when a source disagrees,
-what tells us it has different useful evidence? The next step is to obtain a
-meaningfully different retrieval source and audit whether its specialist results
-are observable before designing another method. A new source may help; it does
-not guarantee independence, correctness, or adequate judgments.
+**Current frontier.** A new SPLADE++ retrieval source made the question more
+observable: 19 of 43 and 22 of 54 queries have judged examples of both specialist
+groups. It also revealed a sharper ambiguity. Its isolated specialists are
+exactly documents absent from the retained lexical rankings, so comparing the
+groups mixes support with candidate access. We have not measured relevance or
+a fusion gain from this source. The next bounded test estimates an association
+while allowing every missing judgment to favor the opposite conclusion.
+[Cycle02 inventory and figure](../results/cycle02-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated
 independent checks. Critique changed the experiment, and numerical evidence
-changed the question. Reviewer mistakes were preserved and corrected too.
+changed the question. A further review of the new source preserved a useful
+association test while an independent check corrected its missing-label bounds.
+Reviewer mistakes were recorded and corrected too.
 
 ## What the project demonstrates
 
@@ -83,7 +88,8 @@ evaluation of the historical experiments; regenerating raw inputs has additional
 dependencies and a hashing reproducibility issue identified in the audit.
 
 Keep these limits beside the story: small query sets, related MS MARCO data,
-generated lexical/character-based rankers, extensive exploratory selection, and
+historical generated lexical/character-based rankers plus one cached neural
+sparse source, extensive exploratory selection, and
 no established improvement across independent domains. The v7 headline p-value
 compares against v5, not ordinary RRF. There is no supported “minimum 50 labels”
 threshold, proof of optimality, or novelty claim about tuning k.
@@ -92,5 +98,5 @@ The existing specifications and May notebooks are historical artifacts. Current
 qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
 research process now; a new technical contribution still needs its own related
 work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next source-feasibility step from parked algorithm promotion. The separate
+the next bounded association test from parked algorithm promotion. The separate
 website task owns integration and publication.
