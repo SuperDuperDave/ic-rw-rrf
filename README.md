@@ -1,10 +1,22 @@
 # IC(R/W)-RRF: Adaptive Rank Fusion — Two-Tier Lineage
 
-Rank fusion that adapts per-query, per-document, per-ranker, and per ensemble regime. The lineage now offers two deployment tiers: an unsupervised default and a label-light per-corpus upgrade.
+Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
+
+**September 2026 research checkpoint:** a canonical comparison reproduces the
+six-ranker k-tuning gain, but aggregate improvement remains uncertain and both
+tested annual transfers lose. A counterexample shows that copying a ranker can
+change RRF at any finite k;
+deeper-list evidence matters, while sparse relevance judgments prevent a reliable
+specialist-correctness test. The next question is what distinguishes useful
+independent evidence from repeated agreement. Read the
+[cycle01 report and figure](results/cycle01-2026-09-10/REPORT.md),
+[current research state](_sessions/RESEARCH_STATE.md),
+[next experiment](_sessions/cycles/cycle02-source-feasibility.md), and
+[case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results
 
-**Tier 1 — Unsupervised (label-free, works everywhere)**
+**Tier 1 — Unsupervised inference (tested on the configurations below)**
 
 | Variant | NDCG@10 mean | Δ vs v5.0 | Notes |
 |---------|---|---|---|
@@ -14,7 +26,7 @@ Rank fusion that adapts per-query, per-document, per-ranker, and per ensemble re
 
 TREC DL 2019, 43 queries, cross-ensemble sweep over 4-7 lexical rankers, validated cross-collection on TREC DL 2020. [Full v6.0 results](results/v6.0-regime-aware-fusion-results.md).
 
-**Tier 2 — Label-light per-corpus supervised (requires ~50+ labeled queries from target corpus)**
+**Tier 2 — Label-light per-corpus supervised (exploratory CV on 43/54 queries)**
 
 | Variant | TREC DL 2020 NDCG@10 | vs v5.0 | vs Vanilla | Notes |
 |---------|---|---|---|---|
@@ -23,15 +35,15 @@ TREC DL 2019, 43 queries, cross-ensemble sweep over 4-7 lexical rankers, validat
 | v6.0 REF | 0.4393 | +0.0020 | -0.0090 | Tier-1 cross-ensemble crown |
 | **v7.0 PQAS** | **0.4644** | **+0.0271 \*\*** | +0.0161 | **Tier-2 per-corpus supervised, p=0.003** |
 
-Within-collection 5-fold CV, 5 seeds averaged. PQAS captures **49.5% of the per-query oracle gap** on TREC DL 2020. Does NOT transfer cross-collection (must be retrained per corpus). [Full v7.0 results](results/v7.0-pqas-results.md).
+Historical within-collection 5-fold CV, 5 seeds averaged. The reported **p=0.003 compares PQAS to v5.0**; its comparison to Vanilla RRF was **p=0.125, not significant**. Hyperparameters were selected on these data and the harness uses a normal approximation for p-values, so treat these as exploratory results. The reported oracle-gap capture was 49.5%; tested cross-collection transfer did not beat the best fixed baseline. A general label-efficiency threshold has not been established. [Full historical v7.0 results](results/v7.0-pqas-results.md), [audit](_sessions/RESEARCH_STATE.md).
 
 ## The Lineage's Structural Insight
 
 Earlier in this project, v5.0 was reported as the crown at NDCG@10 = 0.3800 on TREC DL 2019 with a specific 4-ranker setup (+4.3% over Vanilla RRF). That result is reproducible exactly, but **the "+4.3% over RRF" headline is fragile**: it does not hold when even one additional ranker joins the ensemble (Vanilla RRF reaches 0.4031 at n=5, 0.4073 at n=6) and it does not replicate on TREC DL 2020 even with the original 4-ranker setup (Vanilla 0.4483 vs v5.0 0.4373).
 
-The deeper structural truth: **the optimal fusion algorithm depends on the ensemble's regime.** No fixed equation dominates across all (corpus, ranker-mix) configurations — because no such equation can exist. The v5.0 result is a basin-specific win, not a universal one.
+The observed lesson: **method performance depends on the tested ranker mix and query collection.** None of the explored methods dominated all tested configurations. The v5.0 result is a configuration-specific win; these experiments do not establish an impossibility theorem or a globally optimal method.
 
-v6.0 (REF — Regime-Aware Fusion) acts on this insight directly. It detects the ensemble's regime from rank statistics alone (mean pairwise top-K Jaccard) and continuously mixes v5.0's per-document confidence routing with Vanilla RRF based on the regime. The result preserves v5.0's advantage in its home basin while not surrendering Vanilla's advantage elsewhere.
+v6.0 (REF — Regime-Aware Fusion) acts on this observation. For each query, it measures mean pairwise top-K Jaccard and modulates Vanilla scores using the difference between Vanilla and v5.0 ranks. It preserves the local v5.0 advantage and reduces v5.0's losses elsewhere, while still trailing Vanilla in several tested configurations.
 
 ## The Approach
 
@@ -39,11 +51,11 @@ v6.0 (REF — Regime-Aware Fusion) acts on this insight directly. It detects the
 1. Detect regime: rho = mean pairwise top-30 Jaccard across the M ranker lists
 2. Map regime to mixing weight: alpha = piecewise_linear(rho; lo=0.35, hi=0.60)
 3. Compute Vanilla RRF + v5.0 rankings (existing implementations)
-4. Modulate Vanilla scores by an alpha-scaled function of (v5-rank − Vanilla-rank)
+4. Modulate Vanilla scores by an alpha-scaled function of (Vanilla-rank − v5-rank)
 5. Sort, return
 ```
 
-Three new constants. Zero learned parameters. The mixture interpolates continuously between Vanilla (heterogeneous regimes) and v5.0-modulated Vanilla (homogeneous regimes). All graceful-degradation properties of the v5.0 → v4.0 → v2.1 → RRF chain are preserved.
+The method uses fixed thresholds and gains at inference and retains the underlying v5.0 implementation. As alpha approaches zero it approaches Vanilla RRF; larger alpha increases the influence of the v5.0 rank adjustment. Its settings were explored on the development data, so unsupervised inference does not imply an untouched evaluation.
 
 ## Architecture Evolution
 
@@ -59,7 +71,7 @@ RRF (2009)              uniform 1/(k+rank)                              UNSUPERV
                          (label-light supervision; per-corpus training)
 ```
 
-v2.1 → v6.0 each broke a uniformity assumption in the fusion equation. v6.0 broke the assumption that the optimal equation is fixed (regime-aware mixing). v7.0 breaks a *different* kind of assumption — that the lineage must be unsupervised. v7.0 is the first member that uses labels (a tiny logistic regression trained on ~50+ labeled queries from the target corpus). The horizontal line marks the discipline shift.
+v2.1 → v6.0 explored different ways to relax uniform weighting. v6.0 introduced regime-aware modulation; v7.0 added a supervised logistic selector. PQAS was evaluated with five-fold CV over collections of 43 and 54 labeled queries, with smaller training folds. The horizontal line distinguishes supervised selection from unsupervised inference.
 
 The lineage's recursive falsification discipline is preserved across both tiers: each version identifies and removes a constraint the previous version did not see, AND each transition leaves a documented falsification record for the candidate refinements that did not work.
 
@@ -105,18 +117,19 @@ evaluation/     Evaluation harness, REF probes, run generation, analysis tools
 diagnostics/    Synthetic mechanism validation (no external data needed)
 data/           TREC DL 2019/2020 qrels and generated run files
 results/        Formatted evaluation results and ablation tables (v5.0 + v6.0)
-_sessions/      Stream-of-thought archive — reasoning records for each session
+_sessions/      Workflow, map, backlog, audit, and dated research working notes
+docs/           Research case-study draft for the portfolio
 ```
 
 ## What This Demonstrates
 
-**Strange-attractor empiricism.** The v5.0 → v6.0 transition empirically demonstrated, on the existing repo data, that the optimal fusion algorithm is regime-dependent. The "v5.0 wins" finding from a single (corpus, ensemble) configuration generalized to neither additional ranker subsets nor a second collection. The crown's apparent stability was an artifact of evaluation scope, not algorithm structure.
+**Testing the scope of a result.** The v5.0 → v6.0 experiments showed that relative performance changes across the tested configurations. The initial v5.0 gain did not survive additional rankers or the second annual query collection, prompting a correction to the project's headline.
 
-**Recursive falsification.** The v4.x series falsified 5 hypotheses to settle v5.0. The v5.0 → v6.0 transition falsified 3 more hypotheses to settle v6.0 (multi-signal regime detection, sharpened alpha curves, fixed-equation universality). Each falsification narrows the algorithm; each narrowing leaves a more elegant artifact behind. The falsification record is documented in the v6.0 spec for downstream audit.
+**Preserving negative results.** The specifications and notebooks record tested refinements that failed to improve the chosen baselines. These counterexamples guide later experiments; they do not prove that an entire method family cannot work.
 
 **Self-contained evaluation.** All metrics computed from first principles — no pytrec_eval dependency. All 7 ranking functions implemented from scratch. The probe scripts (REF v1, REF v2, full validation panel with significance tests) depend only on the harness's primitives. A reviewer can run `--demo` and see results in seconds; the full v6.0 panel in roughly a minute.
 
-**Algebraic reasoning about fusion.** Each version identifies a structural constraint (information bottleneck, rank-2 bilinear form, D × R confidence matrix, fixed-equation universality) and removes it through architecture, not parameter tuning. v6.0's regime-aware mixture is the largest algebraic shift in the lineage — but the parameter count is *smaller*, not larger, because the alpha curve replaces multiple algorithm-internal knobs.
+**Connecting mechanisms to tests.** Query weighting, document gating, a document-by-ranker confidence matrix, and regime modulation give concrete forms to different hypotheses. Controlled ablations and broader evaluation are needed to determine which mechanisms explain a measured gain.
 
 ## Requirements
 

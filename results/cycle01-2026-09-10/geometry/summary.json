@@ -1,0 +1,1184 @@
+{
+  "2019_ensemble_mean_by_query": {
+    "asymptotic": {
+      "conditional_query_bootstrap_95": [
+        -0.013098846849447603,
+        0.010552867241629864
+      ],
+      "losses": 13,
+      "mean_delta": -0.0009417639599350533,
+      "n_queries": 43,
+      "ties": 6,
+      "wins": 24
+    },
+    "coverage_proxy": {
+      "conditional_query_bootstrap_95": [
+        -0.013155580456027466,
+        0.010879277379718319
+      ],
+      "losses": 13,
+      "mean_delta": -0.0006877630973163192,
+      "n_queries": 43,
+      "ties": 5,
+      "wins": 25
+    },
+    "k200": {
+      "conditional_query_bootstrap_95": [
+        -0.0012560054717663787,
+        0.015943154914045327
+      ],
+      "losses": 11,
+      "mean_delta": 0.007466560681611471,
+      "n_queries": 43,
+      "ties": 8,
+      "wins": 24
+    },
+    "selected_k": {
+      "conditional_query_bootstrap_95": [
+        -0.002962954509675409,
+        0.010864260124325785
+      ],
+      "losses": 12,
+      "mean_delta": 0.003989385577414437,
+      "n_queries": 43,
+      "ties": 8,
+      "wins": 23
+    }
+  },
+  "cross_annual_transfer": [
+    {
+      "baseline_mean": 0.44838664759128316,
+      "paired": {
+        "conditional_query_bootstrap_95": [
+          -0.006320131107933926,
+          0.0014540933795253775
+        ],
+        "losses": 9,
+        "mean_delta": -0.0025279617405858726,
+        "n_queries": 54,
+        "ties": 38,
+        "wins": 7
+      },
+      "selected_k": 100,
+      "selected_mean": 0.44585868585069727,
+      "test_year": 2020,
+      "train_year": 2019
+    },
+    {
+      "baseline_mean": 0.3644603686171795,
+      "paired": {
+        "conditional_query_bootstrap_95": [
+          -0.02174319559855853,
+          0.015332769918276538
+        ],
+        "losses": 11,
+        "mean_delta": -0.0020732742307903117,
+        "n_queries": 43,
+        "ties": 16,
+        "wins": 16
+      },
+      "selected_k": 10,
+      "selected_mean": 0.36238709438638916,
+      "test_year": 2019,
+      "train_year": 2020
+    }
+  ],
+  "cv_seeds": [
+    42,
+    123,
+    7,
+    99,
+    2026
+  ],
+  "duplicate_interventions": [
+    {
+      "added_copies": 1,
+      "k": 60,
+      "mean_absolute_ndcg_change": 0.02590996778708955,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.008620191844345124,
+          0.004440895665557723
+        ],
+        "losses": 20,
+        "mean_delta": -0.0022542355534814203,
+        "n_queries": 43,
+        "ties": 8,
+        "wins": 15
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 172,
+      "top10_changed_fraction": 0.9127906976744186,
+      "year": 2019
+    },
+    {
+      "added_copies": 3,
+      "k": 60,
+      "mean_absolute_ndcg_change": 0.0441533354971756,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.014277579107871391,
+          0.0038427897915462384
+        ],
+        "losses": 24,
+        "mean_delta": -0.005429118226627033,
+        "n_queries": 43,
+        "ties": 5,
+        "wins": 14
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 172,
+      "top10_changed_fraction": 0.9534883720930233,
+      "year": 2019
+    },
+    {
+      "added_copies": 1,
+      "k": 200,
+      "mean_absolute_ndcg_change": 0.025248007211881408,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.008578203844800758,
+          0.007918800994350597
+        ],
+        "losses": 21,
+        "mean_delta": -0.00034825754732976033,
+        "n_queries": 43,
+        "ties": 8,
+        "wins": 14
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 172,
+      "top10_changed_fraction": 0.9011627906976745,
+      "year": 2019
+    },
+    {
+      "added_copies": 3,
+      "k": 200,
+      "mean_absolute_ndcg_change": 0.04333060770389217,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.018222931986980172,
+          0.008938431272014645
+        ],
+        "losses": 21,
+        "mean_delta": -0.004095396282950785,
+        "n_queries": 43,
+        "ties": 5,
+        "wins": 17
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 172,
+      "top10_changed_fraction": 0.9534883720930233,
+      "year": 2019
+    },
+    {
+      "added_copies": 1,
+      "k": 60,
+      "mean_absolute_ndcg_change": 0.023100910110060057,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.009055947302417917,
+          0.004608533596375593
+        ],
+        "losses": 29,
+        "mean_delta": -0.002487013531160618,
+        "n_queries": 54,
+        "ties": 7,
+        "wins": 18
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 216,
+      "top10_changed_fraction": 0.9074074074074074,
+      "year": 2020
+    },
+    {
+      "added_copies": 3,
+      "k": 60,
+      "mean_absolute_ndcg_change": 0.041839844877291095,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.018016974848293007,
+          0.000262252476516149
+        ],
+        "losses": 28,
+        "mean_delta": -0.009161184155779769,
+        "n_queries": 54,
+        "ties": 4,
+        "wins": 22
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 216,
+      "top10_changed_fraction": 0.9629629629629629,
+      "year": 2020
+    },
+    {
+      "added_copies": 1,
+      "k": 200,
+      "mean_absolute_ndcg_change": 0.02143307097163506,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.00821863416825024,
+          0.003807720731133255
+        ],
+        "losses": 28,
+        "mean_delta": -0.0024519459290004595,
+        "n_queries": 54,
+        "ties": 7,
+        "wins": 19
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 216,
+      "top10_changed_fraction": 0.8981481481481481,
+      "year": 2020
+    },
+    {
+      "added_copies": 3,
+      "k": 200,
+      "mean_absolute_ndcg_change": 0.03709904127757521,
+      "paired_by_query_averaged_sources": {
+        "conditional_query_bootstrap_95": [
+          -0.01226648289142338,
+          0.004216553268253397
+        ],
+        "losses": 28,
+        "mean_delta": -0.004116860469605595,
+        "n_queries": 54,
+        "ties": 4,
+        "wins": 22
+      },
+      "quotient_invariant_all": true,
+      "source_interventions": 216,
+      "top10_changed_fraction": 0.9583333333333334,
+      "year": 2020
+    }
+  ],
+  "full_coverage_counterexample": {
+    "asymptotic_base": [
+      "a",
+      "y",
+      "b",
+      "x",
+      "c"
+    ],
+    "asymptotic_copied": [
+      "a",
+      "x",
+      "b",
+      "y",
+      "c"
+    ],
+    "base": [
+      [
+        "x",
+        "a",
+        "b",
+        "c",
+        "y"
+      ],
+      [
+        "y",
+        "a",
+        "b",
+        "c",
+        "x"
+      ],
+      [
+        "y",
+        "a",
+        "b",
+        "c",
+        "x"
+      ]
+    ],
+    "copied": [
+      [
+        "x",
+        "a",
+        "b",
+        "c",
+        "y"
+      ],
+      [
+        "y",
+        "a",
+        "b",
+        "c",
+        "x"
+      ],
+      [
+        "y",
+        "a",
+        "b",
+        "c",
+        "x"
+      ],
+      [
+        "x",
+        "a",
+        "b",
+        "c",
+        "y"
+      ],
+      [
+        "x",
+        "a",
+        "b",
+        "c",
+        "y"
+      ]
+    ],
+    "every_source_has_same_candidate_set": true,
+    "grid_results": {
+      "1": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "10": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "100": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "200": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "30": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "5": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "500": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      },
+      "60": {
+        "base_y_above_x": true,
+        "copied_x_above_y": true
+      }
+    },
+    "scope": "Constructive failure of exact-source-duplication invariance for every finite k>=0; no general claim that empirical displacement is monotone in k."
+  },
+  "identifiability_fixture": {
+    "interpretation": "Identical rank-only inputs cannot reveal which relevance world holds. An additional signal must carry information about correctness, not merely repeat disagreement.",
+    "ndcg10": {
+      "majority_correct": {
+        "quotient60": 0.5548989126424904,
+        "rrf60": 1.0,
+        "v21_equal_confidence": 1.0
+      },
+      "specialist_correct": {
+        "quotient60": 0.44510108735750964,
+        "rrf60": 0.0,
+        "v21_equal_confidence": 0.0
+      }
+    },
+    "observations": {
+      "confidences": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "lists": [
+        [
+          "d00",
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d08",
+          "d09",
+          "d10",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16",
+          "d17",
+          "d18",
+          "d19",
+          "d20",
+          "d21",
+          "d22",
+          "d23",
+          "d24",
+          "d25",
+          "d26",
+          "d27",
+          "d28",
+          "d29",
+          "d30",
+          "d31",
+          "d32",
+          "d33",
+          "d34",
+          "d35",
+          "d36",
+          "d37",
+          "d38",
+          "d39",
+          "d40",
+          "d41",
+          "d42",
+          "d43",
+          "d44",
+          "d45",
+          "d46",
+          "d47",
+          "d48",
+          "d49",
+          "d50",
+          "d51",
+          "d52",
+          "d53",
+          "d54",
+          "d55",
+          "d56",
+          "d57",
+          "d58",
+          "d59"
+        ],
+        [
+          "d00",
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d08",
+          "d09",
+          "d10",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16",
+          "d17",
+          "d18",
+          "d19",
+          "d20",
+          "d21",
+          "d22",
+          "d23",
+          "d24",
+          "d25",
+          "d26",
+          "d27",
+          "d28",
+          "d29",
+          "d30",
+          "d31",
+          "d32",
+          "d33",
+          "d34",
+          "d35",
+          "d36",
+          "d37",
+          "d38",
+          "d39",
+          "d40",
+          "d41",
+          "d42",
+          "d43",
+          "d44",
+          "d45",
+          "d46",
+          "d47",
+          "d48",
+          "d49",
+          "d50",
+          "d51",
+          "d52",
+          "d53",
+          "d54",
+          "d55",
+          "d56",
+          "d57",
+          "d58",
+          "d59"
+        ],
+        [
+          "d30",
+          "d31",
+          "d32",
+          "d33",
+          "d34",
+          "d35",
+          "d36",
+          "d37",
+          "d38",
+          "d39",
+          "d40",
+          "d41",
+          "d42",
+          "d43",
+          "d44",
+          "d45",
+          "d46",
+          "d47",
+          "d48",
+          "d49",
+          "d50",
+          "d51",
+          "d52",
+          "d53",
+          "d54",
+          "d55",
+          "d56",
+          "d57",
+          "d58",
+          "d59",
+          "d00",
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d08",
+          "d09",
+          "d10",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16",
+          "d17",
+          "d18",
+          "d19",
+          "d20",
+          "d21",
+          "d22",
+          "d23",
+          "d24",
+          "d25",
+          "d26",
+          "d27",
+          "d28",
+          "d29"
+        ]
+      ]
+    },
+    "rankings_top10": {
+      "quotient60": [
+        "d00",
+        "d30",
+        "d01",
+        "d31",
+        "d02",
+        "d32",
+        "d03",
+        "d33",
+        "d04",
+        "d34"
+      ],
+      "rrf60": [
+        "d00",
+        "d01",
+        "d02",
+        "d03",
+        "d04",
+        "d05",
+        "d06",
+        "d07",
+        "d08",
+        "d09"
+      ],
+      "v21_equal_confidence": [
+        "d00",
+        "d01",
+        "d02",
+        "d03",
+        "d04",
+        "d05",
+        "d06",
+        "d07",
+        "d08",
+        "d09"
+      ]
+    },
+    "world_qrels": {
+      "majority_correct": {
+        "d00": 3,
+        "d01": 3,
+        "d02": 3,
+        "d03": 3,
+        "d04": 3,
+        "d05": 3,
+        "d06": 3,
+        "d07": 3,
+        "d08": 3,
+        "d09": 3
+      },
+      "specialist_correct": {
+        "d30": 3,
+        "d31": 3,
+        "d32": 3,
+        "d33": 3,
+        "d34": 3,
+        "d35": 3,
+        "d36": 3,
+        "d37": 3,
+        "d38": 3,
+        "d39": 3
+      }
+    }
+  },
+  "k_grid": [
+    1,
+    5,
+    10,
+    30,
+    60,
+    100,
+    200,
+    500
+  ],
+  "limits": [
+    "Development data after extensive search",
+    "Intervals conditional on saved predictions; not full training-selection uncertainty",
+    "Exact duplicate quotient proves invariance, not general source-quality inference",
+    "No novelty or independent-domain generalization claim"
+  ],
+  "protocol": "_sessions/cycles/2026-09-10-cycle01-protocol.md",
+  "summaries": [
+    {
+      "comparisons_to_k60": {
+        "asymptotic": {
+          "conditional_query_bootstrap_95": [
+            -0.014296092118879767,
+            0.02627695963440377
+          ],
+          "losses": 12,
+          "mean_delta": 0.0023834350159790242,
+          "n_queries": 43,
+          "ties": 24,
+          "wins": 7
+        },
+        "coverage_proxy": {
+          "conditional_query_bootstrap_95": [
+            -0.013255768417470698,
+            0.028574491764023956
+          ],
+          "losses": 13,
+          "mean_delta": 0.003923625699869893,
+          "n_queries": 43,
+          "ties": 21,
+          "wins": 9
+        },
+        "k200": {
+          "conditional_query_bootstrap_95": [
+            -0.01355518796215828,
+            0.020241853287226403
+          ],
+          "losses": 9,
+          "mean_delta": 0.0008139649783779058,
+          "n_queries": 43,
+          "ties": 27,
+          "wins": 7
+        },
+        "quotient_k60": {
+          "conditional_query_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "losses": 0,
+          "mean_delta": 0.0,
+          "n_queries": 43,
+          "ties": 43,
+          "wins": 0
+        },
+        "selected_k": {
+          "conditional_query_bootstrap_95": [
+            -0.03164414893780979,
+            -0.002080188930643785
+          ],
+          "losses": 14,
+          "mean_delta": -0.014198809903403128,
+          "n_queries": 43,
+          "ties": 18,
+          "wins": 11
+        }
+      },
+      "cv_seed_means": {
+        "123": 0.3493604000173558,
+        "2026": 0.3483567716576441,
+        "42": 0.34975609895782606,
+        "7": 0.35070439524211344,
+        "99": 0.3531301276939424
+      },
+      "means": {
+        "asymptotic": 0.3668438036331585,
+        "coverage_proxy": 0.3683839943170494,
+        "k1": 0.36177672651251314,
+        "k10": 0.36238709438638916,
+        "k100": 0.3673972849215826,
+        "k200": 0.3652743335955574,
+        "k30": 0.36128152657055845,
+        "k5": 0.3623115937622017,
+        "k500": 0.36519141852306425,
+        "k60": 0.3644603686171795,
+        "legacy_k60": 0.3644603686171795,
+        "quotient_k60": 0.3644603686171795,
+        "selected_k": 0.35026155871377634
+      },
+      "n_queries": 43,
+      "rankers": [
+        "bm25",
+        "bm25_tuned",
+        "tfidf",
+        "ql_dirichlet"
+      ],
+      "selected_k_counts": {
+        "1": 1,
+        "5": 5,
+        "100": 14,
+        "200": 4,
+        "500": 1
+      },
+      "top10_equal_asymptotic_fraction": {
+        "1": 0.06976744186046512,
+        "10": 0.13953488372093023,
+        "100": 0.5116279069767442,
+        "200": 0.627906976744186,
+        "30": 0.20930232558139536,
+        "5": 0.13953488372093023,
+        "500": 0.813953488372093,
+        "60": 0.37209302325581395
+      },
+      "year": 2019
+    },
+    {
+      "comparisons_to_k60": {
+        "asymptotic": {
+          "conditional_query_bootstrap_95": [
+            -0.019506567578051217,
+            0.01132487339622158
+          ],
+          "losses": 11,
+          "mean_delta": -0.003449089900645022,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 20
+        },
+        "coverage_proxy": {
+          "conditional_query_bootstrap_95": [
+            -0.019506567578051217,
+            0.01132487339622158
+          ],
+          "losses": 11,
+          "mean_delta": -0.0034279802761773264,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 20
+        },
+        "k200": {
+          "conditional_query_bootstrap_95": [
+            -0.013758418164517642,
+            0.013426331358774385
+          ],
+          "losses": 9,
+          "mean_delta": 0.0004910454462037657,
+          "n_queries": 43,
+          "ties": 17,
+          "wins": 17
+        },
+        "quotient_k60": {
+          "conditional_query_bootstrap_95": [
+            0.0,
+            0.002761859130699508
+          ],
+          "losses": 0,
+          "mean_delta": 0.0009206197102331692,
+          "n_queries": 43,
+          "ties": 42,
+          "wins": 1
+        },
+        "selected_k": {
+          "conditional_query_bootstrap_95": [
+            -0.004088540656182725,
+            0.00964924430300905
+          ],
+          "losses": 8,
+          "mean_delta": 0.002642367605987908,
+          "n_queries": 43,
+          "ties": 21,
+          "wins": 14
+        }
+      },
+      "cv_seed_means": {
+        "123": 0.4079292245747303,
+        "2026": 0.4079292245747303,
+        "42": 0.4079292245747303,
+        "7": 0.40311671764969015,
+        "99": 0.40198517301277553
+      },
+      "means": {
+        "asymptotic": 0.39968645537069836,
+        "coverage_proxy": 0.3997075649951661,
+        "k1": 0.36878749720140924,
+        "k10": 0.379943076057986,
+        "k100": 0.4079292245747303,
+        "k200": 0.40362659071754714,
+        "k30": 0.3939395791697049,
+        "k5": 0.3778723123807853,
+        "k500": 0.40070458259182135,
+        "k60": 0.4031355452713434,
+        "legacy_k60": 0.4031355452713434,
+        "quotient_k60": 0.40405616498157654,
+        "selected_k": 0.4057779128773313
+      },
+      "n_queries": 43,
+      "rankers": [
+        "bm25",
+        "bm25_tuned",
+        "tfidf",
+        "ql_dirichlet",
+        "proximity"
+      ],
+      "selected_k_counts": {
+        "100": 23,
+        "200": 2
+      },
+      "top10_equal_asymptotic_fraction": {
+        "1": 0,
+        "10": 0.023255813953488372,
+        "100": 0.11627906976744186,
+        "200": 0.16279069767441862,
+        "30": 0.046511627906976744,
+        "5": 0.023255813953488372,
+        "500": 0.46511627906976744,
+        "60": 0.06976744186046512
+      },
+      "year": 2019
+    },
+    {
+      "comparisons_to_k60": {
+        "asymptotic": {
+          "conditional_query_bootstrap_95": [
+            -0.004405005880903391,
+            0.02795123415910117
+          ],
+          "losses": 10,
+          "mean_delta": 0.011607497133603775,
+          "n_queries": 43,
+          "ties": 10,
+          "wins": 23
+        },
+        "coverage_proxy": {
+          "conditional_query_bootstrap_95": [
+            -0.0049567618266396956,
+            0.027365735103679477
+          ],
+          "losses": 10,
+          "mean_delta": 0.011042453410902089,
+          "n_queries": 43,
+          "ties": 10,
+          "wins": 23
+        },
+        "k200": {
+          "conditional_query_bootstrap_95": [
+            0.00701686991419966,
+            0.03418092881765394
+          ],
+          "losses": 8,
+          "mean_delta": 0.020074783851105102,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 23
+        },
+        "quotient_k60": {
+          "conditional_query_bootstrap_95": [
+            0.0,
+            0.0014176136680761136
+          ],
+          "losses": 0,
+          "mean_delta": 0.0004725378893587045,
+          "n_queries": 43,
+          "ties": 42,
+          "wins": 1
+        },
+        "selected_k": {
+          "conditional_query_bootstrap_95": [
+            0.00701686991419966,
+            0.03418092881765394
+          ],
+          "losses": 8,
+          "mean_delta": 0.020074783851105102,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 23
+        }
+      },
+      "cv_seed_means": {
+        "123": 0.42733507318990555,
+        "2026": 0.42733507318990555,
+        "42": 0.42733507318990555,
+        "7": 0.42733507318990555,
+        "99": 0.42733507318990555
+      },
+      "means": {
+        "asymptotic": 0.4188677864724042,
+        "coverage_proxy": 0.4183027427497025,
+        "k1": 0.36706782082156275,
+        "k10": 0.38208934015284296,
+        "k100": 0.41898987672457805,
+        "k200": 0.42733507318990555,
+        "k30": 0.3975932083018967,
+        "k5": 0.37915396901453424,
+        "k500": 0.42023677296726936,
+        "k60": 0.40726028933880043,
+        "legacy_k60": 0.40726028933880043,
+        "quotient_k60": 0.4077328272281591,
+        "selected_k": 0.42733507318990555
+      },
+      "n_queries": 43,
+      "rankers": [
+        "bm25",
+        "bm25_tuned",
+        "tfidf",
+        "ql_dirichlet",
+        "proximity",
+        "tfidf_bigram"
+      ],
+      "selected_k_counts": {
+        "200": 25
+      },
+      "top10_equal_asymptotic_fraction": {
+        "1": 0,
+        "10": 0.046511627906976744,
+        "100": 0.09302325581395349,
+        "200": 0.16279069767441862,
+        "30": 0.046511627906976744,
+        "5": 0.023255813953488372,
+        "500": 0.46511627906976744,
+        "60": 0.06976744186046512
+      },
+      "year": 2019
+    },
+    {
+      "comparisons_to_k60": {
+        "asymptotic": {
+          "conditional_query_bootstrap_95": [
+            -0.037313608624122294,
+            0.006597649315466412
+          ],
+          "losses": 16,
+          "mean_delta": -0.01430889808867799,
+          "n_queries": 43,
+          "ties": 10,
+          "wins": 17
+        },
+        "coverage_proxy": {
+          "conditional_query_bootstrap_95": [
+            -0.037313608624122294,
+            0.006617396180284472
+          ],
+          "losses": 16,
+          "mean_delta": -0.014289151223859932,
+          "n_queries": 43,
+          "ties": 10,
+          "wins": 17
+        },
+        "k200": {
+          "conditional_query_bootstrap_95": [
+            -0.0033100459627733313,
+            0.01980559122173553
+          ],
+          "losses": 12,
+          "mean_delta": 0.008486448450759108,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 19
+        },
+        "quotient_k60": {
+          "conditional_query_bootstrap_95": [
+            0.0,
+            0.001344245462623394
+          ],
+          "losses": 0,
+          "mean_delta": 0.0004480818208744647,
+          "n_queries": 43,
+          "ties": 42,
+          "wins": 1
+        },
+        "selected_k": {
+          "conditional_query_bootstrap_95": [
+            -0.003932798080628788,
+            0.018174489365840825
+          ],
+          "losses": 13,
+          "mean_delta": 0.007439200755967866,
+          "n_queries": 43,
+          "ties": 12,
+          "wins": 18
+        }
+      },
+      "cv_seed_means": {
+        "123": 0.39743518561398455,
+        "2026": 0.39743518561398455,
+        "42": 0.39743518561398455,
+        "7": 0.3946443445050446,
+        "99": 0.39498978824896824
+      },
+      "means": {
+        "asymptotic": 0.37463983907454745,
+        "coverage_proxy": 0.3746595859393655,
+        "k1": 0.35798430679271676,
+        "k10": 0.3770877211455348,
+        "k100": 0.3956851556282597,
+        "k200": 0.39743518561398455,
+        "k30": 0.37824329317690475,
+        "k5": 0.372796126801194,
+        "k500": 0.38081038310211457,
+        "k60": 0.3889487371632254,
+        "legacy_k60": 0.3889487371632254,
+        "quotient_k60": 0.3893968189840999,
+        "selected_k": 0.3963879379191933
+      },
+      "n_queries": 43,
+      "rankers": [
+        "bm25",
+        "bm25_tuned",
+        "tfidf",
+        "ql_dirichlet",
+        "proximity",
+        "tfidf_bigram",
+        "semantic_hash"
+      ],
+      "selected_k_counts": {
+        "100": 2,
+        "200": 23
+      },
+      "top10_equal_asymptotic_fraction": {
+        "1": 0,
+        "10": 0.023255813953488372,
+        "100": 0.09302325581395349,
+        "200": 0.13953488372093023,
+        "30": 0.046511627906976744,
+        "5": 0.023255813953488372,
+        "500": 0.32558139534883723,
+        "60": 0.06976744186046512
+      },
+      "year": 2019
+    },
+    {
+      "comparisons_to_k60": {
+        "asymptotic": {
+          "conditional_query_bootstrap_95": [
+            -0.021157101673091167,
+            -0.0003481549432520319
+          ],
+          "losses": 14,
+          "mean_delta": -0.009450450693108844,
+          "n_queries": 54,
+          "ties": 28,
+          "wins": 12
+        },
+        "coverage_proxy": {
+          "conditional_query_bootstrap_95": [
+            -0.024343448884436056,
+            -0.0009579474601451484
+          ],
+          "losses": 16,
+          "mean_delta": -0.011469811699219913,
+          "n_queries": 54,
+          "ties": 24,
+          "wins": 14
+        },
+        "k200": {
+          "conditional_query_bootstrap_95": [
+            -0.010081490754023124,
+            0.00014300927580317865
+          ],
+          "losses": 13,
+          "mean_delta": -0.004737752311321,
+          "n_queries": 54,
+          "ties": 32,
+          "wins": 9
+        },
+        "quotient_k60": {
+          "conditional_query_bootstrap_95": [
+            0.0,
+            0.0
+          ],
+          "losses": 0,
+          "mean_delta": 0.0,
+          "n_queries": 54,
+          "ties": 54,
+          "wins": 0
+        },
+        "selected_k": {
+          "conditional_query_bootstrap_95": [
+            -0.005937316507825417,
+            0.011396963318854089
+          ],
+          "losses": 14,
+          "mean_delta": 0.002707834228967384,
+          "n_queries": 54,
+          "ties": 22,
+          "wins": 18
+        }
+      },
+      "cv_seed_means": {
+        "123": 0.4541226658561603,
+        "2026": 0.4483463976931208,
+        "42": 0.4480752531020012,
+        "7": 0.45080542659381007,
+        "99": 0.4541226658561603
+      },
+      "means": {
+        "asymptotic": 0.4389361968981743,
+        "coverage_proxy": 0.4369168358920632,
+        "k1": 0.44195113524430946,
+        "k10": 0.4541226658561603,
+        "k100": 0.44585868585069727,
+        "k200": 0.44364889527996215,
+        "k30": 0.45212395317724335,
+        "k5": 0.4522886472185634,
+        "k500": 0.4408931212762572,
+        "k60": 0.44838664759128316,
+        "legacy_k60": 0.44832359585858433,
+        "quotient_k60": 0.44838664759128316,
+        "selected_k": 0.4510944818202505
+      },
+      "n_queries": 54,
+      "rankers": [
+        "bm25",
+        "bm25_tuned",
+        "tfidf",
+        "ql_dirichlet"
+      ],
+      "selected_k_counts": {
+        "10": 21,
+        "30": 3,
+        "60": 1
+      },
+      "top10_equal_asymptotic_fraction": {
+        "1": 0.07407407407407407,
+        "10": 0.12962962962962962,
+        "100": 0.48148148148148145,
+        "200": 0.6111111111111112,
+        "30": 0.25925925925925924,
+        "5": 0.12962962962962962,
+        "500": 0.8333333333333334,
+        "60": 0.3333333333333333
+      },
+      "year": 2020
+    }
+  ]
+}

@@ -16,3 +16,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project-local Agent Relay state and provider receipts (never publish)
+.relay/
+_sessions/local/
