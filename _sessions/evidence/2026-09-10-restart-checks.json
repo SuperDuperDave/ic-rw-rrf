@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-10",
+  "starting_git_head": "3d00ed39904c62c1aef48b2e182a338d182ef0a0",
+  "python": "3.12.3",
+  "research_code_modified": false,
+  "checks": [
+    {
+      "command": "python3 evaluation/trec_eval_harness.py --demo",
+      "exit_code": 0,
+      "scope": "50 synthetic queries, no external dependencies"
+    },
+    {
+      "command": "python3 evaluation/probe_ref_validation.py",
+      "exit_code": 0,
+      "output": "_sessions/evidence/2026-09-10-ref-validation.txt",
+      "scope": "Historical v6 panel reproduced; p-values retain documented methodological caveats"
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -v",
+      "exit_code": 0,
+      "tests": 13
+    },
+    {
+      "check": "Python 3.8 grammar for new helpers",
+      "passed": true
+    },
+    {
+      "check": "Installed project Relay enrollment and doctor",
+      "passed": true,
+      "schema_version": 2,
+      "integrity": "ok"
+    },
+    {
+      "check": "Approved native Claude review through project Relay",
+      "exit_code": 0,
+      "is_error": false,
+      "context_only_marker_matched": true,
+      "matching_lifecycle_events": true,
+      "scope": "Excerpt review; coordinator-recorded ACK; no pending signals or active claims"
+    },
+    {
+      "check": "Local initialize skill quick_validate.py",
+      "passed": true
+    },
+    {
+      "check": "Preserved research input hashes verified at wrap",
+      "passed": true
+    }
+  ],
+  "preserved_research_inputs_sha256": {
+    "_sessions/streams/2026-05-13-002-basin-escape.md": "15cd583f65fb2f2f668a7417ceff0139c43aadadc31e96e250938a696d73ff1c",
+    "evaluation/probe_aggregation_operator_landscape.py": "73b0eb682be75d4580856255897a53ce3f8053e6320e60ca90c72e91113f92de",
+    "evaluation/probe_basin_escape_info_f.py": "37c1cb97cbdde30886cf66c370d14df1cffeea1a5e6272561e72617c481dec69",
+    "evaluation/probe_basin_escape_mc4.py": "acdf18a82a304c27a3fccf0ae0530ac29454f2d03def8160c693ab4bb617e601",
+    "evaluation/probe_basin_escape_score.py": "8bb585e4b08c569491e9bde118bc59bfdd029c7d738007583f1ebc5a4a45b49e",
+    "evaluation/probe_v8_k_tuned_rrf.py": "dceaaab2c0350740c057840b556b110d2259c5fe03a0fd4486c92bc26a5a3a8b",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/proximity.txt": "6fe1d8aacebfb003626a417e0ef1611bdd3d10ba231b6eed8872e2a1446769ee",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/trec-dl-2019/runs/semantic_hash.txt": "d7d3902836e6b1b0fe663228e327fb86ad0889e94d781bd72c074a408a7e96ad",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2019/runs/tfidf_bigram.txt": "ed6119997b17f6617404c8894f7f84d6199350b709e7d38dbbfff03d7e4a99e7",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c",
+    "data/trec-dl-2019/2019qrels-pass-binary.txt": "f0fb371d0d2001b8922ac675a63bb253c970e7cb52692dd114019c9d7858ea81",
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2020/2020qrels-pass-binary.txt": "eb0f8d842721d92cda5a6127fcf357442edaf99b771f938345ee99ae81d2091a",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684"
+  }
+}

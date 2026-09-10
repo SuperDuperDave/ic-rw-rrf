@@ -1,0 +1,55 @@
+{
+  "geometry": {
+    "status": "Final manifest present; input/source/output digests verified",
+    "sources_and_inputs_unchanged": true,
+    "manifest_sha256": "b14290e9c6f41908d98a85c34d72a047938cf833d8dca15be7572c407f8afe91",
+    "verification_note": "Start and final manifest input/source maps match; current files match every digest. Geometry runner exits before final manifest if custody check fails."
+  },
+  "tail": {
+    "status": "complete",
+    "sources_and_inputs_unchanged": true,
+    "manifest_sha256": "4bba4ae480b4869cdc76501da8264128dc4d14718f1e09396ba9515f45af9a4a"
+  },
+  "missing_local_links": [],
+  "hash_failures": [],
+  "tests": {
+    "research": {
+      "passed": 25,
+      "command": "python3 -B -m unittest discover -s evaluation/tests -v"
+    },
+    "session_relay_helpers": {
+      "passed": 13,
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -v"
+    }
+  },
+  "claude": {
+    "session": "baf23afa-0571-4efb-8326-6aded40006a4",
+    "successful_phases": 2,
+    "observed_models": [
+      "claude-fable-5-1",
+      "claude-opus-5"
+    ],
+    "design_scouts": 4,
+    "review_scouts": 1,
+    "request_seqs": [
+      6,
+      11
+    ],
+    "ack_seqs": [
+      10,
+      15
+    ],
+    "pending_signals": [],
+    "active_claims": [],
+    "native_list_cost_usd": 5.29422225
+  },
+  "initialize_is_local_file": true,
+  "changes_committed": false,
+  "final_report_audit": "Independent read-only audit passed; two copy errors corrected.",
+  "workers_remaining": 0,
+  "report_sha256": "32f94f8f788bb6a9a2bcbda102a08f756788dabde4ed539bb7d2f9724226e31b",
+  "figure_sha256": {
+    "png": "a9aadbf5b156b00ed9c725dc2b35c9cff20178ed92b2c2cf8811b51f9a94bccc",
+    "svg": "e03fca75a6385ac077be9129651a92c4905c34c09c0496fbc41ae7bcb6b3892c"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "session_id": "baf23afa-0571-4efb-8326-6aded40006a4",
+  "request_marker": "cycle01-review-5f005e00ca",
+  "mission_sha256": "68fe51dcc4d0fa24a6832a4694e3b72a11e180524938f8299ebf101bde165f8d",
+  "exit_code": 0,
+  "timed_out": false,
+  "duration_seconds": 324.9,
+  "observed_models": [
+    "claude-fable-5-1",
+    "claude-opus-5"
+  ],
+  "agent_dispatch": [
+    {
+      "subagent_type": "ic-statistics",
+      "description": "Audit tail-probe interpretation hazards",
+      "run_in_background": false
+    }
+  ],
+  "native_result": {
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 12,
+    "total_cost_usd": 2.318103,
+    "modelUsage": {
+      "claude-fable-5-1": {
+        "inputTokens": 130,
+        "outputTokens": 12038,
+        "cacheReadInputTokens": 380242,
+        "cacheCreationInputTokens": 53029,
+        "webSearchRequests": 0,
+        "costUSD": 1.7588405,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 6215,
+        "canonicalModel": "claude-fable-5-1",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5[1m]": {
+        "inputTokens": 18,
+        "outputTokens": 10051,
+        "cacheReadInputTokens": 183395,
+        "cacheCreationInputTokens": 34592,
+        "webSearchRequests": 0,
+        "costUSD": 0.5592625,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 5786,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "session_id": "baf23afa-0571-4efb-8326-6aded40006a4"
+  },
+  "cost_note": "Native API list-price accounting; not a subscription invoice or allowance conversion.",
+  "limitations": [
+    "Read-only research phase; no Claude code edits or automatic peer wakeup.",
+    "Coordinator records exact signal consumption after reading complete request/review.",
+    "Review interpretation remains fallible; report and sources note accepted versus rejected claims."
+  ],
+  "mission_artifact": "sha256:68fe51dcc4d0fa24a6832a4694e3b72a11e180524938f8299ebf101bde165f8d",
+  "native_output_sha256": "32bf3747018e5e074d7714d1121c71f33f2aba0db66260c3d42c93ca95592df6",
+  "memo_sha256": "2df6e87d8a8509a3ecbf79892ec7da37b9e84b0495cb46a0c3a1e291602ae9c2"
+}

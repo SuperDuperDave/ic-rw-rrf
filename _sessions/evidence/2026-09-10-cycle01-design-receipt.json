@@ -1,0 +1,80 @@
+{
+  "session_id": "baf23afa-0571-4efb-8326-6aded40006a4",
+  "request_marker": "cycle01-design-b046c1ba3a",
+  "mission_sha256": "f49a3ae0390a1e907ba6ed2437833e2f90fb1227081ef02c507540c45d2e4a11",
+  "exit_code": 0,
+  "timed_out": false,
+  "duration_seconds": 358.4,
+  "observed_models": [
+    "claude-fable-5-1",
+    "claude-opus-5"
+  ],
+  "agent_dispatch": [
+    {
+      "subagent_type": "ic-origin",
+      "description": "Origin intent and control laws",
+      "run_in_background": false
+    },
+    {
+      "subagent_type": "ic-statistics",
+      "description": "Statistical evaluation contract",
+      "run_in_background": false
+    },
+    {
+      "subagent_type": "ic-geometry",
+      "description": "High-k geometry counterexamples",
+      "run_in_background": false
+    },
+    {
+      "subagent_type": "ic-literature",
+      "description": "Primary literature adjacency",
+      "run_in_background": false
+    }
+  ],
+  "native_result": {
+    "subtype": "success",
+    "is_error": false,
+    "num_turns": 13,
+    "total_cost_usd": 2.97611925,
+    "modelUsage": {
+      "claude-fable-5-1": {
+        "inputTokens": 98,
+        "outputTokens": 14830,
+        "cacheReadInputTokens": 78100,
+        "cacheCreationInputTokens": 51447,
+        "webSearchRequests": 0,
+        "costUSD": 1.7909450000000002,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 5960,
+        "canonicalModel": "claude-fable-5-1",
+        "provider": "firstParty",
+        "costBasis": "list"
+      },
+      "claude-opus-5[1m]": {
+        "inputTokens": 32,
+        "outputTokens": 26015,
+        "cacheReadInputTokens": 181166,
+        "cacheCreationInputTokens": 71049,
+        "webSearchRequests": 0,
+        "costUSD": 1.18517425,
+        "contextWindow": 1000000,
+        "maxOutputTokens": 64000,
+        "thinkingTokens": 13904,
+        "canonicalModel": "claude-opus-5",
+        "provider": "firstParty",
+        "costBasis": "list"
+      }
+    },
+    "session_id": "baf23afa-0571-4efb-8326-6aded40006a4"
+  },
+  "cost_note": "Native API list-price accounting; not a subscription invoice or allowance conversion.",
+  "limitations": [
+    "Read-only research phase; no Claude code edits or automatic peer wakeup.",
+    "Scouts lacked web tools; Codex checked primary sources separately.",
+    "Coordinator recorded exact request consumption after reading full event."
+  ],
+  "mission_artifact": "sha256:f49a3ae0390a1e907ba6ed2437833e2f90fb1227081ef02c507540c45d2e4a11",
+  "native_output_sha256": "ec070c79db17adf1f18f88e421cba606a9441260ff1a9a72983fd95a66e12b73",
+  "memo_sha256": "d68df28793d98e3083c5d3bcb2ca0f053b323ad8c4d4aa40340d6e50df75254d"
+}
