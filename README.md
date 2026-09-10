@@ -2,15 +2,16 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** a pinned neural sparse retrieval source
-now gives us judged examples of both specialist groups on 19/43 and 22/54 queries.
-But “isolated” results also mean documents absent from the old retained rankings:
-candidate access and tail support are coupled. The next test bounds their
-relevance association while preserving missing judgments. No new fusion gain
-has been measured. Read the [cycle02 report and figure](results/cycle02-2026-09-10/REPORT.md),
-[earlier geometry results](results/cycle01-2026-09-10/REPORT.md),
+**September 2026 research checkpoint:** the frozen neural-source specialist
+comparison is inconclusive under its prespecified decision rule. A positive
+association on the observed 2020 queries does not establish a stable advantage
+across queries; neither year qualifies as a small-effect result. We are following
+the planned stop and designing a controlled task that separates copied reports,
+independent evidence, and specialist reliability. No new fusion gain is claimed.
+Read the [cycle03 report and figure](results/cycle03-2026-09-10/REPORT.md),
+[source inventory](results/cycle02-2026-09-10/REPORT.md),
 [current research state](_sessions/RESEARCH_STATE.md),
-[next protocol](_sessions/cycles/2026-09-10-cycle03-specialist-association-protocol.md),
+[next design](_sessions/cycles/2026-09-10-cycle04-known-truth-design.md),
 and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results

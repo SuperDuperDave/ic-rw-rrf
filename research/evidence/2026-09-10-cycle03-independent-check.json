@@ -1,0 +1,78 @@
+{
+  "checker_sha256": "52b404c814e9f766f26204b00092be61db679e36b0dca2b498f23e32b525fb28",
+  "independent_branch_decision": "stop_association_branch_and_draft_R5_controlled_known_truth_task",
+  "input_artifact_sha256": {
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "results/cycle02-2026-09-10/observations/per_query.json": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+    "results/cycle03-2026-09-10/association/per_query.json": "01f060091ad9ecf63b3f7549c473443d0982668d33b3852aa66d22dd33423f51",
+    "results/cycle03-2026-09-10/association/summary.json": "f516b01d2d52c0db196ebff06d0a3a877587927041ef6045e98ee0fdbfc6c9e1"
+  },
+  "input_artifacts_unchanged_during_check": true,
+  "method": "Original qrel/cohort reconstruction with Fraction endpoints and multiplicity-weighted bootstrap; no production imports.",
+  "per_query_sha256": "01f060091ad9ecf63b3f7549c473443d0982668d33b3852aa66d22dd33423f51",
+  "protocol_sha256": "ad99ecf75bc952ff3ee73a3bd2f42f77ed08c58bbcf41151ccbaf46bb5982f5c",
+  "query_outcome_rows_checked": 194,
+  "scope": "All query-group counts, paired eligibility, endpoint widths, draw hashes, bootstrap quantiles/envelopes, primary labels, and branch decision.",
+  "source_cohort_sha256": "ef92298685953770d4c20a626a3650c98550ede2041c7078cf7a2cb1ed196ddc",
+  "status": "verified",
+  "summary_sha256": "f516b01d2d52c0db196ebff06d0a3a877587927041ef6045e98ee0fdbfc6c9e1",
+  "years": {
+    "2019": {
+      "indices_sha256": "aeeca6e6eae5f240d50dec689aa1a44760c3281b631dc983c692f8808278edf4",
+      "n_queries": 20,
+      "outcomes": {
+        "grade_ge_2": {
+          "bootstrap_envelope": [
+            -0.175,
+            0.2777777777777778
+          ],
+          "independently_classified": "inconclusive",
+          "sharp_interval": [
+            -0.001388888888888889,
+            0.09861111111111111
+          ]
+        },
+        "grade_gt_0": {
+          "bootstrap_envelope": [
+            -0.10833333333333332,
+            0.23472222222222222
+          ],
+          "independently_classified": "inconclusive",
+          "sharp_interval": [
+            0.002777777777777778,
+            0.10277777777777777
+          ]
+        }
+      }
+    },
+    "2020": {
+      "indices_sha256": "f9fcdcdfec8b8686293e5a27202b181e836083b7f28262b72352cadffad01699",
+      "n_queries": 23,
+      "outcomes": {
+        "grade_ge_2": {
+          "bootstrap_envelope": [
+            -0.16378623188405794,
+            0.3782608695652174
+          ],
+          "independently_classified": "inconclusive",
+          "sharp_interval": [
+            0.06956521739130435,
+            0.1782608695652174
+          ]
+        },
+        "grade_gt_0": {
+          "bootstrap_envelope": [
+            -0.21014492753623187,
+            0.23768115942028986
+          ],
+          "independently_classified": "inconclusive",
+          "sharp_interval": [
+            -0.03333333333333333,
+            0.07536231884057971
+          ]
+        }
+      }
+    }
+  }
+}
