@@ -59,15 +59,26 @@ ambiguity: its isolated specialists are exactly documents absent from the
 retained lexical rankings, coupling support with candidate access.
 [Cycle02 inventory](../results/cycle02-2026-09-10/REPORT.md)
 
-**Current frontier.** We then ran one prospective relevance comparison, allowing
+**A planned stop.** We then ran one prospective relevance comparison, allowing
 unknown judgments to favor either group. The primary 2020 association remains
 positive on its observed eligible queries, but uncertainty across queries is
 broad in both years. Neither result meets the frozen rule for pursuing another
 fusion method, and neither establishes a negligible effect. We followed the
-planned stop. The next design uses known truth to distinguish copied reports
-from independent corroboration and to measure harm as well as rescue from a
-minority specialist. It is a new laboratory to verify, not a demonstrated LLM
-improvement. [Cycle03 result and figure](../results/cycle03-2026-09-10/REPORT.md)
+planned stop. [Cycle03 result and figure](../results/cycle03-2026-09-10/REPORT.md)
+
+**Current frontier.** An exact known-truth laboratory now separates copied
+reports from independent corroboration. It revealed a useful distinction:
+knowing evidence origins can improve probability estimates without changing
+the final answer. In the strong-specialist setting, an optimal aggregator with
+trusted lineage reduced average error from 15% to 14.05% versus an optimal
+aggregator that knew the possible constructions but could not see their lineage.
+Unconditionally protecting a weak minority instead raised error from 27.2% to
+36.85%. Those are controlled model outcomes with known calibration and free,
+correct metadata, not real-agent performance. A proposed shared-error test
+turned out to repeat arithmetic already in the experiment, so we retired that
+run. The next question is whether an actual coordinator can use these supplied
+assumptions on a small fixed packet set.
+[Cycle04 result and figure](../results/cycle04-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -78,6 +89,10 @@ association test while an independent check corrected its missing-label bounds.
 Reviewer mistakes were recorded and corrected too. A later native review hit
 its configured budget after emitting a useful memo; its limit is preserved
 alongside the critique, rather than reported as successful execution.
+A fresh compact review subsequently completed under the same cap. It caught
+the redundant next experiment; independent algebra also corrected a conclusion
+both reviewers had accepted. Collaboration improved the research through
+checked disagreements, not agreement alone.
 
 ## What the project demonstrates
 
