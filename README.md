@@ -2,17 +2,16 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** a canonical comparison reproduces the
-six-ranker k-tuning gain, but aggregate improvement remains uncertain and both
-tested annual transfers lose. A counterexample shows that copying a ranker can
-change RRF at any finite k;
-deeper-list evidence matters, while sparse relevance judgments prevent a reliable
-specialist-correctness test. The next question is what distinguishes useful
-independent evidence from repeated agreement. Read the
-[cycle01 report and figure](results/cycle01-2026-09-10/REPORT.md),
+**September 2026 research checkpoint:** a pinned neural sparse retrieval source
+now gives us judged examples of both specialist groups on 19/43 and 22/54 queries.
+But “isolated” results also mean documents absent from the old retained rankings:
+candidate access and tail support are coupled. The next test bounds their
+relevance association while preserving missing judgments. No new fusion gain
+has been measured. Read the [cycle02 report and figure](results/cycle02-2026-09-10/REPORT.md),
+[earlier geometry results](results/cycle01-2026-09-10/REPORT.md),
 [current research state](_sessions/RESEARCH_STATE.md),
-[next experiment](_sessions/cycles/cycle02-source-feasibility.md), and
-[case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
+[next protocol](_sessions/cycles/2026-09-10-cycle03-specialist-association-protocol.md),
+and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results
 

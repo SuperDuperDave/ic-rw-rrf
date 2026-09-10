@@ -1,0 +1,63 @@
+{
+  "analysis_kind": "descriptive membership and candidate inventory only",
+  "argv": [
+    "evaluation/cycle02_observation_audit.py",
+    "--source-manifest",
+    "data/cycle02/acquired/source-manifest.json",
+    "--protocol",
+    "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md",
+    "--output",
+    "results/cycle02-2026-09-10/observations"
+  ],
+  "cwd": "/home/david-wsl/repos/ic-rw-rrf",
+  "git_dirty_status": [
+    " M _sessions/MAP.md",
+    " M _sessions/PLANNING.md",
+    " M _sessions/streams/2026-09-10-002-recursive-phase-space.md",
+    "?? _sessions/cycles/2026-09-10-cycle02-observation-protocol.md",
+    "?? _sessions/cycles/2026-09-10-cycle02-source-notes.md",
+    "?? _sessions/tools/acquire_cycle02_source.py",
+    "?? _sessions/tools/tests/test_acquire_cycle02_source.py",
+    "?? data/cycle02/README.md",
+    "?? data/cycle02/acquired/dl2019.trec",
+    "?? data/cycle02/acquired/dl2020.trec",
+    "?? data/cycle02/acquired/source-manifest.json",
+    "?? data/cycle02/source-selection.json",
+    "?? evaluation/cycle02_observation_audit.py",
+    "?? evaluation/tests/test_cycle02_observation_audit.py"
+  ],
+  "git_head": "56e089cb5b6cfc2bcc353b1b5cc32e876a7ff707",
+  "input_sha256_start": {
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c"
+  },
+  "protocol": "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md",
+  "python_executable": "/usr/bin/python3",
+  "python_version": "3.12.3",
+  "rank_contract": {
+    "lexical_serialized_origin": 0,
+    "new_source_serialized_origin": 1,
+    "reported_origin": 1,
+    "ties": "preserve serialized order; scores nonincreasing"
+  },
+  "source_id": "splade_pp_ensemble_distil",
+  "source_manifest": "data/cycle02/acquired/source-manifest.json",
+  "source_sha256_start": {
+    "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md": "737ad042308cd933d76a3e51f17a8db55b1c7e47eb2cff105202d99c2cc94c67",
+    "data/cycle02/acquired/source-manifest.json": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+    "data/cycle02/source-selection.json": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6"
+  },
+  "started_utc": "2026-09-10T21:10:29.889311+00:00",
+  "status": "started"
+}

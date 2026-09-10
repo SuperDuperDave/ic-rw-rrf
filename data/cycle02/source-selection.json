@@ -1,0 +1,64 @@
+{
+  "source_id": "splade_pp_ensemble_distil",
+  "source_family": "SPLADE++ EnsembleDistil neural sparse passage retrieval",
+  "selected_date": "2026-09-10",
+  "selected_before_run_body_download_and_observation_audit": true,
+  "selection_rule": "Accessible cached artifacts for both years, bounded size, and meaningfully different documented evidence representation; not comparative relevance outcomes.",
+  "dataset_id": "castorini/rank_llm_data",
+  "dataset_revision": "39db0a25a552dd2a12012df22029686bf7fdc050",
+  "files": [
+    {
+      "year": 2019,
+      "filename": "retrieve_results_dl19_top1000.jsonl",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_dl19_top1000.jsonl",
+      "expected_bytes": 19107545,
+      "expected_sha256": "8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831"
+    },
+    {
+      "year": 2020,
+      "filename": "retrieve_results_dl20_top1000.jsonl",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_dl20_top1000.jsonl",
+      "expected_bytes": 23881164,
+      "expected_sha256": "ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5"
+    }
+  ],
+  "expected_total_bytes": 42988709,
+  "protocol": "_sessions/cycles/2026-09-10-cycle02-observation-protocol.md",
+  "provenance": {
+    "cache_public": true,
+    "cache_gated": false,
+    "cache_card_data": null,
+    "metadata_source": "https://huggingface.co/api/datasets/castorini/rank_llm_data",
+    "file_metadata_source": "https://huggingface.co/api/datasets/castorini/rank_llm_data/tree/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL",
+    "producer_inspected_revision": "443adf3306102f11b85945d2a277fb6aa10ea0aa",
+    "producer_code": "https://github.com/castorini/rank_llm/blob/443adf3306102f11b85945d2a277fb6aa10ea0aa/src/rank_llm/retrieve/pyserini_retriever.py",
+    "index_mapping": "https://github.com/castorini/rank_llm/blob/443adf3306102f11b85945d2a277fb6aa10ea0aa/src/rank_llm/retrieve/indices_dict.py",
+    "documented_index": "msmarco-v1-passage.splade-pp-ed-text",
+    "documented_query_encoder": "SpladePlusPlusEnsembleDistil (ONNX)",
+    "upstream_model_card": "https://huggingface.co/naver/splade-cocondenser-ensembledistil",
+    "paper": "https://arxiv.org/abs/2205.04733",
+    "production_limit": "Producer code identifies the current cache family and retrieval path; exact historical generation commit, index/encoder digests, and full command were not supplied with the cache."
+  },
+  "usage_notes": {
+    "model_card_license_label": "cc-by-nc-sa-4.0",
+    "raw_cache_license": "No explicit dataset-card license was supplied by the inspected metadata; model licensing is not assumed to license cache passages.",
+    "artifact_policy": "Use publicly served cache locally for research; keep original query/passage text in ignored local cache. Commit source provenance, acquisition code, numeric ranking facts and observation results only; no model weights or original passage/query text."
+  },
+  "considered_families": [
+    {
+      "family": "TCT-ColBERT-v2-HN+",
+      "status": "Documented full-index generation; no small precomputed run established through the checked Pyserini route.",
+      "source": "https://castorini.github.io/pyserini/2cr/msmarco-v1-passage.html"
+    },
+    {
+      "family": "IDST/Alibaba BERT",
+      "status": "Official 2019 raw run HTTP401 without credentials; corresponding 2020 family not established.",
+      "source": "https://pages.nist.gov/trec-browser/trec28/deep/runs/#idst_bert_p1"
+    },
+    {
+      "family": "SPLADE++ EnsembleDistil",
+      "status": "Selected before observation analysis; two cached files with published LFS SHA256/size metadata.",
+      "source": "https://huggingface.co/datasets/castorini/rank_llm_data"
+    }
+  ]
+}
