@@ -1,0 +1,60 @@
+{
+  "session_id": "7438a7f3-9964-407a-a02c-cb4444ba1245",
+  "marker": "cycle11-review-eb260e5257",
+  "mission_sha256": "db8d7d785067e7ad540b1e18a433c4ca42b2fa21fc146c29446c7bf8dabe464b",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 51.02860688499641,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.48746175,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 6,
+      "outputTokens": 3351,
+      "cacheReadInputTokens": 12767,
+      "cacheCreationInputTokens": 15833,
+      "webSearchRequests": 0,
+      "costUSD": 0.48746175,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 2177,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 555,
+  "advisory_word_target": 450,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "requested_model": "claude-fable-5-1",
+  "requested_effort": "high",
+  "configured_output_tokens_per_api_response": 3000,
+  "observed_message_ids": [
+    "msg_011CewJyhyVunp1Bw5VBdy2T",
+    "msg_011CewK32McUFYKUx2YcJvRk"
+  ],
+  "observed_models": [
+    "claude-fable-5-1"
+  ],
+  "per_message_final_usage_and_stop_reason": "unavailable in this review stream; initial counters do not replace aggregate final usage",
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "6d545361480a3c9aab6bf26db8d2f08b721cba728e7c1a7e6b1a4a9a40412473",
+  "memo_sha256": "0f5a50965d2e9536f66543736958e434a03fdcce2064dd9e8f05a57a99b5778c",
+  "memo_extraction": "All assistant text blocks in order, excluding thinking. Terminal result contains only the final fragment; full public memo recovered without a new call.",
+  "relay_request_seq": 60,
+  "relay_lifecycle_seq": [
+    61,
+    62,
+    63
+  ],
+  "relay_ack_seq": 64,
+  "relay_ack_recorded_by": "Codex after consuming exact request and full memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Artifact-derived cases, program and V/F bytes, scores and independent receipt; no direct file or private-stream inspection.",
+  "review_distinct_from_empirical_measurements": true,
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0"
+}

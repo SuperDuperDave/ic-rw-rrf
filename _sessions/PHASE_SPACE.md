@@ -35,7 +35,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H10 | `[observed locally; provider batch parked]` All four pairs change final state and pass the local gate, but an always-false policy mimics a 4/4→2/4 accuracy decline | Preserve the panel; no model difficulty/error claim. Certificate content offers a more direct evidence question |
 | H11 | `[observed, narrow]` Both actual maps reject invalid traces, including one with the correct endpoint; all6 judgments correct | One all-zero program, V-first: first-original-only also perfect. No strategy or causal-copy inference |
 | H12 | `[observed, narrow]` All18 returned judgments match exact verification and differ from all named fixed-position/endpoint policies | Close this two-endpoint diagnostic; no unique internal method, general ability or multiagent advantage identified |
-| H13 | `[next, local design]` Correct certificate judgments can guide a consequential answer despite copied opposing support | Four cases cross truth with valid-minority/majority status; one verifier first, park multiagent work here on full success |
+| H13 | `[observed, narrow; lab parked]` All4 answers and16 validity judgments are correct under valid-minority/majority copied support | Prespecified stop met; no internal evidence-use, copying-effect or multiagent claim |
+| H14 | `[open, gated]` Selecting a missing record may add information that repeated agreement cannot supply | Consolidate first; one auditable applied case and equal-access/budget single-system comparator before any batch |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -157,3 +158,12 @@ found relevant prior work; it does not constitute novelty clearance.
   The task needs a new answer-plus-validity schema. A perfect single-verifier
   result parks multiagent work in this laboratory; preserve any counterexample
   without an automatic repair wave. [Cycle11 design](cycles/2026-09-11-cycle11-evidence-selection-design.md).
+
+- **Cycle11 measurement:**4/4answers and16/16validities correct in four fixed
+  packets. Accepted-support endpoints match answers; copies receive consistent
+  judgments. Independent raw/score audit agrees. Direct solving remains an
+  alternative mechanism; repeated roots are not independent tasks.
+- **Cycle11 transition:** honor the promised park of this arithmetic laboratory.
+  Consolidate before another experiment. Missing evidence, rather than another
+  presentation of sufficient evidence, is a possible new axis; it requires an
+  applied local feasibility gate and an equally informed single-system baseline.

@@ -20,6 +20,7 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/FRICTION.md` | Process fixes and unresolved recurring obstacles |
 | `README.md` | Public research introduction and historical result tables |
 | `docs/RESEARCH_BRIEF.md` | Website-ready case-study draft and claim boundaries |
+| `docs/RESEARCH_SYNTHESIS.md` | Consolidated information limits, strong baselines, parked arithmetic laboratory and applied acquisition gate |
 | `evaluation/trec_eval_harness.py` | Shared run/qrel parsing, metrics, RRF and v2–v5 implementations, demo, evaluation CLI |
 | `evaluation/fusion_contract.py` | Canonical one-based RRF, exact asymptotic ordering, exact-duplicate quotient |
 | `evaluation/cycle01_rank_geometry.py`, `evaluation/cycle01_tail_evidence.py` | Reproducible geometry/selection and depth/specialist evidence experiments |
@@ -58,7 +59,11 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `evaluation/cycle10_verifier.py`, `_sessions/tools/run_cycle10_verifier.py`, `score_cycle10_verifier.py` | Shared strict decoder, six-call source/byte custody, complete/partial policy-vector scoring |
 | `_sessions/tools/check_cycle10_observations.py`, `build_cycle10_review_capsule.py` | Independent raw/score audit and artifact-derived interpretation capsule |
 | `results/cycle10-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | Actual18/18 diagnostic; named output policies differ, internal methods remain unidentified |
-| `_sessions/cycles/2026-09-11-cycle11-evidence-selection-design.md` | Prospective four-case answer-plus-validity bridge using preserved V/F roots; no generated cases |
+| `_sessions/cycles/2026-09-11-cycle11-evidence-selection-design.md`, `cycle11-local-protocol.md`, `cycle11-execution-protocol.md` | Frozen parent-reuse crossing, local gate, new atomic response schema and four-call stop |
+| `evaluation/cycle11_certificates.py`, `_sessions/tools/check_cycle11_evidence.py` | Preserved V/F roots, copied submission identities, independent truth/custody/reference audit |
+| `evaluation/cycle11_verifier.py`, `_sessions/tools/run_cycle11_verifier.py`, `score_cycle11_verifier.py` | Atomic answer+validity parsing, native custody and planned-row/consistency scoring |
+| `_sessions/tools/check_cycle11_observations.py`, `build_cycle11_review_capsule.py` | Independent raw/score audit and artifact-derived interpretation capsule |
+| `results/cycle11-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | All4 answers and16 judgments correct; arithmetic lab parked under its stopping rule |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

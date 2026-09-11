@@ -76,6 +76,12 @@ Claude's requested consumption ACK59. Final brief is clear, with no task-owned
 provider active. [Receipt](evidence/2026-09-11-cycle10-review-receipt.json).
 The six empirical contexts had no Relay hooks or review context.
 
+Cycle11 review used Fable5.1 session`7438a7f3-9964-407a-a02c-cb4444ba1245`.
+Request60's marker returned; lifecycle61–63 completed. Codex read both public-text
+fragments and the exact request, then recorded Claude's requested consumption
+ACK64. Final brief is clear; no task-owned provider remains active. The four
+empirical calls used isolated contexts without Relay hooks. [Receipt](evidence/2026-09-11-cycle11-review-receipt.json).
+
 ## Commands
 
 Cycle05 kept experimental packet contexts separate from Relay hooks. Its

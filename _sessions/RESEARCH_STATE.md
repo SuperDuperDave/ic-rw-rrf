@@ -17,6 +17,34 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle11: full correctness closes this arithmetic laboratory
+
+The [report](../results/cycle11-2026-09-11/REPORT.md) records4/4 correct answers
+and16/16 correct validity judgments from four fresh Opus5/high calls. Exact V/F
+roots from cycle10 appear under valid-minority and valid-majority submission
+counts. Every answer agrees with the singleton endpoint among reports marked
+valid; no copied-root judgments disagree. All323 tests pass; the independent
+audit verifies all four raw streams and full/partial measurement contracts.
+
+The batch took13.25492seconds and$.069705 native list accounting. Four observed
+messages used697 output tokens including384 thinking; no continuation or activity
+was observed. Copies are not independent acquisitions, and these repeated roots
+from two variants of one arithmetic skeleton do not create20 independent tasks.
+Direct program solving can produce every correct output; causal copying effects,
+internal evidence use and multiagent benefit remain unestablished.
+
+**R13 is complete; multiagent work in this restricted laboratory is parked.**
+No further arithmetic hardening, repairs or staged-agent comparison follows.
+The [consolidation](../docs/RESEARCH_SYNTHESIS.md) is complete. R14 gates any new
+applied case: distinguish evidence already sufficient for one solver from genuinely
+missing information. Any future applied acquisition
+study must first establish an auditable missing-evidence case and an equal-access,
+equal-budget single-system comparator. No cycle12 batch or acquisition is scheduled.
+Claude agreed to consolidation; its [review integration](cycles/2026-09-11-cycle11-review-integration.md)
+corrects mechanistic/token claims and an unsupported proposal to relabel the old
+retrieval data by recomputability. Review accounting$.48746175 gives cycle total
+$.55716675 at report precision; no successor method is promoted.
+
 ## Cycle10: named position and endpoint policies no longer match the outputs
 
 The [report](../results/cycle10-2026-09-11/REPORT.md) records18 correct judgments
@@ -40,11 +68,8 @@ Claude recommends one final evidence-selection bridge; the
 interior-recomputation and causal claims. Review succeeded at$.43333375;
 total cycle native accounting$.52136875 excludes Codex and subscription billing.
 
-**Next: R13 / [cycle11](cycles/2026-09-11-cycle11-evidence-selection-design.md).**
-Reuse existing V/F evidence, with a valid minority or majority under explicit
-copy-count support, and ask one verifier for a final answer plus each submission's
-validity. No cases have been generated. If that fixed baseline succeeds fully,
-park multiagent work here. More agents require a demonstrated baseline gap.
+**Subsequent checkpoint: R13 / cycle11 is complete above.** Its frozen bridge
+returned all correct answers and validity judgments; the promised park applies.
 
 ## Cycle09: correct evidence judgments, with strategy still unresolved
 

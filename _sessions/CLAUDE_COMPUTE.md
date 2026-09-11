@@ -160,6 +160,21 @@ follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome
 and the next checkpoint.
 
+Cycle11 completed four isolated Opus5/high calls:4/4 answers and16/16 validities
+correct,697 output tokens including384 thinking, four messages with maximum195
+per message and no observed continuation/activity. Empirical native accounting
+$.069705 over13.25492seconds. The full-correct stopping rule parks multiagent work
+in this arithmetic laboratory; no extra stage was launched.
+
+One separate Fable5.1/high tools-disabled review succeeded in51.02861seconds at
+$.48746175,3351 output tokens including2177 thinking, two observed message IDs.
+Final per-message usage and stop telemetry remain unavailable; the3000 ceiling
+is per API response. Its555 public words exceed450 advisory. Full public memo
+extraction recovered both fragments without another call. Native total$.55716675
+excludes Codex and subscription billing. Its token/strategy and recomputability
+claims were corrected in [integration](cycles/2026-09-11-cycle11-review-integration.md);
+strong-model interpretation remains evidence to check, not an authority to adopt.
+
 ## Select the requested models exactly
 
 | Role / property | Fable 5.1 | Opus 5 |

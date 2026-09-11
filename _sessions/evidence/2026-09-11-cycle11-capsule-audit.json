@@ -1,0 +1,78 @@
+{
+  "checked_utc": "2026-09-11T08:12:28.543277+00:00",
+  "checks_passed": 182,
+  "consequential_findings": [],
+  "draft_prose": {
+    "consequential_mismatch": false,
+    "measured_claims_reviewed": true,
+    "path": "results/cycle11-2026-09-11/REPORT.md",
+    "report_hash_omitted_reason": "Coordinator-owned draft may receive review integration; later prose is outside this receipt."
+  },
+  "generator_sha256": "e726d5e00cb75f2c64a7d772421279ed8ee95eccb6315d6e52fb169d8be95ec6",
+  "input_sha256": {
+    "_sessions/cycles/2026-09-11-cycle11-review-mission.md": "db8d7d785067e7ad540b1e18a433c4ca42b2fa21fc146c29446c7bf8dabe464b",
+    "_sessions/evidence/2026-09-11-cycle11-capsule-check.json": "6f4d58929cf445bbd4f4250ba34219a06602137e938ca11fd2c39d7a071e47bc",
+    "_sessions/evidence/2026-09-11-cycle11-empirical-audit.json": "d034171b99bd97a29e80942227432a6ddbd614e71f412c7320bdc37893ddd27c",
+    "_sessions/evidence/2026-09-11-cycle11-public-only-audit.json": "ac76db017a37855d53472f0943618455de38e95c383a2188bf3c0d7a21b51ece",
+    "results/cycle11-2026-09-11/observations/manifest.json": "fc128de0e3195e0958d0f90613a321f01064593be98d07cb9e4b0f129c90fd8f",
+    "results/cycle11-2026-09-11/observations/responses.json": "48078d9d035409c6c7b45723c471825423d6443ffd3cc27495ad3e98d547153d",
+    "results/cycle11-2026-09-11/prepared/cases.md": "8d2dac580222c0e747ec4121f4915b23b6e20f13b89c2c55c81084cb47977919",
+    "results/cycle11-2026-09-11/prepared/fixture.json": "a6ef37841fffde65d5e8b7584cac1af4533d71453504be3a7036c9572ac9d34f",
+    "results/cycle11-2026-09-11/prepared/manifest.json": "c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb",
+    "results/cycle11-2026-09-11/prepared/parent-fixture.json": "fe748cb2dd9c4e32face6b559d2c2ba45712966b8cefac3bbb4b7d55bdaf1aea",
+    "results/cycle11-2026-09-11/prepared/parent-manifest.json": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+    "results/cycle11-2026-09-11/scored/manifest.json": "d338cf6820c9c0c5159f88420ecf920cbc46286309fd342c95658cb696669f96",
+    "results/cycle11-2026-09-11/scored/scores.json": "5dc7198abab6c4a2849c59fbae141314a100f072ac28b1b648d3672bb538c835"
+  },
+  "limitations": [
+    "Raw native replay is the separate empirical auditor evidence, not repeated here.",
+    "No case/packet/ID generation, RNG draw, provider call, source import, test rerun, shared-document edit or Git operation.",
+    "Historical background and precollection test-count prose were not independently reaudited in this bounded capsule check."
+  ],
+  "schema_version": 1,
+  "scope": "Independent consistency audit of generated cycle11 review capsule against immutable public artifacts, plus measured claims in draft REPORT.md. No raw streams read or research code executed.",
+  "status": "passed",
+  "verified": [
+    "Capsule cases embedded verbatim; every table row, submission/root ID, reference vector and Boolean checked against actual fixture and observations.",
+    "Capsule source/V/F JSON exactly matches fixture projection, existing cycle10 source/certificate files and parent custody.",
+    "Measurement and audit JSON blocks exactly match sealed outputs and selected empirical-audit fields.",
+    "Preparation, observation, score and audit receipt links checked; full versus public-only raw-availability counts and status remain distinct.",
+    "Capsule and report limit claims to returned decisions and consistency; direct solving remains compatible, copying effects and internal sequence are not identified.",
+    "No unintended private paths, raw text, provider thought content or credentials found in the capsule."
+  ],
+  "verified_accounting": {
+    "all_observed_costs_known": true,
+    "collection_wall_seconds": 13.25492089195177,
+    "max_observed_message_output_tokens": 195,
+    "messages_per_invocation": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "missing_thinking_counters": 0,
+    "native_cost_usd": "0.069704999999999998",
+    "output_tokens": 697,
+    "provider_message_count": 4,
+    "thinking_tokens": 384
+  },
+  "verified_counts": {
+    "answers": {
+      "accepted": 4,
+      "correct": 4,
+      "planned": 4
+    },
+    "validities": {
+      "accepted": 16,
+      "correct": 16,
+      "planned": 16
+    }
+  },
+  "verified_identity_counts": {
+    "calls": 4,
+    "distinct_submission_ids": 12,
+    "program_variants": 2,
+    "roots": 4,
+    "submission_appearances": 16
+  }
+}

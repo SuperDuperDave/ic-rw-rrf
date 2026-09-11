@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle10 complete:18/18 judgments match exact verification and differ from all named heuristics. Independent3,990 raw/score checks pass. Fable review integrated; original claims and corrections retained. R12 closed.
-- Next: R13 / cycle11 local four-case evidence-selection construction, using preserved R0/R1 V/F roots with explicit3:1 submissions and a new answer/validity schema. No cycle11 cases or provider budget exist.
-- In flight: none. All workers/native providers finished; Claude request55 consumed/ACK59, final Relay brief clear. Coordinator owns the GitHub checkpoint.
-- Preserve: all historical/cycle01–10 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. No further cycle10 calls, arithmetic hardening or automatic repair probes.
+- Now: cycle11 complete:4/4 answers and16/16 validity judgments correct. Independent audit verifies all four raw streams. Promised stop met; arithmetic multiagent laboratory parked. Synthesis in docs/RESEARCH_SYNTHESIS.md.
+- Next: R14 local feasibility gate only for an applied missing-evidence case. No automatic cycle12, dataset acquisition or provider budget. Both review lenses favor consolidation before a new laboratory.
+- In flight: none. All workers and native providers finished; Claude request60 consumed/ACK64, Relay brief clear. Coordinator owns the GitHub checkpoint.
+- Preserve: all historical/cycle01–11 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. No arithmetic hardening, extra agent stage or automatic repair probe.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -296,3 +296,39 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R13 / cycle11-evidence-selection-design owns local source/root/instance/schema/reference checks before a separate empiricaldecision. Allcorrectsingle-verifieroutputs willparkmultiagentworkinthisrestrictedlab; no automaticnextstageorrepair.
 - R12closed; R11'soriginalfirst-positionambiguityremainshistorical. R10arithmeticbatchparked, R9's16reserveitemsunsent, R8incomplete. R1legacymaintenance andR2/R4parkedbranchesunchanged.
 - Finalchecks:298tests(158research/140helper), demoexit0, local2,411/empirical3,990/public-only3,834checks, capsule94/nextdesign78 independentchecks. Priorcycle09checkpointartifacts andallnewfrozenbytespreserved; localMarkdownlinksresolve andprivatepathsremainignored. Finalreceipt:evidence/2026-09-11-cycle10-checks.json. No liveworker/provider, pendingRelay signalorclaim. Websitepublication andotherreposremainseparate.
+
+## Cycle11 local and execution freeze — 2026-09-11
+
+- Passed independent local gate6,672 checks,323tests (167research,156helper), standard-library demo exit0. Preparedmanifest`c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb`; executionmanifest`bfb2c4859c69177c263903da3b0d7e646da0d924cc7bb87a2e64b1f35154d6ae`.
+- Exactparent source/cert/root reuse;4roots,12distinct submissionidentities across16appearances,4packets. Bytes1394/1394/1396/1396 inrequestorder. Independentreference totalsagree; deduprootvotesabstainfourtimes.
+- Separate decision andnativepreflight precede the4-callbatch. See cycle11local/executionprotocols and evidence receipts. Firstfailurestops; no retries/repairs/automaticfollowup.
+- Independent direction lens recommends consolidation, then only consider budgeted acquisition of missing applied evidence with equal access/budget single-system comparator. Claude interpretation pending.
+
+## Cycle11 results, critique and wrap — 2026-09-11
+
+- Four accepted maps give all4 finalanswers and16 validitybitscorrect in both
+  valid-minority andvalid-majority regimes. Eachanswer matches theendpoint of
+  supportmarkedvalid; no same-root disagreement. Exact finiteoutputs, not internal
+  evidence-use or causal-copy evidence. Prespecified arithmetic-lab park applies.
+- Independent observation audit passes7,997 checks with4rawstreams verified;
+  public-only7,893 checks with4rawstreamsexplicitlyunavailable. No discrepancy.
+  Empirical13.25492seconds,$.069705;697outputincluding384thinking,fourmessages,
+  maximum195/message, no observed continuation/activity. All323tests anddemo passed.
+- One Fable5.1/high tools-disabledreview succeeded in51.02861seconds,$.48746175;
+ 3351outputincluding2177thinking,twoobservedmessageIDs. Full555-wordpublicmemo
+  recoveredfrombothfragments; finalper-messageusageunknown, noextra call.
+  Nativecycle total$.55716675 atreportprecision excludesCodex/subscriptionbilling.
+- Claude agreed topark but overstated computation asdemonstrated and inferred
+  strategyfromtoken counts. Integrationcorrects those claims and rejectsundefined
+  recomputabilityflags onoldretrievalrows. No relabeling orposthocstratificationrun.
+- Artifact-derived capsule passes182 independentfidelitychecks. R13closed;
+  docs/RESEARCH_SYNTHESIS.md consolidatesinformationlimits, copying/dependence,
+  strongbaselines and thepossibleappliedacquisitiongate. R14 owns thenextbody.
+- Relay60markerreturned;lifecycle61–63complete. Fullrequest/memoread; requested
+  consumptionACK64recorded. Finalbriefclear. Allworker/providerjobsfinished.
+- Friction: F10 PROMOTE checkedcritique toexisting researchdiscipline/integration;
+  F21 SUBTRACT terminal-onlyextraction (actualreuseverified); F22 SUBTRACT
+  handwrittenfacts (182checks); F23 PROMOTE prefreezenewfilechecks (coverageexercised,
+  defectpreventionnotproven). F12 SUBTRACT anotherautomatictoywave: promisedpark
+  landed, synthesiscomplete. No additionalgenericworkflowframework ornewratchetrow.
+- Carryforward: R14 only; preserveR9reserves/R10park and all prior immutableevidence.

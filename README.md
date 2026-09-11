@@ -2,15 +2,15 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** a fixed certificate panel produced
-18/18 correct model judgments across report positions and final-answer values.
-Fixed-position rules score 10/18 and endpoint-only checking 12/18, so these named
-shortcuts do not explain the returned vector. The result is limited to six
-certificates from one arithmetic skeleton; it does not identify internal
-reasoning or establish a multiagent advantage. The next small test asks whether
-valid minority evidence guides a final decision despite copied opposing support.
-Read the [latest report and verified cases](results/cycle10-2026-09-11/REPORT.md),
-[preceding certificate pilot](results/cycle09-2026-09-11/REPORT.md),
+**September 2026 research checkpoint:** one verifier returned all four correct
+answers and all sixteen correct evidence-validity judgments when valid support
+was either outnumbered or in the majority among copied reports. We followed the
+prespecified stop and parked multiagent work in this small arithmetic laboratory.
+The result establishes these outputs, not internal evidence use or a multiagent
+advantage. The [research synthesis](docs/RESEARCH_SYNTHESIS.md) separates the lessons learned;
+future acquisition work needs genuinely missing evidence and a strong single-system
+baseline. Read the [latest report and verified cases](results/cycle11-2026-09-11/REPORT.md),
+[preceding diagnostic](results/cycle10-2026-09-11/REPORT.md),
 [current research state](_sessions/RESEARCH_STATE.md),
 and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 

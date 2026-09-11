@@ -239,29 +239,39 @@ lens and Claude review select a final evidence-selection bridge. The
 recomputation, causal-invariance and unchanged-parser claims. Preserve the
 original memo and all frozen evidence.
 
-### R13 — NEXT: one verifier chooses between valid and invalid opposing support
+### R13 — DONE: one verifier answers under valid-minority and valid-majority support
 
-The [cycle11 prospective design](cycles/2026-09-11-cycle11-evidence-selection-design.md)
-reuses cycle10's exact R0/R1 programs and V/F certificate bytes. Cross both truths
-with a valid minority and valid majority, using three submission instances of
-one root versus one of the opposing root. Copies are explicit; they do not
-represent independent acquisitions. Four cases, one verifier, no staged-agent
-comparison or new arithmetic.
+The [cycle11 report](../results/cycle11-2026-09-11/REPORT.md) records4/4 correct
+answers and16/16 correct submission judgments. All maps accepted; every answer
+agrees with the support marked valid, and no copied-root judgments disagree.
+The fixed four packets reuse cycle10 V/F artifacts without new arithmetic or
+source selection. Independent raw/custody/score audit passes7,997 checks.
 
-**First action:** independently verify source reuse, canonical instance/root
-identity, slot/majority/truth balance, all validity/answer reference vectors and
-the new response schema. Four answer judgments plus16 submission judgments need
-an explicit answer/validity object, not the old three-ID-only parser. A passed
-local gate ends at a separate execution decision; no cycle11 cases or provider
-budget currently exist.
+**Decision:** follow the precommitted stop. Park multiagent work in this restricted
+arithmetic laboratory. No extra stage, reserve, harder case or automatic repair
+probe. Correct finite outputs do not identify internal verification, necessary
+certificate use, causal copy robustness or ensemble benefit.
 
-**Stop and interpretation:** if the fixed verifier gives all four correct final
-answers and all16 correct submission judgments, park multiagent work in this
-restricted laboratory. Any incorrect answer with correct validity judgments is
-informative in either regime; wrong validity, format/native failure and missing
-coverage remain separate. Preserve the failure, without automatic repair or
-arithmetic hardening. Finite correctness does not establish internal evidence
-use, causal copy robustness, general ability or an agent-ensemble advantage.
+### R14 — NEXT, LOCAL GATE ONLY: an applied evidence-acquisition case
+
+The [consolidation](../docs/RESEARCH_SYNTHESIS.md) is complete: information limits,
+strong baselines, copying, dependence, correctness and acquisition are distinct.
+No automatic cycle12 and no provider/data-acquisition budget.
+
+A possible reopening question concerns acquiring a decisive missing record on
+an applied retrieval task. Before implementation, manually establish one auditable
+case: the initial evidence permits two materially different answers; an accessible
+additional record settles the distinction; identity/redundancy/cost can be tracked;
+a proposed acquisition policy makes a consequential different choice from a
+simple single-system baseline. The baseline gets the same accessible records,
+tools and total acquisition/inference budget. To compare aggregation afterward,
+replay exactly the same acquired evidence to both systems.
+
+**Stop:** if that local gate needs another elaborate toy, answer-revealing source
+labels or unequal access, remain at consolidation. A successful single-system
+baseline supplies no reason to add agents. Any passing case needs its own bounded
+measurement decision. Reuse existing primitives and one evidence ledger; do not
+turn each caveat into another implementation family.
 
 ## Communication and operations
 

@@ -1,0 +1,13 @@
+{
+  "empirical_observations_in_capsule": true,
+  "generator_sha256": "e726d5e00cb75f2c64a7d772421279ed8ee95eccb6315d6e52fb169d8be95ec6",
+  "mission_sha256": "db8d7d785067e7ad540b1e18a433c4ca42b2fa21fc146c29446c7bf8dabe464b",
+  "source_artifacts_sha256": {
+    "_sessions/evidence/2026-09-11-cycle11-empirical-audit.json": "d034171b99bd97a29e80942227432a6ddbd614e71f412c7320bdc37893ddd27c",
+    "results/cycle11-2026-09-11/observations/manifest.json": "fc128de0e3195e0958d0f90613a321f01064593be98d07cb9e4b0f129c90fd8f",
+    "results/cycle11-2026-09-11/prepared/cases.md": "8d2dac580222c0e747ec4121f4915b23b6e20f13b89c2c55c81084cb47977919",
+    "results/cycle11-2026-09-11/prepared/fixture.json": "a6ef37841fffde65d5e8b7584cac1af4533d71453504be3a7036c9572ac9d34f",
+    "results/cycle11-2026-09-11/prepared/manifest.json": "c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb",
+    "results/cycle11-2026-09-11/scored/scores.json": "5dc7198abab6c4a2849c59fbae141314a100f072ac28b1b648d3672bb538c835"
+  }
+}

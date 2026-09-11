@@ -1,0 +1,10 @@
+Determine the final Boolean result of program, and decide whether each
+submission's certificate is a valid execution of that program. Each numbered
+row must record the complete state after that assignment, including unchanged
+variables and their exact types. Check from the initial assignments through
+the final Boolean assignment. root_id identifies copies of an artifact; it
+does not certify correctness or independent errors. Return exactly one JSON
+object with only two keys: "answer", whose value is the program's final Boolean,
+and "validity", whose value is an object with exactly the IDs in submission_ids
+as keys and Boolean values (true for a valid certificate, false for an invalid
+certificate). Return no other text. Evaluate the supplied packet.

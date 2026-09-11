@@ -1,0 +1,41 @@
+{
+  "timestamp_utc": "2026-09-11T08:05:30.497843+00:00",
+  "status": "passed",
+  "empirical_calls": 0,
+  "actual_cycle11_preparations": 0,
+  "tests": {
+    "research": 167,
+    "helpers": 156,
+    "total": 323
+  },
+  "commands": [
+    "python3 -B -m unittest discover -s evaluation/tests",
+    "python3 -B -m unittest discover -s _sessions/tools/tests",
+    "python3 evaluation/trec_eval_harness.py --demo"
+  ],
+  "demo_exit_code": 0,
+  "new_and_reused_files_whitespace_checked": 20,
+  "parent_manifest_sha256": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+  "source_sha256": {
+    "evaluation/cycle10_certificates.py": "33ade9bdea536fdf7b41546e922caeba4ccbbf3b92ae48f791aca9c8db5a9265",
+    "evaluation/tests/test_cycle10_certificates.py": "93cdbfb4600a153363dd2f1fb52ca6eb34f85d0305b7f009334e89c83bbafe00",
+    "_sessions/tools/check_cycle10_evidence.py": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a",
+    "_sessions/tools/tests/test_cycle10_audit.py": "75aeff3ccca242d9d8dff0f79b35c8ef40568e72ba5e14bd886f5252715f4795",
+    "_sessions/cycles/2026-09-11-cycle10-discriminating-design.md": "0b00c41b4c76e9526c65b6cc36574f903fb02179859c2bc1b9a16237ba6c0a10",
+    "_sessions/cycles/2026-09-11-cycle10-local-protocol.md": "f5f87f93479df947b278760ba0396499bc7a5f18a9285a63f59d9b63ec27db0c",
+    "evaluation/cycle09_certificates.py": "7b5aa4ed5b454fa6fe55ed71914c7b8fe8deb69606e5f3c74f8de0c8f6c8146a",
+    "_sessions/tools/check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "evaluation/cycle11_certificates.py": "1a0f0e22393df427f05cec75b33e6c296ce02ffeb0a58c28b857034d30c4f35e",
+    "evaluation/tests/test_cycle11_certificates.py": "36012d209f297bd59c97b7011e2547192ed9fc3aba8a4a6e6995a2dc21ebd7a8",
+    "_sessions/tools/check_cycle11_evidence.py": "7c2e8e0e8a9b6c24f27ebdd24bbbd787919231ea51b04a5bb36ecdd3217fdcdd",
+    "_sessions/tools/tests/test_cycle11_audit.py": "11d298cdd774070d79fa52a385aef76a703a615ea0814d6f60dcfda30673befd",
+    "_sessions/cycles/2026-09-11-cycle11-evidence-selection-design.md": "03a0d066025b8ade11bf62aa5e4bf8d5033bd1295cda5f2c6595c7e064af586f",
+    "_sessions/cycles/2026-09-11-cycle11-local-protocol.md": "2ac15bdbdb076ff85fbc520c5a0338fd57224a987b07cc0425d168ed51076867"
+  },
+  "synthetic_test_parent_parameters": {
+    "A": -3,
+    "B": 4
+  },
+  "actual_parent_rendered": false,
+  "prior_checkpoint_artifacts_verified": 60
+}
