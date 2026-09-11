@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-09-11T04:02:58.783081+00:00",
+  "status": "passed",
+  "starting_commit": "83d45ab93ee668b88006ae0deb7f91f8d9848c73",
+  "tests_total": 236,
+  "research_tests": 131,
+  "helper_tests": 105,
+  "tests_evidence": "_sessions/evidence/2026-09-10-cycle08-preflight.json",
+  "standard_library_demo": "python3 evaluation/trec_eval_harness.py --demo: exit0; smoke only, no research score promoted",
+  "independent_local_checks": 24968,
+  "local_gate_passed": true,
+  "empirical_solver_calls": 0,
+  "arithmetic_provider_candidate": "parked by subsequent information-value decision",
+  "always_false_reference": {
+    "4": {
+      "correct": 4,
+      "planned": 4
+    },
+    "64": {
+      "correct": 2,
+      "planned": 4
+    }
+  },
+  "local_markdown_links_checked": 139,
+  "missing_links": [],
+  "readable_cases_matched": 8,
+  "prepared_source_and_artifact_hashes_match": true,
+  "all_previous_cycle07_checkpoint_hashes_match": true,
+  "old_cycle07_reserved_items_unsent": 16,
+  "next_cycle09_cases_generated": false,
+  "review_numeric_capsule_independently_matched": true,
+  "review_mission_memo_and_raw_receipts_match": true,
+  "private_runtime_and_provider_paths_ignored": true,
+  "credential_signature_findings": [],
+  "relay_final_sequence": 49,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": 0,
+  "native_review_list_accounting_usd": "0.19646825",
+  "artifact_sha256": {
+    "results/cycle08-2026-09-10/prepared/manifest.json": "315b0282dc765569f9d4acc6f47a6a56ca3b65eaea12d7ae037b0886c5873a0d",
+    "results/cycle08-2026-09-10/prepared/panel.json": "a01ff4c68422cbf831a38df06f8e024675fa5d952dac55ad392df1656ede3707",
+    "results/cycle08-2026-09-10/prepared/cases.md": "a26cb114d313ce4448f86b0e3a8823c626f348fcb5247bbb4a351969c92b6c5f",
+    "results/cycle08-2026-09-10/REPORT.md": "9e4eb40612a2192bc0b70af45fc959379bcd70d3ad6c253186643dc9bd08c5ce",
+    "_sessions/evidence/2026-09-10-cycle08-independent-check.json": "d0f44963ab18927eea050488b3340d905db5c9cce02c6424b0bcb6b150856814",
+    "_sessions/evidence/2026-09-10-cycle08-review-receipt.json": "18138e6af1e6495dbc63b0f31759f17fa194f0c568aef5b879813aa5158e33e8",
+    "_sessions/evidence/2026-09-10-cycle08-claude-review.md": "0e2aaa47e0b8e839dc99665d5d8326a860f094a876044cf6dd9deb11a38df791",
+    "_sessions/evidence/2026-09-10-cycle08-capsule-check.json": "8b59549f5f34eedcfac57c2ac3f1cb8b60e4b4f67dc45c512dde424b62af1b03",
+    "_sessions/cycles/2026-09-10-cycle08-review-integration.md": "a0aaa6ab37ee873327b99293a70f21dc32a1697941c1e72558ee726537672b88",
+    "_sessions/cycles/2026-09-10-cycle09-certificate-design.md": "22cd5df70ac14829261302911f02bb1550fcf1986bd0d2436b08872825da199c"
+  },
+  "limitations": [
+    "Local construction gate is not empirical error feasibility or minimum reasoning work.",
+    "The finite panel has truth imbalance by bound; no solver difficulty effect measured.",
+    "Claude reviewed the capsule, not underlying files; reviewer corrections remain explicit.",
+    "Certificate design is prospective, not generated or empirically tested.",
+    "Native list accounting excludes Codex work and is not subscription billing."
+  ],
+  "staged_whitespace_check": {
+    "strict_git_diff_cached_check": "One extra blank line at EOF in evaluation/tests/test_cycle08_loopbound.py:221; source bytes already frozen, retained.",
+    "other_whitespace_check": "git -c core.whitespace=-blank-at-eof diff --cached --check: passed; only the documented frozen EOF-blank rule excluded",
+    "source_integrity_preserved": true
+  }
+}

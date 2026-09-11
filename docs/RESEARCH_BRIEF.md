@@ -101,7 +101,7 @@ produce enough differing and shared solver errors to study actual evidence
 quality. Separate sessions alone will not establish independence.
 [Cycle06 result and figure](../results/cycle06-2026-09-10/REPORT.md)
 
-**Current frontier.** The mechanically verified program panel then completed:
+**Finding an observable.** The mechanically verified program panel then completed:
 two solver prompts each answered all eight development cases correctly. That
 sounds successful, but it failed the research gate—there were no errors or
 disagreements to compare. The reserved cases remain unused. The next step first
@@ -109,6 +109,17 @@ checks whether changing only a loop bound creates an informative contrast;
 more execution steps do not necessarily require more reasoning, especially
 when a program has a simple recurrence or shortcut.
 [Cycle07 result and readable cases](../results/cycle07-2026-09-10/REPORT.md)
+
+**Current frontier.** The local loop audit passed its construction checks, but
+revealed a problem for interpretation: always answering “false” would score
+100% on the short programs and 50% on the long ones without doing any arithmetic.
+We preserved the panel and skipped the proposed solver batch. Claude's review
+helped redirect the next question toward checking evidence itself: can a solver
+recognize an invalid explanation that reaches the right answer, then preserve
+that judgment when incorrect evidence is repeated? The next local construction
+will make that contrast exact before any model is tested. This is a research
+choice about information value, not a claim of improved model reasoning.
+[Cycle08 local result and cases](../results/cycle08-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout

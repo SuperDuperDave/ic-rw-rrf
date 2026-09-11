@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-09-11T03:49:58.184016+00:00",
+  "starting_git_head": "83d45ab93ee668b88006ae0deb7f91f8d9848c73",
+  "tests": [
+    {
+      "command": "python3 -B -m unittest discover -s evaluation/tests",
+      "passed": 131,
+      "seconds": 3.727
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests",
+      "passed": 105,
+      "seconds": 2.522
+    }
+  ],
+  "total_tests_passed": 236,
+  "actual_panel_enumerated": false,
+  "empirical_provider_calls": 0,
+  "source_sha256": {
+    "evaluation/cycle08_loopbound.py": "59ea9163aa203e7d53fa71239590e9639ed4bfbd0ef641643f7b120f75dc323a",
+    "evaluation/tests/test_cycle08_loopbound.py": "481fb3e46b495a7a8567b785612bde09f1f9fd56a4b40f5550f3012ba3b9801d",
+    "_sessions/tools/check_cycle08_evidence.py": "61c586704a47fb7230b38fe590f32950c328423cf3384865d4a1c6ab8b4bd79c",
+    "_sessions/tools/tests/test_cycle08_audit.py": "b2f24ba2bf0b86c7fb2db0a7d30434e4ee4aaa39dae37cadf866335fe96b7ec7",
+    "evaluation/cycle07_program_errors.py": "be26ce81d739a19392e925cd6fa58b1981b82f504e2d46071f9b83e9a48c6392",
+    "_sessions/cycles/2026-09-10-cycle08-loopbound-design.md": "d40d0f04de92489ed828d020e473ca9490fb0b2c7b4cca46a6ce46995ce9b667",
+    "_sessions/cycles/2026-09-10-cycle08-local-protocol.md": "ac3d6cdaf85bc519423b3fbd8555194638f296f89b95783a2287f20d63fad728"
+  },
+  "input_sha256": {
+    "_sessions/evidence/2026-09-10-cycle08-prior-template-hashes.json": "332f7b424cd626b8da12363161f6af6d5ddf909a223cae1c41be58217ba0f16f",
+    "_sessions/evidence/2026-09-10-cycle08-source-review.json": "ec3ed423c8e2dafd08b3639353dc5e6873ea2e3b05f64689fae9b481f02dd1f0"
+  },
+  "relay_preparation_last_seq": 44,
+  "relay_active_claims": []
+}

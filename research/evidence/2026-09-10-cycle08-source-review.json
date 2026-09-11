@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "reviewer": "cycle07_audit (independent source review), integrated by Codex coordinator",
+  "source_sha256": {
+    "_sessions/cycles/2026-09-10-cycle08-loopbound-design.md": "d40d0f04de92489ed828d020e473ca9490fb0b2c7b4cca46a6ce46995ce9b667",
+    "_sessions/cycles/2026-09-10-cycle08-local-protocol.md": "ac3d6cdaf85bc519423b3fbd8555194638f296f89b95783a2287f20d63fad728",
+    "evaluation/cycle08_loopbound.py": "59ea9163aa203e7d53fa71239590e9639ed4bfbd0ef641643f7b120f75dc323a",
+    "_sessions/tools/check_cycle08_evidence.py": "61c586704a47fb7230b38fe590f32950c328423cf3384865d4a1c6ab8b4bd79c"
+  },
+  "reviews": [
+    {
+      "operators": [
+        "+",
+        "+"
+      ],
+      "demonstrated_bound_irrelevance": false,
+      "proof": "",
+      "reduction_finding": "The final a equals (b_old*c_old+2*a_new)%997. This expression retains the evolving prior state; no bound-irrelevance identity was demonstrated in this bounded source review."
+    },
+    {
+      "operators": [
+        "+",
+        "-"
+      ],
+      "demonstrated_bound_irrelevance": false,
+      "proof": "",
+      "reduction_finding": "The final a equals (b_old*c_old)%997 from immediately before the last iteration: the second update subtracts a_new, which cancels in the fixed tail. This removes the last a update from the predicate calculation but retains the preceding loop state and does not establish N irrelevance."
+    },
+    {
+      "operators": [
+        "-",
+        "+"
+      ],
+      "demonstrated_bound_irrelevance": false,
+      "proof": "",
+      "reduction_finding": "The final a equals (b_old*c_old+2*a_new)%997. This expression retains the evolving prior state; no bound-irrelevance identity was demonstrated in this bounded source review."
+    },
+    {
+      "operators": [
+        "-",
+        "-"
+      ],
+      "demonstrated_bound_irrelevance": false,
+      "proof": "",
+      "reduction_finding": "The final a equals (b_old*c_old)%997 from immediately before the last iteration: the second update subtracts a_new, which cancels in the fixed tail. This removes the last a update from the predicate calculation but retains the preceding loop state and does not establish N irrelevance."
+    }
+  ]
+}
