@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle04 is complete at this checkpoint; verify the GitHub push before reporting completion. Its six cells and every numerical field independently reconstruct. Cycle03 is preserved at4486986.
-- Next: PLANNING R7 / cycle05-coordinator-packet-design. Freeze20 exact empirical requests, weights, parser and verified native context/resource controls before the first call. The common-cause numerical candidate was retired as redundant; do not execute it on resume.
-- In flight: no provider or worker remains active. Fresh Claude session3aa95d47-60aa-4387-91a5-7020b8d04744 completed successfully with one Fable5.1 coordinator/Opus5 scout. Request25 consumed, coordinator ACK29 recorded, final brief clear. No pending user approval.
-- Preserve: historical inputs and cycle01–04 frozen code/protocols/numerical evidence. Raw source text and provider transcripts stay ignored. Cycle05 is design only.
+- Now: cycle05 is complete. The separately frozen replication produced20 valid near-exact posteriors;2,636 independent checks verified all21 empirical streams and arithmetic. Original stopped scores remain0accepted/1rejected/19unscheduled. Git checkpoint is handled at wrap; use current Git metadata for its identity.
+- Next: PLANNING R8 / cycle06-known-noise-design. Eight inputs with a disclosed binary lineage-hint error1/4; exact references/weights checked analytically. Freeze implementation and actual payloads before any model call. No cycle06 empirical output exists.
+- In flight: all22 provider invocations (21 empirical, one Fable review) have exited. Relay request30 consumed, coordinator ACK34 recorded, final brief clear. No pending user approval or live collaborator; final bounded prose review found no material discrepancy.
+- Preserve: historical inputs and cycle01–05 frozen code/protocols/numerical evidence, including the failed original batch and its separate corrected replication. Raw source text and provider transcripts stay ignored. No old answer was carried into the replication.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -141,3 +141,27 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R7 / cycle05 coordinator packets is first action. Exact payload/context/resource freeze precedes any model response.
 - R1 owns unrelated legacy maintenance; R2/R4 remain parked. The common-cause candidate is retired, not another queued experiment.
 - Reuse this stream and preserve all frozen evidence. No live job or unresolved approval blocks the next design implementation.
+
+## Cycle05 — prospective execution refinement
+
+- Native2.1.267 audit found output500 is per API response including reasoning, while max-turns1 and retry switches do not disable every continuation/recovery. Before any response, explicitly amended treatment to the fixed native workflow, with at most20 unique invocations, zero coordinator retries and120s/call,900s/batch,$4 native scheduling limits.
+- Prepared20 exact payloads, seed42 order,72 selected world-arm rows, reference posteriors and conditional weights. Closed-form independent arithmetic agrees. Prepared manifest929fa72b040c97f9ce7908244cab9428eae6a9eb3d656f7dec624e929be2a2b0.
+- Preflight clarification distinguishes ideal information value from empirical approximation error; perfect reasoning has zero regret in both views. Construction names are supplied model definitions, while realized arm identity remains hidden. Original prepared bytes preserved; addendum frozen with collection sources.
+- Runner review corrected lost nested reasoning usage and required cleanup/attempt receipts on unexpected errors. Partial paired scoring preserves a selection cross-term because missing lineage observations can change the blind posterior within the selected subset. No provider outcomes informed these fixes.
+
+## Cycle05 measurement, critique and checkpoint
+
+- All126 preflight tests passed before the original invocation. The native response succeeded with157output/138thinking tokens at$.014545; the detector mistook a nonempty all-zero subagent_stats object for activity. It stopped the batch exactly as frozen. Independent raw review confirmed no actual agents and valid terminal JSON; the original rejected score remains unchanged.
+- A separate replication protocol, adapter and11 new regression tests were frozen. Only exact integer-zero telemetry is accepted; malformed/nonzero schemas and actual activity still fail. All20 original inputs were submitted again in fresh contexts, with no response carryover, prompt/model changes or raised terminated-run cap.
+- Replication20/20 valid; all reference sign decisions match. Maximum absolute posterior error3.37017e-8, from seven-decimal rounding. Known-copy contrasts are exactlyzero. Conditional expected Brier blind→aware: weak.211040397→.203780708, strong.219636493→.207226417. These conditional losses differ from full-cycle04 mixtures and have no sample-based intervals.
+- Observed20 distinct native Opus5 messages, no continuations/tools/agents, max433output permessage. Total3,730output including3,380thinking,83.84s,$.182899 native list accounting. Originalcanary+replication=$.197444, not subscription billing. Independent closed-form/raw checker passed2,636 checks; public-only mode passed1,311 while marking private streams unavailable. Synthetic score corruptions were detected.
+- Fresh Fable5.1 interpretation review through Relay, no tools/scouts, succeeded39.68s,$.313930 under$1 cap.557-word memo exceeded advisory500; native budget/wall guards succeeded. Request30's marker returned, lifecycle31–33 complete, coordinator consumed event/memo and ACK34; brief clear. Total thiscycle native accounting$.511374. Reviewer access was a supplied capsule, separate from independent raw verification.
+- Fable chose known-noise lineage. Corrected an ambiguous three-class flip into an explicit binaryC/I hint channel, declined arbitrary thresholds and an undisclosed-error arm, and reduced the proposed grid to eight unique inputs at error1/4. Independent algebra verifies posteriors and unequal diagnostic hint weights. Exact blind already shares the correct strong-setting class, so continuous probabilities remain necessary.
+- Updated reports/exportable figure, public case-study draft, research state, map and backlog. R7done; R8next.81 research and56 helper tests pass (137 total); final evidence/link/privacy/figure checks live in evidence/2026-09-10-cycle05-checks.json. No website publication or other-repo changes.
+- Ratchet: F17 records the observed zero-counter fix and independently verified20-call reuse; F18 preserves the partial-pair cross-term; F19 owns verified native control semantics. SUBTRACT repeated Relay command guessing with exact events/acknowledge examples in RELAY; SUBTRACT plotting cache warnings with a project-local ignored cache. DROP resolved bounded-fork/CLI lookup mismatches as new framework work. No model-quality gain is inferred from instrumentation repair.
+
+## Current cycle05 carryforward
+
+- R8 / cycle06-known-noise-design is first action, with eight fresh inputs and prospective$1/300s controls. Preserve the analytical-only status of its reference predictions.
+- R1 owns unrelated legacy metric/generation maintenance; R2/R4 remain parked. Known calibration and conditional independence do not transfer automatically to real sources.
+- Reuse this coordinating stream. Preserve both cycle05 batches and raw-data privacy; record future instrumentation failures and review disagreements before changing the map.

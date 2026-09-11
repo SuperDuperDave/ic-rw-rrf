@@ -1,0 +1,10 @@
+{
+  "input_sha256": {
+    "_sessions/tools/score_cycle05_coordinator.py": "1283933826c1bb28b8e2a02b9328dd53fc2b2374c456f14d9fd21ff144582e96",
+    "results/cycle05-replication-2026-09-10/observations/manifest.json": "ac4b62d37678f4d302def6ecd4ce54e3d5f2f6f41ace114058e8aaeedc801aa1",
+    "results/cycle05-replication-2026-09-10/observations/responses.json": "72623f00318a7e84a78805c2abb012938993ab8d7ad83d3bcd3a66c46567a794"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-09-11T01:42:07.635441+00:00",
+  "status": "started"
+}

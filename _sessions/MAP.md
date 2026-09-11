@@ -28,6 +28,10 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/check_cycle03_evidence.py` | Independent exhaustive synthetic sharpness and actual Fraction/bootstrap reconstruction |
 | `evaluation/cycle04_known_truth.py` | Exact binary evidence fixture; six policies with separate blind/aware packets and immutable output custody |
 | `_sessions/tools/check_cycle04_evidence.py` | Independent finite-table reconstruction, conditional identities and all cycle04 numerical evidence |
+| `evaluation/cycle05_coordinator_packets.py` | Frozen empirical prompts, diagnostic packet preparation, strict parser and exact full/partial scoring |
+| `_sessions/tools/run_cycle05_coordinator.py`, `run_cycle05_replication.py` | Preserved initial native collector and separately frozen zero-counter correction; fresh isolated experimental contexts |
+| `_sessions/tools/score_cycle05_coordinator.py`, `score_cycle05_replication.py` | Custody-checked offline scoring; no provider calls |
+| `_sessions/tools/check_cycle05_observations.py` | Independent native receipt and probability-score reconstruction; private streams checked when locally available |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |
@@ -49,6 +53,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `results/cycle02-2026-09-10/observations/` | Frozen judgment-membership/candidate inventory and input/output hashes |
 | `results/cycle03-2026-09-10/REPORT.md`, `association/` | Completed relevance-association result, immutable evidence, and exact-known-truth branch decision |
 | `results/cycle04-2026-09-10/REPORT.md`, `exact/` | Known-truth findings, exportable figure and exact world/policy/cell/mixture evidence |
+| `results/cycle05-2026-09-10/REPORT.md`, `prepared/`, `observations/`, `scored/` | Original20-input preparation and preserved one-invocation instrument failure |
+| `results/cycle05-replication-2026-09-10/REPORT.md`, `observations/`, `scored/` | Separately frozen empirical replication, valid probabilities, usage and expected-loss comparison |
 
 ## Experimental families
 

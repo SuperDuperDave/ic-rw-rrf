@@ -1,0 +1,47 @@
+{
+  "session_id": "7457bb97-1696-492d-84ef-a0aa97121b44",
+  "marker": "cycle05-review-e28679ade2",
+  "mission_sha256": "89d4c2b6d3b307e6494a6b54b4e38e2349dd381245f55694a633d18978a5e802",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 39.68303804600146,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.31392999999999993,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 2885,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 8483,
+      "webSearchRequests": 0,
+      "costUSD": 0.31392999999999993,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1612,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 557,
+  "advisory_word_target": 500,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "9d5dbc21f352e7768dfc1e65bbbc78a18459fa3ed19ca22b3471b34e085adc53",
+  "memo_sha256": "6d689623de5abe291db08c4d177859963081f4c657b4c55c243cca54ba5314f5",
+  "relay_request_seq": 30,
+  "relay_lifecycle_seq": [
+    31,
+    32,
+    33
+  ],
+  "relay_ack_seq": 34,
+  "relay_ack_recorded_by": "Codex after consuming full request and memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Supplied synthetic capsule only; no independent file inspection",
+  "review_distinct_from_empirical_measurements": true
+}

@@ -27,9 +27,10 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H2 | `[supported in scope]` Depth changes the k effect; smoothing does not provide clone invariance | Separate lost candidates from changed support before attributing the gain to tail corroboration; equal-depth arm had no treatment |
 | H3 | `[structural]` Exact-source-copy invariance is a useful diagnostic, not a quality guarantee | Distinguish actual copies from independent sources with similar outputs using provenance/controlled dependence |
 | H4 | `[inconclusive under fixed gate]` Cycle03 bounds the SPLADE relevance association; both annual query envelopes remain broad | Stop this panel’s association search. Use the exact known-truth fixture to specify what information could distinguish useful dissent from noise |
-| H5 | `[verified in stipulated model]` Trusted lineage improves probability quality; stronger information need not change class decisions | Cycle04 gives a weak-setting Brier-only benefit and a strong-setting error gain; unconditional minority protection harms. Real-LLM use remains untested |
+| H5 | `[verified in stipulated model]` Trusted lineage improves probability quality; stronger information need not change class decisions | Cycle04 gives a weak-setting Brier-only benefit and a strong-setting error gain; H7 now measures actual use under supplied assumptions |
 | H6 | `[derived boundary; run retired]` Correct copy lineage and individual calibration need not justify independent likelihood factors | Common-cause proposal is arithmetically contained in old mixture; retain the distinction, require real joint-error evidence for transfer |
-| H7 | `[next, untested]` An actual coordinator may or may not use supplied calibration and lineage correctly | Twenty unique frozen diagnostic inputs, continuous regret and parsing/resource outcomes, isolated contexts; no prompt search or agent fan-out |
+| H7 | `[observed, narrow]` Actual Opus5 uses the fully supplied calibration/lineage model on the fixed diagnostic | Twenty valid fresh responses, all reference decisions, max probability error3.37e-8; source detection and general ability remain open |
+| H8 | `[next, untested]` The coordinator may marginalize a noisy provenance hint rather than trust or ignore it | Eight fixed inputs with disclosed binary hint error1/4; exact noise-aware, blind and naive-trust probabilities differ; score continuously |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -85,3 +86,17 @@ found relevant prior work; it does not constitute novelty clearance.
   no new arithmetic. Select the actual coordinator packet test, whose output
   is unknown. Correct a shared reviewer overreach: below the prior threshold,
   the classification benefit moves to copied packets; it does not vanish.
+
+- **Cycle05 measurement:** native control inspection refined the treatment to a
+  fixed workflow with possible continuations. A zero-counter detector fault
+  stopped the initial canary; its frozen outcome remains. A separately frozen
+  replication produced20valid near-exact posteriors with no observed extra
+  messages/agents. Raw and arithmetic reconstruction agree. Supplied-model
+  calculation is saturated at observed output precision; add uncertainty about
+  evidence quality before scaling the number of agents.
+- **Cycle05 critique:** Fable selected known-noise lineage. Specify a binary
+  copied/independent hint channel rather than an ambiguous three-class flip;
+  reduce its proposed sweep to eight inputs and remove arbitrary thresholds.
+  Correct class-only intuition: exact blind already shares the correct noisy
+  strong-setting decision, so probabilities must reveal whether the hint is
+  used. [Cycle06 design](cycles/2026-09-10-cycle06-known-noise-design.md).

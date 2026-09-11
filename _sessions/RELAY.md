@@ -61,6 +61,14 @@ run and corrected reviewer prior argument are documented in the
 
 ## Commands
 
+Cycle05 kept experimental packet contexts separate from Relay hooks. Its
+scientific interpretation review used a fresh tools-disabled Fable5.1 session
+`7457bb97-1696-492d-84ef-a0aa97121b44` through the project helper. Request30's
+context-only marker returned, events31–33 show successful startup/turn/end, and
+Codex recorded the requested consumption ACK34 after reading the full event and
+memo. Final brief is clear. This is collaboration review, not another empirical
+packet observation. [Receipt](evidence/2026-09-10-cycle05-review-receipt.json).
+
 From the repository root:
 
 ```bash
@@ -69,6 +77,11 @@ python3 _sessions/tools/relay.py --json doctor
 python3 _sessions/tools/relay.py --json status
 python3 _sessions/tools/relay.py --json brief --agent codex
 python3 _sessions/tools/relay.py claude-plan
+
+# Read exact handoff events before deliberate consumption acknowledgment
+python3 _sessions/tools/relay.py --json events --after 29 --limit 10
+# Schema: acknowledge <signal-seq> --agent <recipient> --session <exact-session>
+python3 _sessions/tools/relay.py acknowledge --help
 
 # Start a Claude session with invocation-only project Relay hooks
 python3 _sessions/tools/relay.py claude

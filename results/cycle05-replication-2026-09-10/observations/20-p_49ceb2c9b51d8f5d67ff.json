@@ -1,0 +1,111 @@
+{
+  "distinct_observed_message_count": 1,
+  "exit_code": 0,
+  "finished_utc": "2026-09-11T01:41:54.226467+00:00",
+  "init": {
+    "mcp_servers": [],
+    "model": "claude-opus-5",
+    "permissionMode": "dontAsk",
+    "plugins": [],
+    "skills": [],
+    "tools": []
+  },
+  "interrupted": false,
+  "issues": [],
+  "messages": {
+    "msg_011CevoUNBC3VUEFryQmooLA": {
+      "model": "claude-opus-5",
+      "stop_reason": "end_turn",
+      "usage": {
+        "cache_creation_input_tokens": 444,
+        "cache_read_input_tokens": 623,
+        "input_tokens": 2,
+        "output_tokens": 107,
+        "output_tokens_details": {
+          "thinking_tokens": 88
+        }
+      }
+    }
+  },
+  "model_usage": {
+    "claude-opus-5": {
+      "cacheCreationInputTokens": 444,
+      "cacheReadInputTokens": 623,
+      "canonicalModel": "claude-opus-5",
+      "contextWindow": 1000000,
+      "costUSD": 0.0074365,
+      "inputTokens": 2,
+      "maxOutputTokens": 64000,
+      "outputTokens": 107,
+      "provider": "firstParty",
+      "thinkingTokens": 88
+    }
+  },
+  "native_acceptable": true,
+  "native_cost_usd": "0.0074365",
+  "native_is_error": false,
+  "native_stop_reason": "end_turn",
+  "native_subtype": "success",
+  "num_turns": 1,
+  "observed_models": [
+    "claude-opus-5"
+  ],
+  "ordinal": 20,
+  "p_positive": "3541666666666667/5000000000000000",
+  "packet_id": "p_49ceb2c9b51d8f5d67ff",
+  "parse_failure": null,
+  "payload_sha256": "49ceb2c9b51d8f5d67fff7bdcb6ba7f5cb5985493936ef1b0a9cdc6d69d7239b",
+  "recovery_markers": [],
+  "requesting_status_count": 1,
+  "scheduled_remaining_native_usd": "3.824537499999999998",
+  "scheduled_timeout_seconds": 120,
+  "session_id": "7cc74b03-90ec-431e-81e0-f1666c3c5bed",
+  "started_utc": "2026-09-11T01:41:45.106409+00:00",
+  "stderr_path": "_sessions/local/cycle05/ea31b5e4-6ea7-4468-869c-1a20d8cf4fd9/20.stderr",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_path": "_sessions/local/cycle05/ea31b5e4-6ea7-4468-869c-1a20d8cf4fd9/20.jsonl",
+  "stdout_sha256": "72214c95a47ebc82ff91592401b2dcdf7e09b330de8a85a8bfc264304845a2ff",
+  "subagent_statistics": [
+    {
+      "counts": {
+        "by_type": {},
+        "completed": 0,
+        "failed": 0,
+        "killed": {
+          "parent": 0,
+          "system": 0,
+          "user": 0
+        },
+        "max_depth": 0,
+        "refused": {
+          "budget": 0,
+          "concurrency_limit": 0,
+          "depth_limit": 0
+        },
+        "requested": {
+          "background": 0,
+          "foreground": 0,
+          "unset": 0
+        },
+        "spawned": 0,
+        "spawned_by_subagents": 0,
+        "started_in_background": 0
+      },
+      "field": "subagent_stats"
+    }
+  ],
+  "system_prompt_sha256": "1af07d6b70539b81a7c429ff0778a77a889157f2d9d0b0718a5eb32b762c3f75",
+  "terminal_session_id": "7cc74b03-90ec-431e-81e0-f1666c3c5bed",
+  "terminal_text_sha256": "9bf813854302ecf6b1617a7cf7a5ea6924662a8ab06bff339cd00b96c531c44d",
+  "timed_out": false,
+  "usage": {
+    "cache_creation_input_tokens": 444,
+    "cache_read_input_tokens": 623,
+    "input_tokens": 2,
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "thinking_tokens": 88
+    }
+  },
+  "wall_seconds": 7.483189113030676
+}

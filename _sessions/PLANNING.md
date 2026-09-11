@@ -124,27 +124,49 @@ an independent audit corrected its claim that lineage's classification benefit
 vanishes below a particular prior. [Integration](cycles/2026-09-10-cycle04-review-integration.md).
 No new prior sweep or changed frozen result was needed. R7 owns the next step.
 
-### R7 — NEXT: one coordinator on fixed known-truth packets
+### R7 — DONE 2026-09-10: one coordinator on fixed known-truth packets
 
-Start with the independently reviewed
-[cycle05 design](cycles/2026-09-10-cycle05-coordinator-packet-design.md):
-12 unique aware plus 8 blind disagreement inputs, one pinned Opus5 configuration,
-fresh isolated contexts and no proposer agents. Score continuous probability
-regret against each view's exact posterior and compare expected Brier on the
-same diagnostic worlds. Reuse identical blind observations, preserve invalid
-outputs and denominators, and do not infer model-repeat uncertainty from packets.
+The [replication](../results/cycle05-replication-2026-09-10/REPORT.md) completed
+12 aware and8 blind unique requests, all valid. Maximum probability error is
+3.37017×10⁻⁸; all sign decisions match the reference, and known-copy contrasts
+are zero. Independent reconstruction passed2,636 checks including all21 raw
+streams across the two batches. Actual responses approximate the supplied
+model's posteriors; no prompt/agent sweep is justified on this same diagnostic.
 
-**First action:** verify native context/output/batch controls, prepare and freeze
-the exact 20 request payloads/order, reference weights, parser and resource
-contract before any model call. Proposed batch scheduling ceiling $4; native
-limits and possible single-call overshoot must be stated accurately. Current
-design is not an executed benchmark or a guarantee about native controls.
+The initial one-call batch remains incomplete because the collector falsely
+treated zero-valued native agent counters as activity. A separately frozen
+instrument correction repeated all20 inputs with fresh responses and preserved
+all original evidence. Two empirical batches cost$.197444 native list accounting.
+One bounded Fable interpretation review cost$.313930 and completed through Relay;
+its noisy-lineage proposal was refined independently before adoption.
 
-**Checkpoint:** at most 20 requests, one fixed prompt/model, no retries or prompt
-search, observed usage and failure states, scoring plus independent review.
-Choose a later replication/calibration/metadata test from the result. The
+The [review integration](cycles/2026-09-10-cycle05-review-integration.md) and R8
+own the next branch. Real calibration and dependence remain untested. The
 [retired common-cause candidate](cycles/2026-09-10-cycle05-common-cause-design.md)
 is a derived boundary; do not run it as if it supplied new numerical evidence.
+
+### R8 — NEXT: use a disclosed uncertainty in lineage
+
+The [cycle06 design](cycles/2026-09-10-cycle06-known-noise-design.md) selects one
+binary hint channel, error1/4, on copied/independent non-null disagreements.
+Both hints ×both specialist accuracies ×both signs give eight unique requests.
+Primary is continuous regret against exact noise-aware Bayes, with theoretical
+blind and naive-hint-trust comparators and exact generator weights. Blind already
+matches the correct strong-setting sign, so final decisions alone cannot show
+that the hint was used.
+
+**First action:** implement and independently verify the exact augmented law,
+payload isolation, weights and boundaries; freeze all eight request bytes/order
+and the current native configuration before any model response. Reuse the
+verified zero-counter activity gate. Proposed allowance$1 native scheduling,
+120s/call,300s batch,500output tokens per API response including thinking.
+
+**Checkpoint:** one batch of eight fresh contexts, no prompt search, application
+retry or automatic repair run; full primary requires all eight valid. Padding
+and error rates 0 and 1/2 remain analytical checks. No hidden-error arm or arbitrary tolerance
+certifies ability. If disclosed uncertainty is also handled, prioritize obtaining
+calibration/dependence evidence or pricing an observation over another agent
+sweep on supplied arithmetic. No cycle06 model call has run.
 
 ## Communication and operations
 

@@ -52,10 +52,32 @@ with cycle03 is observational, not a measured general efficiency gain.
 [Cycle04 receipt](evidence/2026-09-10-cycle04-review-receipt.json),
 [integration](cycles/2026-09-10-cycle04-review-integration.md).
 
-The next design measures a single fixed coordinator configuration on synthetic
-packets. Those calls would be experimental observations, unlike the research
-reviewer calls above; keep their evidence and interpretation separate. Verify
-native isolated-context and budget/output semantics before freezing that batch.
+Cycle05 measured fixed `claude-opus-5` high on synthetic packets, separately from
+research review. An initial native-success canary was rejected by a zero-counter
+instrument fault and remained stopped. A separately frozen correction completed
+20/20 fresh inputs in83.84s, native list accounting$.182899, with3,730 output tokens
+including3,380 reported thinking tokens. No tools/agents/continuations were
+observed; the largest per-message output was433. The stopped canary adds$.014545.
+All21 raw streams and the probability scores were independently checked.
+[Empirical report](../results/cycle05-replication-2026-09-10/REPORT.md).
+
+The [native control audit](cycles/2026-09-10-cycle05-native-controls.md) found that
+500 output tokens is a per-API-response ceiling including reasoning, and native
+continuations/recovery can bypass turn/retry controls. Safe mode plus fresh empty
+working directories kept ordinary project context out of those experimental
+invocations. Runtime init, actual message models, activity and terminal results
+are separate evidence. An all-zero subagent statistics object is not activity;
+the corrected collector recognizes only its precise numeric-count schema.
+
+A separate fresh Fable5.1 interpretation review used normal project Relay hooks,
+no tools/subagents, and a$1 native cap. It succeeded in39.68s at$.313930 with
+2,885 output tokens including1,612 thinking tokens; its557-word memo exceeded the
+advisory500-word target. Model choice reserved Fable for interpretation, with
+Opus as the empirical workhorse; no scout quota was needed. Total this cycle's
+native accounting across the two empirical batches and review is$.511374,
+not subscription billing. [Review receipt](evidence/2026-09-10-cycle05-review-receipt.json).
+The next eight-input known-noise design is unrun and has its own prospective
+resource contract. No spending limits were raised after an error.
 
 Model roles
 follow expected information value; four scouts are not a quota for every loop.

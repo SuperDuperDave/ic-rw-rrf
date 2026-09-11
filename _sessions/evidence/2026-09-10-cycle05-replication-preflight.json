@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-09-11T01:40:18.525777+00:00",
+  "replication_provider_calls_before_receipt": 0,
+  "original_batch_closed": true,
+  "original_predictions_carried": 0,
+  "tests": {
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests -p 'test_cycle05*.py' -q",
+    "passed": 27
+  },
+  "independent_preflight": "cycle05_execution_audit verified adapter, shared-source custody, scoring redirect and unchanged treatment controls",
+  "source_sha256": {
+    "_sessions/tools/run_cycle05_replication.py": "9fe3c83e1e5f157d0d9b3a913dd7006edd4c288ee3f003502421bcf15c3f2706",
+    "_sessions/tools/score_cycle05_replication.py": "eae94782df33d9b90035bf14dbd47838bdf8f3108944bfa6a87824af728c4bf4",
+    "_sessions/tools/tests/test_cycle05_replication.py": "86ebeecc86684fb83e82d0abf2d8e479900265dc72695905fa67f21e1e5b449e",
+    "_sessions/cycles/2026-09-10-cycle05-replication-protocol.md": "ee3447e27c076f2ca37de402094dfae9268ea904167eef15ba69c799c553faa2"
+  }
+}

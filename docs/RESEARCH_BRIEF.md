@@ -66,7 +66,7 @@ broad in both years. Neither result meets the frozen rule for pursuing another
 fusion method, and neither establishes a negligible effect. We followed the
 planned stop. [Cycle03 result and figure](../results/cycle03-2026-09-10/REPORT.md)
 
-**Current frontier.** An exact known-truth laboratory now separates copied
+**A controlled laboratory.** An exact known-truth laboratory separates copied
 reports from independent corroboration. It revealed a useful distinction:
 knowing evidence origins can improve probability estimates without changing
 the final answer. In the strong-specialist setting, an optimal aggregator with
@@ -76,9 +76,19 @@ Unconditionally protecting a weak minority instead raised error from 27.2% to
 36.85%. Those are controlled model outcomes with known calibration and free,
 correct metadata, not real-agent performance. A proposed shared-error test
 turned out to repeat arithmetic already in the experiment, so we retired that
-run. The next question is whether an actual coordinator can use these supplied
-assumptions on a small fixed packet set.
+run. That set up a test of an actual coordinator on supplied assumptions.
 [Cycle04 result and figure](../results/cycle04-2026-09-10/REPORT.md)
+
+**Current frontier.** An Opus5 coordinator then returned valid probabilities on
+all 20 fixed diagnostic inputs, matching every reference decision with maximum
+probability error below 3.4×10⁻⁸. It distinguished copied from independent reports
+when their origin was supplied. We also caught and preserved a measurement
+mistake: a detector read zero-valued agent counters as activity and stopped the
+first run. A separately frozen correction collected entirely fresh responses;
+independent checks verified the raw receipts and exact losses. The result
+supports supplied-model reasoning, not real-world cabal detection or learned
+source reliability. The next test gives provenance a known chance of being wrong.
+[Empirical result and figure](../results/cycle05-replication-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -93,6 +103,10 @@ A fresh compact review subsequently completed under the same cap. It caught
 the redundant next experiment; independent algebra also corrected a conclusion
 both reviewers had accepted. Collaboration improved the research through
 checked disagreements, not agreement alone.
+A further tools-disabled Fable review helped choose noisy provenance as the next
+axis. Independent algebra made the proposed error channel precise and reduced
+the experiment to eight inputs. Large agent counts were unnecessary when one
+coordinator already reproduced the fully supplied calculation.
 
 ## What the project demonstrates
 

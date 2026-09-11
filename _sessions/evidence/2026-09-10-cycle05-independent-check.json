@@ -1,0 +1,279 @@
+{
+  "batches": [
+    {
+      "batch": "cycle05-2026-09-10",
+      "collection_manifest_sha256": "dd3a5f483dfc0787244b41b01146d27687c5e3e1d77ded92f31e827b79bd58ea",
+      "invocations": 1,
+      "native_cost_usd": "0.014545",
+      "raw_checks": [
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": true,
+          "output_tokens": 157,
+          "packet_id": "p_fc4185f4ed0616eb1804",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 138
+        }
+      ],
+      "raw_streams_unavailable": 0,
+      "raw_streams_verified": 1,
+      "score_check": {
+        "all_view_pair_packet_and_contrast_numeric_outputs_match": true,
+        "coverage": {
+          "failure_types": {
+            "native:subagent_activity": 1
+          },
+          "invalid": 1,
+          "missing": 19,
+          "planned": 20,
+          "valid": 0
+        },
+        "measurement_status": "incomplete"
+      },
+      "scoring_manifest_sha256": "a1216e0c65c6f27f59a925e0a5a99e46b2c334a793c25ba78333ce6713eff92f"
+    },
+    {
+      "batch": "cycle05-replication-2026-09-10",
+      "collection_manifest_sha256": "ac4b62d37678f4d302def6ecd4ce54e3d5f2f6f41ace114058e8aaeedc801aa1",
+      "invocations": 20,
+      "native_cost_usd": "0.182899000000000002",
+      "raw_checks": [
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 150,
+          "packet_id": "p_fc4185f4ed0616eb1804",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 131
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 337,
+          "packet_id": "p_5814674cb7a4c4613a33",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 321
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 103,
+          "packet_id": "p_d4a096546a2730a4c68b",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 84
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 126,
+          "packet_id": "p_528f9ff47a734751701d",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 111
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 99,
+          "packet_id": "p_b57d5bc5231cddab71df",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 84
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 90,
+          "packet_id": "p_cd2525fdb7fefa08ef22",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 75
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 146,
+          "packet_id": "p_e3523045e99a356e0dec",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 127
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 87,
+          "packet_id": "p_f8f490d77dfa9742529c",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 68
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 385,
+          "packet_id": "p_5bfd300396c45b51cf97",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 369
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 182,
+          "packet_id": "p_cb3b4f9aad43d150f3dd",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 163
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 212,
+          "packet_id": "p_f53256a1fd8b80b1cfe2",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 193
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 138,
+          "packet_id": "p_c2d627aab5d743c6e4f8",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 123
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 126,
+          "packet_id": "p_3b128871fe9410a251fa",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 107
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 115,
+          "packet_id": "p_c52ea96bda29fee505e9",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 96
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 399,
+          "packet_id": "p_4641a468a6775e70b304",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 380
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 261,
+          "packet_id": "p_e7b39e18267bd266b4ae",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 242
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 127,
+          "packet_id": "p_7a8a926d48b0aea8789f",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 112
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 107,
+          "packet_id": "p_a137721c635ae0a95d31",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 92
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 433,
+          "packet_id": "p_33c828f8b87e7759fb42",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 414
+        },
+        {
+          "message_count": 1,
+          "observed_recovery_markers": [],
+          "original_instrument_false_positive": false,
+          "output_tokens": 107,
+          "packet_id": "p_49ceb2c9b51d8f5d67ff",
+          "requesting_status_count": 1,
+          "status": "verified",
+          "thinking_tokens": 88
+        }
+      ],
+      "raw_streams_unavailable": 0,
+      "raw_streams_verified": 20,
+      "score_check": {
+        "all_view_pair_packet_and_contrast_numeric_outputs_match": true,
+        "coverage": {
+          "failure_types": {},
+          "invalid": 0,
+          "missing": 0,
+          "planned": 20,
+          "valid": 20
+        },
+        "measurement_status": "complete"
+      },
+      "scoring_manifest_sha256": "e9f2eca3802ce066234eecc16b235a005cfc00ff49e212cbb8c3d8eb76e746ea"
+    }
+  ],
+  "checked_utc": "2026-09-11T01:48:53.309814+00:00",
+  "checker_sha256": "dcb1cc13ac9d5c546506c97010b52b30221c30f001d07952063838b36832dca8",
+  "checks_passed": 2636,
+  "independence": "standard library only; no production imports; closed-form likelihoods and direct truth-weighted losses",
+  "limitations": [
+    "Native observations do not enumerate hidden transport attempts.",
+    "Native aggregate reasoning counters can substitute zero; message detail availability is retained.",
+    "Private stream checks are explicitly unavailable when raw files are absent or public-only mode is requested."
+  ],
+  "prepared_manifest_sha256": "929fa72b040c97f9ce7908244cab9428eae6a9eb3d656f7dec624e929be2a2b0",
+  "prepared_oracle": {
+    "all_closed_form_posteriors_masses_weights_match": true,
+    "pairs": 12,
+    "selected_world_rows": 72,
+    "unique_packets": 20
+  },
+  "schema_version": 1,
+  "status": "passed",
+  "total_native_cost_usd": "0.197444000000000002"
+}

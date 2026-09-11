@@ -1,0 +1,541 @@
+{
+  "contrasts": {
+    "aware_lineage_contrast": [
+      {
+        "copied_packet_id": "p_7a8a926d48b0aea8789f",
+        "generalist_sign": -1,
+        "independent_minus_copied": "-25598404255319149/100000000000000000",
+        "independent_packet_id": "p_f53256a1fd8b80b1cfe2",
+        "p_specialist": "11/20",
+        "reference_independent_minus_copied": "-385/1504"
+      },
+      {
+        "copied_packet_id": "p_528f9ff47a734751701d",
+        "generalist_sign": 1,
+        "independent_minus_copied": "511968085106383/2000000000000000",
+        "independent_packet_id": "p_e7b39e18267bd266b4ae",
+        "p_specialist": "11/20",
+        "reference_independent_minus_copied": "385/1504"
+      },
+      {
+        "copied_packet_id": "p_c52ea96bda29fee505e9",
+        "generalist_sign": -1,
+        "independent_minus_copied": "-39986559139784953/100000000000000000",
+        "independent_packet_id": "p_fc4185f4ed0616eb1804",
+        "p_specialist": "17/20",
+        "reference_independent_minus_copied": "-595/1488"
+      },
+      {
+        "copied_packet_id": "p_3b128871fe9410a251fa",
+        "generalist_sign": 1,
+        "independent_minus_copied": "1999327956989247/5000000000000000",
+        "independent_packet_id": "p_cb3b4f9aad43d150f3dd",
+        "p_specialist": "17/20",
+        "reference_independent_minus_copied": "595/1488"
+      }
+    ],
+    "padded_to_copied": [
+      {
+        "copied_minus_padded": "-667167/10000000",
+        "copied_packet_id": "p_5bfd300396c45b51cf97",
+        "generalist_sign": -1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_c2d627aab5d743c6e4f8",
+        "reference_copied_minus_padded": "-1155/17312",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": "0",
+        "copied_packet_id": "p_7a8a926d48b0aea8789f",
+        "generalist_sign": -1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_b57d5bc5231cddab71df",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": "166791820702403/2500000000000000",
+        "copied_packet_id": "p_33c828f8b87e7759fb42",
+        "generalist_sign": 1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_a137721c635ae0a95d31",
+        "reference_copied_minus_padded": "1155/17312",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": "0",
+        "copied_packet_id": "p_528f9ff47a734751701d",
+        "generalist_sign": 1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_cd2525fdb7fefa08ef22",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": "-171213167587477/2500000000000000",
+        "copied_packet_id": "p_4641a468a6775e70b304",
+        "generalist_sign": -1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_e3523045e99a356e0dec",
+        "reference_copied_minus_padded": "-595/8688",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": "0",
+        "copied_packet_id": "p_c52ea96bda29fee505e9",
+        "generalist_sign": -1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_49ceb2c9b51d8f5d67ff",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": "684852333333333/10000000000000000",
+        "copied_packet_id": "p_5814674cb7a4c4613a33",
+        "generalist_sign": 1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_d4a096546a2730a4c68b",
+        "reference_copied_minus_padded": "595/8688",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": "0",
+        "copied_packet_id": "p_3b128871fe9410a251fa",
+        "generalist_sign": 1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_f8f490d77dfa9742529c",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      }
+    ],
+    "sign_symmetry": [
+      {
+        "negative_generalist_packet_id": "p_5bfd300396c45b51cf97",
+        "positive_generalist_packet_id": "p_33c828f8b87e7759fb42",
+        "probability_sum_minus_one": "70702403/2500000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_c52ea96bda29fee505e9",
+        "positive_generalist_packet_id": "p_3b128871fe9410a251fa",
+        "probability_sum_minus_one": "1/10000000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_7a8a926d48b0aea8789f",
+        "positive_generalist_packet_id": "p_528f9ff47a734751701d",
+        "probability_sum_minus_one": "0"
+      },
+      {
+        "negative_generalist_packet_id": "p_4641a468a6775e70b304",
+        "positive_generalist_packet_id": "p_5814674cb7a4c4613a33",
+        "probability_sum_minus_one": "-168508287/5000000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_c2d627aab5d743c6e4f8",
+        "positive_generalist_packet_id": "p_a137721c635ae0a95d31",
+        "probability_sum_minus_one": "0"
+      },
+      {
+        "negative_generalist_packet_id": "p_fc4185f4ed0616eb1804",
+        "positive_generalist_packet_id": "p_cb3b4f9aad43d150f3dd",
+        "probability_sum_minus_one": "-3/100000000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_b57d5bc5231cddab71df",
+        "positive_generalist_packet_id": "p_cd2525fdb7fefa08ef22",
+        "probability_sum_minus_one": "0"
+      },
+      {
+        "negative_generalist_packet_id": "p_e3523045e99a356e0dec",
+        "positive_generalist_packet_id": "p_d4a096546a2730a4c68b",
+        "probability_sum_minus_one": "1/10000000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_f53256a1fd8b80b1cfe2",
+        "positive_generalist_packet_id": "p_e7b39e18267bd266b4ae",
+        "probability_sum_minus_one": "1/100000000000000000"
+      },
+      {
+        "negative_generalist_packet_id": "p_49ceb2c9b51d8f5d67ff",
+        "positive_generalist_packet_id": "p_f8f490d77dfa9742529c",
+        "probability_sum_minus_one": "1/10000000000000000"
+      }
+    ]
+  },
+  "coverage": {
+    "failure_types": {},
+    "invalid": 0,
+    "missing": 0,
+    "planned": 20,
+    "valid": 20
+  },
+  "packets": [
+    {
+      "absolute_posterior_error": "3/3100000000000000000",
+      "excess_brier": "9/9610000000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "30846774193548387/100000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_fc4185f4ed0616eb1804",
+      "reference_p_positive": "153/496",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "61/1810000000",
+      "excess_brier": "3721/3276100000000000000",
+      "failure_type": null,
+      "p_positive": "3601519/10000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_5814674cb7a4c4613a33",
+      "reference_p_positive": "1043/2896",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "1/30000000000000000",
+      "excess_brier": "1/900000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "2916666666666667/10000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_d4a096546a2730a4c68b",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "21/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_528f9ff47a734751701d",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "11/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_b57d5bc5231cddab71df",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "21/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_cd2525fdb7fefa08ef22",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "1/15000000000000000",
+      "excess_brier": "1/225000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "3541666666666667/5000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_e3523045e99a356e0dec",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "1/30000000000000000",
+      "excess_brier": "1/900000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "2916666666666667/10000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_f8f490d77dfa9742529c",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "153/5410000000",
+      "excess_brier": "23409/29268100000000000000",
+      "failure_type": null,
+      "p_positive": "2770333/10000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_5bfd300396c45b51cf97",
+      "reference_p_positive": "1199/4328",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "9/310000000000000000",
+      "excess_brier": "81/96100000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "6915322580645161/10000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_cb3b4f9aad43d150f3dd",
+      "reference_p_positive": "343/496",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "3/4700000000000000000",
+      "excess_brier": "9/22090000000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "8776595744680851/100000000000000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_f53256a1fd8b80b1cfe2",
+      "reference_p_positive": "33/376",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "11/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_c2d627aab5d743c6e4f8",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "1/30000000000000000",
+      "excess_brier": "1/900000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "2916666666666667/10000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_3b128871fe9410a251fa",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "1/15000000000000000",
+      "excess_brier": "1/225000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "3541666666666667/5000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_c52ea96bda29fee505e9",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "53/905000000000000000",
+      "excess_brier": "2809/819025000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "3199240331491713/5000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_4641a468a6775e70b304",
+      "reference_p_positive": "1853/2896",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "1/94000000000000000",
+      "excess_brier": "1/8836000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "1824468085106383/2000000000000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_e7b39e18267bd266b4ae",
+      "reference_p_positive": "343/376",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "11/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_7a8a926d48b0aea8789f",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": "negative",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": "0",
+      "excess_brier": "0",
+      "failure_type": null,
+      "p_positive": "21/32",
+      "p_specialist": "11/20",
+      "packet_id": "p_a137721c635ae0a95d31",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "23/1352500000000000000",
+      "excess_brier": "529/1829256250000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "1807416820702403/2500000000000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_33c828f8b87e7759fb42",
+      "reference_p_positive": "3129/4328",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": "1/15000000000000000",
+      "excess_brier": "1/225000000000000000000000000000000",
+      "failure_type": null,
+      "p_positive": "3541666666666667/5000000000000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_49ceb2c9b51d8f5d67ff",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid",
+      "view": "aware"
+    }
+  ],
+  "paired": {
+    "by_p_specialist": {
+      "11/20": {
+        "aware_expected_brier": "3835152925531914893617021276595744841/18820000000000000000000000000000000000",
+        "aware_minus_blind_expected_brier": "-136627342490270579395917725252685559/18820000000000000000000000000000000000",
+        "blind_expected_brier": "2482362667513865920633086876155269/11762500000000000000000000000000000",
+        "decomposition": "actual gap = ideal information gap + original posterior regret delta + selection cross term",
+        "diagnostic_mass_coverage": "1",
+        "full_diagnostic_mass": "941/2500",
+        "ideal_information_gap": "-11116875/1531315648",
+        "original_posterior_regret_delta": "-110022300000000000035708693/478536140000000000000000000000000000000000",
+        "pair_count": 6,
+        "posterior_squared_gap": "11116875/1531315648",
+        "selection_cross_term": "0",
+        "valid_diagnostic_mass": "941/2500",
+        "valid_pair_count": 6
+      },
+      "17/20": {
+        "aware_expected_brier": "1371838877688172043010752688172059939/6620000000000000000000000000000000000",
+        "aware_minus_blind_expected_brier": "-82154705414960767854809006118930661/6620000000000000000000000000000000000",
+        "blind_expected_brier": "7269967915515664054327808471454953/33100000000000000000000000000000000",
+        "decomposition": "actual gap = ideal information gap + original posterior regret delta + selection cross term",
+        "diagnostic_mass_coverage": "1",
+        "full_diagnostic_mass": "331/1250",
+        "ideal_information_gap": "-8850625/713180544",
+        "original_posterior_regret_delta": "-34605299999999999959816613/111434460000000000000000000000000000000000",
+        "pair_count": 6,
+        "posterior_squared_gap": "8850625/713180544",
+        "selection_cross_term": "0",
+        "valid_diagnostic_mass": "331/1250",
+        "valid_pair_count": 6
+      }
+    },
+    "label": "full diagnostic pairs"
+  },
+  "primary": {
+    "11/20": {
+      "aware": {
+        "conditional_absolute_posterior_error": "159/188200000000000000000",
+        "conditional_excess_brier": "7527/884540000000000000000000000000000000000",
+        "diagnostic_mass_coverage": "1",
+        "expected_brier": "3835152925531914893617021276595744841/18820000000000000000000000000000000000",
+        "full_diagnostic_mass": "941/2500",
+        "ideal_expected_brier": "576807/2830528",
+        "packet_count": 6,
+        "valid_diagnostic_mass": "941/2500",
+        "valid_packet_count": 6
+      },
+      "blind": {
+        "conditional_absolute_posterior_error": "38250000023/4705000000000000000",
+        "conditional_excess_brier": "1463062500000000000529/6363512500000000000000000000000000000",
+        "diagnostic_mass_coverage": "1",
+        "expected_brier": "2482362667513865920633086876155269/11762500000000000000000000000000000",
+        "full_diagnostic_mass": "941/2500",
+        "ideal_expected_brier": "3437973/16290592",
+        "packet_count": 4,
+        "valid_diagnostic_mass": "941/2500",
+        "valid_packet_count": 4
+      }
+    },
+    "17/20": {
+      "aware": {
+        "conditional_absolute_posterior_error": "3093/66200000000000000000",
+        "conditional_excess_brier": "1574327/615660000000000000000000000000000000000",
+        "diagnostic_mass_coverage": "1",
+        "expected_brier": "1371838877688172043010752688172059939/6620000000000000000000000000000000000",
+        "full_diagnostic_mass": "331/1250",
+        "ideal_expected_brier": "1633037/7880448",
+        "packet_count": 6,
+        "valid_diagnostic_mass": "331/1250",
+        "valid_packet_count": 6
+      },
+      "blind": {
+        "conditional_absolute_posterior_error": "238281251/25859375000000000",
+        "conditional_excess_brier": "5581500000000000039479/17973300000000000000000000000000000000",
+        "diagnostic_mass_coverage": "1",
+        "expected_brier": "7269967915515664054327808471454953/33100000000000000000000000000000000",
+        "full_diagnostic_mass": "331/1250",
+        "ideal_expected_brier": "10105837/46011648",
+        "packet_count": 4,
+        "valid_diagnostic_mass": "331/1250",
+        "valid_packet_count": 4
+      }
+    }
+  },
+  "schema_version": 1,
+  "status": "complete",
+  "valid_subset_diagnostic": null
+}

@@ -1,0 +1,546 @@
+{
+  "contrasts": {
+    "aware_lineage_contrast": [
+      {
+        "copied_packet_id": "p_7a8a926d48b0aea8789f",
+        "generalist_sign": -1,
+        "independent_minus_copied": null,
+        "independent_packet_id": "p_f53256a1fd8b80b1cfe2",
+        "p_specialist": "11/20",
+        "reference_independent_minus_copied": "-385/1504"
+      },
+      {
+        "copied_packet_id": "p_528f9ff47a734751701d",
+        "generalist_sign": 1,
+        "independent_minus_copied": null,
+        "independent_packet_id": "p_e7b39e18267bd266b4ae",
+        "p_specialist": "11/20",
+        "reference_independent_minus_copied": "385/1504"
+      },
+      {
+        "copied_packet_id": "p_c52ea96bda29fee505e9",
+        "generalist_sign": -1,
+        "independent_minus_copied": null,
+        "independent_packet_id": "p_fc4185f4ed0616eb1804",
+        "p_specialist": "17/20",
+        "reference_independent_minus_copied": "-595/1488"
+      },
+      {
+        "copied_packet_id": "p_3b128871fe9410a251fa",
+        "generalist_sign": 1,
+        "independent_minus_copied": null,
+        "independent_packet_id": "p_cb3b4f9aad43d150f3dd",
+        "p_specialist": "17/20",
+        "reference_independent_minus_copied": "595/1488"
+      }
+    ],
+    "padded_to_copied": [
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_5bfd300396c45b51cf97",
+        "generalist_sign": -1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_c2d627aab5d743c6e4f8",
+        "reference_copied_minus_padded": "-1155/17312",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_7a8a926d48b0aea8789f",
+        "generalist_sign": -1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_b57d5bc5231cddab71df",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_33c828f8b87e7759fb42",
+        "generalist_sign": 1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_a137721c635ae0a95d31",
+        "reference_copied_minus_padded": "1155/17312",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_528f9ff47a734751701d",
+        "generalist_sign": 1,
+        "p_specialist": "11/20",
+        "padded_packet_id": "p_cd2525fdb7fefa08ef22",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_4641a468a6775e70b304",
+        "generalist_sign": -1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_e3523045e99a356e0dec",
+        "reference_copied_minus_padded": "-595/8688",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_c52ea96bda29fee505e9",
+        "generalist_sign": -1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_49ceb2c9b51d8f5d67ff",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_5814674cb7a4c4613a33",
+        "generalist_sign": 1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_d4a096546a2730a4c68b",
+        "reference_copied_minus_padded": "595/8688",
+        "view": "blind"
+      },
+      {
+        "copied_minus_padded": null,
+        "copied_packet_id": "p_3b128871fe9410a251fa",
+        "generalist_sign": 1,
+        "p_specialist": "17/20",
+        "padded_packet_id": "p_f8f490d77dfa9742529c",
+        "reference_copied_minus_padded": "0",
+        "view": "aware"
+      }
+    ],
+    "sign_symmetry": [
+      {
+        "negative_generalist_packet_id": "p_5bfd300396c45b51cf97",
+        "positive_generalist_packet_id": "p_33c828f8b87e7759fb42",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_c52ea96bda29fee505e9",
+        "positive_generalist_packet_id": "p_3b128871fe9410a251fa",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_7a8a926d48b0aea8789f",
+        "positive_generalist_packet_id": "p_528f9ff47a734751701d",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_4641a468a6775e70b304",
+        "positive_generalist_packet_id": "p_5814674cb7a4c4613a33",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_c2d627aab5d743c6e4f8",
+        "positive_generalist_packet_id": "p_a137721c635ae0a95d31",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_fc4185f4ed0616eb1804",
+        "positive_generalist_packet_id": "p_cb3b4f9aad43d150f3dd",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_b57d5bc5231cddab71df",
+        "positive_generalist_packet_id": "p_cd2525fdb7fefa08ef22",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_e3523045e99a356e0dec",
+        "positive_generalist_packet_id": "p_d4a096546a2730a4c68b",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_f53256a1fd8b80b1cfe2",
+        "positive_generalist_packet_id": "p_e7b39e18267bd266b4ae",
+        "probability_sum_minus_one": null
+      },
+      {
+        "negative_generalist_packet_id": "p_49ceb2c9b51d8f5d67ff",
+        "positive_generalist_packet_id": "p_f8f490d77dfa9742529c",
+        "probability_sum_minus_one": null
+      }
+    ]
+  },
+  "coverage": {
+    "failure_types": {
+      "native:subagent_activity": 1
+    },
+    "invalid": 1,
+    "missing": 19,
+    "planned": 20,
+    "valid": 0
+  },
+  "packets": [
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": "native:subagent_activity",
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_fc4185f4ed0616eb1804",
+      "reference_p_positive": "153/496",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "invalid",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_5814674cb7a4c4613a33",
+      "reference_p_positive": "1043/2896",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_d4a096546a2730a4c68b",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_528f9ff47a734751701d",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_b57d5bc5231cddab71df",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_cd2525fdb7fefa08ef22",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_e3523045e99a356e0dec",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_f8f490d77dfa9742529c",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_5bfd300396c45b51cf97",
+      "reference_p_positive": "1199/4328",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_cb3b4f9aad43d150f3dd",
+      "reference_p_positive": "343/496",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_f53256a1fd8b80b1cfe2",
+      "reference_p_positive": "33/376",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_c2d627aab5d743c6e4f8",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_3b128871fe9410a251fa",
+      "reference_p_positive": "7/24",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_c52ea96bda29fee505e9",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_4641a468a6775e70b304",
+      "reference_p_positive": "1853/2896",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_e7b39e18267bd266b4ae",
+      "reference_p_positive": "343/376",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_7a8a926d48b0aea8789f",
+      "reference_p_positive": "11/32",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_a137721c635ae0a95d31",
+      "reference_p_positive": "21/32",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_33c828f8b87e7759fb42",
+      "reference_p_positive": "3129/4328",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "blind"
+    },
+    {
+      "absolute_posterior_error": null,
+      "excess_brier": null,
+      "failure_type": null,
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_49ceb2c9b51d8f5d67ff",
+      "reference_p_positive": "17/24",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing",
+      "view": "aware"
+    }
+  ],
+  "paired": {
+    "by_p_specialist": {
+      "11/20": {
+        "aware_expected_brier": null,
+        "aware_minus_blind_expected_brier": null,
+        "blind_expected_brier": null,
+        "decomposition": "actual gap = ideal information gap + original posterior regret delta + selection cross term",
+        "diagnostic_mass_coverage": "0",
+        "full_diagnostic_mass": "941/2500",
+        "ideal_information_gap": null,
+        "original_posterior_regret_delta": null,
+        "pair_count": 6,
+        "posterior_squared_gap": null,
+        "selection_cross_term": null,
+        "valid_diagnostic_mass": "0",
+        "valid_pair_count": 0
+      },
+      "17/20": {
+        "aware_expected_brier": null,
+        "aware_minus_blind_expected_brier": null,
+        "blind_expected_brier": null,
+        "decomposition": "actual gap = ideal information gap + original posterior regret delta + selection cross term",
+        "diagnostic_mass_coverage": "0",
+        "full_diagnostic_mass": "331/1250",
+        "ideal_information_gap": null,
+        "original_posterior_regret_delta": null,
+        "pair_count": 6,
+        "posterior_squared_gap": null,
+        "selection_cross_term": null,
+        "valid_diagnostic_mass": "0",
+        "valid_pair_count": 0
+      }
+    },
+    "label": "descriptive same-case valid-pair subset; changed denominators"
+  },
+  "primary": null,
+  "schema_version": 1,
+  "status": "incomplete",
+  "valid_subset_diagnostic": {
+    "by_p_specialist": {
+      "11/20": {
+        "aware": {
+          "conditional_absolute_posterior_error": null,
+          "conditional_excess_brier": null,
+          "diagnostic_mass_coverage": "0",
+          "expected_brier": null,
+          "full_diagnostic_mass": "941/2500",
+          "ideal_expected_brier": null,
+          "packet_count": 6,
+          "valid_diagnostic_mass": "0",
+          "valid_packet_count": 0
+        },
+        "blind": {
+          "conditional_absolute_posterior_error": null,
+          "conditional_excess_brier": null,
+          "diagnostic_mass_coverage": "0",
+          "expected_brier": null,
+          "full_diagnostic_mass": "941/2500",
+          "ideal_expected_brier": null,
+          "packet_count": 4,
+          "valid_diagnostic_mass": "0",
+          "valid_packet_count": 0
+        }
+      },
+      "17/20": {
+        "aware": {
+          "conditional_absolute_posterior_error": null,
+          "conditional_excess_brier": null,
+          "diagnostic_mass_coverage": "0",
+          "expected_brier": null,
+          "full_diagnostic_mass": "331/1250",
+          "ideal_expected_brier": null,
+          "packet_count": 6,
+          "valid_diagnostic_mass": "0",
+          "valid_packet_count": 0
+        },
+        "blind": {
+          "conditional_absolute_posterior_error": null,
+          "conditional_excess_brier": null,
+          "diagnostic_mass_coverage": "0",
+          "expected_brier": null,
+          "full_diagnostic_mass": "331/1250",
+          "ideal_expected_brier": null,
+          "packet_count": 4,
+          "valid_diagnostic_mass": "0",
+          "valid_packet_count": 0
+        }
+      }
+    },
+    "label": "descriptive valid-subset summaries; changed denominators"
+  }
+}

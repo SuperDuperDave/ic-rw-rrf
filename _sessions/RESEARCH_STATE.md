@@ -17,9 +17,43 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
-## Cycle04: separate probability quality, final answers and evidence origin
+## Cycle05: actual coordinator, then uncertainty about provenance
 
-The latest [cycle04 report](../results/cycle04-2026-09-10/REPORT.md) records an
+The [empirical replication](../results/cycle05-replication-2026-09-10/REPORT.md)
+completed20/20 fixed diagnostic requests with valid probabilities. All sign
+decisions match their exact Bayesian references; maximum posterior error is
+3.37017×10⁻⁸. Four aware copied-minus-padded probability contrasts are exactlyzero
+in returned decimals. The coordinator used supplied calibration and lineage,
+including marginalization when lineage was hidden. This is a narrow result on
+one known model, one prompt/configuration and one response per unique input.
+
+Conditional expected Brier blind→aware is.211040397→.203780708 at55% specialist
+accuracy and.219636493→.207226417 at85%. These are analytic losses of actual
+returned probabilities on the diagnostic event, not sampled-label estimates or
+the full-cycle04 mixture. The tiny approximation errors do not establish a
+meaningful reasoning advantage between views. Real calibration, dependence and
+provenance acquisition remain outside the supplied assumptions.
+
+The [initial batch](../results/cycle05-2026-09-10/REPORT.md) stopped after one
+native-success response because the detector mistook zero-valued agent counters
+for activity. Its original0accepted/1rejected/19unscheduled scores remain frozen.
+A separately frozen correction collected all20 fresh responses, with no old
+answer carryover. Independent reconstruction verified2,636 checks and21 raw
+streams; no numerical discrepancy was found. Replication cost$.182899, stopped
+canary$.014545, on native list accounting, not subscription billing.
+
+One fresh tools-disabled Fable reviewer completed through Relay at$.313930 and
+recommended known-noise lineage. The integration makes its error channel precise,
+reduces the proposed sweep to eight inputs, and removes arbitrary capability
+thresholds. **Next: R8 / [cycle06 known-noise design](cycles/2026-09-10-cycle06-known-noise-design.md).**
+Actual construction remains hidden behind a disclosed binary hint channel with
+error1/4. Exact blind and naive hint trust are distinct comparators; class-only
+scoring would miss whether the hint is used. Design references are analytical;
+no cycle06 model calls have run. [Review integration](cycles/2026-09-10-cycle05-review-integration.md).
+
+## Cycle04: preceding exact evidence-origin laboratory
+
+The [cycle04 report](../results/cycle04-2026-09-10/REPORT.md) records an
 exact six-cell known-truth fixture. Two known specialist accuracies cross padded,
 copied and independent report constructions. All policies know the calibration
 and construction mixture; aware policies additionally receive trusted lineage,
@@ -51,12 +85,10 @@ a shared reviewer error: changing the copy prior can move the classification
 benefit between arms, rather than remove it. No frozen outcome changed.
 [Review integration](cycles/2026-09-10-cycle04-review-integration.md)
 
-**Next: R7 / [one coordinator on fixed packets](cycles/2026-09-10-cycle05-coordinator-packet-design.md).**
-Twelve unique aware and eight blind requests could measure actual use of the
-supplied assumptions. Payloads, weights, native context/resource controls and
-parsing must be frozen before the first call. No empirical model outputs exist
-yet. The conditional-independence/calibration assumptions still require separate
-real-world evidence.
+This led to the completed cycle05 coordinator diagnostic above. Its prospective
+[design](cycles/2026-09-10-cycle05-coordinator-packet-design.md), subsequent native
+execution amendment and correction remain preserved. Conditional-independence
+and calibration assumptions still require separate real-world evidence.
 
 ## Cycle03: preceding inconclusive-result branch
 
