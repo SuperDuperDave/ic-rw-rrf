@@ -1,0 +1,503 @@
+{
+  "baseline": {
+    "manifest_sha256": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "output_sha256": {
+      "per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+      "summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+    }
+  },
+  "diagnostic_mass_by_p_specialist": {
+    "11/20": "541/2500",
+    "17/20": "181/1250"
+  },
+  "diagnostic_world_arm_rows": 40,
+  "hint_flip_probability": "1/4",
+  "packets": [
+    {
+      "diagnostic_mass": "243/10000",
+      "diagnostic_weight": "243/1448",
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "independent",
+      "p_specialist": "17/20",
+      "packet_id": "p_188168ecf718bac59c46",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"17/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"independent\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":1}]}",
+      "payload_sha256": "188168ecf718bac59c46bb52f9c0a6a49f930dea1f0f3a2d77025ec514e0d3a1",
+      "reference_p_positive": "2159/3888",
+      "references": {
+        "blind": "1853/2896",
+        "naive_hint_trust": "153/496",
+        "noisy_bayes": "2159/3888"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "343/160000",
+          "source_row_id": 100
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 101
+        },
+        {
+          "augmented_mass": "147/160000",
+          "source_row_id": 106
+        },
+        {
+          "augmented_mass": "147/160000",
+          "source_row_id": 112
+        },
+        {
+          "augmented_mass": "63/160000",
+          "source_row_id": 118
+        },
+        {
+          "augmented_mass": "153/160000",
+          "source_row_id": 148
+        },
+        {
+          "augmented_mass": "459/160000",
+          "source_row_id": 149
+        },
+        {
+          "augmented_mass": "357/160000",
+          "source_row_id": 154
+        },
+        {
+          "augmented_mass": "357/160000",
+          "source_row_id": 160
+        },
+        {
+          "augmented_mass": "833/160000",
+          "source_row_id": 166
+        }
+      ],
+      "truth_positive_mass": "2159/160000"
+    },
+    {
+      "diagnostic_mass": "823/20000",
+      "diagnostic_weight": "823/4328",
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "independent",
+      "p_specialist": "11/20",
+      "packet_id": "p_2291a3e681f5630f1d1c",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"11/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"independent\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":1}]}",
+      "payload_sha256": "2291a3e681f5630f1d1c3517bc7a62f67e3aaaa7d54d0172c6604101dfe9a986",
+      "reference_p_positive": "1397/6584",
+      "references": {
+        "blind": "1199/4328",
+        "naive_hint_trust": "33/376",
+        "noisy_bayes": "1397/6584"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 4
+        },
+        {
+          "augmented_mass": "3087/160000",
+          "source_row_id": 5
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 10
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 16
+        },
+        {
+          "augmented_mass": "189/160000",
+          "source_row_id": 22
+        },
+        {
+          "augmented_mass": "99/160000",
+          "source_row_id": 52
+        },
+        {
+          "augmented_mass": "297/160000",
+          "source_row_id": 53
+        },
+        {
+          "augmented_mass": "231/160000",
+          "source_row_id": 58
+        },
+        {
+          "augmented_mass": "231/160000",
+          "source_row_id": 64
+        },
+        {
+          "augmented_mass": "539/160000",
+          "source_row_id": 70
+        }
+      ],
+      "truth_positive_mass": "1397/160000"
+    },
+    {
+      "diagnostic_mass": "1341/20000",
+      "diagnostic_weight": "1341/4328",
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "copied",
+      "p_specialist": "11/20",
+      "packet_id": "p_3f1656fcd06cd31f9cf4",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"11/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"copied\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":1}]}",
+      "payload_sha256": "3f1656fcd06cd31f9cf4fb6eeb9065121038f1143898d3a66fb1e07dfbae8373",
+      "reference_p_positive": "1133/3576",
+      "references": {
+        "blind": "1199/4328",
+        "naive_hint_trust": "11/32",
+        "noisy_bayes": "1133/3576"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "3087/160000",
+          "source_row_id": 4
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 5
+        },
+        {
+          "augmented_mass": "1323/160000",
+          "source_row_id": 10
+        },
+        {
+          "augmented_mass": "1323/160000",
+          "source_row_id": 16
+        },
+        {
+          "augmented_mass": "567/160000",
+          "source_row_id": 22
+        },
+        {
+          "augmented_mass": "297/160000",
+          "source_row_id": 52
+        },
+        {
+          "augmented_mass": "99/160000",
+          "source_row_id": 53
+        },
+        {
+          "augmented_mass": "693/160000",
+          "source_row_id": 58
+        },
+        {
+          "augmented_mass": "693/160000",
+          "source_row_id": 64
+        },
+        {
+          "augmented_mass": "1617/160000",
+          "source_row_id": 70
+        }
+      ],
+      "truth_positive_mass": "3399/160000"
+    },
+    {
+      "diagnostic_mass": "1341/20000",
+      "diagnostic_weight": "1341/4328",
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "copied",
+      "p_specialist": "11/20",
+      "packet_id": "p_4c822c903bf7d1b98632",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"11/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"copied\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":-1}]}",
+      "payload_sha256": "4c822c903bf7d1b98632a058b8cf9282173bdd8a7ae53a1c9471afc213636803",
+      "reference_p_positive": "2443/3576",
+      "references": {
+        "blind": "3129/4328",
+        "naive_hint_trust": "21/32",
+        "noisy_bayes": "2443/3576"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "1617/160000",
+          "source_row_id": 25
+        },
+        {
+          "augmented_mass": "693/160000",
+          "source_row_id": 31
+        },
+        {
+          "augmented_mass": "693/160000",
+          "source_row_id": 37
+        },
+        {
+          "augmented_mass": "297/160000",
+          "source_row_id": 43
+        },
+        {
+          "augmented_mass": "99/160000",
+          "source_row_id": 44
+        },
+        {
+          "augmented_mass": "567/160000",
+          "source_row_id": 73
+        },
+        {
+          "augmented_mass": "1323/160000",
+          "source_row_id": 79
+        },
+        {
+          "augmented_mass": "1323/160000",
+          "source_row_id": 85
+        },
+        {
+          "augmented_mass": "3087/160000",
+          "source_row_id": 91
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 92
+        }
+      ],
+      "truth_positive_mass": "7329/160000"
+    },
+    {
+      "diagnostic_mass": "823/20000",
+      "diagnostic_weight": "823/4328",
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "independent",
+      "p_specialist": "11/20",
+      "packet_id": "p_6d0c2f9afa2a14182ad3",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"11/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"independent\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":-1}]}",
+      "payload_sha256": "6d0c2f9afa2a14182ad3ecc72de568f4312975072d0a3197791546ef398aa6cf",
+      "reference_p_positive": "5187/6584",
+      "references": {
+        "blind": "3129/4328",
+        "naive_hint_trust": "343/376",
+        "noisy_bayes": "5187/6584"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "539/160000",
+          "source_row_id": 25
+        },
+        {
+          "augmented_mass": "231/160000",
+          "source_row_id": 31
+        },
+        {
+          "augmented_mass": "231/160000",
+          "source_row_id": 37
+        },
+        {
+          "augmented_mass": "99/160000",
+          "source_row_id": 43
+        },
+        {
+          "augmented_mass": "297/160000",
+          "source_row_id": 44
+        },
+        {
+          "augmented_mass": "189/160000",
+          "source_row_id": 73
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 79
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 85
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 91
+        },
+        {
+          "augmented_mass": "3087/160000",
+          "source_row_id": 92
+        }
+      ],
+      "truth_positive_mass": "5187/160000"
+    },
+    {
+      "diagnostic_mass": "243/10000",
+      "diagnostic_weight": "243/1448",
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "independent",
+      "p_specialist": "17/20",
+      "packet_id": "p_7f28ce53d8d85769caff",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"17/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"independent\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":-1}]}",
+      "payload_sha256": "7f28ce53d8d85769caffaef2a2ede10afe92462b9bdfe1ba3b33ae5e6730ab19",
+      "reference_p_positive": "1729/3888",
+      "references": {
+        "blind": "1043/2896",
+        "naive_hint_trust": "343/496",
+        "noisy_bayes": "1729/3888"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "833/160000",
+          "source_row_id": 121
+        },
+        {
+          "augmented_mass": "357/160000",
+          "source_row_id": 127
+        },
+        {
+          "augmented_mass": "357/160000",
+          "source_row_id": 133
+        },
+        {
+          "augmented_mass": "153/160000",
+          "source_row_id": 139
+        },
+        {
+          "augmented_mass": "459/160000",
+          "source_row_id": 140
+        },
+        {
+          "augmented_mass": "63/160000",
+          "source_row_id": 169
+        },
+        {
+          "augmented_mass": "147/160000",
+          "source_row_id": 175
+        },
+        {
+          "augmented_mass": "147/160000",
+          "source_row_id": 181
+        },
+        {
+          "augmented_mass": "343/160000",
+          "source_row_id": 187
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 188
+        }
+      ],
+      "truth_positive_mass": "1729/160000"
+    },
+    {
+      "diagnostic_mass": "481/10000",
+      "diagnostic_weight": "481/1448",
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "copied",
+      "p_specialist": "17/20",
+      "packet_id": "p_b921ce2a9ad79364487f",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"17/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"copied\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":-1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":1}]}",
+      "payload_sha256": "b921ce2a9ad79364487f35559b52b6579d574c90b7dc3b57eb16e9d77da833d9",
+      "reference_p_positive": "5253/7696",
+      "references": {
+        "blind": "1853/2896",
+        "naive_hint_trust": "17/24",
+        "noisy_bayes": "5253/7696"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 100
+        },
+        {
+          "augmented_mass": "343/160000",
+          "source_row_id": 101
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 106
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 112
+        },
+        {
+          "augmented_mass": "189/160000",
+          "source_row_id": 118
+        },
+        {
+          "augmented_mass": "459/160000",
+          "source_row_id": 148
+        },
+        {
+          "augmented_mass": "153/160000",
+          "source_row_id": 149
+        },
+        {
+          "augmented_mass": "1071/160000",
+          "source_row_id": 154
+        },
+        {
+          "augmented_mass": "1071/160000",
+          "source_row_id": 160
+        },
+        {
+          "augmented_mass": "2499/160000",
+          "source_row_id": 166
+        }
+      ],
+      "truth_positive_mass": "5253/160000"
+    },
+    {
+      "diagnostic_mass": "481/10000",
+      "diagnostic_weight": "481/1448",
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "copied",
+      "p_specialist": "17/20",
+      "packet_id": "p_d52a21de38a2a5a8c21d",
+      "payload": "{\"model_parameters\":{\"construction_prior\":{\"copied\":\"1/3\",\"independent\":\"1/3\",\"padded\":\"1/3\"},\"hint_flip_probability\":\"1/4\",\"p_generalist\":\"7/10\",\"p_specialist\":\"17/20\",\"truth_prior_positive\":\"1/2\"},\"noisy_lineage_hint\":\"copied\",\"reports\":[{\"report_id\":\"r_94c2\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_b170\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_28e9\",\"role\":\"generalist\",\"value\":1},{\"report_id\":\"r_5a63\",\"role\":\"specialist\",\"value\":-1}]}",
+      "payload_sha256": "d52a21de38a2a5a8c21de8c8d732cd1ee5d4d71c977c3fa082daed492bbf7dc4",
+      "reference_p_positive": "2443/7696",
+      "references": {
+        "blind": "1043/2896",
+        "naive_hint_trust": "7/24",
+        "noisy_bayes": "2443/7696"
+      },
+      "source_row_weights": [
+        {
+          "augmented_mass": "2499/160000",
+          "source_row_id": 121
+        },
+        {
+          "augmented_mass": "1071/160000",
+          "source_row_id": 127
+        },
+        {
+          "augmented_mass": "1071/160000",
+          "source_row_id": 133
+        },
+        {
+          "augmented_mass": "459/160000",
+          "source_row_id": 139
+        },
+        {
+          "augmented_mass": "153/160000",
+          "source_row_id": 140
+        },
+        {
+          "augmented_mass": "189/160000",
+          "source_row_id": 169
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 175
+        },
+        {
+          "augmented_mass": "441/160000",
+          "source_row_id": 181
+        },
+        {
+          "augmented_mass": "1029/160000",
+          "source_row_id": 187
+        },
+        {
+          "augmented_mass": "343/160000",
+          "source_row_id": 188
+        }
+      ],
+      "truth_positive_mass": "2443/160000"
+    }
+  ],
+  "request_order": [
+    "p_4c822c903bf7d1b98632",
+    "p_6d0c2f9afa2a14182ad3",
+    "p_b921ce2a9ad79364487f",
+    "p_d52a21de38a2a5a8c21d",
+    "p_3f1656fcd06cd31f9cf4",
+    "p_7f28ce53d8d85769caff",
+    "p_188168ecf718bac59c46",
+    "p_2291a3e681f5630f1d1c"
+  ],
+  "schema_version": 1,
+  "shuffle_seed": 42,
+  "system_prompt": "You are estimating a probability under the following specified sensor model.\nTruth Y is either +1 or -1. Its positive prior is supplied in model_parameters.\nThere are four primitive sensor readings G1, G2, G3, and S. Conditional on Y,\nthese four readings are mutually independent. For each possible value of Y,\neach Gi equals Y with probability p_generalist and equals -Y otherwise; S\nequals Y with probability p_specialist and equals -Y otherwise. All parameters\nare known exactly. Fraction strings in the input denote exact rational numbers.\n\nA construction is sampled independently of Y and all primitive readings using\nthe supplied construction_prior. The ordered report roles are generalist,\ngeneralist, generalist, specialist. The three constructions are:\n  padded: [G1, null, null, S]. The nulls are empty padding slots, not readings.\n  copied: [G1, G1, G1, S]. The first three slots repeat one primitive reading.\n  independent: [G1, G2, G3, S]. Each slot uses a distinct primitive reading.\nReport IDs are fixed opaque slot labels and provide no additional evidence.\n\nThe supplied reports are non-null, so padded construction is ruled out. Before\nconditioning on their signs, copied and independent have equal prior probability.\nThe field noisy_lineage_hint is a noisy observation of this binary construction,\nnot verified lineage. Conditional on either true non-null construction A, the\nhint equals A with probability 1 - hint_flip_probability, and equals the other\nnon-null construction with probability hint_flip_probability. Conditional on A,\nthis hint is independent of Y and all primitive readings. The actual construction\nand primitive parent identities are not supplied. Condition on both the report\nvalues and the noisy hint using the specified model.\n\nCompute the probability that Y is +1 conditional on exactly the supplied\nobservation and model. Return only a JSON object with the single key\n\"p_positive\" and a finite JSON number between 0 and 1. Do not include prose,\nMarkdown, additional keys, a quoted probability, or a fraction expression.\n",
+  "system_prompt_sha256": "927a8c994376d79f67ffce2ed4cb4288273796c184031cd50baacc99c4f393fa"
+}

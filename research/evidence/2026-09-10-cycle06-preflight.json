@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-09-11T02:25:11.868946+00:00",
+  "provider_calls_before_receipt": 0,
+  "research_tests": {
+    "command": "python3 -B -m unittest discover -s evaluation/tests -q",
+    "passed": 92
+  },
+  "helper_tests": {
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests -q",
+    "passed": 64
+  },
+  "tests_total": 156,
+  "independent_prepared_checks": 320,
+  "independent_reviewer": "cycle06_audit; no consequential mathematical, custody or control issue",
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0",
+  "inherited_provider_overrides_observed": [],
+  "prepared_manifest_sha256": "dc3d6ac723ac0551e46b3f1e6a12a56d727b8010961ec764d0c8dc80fe89d5f4",
+  "source_sha256": {
+    "_sessions/cycles/2026-09-10-cycle06-execution-protocol.md": "77ec2718d38a95b4a83e244ed9c4b73b6f1d7c36e35031751e3785dc0826ef8c",
+    "_sessions/cycles/2026-09-10-cycle06-known-noise-design.md": "2c1c0f9e5d79236a2443d24c907f2da623238793bb19df2b3bac27aa1b495095",
+    "evaluation/cycle05_coordinator_packets.py": "83845428b0e36bdc2aecb68676a4e899377ff7713725e00b64059da392ebc941",
+    "evaluation/cycle06_noisy_lineage.py": "d7d7982a47124da2986ce6bba7c3002787a2088a87c901e29835121500e2841b",
+    "evaluation/tests/test_cycle05_coordinator_packets.py": "06d4dc134804b3c1c9cbfd12409caf5b1cc3c80d6dd27d29997ae94c71da04be",
+    "evaluation/tests/test_cycle06_noisy_lineage.py": "791ffc768663f7045a254f7d6ff2dbea54580a5d47ebccc132631e7877d4a908",
+    "results/cycle04-2026-09-10/exact/manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "results/cycle04-2026-09-10/exact/per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "results/cycle04-2026-09-10/exact/summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b",
+    "_sessions/tools/run_cycle06_coordinator.py": "12e9ee8e98e9a005cd900eacb24178cfe26671944a58fdd687d8c4535304d496",
+    "_sessions/tools/tests/test_cycle06_runner.py": "5faf9bc6c4be60d0a865bb7f7059da455dfc952da11bd99d7b507afaf4557b31",
+    "_sessions/tools/score_cycle06_coordinator.py": "90b4495b8a8aa629aff6c09cce83d5d4b03bee20117d21cfc0d770418ca979b0",
+    "_sessions/tools/score_cycle05_coordinator.py": "1283933826c1bb28b8e2a02b9328dd53fc2b2374c456f14d9fd21ff144582e96",
+    "_sessions/cycles/2026-09-10-cycle05-native-controls.md": "3225688dbffdfdfd2e8ba6e6c3279d700e8e6c1d94bb6bd572ca10897d0b1a64",
+    "_sessions/tools/tests/test_cycle05_runner.py": "157b785ae97faf74f0e6ea64f4949898d550ed73a9fa08675a3cd2fcd52b7522",
+    "_sessions/tools/tests/test_cycle05_replication.py": "86ebeecc86684fb83e82d0abf2d8e479900265dc72695905fa67f21e1e5b449e",
+    "results/cycle06-2026-09-10/prepared/fixture.json": "71c33187e613fe3581a14d74f0dcfb63866a345b9e9b578d4919a764ff3d70de",
+    "results/cycle06-2026-09-10/prepared/manifest.json": "dc3d6ac723ac0551e46b3f1e6a12a56d727b8010961ec764d0c8dc80fe89d5f4",
+    "_sessions/tools/run_cycle05_coordinator.py": "e3b49dce410beab317235445851d73a89fc2a21efff7a56ed74d2d8cfdce25f2",
+    "_sessions/tools/run_cycle05_replication.py": "9fe3c83e1e5f157d0d9b3a913dd7006edd4c288ee3f003502421bcf15c3f2706"
+  },
+  "limits": {
+    "unique_invocations": 8,
+    "native_scheduling_usd": "1",
+    "batch_seconds": 300,
+    "call_seconds": 120,
+    "output_tokens_per_api_response": 500
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "finished_utc": "2026-09-11T02:22:03.378325+00:00",
+  "git_head": "aca7b6e413ba4dabf5acb5620177ef1a1373fd95",
+  "output_sha256": {
+    "fixture.json": "71c33187e613fe3581a14d74f0dcfb63866a345b9e9b578d4919a764ff3d70de",
+    "manifest-start.json": "aea80a5dd223f7834470e7622231ce1107a3a31e306bf1f34573decd4cc2abb4"
+  },
+  "protocol": "_sessions/cycles/2026-09-10-cycle06-execution-protocol.md",
+  "protocol_sha256": "77ec2718d38a95b4a83e244ed9c4b73b6f1d7c36e35031751e3785dc0826ef8c",
+  "provider_payload_sha256": {
+    "p_188168ecf718bac59c46": "188168ecf718bac59c46bb52f9c0a6a49f930dea1f0f3a2d77025ec514e0d3a1",
+    "p_2291a3e681f5630f1d1c": "2291a3e681f5630f1d1c3517bc7a62f67e3aaaa7d54d0172c6604101dfe9a986",
+    "p_3f1656fcd06cd31f9cf4": "3f1656fcd06cd31f9cf4fb6eeb9065121038f1143898d3a66fb1e07dfbae8373",
+    "p_4c822c903bf7d1b98632": "4c822c903bf7d1b98632a058b8cf9282173bdd8a7ae53a1c9471afc213636803",
+    "p_6d0c2f9afa2a14182ad3": "6d0c2f9afa2a14182ad3ecc72de568f4312975072d0a3197791546ef398aa6cf",
+    "p_7f28ce53d8d85769caff": "7f28ce53d8d85769caffaef2a2ede10afe92462b9bdfe1ba3b33ae5e6730ab19",
+    "p_b921ce2a9ad79364487f": "b921ce2a9ad79364487f35559b52b6579d574c90b7dc3b57eb16e9d77da833d9",
+    "p_d52a21de38a2a5a8c21d": "d52a21de38a2a5a8c21de8c8d732cd1ee5d4d71c977c3fa082daed492bbf7dc4"
+  },
+  "python_version": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "request_order_sha256": "eaa139ece324c08d838fe5b08ecdd5ade8320c8ee820f579a7d95546f7bfdcf6",
+  "schema_version": 1,
+  "shuffle_seed": 42,
+  "source_sha256_end": {
+    "_sessions/cycles/2026-09-10-cycle06-execution-protocol.md": "77ec2718d38a95b4a83e244ed9c4b73b6f1d7c36e35031751e3785dc0826ef8c",
+    "_sessions/cycles/2026-09-10-cycle06-known-noise-design.md": "2c1c0f9e5d79236a2443d24c907f2da623238793bb19df2b3bac27aa1b495095",
+    "evaluation/cycle05_coordinator_packets.py": "83845428b0e36bdc2aecb68676a4e899377ff7713725e00b64059da392ebc941",
+    "evaluation/cycle06_noisy_lineage.py": "d7d7982a47124da2986ce6bba7c3002787a2088a87c901e29835121500e2841b",
+    "evaluation/tests/test_cycle05_coordinator_packets.py": "06d4dc134804b3c1c9cbfd12409caf5b1cc3c80d6dd27d29997ae94c71da04be",
+    "evaluation/tests/test_cycle06_noisy_lineage.py": "791ffc768663f7045a254f7d6ff2dbea54580a5d47ebccc132631e7877d4a908",
+    "results/cycle04-2026-09-10/exact/manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "results/cycle04-2026-09-10/exact/per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "results/cycle04-2026-09-10/exact/summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+  },
+  "source_sha256_start": {
+    "_sessions/cycles/2026-09-10-cycle06-execution-protocol.md": "77ec2718d38a95b4a83e244ed9c4b73b6f1d7c36e35031751e3785dc0826ef8c",
+    "_sessions/cycles/2026-09-10-cycle06-known-noise-design.md": "2c1c0f9e5d79236a2443d24c907f2da623238793bb19df2b3bac27aa1b495095",
+    "evaluation/cycle05_coordinator_packets.py": "83845428b0e36bdc2aecb68676a4e899377ff7713725e00b64059da392ebc941",
+    "evaluation/cycle06_noisy_lineage.py": "d7d7982a47124da2986ce6bba7c3002787a2088a87c901e29835121500e2841b",
+    "evaluation/tests/test_cycle05_coordinator_packets.py": "06d4dc134804b3c1c9cbfd12409caf5b1cc3c80d6dd27d29997ae94c71da04be",
+    "evaluation/tests/test_cycle06_noisy_lineage.py": "791ffc768663f7045a254f7d6ff2dbea54580a5d47ebccc132631e7877d4a908",
+    "results/cycle04-2026-09-10/exact/manifest.json": "83eae092a1dc2ab2bada9631927063095fe265777bd5fbd10d3d03a5686963c5",
+    "results/cycle04-2026-09-10/exact/per_world.json": "eb212b38c622c857606dea93436b3b886ece6a0eab19d0ae346b84755ea7cc2e",
+    "results/cycle04-2026-09-10/exact/summary.json": "10866d7f4bbe2b4a4bc922bfda54d7c487e8300f3ba327d9cb7e8bafc698439b"
+  },
+  "sources_unchanged": true,
+  "started_utc": "2026-09-11T02:22:03.371813+00:00",
+  "status": "complete",
+  "system_prompt_sha256": "927a8c994376d79f67ffce2ed4cb4288273796c184031cd50baacc99c4f393fa"
+}

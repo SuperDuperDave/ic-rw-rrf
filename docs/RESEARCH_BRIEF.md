@@ -79,7 +79,7 @@ turned out to repeat arithmetic already in the experiment, so we retired that
 run. That set up a test of an actual coordinator on supplied assumptions.
 [Cycle04 result and figure](../results/cycle04-2026-09-10/REPORT.md)
 
-**Current frontier.** An Opus5 coordinator then returned valid probabilities on
+**Actual coordinator evidence.** An Opus5 coordinator then returned valid probabilities on
 all 20 fixed diagnostic inputs, matching every reference decision with maximum
 probability error below 3.4×10⁻⁸. It distinguished copied from independent reports
 when their origin was supplied. We also caught and preserved a measurement
@@ -87,8 +87,19 @@ mistake: a detector read zero-valued agent counters as activity and stopped the
 first run. A separately frozen correction collected entirely fresh responses;
 independent checks verified the raw receipts and exact losses. The result
 supports supplied-model reasoning, not real-world cabal detection or learned
-source reliability. The next test gives provenance a known chance of being wrong.
+source reliability. A follow-up gives provenance a known chance of being wrong.
 [Empirical result and figure](../results/cycle05-replication-2026-09-10/REPORT.md)
+
+**Current frontier.** That follow-up produced three probabilities close to their
+noise-aware references, then a provider refusal stopped the planned eight-input
+batch. The full primary remains incomplete. One observed hint contrast is useful
+partial evidence; the missing cases remain unknown. An independent audit also
+caught misleading fallback labels and message attribution in the failed call.
+We preserved those records and tested a future logging correction separately.
+The next checkpoint asks whether small, mechanically verified program tasks
+produce enough differing and shared solver errors to study actual evidence
+quality. Separate sessions alone will not establish independence.
+[Cycle06 result and figure](../results/cycle06-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -136,5 +147,5 @@ The existing specifications and May notebooks are historical artifacts. Current
 qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
 research process now; a new technical contribution still needs its own related
 work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next known-truth fixture from parked algorithm promotion. The separate
+the next actual-error observation checkpoint from parked algorithm promotion. The separate
 website task owns integration and publication.

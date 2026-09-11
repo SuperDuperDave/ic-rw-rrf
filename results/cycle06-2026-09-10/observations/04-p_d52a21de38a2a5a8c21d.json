@@ -1,0 +1,143 @@
+{
+  "distinct_observed_message_count": 3,
+  "exit_code": 1,
+  "finished_utc": "2026-09-11T02:26:17.633841+00:00",
+  "init": {
+    "mcp_servers": [],
+    "model": "claude-opus-5",
+    "permissionMode": "dontAsk",
+    "plugins": [],
+    "skills": [],
+    "tools": []
+  },
+  "interrupted": false,
+  "issues": [
+    "model_fallback",
+    "native_exit",
+    "native_result_error",
+    "observed_model",
+    "terminal_stop"
+  ],
+  "messages": {
+    "9b7aed89-61d4-49af-828b-ab23d46d9c2f": {
+      "model": "<synthetic>",
+      "stop_reason": "refusal",
+      "usage": {
+        "cache_creation_input_tokens": 565,
+        "cache_read_input_tokens": 1172,
+        "input_tokens": 2,
+        "output_tokens": 0,
+        "output_tokens_details": {
+          "thinking_tokens": 0
+        }
+      }
+    },
+    "msg_011CevrrPQK8vk995PbaGKLn": {
+      "model": "claude-opus-5",
+      "stop_reason": "max_tokens",
+      "usage": {
+        "cache_creation_input_tokens": 457,
+        "cache_read_input_tokens": 715,
+        "input_tokens": 2,
+        "output_tokens": 500,
+        "output_tokens_details": {
+          "thinking_tokens": 497
+        }
+      }
+    },
+    "msg_011Cevrrr2hTxnc7bEJQWWYx": {
+      "model": "claude-opus-5",
+      "stop_reason": null,
+      "usage": {
+        "cache_creation_input_tokens": 565,
+        "cache_read_input_tokens": 1172,
+        "input_tokens": 2,
+        "output_tokens": 0
+      }
+    }
+  },
+  "model_usage": {
+    "claude-opus-5": {
+      "cacheCreationInputTokens": 1022,
+      "cacheReadInputTokens": 1887,
+      "canonicalModel": "claude-opus-5",
+      "contextWindow": 1000000,
+      "costUSD": 0.023683500000000003,
+      "inputTokens": 4,
+      "maxOutputTokens": 64000,
+      "outputTokens": 500,
+      "provider": "firstParty",
+      "thinkingTokens": 497
+    }
+  },
+  "native_acceptable": false,
+  "native_cost_usd": "0.023683500000000003",
+  "native_is_error": true,
+  "native_stop_reason": "refusal",
+  "native_subtype": "success",
+  "num_turns": 1,
+  "observed_models": [
+    "<synthetic>",
+    "claude-opus-5"
+  ],
+  "ordinal": 4,
+  "p_positive": null,
+  "packet_id": "p_d52a21de38a2a5a8c21d",
+  "parse_failure": null,
+  "payload_sha256": "d52a21de38a2a5a8c21de8c8d732cd1ee5d4d71c977c3fa082daed492bbf7dc4",
+  "recovery_markers": [
+    "model_refusal_no_fallback"
+  ],
+  "requesting_status_count": 2,
+  "scheduled_remaining_native_usd": "0.85038749999999999",
+  "scheduled_timeout_seconds": 120,
+  "session_id": "f3169f50-cc46-4557-beaf-f9b0a8d9ab7f",
+  "started_utc": "2026-09-11T02:26:10.653213+00:00",
+  "stderr_path": "_sessions/local/cycle05/c6164155-7167-4a00-8ea9-a7815902324b/04.stderr",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_path": "_sessions/local/cycle05/c6164155-7167-4a00-8ea9-a7815902324b/04.jsonl",
+  "stdout_sha256": "c0d36e01766b944a894d1619fd87c83be4724c4fc7a0c965a39191bc4a4e1737",
+  "subagent_statistics": [
+    {
+      "counts": {
+        "by_type": {},
+        "completed": 0,
+        "failed": 0,
+        "killed": {
+          "parent": 0,
+          "system": 0,
+          "user": 0
+        },
+        "max_depth": 0,
+        "refused": {
+          "budget": 0,
+          "concurrency_limit": 0,
+          "depth_limit": 0
+        },
+        "requested": {
+          "background": 0,
+          "foreground": 0,
+          "unset": 0
+        },
+        "spawned": 0,
+        "spawned_by_subagents": 0,
+        "started_in_background": 0
+      },
+      "field": "subagent_stats"
+    }
+  ],
+  "system_prompt_sha256": "927a8c994376d79f67ffce2ed4cb4288273796c184031cd50baacc99c4f393fa",
+  "terminal_session_id": "f3169f50-cc46-4557-beaf-f9b0a8d9ab7f",
+  "terminal_text_sha256": "52150a7b68ac31ccff24dc219a7b9a32263a98e68932fef8bd2575213213ef97",
+  "timed_out": false,
+  "usage": {
+    "cache_creation_input_tokens": 1022,
+    "cache_read_input_tokens": 1887,
+    "input_tokens": 4,
+    "output_tokens": 500,
+    "output_tokens_details": {
+      "thinking_tokens": 497
+    }
+  },
+  "wall_seconds": 6.980505426006857
+}

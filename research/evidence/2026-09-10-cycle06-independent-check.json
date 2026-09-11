@@ -1,0 +1,299 @@
+{
+  "batch": {
+    "collection_manifest_sha256": "bca44a5f2d87421ad28c0e7b8da621f9fdc17418045546a3be214829b68c15f2",
+    "invocations": 4,
+    "invocations_with_message_attribution_discrepancies": 1,
+    "native_binary_bytes": "verified",
+    "native_cost_usd": "0.173296000000000013",
+    "raw_checks": [
+      {
+        "collector_message_attribution_discrepancies": [],
+        "collector_message_attribution_matches_stream": true,
+        "frozen_label_caveats": [],
+        "local_synthetic_message_ids": [],
+        "message_count": 1,
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "observed_recovery_markers": [],
+        "output_tokens": 449,
+        "packet_id": "p_4c822c903bf7d1b98632",
+        "provider_message_ids": [
+          "msg_011CevrnTy3EfzdHVsuk6ciw"
+        ],
+        "provider_models": [
+          "claude-opus-5"
+        ],
+        "refusal_without_fallback_events": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "terminal_is_error": false,
+        "terminal_stop_reason": "end_turn",
+        "thinking_tokens": 433,
+        "valid_terminal_probability": true,
+        "zero_agent_statistics_observed": true
+      },
+      {
+        "collector_message_attribution_discrepancies": [],
+        "collector_message_attribution_matches_stream": true,
+        "frozen_label_caveats": [],
+        "local_synthetic_message_ids": [],
+        "message_count": 4,
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "observed_recovery_markers": [],
+        "output_tokens": 1953,
+        "packet_id": "p_6d0c2f9afa2a14182ad3",
+        "provider_message_ids": [
+          "msg_011CevrnzYJvvkkx4FqfuWNA",
+          "msg_011CevroSj9zYYJZ3n6J9chZ",
+          "msg_011CevroxQM7xe1E8YriKsr5",
+          "msg_011CevrpRWmVEyKBXDiVWNJf"
+        ],
+        "provider_models": [
+          "claude-opus-5"
+        ],
+        "refusal_without_fallback_events": [],
+        "requesting_status_count": 4,
+        "status": "verified",
+        "terminal_is_error": false,
+        "terminal_stop_reason": "end_turn",
+        "thinking_tokens": 1934,
+        "valid_terminal_probability": true,
+        "zero_agent_statistics_observed": true
+      },
+      {
+        "collector_message_attribution_discrepancies": [],
+        "collector_message_attribution_matches_stream": true,
+        "frozen_label_caveats": [],
+        "local_synthetic_message_ids": [],
+        "message_count": 3,
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "observed_recovery_markers": [],
+        "output_tokens": 1484,
+        "packet_id": "p_b921ce2a9ad79364487f",
+        "provider_message_ids": [
+          "msg_011CevrpwYHdsD8gRHzQBgp6",
+          "msg_011CevrqQprjRGZ9etJCBdip",
+          "msg_011CevrqtEPATbvNg5zJgBjs"
+        ],
+        "provider_models": [
+          "claude-opus-5"
+        ],
+        "refusal_without_fallback_events": [],
+        "requesting_status_count": 3,
+        "status": "verified",
+        "terminal_is_error": false,
+        "terminal_stop_reason": "end_turn",
+        "thinking_tokens": 1464,
+        "valid_terminal_probability": true,
+        "zero_agent_statistics_observed": true
+      },
+      {
+        "collector_message_attribution_discrepancies": [
+          {
+            "frozen_collector_attribution": {
+              "model": "claude-opus-5",
+              "stop_reason": null,
+              "usage": {
+                "cache_creation_input_tokens": 565,
+                "cache_read_input_tokens": 1172,
+                "input_tokens": 2,
+                "output_tokens": 0
+              }
+            },
+            "message_id": "msg_011Cevrrr2hTxnc7bEJQWWYx",
+            "stream_attribution": {
+              "model": "claude-opus-5",
+              "stop_reason": "refusal",
+              "usage": {
+                "cache_creation_input_tokens": 565,
+                "cache_read_input_tokens": 1172,
+                "input_tokens": 2,
+                "output_tokens": 0,
+                "output_tokens_details": {
+                  "thinking_tokens": 0
+                }
+              }
+            }
+          },
+          {
+            "frozen_collector_attribution": {
+              "model": "<synthetic>",
+              "stop_reason": "refusal",
+              "usage": {
+                "cache_creation_input_tokens": 565,
+                "cache_read_input_tokens": 1172,
+                "input_tokens": 2,
+                "output_tokens": 0,
+                "output_tokens_details": {
+                  "thinking_tokens": 0
+                }
+              }
+            },
+            "message_id": "9b7aed89-61d4-49af-828b-ab23d46d9c2f",
+            "stream_attribution": {
+              "model": "<synthetic>",
+              "stop_reason": "refusal",
+              "usage": {
+                "cache_creation_input_tokens": 0,
+                "cache_read_input_tokens": 0,
+                "input_tokens": 0,
+                "output_tokens": 0
+              }
+            }
+          }
+        ],
+        "collector_message_attribution_matches_stream": false,
+        "frozen_label_caveats": [
+          "The model_fallback issue is triggered by the substring in model_refusal_no_fallback; this event reports no fallback.",
+          "The observed_model issue includes a local <synthetic> assistant error record, which is not a provider model identity."
+        ],
+        "local_synthetic_message_ids": [
+          "9b7aed89-61d4-49af-828b-ab23d46d9c2f"
+        ],
+        "message_count": 3,
+        "messages_without_output_usage": 0,
+        "native_acceptable": false,
+        "observed_recovery_markers": [
+          "model_refusal_no_fallback"
+        ],
+        "output_tokens": 500,
+        "packet_id": "p_d52a21de38a2a5a8c21d",
+        "provider_message_ids": [
+          "msg_011CevrrPQK8vk995PbaGKLn",
+          "msg_011Cevrrr2hTxnc7bEJQWWYx"
+        ],
+        "provider_models": [
+          "claude-opus-5"
+        ],
+        "refusal_without_fallback_events": [
+          {
+            "api_refusal_category": "reasoning_extraction",
+            "original_model": "claude-opus-5",
+            "request_id": "req_011CevrrqafYDJJXRnX924fE",
+            "subtype": "model_refusal_no_fallback"
+          }
+        ],
+        "requesting_status_count": 2,
+        "status": "verified",
+        "terminal_is_error": true,
+        "terminal_stop_reason": "refusal",
+        "thinking_tokens": 497,
+        "valid_terminal_probability": false,
+        "zero_agent_statistics_observed": true
+      }
+    ],
+    "raw_streams_unavailable": 0,
+    "raw_streams_verified": 4,
+    "score_check": {
+      "all_aggregate_comparator_packet_and_contrast_numeric_outputs_match": true,
+      "coverage": {
+        "failure_types": {
+          "native:model_fallback,native_exit,native_result_error,observed_model,terminal_stop": 1
+        },
+        "invalid": 1,
+        "missing": 4,
+        "planned": 8,
+        "valid": 3
+      },
+      "measurement_status": "incomplete"
+    },
+    "scoring_manifest_sha256": "2b3cc046795ae5901a4101260072bbd5a83f01b000c8bdd5339a05275bf2cee4",
+    "stop_reason": "native_or_configuration_failure"
+  },
+  "checked_utc": "2026-09-11T02:31:41.188506+00:00",
+  "checker_sha256": "c26d6f4f4637316885564e0acb5e950796fdfa3d4a55d58fbbae76b8dd7883ad",
+  "checks_passed": 865,
+  "future_only_observer_review": {
+    "additional_replay_checks_passed": 84,
+    "checked_utc": "2026-09-11T02:42:07.622081+00:00",
+    "invocations": [
+      {
+        "issues": [],
+        "local_error_record_count": 0,
+        "messages_match_prior_independent_stream_attribution": true,
+        "native_acceptable": true,
+        "ordinal": 1,
+        "packet_id": "p_4c822c903bf7d1b98632",
+        "probability_and_aggregate_accounting_unchanged": true,
+        "provider_message_count": 1,
+        "stdout_sha256": "23b82a2f3eff96ff31d842d80d9499fc7d6446bc70eded816d4fbdd3755340bc"
+      },
+      {
+        "issues": [],
+        "local_error_record_count": 0,
+        "messages_match_prior_independent_stream_attribution": true,
+        "native_acceptable": true,
+        "ordinal": 2,
+        "packet_id": "p_6d0c2f9afa2a14182ad3",
+        "probability_and_aggregate_accounting_unchanged": true,
+        "provider_message_count": 4,
+        "stdout_sha256": "0f2dd439fdc6d343a6e17fe1e243443d78f3a29ecfcc41712a1f3f26be5b4ec0"
+      },
+      {
+        "issues": [],
+        "local_error_record_count": 0,
+        "messages_match_prior_independent_stream_attribution": true,
+        "native_acceptable": true,
+        "ordinal": 3,
+        "packet_id": "p_b921ce2a9ad79364487f",
+        "probability_and_aggregate_accounting_unchanged": true,
+        "provider_message_count": 3,
+        "stdout_sha256": "c8316f332f1ad96dd284cbb659ee90116b57e15890aa3c6671235188d731a7e1"
+      },
+      {
+        "issues": [
+          "native_exit",
+          "native_result_error",
+          "provider_refusal",
+          "terminal_stop"
+        ],
+        "local_error_record_count": 1,
+        "messages_match_prior_independent_stream_attribution": true,
+        "native_acceptable": false,
+        "ordinal": 4,
+        "packet_id": "p_d52a21de38a2a5a8c21d",
+        "probability_and_aggregate_accounting_unchanged": true,
+        "provider_message_count": 2,
+        "stdout_sha256": "c0d36e01766b944a894d1619fd87c83be4724c4fc7a0c965a39191bc4a4e1737"
+      }
+    ],
+    "limitations": [
+      "Offline replay verifies correction on four preserved streams and does not establish behavior in a future provider invocation.",
+      "Original collection failures, scores, generic issue labels and per-message attribution remain unchanged in frozen artifacts."
+    ],
+    "original_checks_passed_preserved": 865,
+    "original_receipt_sha256_before_append": "9eb112a111309376e0a61e5272893ca62910c7f847a2a4cbfb5c4808f8f0af57",
+    "raw_streams_replayed": 4,
+    "review_findings_resolved": [
+      "Unknown refusal category content is sanitized and cannot authorize local-error removal.",
+      "Local record removal requires the observed text-only content and complete typed zero-usage shape; unmatched activity stays visible.",
+      "Malformed request IDs are rejected from correlation without an unhashable-key exception."
+    ],
+    "scope": "Future-only offline helper replay; not used by frozen cycle06 collection or scoring; no provider calls.",
+    "source_sha256": {
+      "_sessions/tools/native_stream_observer.py": "56372ade927f2ac98a4e6f593315a38f3060dd7a00f3eeb7f41452ad97ec4992",
+      "_sessions/tools/tests/test_native_stream_observer.py": "1bec053e3daec8cc3bbe0d3754163c9732fa03adbbca0367ccf5c2c9bb02e0bf"
+    },
+    "status": "passed_offline_replay"
+  },
+  "independence": "standard library only; no production imports; primitive world products, closed-form channel likelihoods, direct truth-weighted losses",
+  "limitations": [
+    "Eight selected inputs do not estimate model-repeat uncertainty or general ability.",
+    "Native observations do not enumerate hidden transport attempts.",
+    "Missing per-message output usage is unverified; native aggregate reasoning counters can substitute zero.",
+    "Private streams and installed native binary are explicitly unavailable when absent.",
+    "Frozen collector labels and message attribution remain unchanged; independent event interpretation records any discrepancies separately."
+  ],
+  "prepared_manifest_sha256": "dc3d6ac723ac0551e46b3f1e6a12a56d727b8010961ec764d0c8dc80fe89d5f4",
+  "prepared_oracle": {
+    "all_posteriors_masses_weights_and_source_rows_match": true,
+    "class_decisions_do_not_identify_hint_use": true,
+    "selected_world_rows": 40,
+    "unique_packets": 8,
+    "zero_and_half_noise_boundaries_match": true
+  },
+  "schema_version": 1,
+  "status": "passed_with_documented_instrument_discrepancies"
+}
