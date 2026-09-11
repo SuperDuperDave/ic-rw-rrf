@@ -1,0 +1,50 @@
+{
+  "timestamp_utc": "2026-09-11T01:57:02.487794+00:00",
+  "status": "passed",
+  "research_tests": {
+    "passed": 81,
+    "command": "python3 -B -m unittest discover -s evaluation/tests -q",
+    "source_unchanged_since_preflight": true
+  },
+  "helper_tests": {
+    "passed": 56,
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests -q"
+  },
+  "tests_total": 137,
+  "independent_assertions": 2636,
+  "private_raw_streams_verified": 21,
+  "public_only_assertions": 1311,
+  "local_markdown_links_checked": 123,
+  "missing_links": [],
+  "plotted_values_matched": 12,
+  "historical_tracked_inputs_and_cycle01_to04_evidence_unchanged": true,
+  "private_runtime_and_provider_paths_ignored": true,
+  "credential_signature_findings": [],
+  "final_prose_review": "cycle05_packets independently checked report numbers and next-design algebra; no material discrepancy",
+  "relay_final_sequence": 34,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": [],
+  "native_empirical_list_accounting_usd": "0.197444",
+  "native_interpretation_review_list_accounting_usd": "0.313930",
+  "native_total_list_accounting_usd": "0.511374",
+  "artifact_sha256": {
+    "results/cycle05-2026-09-10/observations/manifest.json": "dd3a5f483dfc0787244b41b01146d27687c5e3e1d77ded92f31e827b79bd58ea",
+    "results/cycle05-replication-2026-09-10/observations/manifest.json": "ac4b62d37678f4d302def6ecd4ce54e3d5f2f6f41ace114058e8aaeedc801aa1",
+    "results/cycle05-replication-2026-09-10/scored/manifest.json": "e9f2eca3802ce066234eecc16b235a005cfc00ff49e212cbb8c3d8eb76e746ea",
+    "_sessions/evidence/2026-09-10-cycle05-independent-check.json": "4fb4cbdce5cbbce7809d56be90cccd14ab1e960888fc263cfd34a9319d758851",
+    "_sessions/cycles/2026-09-10-cycle06-known-noise-design.md": "2c1c0f9e5d79236a2443d24c907f2da623238793bb19df2b3bac27aa1b495095",
+    "results/cycle05-replication-2026-09-10/REPORT.md": "663aa0475c30a9f96388ee1150d27248c3bab25a0262d0539ad5546ad62d85f8",
+    "results/cycle05-replication-2026-09-10/coordinator_probabilities.png": "faf2c9bcdd74d47d481265be52897970e857de3a878745f1eed125aa286d760a",
+    "results/cycle05-replication-2026-09-10/coordinator_probabilities.svg": "f93d36364c31f119c859169a88d0a5831aed44f8900fabd85d7194e4aff4a61a",
+    "results/cycle05-replication-2026-09-10/plotted_values.json": "b473c0b54064e7e3504fa80b38661a4dd4a56d6e05e73b9135cd93446b2a8e9d",
+    "_sessions/tools/plot_cycle05.py": "f2074702876457f9a98024635a33b9fd93689aac4bd9e768111c129a9e3bf3ac"
+  },
+  "limitations": [
+    "Native list accounting is not subscription billing.",
+    "No complete hidden wire-attempt count or provider-weight snapshot.",
+    "One fresh output per fixed diagnostic input does not estimate stochastic variability.",
+    "The original instrument failure remains frozen and separate.",
+    "Cycle06 references are analytical design predictions; no model requests yet."
+  ]
+}

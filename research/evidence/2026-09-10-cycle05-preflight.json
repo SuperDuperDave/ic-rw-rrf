@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-09-11T01:34:22.259055+00:00",
+  "provider_calls_before_receipt": 0,
+  "research_tests": {
+    "command": "python3 -B -m unittest discover -s evaluation/tests -q",
+    "passed": 81
+  },
+  "helper_tests": {
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests -q",
+    "passed": 45
+  },
+  "independent_audit": "cycle05_execution_audit reviewed runner/scorer and closed-form references; no remaining material blocker",
+  "source_sha256": {
+    "_sessions/tools/run_cycle05_coordinator.py": "e3b49dce410beab317235445851d73a89fc2a21efff7a56ed74d2d8cfdce25f2",
+    "_sessions/tools/tests/test_cycle05_runner.py": "157b785ae97faf74f0e6ea64f4949898d550ed73a9fa08675a3cd2fcd52b7522",
+    "_sessions/tools/score_cycle05_coordinator.py": "1283933826c1bb28b8e2a02b9328dd53fc2b2374c456f14d9fd21ff144582e96",
+    "_sessions/cycles/2026-09-10-cycle05-execution-protocol.md": "e2a475583de272e7e6a47585e6b1510b2f81d75268a50a495515ed70f29f5fc2",
+    "_sessions/cycles/2026-09-10-cycle05-preflight-addendum.md": "d918c136fd1932b8c6ed8e3072ef21e3e1793d5ef70ab0dd8bcde1403b63f67c",
+    "results/cycle05-2026-09-10/prepared/manifest.json": "929fa72b040c97f9ce7908244cab9428eae6a9eb3d656f7dec624e929be2a2b0"
+  }
+}

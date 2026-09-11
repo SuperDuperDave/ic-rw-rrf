@@ -2,19 +2,20 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** an exact known-truth experiment now
-separates copied reports, independent evidence and specialist reliability.
-For optimal Bayesian aggregation under the stated model, trusted lineage
-improves probability estimates in both settings and changes final answers only
-in the strong-specialist setting. Unconditional
-minority protection worsens probability quality in both settings and introduces
-net classification harm with a weak specialist. These are controlled model
-results, not measured LLM gains or a new retrieval method.
-Read the [cycle04 report and figure](results/cycle04-2026-09-10/REPORT.md),
+**September 2026 research checkpoint:** an actual Opus5 coordinator reproduced
+the Bayesian reference on 20 fixed synthetic evidence packets, with maximum
+probability error below 3.4×10⁻⁸. It distinguished copied from independent
+agreement when supplied the complete calibration and provenance model. This
+is a small diagnostic of supplied-assumption reasoning; learning real source
+reliability and detecting hidden dependence remain open. A preserved initial
+instrument failure and independently checked replication document how the
+measurement was corrected. Next: explicitly uncertain provenance.
+Read the [empirical report and figure](results/cycle05-replication-2026-09-10/REPORT.md),
+[exact known-truth laboratory](results/cycle04-2026-09-10/REPORT.md),
 [preceding inconclusive association](results/cycle03-2026-09-10/REPORT.md),
 [source inventory](results/cycle02-2026-09-10/REPORT.md),
 [current research state](_sessions/RESEARCH_STATE.md),
-[next design](_sessions/cycles/2026-09-10-cycle05-coordinator-packet-design.md),
+[next design](_sessions/cycles/2026-09-10-cycle06-known-noise-design.md),
 and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results

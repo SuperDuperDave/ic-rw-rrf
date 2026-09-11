@@ -1,0 +1,23 @@
+{
+  "coverage": {
+    "failure_types": {},
+    "invalid": 0,
+    "missing": 0,
+    "planned": 20,
+    "valid": 20
+  },
+  "finished_utc": "2026-09-11T01:42:07.644098+00:00",
+  "input_sha256": {
+    "_sessions/tools/score_cycle05_coordinator.py": "1283933826c1bb28b8e2a02b9328dd53fc2b2374c456f14d9fd21ff144582e96",
+    "results/cycle05-replication-2026-09-10/observations/manifest.json": "ac4b62d37678f4d302def6ecd4ce54e3d5f2f6f41ace114058e8aaeedc801aa1",
+    "results/cycle05-replication-2026-09-10/observations/responses.json": "72623f00318a7e84a78805c2abb012938993ab8d7ad83d3bcd3a66c46567a794"
+  },
+  "measurement_status": "complete",
+  "output_sha256": {
+    "manifest-start.json": "207b3242e6438ddf4b21b9336fa136fef57e0909c95d988c1ab2d2249ecf0e52",
+    "scores.json": "0cf67b57ca7f89bd7e6b0f74dee3976ac7e0750def66824930c45a3aa8f55481"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-09-11T01:42:07.635441+00:00",
+  "status": "complete"
+}

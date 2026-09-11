@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-09-11T01:38:08.232521+00:00",
+  "reviewer": "cycle05_execution_audit (read-only independent agent)",
+  "kind": "original-batch instrument audit",
+  "stdout_sha256": "b0c630035d38c4ef223c6733520592f7d41daf9fb1f9baa8cee836249fd4e915",
+  "terminal_text_sha256": "18231c3b44544be9d7e341271015ac490e2e04cd0bc31526133e865d86c87899",
+  "finding": "False positive: nonempty subagent_stats object contained only integer-zero counts and an empty by_type map; no actual agents observed.",
+  "native_success": true,
+  "observed_distinct_messages": 1,
+  "tools": [],
+  "mcp_servers": [],
+  "output_tokens": 157,
+  "thinking_tokens": 138,
+  "native_cost_usd": "0.014545",
+  "diagnostic_terminal_p_positive": "30846774193548387/100000000000000000",
+  "prediction_use": "Instrument diagnosis only. Original frozen scores remain zero accepted, one rejected, nineteen unscheduled. Do not carry this response into replication.",
+  "replication_recommendation": "Separately freeze correction and repeat all20 original inputs with fresh contexts, preserving stopped run and disclosing prior exposure."
+}

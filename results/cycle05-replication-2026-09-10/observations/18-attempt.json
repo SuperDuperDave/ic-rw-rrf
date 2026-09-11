@@ -1,0 +1,10 @@
+{
+  "ordinal": 18,
+  "packet_id": "p_a137721c635ae0a95d31",
+  "payload_sha256": "a137721c635ae0a95d3190784e462f41c57fedfbec9260c8b93e2481657ec125",
+  "remaining_native_usd": "3.847220499999999996",
+  "session_id": "c6f08c31-0a97-4b66-a081-a183bfcb62a7",
+  "started_utc": "2026-09-11T01:41:35.591666+00:00",
+  "system_prompt_sha256": "1af07d6b70539b81a7c429ff0778a77a889157f2d9d0b0718a5eb32b762c3f75",
+  "timeout_seconds": 120
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "p_specialist": "11/20",
+    "arm": "padded",
+    "view": "blind",
+    "packet_id": "p_a137721c635ae0a95d31",
+    "p_positive": 0.65625
+  },
+  {
+    "p_specialist": "11/20",
+    "arm": "padded",
+    "view": "aware",
+    "packet_id": "p_cd2525fdb7fefa08ef22",
+    "p_positive": 0.65625
+  },
+  {
+    "p_specialist": "11/20",
+    "arm": "copied",
+    "view": "blind",
+    "packet_id": "p_33c828f8b87e7759fb42",
+    "p_positive": 0.7229667282809612
+  },
+  {
+    "p_specialist": "11/20",
+    "arm": "copied",
+    "view": "aware",
+    "packet_id": "p_528f9ff47a734751701d",
+    "p_positive": 0.65625
+  },
+  {
+    "p_specialist": "11/20",
+    "arm": "independent",
+    "view": "blind",
+    "packet_id": "p_33c828f8b87e7759fb42",
+    "p_positive": 0.7229667282809612
+  },
+  {
+    "p_specialist": "11/20",
+    "arm": "independent",
+    "view": "aware",
+    "packet_id": "p_e7b39e18267bd266b4ae",
+    "p_positive": 0.9122340425531915
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "padded",
+    "view": "blind",
+    "packet_id": "p_d4a096546a2730a4c68b",
+    "p_positive": 0.2916666666666667
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "padded",
+    "view": "aware",
+    "packet_id": "p_f8f490d77dfa9742529c",
+    "p_positive": 0.2916666666666667
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "copied",
+    "view": "blind",
+    "packet_id": "p_5814674cb7a4c4613a33",
+    "p_positive": 0.3601519
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "copied",
+    "view": "aware",
+    "packet_id": "p_3b128871fe9410a251fa",
+    "p_positive": 0.2916666666666667
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "independent",
+    "view": "blind",
+    "packet_id": "p_5814674cb7a4c4613a33",
+    "p_positive": 0.3601519
+  },
+  {
+    "p_specialist": "17/20",
+    "arm": "independent",
+    "view": "aware",
+    "packet_id": "p_cb3b4f9aad43d150f3dd",
+    "p_positive": 0.6915322580645161
+  }
+]
