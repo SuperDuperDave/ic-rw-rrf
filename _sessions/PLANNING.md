@@ -252,26 +252,39 @@ arithmetic laboratory. No extra stage, reserve, harder case or automatic repair
 probe. Correct finite outputs do not identify internal verification, necessary
 certificate use, causal copy robustness or ensemble benefit.
 
-### R14 — NEXT, LOCAL GATE ONLY: an applied evidence-acquisition case
+### R14 — DONE: bounded applied-case inventory
 
-The [consolidation](../docs/RESEARCH_SYNTHESIS.md) is complete: information limits,
-strong baselines, copying, dependence, correctness and acquisition are distinct.
-No automatic cycle12 and no provider/data-acquisition budget.
+The [cycle12 report](../results/cycle12-2026-09-11/REPORT.md) and
+[independent audit](evidence/2026-09-11-cycle12-independent-check.json) record the
+inspection. Existing caches hold97 query texts and97,000 candidate appearances,
+but no defined factual answer/initial-evidence/decisive-record cases. Relevance
+grades are not answer keys. One historical operational question has a direct
+packet-ID lookup to its audit; no acquisition-policy gap was demonstrated.
 
-A possible reopening question concerns acquiring a decisive missing record on
-an applied retrieval task. Before implementation, manually establish one auditable
-case: the initial evidence permits two materially different answers; an accessible
-additional record settles the distinction; identity/redundancy/cost can be tracked;
-a proposed acquisition policy makes a consequential different choice from a
-simple single-system baseline. The baseline gets the same accessible records,
-tools and total acquisition/inference budget. To compare aggregation afterward,
-replay exactly the same acquired evidence to both systems.
+No semantic passage screening, new dataset or solver batch. This is a retrospective
+feasibility finding, not general baseline performance or an impossibility result.
+The original arithmetic laboratory and reserves remain parked.
 
-**Stop:** if that local gate needs another elaborate toy, answer-revealing source
-labels or unequal access, remain at consolidation. A successful single-system
-baseline supplies no reason to add agents. Any passing case needs its own bounded
-measurement decision. Reuse existing primitives and one evidence ledger; do not
-turn each caveat into another implementation family.
+### R15 — DONE, EMPIRICAL COMPARISON PARKED: exact public artifact provenance
+
+A real approval interruption created the [case](cycles/2026-09-11-cycle12-public-artifact-case.md):
+a local identity and old repository listing did not establish exact public
+artifact bytes; unauthenticated versioned GETs and hash matches supplied that
+fact. No content was newly published to enable transfer. The narrowed Claude
+review used only previously public excerpts; the denied inventory stayed unsent.
+
+The paper comparison includes direct fetch as the strongest simple baseline.
+Repository listings and repeated summaries supply less direct evidence for this
+question. No additional policy or agent stage with a distinct benefit was proposed;
+no empirical comparison follows merely because routes request different records.
+
+**Reopening condition:** a distinct applied information or resource constraint,
+with case eligibility and a finite sampling/stopping rule chosen before model
+outputs. Separate case validity, potential comparison value and observed model
+benefit. Observed baseline failure is an outcome, never an eligibility criterion.
+No automatic cycle13, dataset search or provider budget. Preserve the applied case
+as a retrospective provenance example and remain at this findings checkpoint
+until a new question has a credible discriminating observation.
 
 ## Communication and operations
 

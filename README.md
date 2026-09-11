@@ -14,6 +14,12 @@ baseline. Read the [latest report and verified cases](results/cycle11-2026-09-11
 [current research state](_sessions/RESEARCH_STATE.md),
 and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
+A subsequent [applied feasibility check](results/cycle12-2026-09-11/REPORT.md)
+found a concrete provenance question in our own workflow: whether exact committed
+file bytes were publicly retrievable. Direct retrieval and hash checking settled
+it. The case is useful; a new acquisition policy or agent advantage remains
+unestablished. Case validity and comparative benefit are separate gates.
+
 ## Key Results
 
 **Tier 1 — Unsupervised inference (tested on the configurations below)**

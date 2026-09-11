@@ -17,6 +17,32 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle12: a concrete provenance case; comparative value remains unestablished
+
+The [bounded inventory](../results/cycle12-2026-09-11/REPORT.md) found existing
+retrieval text but no defined factual acquisition cases. One historical operational
+example was already resolved by a direct audit lookup. These are feasibility
+observations, not model-policy trials; no new dataset or solver batch followed.
+
+An approval interruption then produced an applied case during the work: a public
+repository label did not prove that exact committed document bytes were publicly
+retrievable. Unauthenticated HTTP200 responses and matching hashes supplied that
+fact. The [case card](cycles/2026-09-11-cycle12-public-artifact-case.md) records
+initial evidence, the added record, its limits and the completed paper comparison.
+Direct versioned retrieval is the strongest simple baseline. No additional policy
+with a distinct benefit was established, so the empirical comparison is parked.
+
+One Opus5/high review of already-public excerpts clarified case validity,
+comparison value and observed model failure. The [integration](cycles/2026-09-11-cycle12-review-integration.md)
+preserves the rejected original inventory transfer and the approved narrower
+review; Claude did not audit the new local inventory. Independent Codex review
+did. Native review accounting$0.2276195 excludes Codex and subscription billing.
+
+R14 and R15 are complete; no automatic next batch is scheduled. A new applied
+information or resource question must justify reopening, with eligibility and
+stopping independent of observed model failure. The cycle11 synthesis and all
+prior frozen artifacts remain unchanged.
+
 ## Cycle11: full correctness closes this arithmetic laboratory
 
 The [report](../results/cycle11-2026-09-11/REPORT.md) records4/4 correct answers
@@ -35,11 +61,9 @@ internal evidence use and multiagent benefit remain unestablished.
 
 **R13 is complete; multiagent work in this restricted laboratory is parked.**
 No further arithmetic hardening, repairs or staged-agent comparison follows.
-The [consolidation](../docs/RESEARCH_SYNTHESIS.md) is complete. R14 gates any new
-applied case: distinguish evidence already sufficient for one solver from genuinely
-missing information. Any future applied acquisition
-study must first establish an auditable missing-evidence case and an equal-access,
-equal-budget single-system comparator. No cycle12 batch or acquisition is scheduled.
+The [consolidation](../docs/RESEARCH_SYNTHESIS.md) remains the cycle11 checkpoint.
+The subsequent R14/R15 inspection and provenance case are recorded above; they
+did not launch another solver batch or establish a multiagent advantage.
 Claude agreed to consolidation; its [review integration](cycles/2026-09-11-cycle11-review-integration.md)
 corrects mechanistic/token claims and an unsupported proposal to relabel the old
 retrieval data by recomputability. Review accounting$.48746175 gives cycle total

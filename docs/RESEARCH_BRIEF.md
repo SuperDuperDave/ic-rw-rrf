@@ -152,6 +152,15 @@ certificates. The [synthesis](RESEARCH_SYNTHESIS.md) consolidates the findings b
 an applied task where a decisive piece of evidence is actually missing.
 [Cycle11 result and stopping decision](../results/cycle11-2026-09-11/REPORT.md)
 
+**An applied case from the workflow.** A later approval interruption raised a
+concrete question: were the exact research files already publicly accessible?
+A repository label did not settle the versioned-byte question. Unauthenticated
+retrieval and hash matching did. We recorded the case while retaining direct
+fetch as the strong single-system baseline; there is no measured agent advantage.
+That clarified another useful distinction: validating a case is different from
+justifying a comparison, and finding a baseline failure must not be a condition
+for selecting research cases. [Cycle12](../results/cycle12-2026-09-11/REPORT.md)
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated

@@ -1,0 +1,18 @@
+{
+  "denied_action": "python3 _sessions/local/cycle12-review/run_review.py",
+  "rejection_stage": "CreateProcess: no execution",
+  "stated_reason": "The script sends a locally generated feasibility inventory and project research content to an external Claude service; broad collaboration authorization does not specifically authorize this new payload and destination, so sensitive-data egress is denied.",
+  "denied_mission_sha256": "c981048da0bca7036e517787ce49cdada8654a6c651c6374ff3079ab6ecae394",
+  "denied_mission_status": "unsent",
+  "denied_launch_provider_calls": 0,
+  "denied_launch_relay_events": 0,
+  "standing_authorization_preserved": true,
+  "safer_alternative": "Conceptual review only of already-public immutable GitHub excerpts; fresh unauthenticated HTTP200/byte-hash proof, no unpublished local inventory supplied.",
+  "public_source_proof": "_sessions/evidence/2026-09-11-cycle12-public-source-check.json",
+  "public_mission_sha256": "57b7acc5c1dead79ee6b993c3027e4ce8543ab629dfdcfd21287d933a22a00a5",
+  "alternative_automatic_review": "approved",
+  "alternative_native_status": "success",
+  "alternative_reviewed_local_findings": false,
+  "no_new_publication_to_enable_transfer": true,
+  "no_user_permission_requested_again": true
+}

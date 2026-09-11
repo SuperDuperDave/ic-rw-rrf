@@ -135,8 +135,8 @@ or activity. All6 judgments are correct; a first-position reference also scores
 perfectly. Total native accounting$.24309825 excludes Codex and subscription
 billing. [Review receipt](evidence/2026-09-11-cycle09-review-receipt.json),
 [empirical manifest](../results/cycle09-2026-09-11/observations/manifest.json).
-The prospective cycle10 local panel has no provider budget yet; do not infer
-its cost or value from these short calls.
+Cycle10 subsequently received its own execution freeze; its measured cost and
+outcome follow below. These short calls were not a cost forecast for that panel.
 
 Cycle10 reused Opus5/high for six fixed native calls:19.69405seconds,$.088035,
 879output including561thinking tokens, six messages with no observed continuation
@@ -151,9 +151,8 @@ second public-text fragment; the existing extractor recovered the full596-word
 memo without another call. The400-word advisory target was exceeded; the$1/180s
 native bounds were respected. Total native cycle accounting$.52136875 excludes
 Codex and subscription billing. [Receipt](evidence/2026-09-11-cycle10-review-receipt.json).
-Cycle11 is only a prospective four-packet decision design; it needs a new task
-instruction/parser and separate execution freeze. Do not assume its cost from
-cycle10 or scale agents before observing a single-verifier gap.
+Cycle11 subsequently used a new task instruction/parser and separate execution
+freeze, as recorded below. Its budget was not inferred from cycle10.
 
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
@@ -174,6 +173,24 @@ extraction recovered both fragments without another call. Native total$.55716675
 excludes Codex and subscription billing. Its token/strategy and recomputability
 claims were corrected in [integration](cycles/2026-09-11-cycle11-review-integration.md);
 strong-model interpretation remains evidence to check, not an authority to adopt.
+
+Cycle12 used no empirical solver calls. One compact Opus5/high conceptual review
+of verified public excerpts succeeded in50.67498seconds at$0.2276195 native list
+accounting, under fixed$0.50/120second bounds, with no tools or scouts. Output3354
+includes2716 thinking tokens across two observed message IDs; final per-message
+usage/stop metadata are unavailable. The2000-token setting is per API response.
+Its327-word public memo exceeded300 advisory; complete assistant-text extraction
+matched the terminal memo. This scoped conceptual question did not require a
+stronger tier or fan-out. No comparative model-quality or efficiency claim follows.
+
+The initial inventory transfer was denied before execution; a materially narrower
+review of already-public source excerpts was approved. Claude did not inspect
+the new inventory or later case card. Request65 was read and consumed/ACK69,
+with final brief clear. [Receipt](evidence/2026-09-11-cycle12-review-receipt.json),
+[scope and integration](cycles/2026-09-11-cycle12-review-integration.md).
+The applied provenance case passes the case-validity gate, but its paper
+comparison supplies no reason for another provider wave. Future work needs a
+distinct information or resource question before setting another experiment budget.
 
 ## Select the requested models exactly
 

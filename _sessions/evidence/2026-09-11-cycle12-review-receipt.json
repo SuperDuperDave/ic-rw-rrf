@@ -1,0 +1,60 @@
+{
+  "session_id": "0396bb41-f763-4040-bc46-f989527bebfa",
+  "marker": "cycle12-public-review-a038344974",
+  "mission_sha256": "57b7acc5c1dead79ee6b993c3027e4ce8543ab629dfdcfd21287d933a22a00a5",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 50.67497660103254,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.22761950000000003,
+  "native_model_usage": {
+    "claude-opus-5": {
+      "inputTokens": 4,
+      "outputTokens": 3354,
+      "cacheReadInputTokens": 3059,
+      "cacheCreationInputTokens": 14222,
+      "webSearchRequests": 0,
+      "costUSD": 0.22761950000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 2716,
+      "canonicalModel": "claude-opus-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 327,
+  "advisory_word_target": 300,
+  "native_max_budget_usd": 0.5,
+  "process_wall_limit_seconds": 120,
+  "requested_model": "claude-opus-5",
+  "requested_effort": "high",
+  "configured_output_tokens_per_api_response": 2000,
+  "observed_message_ids": [
+    "msg_011CewPzZDzcMw6T8X4h2XwM",
+    "msg_011CewQ2mB8qHAV4yLhT9EzU"
+  ],
+  "observed_models": [
+    "claude-opus-5"
+  ],
+  "per_message_final_usage_and_stop_reason": "unavailable in this review stream; initial counters do not replace final aggregate usage",
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "27a0dcf1e1acadbdb1d58fa124ea6363d2def6cad71f52eca4c2f8f53e123f2d",
+  "memo_sha256": "aa36e2a48e66a0140fe457b08cade9906ec5256c93c8513759829838629145ac",
+  "memo_extraction": "All assistant text blocks in order, excluding thinking; the terminal result also contains the complete public memo in this invocation.",
+  "relay_request_seq": 65,
+  "relay_lifecycle_seq": [
+    66,
+    67,
+    68
+  ],
+  "relay_ack_seq": 69,
+  "relay_ack_recorded_by": "Codex after reading exact request and full memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Two verified already-public excerpts only; no new inventory, cache analysis, private streams or later case card.",
+  "unpublished_inventory_reviewed": false,
+  "empirical_solver_invocations": 0
+}

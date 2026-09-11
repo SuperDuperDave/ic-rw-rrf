@@ -1,0 +1,21 @@
+{
+  "mission_sha256": "57b7acc5c1dead79ee6b993c3027e4ce8543ab629dfdcfd21287d933a22a00a5",
+  "public_source_proof": "_sessions/evidence/2026-09-11-cycle12-public-source-check.json",
+  "source_sha256": {
+    "docs/RESEARCH_SYNTHESIS.md": "5112929a096900d3a5035fb4e77270c6fec05cd395bec44d01f8bf74b9a69398",
+    "results/cycle06-2026-09-10/REPORT.md": "8551f4550edacd5f95119f54bcb50fde44aa58cca01a28e642d4759c39bd0acd"
+  },
+  "unpublished_inventory_sent": false,
+  "scope": "Conceptual review of previously public source material only; not review of cycle12 local findings.",
+  "earlier_launch": "Denied before execution; no signal, provider process or transcript created.",
+  "review_plan": {
+    "model": "claude-opus-5",
+    "effort": "high",
+    "tools": [],
+    "scouts": 0,
+    "native_max_budget_usd": 0.5,
+    "wall_seconds": 120,
+    "output_tokens_per_api_response": 2000,
+    "retry_on_failure": false
+  }
+}

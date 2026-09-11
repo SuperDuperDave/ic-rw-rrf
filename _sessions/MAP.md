@@ -64,6 +64,9 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `evaluation/cycle11_verifier.py`, `_sessions/tools/run_cycle11_verifier.py`, `score_cycle11_verifier.py` | Atomic answer+validity parsing, native custody and planned-row/consistency scoring |
 | `_sessions/tools/check_cycle11_observations.py`, `build_cycle11_review_capsule.py` | Independent raw/score audit and artifact-derived interpretation capsule |
 | `results/cycle11-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | All4 answers and16 judgments correct; arithmetic lab parked under its stopping rule |
+| `results/cycle12-2026-09-11/REPORT.md`, `_sessions/evidence/2026-09-11-cycle12-feasibility.json` | Retrospective cache/case inventory and literal audit lookup; no solver experiment |
+| `_sessions/cycles/2026-09-11-cycle12-public-artifact-case.md`, `cycle12-review-integration.md` | Applied exact-artifact provenance case, paper comparison, clarified gates and review scope |
+| `_sessions/tools/check_cycle12_feasibility.py` | Read-only replay of source hashes, cache schema/counts, frozen audit lookup and optional private native identities; supports `--public-only` |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

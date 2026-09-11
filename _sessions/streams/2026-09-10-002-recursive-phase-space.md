@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle11 complete:4/4 answers and16/16 validity judgments correct. Independent audit verifies all four raw streams. Promised stop met; arithmetic multiagent laboratory parked. Synthesis in docs/RESEARCH_SYNTHESIS.md.
-- Next: R14 local feasibility gate only for an applied missing-evidence case. No automatic cycle12, dataset acquisition or provider budget. Both review lenses favor consolidation before a new laboratory.
-- In flight: none. All workers and native providers finished; Claude request60 consumed/ACK64, Relay brief clear. Coordinator owns the GitHub checkpoint.
-- Preserve: all historical/cycle01–11 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. No arithmetic hardening, extra agent stage or automatic repair probe.
+- Now: cycle12 completed R14's local inventory and R15's paper comparison. An actual approval interruption supplied an exact-public-bytes provenance case; direct GET plus hash already resolves it. Empirical comparison is parked without a distinct added-value hypothesis.
+- Next: select a distinct applied information or resource question if one warrants study; PLANNING R15 owns the reopening conditions. No automatic cycle13, new dataset, solver batch, arithmetic hardening or search until a baseline fails.
+- In flight: no provider active. Opus public-source conceptual review completed; request65 consumed/ACK69 and Relay clear. Independent local audits completed; root owns the final Git checkpoint.
+- Preserve: all historical/cycle01–11 frozen evidence, arithmetic multiagent laboratory park, cycle08 parked batch and cycle07's16 unsent reserves. No arithmetic hardening or automatic repair probe.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -332,3 +332,52 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
   defectpreventionnotproven). F12 SUBTRACT anotherautomatictoywave: promisedpark
   landed, synthesiscomplete. No additionalgenericworkflowframework ornewratchetrow.
 - Carryforward: R14 only; preserveR9reserves/R10park and all prior immutableevidence.
+
+## Cycle12 — applied feasibility and provenance checkpoint
+
+- Resumed from5b49a464 with clean worktree, the same stream and Relay64 clear.
+  No blocking NEEDS DAVE item. Retrospective existing-material inventory counted
+  97 cached queries/97,000 candidate appearances; their schema does not define
+  factual answer keys, initial evidence boundaries or decisive records. No semantic
+  passage screening, dataset acquisition or empirical solver calls followed.
+- The historical cycle06 fallback-label question has a direct frozen Git lookup:
+  one matching audit, two Opus provider IDs and one local synthetic error ID.
+  Initial evidence already includes a no-fallback marker. Independent inventory
+  audit confirms the recorded bytes/metadata; no model-policy performance claim.
+- Automatic review denied the new inventory transfer before execution, with no
+  Relay/provider side effects. Three previously published immutable GitHub files
+  then returned unauthenticated HTTP200 with matching hashes. A narrower review
+  of old public excerpts was approved; no content was newly published to enable
+  transfer. The original mission/capsule remain unsent, and Claude did not audit
+  the new inventory or later case card.
+- That interruption supplied an applied question: whether exact committed bytes
+  are publicly retrievable. The first actual requested file, the research synthesis,
+  returned5,042 matching bytes. Direct GET plus hash is the competent simple
+  baseline. Repository listing and repeated summaries do not establish that exact
+  fact. The retrospective paper comparison offers no distinct added-value policy;
+  R14 inventory/R15 comparison complete, empirical comparison parked.
+- Opus5/high conceptual review succeeded in50.67498seconds,$.2276195, under fixed
+  $.50/120seconds bounds;3354output including2716thinking, two observed message IDs,
+  final per-message telemetry unavailable.327 public words exceed300 advisory.
+  No tools/scouts. Full assistant text matches terminal memo. Request65 read,
+  lifecycle66–68 complete, requested consumptionACK69; final brief clear.
+- Integration separates case validity, comparison value and observed failure.
+  Different record choices alone do not establish useful comparative value;
+  the old synthesis already prohibited searching for baseline failures. Independent
+  case review validates the recorded proof/paper comparison without a new GET.
+- A small post-inspection replay helper verifies source/caches/native identities
+  locally and labels private inputs unavailable in public-only mode. Independent
+  review caught silent zip truncation on an omitted cache inventory; exact count
+  and year guards landed before freeze, with adversarial omission/reorder checks.
+  Both actual modes pass. Research/native execution code remains unchanged; the
+  prior323-test checkpoint was not rerun as this turn's test evidence.
+- Friction: F16 SUBTRACT recurring interruption via the approved public-only scope,
+  with future approval behavior unverified; RELAY owns the boundary. SUBTRACT stale
+  prospective compute clauses. PROMOTE the three gate distinctions into R15 and
+  integration. DROP web cache misses and the bounded zip fix as new framework work.
+  F23 review covers all new files. The already-sent public mission has one extra
+  EOF blank line; retain its exact provider-input bytes and record the exception.
+- Carryforward: R15's distinct applied information/resource question is the only
+  reopening gate; no automatic cycle13/provider budget. Preserve all47 cycle11
+  checkpoint artifacts, arithmetic park and old reserves. Final verification is
+  recorded in evidence/2026-09-11-cycle12-checks.json; Git records the checkpoint.

@@ -36,7 +36,7 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H11 | `[observed, narrow]` Both actual maps reject invalid traces, including one with the correct endpoint; all6 judgments correct | One all-zero program, V-first: first-original-only also perfect. No strategy or causal-copy inference |
 | H12 | `[observed, narrow]` All18 returned judgments match exact verification and differ from all named fixed-position/endpoint policies | Close this two-endpoint diagnostic; no unique internal method, general ability or multiagent advantage identified |
 | H13 | `[observed, narrow; lab parked]` All4 answers and16 validity judgments are correct under valid-minority/majority copied support | Prespecified stop met; no internal evidence-use, copying-effect or multiagent claim |
-| H14 | `[open, gated]` Selecting a missing record may add information that repeated agreement cannot supply | Consolidate first; one auditable applied case and equal-access/budget single-system comparator before any batch |
+| H14 | `[concrete case; comparative value open]` Exact public artifact retrieval supplies a provenance fact that a stale repository label does not | Case and paper comparison recorded; direct-fetch baseline already supplies it. No new policy benefit or empirical comparison established |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -167,3 +167,12 @@ found relevant prior work; it does not constitute novelty clearance.
   Consolidate before another experiment. Missing evidence, rather than another
   presentation of sufficient evidence, is a possible new axis; it requires an
   applied local feasibility gate and an equally informed single-system baseline.
+
+- **Cycle12 inventory:** existing text caches lack defined factual acquisition
+  cases; a known operational label conflict has a direct audit lookup. No
+  relevance-to-answer relabeling or search until baseline failure.
+- **Cycle12 unplanned case:** approval friction created a real exact-artifact
+  availability question, settled by unauthenticated GET/hash evidence. This is
+  a valid retrospective provenance case, while a competent direct-fetch baseline
+  leaves no demonstrated need for a new agent stage. Separate case validity,
+  comparison value and measured benefit; park empirical work on this case.

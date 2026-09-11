@@ -222,3 +222,18 @@ Cycle01 additionally verifies native phased subagents, code/evidence reading,
 model-tier observation, and manual coordinator resume. Its `--tools` allowed
 only read operations plus bounded native agents; permanent provider settings
 and neighboring project sessions were not changed.
+
+Cycle12's initial new-inventory transfer was denied by automatic approval review
+before execution. No Relay event or provider process was created for that action.
+An approved narrower review used only previously published, immutable GitHub
+excerpts after unauthenticated retrieval and byte-hash verification. No content
+was newly published to enable the transfer. Claude's review therefore covers
+those public excerpts, not the unsent inventory or later case card. Preserve that
+scope distinction when incorporating its findings; the standing collaboration
+authorization does not become a recurring permission question.
+
+That review completed through request65 and lifecycle66–68. Codex read the exact
+request and full public memo, then recorded the requested ACK69 for native session
+`0396bb41-f763-4040-bc46-f989527bebfa`. Final brief69 is clear, without pending
+signals or active claims. See the [boundary receipt](evidence/2026-09-11-cycle12-review-boundary.json)
+and [review receipt](evidence/2026-09-11-cycle12-review-receipt.json).

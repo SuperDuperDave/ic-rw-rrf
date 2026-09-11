@@ -21,7 +21,7 @@ The dated stream records the original symptom; WORKFLOW defines triage.
 | F14 | A presentation digest omitted which cohort its owner counts used | SUBTRACT ambiguity: explicit visible-only label and frozen-summary hash in digest | Counts unchanged; original/clarified hashes in cycle02 review receipt; full audit always labeled both cohorts |
 
 | F15 | Resumed Claude emitted a useful memo but then returned native budget error | PROMOTE: preserve readable memo and native termination separately; use scoped context when a later authorized review is useful | Cycle03 preserved the error and memo without relaunch. Cycle04 fresh handoff completed at $2.52308675 under the unchanged $4 cap; this verifies that scoped review's completion, not general cost improvement |
-| F16 | Automatic review treated Claude consent as limited to the first audit despite later ongoing-research authorization | SUBTRACT repeated approval interruption: include the latest explicit user authority and exact payload/destination scope in the launch request | Cycle04's identical bounded command was accepted after read-only inspection of the synthetic packet and standing authorization; no workaround or new user permission was used |
+| F16 | Automatic review treated Claude consent as limited to the first audit despite later ongoing-research authorization | SUBTRACT repeated approval interruption: include the latest explicit user authority and exact payload/destination scope in the launch request; RELAY owns actual transfer boundaries | Cycle04's identical bounded command was accepted after read-only inspection and standing authorization. Cycle12's new inventory transfer was denied before execution despite that authority; a materially narrower review of verified previously public excerpts was approved. The inventory remained unsent. This resolves that review scope, not future approval behavior |
 | F17 | Nonempty native subagent_stats with all-zero counters falsely stopped the cycle05 canary | SUBTRACT presence-as-activity detection: separately versioned collector recognizes the exact integer-zero schema; original evidence retained | Regression covers malformed/nonzero counts and actual activity. Corrected replication accepted20 valid no-agent invocations; all raw receipts independently verified. This demonstrates the specific fix, not robustness to every future schema |
 | F18 | Partial paired coverage can select hidden lineage and invalidate full-set posterior cancellation | PROMOTE exact selection cross-term into cycle05 scorer and its dedicated partial-coverage test | Synthetic partial case verifies correction; actual original batch has no accepted predictions and full replication's term is zero. No empirical partial-score improvement claimed |
 | F19 | Native max-turns/retry/output flags do not jointly imply one API call or500 total output tokens | PROMOTE effective-control audit and fixed-workflow contract to CLAUDE_COMPUTE; freeze wall/cost gates and raw usage evidence | Applied before data; cycle06 now verifies six max_tokens message stops and native continuations. Four invocations contain ten provider messages and exceed500 total tokens per invocation. Transport attempts remain incompletely observable; continuation is not an established cause of refusal |
@@ -33,8 +33,16 @@ The dated stream records the original symptom; WORKFLOW defines triage.
 
 | F23 | Untracked new test was absent from preflight git diff --check; staged check later found one extra EOF blank after source freeze | PROMOTE complete new-file review before freezing source hashes; inspect new files explicitly with no-index diff checks or stage them for review | Cycles09–11 explicitly checked new files before local and execution freezes; no whitespace defect found. Cycle08 frozen test bytes preserved. Coverage is exercised; prevention of a recurring defect remains unverified |
 
-The one external-provider approval interruption was resolved by Dave's explicit
-consent. Do not turn that incident into a blanket request-for-permission rule.
+External-provider approval interruptions have distinct recorded resolutions;
+the initial review used Dave's explicit consent, and cycle12 completed an approved
+public-source-only alternative. Do not turn these into a blanket permission rule.
+
+Cycle12 also SUBTRACTed stale prospective cycle10/11 clauses in CLAUDE_COMPUTE
+after their outcomes were already recorded. PROMOTE the distinction between case
+validity, comparison value and observed model failure to PLANNING R15 and the
+cycle12 integration, without another framework. DROP the stale web listing/cache
+miss as a new workflow feature: the exact unauthenticated GET resolved the local
+question. These are landed clarifications, not measured efficiency improvements.
 
 When a later session demonstrates that a change removed the original cost,
 record the evidence in its stream and retire the row. Do not mark a process fix

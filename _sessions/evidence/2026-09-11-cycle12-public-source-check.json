@@ -1,0 +1,26 @@
+{
+  "unauthenticated_https_reads": true,
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/SuperDuperDave/ic-rw-rrf/5b49a464cda025e193c90ea1fb765b1b785a6121/docs/RESEARCH_SYNTHESIS.md",
+      "http_status": 200,
+      "bytes": 5042,
+      "sha256": "5112929a096900d3a5035fb4e77270c6fec05cd395bec44d01f8bf74b9a69398",
+      "matches_local_committed_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SuperDuperDave/ic-rw-rrf/5b49a464cda025e193c90ea1fb765b1b785a6121/results/cycle06-2026-09-10/REPORT.md",
+      "http_status": 200,
+      "bytes": 8490,
+      "sha256": "8551f4550edacd5f95119f54bcb50fde44aa58cca01a28e642d4759c39bd0acd",
+      "matches_local_committed_bytes": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SuperDuperDave/ic-rw-rrf/5b49a464cda025e193c90ea1fb765b1b785a6121/data/cycle02/acquired/source-manifest.json",
+      "http_status": 200,
+      "bytes": 2477,
+      "sha256": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+      "matches_local_committed_bytes": true
+    }
+  ]
+}
