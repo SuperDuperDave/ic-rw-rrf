@@ -1,0 +1,643 @@
+{
+  "accounting": {
+    "all_observed_costs_known": true,
+    "collection_wall_seconds": 13.25492089195177,
+    "max_observed_message_output_tokens": 195,
+    "messages_per_invocation": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "missing_thinking_counters": 0,
+    "native_cost_usd": "0.069704999999999998",
+    "output_tokens": 697,
+    "provider_message_count": 4,
+    "thinking_tokens": 384
+  },
+  "checked_utc": "2026-09-11T08:07:17.492130+00:00",
+  "checker_sha256": "d11918d41b3d817e9e6d5ee153d21ba859ed9322a02ed469f72744a59f4be2d1",
+  "checks_passed": 7893,
+  "collection_manifest_sha256": "fc128de0e3195e0958d0f90613a321f01064593be98d07cb9e4b0f129c90fd8f",
+  "execution_manifest_sha256": "bfb2c4859c69177c263903da3b0d7e646da0d924cc7bb87a2e64b1f35154d6ae",
+  "independent_helper_sha256": {
+    "check_cycle07_evidence.py": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+    "check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "check_cycle10_evidence.py": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a",
+    "check_cycle11_evidence.py": "7c2e8e0e8a9b6c24f27ebdd24bbbd787919231ea51b04a5bb36ecdd3217fdcdd"
+  },
+  "limitations": [
+    "Four packets reuse four roots from two variants of one arithmetic skeleton, not independent acquisitions.",
+    "Direct program solving and endpoint agreement can reproduce the exact decisions on this V/F-only panel.",
+    "Returned support consistency does not identify an internal sequence of checking and selection.",
+    "Copy counts, positions and stochastic outputs do not isolate a causal copying effect.",
+    "Raw streams are explicitly unverified when absent or --public-only is used.",
+    "Missing usage counters remain unverified; native cost is not subscription billing."
+  ],
+  "native_binary_bytes": "verified",
+  "prepared_manifest_sha256": "c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb",
+  "raw_checks": [
+    {
+      "packet_id": "R0-A",
+      "reason": "public-only mode or private stream absent",
+      "status": "unavailable"
+    },
+    {
+      "packet_id": "R1-B",
+      "reason": "public-only mode or private stream absent",
+      "status": "unavailable"
+    },
+    {
+      "packet_id": "R0-B",
+      "reason": "public-only mode or private stream absent",
+      "status": "unavailable"
+    },
+    {
+      "packet_id": "R1-A",
+      "reason": "public-only mode or private stream absent",
+      "status": "unavailable"
+    }
+  ],
+  "raw_streams_unavailable": 4,
+  "raw_streams_verified": 0,
+  "schema_version": 1,
+  "score_check": {
+    "answers": [
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_answer": false,
+        "packet_id": "R0-A",
+        "program_id": "R0",
+        "regime": "A",
+        "returned_answer": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_answer": true,
+        "packet_id": "R1-B",
+        "program_id": "R1",
+        "regime": "B",
+        "returned_answer": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_answer": false,
+        "packet_id": "R0-B",
+        "program_id": "R0",
+        "regime": "B",
+        "returned_answer": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_answer": true,
+        "packet_id": "R1-A",
+        "program_id": "R1",
+        "regime": "A",
+        "returned_answer": true,
+        "status": "accepted"
+      }
+    ],
+    "diagnostics": {
+      "R0-A": {
+        "accepted_support_endpoints": [
+          false
+        ],
+        "all_validities_correct": true,
+        "answer_correct": true,
+        "answer_support_consistent": true,
+        "root_copy_disagreements": {
+          "r_4b61b62bf4ebb888": false,
+          "r_fd33def23bfb8121": false
+        },
+        "undefined_reason": null
+      },
+      "R0-B": {
+        "accepted_support_endpoints": [
+          false
+        ],
+        "all_validities_correct": true,
+        "answer_correct": true,
+        "answer_support_consistent": true,
+        "root_copy_disagreements": {
+          "r_4b61b62bf4ebb888": false,
+          "r_fd33def23bfb8121": false
+        },
+        "undefined_reason": null
+      },
+      "R1-A": {
+        "accepted_support_endpoints": [
+          true
+        ],
+        "all_validities_correct": true,
+        "answer_correct": true,
+        "answer_support_consistent": true,
+        "root_copy_disagreements": {
+          "r_07f8548c5b839904": false,
+          "r_53a36be6236c8c95": false
+        },
+        "undefined_reason": null
+      },
+      "R1-B": {
+        "accepted_support_endpoints": [
+          true
+        ],
+        "all_validities_correct": true,
+        "answer_correct": true,
+        "answer_support_consistent": true,
+        "root_copy_disagreements": {
+          "r_07f8548c5b839904": false,
+          "r_53a36be6236c8c95": false
+        },
+        "undefined_reason": null
+      }
+    },
+    "full_primary": {
+      "answers": {
+        "accepted": 4,
+        "correct": 4,
+        "planned": 4
+      },
+      "validities": {
+        "accepted": 16,
+        "correct": 16,
+        "planned": 16
+      }
+    },
+    "independent_task_count": null,
+    "interpretation": "Four reused-root packets on two program variants; output decisions and consistency do not identify internal strategy or multiagent benefit.",
+    "invocations": {
+      "accepted": 4,
+      "attempted": 4,
+      "invalid": 0,
+      "planned": 4,
+      "unsent": 0
+    },
+    "observed_counts": {
+      "answers": {
+        "accepted": 4,
+        "correct": 4,
+        "planned": 4
+      },
+      "validities": {
+        "accepted": 16,
+        "correct": 16,
+        "planned": 16
+      }
+    },
+    "reference_policy_totals": {
+      "answer": {
+        "always_false": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "always_true": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "deduplicated_root_vote": {
+          "abstained": 4,
+          "answered": 0,
+          "correct": 0,
+          "planned": 4,
+          "vector": [
+            null,
+            null,
+            null,
+            null
+          ]
+        },
+        "exact_replay": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 4,
+          "planned": 4,
+          "vector": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "majority": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        "minority": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            false,
+            false,
+            true,
+            true
+          ]
+        },
+        "position_1": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        "position_2": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "position_3": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            true,
+            true,
+            false,
+            false
+          ]
+        },
+        "position_4": {
+          "abstained": 0,
+          "answered": 4,
+          "correct": 2,
+          "planned": 4,
+          "vector": [
+            true,
+            false,
+            false,
+            true
+          ]
+        }
+      },
+      "validity": {
+        "always_invalid": {
+          "correct": 8,
+          "planned": 16,
+          "valid": 16,
+          "vector": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        },
+        "always_valid": {
+          "correct": 8,
+          "planned": 16,
+          "valid": 16,
+          "vector": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+          ]
+        },
+        "endpoint_matches_truth": {
+          "correct": 16,
+          "planned": 16,
+          "valid": 16,
+          "vector": [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        },
+        "exact_checker": {
+          "correct": 16,
+          "planned": 16,
+          "valid": 16,
+          "vector": [
+            false,
+            true,
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true
+          ]
+        }
+      }
+    },
+    "schema_version": 1,
+    "status": "complete",
+    "validities": [
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R0-A",
+        "position": 1,
+        "private_type": "F",
+        "program_id": "R0",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_4b61b62bf4ebb888",
+        "status": "accepted",
+        "submission_id": "s_91f3566434fea697"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R0-A",
+        "position": 2,
+        "private_type": "V",
+        "program_id": "R0",
+        "regime": "A",
+        "returned_validity": true,
+        "root_id": "r_fd33def23bfb8121",
+        "status": "accepted",
+        "submission_id": "s_5c428586190a3918"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R0-A",
+        "position": 3,
+        "private_type": "F",
+        "program_id": "R0",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_4b61b62bf4ebb888",
+        "status": "accepted",
+        "submission_id": "s_58bf69dccb455f7e"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R0-A",
+        "position": 4,
+        "private_type": "F",
+        "program_id": "R0",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_4b61b62bf4ebb888",
+        "status": "accepted",
+        "submission_id": "s_b770221e0a5978fc"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R1-B",
+        "position": 1,
+        "private_type": "V",
+        "program_id": "R1",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_07f8548c5b839904",
+        "status": "accepted",
+        "submission_id": "s_f57f313545160dde"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R1-B",
+        "position": 2,
+        "private_type": "V",
+        "program_id": "R1",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_07f8548c5b839904",
+        "status": "accepted",
+        "submission_id": "s_bd297196c33f0474"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R1-B",
+        "position": 3,
+        "private_type": "V",
+        "program_id": "R1",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_07f8548c5b839904",
+        "status": "accepted",
+        "submission_id": "s_b2d72ac829e6abf7"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R1-B",
+        "position": 4,
+        "private_type": "F",
+        "program_id": "R1",
+        "regime": "B",
+        "returned_validity": false,
+        "root_id": "r_53a36be6236c8c95",
+        "status": "accepted",
+        "submission_id": "s_dd85cddf0b41a60d"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R0-B",
+        "position": 1,
+        "private_type": "V",
+        "program_id": "R0",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_fd33def23bfb8121",
+        "status": "accepted",
+        "submission_id": "s_5c428586190a3918"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R0-B",
+        "position": 2,
+        "private_type": "F",
+        "program_id": "R0",
+        "regime": "B",
+        "returned_validity": false,
+        "root_id": "r_4b61b62bf4ebb888",
+        "status": "accepted",
+        "submission_id": "s_91f3566434fea697"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R0-B",
+        "position": 3,
+        "private_type": "V",
+        "program_id": "R0",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_fd33def23bfb8121",
+        "status": "accepted",
+        "submission_id": "s_348acc5c93347b16"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R0-B",
+        "position": 4,
+        "private_type": "V",
+        "program_id": "R0",
+        "regime": "B",
+        "returned_validity": true,
+        "root_id": "r_fd33def23bfb8121",
+        "status": "accepted",
+        "submission_id": "s_4afc266e1cb17918"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R1-A",
+        "position": 1,
+        "private_type": "F",
+        "program_id": "R1",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_53a36be6236c8c95",
+        "status": "accepted",
+        "submission_id": "s_dd85cddf0b41a60d"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R1-A",
+        "position": 2,
+        "private_type": "F",
+        "program_id": "R1",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_53a36be6236c8c95",
+        "status": "accepted",
+        "submission_id": "s_cacb852807c97d6a"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "packet_id": "R1-A",
+        "position": 3,
+        "private_type": "F",
+        "program_id": "R1",
+        "regime": "A",
+        "returned_validity": false,
+        "root_id": "r_53a36be6236c8c95",
+        "status": "accepted",
+        "submission_id": "s_5e1f9f8f0a27e03f"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "packet_id": "R1-A",
+        "position": 4,
+        "private_type": "V",
+        "program_id": "R1",
+        "regime": "A",
+        "returned_validity": true,
+        "root_id": "r_07f8548c5b839904",
+        "status": "accepted",
+        "submission_id": "s_f57f313545160dde"
+      }
+    ]
+  },
+  "scoring_manifest_sha256": "d338cf6820c9c0c5159f88420ecf920cbc46286309fd342c95658cb696669f96",
+  "status": "passed_public_only"
+}

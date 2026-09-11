@@ -1,0 +1,28 @@
+{
+  "coverage": {
+    "answers": {
+      "accepted": 4,
+      "correct": 4,
+      "planned": 4
+    },
+    "validities": {
+      "accepted": 16,
+      "correct": 16,
+      "planned": 16
+    }
+  },
+  "finished_utc": "2026-09-11T08:06:54.485187+00:00",
+  "input_sha256": {
+    "_sessions/tools/score_cycle11_verifier.py": "338eab1d645ada4d0ec023b3929f909cc2518db578c2d9d7cad4dda730cc798f",
+    "results/cycle11-2026-09-11/observations/manifest.json": "fc128de0e3195e0958d0f90613a321f01064593be98d07cb9e4b0f129c90fd8f",
+    "results/cycle11-2026-09-11/observations/responses.json": "48078d9d035409c6c7b45723c471825423d6443ffd3cc27495ad3e98d547153d"
+  },
+  "measurement_status": "complete",
+  "output_sha256": {
+    "manifest-start.json": "c68721df8de447a19d86dbd09d9d4a1bc4d2707e7c0a3b581b01d05466752619",
+    "scores.json": "5dc7198abab6c4a2849c59fbae141314a100f072ac28b1b648d3672bb538c835"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-09-11T08:06:54.483601+00:00",
+  "status": "complete"
+}

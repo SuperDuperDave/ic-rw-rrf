@@ -131,7 +131,7 @@ uses a small balanced panel to separate position and endpoint policies from
 exact verification. No multiagent advantage or general ability is established.
 [Cycle09 result and certificate cases](../results/cycle09-2026-09-11/REPORT.md)
 
-**Current frontier.** The follow-up fixed the program values and varied report
+**Separating simple alternatives.** The follow-up fixed the program values and varied report
 position and final-answer values. All 18 judgments were correct. A fixed-position
 rule would score 10/18 and endpoint-only checking 12/18; the observed vector differs
 from both. That closes a specific ambiguity, while leaving the internal checking
@@ -141,6 +141,16 @@ support, and can the same verifier resist an invalid minority? If that simple
 verifier succeeds completely, we will park multiagent work in this small
 laboratory. More agents need a demonstrated problem to solve.
 [Cycle10 result and verified cases](../results/cycle10-2026-09-11/REPORT.md)
+
+**Knowing when to stop.** The four-case bridge then returned all four correct
+answers and all sixteen correct evidence-validity judgments, whether valid support
+was outnumbered or in the majority among copied reports. We followed the stopping
+rule and parked multiagent work in this arithmetic laboratory. A single verifier
+already solved every case; adding agents would lack a demonstrated problem to
+repair. These outputs do not prove how it reasoned or whether it needed the
+certificates. The [synthesis](RESEARCH_SYNTHESIS.md) consolidates the findings before considering
+an applied task where a decisive piece of evidence is actually missing.
+[Cycle11 result and stopping decision](../results/cycle11-2026-09-11/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout

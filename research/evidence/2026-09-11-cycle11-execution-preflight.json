@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "prepared_manifest_sha256": "c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb",
+  "execution_manifest_sha256": "bfb2c4859c69177c263903da3b0d7e646da0d924cc7bb87a2e64b1f35154d6ae",
+  "source_entries": 37,
+  "request_order": [
+    "R0-A",
+    "R1-B",
+    "R0-B",
+    "R1-A"
+  ],
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0",
+  "model": "claude-opus-5",
+  "inherited_overrides": "accepted",
+  "new_files_whitespace": "passed",
+  "empirical_calls_before_preflight": 0,
+  "tests_total": 323,
+  "native_budget_usd": "1",
+  "call_wall_seconds": 120,
+  "batch_wall_seconds": 300
+}

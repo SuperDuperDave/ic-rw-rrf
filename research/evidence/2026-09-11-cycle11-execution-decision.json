@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "proceed": true,
+  "prepared_manifest_sha256": "c69e0ed91793ff511ebcfb18e40278db5fa0ee0fe3e460eb089ee798e17717cb",
+  "local_independent_checks": 6672,
+  "maximum_empirical_invocations": 4,
+  "empirical_calls_before_decision": 0,
+  "coordinator_decision": "Run the four fixed answer-plus-validity responses to complete the prespecified evidence-selection bridge; park multiagent arithmetic work on full correctness. No automatic follow-up.",
+  "local_findings": {
+    "construction_attempts": 1,
+    "distinct_submission_id_count": 12,
+    "exclusions": [],
+    "packet_count": 4,
+    "program_count": 2,
+    "rng_used": false,
+    "root_certificate_count": 4,
+    "submitted_instances": 16
+  },
+  "payload_bytes": {
+    "R0-A": 1394,
+    "R0-B": 1396,
+    "R1-A": 1396,
+    "R1-B": 1394
+  },
+  "no_replacement": true
+}
