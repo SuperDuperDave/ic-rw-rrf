@@ -1,0 +1,447 @@
+{
+  "contrasts": {
+    "hint_contrast": [
+      {
+        "generalist_sign": -1,
+        "hint_copied_packet_id": "p_3f1656fcd06cd31f9cf4",
+        "hint_independent_minus_copied": null,
+        "hint_independent_packet_id": "p_2291a3e681f5630f1d1c",
+        "p_specialist": "11/20",
+        "reference_hint_independent_minus_copied": {
+          "blind": "0",
+          "naive_hint_trust": "-385/1504",
+          "noisy_bayes": "-38500/367881"
+        }
+      },
+      {
+        "generalist_sign": 1,
+        "hint_copied_packet_id": "p_4c822c903bf7d1b98632",
+        "hint_independent_minus_copied": "1046534551640341/10000000000000000",
+        "hint_independent_packet_id": "p_6d0c2f9afa2a14182ad3",
+        "p_specialist": "11/20",
+        "reference_hint_independent_minus_copied": {
+          "blind": "0",
+          "naive_hint_trust": "385/1504",
+          "noisy_bayes": "38500/367881"
+        }
+      },
+      {
+        "generalist_sign": -1,
+        "hint_copied_packet_id": "p_b921ce2a9ad79364487f",
+        "hint_independent_minus_copied": null,
+        "hint_independent_packet_id": "p_188168ecf718bac59c46",
+        "p_specialist": "17/20",
+        "reference_hint_independent_minus_copied": {
+          "blind": "0",
+          "naive_hint_trust": "-595/1488",
+          "noisy_bayes": "-14875/116883"
+        }
+      },
+      {
+        "generalist_sign": 1,
+        "hint_copied_packet_id": "p_d52a21de38a2a5a8c21d",
+        "hint_independent_minus_copied": null,
+        "hint_independent_packet_id": "p_7f28ce53d8d85769caff",
+        "p_specialist": "17/20",
+        "reference_hint_independent_minus_copied": {
+          "blind": "0",
+          "naive_hint_trust": "595/1488",
+          "noisy_bayes": "14875/116883"
+        }
+      }
+    ],
+    "sign_symmetry": [
+      {
+        "negative_generalist_packet_id": "p_3f1656fcd06cd31f9cf4",
+        "noisy_lineage_hint": "copied",
+        "p_specialist": "11/20",
+        "positive_generalist_packet_id": "p_4c822c903bf7d1b98632",
+        "probability_sum_minus_one": null,
+        "reference_sum_minus_one": {
+          "blind": "0",
+          "naive_hint_trust": "0",
+          "noisy_bayes": "0"
+        }
+      },
+      {
+        "negative_generalist_packet_id": "p_2291a3e681f5630f1d1c",
+        "noisy_lineage_hint": "independent",
+        "p_specialist": "11/20",
+        "positive_generalist_packet_id": "p_6d0c2f9afa2a14182ad3",
+        "probability_sum_minus_one": null,
+        "reference_sum_minus_one": {
+          "blind": "0",
+          "naive_hint_trust": "0",
+          "noisy_bayes": "0"
+        }
+      },
+      {
+        "negative_generalist_packet_id": "p_b921ce2a9ad79364487f",
+        "noisy_lineage_hint": "copied",
+        "p_specialist": "17/20",
+        "positive_generalist_packet_id": "p_d52a21de38a2a5a8c21d",
+        "probability_sum_minus_one": null,
+        "reference_sum_minus_one": {
+          "blind": "0",
+          "naive_hint_trust": "0",
+          "noisy_bayes": "0"
+        }
+      },
+      {
+        "negative_generalist_packet_id": "p_188168ecf718bac59c46",
+        "noisy_lineage_hint": "independent",
+        "p_specialist": "17/20",
+        "positive_generalist_packet_id": "p_7f28ce53d8d85769caff",
+        "probability_sum_minus_one": null,
+        "reference_sum_minus_one": {
+          "blind": "0",
+          "naive_hint_trust": "0",
+          "noisy_bayes": "0"
+        }
+      }
+    ]
+  },
+  "coverage": {
+    "failure_types": {
+      "native:model_fallback,native_exit,native_result_error,observed_model,terminal_stop": 1
+    },
+    "invalid": 1,
+    "missing": 4,
+    "planned": 8,
+    "valid": 3
+  },
+  "packets": [
+    {
+      "absolute_posterior_error": "43/894000000",
+      "comparators": {
+        "blind": {
+          "model_minus_reference": "-43064929/1082000000",
+          "p_positive": "3129/4328",
+          "sign_decision": "positive"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": "53831/2000000",
+          "p_positive": "21/32",
+          "sign_decision": "positive"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": "-43/894000000",
+          "p_positive": "2443/3576",
+          "sign_decision": "positive"
+        }
+      },
+      "excess_brier": "1849/799236000000000000",
+      "failure_type": null,
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "copied",
+      "p_positive": "1366331/2000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_4c822c903bf7d1b98632",
+      "reference_p_positive": "2443/3576",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid"
+    },
+    {
+      "absolute_posterior_error": "1000000643/8230000000000000000",
+      "comparators": {
+        "blind": {
+          "model_minus_reference": "350850547437424481/5410000000000000000",
+          "p_positive": "3129/4328",
+          "sign_decision": "positive"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": "-58475091072903973/470000000000000000",
+          "p_positive": "343/376",
+          "sign_decision": "positive"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": "1000000643/8230000000000000000",
+          "p_positive": "5187/6584",
+          "sign_decision": "positive"
+        }
+      },
+      "excess_brier": "1000001286000413449/67732900000000000000000000000000000000",
+      "failure_type": null,
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "independent",
+      "p_positive": "7878189551640341/10000000000000000",
+      "p_specialist": "11/20",
+      "packet_id": "p_6d0c2f9afa2a14182ad3",
+      "reference_p_positive": "5187/6584",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid"
+    },
+    {
+      "absolute_posterior_error": "2477/2405000000",
+      "comparators": {
+        "blind": {
+          "model_minus_reference": "38657377/905000000",
+          "p_positive": "1853/2896",
+          "sign_decision": "positive"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": "-386549/15000000",
+          "p_positive": "17/24",
+          "sign_decision": "positive"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": "2477/2405000000",
+          "p_positive": "5253/7696",
+          "sign_decision": "positive"
+        }
+      },
+      "excess_brier": "6135529/5784025000000000000",
+      "failure_type": null,
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "copied",
+      "p_positive": "3412817/5000000",
+      "p_specialist": "17/20",
+      "packet_id": "p_b921ce2a9ad79364487f",
+      "reference_p_positive": "5253/7696",
+      "reference_sign_decision": "positive",
+      "sign_decision": "positive",
+      "sign_matches_reference": true,
+      "status": "valid"
+    },
+    {
+      "absolute_posterior_error": null,
+      "comparators": {
+        "blind": {
+          "model_minus_reference": null,
+          "p_positive": "1043/2896",
+          "sign_decision": "negative"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": null,
+          "p_positive": "7/24",
+          "sign_decision": "negative"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": null,
+          "p_positive": "2443/7696",
+          "sign_decision": "negative"
+        }
+      },
+      "excess_brier": null,
+      "failure_type": "native:model_fallback,native_exit,native_result_error,observed_model,terminal_stop",
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "copied",
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_d52a21de38a2a5a8c21d",
+      "reference_p_positive": "2443/7696",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "invalid"
+    },
+    {
+      "absolute_posterior_error": null,
+      "comparators": {
+        "blind": {
+          "model_minus_reference": null,
+          "p_positive": "1199/4328",
+          "sign_decision": "negative"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": null,
+          "p_positive": "11/32",
+          "sign_decision": "negative"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": null,
+          "p_positive": "1133/3576",
+          "sign_decision": "negative"
+        }
+      },
+      "excess_brier": null,
+      "failure_type": null,
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "copied",
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_3f1656fcd06cd31f9cf4",
+      "reference_p_positive": "1133/3576",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing"
+    },
+    {
+      "absolute_posterior_error": null,
+      "comparators": {
+        "blind": {
+          "model_minus_reference": null,
+          "p_positive": "1043/2896",
+          "sign_decision": "negative"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": null,
+          "p_positive": "343/496",
+          "sign_decision": "positive"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": null,
+          "p_positive": "1729/3888",
+          "sign_decision": "negative"
+        }
+      },
+      "excess_brier": null,
+      "failure_type": null,
+      "generalist_sign": 1,
+      "noisy_lineage_hint": "independent",
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_7f28ce53d8d85769caff",
+      "reference_p_positive": "1729/3888",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing"
+    },
+    {
+      "absolute_posterior_error": null,
+      "comparators": {
+        "blind": {
+          "model_minus_reference": null,
+          "p_positive": "1853/2896",
+          "sign_decision": "positive"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": null,
+          "p_positive": "153/496",
+          "sign_decision": "negative"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": null,
+          "p_positive": "2159/3888",
+          "sign_decision": "positive"
+        }
+      },
+      "excess_brier": null,
+      "failure_type": null,
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "independent",
+      "p_positive": null,
+      "p_specialist": "17/20",
+      "packet_id": "p_188168ecf718bac59c46",
+      "reference_p_positive": "2159/3888",
+      "reference_sign_decision": "positive",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing"
+    },
+    {
+      "absolute_posterior_error": null,
+      "comparators": {
+        "blind": {
+          "model_minus_reference": null,
+          "p_positive": "1199/4328",
+          "sign_decision": "negative"
+        },
+        "naive_hint_trust": {
+          "model_minus_reference": null,
+          "p_positive": "33/376",
+          "sign_decision": "negative"
+        },
+        "noisy_bayes": {
+          "model_minus_reference": null,
+          "p_positive": "1397/6584",
+          "sign_decision": "negative"
+        }
+      },
+      "excess_brier": null,
+      "failure_type": null,
+      "generalist_sign": -1,
+      "noisy_lineage_hint": "independent",
+      "p_positive": null,
+      "p_specialist": "11/20",
+      "packet_id": "p_2291a3e681f5630f1d1c",
+      "reference_p_positive": "1397/6584",
+      "reference_sign_decision": "negative",
+      "sign_decision": null,
+      "sign_matches_reference": null,
+      "status": "missing"
+    }
+  ],
+  "primary": null,
+  "schema_version": 1,
+  "status": "incomplete",
+  "valid_subset_diagnostic": {
+    "by_p_specialist": {
+      "11/20": {
+        "comparators": {
+          "blind": {
+            "conditional_excess_brier": "92640625/35890592987",
+            "expected_brier": "3751671/18731584",
+            "model_absolute_distance": "577500349486000347863/11707240000000000000000",
+            "model_minus_expected_brier": "-302186712550901665715673516736058717/117072400000000000000000000000000000000",
+            "model_squared_distance": "302186991021395261784326483263941283/117072400000000000000000000000000000000"
+          },
+          "naive_hint_trust": {
+            "conditional_excess_brier": "7029867075/1109536944128",
+            "expected_brier": "998778781/4895002624",
+            "model_absolute_distance": "65089032137999969779/1017080000000000000000",
+            "model_minus_expected_brier": "-3028714369508037023227214045230968033/478027600000000000000000000000000000000",
+            "model_squared_distance": "3028713597024595378022785954769031967/478027600000000000000000000000000000000"
+          },
+          "noisy_bayes": {
+            "conditional_excess_brier": "0",
+            "expected_brier": "839421737/4245837248",
+            "model_absolute_distance": "646000000643/21640000000000000000",
+            "model_minus_expected_brier": "38043324000191614061603901/26536482800000000000000000000000000000000",
+            "model_squared_distance": "38043324000191614061603901/26536482800000000000000000000000000000000"
+          }
+        },
+        "conditional_absolute_posterior_error": "646000000643/21640000000000000000",
+        "conditional_excess_brier": "38043324000191614061603901/26536482800000000000000000000000000000000",
+        "diagnostic_mass_coverage": "1/2",
+        "expected_brier": "42783284727262658658566222704739263/216400000000000000000000000000000000",
+        "full_diagnostic_mass": "541/2500",
+        "ideal_expected_brier": "839421737/4245837248",
+        "packet_count": 4,
+        "valid_diagnostic_mass": "541/5000",
+        "valid_packet_count": 2
+      },
+      "17/20": {
+        "comparators": {
+          "blind": {
+            "conditional_excess_brier": "221265625/121273883536",
+            "expected_brier": "881423599/4034058496",
+            "model_absolute_distance": "38657377/905000000",
+            "model_minus_expected_brier": "-718768272061317951/393951025000000000000",
+            "model_squared_distance": "1494392796520129/819025000000000000"
+          },
+          "naive_hint_trust": {
+            "conditional_excess_brier": "354025/533055744",
+            "expected_brier": "30107/138528",
+            "model_absolute_distance": "386549/15000000",
+            "model_minus_expected_brier": "-71876827133119/108225000000000000",
+            "model_squared_distance": "149420129401/225000000000000"
+          },
+          "noisy_bayes": {
+            "conditional_excess_brier": "0",
+            "expected_brier": "12833079/59228416",
+            "model_absolute_distance": "2477/2405000000",
+            "model_minus_expected_brier": "6135529/5784025000000000000",
+            "model_squared_distance": "6135529/5784025000000000000"
+          }
+        },
+        "conditional_absolute_posterior_error": "2477/2405000000",
+        "conditional_excess_brier": "6135529/5784025000000000000",
+        "diagnostic_mass_coverage": "481/1448",
+        "expected_brier": "2605468546985209/12025000000000000",
+        "full_diagnostic_mass": "181/1250",
+        "ideal_expected_brier": "12833079/59228416",
+        "packet_count": 4,
+        "valid_diagnostic_mass": "481/10000",
+        "valid_packet_count": 1
+      }
+    },
+    "label": "descriptive valid-subset summaries; changed denominators"
+  }
+}

@@ -76,8 +76,29 @@ advisory500-word target. Model choice reserved Fable for interpretation, with
 Opus as the empirical workhorse; no scout quota was needed. Total this cycle's
 native accounting across the two empirical batches and review is$.511374,
 not subscription billing. [Review receipt](evidence/2026-09-10-cycle05-review-receipt.json).
-The next eight-input known-noise design is unrun and has its own prospective
-resource contract. No spending limits were raised after an error.
+Cycle06 subsequently closed incomplete: four invocations, three valid, one
+provider refusal, four unsent. Raw streams verify10 provider message IDs plus
+one local API-error record;4,386 output tokens include4,328 thinking tokens.
+Six message stops hit `max_tokens`; invocation outputs can exceed500 through
+continuation. Empirical cost$.173296,57.71seconds. Do not infer that continuation
+caused the refusal, or that the category establishes a task terms violation.
+
+The preserved collector mislabels `model_refusal_no_fallback` and a correlated
+local `<synthetic>` message, and misattributes two message fields. No actual
+alternate model was observed. The future-only `native_stream_observer.py`
+separates the exact verified local error shape and preserves refusal rejection;
+unknown shapes retain conservative gates. It must be pinned in any future
+execution contract, not substituted retroactively into frozen observations.
+See [audit](evidence/2026-09-10-cycle06-independent-check.json).
+
+One separate Fable5.1/high review succeeded in46.30seconds at$.30278075,
+3,098output tokens including2,057thinking tokens; no tools/scouts. Its492-word
+public memo exceeds the400-word advisory target. The terminal result contains
+only its final ACK paragraph; the full public review is assembled from assistant
+text blocks, excluding thinking. Total cycle06 native list accounting$.47607675;
+no cap was raised after an error. [Receipt](evidence/2026-09-10-cycle06-review-receipt.json).
+Cycle07's proposed model mapping and controls require verification before its
+own freeze; additional subagents or stronger tiers are not a standing quota.
 
 Model roles
 follow expected information value; four scouts are not a quota for every loop.

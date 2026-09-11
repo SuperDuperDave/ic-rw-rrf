@@ -1,0 +1,137 @@
+[
+  {
+    "packet_id": "p_4c822c903bf7d1b98632",
+    "policy": "blind",
+    "p_positive": "3129/4328"
+  },
+  {
+    "packet_id": "p_4c822c903bf7d1b98632",
+    "policy": "naive_hint_trust",
+    "p_positive": "21/32"
+  },
+  {
+    "packet_id": "p_4c822c903bf7d1b98632",
+    "policy": "noisy_bayes",
+    "p_positive": "2443/3576"
+  },
+  {
+    "packet_id": "p_4c822c903bf7d1b98632",
+    "policy": "model",
+    "p_positive": "1366331/2000000"
+  },
+  {
+    "packet_id": "p_6d0c2f9afa2a14182ad3",
+    "policy": "blind",
+    "p_positive": "3129/4328"
+  },
+  {
+    "packet_id": "p_6d0c2f9afa2a14182ad3",
+    "policy": "naive_hint_trust",
+    "p_positive": "343/376"
+  },
+  {
+    "packet_id": "p_6d0c2f9afa2a14182ad3",
+    "policy": "noisy_bayes",
+    "p_positive": "5187/6584"
+  },
+  {
+    "packet_id": "p_6d0c2f9afa2a14182ad3",
+    "policy": "model",
+    "p_positive": "7878189551640341/10000000000000000"
+  },
+  {
+    "packet_id": "p_d52a21de38a2a5a8c21d",
+    "policy": "blind",
+    "p_positive": "1043/2896"
+  },
+  {
+    "packet_id": "p_d52a21de38a2a5a8c21d",
+    "policy": "naive_hint_trust",
+    "p_positive": "7/24"
+  },
+  {
+    "packet_id": "p_d52a21de38a2a5a8c21d",
+    "policy": "noisy_bayes",
+    "p_positive": "2443/7696"
+  },
+  {
+    "packet_id": "p_7f28ce53d8d85769caff",
+    "policy": "blind",
+    "p_positive": "1043/2896"
+  },
+  {
+    "packet_id": "p_7f28ce53d8d85769caff",
+    "policy": "naive_hint_trust",
+    "p_positive": "343/496"
+  },
+  {
+    "packet_id": "p_7f28ce53d8d85769caff",
+    "policy": "noisy_bayes",
+    "p_positive": "1729/3888"
+  },
+  {
+    "packet_id": "p_3f1656fcd06cd31f9cf4",
+    "policy": "blind",
+    "p_positive": "1199/4328"
+  },
+  {
+    "packet_id": "p_3f1656fcd06cd31f9cf4",
+    "policy": "naive_hint_trust",
+    "p_positive": "11/32"
+  },
+  {
+    "packet_id": "p_3f1656fcd06cd31f9cf4",
+    "policy": "noisy_bayes",
+    "p_positive": "1133/3576"
+  },
+  {
+    "packet_id": "p_2291a3e681f5630f1d1c",
+    "policy": "blind",
+    "p_positive": "1199/4328"
+  },
+  {
+    "packet_id": "p_2291a3e681f5630f1d1c",
+    "policy": "naive_hint_trust",
+    "p_positive": "33/376"
+  },
+  {
+    "packet_id": "p_2291a3e681f5630f1d1c",
+    "policy": "noisy_bayes",
+    "p_positive": "1397/6584"
+  },
+  {
+    "packet_id": "p_b921ce2a9ad79364487f",
+    "policy": "blind",
+    "p_positive": "1853/2896"
+  },
+  {
+    "packet_id": "p_b921ce2a9ad79364487f",
+    "policy": "naive_hint_trust",
+    "p_positive": "17/24"
+  },
+  {
+    "packet_id": "p_b921ce2a9ad79364487f",
+    "policy": "noisy_bayes",
+    "p_positive": "5253/7696"
+  },
+  {
+    "packet_id": "p_b921ce2a9ad79364487f",
+    "policy": "model",
+    "p_positive": "3412817/5000000"
+  },
+  {
+    "packet_id": "p_188168ecf718bac59c46",
+    "policy": "blind",
+    "p_positive": "1853/2896"
+  },
+  {
+    "packet_id": "p_188168ecf718bac59c46",
+    "policy": "naive_hint_trust",
+    "p_positive": "153/496"
+  },
+  {
+    "packet_id": "p_188168ecf718bac59c46",
+    "policy": "noisy_bayes",
+    "p_positive": "2159/3888"
+  }
+]

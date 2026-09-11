@@ -69,6 +69,14 @@ Codex recorded the requested consumption ACK34 after reading the full event and
 memo. Final brief is clear. This is collaboration review, not another empirical
 packet observation. [Receipt](evidence/2026-09-10-cycle05-review-receipt.json).
 
+Cycle06's separate Fable5.1 interpretation review used fresh session
+`db3fac20-c2ed-4590-a4bf-a8dbda3a8245`. Request35's marker appears in its full
+assistant-text memo; terminal result alone held only the final ACK-request
+fragment. Lifecycle36–38 records successful startup/turn/end. After consuming
+the full request and memo, Codex recorded Claude's requested ACK39; final brief
+has no pending signals or active claims. [Receipt](evidence/2026-09-10-cycle06-review-receipt.json).
+No empirical packet used Relay review context, and no provider job remains.
+
 From the repository root:
 
 ```bash

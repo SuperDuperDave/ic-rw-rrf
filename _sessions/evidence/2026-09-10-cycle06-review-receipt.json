@@ -1,0 +1,48 @@
+{
+  "session_id": "db3fac20-c2ed-4590-a4bf-a8dbda3a8245",
+  "marker": "cycle06-review-78e6d93c32",
+  "mission_sha256": "f2e14e3af1e7c2fb6fbfe6c0a4d899e523ac76b497048a435337f9384ea3d9c2",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 46.30445144599071,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.30278075,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 6,
+      "outputTokens": 3098,
+      "cacheReadInputTokens": 12003,
+      "cacheCreationInputTokens": 7241,
+      "webSearchRequests": 0,
+      "costUSD": 0.30278075,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 2057,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 492,
+  "advisory_word_target": 400,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "b4b1cc12ad03735e46217979443dc58bda6005e9d0e04f51d3c34c269dafaba0",
+  "memo_sha256": "6a73d205d552baa7641f28fa74e2aeed659b9a9c5025367bcf78e5277948d41e",
+  "memo_extraction": "All assistant message text blocks in order; terminal result.result contained only the final ACK-request fragment. No thinking blocks copied.",
+  "relay_request_seq": 35,
+  "relay_lifecycle_seq": [
+    36,
+    37,
+    38
+  ],
+  "relay_ack_seq": 39,
+  "relay_ack_recorded_by": "Codex after consuming full request and complete assistant-text memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Supplied synthetic capsule only; no independent file or raw-stream inspection",
+  "review_distinct_from_empirical_measurements": true
+}

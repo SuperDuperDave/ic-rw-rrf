@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle05 is complete. The separately frozen replication produced20 valid near-exact posteriors;2,636 independent checks verified all21 empirical streams and arithmetic. Original stopped scores remain0accepted/1rejected/19unscheduled. Git checkpoint is handled at wrap; use current Git metadata for its identity.
-- Next: PLANNING R8 / cycle06-known-noise-design. Eight inputs with a disclosed binary lineage-hint error1/4; exact references/weights checked analytically. Freeze implementation and actual payloads before any model call. No cycle06 empirical output exists.
-- In flight: all22 provider invocations (21 empirical, one Fable review) have exited. Relay request30 consumed, coordinator ACK34 recorded, final brief clear. No pending user approval or live collaborator; final bounded prose review found no material discrepancy.
-- Preserve: historical inputs and cycle01–05 frozen code/protocols/numerical evidence, including the failed original batch and its separate corrected replication. Raw source text and provider transcripts stay ignored. No old answer was carried into the replication.
+- Now: cycle06 closed incomplete (3 valid,1 refused,4 unsent), full primary null. Exact scores and native totals independently checked; failed-call label/metadata discrepancies explicitly preserved. Report and review integration own details.
+- Next: PLANNING R9 / cycle07-observation-design: prepare24 distinct bounded-program items and independent truths, seal8 development/16 reserve, freeze role prompts/model/controls before any new provider response. H8 remains incomplete and parked; no automatic repair batch.
+- In flight: no provider process or live collaborator; Relay last_seq39 has no pending signals or active claims. Offline audits complete; coordinator owns the final Git checkpoint.
+- Preserve: all historical and cycle01–06 frozen code/protocols/numerical evidence, including stopped batches and original telemetry discrepancies. Future observer correction is separate. Raw data/provider transcripts remain ignored.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -165,3 +165,27 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R8 / cycle06-known-noise-design is first action, with eight fresh inputs and prospective$1/300s controls. Preserve the analytical-only status of its reference predictions.
 - R1 owns unrelated legacy metric/generation maintenance; R2/R4 remain parked. Known calibration and conditional independence do not transfer automatically to real sources.
 - Reuse this coordinating stream. Preserve both cycle05 batches and raw-data privacy; record future instrumentation failures and review disagreements before changing the map.
+
+## Cycle06 — known-noise execution preparation
+
+- Resumed R8 from the preserved cycle05 checkpoint and the same stream. No blocking NEEDS DAVE item or live Relay claim. Native executable2.1.267 retains SHA0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0; inherited provider override keys absent.
+- Frozen execution contract supplements the unchanged binary-channel design. Reuse tested native collection/telemetry through a scoped adapter, preserving original files; reduce prospective limits to eight invocations,$1 native scheduling and300s batch wall.
+- Independent pre-outcome algebra verifies all eight posteriors and unequal hint weights. Strong-setting blind and correct noise-aware inference share the same sign, so continuous probability estimates remain the discriminating measurement.
+
+## Cycle06 — outcome, critique and checkpoint
+
+- Prepared eight inputs/order and exact augmented reference law before calls;156 preflight tests pass. Fixture custody and320 independent prepared checks agree. Frozen manifestdc3d6ac723ac0551e46b3f1e6a12a56d727b8010961ec764d0c8dc80fe89d5f4.
+- One fixed batch closes3valid/1native-refused/4unsent, full primary null. Valid weak pair tracks noisy-hint contrast; maximum valid posterior error1.02994e-6. Strong independent-hint decision cases and all sign-symmetry pairs remain unobserved. Subset weights: weak1/2, strong481/1448; no full-primary substitution.
+- Native57.71s,$.173296,4,386output including4,328thinking.10 provider message IDs plus one verified local synthetic API-error record; six max_tokens stops show continuation. Provider classificationreasoning_extraction is recorded, not accepted as an established explanation/terms judgment. No alternate provider model observed.
+- Independent865-check raw/direct-loss audit documents incorrect fallback/model labels and two message-metadata differences in fourth invocation. Aggregate costs and scores agree; real refusal still requires exclusion. Preserve frozen observations and add future-only precise-schema observer correction with9 tests and separate offline replay; no repair experiment or raised cap.
+- Fable5.1 tools-disabled review succeeded46.30s,$.30278075; total native cycle accounting$.47607675. Complete492-word public memo recovered from assistant text blocks; terminalresult held only finalACKfragment. Request35 context marker verified, lifecycle36–38 complete, requested consumptionACK39 recorded; finalbriefclear. No thinking text published.
+- Integration retains partial continuous hint evidence despite reviewer overstatement; corrects independence-of-all-report-slots claim. NextR9 measures actual paired errors on mechanically verified tasks before any answer-exposure intervention. Fresh context≠independent errors; copying≠exposure; truth-conditioned association≠causal dependence. Prospective design only, no cycle07 responses.
+- Ratchet: F19 continuation semantics now observed; F20 precise observer correction verified by offline replay, native reuse pending; F21 full public-text extraction recovered actual review without another call. SUBTRACT repeated controls by frozen scoped adapter reuse; DROP one-off formatting/navigation retries as framework work.
+
+## Current cycle06 carryforward
+
+- R9 owns program generation, independent truth/leakage review and execution freeze. Development-only first empirical checkpoint; reserve stays unsent until a separately justified protocol.
+- R8/H8 remain scientifically incomplete; no silent repair or full-result claim. R1 legacy maintenance and R2/R4 parked branches remain unchanged.
+- Reuse this stream, current reports and frozen evidence; Git checkpoint preserves this turn. No website publication or unrelated project changes.
+
+- Final verification:92 research tests +73 helper tests pass (165 total); independent865 original checks +84 future-only replay checks, public-only739. All27 plotted probabilities match scores,129 local links resolve, previous checkpoint hashes match and private runtime/provider paths remain ignored. Final receipt: evidence/2026-09-10-cycle06-checks.json.

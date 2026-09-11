@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-09-11T02:45:48.243675+00:00",
+  "status": "passed_with_documented_frozen_instrument_discrepancies",
+  "scientific_primary_status": "incomplete",
+  "starting_commit": "aca7b6e413ba4dabf5acb5620177ef1a1373fd95",
+  "research_tests": {
+    "passed": 92,
+    "command": "python3 -B -m unittest discover -s evaluation/tests"
+  },
+  "helper_tests": {
+    "passed": 73,
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests"
+  },
+  "tests_total": 165,
+  "independent_original_checks": 865,
+  "private_raw_streams_verified": 4,
+  "public_only_assertions": 739,
+  "future_observer_offline_replay_checks": 84,
+  "future_observer_distinct_from_frozen_collection": true,
+  "local_markdown_links_checked": 129,
+  "missing_links": [],
+  "plotted_values_matched": 27,
+  "historical_tracked_inputs_and_cycle01_to05_evidence_unchanged": true,
+  "all_previous_cycle05_checkpoint_hashes_match": true,
+  "private_runtime_and_provider_paths_ignored": true,
+  "credential_signature_findings": [],
+  "relay_final_sequence": 39,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": [],
+  "native_empirical_list_accounting_usd": "0.173296",
+  "native_interpretation_review_list_accounting_usd": "0.30278075",
+  "native_total_list_accounting_usd": "0.47607675",
+  "artifact_sha256": {
+    "results/cycle06-2026-09-10/prepared/manifest.json": "dc3d6ac723ac0551e46b3f1e6a12a56d727b8010961ec764d0c8dc80fe89d5f4",
+    "results/cycle06-2026-09-10/observations/manifest.json": "bca44a5f2d87421ad28c0e7b8da621f9fdc17418045546a3be214829b68c15f2",
+    "results/cycle06-2026-09-10/scored/manifest.json": "2b3cc046795ae5901a4101260072bbd5a83f01b000c8bdd5339a05275bf2cee4",
+    "results/cycle06-2026-09-10/scored/scores.json": "ae3fd5b618b86706566309883db3d9dcb7da888232f7ab1873e035d98faedbd2",
+    "results/cycle06-2026-09-10/REPORT.md": "8551f4550edacd5f95119f54bcb50fde44aa58cca01a28e642d4759c39bd0acd",
+    "results/cycle06-2026-09-10/noisy_lineage.png": "6fc89d6b8e9e8137c9b0e04ddb2cea490212749988582aae23b08f0c05bd310d",
+    "results/cycle06-2026-09-10/noisy_lineage.svg": "bf6402a10adaac5e115cead6c284a75621904a101fa8c38f1cf404e3c5deb259",
+    "results/cycle06-2026-09-10/plotted_values.json": "054b2e84459a7a5e5fbd1aef575c825a58c945e024e89090802c130ef71edf9e",
+    "_sessions/evidence/2026-09-10-cycle06-independent-check.json": "0bcf3290036b74c061dbe0b6295bac09d3cb7a0b0c01f6aec0475147ff35005f",
+    "_sessions/evidence/2026-09-10-cycle06-review-receipt.json": "dbc5cf92e0f47a1f7e17d9d89e0bb7fb4b9dfc48e5a7aebd14998726d4a31679",
+    "_sessions/cycles/2026-09-10-cycle07-observation-design.md": "0864a6363ed8b959a90d2788c85bc64e9c977ef413def37b24f517ab7c71641f"
+  },
+  "limitations": [
+    "Full eight-input scientific primary remains null:3 valid,1 refused,4 unsent.",
+    "Original failed invocation retains documented misleading labels and two message-attribution discrepancies; aggregate scores and usage verified.",
+    "Offline future-observer replay is not new native execution or prevention of provider refusal.",
+    "One response per fixed input does not estimate stochastic variability or general performance.",
+    "Native list accounting is not subscription billing; hidden transport attempts are incompletely observable.",
+    "Cycle07 is a prospective design only; task generator, truth-checking artifacts and execution freeze remain required."
+  ]
+}

@@ -17,6 +17,32 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle06: partial noisy-hint evidence, then actual error observation
+
+The [cycle06 report](../results/cycle06-2026-09-10/REPORT.md) closes with three
+valid responses, one provider refusal and four unsent inputs. The full primary
+is null. The valid weak-setting pair tracks the noise-aware hint contrast;
+all three valid probabilities are within1.03×10⁻⁶ of their exact references.
+This supports use of the disclosed uncertainty on those inputs, without
+completing H8. Both strong independent-hint decision cases remain unobserved.
+
+The independent audit verifies865 checks, all four raw streams, exact scores
+and aggregate native cost$.173296. It also documents erroneous fallback/model
+labels and two message-metadata discrepancies in the failed invocation. There
+was a real provider refusal and no observed alternate model; original records
+remain unchanged. A future-only observer correction has separate offline tests
+and replay, with no repair experiment. Continuations demonstrate why the500-token
+per-response setting is not a total invocation ceiling.
+
+A tools-disabled Fable review succeeded at$.30278075 and prompted the move toward
+actual joint errors. Independent integration corrects its dismissal of the
+observed continuous contrast and its claim that all report slots were independent.
+The [next design](cycles/2026-09-10-cycle07-observation-design.md), R9, prepares
+a small mechanically verified program panel and two solver roles. Context
+isolation is not error independence; the first checkpoint measures observable
+joint-error counts and stops before any answer-exposure intervention. No cycle07
+provider call has run. [Review integration](cycles/2026-09-10-cycle06-review-integration.md).
+
 ## Cycle05: actual coordinator, then uncertainty about provenance
 
 The [empirical replication](../results/cycle05-replication-2026-09-10/REPORT.md)
@@ -45,11 +71,10 @@ canary$.014545, on native list accounting, not subscription billing.
 One fresh tools-disabled Fable reviewer completed through Relay at$.313930 and
 recommended known-noise lineage. The integration makes its error channel precise,
 reduces the proposed sweep to eight inputs, and removes arbitrary capability
-thresholds. **Next: R8 / [cycle06 known-noise design](cycles/2026-09-10-cycle06-known-noise-design.md).**
+thresholds. **This led to R8 / [cycle06 known-noise design](cycles/2026-09-10-cycle06-known-noise-design.md), now closed incomplete above.**
 Actual construction remains hidden behind a disclosed binary hint channel with
 error1/4. Exact blind and naive hint trust are distinct comparators; class-only
-scoring would miss whether the hint is used. Design references are analytical;
-no cycle06 model calls have run. [Review integration](cycles/2026-09-10-cycle05-review-integration.md).
+scoring would miss whether the hint is used. Design references remain analytical; actual partial observations are separately reported above. [Review integration](cycles/2026-09-10-cycle05-review-integration.md).
 
 ## Cycle04: preceding exact evidence-origin laboratory
 

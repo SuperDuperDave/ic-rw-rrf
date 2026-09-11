@@ -30,7 +30,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H5 | `[verified in stipulated model]` Trusted lineage improves probability quality; stronger information need not change class decisions | Cycle04 gives a weak-setting Brier-only benefit and a strong-setting error gain; H7 now measures actual use under supplied assumptions |
 | H6 | `[derived boundary; run retired]` Correct copy lineage and individual calibration need not justify independent likelihood factors | Common-cause proposal is arithmetically contained in old mixture; retain the distinction, require real joint-error evidence for transfer |
 | H7 | `[observed, narrow]` Actual Opus5 uses the fully supplied calibration/lineage model on the fixed diagnostic | Twenty valid fresh responses, all reference decisions, max probability error3.37e-8; source detection and general ability remain open |
-| H8 | `[next, untested]` The coordinator may marginalize a noisy provenance hint rather than trust or ignore it | Eight fixed inputs with disclosed binary hint error1/4; exact noise-aware, blind and naive-trust probabilities differ; score continuously |
+| H8 | `[partial, incomplete]` Three returned probabilities track noise-aware inference; full eight-input primary unavailable | One weak hint contrast observed; strong independent-hint cases unsent after refusal; park further supplied tables |
+| H9 | `[next, untested]` Mechanically verified tasks may expose useful differing and shared solver errors | Eight development items ×two roles; count joint errors and variation before separately considering answer exposure |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -100,3 +101,14 @@ found relevant prior work; it does not constitute novelty clearance.
   Correct class-only intuition: exact blind already shares the correct noisy
   strong-setting decision, so probabilities must reveal whether the hint is
   used. [Cycle06 design](cycles/2026-09-10-cycle06-known-noise-design.md).
+
+- **Cycle06 partial measurement:** three near-reference probabilities include
+  one continuous hint contrast; provider refusal stops the fixed batch before
+  the strong distinguishing cells. Full primary remains null. Independent raw
+  review corrects fallback/model labels and message attribution without changing
+  frozen evidence or accepting the refusal.
+- **Cycle06 review transition:** move from supplied error laws toward observing
+  actual paired errors. Do not assume fresh contexts imply independent errors,
+  confuse an exposed answer with a deterministic copy, or infer dependence causes
+  from a tiny truth-conditioned association. [Cycle07 design](cycles/2026-09-10-cycle07-observation-design.md)
+  starts with truth and denominator feasibility. H8 stays incomplete, not settled.

@@ -145,28 +145,47 @@ own the next branch. Real calibration and dependence remain untested. The
 [retired common-cause candidate](cycles/2026-09-10-cycle05-common-cause-design.md)
 is a derived boundary; do not run it as if it supplied new numerical evidence.
 
-### R8 — NEXT: use a disclosed uncertainty in lineage
+### R8 — DONE 2026-09-10, scientific result incomplete: disclosed lineage uncertainty
 
-The [cycle06 design](cycles/2026-09-10-cycle06-known-noise-design.md) selects one
-binary hint channel, error1/4, on copied/independent non-null disagreements.
-Both hints ×both specialist accuracies ×both signs give eight unique requests.
-Primary is continuous regret against exact noise-aware Bayes, with theoretical
-blind and naive-hint-trust comparators and exact generator weights. Blind already
-matches the correct strong-setting sign, so final decisions alone cannot show
-that the hint was used.
+The frozen [cycle06 design](cycles/2026-09-10-cycle06-known-noise-design.md)
+and [report](../results/cycle06-2026-09-10/REPORT.md) preserve eight planned
+inputs, three valid responses, one native refusal and four unsent. The full
+primary is null. One weak-setting hint contrast tracks the exact noise-aware
+reference; both strong independent-hint cases remain unobserved. H8 is bounded
+by partial evidence, not certified as passed or failed.
 
-**First action:** implement and independently verify the exact augmented law,
-payload isolation, weights and boundaries; freeze all eight request bytes/order
-and the current native configuration before any model response. Reuse the
-verified zero-counter activity gate. Proposed allowance$1 native scheduling,
-120s/call,300s batch,500output tokens per API response including thinking.
+Independent reconstruction verifies865 checks and four raw streams, including
+explicit observer-label/attribution discrepancies that leave rejection and
+aggregate scores/cost unchanged. A separately tested future observer corrects
+the known local-error shape offline; original records remain frozen. One Fable
+review was consumed through Relay. Native empirical plus review accounting
+is$.47607675. No automatic repair batch or raised limits.
 
-**Checkpoint:** one batch of eight fresh contexts, no prompt search, application
-retry or automatic repair run; full primary requires all eight valid. Padding
-and error rates 0 and 1/2 remain analytical checks. No hidden-error arm or arbitrary tolerance
-certifies ability. If disclosed uncertainty is also handled, prioritize obtaining
-calibration/dependence evidence or pricing an observation over another agent
-sweep on supplied arithmetic. No cycle06 model call has run.
+**Parked remainder:** no more supplied Bayes inputs now. Reopen H8 only through
+a separate design with a reason its missing observations would change a live
+decision. Collection closure does not complete the scientific primary.
+
+### R9 — NEXT: observe actual paired errors on mechanically verified tasks
+
+The [cycle07 design](cycles/2026-09-10-cycle07-observation-design.md) prepares
+24 distinct bounded-program templates with independently verified binary truths:
+eight development items and16 reserved items, sealed before provider calls.
+The first empirical checkpoint is at most16 invocations: two separately
+prompted roles per development item, same verified model/configuration.
+
+**First action:** implement the bounded generator and independent truth checker,
+verify structural split isolation and all24 truths, then freeze exact items,
+prompts/order, model identity and effective resource controls. No generator,
+execution freeze or cycle07 response exists yet. Proposed allowance$1 native
+scheduling,300s total,120s per invocation,500output tokens per API response.
+
+**Checkpoint:** one development batch, exact joint-error tables and explicit
+coverage/denominators, independent audit, then stop. The observability gate is
+minimum variation, not statistical power or a useful-effect threshold. Missing
+pairs make the full primary null. No retries or reserve consumption to repair
+failure. Actual answer exposure is a later separately frozen paired treatment;
+fresh contexts do not guarantee independent errors and copied output is not
+an exposure experiment. No model/prompt sweep or learned fusion yet.
 
 ## Communication and operations
 

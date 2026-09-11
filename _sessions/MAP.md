@@ -32,6 +32,12 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/run_cycle05_coordinator.py`, `run_cycle05_replication.py` | Preserved initial native collector and separately frozen zero-counter correction; fresh isolated experimental contexts |
 | `_sessions/tools/score_cycle05_coordinator.py`, `score_cycle05_replication.py` | Custody-checked offline scoring; no provider calls |
 | `_sessions/tools/check_cycle05_observations.py` | Independent native receipt and probability-score reconstruction; private streams checked when locally available |
+| `evaluation/cycle06_noisy_lineage.py` | Exact noisy-hint law, eight isolated packets, full/partial probability scoring |
+| `_sessions/tools/run_cycle06_coordinator.py`, `score_cycle06_coordinator.py` | Frozen scoped adapters reusing prior native/custody controls |
+| `_sessions/tools/check_cycle06_evidence.py` | Independent likelihood/direct-loss and raw observation audit; preserves failed-message discrepancies |
+| `_sessions/tools/native_stream_observer.py` | Future-only correction for precise no-fallback/local API-error shape; original collectors unchanged |
+| `_sessions/cycles/2026-09-10-cycle07-observation-design.md` | Prospective actual paired-error feasibility; preparation and execution freeze still required |
+| `results/cycle06-2026-09-10/REPORT.md`, `prepared/`, `observations/`, `scored/` | Incomplete3/8 noisy-hint result, frozen original metadata and exact subset losses |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |
