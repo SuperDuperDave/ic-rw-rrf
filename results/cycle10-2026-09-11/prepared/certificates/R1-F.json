@@ -1,0 +1,1 @@
+{"rows":[{"state":{"a":2},"step":1},{"state":{"a":2,"b":3},"step":2},{"state":{"a":5,"b":3},"step":3},{"state":{"a":5,"b":2},"step":4},{"state":{"a":7,"b":2},"step":5},{"state":{"a":7,"b":2,"result":false},"step":6}]}

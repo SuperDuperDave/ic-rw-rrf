@@ -138,6 +138,23 @@ billing. [Review receipt](evidence/2026-09-11-cycle09-review-receipt.json),
 The prospective cycle10 local panel has no provider budget yet; do not infer
 its cost or value from these short calls.
 
+Cycle10 reused Opus5/high for six fixed native calls:19.69405seconds,$.088035,
+879output including561thinking tokens, six messages with no observed continuation
+or activity; maximum152output/message. All18 returned judgments match exact
+verification. The finite named heuristic vectors differ; no internal algorithm
+or multiagent benefit follows.
+
+One Fable5.1/high interpretation review completed in59.67seconds at$.43333375,
+3,857output including2,565thinking tokens. Two message IDs appear; per-message
+final usage and stop metadata are unavailable. The terminal field held only the
+second public-text fragment; the existing extractor recovered the full596-word
+memo without another call. The400-word advisory target was exceeded; the$1/180s
+native bounds were respected. Total native cycle accounting$.52136875 excludes
+Codex and subscription billing. [Receipt](evidence/2026-09-11-cycle10-review-receipt.json).
+Cycle11 is only a prospective four-packet decision design; it needs a new task
+instruction/parser and separate execution freeze. Do not assume its cost from
+cycle10 or scale agents before observing a single-verifier gap.
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome

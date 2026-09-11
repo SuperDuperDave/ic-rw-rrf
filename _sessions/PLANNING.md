@@ -216,23 +216,52 @@ causal claim. Fable review supported the two-call feasibility checkpoint;
 verify. The exact prepared/execution/observed/scored artifacts and
 raw privacy contract remain frozen. No additional cycle09 calls are planned.
 
-### R12 — NEXT: distinguish certificate policies by construction
+### R12 — DONE 2026-09-11: fixed policy vectors distinguished
 
-Own the [cycle10 prospective design](cycles/2026-09-11-cycle10-discriminating-design.md).
-Use a small deterministic panel to separate exact checking from fixed-position
-and endpoint-only policies; avoid searching seeds for apparent difficulty. Begin
-with independent algebra/schema/policy checks before generating canonical cases.
-No cycle10 cases or provider inputs have been generated, and no empirical
-protocol or inference budget has been frozen.
+The [cycle10 report](../results/cycle10-2026-09-11/REPORT.md) records a fixed
+A2/B3 panel: two endpoint variants, six roots, six cyclic-order packets. The
+local gate passes2,411 checks; all298 tests pass before execution. Six fresh
+Opus5/high calls return18/18 correct/accepted/planned judgments. Each root is
+judged correctly at every position. No repair, retry, replacement or reserve use.
 
-**Checkpoint:** verified local policy separation and information-value review.
-Any later solver calls require an exact separate execution contract. A policy
-mismatch identifies a finite output difference, not a unique internal algorithm.
-Copy effects need appropriate comparisons; multiagent benefit still requires
-identical evidence and total inference resources for a single verifier. Keep
-this question near the original goal of assessing evidence quality without
-mistaking agreement, document identity or a correct endpoint for valid support.
-Coordinator owns shared records; bounded workers may own disjoint local checks.
+The actual vector matches exact verification and differs from every specified
+heuristic: fixed positions10/18, endpoint agreement12/18, raw endpoint Boolean9/18,
+always-invalid12/18 and always-valid6/18. These exclude named deterministic output
+vectors on the finite panel, not all shortcuts or internal mechanisms. This
+diagnostic is closed; do not expand permutations, constants or arithmetic
+hardness to create another round. No multiagent benefit is established.
+
+Independent raw/score audit passes3,990 checks with all6 streams verified;
+public-only3,834 explicitly omits private contents. Native19.69405seconds,
+$.088035,6messages with no activity/continuation. The independent pre-execution
+lens and Claude review select a final evidence-selection bridge. The
+[integration](cycles/2026-09-11-cycle10-review-integration.md) corrects interior-
+recomputation, causal-invariance and unchanged-parser claims. Preserve the
+original memo and all frozen evidence.
+
+### R13 — NEXT: one verifier chooses between valid and invalid opposing support
+
+The [cycle11 prospective design](cycles/2026-09-11-cycle11-evidence-selection-design.md)
+reuses cycle10's exact R0/R1 programs and V/F certificate bytes. Cross both truths
+with a valid minority and valid majority, using three submission instances of
+one root versus one of the opposing root. Copies are explicit; they do not
+represent independent acquisitions. Four cases, one verifier, no staged-agent
+comparison or new arithmetic.
+
+**First action:** independently verify source reuse, canonical instance/root
+identity, slot/majority/truth balance, all validity/answer reference vectors and
+the new response schema. Four answer judgments plus16 submission judgments need
+an explicit answer/validity object, not the old three-ID-only parser. A passed
+local gate ends at a separate execution decision; no cycle11 cases or provider
+budget currently exist.
+
+**Stop and interpretation:** if the fixed verifier gives all four correct final
+answers and all16 correct submission judgments, park multiagent work in this
+restricted laboratory. Any incorrect answer with correct validity judgments is
+informative in either regime; wrong validity, format/native failure and missing
+coverage remain separate. Preserve the failure, without automatic repair or
+arithmetic hardening. Finite correctness does not establish internal evidence
+use, causal copy robustness, general ability or an agent-ensemble advantage.
 
 ## Communication and operations
 

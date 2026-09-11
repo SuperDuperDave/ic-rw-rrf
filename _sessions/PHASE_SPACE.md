@@ -34,7 +34,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H9 | `[observed, gate failed]` This small program panel exposed no differing or shared errors | Both roles correct on all8items; park exact configuration, reserve unsent; no general independence/accuracy claim |
 | H10 | `[observed locally; provider batch parked]` All four pairs change final state and pass the local gate, but an always-false policy mimics a 4/4→2/4 accuracy decline | Preserve the panel; no model difficulty/error claim. Certificate content offers a more direct evidence question |
 | H11 | `[observed, narrow]` Both actual maps reject invalid traces, including one with the correct endpoint; all6 judgments correct | One all-zero program, V-first: first-original-only also perfect. No strategy or causal-copy inference |
-| H12 | `[next, local construction]` A balanced certificate panel can separate exact verification from fixed-position and endpoint-only output policies | Prospectively audit finite policy disagreements before any new model calls; distinct output policies need not identify internal reasoning |
+| H12 | `[observed, narrow]` All18 returned judgments match exact verification and differ from all named fixed-position/endpoint policies | Close this two-endpoint diagnostic; no unique internal method, general ability or multiagent advantage identified |
+| H13 | `[next, local design]` Correct certificate judgments can guide a consequential answer despite copied opposing support | Four cases cross truth with valid-minority/majority status; one verifier first, park multiagent work here on full success |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -145,3 +146,14 @@ found relevant prior work; it does not constitute novelty clearance.
   policy panel can clarify what a later success would exclude. Preserve the
   exact original result and the distinction between output-policy discrimination
   and a unique internal mechanism. [Cycle10 design](cycles/2026-09-11-cycle10-discriminating-design.md).
+
+- **Cycle10 measurement:** all18 judgments from six fresh contexts match exact
+  verification, with eight mismatches against each fixed-position vector and
+  six against endpoint agreement. Close this finite diagnostic. Neither outputs
+  nor token counts show interior recomputation or a unique checking method.
+- **Cycle10 review transition:** take one final bridge from classifying support
+  to choosing an answer. Explicitly cross truth and which root has three
+  submission instances; copying does not create independent acquisitions.
+  The task needs a new answer-plus-validity schema. A perfect single-verifier
+  result parks multiagent work in this laboratory; preserve any counterexample
+  without an automatic repair wave. [Cycle11 design](cycles/2026-09-11-cycle11-evidence-selection-design.md).

@@ -17,6 +17,35 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle10: named position and endpoint policies no longer match the outputs
+
+The [report](../results/cycle10-2026-09-11/REPORT.md) records18 correct judgments
+from six fresh Opus5/high calls. The fixed A2/B3 construction has two endpoint
+variants and three cyclic orders: six root certificates, each at all positions.
+The returned vector matches exact verification and differs from all named
+fixed-position, constant-answer and endpoint-only reference vectors.
+
+The local gate passes2,411 checks; all298 tests pass before collection. An
+independent empirical audit passes3,990 checks and verifies all six raw streams.
+Native accounting is$.088035 over19.69405seconds, six messages and no observed
+continuation/activity. There were no repairs, replacements or reserve calls.
+
+This closes the specific ambiguity in cycle09. It does not identify a unique
+internal strategy, establish generalization, isolate causal position/endpoint
+effects or justify more agents. Endpoint/position appearances are balanced;
+validity is not. Six certificates from one arithmetic skeleton are repeatedly
+judged, not18 independent tasks. Close this diagnostic without further hardening.
+Claude recommends one final evidence-selection bridge; the
+[integration](cycles/2026-09-11-cycle10-review-integration.md) corrects its
+interior-recomputation and causal claims. Review succeeded at$.43333375;
+total cycle native accounting$.52136875 excludes Codex and subscription billing.
+
+**Next: R13 / [cycle11](cycles/2026-09-11-cycle11-evidence-selection-design.md).**
+Reuse existing V/F evidence, with a valid minority or majority under explicit
+copy-count support, and ask one verifier for a final answer plus each submission's
+validity. No cases have been generated. If that fixed baseline succeeds fully,
+park multiagent work here. More agents require a demonstrated baseline gap.
+
 ## Cycle09: correct evidence judgments, with strategy still unresolved
 
 The [report](../results/cycle09-2026-09-11/REPORT.md) records two fresh Opus5/high
@@ -40,11 +69,8 @@ total$.24309825 is native list accounting, not subscription billing. Review
 causal/resource/hash overclaims are corrected in the
 [integration](cycles/2026-09-11-cycle09-review-integration.md). No reserve use.
 
-**Next: R12 / prospective policy-discriminating certificate panel.** Balance the
-position and endpoint alternatives by construction, locally audit first, and
-separately decide any empirical use. No cycle10 cases or solver responses exist.
-More difficulty, internal strategy and collaboration advantage remain different
-questions. Machine execution remains the practical baseline.
+**Subsequent checkpoint: R12 / cycle10** is complete above. The original all-zero
+construction and its unresolved first-position alternative remain preserved.
 
 ## Cycle08: valid local manipulation, then an evidence-content pivot
 

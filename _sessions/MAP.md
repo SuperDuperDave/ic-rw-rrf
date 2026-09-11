@@ -53,7 +53,12 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/check_cycle09_observations.py` | Independent terminal/native receipt and score reconstruction |
 | `_sessions/tools/build_cycle09_review_capsule.py` | Artifact-derived certificate review capsule with source/mission identity |
 | `results/cycle09-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | Actual6/6correct pilot, perfect position-policy limitation and frozen provenance |
-| `_sessions/cycles/2026-09-11-cycle10-discriminating-design.md` | Prospective local panel to separate endpoint/position policies; no generated cases |
+| `_sessions/cycles/2026-09-11-cycle10-discriminating-design.md`, `cycle10-local-protocol.md`, `cycle10-execution-protocol.md` | Fixed two-endpoint/three-order design, local gate and separate six-call execution contract |
+| `evaluation/cycle10_certificates.py`, `_sessions/tools/check_cycle10_evidence.py` | Composed Python construction and independent AST/ID/policy audit |
+| `evaluation/cycle10_verifier.py`, `_sessions/tools/run_cycle10_verifier.py`, `score_cycle10_verifier.py` | Shared strict decoder, six-call source/byte custody, complete/partial policy-vector scoring |
+| `_sessions/tools/check_cycle10_observations.py`, `build_cycle10_review_capsule.py` | Independent raw/score audit and artifact-derived interpretation capsule |
+| `results/cycle10-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | Actual18/18 diagnostic; named output policies differ, internal methods remain unidentified |
+| `_sessions/cycles/2026-09-11-cycle11-evidence-selection-design.md` | Prospective four-case answer-plus-validity bridge using preserved V/F roots; no generated cases |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

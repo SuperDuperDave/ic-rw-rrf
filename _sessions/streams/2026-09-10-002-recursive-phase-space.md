@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle09 complete: local gate passes; both empirical maps correct, unchanged by F copies. First-original-only also perfect, so checking strategy remains unresolved. Full evidence/report and independent audits are preserved.
-- Next: R12 / cycle10 prospective fixed position-and-endpoint panel. Implement and independently audit the local construction before any separate provider decision; no cycle10 cases or empirical budget exist.
-- In flight: none. Bounded workers and native providers finished; Claude request50 consumed/ACK54, final Relay brief clear. Coordinator owns the GitHub checkpoint.
-- Preserve: all historical/cycle01–09 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. Raw provider text stays ignored; no cycle09 repair or follow-up calls.
+- Now: cycle10 complete:18/18 judgments match exact verification and differ from all named heuristics. Independent3,990 raw/score checks pass. Fable review integrated; original claims and corrections retained. R12 closed.
+- Next: R13 / cycle11 local four-case evidence-selection construction, using preserved R0/R1 V/F roots with explicit3:1 submissions and a new answer/validity schema. No cycle11 cases or provider budget exist.
+- In flight: none. All workers/native providers finished; Claude request55 consumed/ACK59, final Relay brief clear. Coordinator owns the GitHub checkpoint.
+- Preserve: all historical/cycle01–10 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. No further cycle10 calls, arithmetic hardening or automatic repair probes.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -270,3 +270,29 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - R12 and cycle10-discriminating-design own local implementation/truth/policy balance before another separately frozen solver decision. Reviewthe finitepolicies; do not claim uniqueinternalreasoningfrom correctbits.
 - R11 complete at thischeckpoint. R10's arithmeticproviderbatch staysparked; R9's16reserveitems remainunsent; R8 remainsincomplete. R1legacymaintenance andR2/R4parkedbranches unchanged.
 - Same coordinatingstream retained. All270tests pass (146research/124helper), standard-librarydemo exits0, local761 and empirical1,298checks pass; publiconly1,246 explicitlyomitsprivatebytes. Priorcycle08artifacthashes preserved, capsule/receipt identitiesverified, localMarkdownlinks resolve, andprivatepathsremainignored. Finalreceipt:evidence/2026-09-11-cycle09-checks.json. No liveworker/providerjob, pendingRelay signal oractiveclaim; websitepublication andotherreposremainseparate.
+
+## Cycle10 — local preparation
+
+- Resumed from30f19f0 with clean worktree and Relay54 clear; no blocking NEEDS DAVE item. Same coordinating stream, native2.1.267 hash unchanged, inherited override check passed.
+- Adopt prior prospective construction with a local supplement. Explicitly distinguish balanced endpoint/position appearances from imbalanced validity labels (two valid/four invalid roots). Reuse separate existing Python and independent AST primitives; new/untracked source review before actual fixed-panel rendering.
+- Coordinator prepares scoped six-call adaptation while a separate research lens challenges whether the diagnostic changes the next decision. No larger agent workflow or more difficult program is implied by a local pass.
+
+- Local preparation: first fixedA2/B3 panel rendered after19 localtests and8-source freeze. Six content-derived roots, six packets, all policycounts agree, no collisions/exclusions/RNG. R0 packets1080bytes/R1 packets1079; Vfinala7, I9, bothparityodd, firstinvalidrows3/6. Nativepacketdatahave no private labels. Independent2,411checks pass; localwall0.06508469901746139s; preparedmanifest6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd.
+- Independent lens recommends sixcalls thenclosingthisdiagnostic; a consequential evidence-selection question canfollow, withsingleverifierbaseline beforemoreagents. Coordinator records separateRUNdecision. All298 tests pass(158research/140helper), reusedtest dependenciespinned, newsourcewhitespacechecks pass. Beforefreeze fixed missing strictdecoderalias and malformed groupingguards; no outcome-informed changes.
+- Executionmanifest1584c3f3dce17e1759e6ec03b52acd05ac16fdfe09e3bb1347d378a63abe35ba seals commoncycle09instruction andsixunchangedpackets. Six-call Opus5/high batch started under$1/120s/300s limits; firstnative/format/custody/resourcefailurestop. New empirical evidence pending.
+
+## Cycle10 — result, review and transition
+
+- All6maps accepted, all18 decisionscorrect; everyroot'svaliditystable acrosspositions andbothendpoints. Exactvector matches; mismatches alwaysinvalid6/alwaysvalid12/endpointBoolean9/endpointagreement6/eachposition8. This distinguishesnamedfinitevectors, notinternalmethods. Native19.694048518s,$.088035000000000004,6messagesoneeach,879output including561thinking,max152permessage; no continuation/refusal/fallback/activity. No repair/retry/reservewave.
+- Independent empirical3,990checks verify6rawstreams andallscore/coverage/referencegroups; publiconly3,834 marks6rawunavailable. Complete/partial/wrong-vector synthetic checks pass. Finalsourceinventory includes the reused09runner/scorer/test helpers; aninitialunsealedchecker inventorywasupdatedtoinclude them, withno frozenartifactchange.
+- Artifact-derivedcapsule1675words passes94 independentfidelitychecks. Fable5.1/high review succeeds59.67s,$.43333375,3,857output incl2,565thinking; twoobservedmessageIDs. Terminalresult containedonlysecondfragment; existingF21extractorrecoveredfull596-wordpublicmemo. Per-messagefinalusage/stopmetadataunavailable; don'tsubstituteinitialcounters. Request55markerreturned,lifecycle56–58complete, exactrequestedconsumptionACK59, finalbriefclear.
+- Integration rejectsproveninteriorrecomputation/causalinvariance, correctscycle09alreadydifferedfromendpoint-only, anddeclinesarithmetic-sizegeneralsaturation. Newanswer+fourvalidities taskrequiresnewinstruction/parser; failuresinbothregimesmatter. Adoptonefinalsingle-verifier evidence-selection bridgewithfixedcopycounts, no subjectivepersuasivenessscreen. Fullcorrectbaselinewillparkmultiagentworkhere.
+- Ratchet: SUBTRACT duplicated scalar/interpreter/parser work bycomposingfrozencycle09helpers andtests; actualindependentlocalandnativepaths verified. PROMOTE explicitgroupingchecks andtransitivetestsourcepins innewadaptation. F21recoveredtheactualpartialterminalreviewagain; F22capsulefidelity verified94checks. F23new-filecoverage exercisedbeforebothfreezes, no newwhitespacefault. DROP one-off missingalias/interfaceandunsealed-audit-inventorymismatchesafterboundedfixes; no newframework or providerrelaunch.
+
+- Next-design independent audit passes78checks with no consequential finding. Allfixedposition/majority/minority/constantanswerpolicies2/4, replay4/4; validityconstantpolicies8/16. Unique-rootvoteabstains4/4 (0answered). The samecertificatebytes canhaveoppositevalidityacrossR0/R1, so rootsretainprogramcontext. Newresponsecontractrecords4answers/16validities andconsistencyinbothregimes; no newcases/IDs rendered.
+
+## Current cycle10 carryforward
+
+- R13 / cycle11-evidence-selection-design owns local source/root/instance/schema/reference checks before a separate empiricaldecision. Allcorrectsingle-verifieroutputs willparkmultiagentworkinthisrestrictedlab; no automaticnextstageorrepair.
+- R12closed; R11'soriginalfirst-positionambiguityremainshistorical. R10arithmeticbatchparked, R9's16reserveitemsunsent, R8incomplete. R1legacymaintenance andR2/R4parkedbranchesunchanged.
+- Finalchecks:298tests(158research/140helper), demoexit0, local2,411/empirical3,990/public-only3,834checks, capsule94/nextdesign78 independentchecks. Priorcycle09checkpointartifacts andallnewfrozenbytespreserved; localMarkdownlinksresolve andprivatepathsremainignored. Finalreceipt:evidence/2026-09-11-cycle10-checks.json. No liveworker/provider, pendingRelay signalorclaim. Websitepublication andotherreposremainseparate.

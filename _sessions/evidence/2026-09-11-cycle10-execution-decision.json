@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "proceed": true,
+  "prepared_manifest_sha256": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+  "local_independent_checks": 2411,
+  "maximum_empirical_invocations": 6,
+  "empirical_calls_before_decision": 0,
+  "coordinator_decision": "Run the six fixed maps to distinguish returned judgments from the named policies, then close this diagnostic without arithmetic hardening.",
+  "local_findings": {
+    "programs": 2,
+    "certificates": 6,
+    "packets": 6,
+    "position_policy_correct": 10,
+    "endpoint_agreement_correct": 12,
+    "planned_judgments": 18,
+    "R0_packet_bytes": 1080,
+    "R1_packet_bytes": 1079
+  },
+  "independent_design_lens": "Run once after the local gate, then move to a consequential evidence-selection decision or park; full correctness is not internal-strategy evidence.",
+  "no_replacement": true
+}

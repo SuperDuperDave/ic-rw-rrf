@@ -68,6 +68,14 @@ signals or active claims. [Receipt](evidence/2026-09-11-cycle09-review-receipt.j
 Two later empirical contexts used no Relay hooks or review context. No task-owned
 provider remains active; the original review is distinct from solver evidence.
 
+Cycle10 review used Fable5.1 session`b3ae7c13-e503-4929-b029-8c51147aee30`.
+Request55's marker returned; lifecycle56–58 completed. The complete public memo
+was recovered from both assistant-text fragments; terminal result alone was
+incomplete. Codex read the full request/memo, integrated corrections and recorded
+Claude's requested consumption ACK59. Final brief is clear, with no task-owned
+provider active. [Receipt](evidence/2026-09-11-cycle10-review-receipt.json).
+The six empirical contexts had no Relay hooks or review context.
+
 ## Commands
 
 Cycle05 kept experimental packet contexts separate from Relay hooks. Its
