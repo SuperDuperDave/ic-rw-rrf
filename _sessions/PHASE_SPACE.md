@@ -33,7 +33,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H8 | `[partial, incomplete]` Three returned probabilities track noise-aware inference; full eight-input primary unavailable | One weak hint contrast observed; strong independent-hint cases unsent after refusal; park further supplied tables |
 | H9 | `[observed, gate failed]` This small program panel exposed no differing or shared errors | Both roles correct on all8items; park exact configuration, reserve unsent; no general independence/accuracy claim |
 | H10 | `[observed locally; provider batch parked]` All four pairs change final state and pass the local gate, but an always-false policy mimics a 4/4→2/4 accuracy decline | Preserve the panel; no model difficulty/error claim. Certificate content offers a more direct evidence question |
-| H11 | `[next, local construction]` A correct final answer can accompany an invalid explanation; repeated artifacts need not add valid support | Construct one program and three trace types with local validity/first-error checks before any solver test; provenance and correct bits alone do not identify checking strategy |
+| H11 | `[observed, narrow]` Both actual maps reject invalid traces, including one with the correct endpoint; all6 judgments correct | One all-zero program, V-first: first-original-only also perfect. No strategy or causal-copy inference |
+| H12 | `[next, local construction]` A balanced certificate panel can separate exact verification from fixed-position and endpoint-only output policies | Prospectively audit finite policy disagreements before any new model calls; distinct output policies need not identify internal reasoning |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -133,3 +134,14 @@ found relevant prior work; it does not constitute novelty clearance.
   of unsupported chance/novelty claims and a cheaper-than-replay gate. One fresh
   short construction can separate a correct answer from valid support without
   inducing spontaneous solver errors. [Cycle09 design](cycles/2026-09-10-cycle09-certificate-design.md).
+
+- **Cycle09 measurement:** local761checks validate one all-zero program and the
+  row3/correct-endpoint negative control. A separately frozen two-call pilot
+  returns6/6correct with unchanged base/repeat maps. Always-invalid/endpoint-only
+  score2/3, but first-original-only is perfect. Native feasibility is observed;
+  checking strategy and repetition causation remain unresolved.
+- **Cycle09 transition:** balance position and endpoint alternatives explicitly
+  rather than search for a harder-looking random draw. A small prospective local
+  policy panel can clarify what a later success would exclude. Preserve the
+  exact original result and the distinction between output-policy discrimination
+  and a unique internal mechanism. [Cycle10 design](cycles/2026-09-11-cycle10-discriminating-design.md).

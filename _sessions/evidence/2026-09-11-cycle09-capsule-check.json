@@ -1,0 +1,10 @@
+{
+  "source_artifacts_sha256": {
+    "results/cycle09-2026-09-11/prepared/fixture.json": "a90df83e8acfc40172db892d58edfa63ba5f123480d07e68344641a9757a7475",
+    "results/cycle09-2026-09-11/prepared/manifest.json": "0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250",
+    "results/cycle09-2026-09-11/prepared/cases.md": "86c3f0b406d163cdfe0c23aa80b330bff6f19963ac31ee9d19538f758eb20e88"
+  },
+  "generator_sha256": "650408ade9d71ee33ce0fb082e4dc91da7321e531d19b53589d3bc0c934e1a72",
+  "mission_sha256": "4bce9f1ca44815161ddf8809ad1272fed030043bff2cb337895b6a9c66169661",
+  "empirical_observations_in_capsule": false
+}

@@ -1,4 +1,4 @@
-# Research state — 2026-09-10
+# Research state — 2026-09-11
 
 The live frontier is **distinguishing useful independent evidence from repeated
 agreement, with enough observations to test the distinction**. Cycle01 repaired
@@ -16,6 +16,35 @@ checks. The subsequent autonomous cycle added a canonical contract and two new
 experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
+
+## Cycle09: correct evidence judgments, with strategy still unresolved
+
+The [report](../results/cycle09-2026-09-11/REPORT.md) records two fresh Opus5/high
+maps: all3 original judgments correct in each, with no base→repeat change. The
+I certificate is invalid at row3 while retaining the correct final Boolean;
+F is invalid at row6. Both are rejected and V accepted. Six accepted judgments
+repeat three traces on one program; no population or mechanism claim follows.
+
+One seeded construction produces A=B=R=0 and V-first order. The local gate and
+761 independent checks pass. First-original-only scores3/3 in both packets;
+always-invalid and final-answer-only score2/3. The observed decisions differ
+from endpoint-only, while matching exact verification and the position shortcut.
+The zeros make the injection conspicuous. F-copy duplication adds586bytes and
+changes context; unchanged answers do not establish causal copy robustness.
+
+Claude endorsed a bounded feasibility observation before separate execution
+freeze. The two calls complete in6.01481seconds at $.032690 native accounting,
+with2messages and no observed continuation/activity. The independent empirical
+audit passes1,298checks and verifies both raw streams. Review costs$.21040825;
+total$.24309825 is native list accounting, not subscription billing. Review
+causal/resource/hash overclaims are corrected in the
+[integration](cycles/2026-09-11-cycle09-review-integration.md). No reserve use.
+
+**Next: R12 / prospective policy-discriminating certificate panel.** Balance the
+position and endpoint alternatives by construction, locally audit first, and
+separately decide any empirical use. No cycle10 cases or solver responses exist.
+More difficulty, internal strategy and collaboration advantage remain different
+questions. Machine execution remains the practical baseline.
 
 ## Cycle08: valid local manipulation, then an evidence-content pivot
 
@@ -39,13 +68,9 @@ while correcting its unsupported chance interpretation, novelty wording and
 cheaper-than-replay requirement. [Integration](cycles/2026-09-10-cycle08-review-integration.md).
 The capsule's table and source were artifact-derived and checked independently.
 
-**Next: R11 / [cycle09 certificate construction](cycles/2026-09-10-cycle09-certificate-design.md).**
-Locally construct one valid trace, one invalid transition with a correct final
-answer, and one wrong final predicate; compare original and repeated erroneous
-support. No cases have been generated. This tests a prospective evidence
-verification contrast; neither copy identity nor correct judgments alone proves
-independent evidence or a particular internal checking strategy. Multiagent
-benefit would require its own fair single-verifier comparison.
+**Subsequent checkpoint: R11 / cycle09 certificate construction and pilot** is
+complete above. The passed arithmetic local gate remains unchanged and its
+provider batch stays parked. No new arithmetic calls or reserve use followed.
 
 ## Cycle07: actual program answers, but no error variation
 

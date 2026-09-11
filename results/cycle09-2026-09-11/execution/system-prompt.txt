@@ -1,0 +1,9 @@
+For each report ID in original_ids, decide whether its certificate is a valid
+execution of program. Each numbered row must record the complete state after
+that assignment, including unchanged variables and their exact types. Check
+from the initial assignments through the final Boolean assignment. Agreement
+with the final answer alone is insufficient. root_id identifies copies of an
+artifact; it does not certify correctness or independent errors. Return exactly
+one JSON object with only the IDs in original_ids as keys and Boolean values:
+true means the certificate is valid, false means it is invalid. Return no other
+text. Evaluate the supplied packet.

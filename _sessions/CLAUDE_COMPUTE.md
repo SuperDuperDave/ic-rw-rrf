@@ -126,6 +126,18 @@ certificate-content audit. Any subsequent solver/comparison budget remains
 unfrozen; computational resources are not needed to induce errors before that
 construction can be checked.
 
+Cycle09 used one Fable5.1/high decision review,35.93seconds,$.21040825,
+2063output tokens including1250thinking, with no tools/scouts. Its392-word memo
+exceeds350 advisory. Request50 was consumed/ACK54; final brief clear.
+A separately sealed Opus5/high pilot used exactly2 isolated calls,6.01481seconds,
+$.032690,296output tokens including194thinking,2messages with no continuation
+or activity. All6 judgments are correct; a first-position reference also scores
+perfectly. Total native accounting$.24309825 excludes Codex and subscription
+billing. [Review receipt](evidence/2026-09-11-cycle09-review-receipt.json),
+[empirical manifest](../results/cycle09-2026-09-11/observations/manifest.json).
+The prospective cycle10 local panel has no provider budget yet; do not infer
+its cost or value from these short calls.
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome

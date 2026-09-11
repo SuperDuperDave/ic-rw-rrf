@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "proceed": true,
+  "prepared_manifest_sha256": "0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250",
+  "local_independent_checks": 761,
+  "review_mission_sha256": "4bce9f1ca44815161ddf8809ad1272fed030043bff2cb337895b6a9c66169661",
+  "review_memo_sha256": "99f8b4d8ee99ff12ee6a8125c4f3656c8bee4c9865d8a554837211e77a0f8dd1",
+  "review_recommendation": "RUN",
+  "coordinator_decision": "Run exactly base then repeat as a semantic/format feasibility pilot; all-zero states and perfect first-position baseline prevent strategy inference.",
+  "empirical_calls_before_decision": 0,
+  "maximum_empirical_invocations": 2,
+  "no_replacement": true
+}

@@ -59,6 +59,15 @@ run and corrected reviewer prior argument are documented in the
 [integration](cycles/2026-09-10-cycle04-review-integration.md) and
 [receipt](evidence/2026-09-10-cycle04-review-receipt.json).
 
+Cycle09's separate decision review used Fable5.1 session
+`358e2b47-96e6-49a7-bc2b-73223e12437b`, tools and scouts disabled. Request50's
+marker returned; lifecycle51–53 completed successfully. Codex read the full
+request and public-text memo, corrected causal/resource/hash overclaims, and
+recorded Claude's requested consumption ACK54. Final brief has no pending
+signals or active claims. [Receipt](evidence/2026-09-11-cycle09-review-receipt.json).
+Two later empirical contexts used no Relay hooks or review context. No task-owned
+provider remains active; the original review is distinct from solver evidence.
+
 ## Commands
 
 Cycle05 kept experimental packet contexts separate from Relay hooks. Its

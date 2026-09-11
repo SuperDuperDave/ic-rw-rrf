@@ -110,16 +110,26 @@ more execution steps do not necessarily require more reasoning, especially
 when a program has a simple recurrence or shortcut.
 [Cycle07 result and readable cases](../results/cycle07-2026-09-10/REPORT.md)
 
-**Current frontier.** The local loop audit passed its construction checks, but
+**Choosing a more direct test.** The local loop audit passed its construction checks, but
 revealed a problem for interpretation: always answering “false” would score
 100% on the short programs and 50% on the long ones without doing any arithmetic.
 We preserved the panel and skipped the proposed solver batch. Claude's review
 helped redirect the next question toward checking evidence itself: can a solver
 recognize an invalid explanation that reaches the right answer, then preserve
 that judgment when incorrect evidence is repeated? The next local construction
-will make that contrast exact before any model is tested. This is a research
+was designed to make that contrast exact before testing a model. This is a research
 choice about information value, not a claim of improved model reasoning.
 [Cycle08 local result and cases](../results/cycle08-2026-09-10/REPORT.md)
+
+**Current frontier.** The certificate test then returned all six planned
+judgments correctly: three traces, judged before and after copying one invalid
+trace twice. The model rejected an invalid intermediate step even though its
+trace ended with the right answer. However, the valid trace happened to be first,
+so “accept only the first” would also score perfectly. We preserved that limit
+instead of treating success as proof of a checking strategy. The next design
+uses a small balanced panel to separate position and endpoint policies from
+exact verification. No multiagent advantage or general ability is established.
+[Cycle09 result and certificate cases](../results/cycle09-2026-09-11/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout

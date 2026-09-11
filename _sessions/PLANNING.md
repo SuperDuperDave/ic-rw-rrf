@@ -199,29 +199,40 @@ eight-call G-only candidate on information value; do not automatically resume it
 or balance its labels by changing the seed. Reopening requires a concrete
 natural-error question and a separately reviewed execution/comparison contract.
 
-### R11 — NEXT: locally construct a certificate-content contrast
+### R11 — DONE 2026-09-11: local certificate gate and two-call feasibility
 
-The [cycle09 design](cycles/2026-09-10-cycle09-certificate-design.md) owns the
-next preparation. One fresh six-assignment program has three certificate types:
-valid; invalid at row3 but with the correct final Boolean; and invalid only at
-the final predicate. A second packet adds exact copies of the final-error trace.
-The seed, signed-literal syntax, row/type schema, copy boundaries, IDs/order,
-serialization and failure stops are fixed before any parameter draws.
+The [cycle09 report](../results/cycle09-2026-09-11/REPORT.md) records the single
+seeded A=B=R=0 construction,761 independent local checks and the separate frozen
+execution decision. Both base/repeat maps match V=true,I=false,F=false:6correct,
+6accepted,6planned judgments on one program. No collection failure, repair,
+replacement or reserve use. Two messages,$.032690 native empirical accounting.
 
-**First action:** implement bounded Python execution and an independent full-state
-transition checker, verify synthetic edge cases, freeze source identities, then
-generate exactly the first candidate. Check all intended validity/first-error
-properties, the parity-preserving negative control, payload identity and leakage.
-No parameter/corruption replacement or old reserve use. Coordinator owns shared
-records; disjoint workers may own implementation and independent checks.
+The correct-endpoint invalid trace is rejected, but V-first yields a perfect
+first-original-only reference policy. Preserve the all-zero draw and describe
+returned judgments only; no internal strategy, independent tasks or pure-copy
+causal claim. Fable review supported the two-call feasibility checkpoint;
+[integration](cycles/2026-09-11-cycle09-review-integration.md) corrects overclaims.
+270 test cases and 1,298 independent empirical checks pass; both raw streams
+verify. The exact prepared/execution/observed/scored artifacts and
+raw privacy contract remain frozen. No additional cycle09 calls are planned.
 
-**Checkpoint:** a truthful local fixture and evidence/value review before any
-separately frozen solver calls. Checking whole traces need not beat replay in
-cost. Always-valid/invalid reference policies and repeated-root rejection remain
-alternative explanations; repeated text changes context exposure as well as
-multiplicity. Verification, redundancy robustness and collaboration advantage
-are separate. Any future multiagent comparison needs the same evidence and total
-inference budget as a single verifier. No next-cycle cases currently exist.
+### R12 — NEXT: distinguish certificate policies by construction
+
+Own the [cycle10 prospective design](cycles/2026-09-11-cycle10-discriminating-design.md).
+Use a small deterministic panel to separate exact checking from fixed-position
+and endpoint-only policies; avoid searching seeds for apparent difficulty. Begin
+with independent algebra/schema/policy checks before generating canonical cases.
+No cycle10 cases or provider inputs have been generated, and no empirical
+protocol or inference budget has been frozen.
+
+**Checkpoint:** verified local policy separation and information-value review.
+Any later solver calls require an exact separate execution contract. A policy
+mismatch identifies a finite output difference, not a unique internal algorithm.
+Copy effects need appropriate comparisons; multiagent benefit still requires
+identical evidence and total inference resources for a single verifier. Keep
+this question near the original goal of assessing evidence quality without
+mistaking agreement, document identity or a correct endpoint for valid support.
+Coordinator owns shared records; bounded workers may own disjoint local checks.
 
 ## Communication and operations
 

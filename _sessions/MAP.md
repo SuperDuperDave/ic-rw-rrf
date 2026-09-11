@@ -47,7 +47,13 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/check_cycle08_evidence.py` | Independent AST/state/candidate reconstruction and local custody audit |
 | `_sessions/tools/build_cycle08_review_capsule.py` | Artifact-derived Claude review table and example, with source/mission hashes |
 | `results/cycle08-2026-09-10/REPORT.md`, `prepared/` | Passed local gate, always-false reference-policy limitation, preserved cases and certificate pivot |
-| `_sessions/cycles/2026-09-10-cycle09-certificate-design.md` | Next local certificate audit: correct endpoint with invalid evidence, exact copy intervention and claim boundaries |
+| `_sessions/cycles/2026-09-10-cycle09-certificate-design.md`, `2026-09-11-cycle09-local-protocol.md` | Frozen single certificate construction and full-state/type checks |
+| `evaluation/cycle09_certificates.py`, `_sessions/tools/check_cycle09_evidence.py` | Prepared V/I/F certificates and independent AST/custody audit |
+| `evaluation/cycle09_verifier.py`, `_sessions/tools/run_cycle09_verifier.py`, `score_cycle09_verifier.py` | Strict original-ID maps, separate execution seal, two-call collection and descriptive scoring |
+| `_sessions/tools/check_cycle09_observations.py` | Independent terminal/native receipt and score reconstruction |
+| `_sessions/tools/build_cycle09_review_capsule.py` | Artifact-derived certificate review capsule with source/mission identity |
+| `results/cycle09-2026-09-11/REPORT.md`, `prepared/`, `execution/`, `observations/`, `scored/` | Actual6/6correct pilot, perfect position-policy limitation and frozen provenance |
+| `_sessions/cycles/2026-09-11-cycle10-discriminating-design.md` | Prospective local panel to separate endpoint/position policies; no generated cases |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle08 local audit complete: four templates/eight programs, passed gate, 24,968 independent checks and 236 tests. No empirical solver calls. Arithmetic batch separately parked because of interpretation limits and a better evidence-content question.
-- Next: R11 / cycle09 certificate design owns local construction before any solver execution freeze. First implement and independently check the three trace types and parity-preserving negative control; no parameter draw has occurred.
-- In flight: no provider process or live collaborator. Claude review45 consumed at ACK49; Relay clear. Final evidence/documentation checks pass; Git history records this turn’s preservation checkpoint.
-- Preserve: all historical/cycle01–08 frozen evidence, including the cycle08 passed gate and cycle07's16 unsent reserve items. Do not repair the loop panel or silently launch its arithmetic batch. Raw provider text stays ignored.
+- Now: cycle09 complete: local gate passes; both empirical maps correct, unchanged by F copies. First-original-only also perfect, so checking strategy remains unresolved. Full evidence/report and independent audits are preserved.
+- Next: R12 / cycle10 prospective fixed position-and-endpoint panel. Implement and independently audit the local construction before any separate provider decision; no cycle10 cases or empirical budget exist.
+- In flight: none. Bounded workers and native providers finished; Claude request50 consumed/ACK54, final Relay brief clear. Coordinator owns the GitHub checkpoint.
+- Preserve: all historical/cycle01–09 frozen evidence, cycle08 parked arithmetic batch and cycle07's16 unsent reserves. Raw provider text stays ignored; no cycle09 repair or follow-up calls.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -240,3 +240,33 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - Final verification (wrap crossed into2026-09-11; same stream retained): all236 tests pass, standard-library demo exits0, independent24,968 checks pass, eight readable cases and the actual review capsule match, and139 current local links resolve. Prior cycle07 checkpoint artifacts and all cycle08 prepared sources/bytes remain unchanged. Private runtime remains ignored; no credential signatures detected in changed public files. Receipt:evidence/2026-09-10-cycle08-checks.json. No live worker or provider job.
 
 - Staged review found one harmless extra EOF blank in the already frozen new test; retained its exact bytes rather than invalidating source custody. All other staged whitespace checks pass. F23 promotes inclusion of untracked files in pre-freeze review; future early-detection outcome remains unverified.
+
+## Cycle09 — certificate construction preparation
+
+- Continued from d739a94 with clean worktree, same stream and Relay49 clear. No blocking NEEDS DAVE item. The existing certificate design fixes one draw and six-row full-state certificates; independent implementation proceeds before the actual RNG sequences are used.
+- Local protocol distinguishes malformed schema from a well-formed false certificate, and checks unchanged variables plus exact types at every transition. New/untracked file review happens before source freeze, addressing F23 without altering old frozen files.
+- A bounded independent lens assesses a two-call verifier candidate after local validation; no empirical phase is launched or frozen yet. Root owns the separate scientific execution decision.
+
+## Cycle09 — local checkpoint and execution freeze
+
+- One actual draw yields A=B=R=0 and V,I,F order, no exclusions/replacements. V valid, I first invalidrow3 with correct finalBoolean, F first invalidrow6. Base1079/repeat1665bytes. Independent761checks verify full submitted states, exact copies, seeds/schema/bytes and source custody. Localmanifest0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250.
+- The all-zero invariant makes I conspicuous. First-original-only scores3/3, always-invalid/final-answer-only2/3, always-valid1/3 in eachpacket. Record before outcomes; success cannot identify step checking. Preserve originaldraw.
+- Fable5.1/high review recommends RUN. Native success35.93s,$.21040825,2063output incl1250thinking; request50 marker returned, lifecycle51–53 complete, requested consumptionACK54; briefclear. Integration corrects causal, output-cap and hash-object overclaims; new executionprotocol explicitlyfinalizes promptplacement beforeoutcomes.
+- Separate two-call execution frozen, base then repeat, Opus5/high,$1/120s/300s, first native/format/custody/resourcefailurestop. Executionmanifest43b5fb9e6bf85b7679a192a48f0f1e66b7091070880c565f0841e1235f96cccc. Local23 tests plus11 new native tests extend suite to270. Independent review found giantnumeric decoder ValueError; normalized toformatfailure beforefreeze with regression. Explicitnewfile whitespace review passed.
+
+## Cycle09 — outcome and next question
+
+- Both native maps accepted, all6 decisions correct, all3 original validities unchanged. Baseandrepeat each Vtrue/Ifalse/Ffalse. Exactverifier andfirstposition policies3/3, endpoint-only/alwaysinvalid2/3, alwaysvalid1/3. This rejects the literal endpoint-only responsevector on thisfixture, not everyshortcut or aninternalstrategy.
+- Empirical6.01481seconds,$.032690,2providermessages,296output incl194thinking; no continuation/refusal/fallback/activity. Totalnativecycle$.24309825 withFablereview, excludingCodex andsubscriptionbilling. No additionalcalls/reserveuse.
+- Nextprospectivepanel fixesA2/B3, R0/R1 andthreecyclicorders: sixpackets ononearithmetic skeleton. Exactpolicy18/18, fixedposition10/18, endpoint-only12/18. Localindependentreview beforegeneration; copiedI isaseparatefuturequestion. No result-contingent hardening or causal/internal-strategy claim.
+- Ratchet: SUBTRACT oversized-number decoder escape beforefreeze; synthetic regression verifiesinvalid-formatretention, normalactualresponses do notexerciseoversizedinput. Reuse F22artifact-derivedcapsule andF21publictextextraction successfully. PROMOTE F23new-filecoverage exercised beforebothfreezes; no newwhitespacefaultfound, preventionbenefit remainsunverified. DROP oneinvalidRelayACKoptionalflag retry andno-indexexitcodeinterpretation asnewframeworkwork; documentedCLIresolvedboth.
+
+- Final independent empirical audit:1,298checks, both raw streamsverified; public-only1,246 with bothprivate streams explicitlyunavailable. Newchecker reconstructs terminalmaps and allscore/reference/coverage fields without importingthe empirical producer/scorer/observer. Syntheticmalformed-map/counterfeit-score checks passed. Reuses priorindependentnative/AST checkers; exactsourceidentitypinned.
+
+- Final prose/design review passes41 scoped checks; no consequential mismatch. The prospective six-packet/two-endpoint panel has exact18/18, fixedposition10/18, endpoint-agreement12/18 and rawendpointBoolean9/18. Certificate/reportobjectbytes remainfixed acrosspermutations; wholepacketbytes changeand aresealedseparately. No casegeneration or empiricalcycle10work.
+
+## Current cycle09 carryforward
+
+- R12 and cycle10-discriminating-design own local implementation/truth/policy balance before another separately frozen solver decision. Reviewthe finitepolicies; do not claim uniqueinternalreasoningfrom correctbits.
+- R11 complete at thischeckpoint. R10's arithmeticproviderbatch staysparked; R9's16reserveitems remainunsent; R8 remainsincomplete. R1legacymaintenance andR2/R4parkedbranches unchanged.
+- Same coordinatingstream retained. All270tests pass (146research/124helper), standard-librarydemo exits0, local761 and empirical1,298checks pass; publiconly1,246 explicitlyomitsprivatebytes. Priorcycle08artifacthashes preserved, capsule/receipt identitiesverified, localMarkdownlinks resolve, andprivatepathsremainignored. Finalreceipt:evidence/2026-09-11-cycle09-checks.json. No liveworker/providerjob, pendingRelay signal oractiveclaim; websitepublication andotherreposremainseparate.

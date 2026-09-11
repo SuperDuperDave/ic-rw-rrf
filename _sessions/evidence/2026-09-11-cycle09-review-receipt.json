@@ -1,0 +1,51 @@
+{
+  "session_id": "358e2b47-96e6-49a7-bc2b-73223e12437b",
+  "marker": "cycle09-review-db8b67f17f",
+  "mission_sha256": "4bce9f1ca44815161ddf8809ad1272fed030043bff2cb337895b6a9c66169661",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 35.9292928109644,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.21040825000000002,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 2063,
+      "cacheReadInputTokens": 3913,
+      "cacheCreationInputTokens": 5313,
+      "webSearchRequests": 0,
+      "costUSD": 0.21040825000000002,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1250,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 392,
+  "advisory_word_target": 350,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "5405c3f6ede980f725f08fdebfd9292ccf456b3af160efb03fbb643fe4a7fce0",
+  "memo_sha256": "99f8b4d8ee99ff12ee6a8125c4f3656c8bee4c9865d8a554837211e77a0f8dd1",
+  "memo_extraction": "All assistant text blocks in order, excluding thinking; terminal result also contains the complete memo.",
+  "relay_request_seq": 50,
+  "relay_lifecycle_seq": [
+    51,
+    52,
+    53
+  ],
+  "relay_ack_seq": 54,
+  "relay_ack_recorded_by": "Codex after reading exact request and complete memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Supplied artifact-derived certificate capsule only; no independent file or private stream access.",
+  "review_distinct_from_empirical_measurements": true,
+  "requested_model": "claude-fable-5-1",
+  "requested_effort": "high",
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0"
+}
