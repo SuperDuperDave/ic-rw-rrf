@@ -25,6 +25,11 @@ necessary research context, run experiments, restructure local implementations,
 and coordinate phased subagent workflows. This authorization persists across
 sessions. Do not ask again for ordinary work within that scope. Use the existing
 signed-in providers intentionally; do not treat capacity as a target to exhaust.
+On 2026-09-11 Dave explicitly expanded sharing consent: "I approve sharing
+anything and everything with Claude." Unpublished project inventories, code,
+findings and working context may be sent to the signed-in Claude service through
+Relay without proving prior publication or asking again. This permission concerns
+collaboration; the public Git checkpoint still excludes private runtime records.
 Dave additionally authorized committing and pushing project changes to this
 GitHub repository each turn; follow the shared agreement's preservation policy.
 Unrelated projects, credentials, other live sessions, and website/release

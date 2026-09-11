@@ -13,6 +13,8 @@ The priorities below may change when the [phase-space map](PHASE_SPACE.md)
 reveals more informative pathways. Existing provider capacity is used
 intentionally. Project GitHub commits and pushes each turn are also authorized;
 unrelated projects and website/release publication remain separate.
+On 2026-09-11 Dave additionally authorized sharing anything and everything with
+Claude, including unpublished project work; AGENTS and RELAY preserve that scope.
 
 ### G1 — DONE 2026-09-10: first autonomous recursive research cycle
 
@@ -285,6 +287,50 @@ benefit. Observed baseline failure is an outcome, never an eligibility criterion
 No automatic cycle13, dataset search or provider budget. Preserve the applied case
 as a retrospective provenance example and remain at this findings checkpoint
 until a new question has a credible discriminating observation.
+
+### R16 — DONE: judgment value for one fixed fusion comparison
+
+The [cycle13 protocol](cycles/2026-09-11-cycle13-judgment-protocol.md) asks which
+missing relevance judgments can reduce uncertainty about four-source k60 RRF
+versus the same fusion with the existing SPLADE++ source. All97 existing queries,
+one diagnostic metric (top10 RBP contribution, p4/5, gain grade/3), per-query
+budgets0/1/3 and no new labels. Sharp signed bounds preserve shared document
+identity; largest absolute coefficient is the width-optimal simple baseline.
+Pooled-head and analytic uniform judging expose whether that distinction matters
+on this concrete pair. It is not another specialist-association or k sweep.
+
+Independent mathematics and Fable design review supported this bounded audit;
+the [integration](cycles/2026-09-11-cycle13-design-integration.md) records qualified
+review assumptions. Implementation and synthetic tests preceded the data attempt.
+
+The first run stopped before comparison because the coordinator's depth30
+assumption was false. The [retained-input correction](cycles/2026-09-11-cycle13-retained-input-correction.md)
+preserves the failure and original frozen sources, validates the actual variable
+depths (mostly200), and authorizes one separately recorded corrected audit with
+all original lists and queries retained. No metric outcome informed the correction.
+
+The [completed report](../results/cycle13-2026-09-11/REPORT.md) has positive sharp
+annual B−A bounds in both years without any new grades. Across97queries:65B,
+9A,5ties,18unresolved. Independent reconstruction verifies all outputs;183
+research tests pass. Width-optimal priorities differ from pooled-head on some
+queries, but further labels are unnecessary for the annual sign. No new
+association sweep, router fitted to reversals, or nDCG promotion follows.
+
+### R17 — NEXT, PROSPECTIVE PREPARATION: transfer beyond the reused panel
+
+Prepare one collection not previously analyzed in this project to test whether
+the fixed source-addition finding extends beyond the current development data.
+Before score inspection, identify one auditable input/ranker family and pin its
+collection revision, query eligibility, qrels, rank origin, candidate access,
+retained depths and available scores. Prefer reusable public runs or an economical
+reproducible retrieval path. Do not pick a collection because a method wins there.
+
+Define the relation to the original nDCG objective explicitly; cycle13's linear
+diagnostic is not an nDCG estimate. Freeze comparison, primary metric and stopping
+rule before evaluating. Reuse existing readers/metrics; perform R1 maintenance
+only where the selected design actually needs it. This preparation may conclude
+that comparable inputs are unavailable, without an acquisition or tuning sweep.
+Keep the old arithmetic/association stops and current annual-sign closure intact.
 
 ## Communication and operations
 

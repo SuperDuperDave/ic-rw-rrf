@@ -37,6 +37,7 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H12 | `[observed, narrow]` All18 returned judgments match exact verification and differ from all named fixed-position/endpoint policies | Close this two-endpoint diagnostic; no unique internal method, general ability or multiagent advantage identified |
 | H13 | `[observed, narrow; lab parked]` All4 answers and16 validity judgments are correct under valid-minority/majority copied support | Prespecified stop met; no internal evidence-use, copying-effect or multiagent claim |
 | H14 | `[concrete case; comparative value open]` Exact public artifact retrieval supplies a provenance fact that a stale repository label does not | Case and paper comparison recorded; direct-fetch baseline already supplies it. No new policy benefit or empirical comparison established |
+| H15 | `[observed, finite panel]` Fixed source addition has positive annual top10 metric bounds under every allowed missing-grade completion, with9 query reversals | Annual direction needs no new grades. Projected width gains do not imply a needed decision; prospective transfer needs a new panel and explicit metric/candidate semantics |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -176,3 +177,12 @@ found relevant prior work; it does not constitute novelty clearance.
   a valid retrospective provenance case, while a competent direct-fetch baseline
   leaves no demonstrated need for a new agent stage. Separate case validity,
   comparison value and measured benefit; park empirical work on this case.
+
+- **Cycle13:** apply established judgment-value ideas to a fixed RRF source
+  addition. Exact annual lower bounds are positive on both years despite unknown
+  grades;65 query results favor adding SPLADE,9 reverse,5 tie and18 remain open.
+  Influence judging narrows projected intervals more than pooled-head here, but
+  the annual direction was already settled. Preserve per-query heterogeneity,
+  stop label acquisition for that question, and prepare a prospective transfer
+  test rather than tuning on these outcomes. Input-depth validation caught a
+  false protocol premise; the separate correction preserves full actual lists.

@@ -2,9 +2,9 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle12 completed R14's local inventory and R15's paper comparison. An actual approval interruption supplied an exact-public-bytes provenance case; direct GET plus hash already resolves it. Empirical comparison is parked without a distinct added-value hypothesis.
-- Next: select a distinct applied information or resource question if one warrants study; PLANNING R15 owns the reopening conditions. No automatic cycle13, new dataset, solver batch, arithmetic hardening or search until a baseline fails.
-- In flight: no provider active. Opus public-source conceptual review completed; request65 consumed/ACK69 and Relay clear. Independent local audits completed; root owns the final Git checkpoint.
+- Now: cycle13 is complete. Corrected retained-input audit has positive annual B−A bounds under the fixed top10 RBP diagnostic in both years.65queries favor adding SPLADE,9 reverse,5tie,18unresolved. Annual direction needs no new grades; initial depth failure remains preserved.
+- Next: PLANNING R17 owns prospective transfer preparation on one not-yet-analyzed collection, with metric/ranker/input semantics fixed before score inspection. No router tuning on these reversals, extra labels for the settled annual sign or arithmetic hardening.
+- In flight: all workers and providers finished. Fable design request70 consumed/ACK74; Relay clear. Root owns final verification and GitHub checkpoint.
 - Preserve: all historical/cycle01–11 frozen evidence, arithmetic multiagent laboratory park, cycle08 parked batch and cycle07's16 unsent reserves. No arithmetic hardening or automatic repair probe.
 
 ## Scope and authority
@@ -381,3 +381,66 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
   reopening gate; no automatic cycle13/provider budget. Preserve all47 cycle11
   checkpoint artifacts, arithmetic park and old reserves. Final verification is
   recorded in evidence/2026-09-11-cycle12-checks.json; Git records the checkpoint.
+
+## Cycle13 — direction and design
+
+- Resumed from819f440 with clean worktree and Relay69 clear. Dave explicitly
+  authorized sharing anything and everything with Claude; exact authorization
+  now lives in AGENTS/charter/RELAY. Prior public availability is not required.
+- Selected a return to rank fusion through judgment value: what missing grades
+  matter to a fixed lexical-RRF versus lexical-plus-SPLADE comparison? This is
+  separate from the stopped association and arithmetic branches. Primary-source
+  checks identify selective judging and MED as established prior work; no
+  acquisition-algorithm novelty claimed.
+- Fable5.1/high design review of the unpublished direction completed under
+  $1.50/180seconds, actual$.4884975/78.53954seconds. Full521-word memo recovered
+  from two fragments; terminal alone incomplete. Request70 read, lifecycle71–73
+  complete, requestedACK74. New authorization accepted without interruption.
+- Accepted exact width/sign distinction and descriptive policy-set overlap;
+  rejected assumed directional missing-label bias and uniform-as-floor language.
+  No new minimum-budget sweep or automatic source-only subgroup added. Independent
+  lens confirms mathematics and clarifies per-query versus annual budget scope.
+- Protocol fixes all97queries, pair, k60, top10 RBP contribution p4/5, gain grade/3,
+  per-query0/1/3judgments. Known zeros remain known; missing grades stay unknown.
+  Synthetic implementation/validation precede actual data; no new labels acquired.
+
+- Initial actual run after178 research tests and source/input freeze rejected
+  bm25/1037798 depth before any fusion or bound. Coordinator's lexical30 assumption
+  was wrong:2019 lexical depths5/37/200,2020 depths28/188/200, all already recorded
+  in old cycle02 metadata. The implementation enforced the mistaken contract
+  correctly.2019 qrels read but no comparison accepted/outputdirectorycreated.
+  Separate stopped-attempt receipt, exact retained-input inventory and corrected
+  adapter protocol preserve the failure; no source clipping or query exclusion.
+
+## Cycle13 — corrected result and wrap
+
+- Corrected adapter validates all12 hashes and both years' exact query/depth maps
+  before qrels/scoring. Five synthetic adapter tests exercise identity/depth
+  failures before scoring and194 full-list calls on97 synthetic queries; all183
+  research tests pass. Original sources/protocol/preflight remain unchanged.
+- One corrected local audit completes in0.382749seconds with no new labels.
+  Annual sharp B−A intervals:2019[.04106119977674419,.09626335613023256],
+  2020[.03714364049382716,.06733324831604938]. Exact rational endpoints retained;
+  no query-population confidence or historical nDCG claim. Candidate support and
+  retained depths differ as part of the fixed applied pair.
+- Per-query B/A/tie/unresolved:2019(27,3,2,11),2020(38,6,3,7). Unjudged65/39,
+  including3/2zero coefficients. Width-optimal planned residual means atbudget1
+  .026663/.012713 versuspooled-head .028868/.014761 anduniform .032470/.016831.
+  Matching budget1 choices20/25 and10/17 nonempty pools; no actual grades bought.
+  The annual sign was already established, so width reduction alone creates no
+  need to acquire judgments. Per-query reversals prevent a uniform-benefit claim.
+- Independent reconstruction verifies485source/querylists,194fusedrankings,
+  97fullrecords,291budgetplans, exactcanonicalbytes and bothannualsummaries.
+  Manifestff1af8b70780a935359b43e18e9dc40c48b74b68d025e12a605f7e78114cb7f9.
+  R16complete; R17owns prospective transfer preparation before new scores.
+- Friction: SUBTRACT disputed sharing boundary by preserving Dave's expanded
+  authorization; actual unpublished Claude handoff accepted. F21 full-text
+  extraction recovered both actual fragments without another call. F22 SUBTRACT
+  handwritten input-depth premise using actual metadata; corrected run verifies
+  the specific fix, future prevention unverified. PROMOTE exact failure/result
+  distinction into the existing evidence chain, not a new workflow framework.
+  DROP additional annotation/stronger-model waves for the settled annual question.
+- All183researchtests and the standard-library demo pass; helper code unchanged.
+  Final custody/link/whitespace checks live in evidence/2026-09-11-cycle13-checks.json.
+  Allcollaboratorsfinished; Relay74clear. Preserve61cycle11/12checkpointartifacts
+  plus the originalcycle13failure and allfrozeninputs. No websitepublication.

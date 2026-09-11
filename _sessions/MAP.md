@@ -67,6 +67,9 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `results/cycle12-2026-09-11/REPORT.md`, `_sessions/evidence/2026-09-11-cycle12-feasibility.json` | Retrospective cache/case inventory and literal audit lookup; no solver experiment |
 | `_sessions/cycles/2026-09-11-cycle12-public-artifact-case.md`, `cycle12-review-integration.md` | Applied exact-artifact provenance case, paper comparison, clarified gates and review scope |
 | `_sessions/tools/check_cycle12_feasibility.py` | Read-only replay of source hashes, cache schema/counts, frozen audit lookup and optional private native identities; supports `--public-only` |
+| `_sessions/cycles/2026-09-11-cycle13-judgment-protocol.md`, `cycle13-design-integration.md` | Fixed fusion comparison, exact partial-judgment bounds, acquisition projections and reviewed scope |
+| `evaluation/cycle13_judgment_acquisition.py`, `evaluation/cycle13_retained_inputs.py` | Frozen bound mathematics plus corrected actual-input adapter; original depth failure preserved |
+| `results/cycle13-2026-09-11/REPORT.md`, `corrected/`, `_sessions/evidence/2026-09-11-cycle13-independent-check.json` | Completed finite-panel intervals, projected judging widths and independent raw reconstruction |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

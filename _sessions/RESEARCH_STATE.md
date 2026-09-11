@@ -17,6 +17,37 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle13: existing judgments already settle a fixed annual fusion comparison
+
+The [evidence map](../results/cycle13-2026-09-11/REPORT.md) returns to retrieval
+through the value of another relevance judgment. A=four retained lexical sources
+with canonical k60 RRF; B=the same plus existing SPLADE++. Under unnormalized
+top10 RBP contribution, p4/5 and gain grade/3, the sharp annual B−A intervals are
+2019[0.041061,0.096263] and2020[0.037144,0.067333] (rounded). Known grades remain
+fixed and missing grades may take any value0..3. These are logical finite-panel
+bounds, not query-population confidence intervals or the previous nDCG metric.
+
+All97 queries remain:65 favor B,9 favor A,5 are ties and18 unresolved. Both annual
+directions are determined without acquiring another grade. Width-optimal judging
+has lower projected residual widths than pooled-head/uniform references here,
+but narrowing an interval needs a decision purpose. At budget1, selections match
+pooled-head in20/25 and10/17 nonempty pools; empty pools are reported separately.
+No new labels, routing model or acquisition-method innovation is claimed.
+
+The initial attempt correctly rejected the coordinator's false lexical-depth30
+premise before scoring. A [separate retained-input correction](cycles/2026-09-11-cycle13-retained-input-correction.md)
+preserved full variable lists (mostly200 lexical,1000 SPLADE), all query IDs and
+the original frozen failure. All183 research tests and the demo pass. Independent
+reconstruction matches194 fused rankings,97 records,291 budget plans and both
+annual summaries. The original sources, failures and all prior checkpoints remain
+unchanged. The Fable review concerned design, not the later measured results.
+
+R16 is complete. R17 proposes prospective transfer preparation on a collection
+not yet analyzed here, with explicit metric and candidate semantics before
+score inspection. Do not tune on the nine observed reversals or acquire labels
+merely to settle the already-established annual direction. Dave's expanded
+sharing authorization worked for the actual unpublished Claude handoff.
+
 ## Cycle12: a concrete provenance case; comparative value remains unestablished
 
 The [bounded inventory](../results/cycle12-2026-09-11/REPORT.md) found existing

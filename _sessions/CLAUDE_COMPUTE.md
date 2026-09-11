@@ -192,6 +192,20 @@ The applied provenance case passes the case-validity gate, but its paper
 comparison supplies no reason for another provider wave. Future work needs a
 distinct information or resource question before setting another experiment budget.
 
+Cycle13 used one Fable5.1/high direction review of current project context and an
+unpublished judgment-acquisition proposal. It succeeded in78.53954seconds at
+$0.4884975 native list accounting, under fixed$1.50/180second bounds. Output4761
+includes3621 thinking tokens across two observed message IDs; final per-message
+telemetry remains unavailable. The4000 setting is per API response. Full public
+text extraction recovered the521-word memo when the terminal field held only
+its second fragment;500 words was advisory. No tools or scouts were needed.
+The stronger tier was chosen for the branch decision, with a separate Codex
+mathematical lens, not an empirical model comparison. Expanded sharing consent
+was accepted for the actual unpublished payload. Request70 consumed/ACK74;
+[receipt](evidence/2026-09-11-cycle13-design-receipt.json) and
+[integration](cycles/2026-09-11-cycle13-design-integration.md) record corrected
+assumptions and the one local audit decision.
+
 ## Select the requested models exactly
 
 | Role / property | Fable 5.1 | Opus 5 |

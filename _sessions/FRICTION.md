@@ -36,6 +36,10 @@ The dated stream records the original symptom; WORKFLOW defines triage.
 External-provider approval interruptions have distinct recorded resolutions;
 the initial review used Dave's explicit consent, and cycle12 completed an approved
 public-source-only alternative. Do not turn these into a blanket permission rule.
+On2026-09-11 Dave explicitly approved sharing anything and everything with Claude.
+SUBTRACT the disputed payload boundary by recording his expanded authority in
+AGENTS/charter/RELAY. Cycle13's actual unpublished design handoff was accepted and
+completed without another permission question; that path is now exercised.
 
 Cycle12 also SUBTRACTed stale prospective cycle10/11 clauses in CLAUDE_COMPUTE
 after their outcomes were already recorded. PROMOTE the distinction between case
@@ -43,6 +47,14 @@ validity, comparison value and observed model failure to PLANNING R15 and the
 cycle12 integration, without another framework. DROP the stale web listing/cache
 miss as a new workflow feature: the exact unauthenticated GET resolved the local
 question. These are landed clarifications, not measured efficiency improvements.
+
+Cycle13 extends F22 to input metadata: a handwritten lexical-depth30 premise
+passed conceptual review but contradicted the existing run files. The first
+actual audit rejected it before comparison. SUBTRACT the manual premise with an
+exact retained-input inventory validated before the corrected execution; preserve
+the original failure and frozen sources. Independent inspection matches the old
+cycle02 depth records. This repairs the concrete input contract; future prevention
+is unverified. Reuse the original query mathematics in the corrected adapter.
 
 When a later session demonstrates that a change removed the original cost,
 record the evidence in its stream and retire the row. Do not mark a process fix

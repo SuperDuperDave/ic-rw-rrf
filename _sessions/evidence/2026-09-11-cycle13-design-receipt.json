@@ -1,0 +1,59 @@
+{
+  "session_id": "363eb9b6-9a58-46ed-a108-f426e23b1f77",
+  "marker": "cycle13-design-4edb1e99ff",
+  "mission_sha256": "0cdbfed6e46888c15d1cbe48764d721b5a580891413892ef2f349377f64247ba",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 78.53953587403521,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.48849750000000003,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 6,
+      "outputTokens": 4761,
+      "cacheReadInputTokens": 8350,
+      "cacheCreationInputTokens": 12415,
+      "webSearchRequests": 0,
+      "costUSD": 0.48849750000000003,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 3621,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 521,
+  "advisory_word_target": 500,
+  "native_max_budget_usd": 1.5,
+  "process_wall_limit_seconds": 180,
+  "configured_output_tokens_per_api_response": 4000,
+  "requested_model": "claude-fable-5-1",
+  "requested_effort": "high",
+  "observed_message_ids": [
+    "msg_011CewtQFx7HEcMjCWAe3ziZ",
+    "msg_011CewtUqQcrZbNHZXoD4bnr"
+  ],
+  "observed_models": [
+    "claude-fable-5-1"
+  ],
+  "per_message_final_usage_and_stop_reason": "unavailable in review stream; initial counters not substituted",
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "aace4b6d793573a48481ed23c5e869cc3d33a08190d3b3c40bb0874083d1de12",
+  "memo_sha256": "bb9c7cc6b7a8f177109cbabc1c06b3c45b995a693264e700c444fa00d24c6f2c",
+  "memo_extraction": "All assistant text blocks in order, excluding thinking. Terminal result contained only the second public fragment.",
+  "relay_request_seq": 70,
+  "relay_lifecycle_seq": [
+    71,
+    72,
+    73
+  ],
+  "relay_ack_seq": 74,
+  "relay_ack_recorded_by": "Codex after reading exact request and complete memo, on Claude request",
+  "authorization": "2026-09-11: I approve sharing anything and everything with Claude.",
+  "source_access": "Current project context and unpublished proposed direction supplied in the mission; no file tools or independent source access.",
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0",
+  "empirical_solver_invocations": 0
+}

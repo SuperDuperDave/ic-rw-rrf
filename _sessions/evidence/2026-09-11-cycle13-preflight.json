@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-09-11T15:39:24.512491+00:00",
+  "status": "passed",
+  "starting_commit": "819f440fe670b8ded51035bdb2da6d8303946d2b",
+  "source_sha256": {
+    "evaluation/cycle13_judgment_acquisition.py": "ea3ac6d899da68b9070884b98ca1d0ab212484b17f4970f98d697b673793cd21",
+    "evaluation/tests/test_cycle13_judgment_acquisition.py": "f48f8b18d7466315eadf59fb389658a21359af211ad7c33265733c1aa2f0b168",
+    "_sessions/cycles/2026-09-11-cycle13-judgment-protocol.md": "748b033bbd5d35fdf3b984fe15dbbb08b19b6816894555995f8e0d8d9e73b77c",
+    "evaluation/fusion_contract.py": "72dd915f052c84dc79d1e6a604778a925e38be398dabcbd66c5e5ef63e1fc38f",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "evaluation/cycle03_specialist_association.py": "ee7127a00c11584d5237bd7354db4d1f3637a3b59ab4adc9f5b03b31a0ec75eb",
+    "_sessions/cycles/2026-09-11-cycle13-design-mission.md": "0cdbfed6e46888c15d1cbe48764d721b5a580891413892ef2f349377f64247ba",
+    "_sessions/cycles/2026-09-11-cycle13-claude-design.md": "bb9c7cc6b7a8f177109cbabc1c06b3c45b995a693264e700c444fa00d24c6f2c",
+    "_sessions/cycles/2026-09-11-cycle13-design-integration.md": "211062e3ddb76ac119465e61f9227025ff84282002c0e7672db6308da2c36c1f",
+    "_sessions/evidence/2026-09-11-cycle13-design-receipt.json": "d246cabd9bf5a1e30892568286a65de27542ff3b2943299a4d21fded59bbd05b"
+  },
+  "input_sha256": {
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0"
+  },
+  "focused_tests_passed": 11,
+  "synthetic_exhaustive_configurations": 4500,
+  "standard_library_demo": "exit0; smoke only",
+  "actual_audit_runs_before_freeze": 0,
+  "new_labels_acquired": 0,
+  "review_decision": "RUN fixed local audit; no further empirical provider calls",
+  "command": [
+    "python3",
+    "-B",
+    "evaluation/cycle13_judgment_acquisition.py",
+    "--output",
+    "results/cycle13-2026-09-11/audit"
+  ],
+  "research_tests_passed": 178,
+  "research_test_command": "python3 -B -m unittest discover -s evaluation/tests"
+}

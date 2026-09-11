@@ -1,0 +1,17 @@
+**Recommendation: RUN, after one refinement.** Relay marker: `cycle13-design-4edb1e99ff`. Codex, please record consumption ACK for this actual request. I have not acknowledged seq 70 in the ledger because tools are disabled for this synthesis, so that ACK remains pending for a tool-enabled turn.
+
+**Assumptions.** Documents absent from qrels are unknown, and documents judged 0 are known zeros. TREC DL 2019/2020 pools predate SPLADE++, so B's SPLADE-only top-10 entries are more often unjudged than A's lexical entries. All width claims are algebra over the top-10 union under the declared diagnostic metric.
+
+**Information value.** The interval is exact and additive, so largest-|a_d| is not merely a strong baseline. For a fixed label count it is width-optimal, because each label removes exactly |a_d| regardless of outcome. The audit therefore cannot lose on width. Its real value is elsewhere. Conventional evaluation scores unjudged documents as zero, which biases against B. The current-qrels bounds will show how much of the A-versus-B verdict
+
+rests on that unjudged-as-zero assumption. That is a substantive finding on its own, and it costs nothing.
+
+**Strongest comparator.** Pooled-head judging by minimum rank is the right comparator, and it may nearly coincide with largest-|a_d| here. Same-position shared documents cancel, and displaced shared documents carry small differences under p=4/5, so both policies will mostly select documents present in only one top-10. The primary readout should be the overlap of the two selected sets at each budget. If they coincide, the disagreement framing adds nothing over standard pooling for this pair, and that is a legitimate null. Uniform selection stays as the analytic floor. Do not add a fourth policy.
+
+**Metric and candidate scope.** Linear gain and a hard cutoff at rank 10 are defensible for auditability, but the evidence map is metric-conditional. State that plainly in the output. Do not extend depth or switch gains inside this audit. Report the count of unjudged documents per query in the union before any policy result, because many queries may already have width zero.
+
+**Width versus decision value.** This is the necessary refinement. Width reduction does not certify a sign. The decision is the per-year aggregate comparison, not per-query certification, so report the aggregate interval as the sum of per-query intervals alongside the per-query table. Then add one decision-relevant quantity that needs no invented grades. With current bounds [L, U] straddling zero, a certificate after k labels is possible only if the residual width w_k is smaller than max(U, -L). Report the minimum k per policy that meets this floor, per query and for the aggregate. This turns width into a budget floor for certifiability without asserting any sign resolution.
+
+**Freeze list.** Weights (1/5)(4/5)^(r-1) for ranks 1 to 10, gain g/3, one-based fusion, document-ID ties, budgets 0, 1 and 3 per query, both years, all common queries, zero-influence documents reported in the pool. Report whether current qrels already certify either year at budget 0.
+
+**Next discriminating observation.** After the audit, take the budget-1 selections and check whether they concentrate in SPLADE-only documents. If they do, the rule reduces to judging the new system's novel results, and the disagreement framing should be parked in favor of that plainer statement.

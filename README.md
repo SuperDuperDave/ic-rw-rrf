@@ -2,23 +2,20 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** one verifier returned all four correct
-answers and all sixteen correct evidence-validity judgments when valid support
-was either outnumbered or in the majority among copied reports. We followed the
-prespecified stop and parked multiagent work in this small arithmetic laboratory.
-The result establishes these outputs, not internal evidence use or a multiagent
-advantage. The [research synthesis](docs/RESEARCH_SYNTHESIS.md) separates the lessons learned;
-future acquisition work needs genuinely missing evidence and a strong single-system
-baseline. Read the [latest report and verified cases](results/cycle11-2026-09-11/REPORT.md),
-[preceding diagnostic](results/cycle10-2026-09-11/REPORT.md),
-[current research state](_sessions/RESEARCH_STATE.md),
-and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
+**September 2026 research checkpoint:** which missing relevance judgments would
+matter to a fixed fusion comparison? Adding SPLADE++ to four-source k60 RRF has
+positive annual mean bounds on both existing panels, even under every allowed
+completion of missing grades, for an explicit top10 RBP diagnostic. Nine queries
+still favor the four-source fusion. This is a finite-panel result under that
+metric, not an nDCG, generalization or uniform-benefit claim.
+[Latest report and evidence map](results/cycle13-2026-09-11/REPORT.md).
 
-A subsequent [applied feasibility check](results/cycle12-2026-09-11/REPORT.md)
-found a concrete provenance question in our own workflow: whether exact committed
-file bytes were publicly retrievable. Direct retrieval and hash checking settled
-it. The case is useful; a new acquisition policy or agent advantage remains
-unestablished. Case validity and comparative benefit are separate gates.
+Earlier [agent diagnostics](results/cycle11-2026-09-11/REPORT.md) ended all correct
+with one verifier, so that arithmetic laboratory remains parked. A later
+[provenance case](results/cycle12-2026-09-11/REPORT.md) was settled by direct
+retrieval and hash checking. The [research synthesis](docs/RESEARCH_SYNTHESIS.md),
+[current state](_sessions/RESEARCH_STATE.md) and [case-study draft](docs/RESEARCH_BRIEF.md)
+explain the findings and limits. Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results
 

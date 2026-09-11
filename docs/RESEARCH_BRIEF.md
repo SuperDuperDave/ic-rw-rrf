@@ -161,6 +161,17 @@ That clarified another useful distinction: validating a case is different from
 justifying a comparison, and finding a baseline failure must not be a condition
 for selecting research cases. [Cycle12](../results/cycle12-2026-09-11/REPORT.md)
 
+**When no more labels are needed.** We returned to retrieval by asking which
+missing judgments could change a fixed fusion comparison. Under an explicit
+top10 RBP diagnostic, adding SPLADE++ to four-source RRF has positive annual
+mean bounds on both existing panels even under worst-case missing grades.
+The direction needs no new judgments, although9 of97 queries favor the original
+fusion and18 remain unresolved. The audit separates a narrower interval from
+a decision worth spending on. It is a finite-panel result under that metric,
+with no nDCG or generalization claim. An incorrect list-depth assumption was
+caught before scoring, preserved and corrected using existing input metadata.
+[Cycle13 evidence map](../results/cycle13-2026-09-11/REPORT.md)
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated
