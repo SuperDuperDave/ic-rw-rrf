@@ -17,6 +17,33 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle07: actual program answers, but no error variation
+
+The [cycle07 report](../results/cycle07-2026-09-10/REPORT.md) records16 valid
+responses on eight mechanically verified development programs. Both G and S
+are correct on every item; all eight joint-error observations are(0,0).
+The primary is complete, while the observability gate fails because no errors
+or disagreements occurred. Conditional correction is null with denominator0.
+This small panel supplies no error-correction or dependence contrast; it does
+not establish general accuracy or independence. All16 reserved items stay unsent.
+
+The grammar and first-acceptance order were fixed before generation. The selected
+prefix is narrow:12-line programs, addition as first arithmetic operator,
+maximum38 executed statements and55 absolute intermediate across24 prepared
+items. Independent Python/interpreter truths and all source/split/response custody
+agree. All211 tests passed; the full independent audit passed16,402 checks and
+verified16 private streams. Native empirical accounting$.166275,48.34seconds,
+16 messages with no continuation or activity. [Readable cases](../results/cycle07-2026-09-10/development-cases.md).
+
+One Fable review completed at$.21782825 and suggested G-only difficulty
+calibration. Integration corrects our review-example count(23, not37), distinguishes
+loop-bound intervention from nesting, and rejects causal conclusions from token
+counts. Actual experiment metadata never changed. Total native cycle$.38410325.
+**Next: R10 / [cycle08 local loop-bound audit](cycles/2026-09-10-cycle08-loopbound-design.md)**
+before any separately frozen G-only batch. Longer execution need not require
+longer reasoning; unchanged outcomes or simple recurrence structure may make
+another provider run uninformative. [Review integration](cycles/2026-09-10-cycle07-review-integration.md).
+
 ## Cycle06: partial noisy-hint evidence, then actual error observation
 
 The [cycle06 report](../results/cycle06-2026-09-10/REPORT.md) closes with three
@@ -37,11 +64,11 @@ per-response setting is not a total invocation ceiling.
 A tools-disabled Fable review succeeded at$.30278075 and prompted the move toward
 actual joint errors. Independent integration corrects its dismissal of the
 observed continuous contrast and its claim that all report slots were independent.
-The [next design](cycles/2026-09-10-cycle07-observation-design.md), R9, prepares
+The [subsequent design](cycles/2026-09-10-cycle07-observation-design.md), R9, prepared
 a small mechanically verified program panel and two solver roles. Context
 isolation is not error independence; the first checkpoint measures observable
-joint-error counts and stops before any answer-exposure intervention. No cycle07
-provider call has run. [Review integration](cycles/2026-09-10-cycle06-review-integration.md).
+joint-error counts and stops before any answer-exposure intervention. Its completed
+result is reported above. [Review integration](cycles/2026-09-10-cycle06-review-integration.md).
 
 ## Cycle05: actual coordinator, then uncertainty about provenance
 

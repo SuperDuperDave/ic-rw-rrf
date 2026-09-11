@@ -1,0 +1,45 @@
+{
+  "helper_tests": {
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests",
+    "passed": 94
+  },
+  "independent_prepared_checks": 13983,
+  "inherited_provider_overrides_observed": [],
+  "intent": "One fixed development batch then score/audit/review; no repair or reserve consumption.",
+  "limits": {
+    "batch_seconds": 300,
+    "call_seconds": 120,
+    "native_scheduling_usd": "1",
+    "output_tokens_per_api_response": 500,
+    "reserved_invocations": 0,
+    "unique_development_invocations": 16
+  },
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0",
+  "prepared_manifest_sha256": "7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708",
+  "provider_calls_before_receipt": 0,
+  "research_tests": {
+    "command": "python3 -B -m unittest discover -s evaluation/tests",
+    "passed": 117
+  },
+  "source_sha256": {
+    "_sessions/cycles/2026-09-10-cycle07-execution-protocol.md": "41c7445d90b1fc7e802a145238ab400645eec3de3d672a6f06107a3bf5d58637",
+    "_sessions/cycles/2026-09-10-cycle07-observation-design.md": "0864a6363ed8b959a90d2788c85bc64e9c977ef413def37b24f517ab7c71641f",
+    "_sessions/cycles/2026-09-10-cycle07-program-grammar.md": "800436fb47db63610e21ebb2740d0d97c8c66adb5153a3f44703ee7e73931c32",
+    "_sessions/tools/check_cycle07_evidence.py": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+    "_sessions/tools/native_stream_observer.py": "56372ade927f2ac98a4e6f593315a38f3060dd7a00f3eeb7f41452ad97ec4992",
+    "_sessions/tools/run_cycle05_coordinator.py": "e3b49dce410beab317235445851d73a89fc2a21efff7a56ed74d2d8cfdce25f2",
+    "_sessions/tools/run_cycle05_replication.py": "9fe3c83e1e5f157d0d9b3a913dd7006edd4c288ee3f003502421bcf15c3f2706",
+    "_sessions/tools/run_cycle07_programs.py": "50b82c649d66a8ecaef004cf9837678d9abea432a987b0d6f258d193d5c9b6d8",
+    "_sessions/tools/score_cycle07_programs.py": "1005fbc950ae30f32db9630e24f14899b0be1b05b4bb55cc83d479ce1d7a64d2",
+    "_sessions/tools/tests/test_cycle07_runner.py": "0dc254349df177047d9033cf871a4cb724fd5d5ba60cbd169c4f0e5ab7832cbf",
+    "_sessions/tools/tests/test_native_stream_observer.py": "1bec053e3daec8cc3bbe0d3754163c9732fa03adbbca0367ccf5c2c9bb02e0bf",
+    "evaluation/cycle05_coordinator_packets.py": "83845428b0e36bdc2aecb68676a4e899377ff7713725e00b64059da392ebc941",
+    "evaluation/cycle07_program_errors.py": "be26ce81d739a19392e925cd6fa58b1981b82f504e2d46071f9b83e9a48c6392",
+    "evaluation/tests/test_cycle07_program_errors.py": "ed3fc3dbf30d0b482fac7a228a79fecf9fc3c6a86f48c7dd433567da56fdd735",
+    "results/cycle07-2026-09-10/prepared/fixture.json": "54386739f88be7e96e6dd598ddae0653e9d06b6cbe072a417b18808b63ca8325",
+    "results/cycle07-2026-09-10/prepared/manifest.json": "7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708"
+  },
+  "starting_commit": "02fd80499754fc695d19c22b57e4bb24de4becab",
+  "tests_total": 211,
+  "timestamp_utc": "2026-09-11T03:12:11.845779+00:00"
+}

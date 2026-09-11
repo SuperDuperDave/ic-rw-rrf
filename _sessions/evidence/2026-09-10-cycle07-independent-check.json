@@ -1,0 +1,819 @@
+{
+  "batch": {
+    "collection_manifest_sha256": "3fa1294e76d3165b03815099b9c666ed14519337d957b6d1fac22ff94dbaceef",
+    "invocations": 16,
+    "native_binary_bytes": "verified",
+    "native_cost_usd": "0.166274999999999997",
+    "raw_checks": [
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.007764999999999999",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_48f57ff62adeaf8e568b",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvNvqrUtm6jEYJ9TmiY"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 538,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 95,
+          "output_tokens_details": {
+            "thinking_tokens": 86
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.008025000000000001",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_1d65004d37ef2da76d8c",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvP6aFoyJ1qocgij5NM"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 564,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 95,
+          "output_tokens_details": {
+            "thinking_tokens": 86
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.012819999999999998",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_1ea99328bf13a4594ee4",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvPGbzsHYwVnPFbCSek"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 551,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 292,
+          "output_tokens_details": {
+            "thinking_tokens": 283
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.01337",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_20b4afea10c185cb8895",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvPb8EUD4o3arRasM3h"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 571,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 306,
+          "output_tokens_details": {
+            "thinking_tokens": 297
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.00775",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_0d84cdfb54fe714689ff",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvPvQM1i5eGbpa9STNL"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 544,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 92,
+          "output_tokens_details": {
+            "thinking_tokens": 83
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.007850000000000001",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_2c16cae05972c6df878a",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvQ6aGnHBpWAzKii1Dr"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 564,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 88,
+          "output_tokens_details": {
+            "thinking_tokens": 79
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.013495",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_702e83cce3ebd67ca711",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvQJ2MwS46pC9KaZ2w8"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 571,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 311,
+          "output_tokens_details": {
+            "thinking_tokens": 302
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.013044999999999998",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_42288a140e01655636d1",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvQd3bnMV5JFbS7GSAo"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 551,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 301,
+          "output_tokens_details": {
+            "thinking_tokens": 292
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.013394999999999999",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_1ff219170ed133e0ecd6",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvQv14aAjXzjUsrAgrP"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 551,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 315,
+          "output_tokens_details": {
+            "thinking_tokens": 306
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.01377",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_3ec3abc6ca5a5026983b",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvRDQ5QBVNiAxnKvHmg"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 571,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 322,
+          "output_tokens_details": {
+            "thinking_tokens": 313
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.008275000000000001",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_4ecabd0f82372d3448d6",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvRYva3vowqXq5ZyK8k"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 564,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 105,
+          "output_tokens_details": {
+            "thinking_tokens": 96
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.00795",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_88eb81d64c425d4a0675",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvRhvZWFFwRtES2zbrg"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 544,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 100,
+          "output_tokens_details": {
+            "thinking_tokens": 91
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.008",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_6c4cf7a52bacb01b4b52",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvRs6DbmVaLZECUvRkw"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 564,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 94,
+          "output_tokens_details": {
+            "thinking_tokens": 85
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.007825",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_07a745731c34ef48a965",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvS2fSDUsnChYHEXape"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 544,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 95,
+          "output_tokens_details": {
+            "thinking_tokens": 86
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.01117",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_baea00c78219a78082e0",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvSBHrMr9ZQoTmHXD4s"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 571,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 218,
+          "output_tokens_details": {
+            "thinking_tokens": 209
+          }
+        },
+        "valid_answer": true
+      },
+      {
+        "local_error_records": [],
+        "messages_without_output_usage": 0,
+        "native_acceptable": true,
+        "native_cost_usd": "0.01177",
+        "observed_models": [
+          "claude-opus-5"
+        ],
+        "packet_id": "p_f38903d07966b98f43f1",
+        "provider_message_count": 1,
+        "provider_message_ids": [
+          "msg_011CevvSQjjERhcLnKi3HFts"
+        ],
+        "provider_refusals": [],
+        "recovery_markers": [],
+        "requesting_status_count": 1,
+        "status": "verified",
+        "usage": {
+          "cache_creation_input_tokens": 551,
+          "cache_read_input_tokens": 0,
+          "input_tokens": 2,
+          "output_tokens": 250,
+          "output_tokens_details": {
+            "thinking_tokens": 241
+          }
+        },
+        "valid_answer": true
+      }
+    ],
+    "raw_streams_unavailable": 0,
+    "raw_streams_verified": 16,
+    "score_check": {
+      "all_outputs_match": true,
+      "coverage": {
+        "invalid_answers": 0,
+        "planned_invocations": 16,
+        "planned_items": 8,
+        "unsent": 0,
+        "valid_answers": 16,
+        "valid_pairs": 8,
+        "valid_unpaired_answers": 0
+      },
+      "independently_recomputed_table": {
+        "N": 8,
+        "available_corrections_to_g": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "by_stratum": {
+          "bounded_loop": {
+            "N": 4,
+            "available_corrections_to_g": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "by_truth": {
+              "false": {
+                "N": 2,
+                "cells": {
+                  "00": 2,
+                  "01": 0,
+                  "10": 0,
+                  "11": 0
+                },
+                "g_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "joint_error_excess": {
+                  "denominator": 4,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "s_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                }
+              },
+              "true": {
+                "N": 2,
+                "cells": {
+                  "00": 2,
+                  "01": 0,
+                  "10": 0,
+                  "11": 0
+                },
+                "g_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "joint_error_excess": {
+                  "denominator": 4,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "s_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                }
+              }
+            },
+            "cells": {
+              "00": 4,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "conditional_correction": {
+              "denominator": 0,
+              "numerator": 0,
+              "value": null
+            },
+            "conditional_harm": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "disagreement": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "potential_harm_relative_to_g": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_minus_g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            }
+          },
+          "sequential": {
+            "N": 4,
+            "available_corrections_to_g": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "by_truth": {
+              "false": {
+                "N": 2,
+                "cells": {
+                  "00": 2,
+                  "01": 0,
+                  "10": 0,
+                  "11": 0
+                },
+                "g_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "joint_error_excess": {
+                  "denominator": 4,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "s_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                }
+              },
+              "true": {
+                "N": 2,
+                "cells": {
+                  "00": 2,
+                  "01": 0,
+                  "10": 0,
+                  "11": 0
+                },
+                "g_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "joint_error_excess": {
+                  "denominator": 4,
+                  "numerator": 0,
+                  "value": 0.0
+                },
+                "s_error": {
+                  "denominator": 2,
+                  "numerator": 0,
+                  "value": 0.0
+                }
+              }
+            },
+            "cells": {
+              "00": 4,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "conditional_correction": {
+              "denominator": 0,
+              "numerator": 0,
+              "value": null
+            },
+            "conditional_harm": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "disagreement": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "potential_harm_relative_to_g": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_minus_g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            }
+          }
+        },
+        "by_truth": {
+          "false": {
+            "N": 4,
+            "cells": {
+              "00": 4,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 16,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            }
+          },
+          "true": {
+            "N": 4,
+            "cells": {
+              "00": 4,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 16,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            }
+          }
+        },
+        "cells": {
+          "00": 8,
+          "01": 0,
+          "10": 0,
+          "11": 0
+        },
+        "conditional_correction": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "conditional_harm": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "disagreement": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "g_error": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "potential_harm_relative_to_g": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_error": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_minus_g_error": {
+          "denominator": 8,
+          "numerator": 0,
+          "value": 0.0
+        }
+      },
+      "measurement_status": "complete",
+      "observability_gate": {
+        "complete_eight_pairs": true,
+        "counts": {
+          "correct_dissent": 0,
+          "disagreements": 0,
+          "g_correct": 8,
+          "g_wrong": 0,
+          "s_correct": 8,
+          "s_wrong": 0
+        },
+        "passed": false
+      }
+    },
+    "scoring_manifest_sha256": "23541c1b2625567b400ec712ebeb0c651954b41a5ae95ac605f1bafd5ce85d16",
+    "stop_reason": "all_invocations_finished"
+  },
+  "checked_utc": "2026-09-11T03:13:42.192421+00:00",
+  "checker_sha256": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+  "checks_passed": 16402,
+  "independence": "Standard-library AST interpreter and direct event counting; no production imports or execution.",
+  "limitations": [
+    "Fresh contexts establish no supplied shared conversation history, not statistical independence.",
+    "Eight deliberately balanced development items do not estimate natural task prevalence or population performance.",
+    "Truth-conditioned joint-error excess does not isolate shared item difficulty or causal dependence.",
+    "The observability gate checks denominator feasibility; passing is not precision, power or a useful effect.",
+    "Full primary requires all eight valid pairs; partial valid pairs form a selected denominator.",
+    "Syntactic structural distinctness is not proof of semantic inequivalence or independent task sampling.",
+    "Native streams do not enumerate hidden transport attempts; unavailable message usage remains unverified.",
+    "Native accounting is not subscription billing; per-response output ceilings do not cap aggregate invocation tokens.",
+    "Public-only checks cannot verify absent private streams or installed binaries."
+  ],
+  "prepared_manifest_sha256": "7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708",
+  "prepared_oracle": {
+    "all_python_answers_final_states_and_ASTs_match": true,
+    "all_templates_distinct_after_literal_alpha_and_predicate_normalization": true,
+    "candidate_attempts": 48,
+    "development_invocations": 16,
+    "development_items": 8,
+    "exclusion_counts": {
+      "cell_full": 24
+    },
+    "item_count": 24,
+    "reserve_absent_from_provider_payloads": true,
+    "reserved_items": 16,
+    "seed42_split_and_call_order_reconstructed": true
+  },
+  "schema_version": 1,
+  "status": "passed",
+  "truth_python_bytes": "verified"
+}

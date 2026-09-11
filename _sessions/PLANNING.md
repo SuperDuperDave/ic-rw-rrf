@@ -165,27 +165,45 @@ is$.47607675. No automatic repair batch or raised limits.
 a separate design with a reason its missing observations would change a live
 decision. Collection closure does not complete the scientific primary.
 
-### R9 — NEXT: observe actual paired errors on mechanically verified tasks
+### R9 — DONE 2026-09-10: complete paired-error collection, failed feasibility gate
 
-The [cycle07 design](cycles/2026-09-10-cycle07-observation-design.md) prepares
-24 distinct bounded-program templates with independently verified binary truths:
-eight development items and16 reserved items, sealed before provider calls.
-The first empirical checkpoint is at most16 invocations: two separately
-prompted roles per development item, same verified model/configuration.
+The [cycle07 report](../results/cycle07-2026-09-10/REPORT.md) preserves24 prepared
+programs and16 actual responses on the eight development items. Both solver
+prompts are correct throughout:8 joint(0,0) observations, zero errors/disagreement.
+The full primary is complete; the observability gate fails. Conditional correction
+is null because no G errors occurred. All16 reserved programs remain unsent.
 
-**First action:** implement the bounded generator and independent truth checker,
-verify structural split isolation and all24 truths, then freeze exact items,
-prompts/order, model identity and effective resource controls. No generator,
-execution freeze or cycle07 response exists yet. Proposed allowance$1 native
-scheduling,300s total,120s per invocation,500output tokens per API response.
+All211 tests passed and independent reconstruction verified16,402 checks,
+including16 raw streams. Actual native list accounting$.166275 plus$.21782825
+for one consumed Fable review. No prompt/model/difficulty repair or exposure
+wave was launched. The selected prefix's small magnitudes and limited structure
+bound interpretation. R10 owns a distinct preparatory question.
 
-**Checkpoint:** one development batch, exact joint-error tables and explicit
-coverage/denominators, independent audit, then stop. The observability gate is
-minimum variation, not statistical power or a useful-effect threshold. Missing
-pairs make the full primary null. No retries or reserve consumption to repair
-failure. Actual answer exposure is a later separately frozen paired treatment;
-fresh contexts do not guarantee independent errors and copied output is not
-an exposure experiment. No model/prompt sweep or learned fusion yet.
+**Parked:** this exact family/configuration as an error-observation panel.
+Do not infer error independence or general solver perfection. Changed families
+or configurations need their own development/untouched separation; the old
+reserve does not become a source of replacement tasks.
+
+### R10 — NEXT: inspect a matched loop-bound intervention locally
+
+The [cycle08 design](cycles/2026-09-10-cycle08-loopbound-design.md) owns a finite
+local preparation audit before new provider spending. Hold template topology,
+parameters, G instruction and prospective model/resources fixed while changing
+one literal loop bound. Four fresh templates at two bounds are a candidate for
+at most eight later G-only calls, not an already frozen execution experiment.
+
+**First action:** freeze a small new grammar/candidate order, generate bounded
+matched programs, independently verify both truths/states and execution counts,
+and inventory unchanged answers, cycles or simple shortcuts. Longer execution
+is not a proof of harder reasoning. Report finite selection and all exclusions;
+no search for observed model failures, nesting change or old reserve consumption.
+
+**Checkpoint:** complete the local audit and decide whether its observable
+contrast justifies a separate execution freeze. Stop or park if it does not.
+Any later eight-call development batch has a fixed stop, named comparisons,
+actual resource controls and its own budget; no first-mixed-result selection,
+S calls or exposure arm is automatically authorized by the proposed design.
+Dave's standing research authority continues; no new permission ritual is needed.
 
 ## Communication and operations
 

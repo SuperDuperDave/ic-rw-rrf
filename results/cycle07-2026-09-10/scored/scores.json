@@ -1,0 +1,530 @@
+{
+  "coverage": {
+    "invalid_answers": 0,
+    "planned_invocations": 16,
+    "planned_items": 8,
+    "unsent": 0,
+    "valid_answers": 16,
+    "valid_pairs": 8,
+    "valid_unpaired_answers": 0
+  },
+  "interpretation": "Finite balanced panel; descriptive selected valid-pair counts. No independence test, calibration estimate, or population claim.",
+  "observability_gate": {
+    "complete_eight_pairs": true,
+    "counts": {
+      "correct_dissent": 0,
+      "disagreements": 0,
+      "g_correct": 8,
+      "g_wrong": 0,
+      "s_correct": 8,
+      "s_wrong": 0
+    },
+    "passed": false
+  },
+  "observations": [
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_57e9139fc06e45a0e265",
+      "packet_id": "p_48f57ff62adeaf8e568b",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_57e9139fc06e45a0e265",
+      "packet_id": "p_1d65004d37ef2da76d8c",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_7953719d160d6936a210",
+      "packet_id": "p_1ea99328bf13a4594ee4",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_7953719d160d6936a210",
+      "packet_id": "p_20b4afea10c185cb8895",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_9b36d387966e0fcb36d0",
+      "packet_id": "p_0d84cdfb54fe714689ff",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_9b36d387966e0fcb36d0",
+      "packet_id": "p_2c16cae05972c6df878a",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_c4d0eee2348c3c41c4eb",
+      "packet_id": "p_702e83cce3ebd67ca711",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_c4d0eee2348c3c41c4eb",
+      "packet_id": "p_42288a140e01655636d1",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_4a531510378b329b11e3",
+      "packet_id": "p_1ff219170ed133e0ecd6",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_4a531510378b329b11e3",
+      "packet_id": "p_3ec3abc6ca5a5026983b",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_8b79c068abf5e4116764",
+      "packet_id": "p_4ecabd0f82372d3448d6",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": false,
+      "failure": null,
+      "item_id": "i_8b79c068abf5e4116764",
+      "packet_id": "p_88eb81d64c425d4a0675",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_288bd482923785d704ae",
+      "packet_id": "p_6c4cf7a52bacb01b4b52",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_288bd482923785d704ae",
+      "packet_id": "p_07a745731c34ef48a965",
+      "role": "G",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_31c2ddf4fe97394512ea",
+      "packet_id": "p_baea00c78219a78082e0",
+      "role": "S",
+      "status": "valid"
+    },
+    {
+      "answer": true,
+      "failure": null,
+      "item_id": "i_31c2ddf4fe97394512ea",
+      "packet_id": "p_f38903d07966b98f43f1",
+      "role": "G",
+      "status": "valid"
+    }
+  ],
+  "partial_valid_pair_table": null,
+  "primary": {
+    "N": 8,
+    "available_corrections_to_g": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "by_stratum": {
+      "bounded_loop": {
+        "N": 4,
+        "available_corrections_to_g": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "by_truth": {
+          "false": {
+            "N": 2,
+            "cells": {
+              "00": 2,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            }
+          },
+          "true": {
+            "N": 2,
+            "cells": {
+              "00": 2,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            }
+          }
+        },
+        "cells": {
+          "00": 4,
+          "01": 0,
+          "10": 0,
+          "11": 0
+        },
+        "conditional_correction": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "conditional_harm": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "disagreement": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "potential_harm_relative_to_g": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_minus_g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        }
+      },
+      "sequential": {
+        "N": 4,
+        "available_corrections_to_g": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "by_truth": {
+          "false": {
+            "N": 2,
+            "cells": {
+              "00": 2,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            }
+          },
+          "true": {
+            "N": 2,
+            "cells": {
+              "00": 2,
+              "01": 0,
+              "10": 0,
+              "11": 0
+            },
+            "g_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "joint_error_excess": {
+              "denominator": 4,
+              "numerator": 0,
+              "value": 0.0
+            },
+            "s_error": {
+              "denominator": 2,
+              "numerator": 0,
+              "value": 0.0
+            }
+          }
+        },
+        "cells": {
+          "00": 4,
+          "01": 0,
+          "10": 0,
+          "11": 0
+        },
+        "conditional_correction": {
+          "denominator": 0,
+          "numerator": 0,
+          "value": null
+        },
+        "conditional_harm": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "disagreement": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "potential_harm_relative_to_g": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_minus_g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        }
+      }
+    },
+    "by_truth": {
+      "false": {
+        "N": 4,
+        "cells": {
+          "00": 4,
+          "01": 0,
+          "10": 0,
+          "11": 0
+        },
+        "g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "joint_error_excess": {
+          "denominator": 16,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        }
+      },
+      "true": {
+        "N": 4,
+        "cells": {
+          "00": 4,
+          "01": 0,
+          "10": 0,
+          "11": 0
+        },
+        "g_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "joint_error_excess": {
+          "denominator": 16,
+          "numerator": 0,
+          "value": 0.0
+        },
+        "s_error": {
+          "denominator": 4,
+          "numerator": 0,
+          "value": 0.0
+        }
+      }
+    },
+    "cells": {
+      "00": 8,
+      "01": 0,
+      "10": 0,
+      "11": 0
+    },
+    "conditional_correction": {
+      "denominator": 0,
+      "numerator": 0,
+      "value": null
+    },
+    "conditional_harm": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "disagreement": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "g_error": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "potential_harm_relative_to_g": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "s_error": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    },
+    "s_minus_g_error": {
+      "denominator": 8,
+      "numerator": 0,
+      "value": 0.0
+    }
+  },
+  "schema_version": 1,
+  "status": "complete",
+  "valid_pairs": [
+    {
+      "g_answer": false,
+      "g_error": false,
+      "item_id": "i_57e9139fc06e45a0e265",
+      "s_answer": false,
+      "s_error": false,
+      "stratum": "sequential",
+      "truth": false
+    },
+    {
+      "g_answer": true,
+      "g_error": false,
+      "item_id": "i_7953719d160d6936a210",
+      "s_answer": true,
+      "s_error": false,
+      "stratum": "bounded_loop",
+      "truth": true
+    },
+    {
+      "g_answer": true,
+      "g_error": false,
+      "item_id": "i_9b36d387966e0fcb36d0",
+      "s_answer": true,
+      "s_error": false,
+      "stratum": "sequential",
+      "truth": true
+    },
+    {
+      "g_answer": false,
+      "g_error": false,
+      "item_id": "i_c4d0eee2348c3c41c4eb",
+      "s_answer": false,
+      "s_error": false,
+      "stratum": "bounded_loop",
+      "truth": false
+    },
+    {
+      "g_answer": false,
+      "g_error": false,
+      "item_id": "i_4a531510378b329b11e3",
+      "s_answer": false,
+      "s_error": false,
+      "stratum": "bounded_loop",
+      "truth": false
+    },
+    {
+      "g_answer": false,
+      "g_error": false,
+      "item_id": "i_8b79c068abf5e4116764",
+      "s_answer": false,
+      "s_error": false,
+      "stratum": "sequential",
+      "truth": false
+    },
+    {
+      "g_answer": true,
+      "g_error": false,
+      "item_id": "i_288bd482923785d704ae",
+      "s_answer": true,
+      "s_error": false,
+      "stratum": "sequential",
+      "truth": true
+    },
+    {
+      "g_answer": true,
+      "g_error": false,
+      "item_id": "i_31c2ddf4fe97394512ea",
+      "s_answer": true,
+      "s_error": false,
+      "stratum": "bounded_loop",
+      "truth": true
+    }
+  ]
+}

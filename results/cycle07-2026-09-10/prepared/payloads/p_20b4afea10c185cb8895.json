@@ -1,0 +1,1 @@
+{"program":"a = 4\nb = 3\nc = 6\nfor i in range(5):\n    a = a + b\n    b = (b + i) % 6\n    if b == c:\n        a = a - i\n    c = (c + a) % 12\nb = b + c\na = (a - b) + c\nresult = (a % 3 == 1)\n","role_instruction":"Check sequential updates, loop bounds and branch conditions when evaluating the supplied program, then answer the final Boolean question."}

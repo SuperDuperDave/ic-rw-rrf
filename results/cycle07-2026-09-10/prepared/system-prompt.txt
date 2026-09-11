@@ -1,0 +1,6 @@
+The input contains a complete Python program and a role instruction.
+Follow the role instruction and determine the Boolean value assigned to result
+by the final line after executing the program. Python integer arithmetic and
+range semantics apply. Return only a JSON object with the single key "answer"
+and its Boolean value: {"answer": true} or {"answer": false}.
+Do not include reasoning, prose, Markdown, or additional keys.

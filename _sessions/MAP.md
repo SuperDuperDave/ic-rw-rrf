@@ -38,6 +38,11 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/native_stream_observer.py` | Future-only correction for precise no-fallback/local API-error shape; original collectors unchanged |
 | `_sessions/cycles/2026-09-10-cycle07-observation-design.md` | Prospective actual paired-error feasibility; preparation and execution freeze still required |
 | `results/cycle06-2026-09-10/REPORT.md`, `prepared/`, `observations/`, `scored/` | Incomplete3/8 noisy-hint result, frozen original metadata and exact subset losses |
+| `evaluation/cycle07_program_errors.py` | Frozen bounded program generator, Python truth checks, strict Boolean parser, split/custody and paired-error scorer |
+| `_sessions/tools/check_cycle07_evidence.py` | Independent AST interpreter, candidate/split reconstruction, joint counts and private native-stream audit |
+| `_sessions/tools/run_cycle07_programs.py`, `score_cycle07_programs.py` | Development-only16-call collection and immutable offline scoring; format failure stops scheduling |
+| `results/cycle07-2026-09-10/REPORT.md`, `development-cases.md` | Complete all-correct result, failed observation gate and readable actual tasks |
+| `_sessions/cycles/2026-09-10-cycle08-loopbound-design.md` | Next local matched-program audit; no provider execution freeze yet |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

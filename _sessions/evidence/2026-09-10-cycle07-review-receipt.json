@@ -1,0 +1,49 @@
+{
+  "session_id": "9427676d-e459-4536-8c00-bb80dded667b",
+  "marker": "cycle07-review-4f38a71a75",
+  "mission_sha256": "8b2ee787a74908ea429e942a1ed0f42b900493cda62f6e45ddbb87abc8a3e77f",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 42.60980888601625,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.21782825,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 2509,
+      "cacheReadInputTokens": 3913,
+      "cacheCreationInputTokens": 4569,
+      "webSearchRequests": 0,
+      "costUSD": 0.21782825,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1517,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 450,
+  "advisory_word_target": 400,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "62fc7b8057747bdde0e39dcfd0179f1a1d5f90f82566e304f058f85cc3193b92",
+  "memo_sha256": "1bb98e3e487f7350931ba797653c207738ab9cb777e568ef4573d3e1d882e934",
+  "memo_extraction": "All assistant message text blocks in order, excluding thinking; terminal result also contains complete memo in this invocation.",
+  "relay_request_seq": 40,
+  "relay_lifecycle_seq": [
+    41,
+    42,
+    43
+  ],
+  "relay_ack_seq": 44,
+  "relay_ack_recorded_by": "Codex after consuming exact request and complete memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Supplied synthetic capsule and one already-used development program only; no reserved tasks, independent file or raw-stream inspection.",
+  "review_distinct_from_empirical_measurements": true,
+  "capsule_correction": "The supplied example was mislabeled37 executed statements; its frozen Python/interpreter records correctly say23. Overall development range10-37 remains correct. Corrected in integration without altering original capsule or experiment."
+}

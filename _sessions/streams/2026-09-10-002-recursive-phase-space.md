@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle06 closed incomplete (3 valid,1 refused,4 unsent), full primary null. Exact scores and native totals independently checked; failed-call label/metadata discrepancies explicitly preserved. Report and review integration own details.
-- Next: PLANNING R9 / cycle07-observation-design: prepare24 distinct bounded-program items and independent truths, seal8 development/16 reserve, freeze role prompts/model/controls before any new provider response. H8 remains incomplete and parked; no automatic repair batch.
-- In flight: no provider process or live collaborator; Relay last_seq39 has no pending signals or active claims. Offline audits complete; coordinator owns the final Git checkpoint.
-- Preserve: all historical and cycle01–06 frozen code/protocols/numerical evidence, including stopped batches and original telemetry discrepancies. Future observer correction is separate. Raw data/provider transcripts remain ignored.
+- Now: cycle07 closed with16valid responses/8pairs, both roles allcorrect. Fullprimary complete, observabilitygatefailed;16reserveitemsunsent. All211tests and16,402independentchecks pass.
+- Next: R10 / cycle08-loopbound-design owns local matched-program observability audit before any separately frozen eight-call G-only candidate. H9configurationparked; H8stillincomplete. Do not consume oldreserves or silently add a difficulty/exposure wave.
+- In flight: no provider process or live collaborator; Relay44clear. Finalchecks complete; coordinator owns the Git checkpoint.
+- Preserve: all historical/cycle01–07 frozen evidence. Reviewcapsule examplecount37→23 is corrected in integration, original experimentdataunchanged. Raw provider text stays ignored.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -189,3 +189,28 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - Reuse this stream, current reports and frozen evidence; Git checkpoint preserves this turn. No website publication or unrelated project changes.
 
 - Final verification:92 research tests +73 helper tests pass (165 total); independent865 original checks +84 future-only replay checks, public-only739. All27 plotted probabilities match scores,129 local links resolve, previous checkpoint hashes match and private runtime/provider paths remain ignored. Final receipt: evidence/2026-09-10-cycle06-checks.json.
+
+## Cycle07 — program-panel preparation
+
+- Continued R9 from02fd804 with clean worktree and Relay39clear. Fixed grammar before candidate enumeration; native2.1.267 hash unchanged and inherited override keys absent. Official Opus5 ID and standard/cache prices rechecked; sameOpus/high used for both roles.
+- First48candidates fill24distinct accepted templates,24cell_full exclusions. No response-based selection or task hardening. Allselected12lines, maximum38executedstatements/55absoluteintermediate; first arithmetic operator isaddition throughout this prefix. Development statementsrange10–37. This narrow complexity is recorded before responses and may yield no useful errors.
+- Independent evaluator matches all24truths/finalstates and exact candidate/split/order reconstruction. Native tests verifyFalseasvalid, format-errorstop, prefix/custody, noreservecalls and resourceboundaries. Finalsource/fixturefreeze follows remainingchecks; no provider callyet.
+
+- Finalpreflight211tests pass; independentprepared13,983checks. Preparedmanifest7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708;16devpayloads only. Sources frozen; coordinator nowlaunches one authorizednativebatch, reserveunsent.
+
+## Cycle07 — result, review and checkpoint
+
+- One frozen batch completed16/16 valid,8pairs, bothG/S allcorrect. Joint(00,01,10,11)=(8,0,0,0), truth/stratumsubpanels balanced. Primarycomplete, observabilitygatefails; conditionalcorrectionnull/denom0. No reserve/exposure/repair calls. No error-independence or generalaccuracy conclusion.
+- Native48.34seconds,$.166275,16messages/oneperinvocation,3,079output including2,935thinking, max322permessage. No continuation/refusal/fallback/localerror/activity. Independent16,402checks reconstructtruth/splits/raw/scoring; public-only15,986checks explicitlyomitprivatebytes.
+- Fable review succeeded42.61seconds,$.21782825,450words against400advisory; totalnativecycle$.38410325. Request40marker returned, lifecycle41–43 complete, consumedACK44, finalbriefclear. Fullpublictext extraction reusedsuccessfully, rawthoughts remainprivate.
+- Claude correctly traced oneexample and flagged its count. Ourcapsule mislabeledi_31c2ddf4fe97394512ea as37; actualfrozen23 andfinalstate16/8/5/2 correct. Expressionevaluations do not explainmismatch; reviewerconjecture corrected. No experimentmetadata/input/score changes.
+- AcceptedG-only calibration as candidateeconomy, but refinedimmediatestep tolocal loopboundaudit: fourfreshmatchedtemplates/twobounds canconsider8futurecalls. Nesting isseparateaxis, executionlength≠reasoningdifficulty, moretokens≠causalcomputebenefit, shorttaskcost≠longtaskforecast. No firstmixed-resultdevelopmentselection or impliedpaired-waveapproval.
+- Ratchet: F20actualnormal-usepath verified16calls; refusalpathstillofflineonly. F21publicmemoextractor reusedsuccessfully. F22routes capsulecount duplication toartifact-derivedexamples withfutureverificationpending. DROP boundedworker-thread-limitretry asnewframeworkwork; existingworkerreuse succeeded.
+
+## Current cycle07 carryforward
+
+- R10 / cycle08-loopbound-design: localobservabilityaudit before separateexecutionfreeze. Old16reserveitems stayunsent. No newgoal/permissionneeded for ordinary authorizedpreparation.
+- R9closednegativefeasibility;R8scientificallyincomplete;R1legacymaintenance andR2/R4parkedbranchesremain.
+- Reuse thisstream andpreservefrozenevidence. Finalchecks andGitHub checkpoint ownturnpreservation; no websitepublication or unrelatedrepochanges.
+
+- Finalverification: all211tests passed; independent16,402raw/truth/scorechecks, public-only15,986. All8readablecases matchfrozenrecords;132locallinksresolve; priorcycle06checkpoint hashesandcurrentcollectionsourcesunchanged. Independentprose/next-designboundsreview foundnomaterialmismatch. Finalreceipt:evidence/2026-09-10-cycle07-checks.json.

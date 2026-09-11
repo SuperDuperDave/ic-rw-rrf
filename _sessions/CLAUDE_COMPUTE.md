@@ -97,8 +97,21 @@ public memo exceeds the400-word advisory target. The terminal result contains
 only its final ACK paragraph; the full public review is assembled from assistant
 text blocks, excluding thinking. Total cycle06 native list accounting$.47607675;
 no cap was raised after an error. [Receipt](evidence/2026-09-10-cycle06-review-receipt.json).
-Cycle07's proposed model mapping and controls require verification before its
-own freeze; additional subagents or stronger tiers are not a standing quota.
+Cycle07 subsequently used the same verified Opus5/high controls for16 fresh
+program/role requests. All16 were valid, with one provider message each and no
+observed continuation/activity.3,079 output tokens include2,935 thinking tokens;
+max322total permessage. Empirical native$.166275,48.34seconds. Both roles answered
+all8items correctly, so the error-variation gate failed; no reserve calls followed.
+
+One Fable5.1/high interpretation review completed in42.61seconds at$.21782825,
+2,509output tokens including1,517thinking;450 public words versus400 advisory.
+No tools or scouts were needed. The source-derived public memo extractor worked
+on the actual invocation; no thought text is published. Total cycle07 native
+accounting$.38410325. [Receipt](evidence/2026-09-10-cycle07-review-receipt.json).
+Next work audits task observability locally. Short-task costs do not predict a
+longer program's usage, and token counts do not identify reasoning strategy or
+causal compute benefit. Any later provider batch needs its own effective-control
+freeze; extra agents or stronger tiers remain choices, not quotas.
 
 Model roles
 follow expected information value; four scouts are not a quota for every loop.

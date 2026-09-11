@@ -31,7 +31,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H6 | `[derived boundary; run retired]` Correct copy lineage and individual calibration need not justify independent likelihood factors | Common-cause proposal is arithmetically contained in old mixture; retain the distinction, require real joint-error evidence for transfer |
 | H7 | `[observed, narrow]` Actual Opus5 uses the fully supplied calibration/lineage model on the fixed diagnostic | Twenty valid fresh responses, all reference decisions, max probability error3.37e-8; source detection and general ability remain open |
 | H8 | `[partial, incomplete]` Three returned probabilities track noise-aware inference; full eight-input primary unavailable | One weak hint contrast observed; strong independent-hint cases unsent after refusal; park further supplied tables |
-| H9 | `[next, untested]` Mechanically verified tasks may expose useful differing and shared solver errors | Eight development items ×two roles; count joint errors and variation before separately considering answer exposure |
+| H9 | `[observed, gate failed]` This small program panel exposed no differing or shared errors | Both roles correct on all8items; park exact configuration, reserve unsent; no general independence/accuracy claim |
+| H10 | `[next, local audit]` A longer execution path may expose useful variation, or remain simple through recurrence/shortcuts | Inspect four matched fresh templates at two loop bounds before considering eight G-only calls; execution count is not reasoning difficulty |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -112,3 +113,12 @@ found relevant prior work; it does not constitute novelty clearance.
   confuse an exposed answer with a deterministic copy, or infer dependence causes
   from a tiny truth-conditioned association. [Cycle07 design](cycles/2026-09-10-cycle07-observation-design.md)
   starts with truth and denominator feasibility. H8 stays incomplete, not settled.
+
+- **Cycle07 measurement:** both prompt roles return all correct answers on eight
+  independently verified programs. Complete primary, failed variation gate;
+  the16reserveitems stay unused. A clean collection can still fail to supply
+  the observable needed for the next causal or correction question.
+- **Cycle07 review transition:** inspect a loop-bound manipulation locally before
+  another provider wave. Distinguish execution length from reasoning difficulty,
+  nesting from iteration count, and observed tokens from causal compute benefit.
+  Correct the capsule's example count using unchanged source evidence.
