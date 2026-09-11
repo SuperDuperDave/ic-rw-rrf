@@ -1,0 +1,25 @@
+{
+  "status": "stopped_before_comparison",
+  "command": [
+    "python3",
+    "-B",
+    "evaluation/cycle13_judgment_acquisition.py",
+    "--output",
+    "results/cycle13-2026-09-11/audit"
+  ],
+  "exit_code": 1,
+  "exception": "ValueError: retained depth mismatch: bm25/1037798",
+  "failure_stage": "2019 validate_runs before first canonical_rrf/analyze_query call",
+  "qrels_read": {
+    "2019": true,
+    "2020": false
+  },
+  "accepted_query_comparisons": 0,
+  "output_directory_created": false,
+  "actual_data_attempts": 1,
+  "cause": "Coordinator protocol assumed lexical depth30; original retained inputs have variable depths mostly200.",
+  "not_a_solver_or_scoring_failure": true,
+  "preflight_sha256": "4d88ee6ab26bd6089e459ea45aa3b1a1d7fcd6cc906731b602e73f9068d6fd9b",
+  "original_sources_preserved": true,
+  "next": "Separate metadata-corrected protocol/adapter preserving full existing inputs; no observed metric outcome guides correction."
+}

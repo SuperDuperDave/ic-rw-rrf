@@ -1,0 +1,303 @@
+{
+  "checked_utc": "2026-09-11T15:52:58.421965+00:00",
+  "findings": {
+    "all_annual_summaries_match": true,
+    "all_query_records_match": true,
+    "canonical_result_bytes_match": true,
+    "exact_retained_input_inventory_matches": true,
+    "independently_reconstructed_annual_totals": {
+      "2019": {
+        "acquisition": {
+          "0": {
+            "mean_projected_width": {
+              "absolute_influence": "23180593/419921875",
+              "pooled_head": "23180593/419921875",
+              "uniform": "23180593/419921875"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "0",
+              "pooled_head": "0",
+              "uniform": "0"
+            },
+            "nonempty_pool_query_count": 25,
+            "realized_labels_total": 0,
+            "requested_budget_per_query": 0,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 43,
+              "identical_set_query_count": 43,
+              "intersection_size_sum": 0,
+              "nonempty_pool_query_count": 25
+            }
+          },
+          "1": {
+            "mean_projected_width": {
+              "absolute_influence": "11196277/419921875",
+              "pooled_head": "12122212/419921875",
+              "uniform": "2290676359/70546875000"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "11984316/419921875",
+              "pooled_head": "11058381/419921875",
+              "uniform": "320732653/14109375000"
+            },
+            "nonempty_pool_query_count": 25,
+            "realized_labels_total": 25,
+            "requested_budget_per_query": 1,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 18,
+              "identical_set_query_count": 38,
+              "intersection_size_sum": 20,
+              "nonempty_pool_query_count": 25
+            }
+          },
+          "3": {
+            "mean_projected_width": {
+              "absolute_influence": "3535936/419921875",
+              "pooled_head": "4046336/419921875",
+              "uniform": "297224199/23515625000"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "19644657/419921875",
+              "pooled_head": "19134257/419921875",
+              "uniform": "1000889009/23515625000"
+            },
+            "nonempty_pool_query_count": 25,
+            "realized_labels_total": 49,
+            "requested_budget_per_query": 3,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 18,
+              "identical_set_query_count": 38,
+              "intersection_size_sum": 43,
+              "nonempty_pool_query_count": 25
+            }
+          }
+        },
+        "annual_mean_status": "b_better",
+        "document_pair_counts": {
+          "known": 456,
+          "union": 521,
+          "unknown": 65,
+          "unknown_nonzero_coefficient": 62,
+          "unknown_zero_coefficient": 3
+        },
+        "mean_lower": "17242496/419921875",
+        "mean_upper": "40423089/419921875",
+        "mean_width": "23180593/419921875",
+        "query_count": 43,
+        "query_counts": {
+          "nonempty_unknown_pool": 25,
+          "zero_width": 18
+        },
+        "query_status_counts": {
+          "a_better": 3,
+          "b_better": 27,
+          "tie": 2,
+          "unresolved": 11
+        },
+        "source_depth_histograms": {
+          "bm25": {
+            "200": 41,
+            "37": 1,
+            "5": 1
+          },
+          "bm25_tuned": {
+            "200": 41,
+            "37": 1,
+            "5": 1
+          },
+          "ql_dirichlet": {
+            "200": 41,
+            "37": 1,
+            "5": 1
+          },
+          "splade_pp_ensemble_distil": {
+            "1000": 43
+          },
+          "tfidf": {
+            "200": 41,
+            "37": 1,
+            "5": 1
+          }
+        },
+        "year": 2019
+      },
+      "2020": {
+        "acquisition": {
+          "0": {
+            "mean_projected_width": {
+              "absolute_influence": "5306767/175781250",
+              "pooled_head": "5306767/175781250",
+              "uniform": "5306767/175781250"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "0",
+              "pooled_head": "0",
+              "uniform": "0"
+            },
+            "nonempty_pool_query_count": 17,
+            "realized_labels_total": 0,
+            "requested_budget_per_query": 0,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 54,
+              "identical_set_query_count": 54,
+              "intersection_size_sum": 0,
+              "nonempty_pool_query_count": 17
+            }
+          },
+          "1": {
+            "mean_projected_width": {
+              "absolute_influence": "3352096/263671875",
+              "pooled_head": "31136/2109375",
+              "uniform": "532546357/31640625000"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "9216109/527343750",
+              "pooled_head": "8136301/527343750",
+              "uniform": "422671703/31640625000"
+            },
+            "nonempty_pool_query_count": 17,
+            "realized_labels_total": 17,
+            "requested_budget_per_query": 1,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 37,
+              "identical_set_query_count": 47,
+              "intersection_size_sum": 10,
+              "nonempty_pool_query_count": 17
+            }
+          },
+          "3": {
+            "mean_projected_width": {
+              "absolute_influence": "772096/263671875",
+              "pooled_head": "851968/263671875",
+              "uniform": "52698317/10546875000"
+            },
+            "mean_width_reduction": {
+              "absolute_influence": "14376109/527343750",
+              "pooled_head": "2843273/105468750",
+              "uniform": "265707703/10546875000"
+            },
+            "nonempty_pool_query_count": 17,
+            "realized_labels_total": 33,
+            "requested_budget_per_query": 3,
+            "selected_set_overlap": {
+              "both_selections_empty_query_count": 37,
+              "identical_set_query_count": 53,
+              "intersection_size_sum": 32,
+              "nonempty_pool_query_count": 17
+            }
+          }
+        },
+        "annual_mean_status": "b_better",
+        "document_pair_counts": {
+          "known": 594,
+          "union": 633,
+          "unknown": 39,
+          "unknown_nonzero_coefficient": 37,
+          "unknown_zero_coefficient": 2
+        },
+        "mean_lower": "1175248/31640625",
+        "mean_upper": "106523303/1582031250",
+        "mean_width": "5306767/175781250",
+        "query_count": 54,
+        "query_counts": {
+          "nonempty_unknown_pool": 17,
+          "zero_width": 37
+        },
+        "query_status_counts": {
+          "a_better": 6,
+          "b_better": 38,
+          "tie": 3,
+          "unresolved": 7
+        },
+        "source_depth_histograms": {
+          "bm25": {
+            "188": 1,
+            "200": 52,
+            "28": 1
+          },
+          "bm25_tuned": {
+            "188": 1,
+            "200": 52,
+            "28": 1
+          },
+          "ql_dirichlet": {
+            "188": 1,
+            "200": 52,
+            "28": 1
+          },
+          "splade_pp_ensemble_distil": {
+            "1000": 54
+          },
+          "tfidf": {
+            "188": 1,
+            "200": 52,
+            "28": 1
+          }
+        },
+        "year": 2020
+      }
+    },
+    "input_contract_correction": "Original lexical depth30 premise was contradicted by retained raw lists and preserved cycle02 metadata. Corrected audit preserves every retained list; the original failed before any fusion or metric output.",
+    "query_counts": {
+      "2019": 43,
+      "2020": 54
+    }
+  },
+  "limitations": [
+    "Finite-panel exact intervals assume independently completable missing gains in {0,1/3,2/3,1}.",
+    "The metric is unnormalized top10 RBP contribution; there is no tail or nDCG inference.",
+    "Projected widths do not supply new labels, future centers, or future strict signs.",
+    "Largest-influence selection optimizes per-query equal-cost width reduction, not global allocation or sign resolution.",
+    "The compared candidate supports and retained depths differ by design; no isolated expertise effect or method novelty is established."
+  ],
+  "preflight_and_historical_metadata_sha256": {
+    "_sessions/evidence/2026-09-11-cycle13-corrected-preflight.json": "fe81975a2364f14a86ffc8e37417c9d4a3eda80ccb9298ba864c475fd8ba1bc4",
+    "_sessions/evidence/2026-09-11-cycle13-stopped-attempt.json": "c17d197da873de7816f43a58d92c2e1075a29d5b782612d932203c7a8481658c",
+    "results/cycle02-2026-09-10/observations/summary.json": "2475ed4c76b5b89762a213ed7b5ecfc0d9b453599b25b298f10b34bea3a477ab"
+  },
+  "private_reconstruction_sha256": "6b21719305e495e40010262868f7733d1a66270e3dd879d600f6b0da5a4f870c",
+  "python_executable_sha256_verified": "1643dacd9feaedc58f3cc581e4d22577dfe25c09b10282936186ccf0f2e61118",
+  "result_artifact_sha256": {
+    "per_query.json": "ccfd4519fb64d1ff6ea9888680476204234792cca55b3faf7fa998781f2d4313",
+    "summary.json": "1a61c64c94ed100d3b199d80e090f56cfd0843e64e5591b0be022daad1a4781a"
+  },
+  "result_manifest_sha256": "ff1af8b70780a935359b43e18e9dc40c48b74b68d025e12a605f7e78114cb7f9",
+  "schema_version": 1,
+  "scope": "Independent strict raw-file parsing, canonical fsum floating RRF, and exact rational top10 metric/label-width reconstruction; no production imports.",
+  "source_and_input_sha256": {
+    "_sessions/cycles/2026-09-11-cycle13-judgment-protocol.md": "748b033bbd5d35fdf3b984fe15dbbb08b19b6816894555995f8e0d8d9e73b77c",
+    "_sessions/cycles/2026-09-11-cycle13-retained-input-correction.md": "851ca8d6b5f2934b9eb059b9f3095b9101d7a393b42c1173843ebb1de20fb55c",
+    "_sessions/evidence/2026-09-11-cycle13-retained-inputs.json": "aa0b4b36ae3658eea25f878836c4bd05ddf90ec0a3a01b05111b6c8774f666cd",
+    "data/cycle02/acquired/dl2019.trec": "16f6e5cdf48114a5bbc6d13e33144ece4f4031d91a15abcac2d55742508b4ed2",
+    "data/cycle02/acquired/dl2020.trec": "750fe3ccedee6c39368c628fee356864fbf1f5566a08c023f3ae9a5d46f289a0",
+    "data/trec-dl-2019/2019qrels-pass.txt": "8a1f10d550732e4cd91d7fc49846a3784de4040972f583e69285a88f3c5fee92",
+    "data/trec-dl-2019/runs/bm25.txt": "234979433e8cb45c6a61ce21731855adc995cbf19b2473a2663a4a351fc054a5",
+    "data/trec-dl-2019/runs/bm25_tuned.txt": "09543e2d79d425ae1539bcd4acd45eb9eb961958652bd0e1a2699f41c37fa654",
+    "data/trec-dl-2019/runs/ql_dirichlet.txt": "05dd60d7181b30332744f05c1774279b956e6b62f848b4b7c35e7ac970f9e996",
+    "data/trec-dl-2019/runs/tfidf.txt": "ad91555b6c32cb9753a7befbe8e925bf2821ed375f385e752b560cc68b7bdd68",
+    "data/trec-dl-2020/2020qrels-pass.txt": "60d4c34561f9687f8f73e0a752ba80ab80159b3e9c1bedd0a351f747ed6f5684",
+    "data/trec-dl-2020/runs/bm25.txt": "0c2e0424bfa8591c4f56bde4687e958983fb3728dcda72819e202e518865292e",
+    "data/trec-dl-2020/runs/bm25_tuned.txt": "913d6a9e159977bd737d77bc64b70300ff82ceb4274deaa237da27427fdf16ed",
+    "data/trec-dl-2020/runs/ql_dirichlet.txt": "2b375a74c894ad285d5786c50ff553e1d450945943d2323d301642c18a5be5c4",
+    "data/trec-dl-2020/runs/tfidf.txt": "5366b0d99d2cf7e47fe8eddbf89018d54cb5503559a0e69ccf6eb4913b5e0c5c",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "evaluation/cycle03_specialist_association.py": "ee7127a00c11584d5237bd7354db4d1f3637a3b59ab4adc9f5b03b31a0ec75eb",
+    "evaluation/cycle13_judgment_acquisition.py": "ea3ac6d899da68b9070884b98ca1d0ab212484b17f4970f98d697b673793cd21",
+    "evaluation/cycle13_retained_inputs.py": "a6cb987f12362c324ab1e3f9b5e2ac455f9e3e9cc457dc00d76b3fe25f685e7f",
+    "evaluation/fusion_contract.py": "72dd915f052c84dc79d1e6a604778a925e38be398dabcbd66c5e5ef63e1fc38f",
+    "evaluation/tests/test_cycle13_judgment_acquisition.py": "f48f8b18d7466315eadf59fb389658a21359af211ad7c33265733c1aa2f0b168",
+    "evaluation/tests/test_cycle13_retained_inputs.py": "2f669848716881d86256c53c66a02a75f212994fae956001a0980369ccb24164"
+  },
+  "status": "verified",
+  "verification_units": {
+    "canonical_result_artifacts": 2,
+    "complete_annual_summaries": 2,
+    "complete_query_records": 97,
+    "query_budget_plans": 291,
+    "raw_input_files": 12,
+    "raw_rank_files": 10,
+    "reconstructed_fused_rankings": 194,
+    "source_files": 10,
+    "source_query_lists": 485
+  }
+}
