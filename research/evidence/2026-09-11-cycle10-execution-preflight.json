@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-09-11T05:01:13.590100+00:00",
+  "research_tests": 158,
+  "helper_tests": 140,
+  "tests_total": 298,
+  "commands": [
+    "python3 -B -m unittest discover -s evaluation/tests",
+    "python3 -B -m unittest discover -s _sessions/tools/tests"
+  ],
+  "source_sha256": {
+    "_sessions/cycles/2026-09-11-cycle10-discriminating-design.md": "0b00c41b4c76e9526c65b6cc36574f903fb02179859c2bc1b9a16237ba6c0a10",
+    "_sessions/cycles/2026-09-11-cycle10-local-protocol.md": "f5f87f93479df947b278760ba0396499bc7a5f18a9285a63f59d9b63ec27db0c",
+    "_sessions/tools/check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "_sessions/tools/check_cycle10_evidence.py": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a",
+    "_sessions/tools/tests/test_cycle10_audit.py": "75aeff3ccca242d9d8dff0f79b35c8ef40568e72ba5e14bd886f5252715f4795",
+    "evaluation/cycle09_certificates.py": "7b5aa4ed5b454fa6fe55ed71914c7b8fe8deb69606e5f3c74f8de0c8f6c8146a",
+    "evaluation/cycle10_certificates.py": "33ade9bdea536fdf7b41546e922caeba4ccbbf3b92ae48f791aca9c8db5a9265",
+    "evaluation/tests/test_cycle10_certificates.py": "93cdbfb4600a153363dd2f1fb52ca6eb34f85d0305b7f009334e89c83bbafe00",
+    "_sessions/tools/run_cycle10_verifier.py": "cc3c5e84d3cd1f20ba742fa355097f9ade8c2c20c8160f5e8e1d28ca43011ec1",
+    "evaluation/cycle10_verifier.py": "dedf10bcb8da554599797d6d356e09e26eb72cb1da6e51be56854ad19c5dfa9f",
+    "_sessions/tools/tests/test_cycle10_runner.py": "3dc25c58001013f662bd1e9885474356929f1ca6773b48b0e725ed4aba70b014",
+    "_sessions/tools/score_cycle10_verifier.py": "7827b6fb376d9ea97a62a6369d915417a063b17bfdd8be3b0b5b4b09e088480d",
+    "_sessions/cycles/2026-09-11-cycle10-execution-protocol.md": "190d7f61c7169ab2b6053d99621851e48b556f2bcd3e1c7d891f1df5eb914bc4",
+    "_sessions/evidence/2026-09-11-cycle10-execution-decision.json": "ca99f37648cadf75eda7fa73b37b9d67df487c0949a63257f1846bd1aed93f33",
+    "_sessions/tools/tests/test_native_stream_observer.py": "1bec053e3daec8cc3bbe0d3754163c9732fa03adbbca0367ccf5c2c9bb02e0bf",
+    "results/cycle10-2026-09-11/prepared/fixture.json": "fe748cb2dd9c4e32face6b559d2c2ba45712966b8cefac3bbb4b7d55bdaf1aea",
+    "results/cycle10-2026-09-11/prepared/manifest.json": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+    "_sessions/tools/tests/test_cycle09_runner.py": "b75260d409c76f189515e882a0f3e3d5c3c385e01027ae4bc42dd34dfe0a24b2",
+    "_sessions/tools/run_cycle09_verifier.py": "728668d998bc0d5d865218dea46b195ef3bb1ea42b8c3fa7ba9414341c215f10",
+    "_sessions/tools/score_cycle09_verifier.py": "2d2233b76ed4056f00a5c7cd0b68fbbb151270cfc31063e7361c5f762ab09a74",
+    "evaluation/cycle09_verifier.py": "5855ab8ebf9b6bfe4527d9e9c27109d2f7a22587b4f5ead6fb44f255080f4386",
+    "_sessions/tools/run_cycle05_coordinator.py": "e3b49dce410beab317235445851d73a89fc2a21efff7a56ed74d2d8cfdce25f2",
+    "_sessions/tools/run_cycle05_replication.py": "9fe3c83e1e5f157d0d9b3a913dd7006edd4c288ee3f003502421bcf15c3f2706",
+    "_sessions/tools/native_stream_observer.py": "56372ade927f2ac98a4e6f593315a38f3060dd7a00f3eeb7f41452ad97ec4992",
+    "evaluation/cycle05_coordinator_packets.py": "83845428b0e36bdc2aecb68676a4e899377ff7713725e00b64059da392ebc941"
+  },
+  "source_whitespace_checks_passed": true,
+  "local_checks": 2411,
+  "prepared_manifest_sha256": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+  "provider_calls_before_execution_freeze": 0,
+  "effective_native_controls_rechecked": true,
+  "pre_freeze_repairs": [
+    "Export shared strict decoder to the local adapter interface.",
+    "Reject malformed type/program grouping and inconsistent root labels in descriptive scoring."
+  ]
+}

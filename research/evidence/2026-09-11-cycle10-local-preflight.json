@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-09-11T04:59:23.428147+00:00",
+  "starting_commit": "30f19f03cd0a1b5394a89923951deee6b2097833",
+  "local_tests": {
+    "producer": 12,
+    "independent_checker": 7
+  },
+  "source_sha256": {
+    "evaluation/cycle10_certificates.py": "33ade9bdea536fdf7b41546e922caeba4ccbbf3b92ae48f791aca9c8db5a9265",
+    "evaluation/tests/test_cycle10_certificates.py": "93cdbfb4600a153363dd2f1fb52ca6eb34f85d0305b7f009334e89c83bbafe00",
+    "_sessions/tools/check_cycle10_evidence.py": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a",
+    "_sessions/tools/tests/test_cycle10_audit.py": "75aeff3ccca242d9d8dff0f79b35c8ef40568e72ba5e14bd886f5252715f4795",
+    "_sessions/cycles/2026-09-11-cycle10-discriminating-design.md": "0b00c41b4c76e9526c65b6cc36574f903fb02179859c2bc1b9a16237ba6c0a10",
+    "_sessions/cycles/2026-09-11-cycle10-local-protocol.md": "f5f87f93479df947b278760ba0396499bc7a5f18a9285a63f59d9b63ec27db0c",
+    "evaluation/cycle09_certificates.py": "7b5aa4ed5b454fa6fe55ed71914c7b8fe8deb69606e5f3c74f8de0c8f6c8146a",
+    "_sessions/tools/check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab"
+  },
+  "all_new_sources_whitespace_checked": true,
+  "actual_fixed_panel_materialized": false,
+  "empirical_calls": 0,
+  "relay_last_seq": 54
+}

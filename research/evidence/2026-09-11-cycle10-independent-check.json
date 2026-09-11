@@ -1,0 +1,46 @@
+{
+  "checked_utc": "2026-09-11T04:59:24.108662+00:00",
+  "checker_sha256": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a",
+  "checks_passed": 2411,
+  "fixture_check": {
+    "all_states_transitions_ids_packets_and_policies_match": true,
+    "distinct_programs": 2,
+    "distinct_root_certificates": 6,
+    "empirical_launch_authorized": false,
+    "first_invalid_step": {
+      "F": 6,
+      "I": 3,
+      "V": null
+    },
+    "packet_count": 6,
+    "payload_byte_lengths": {
+      "R0-P1": 1080,
+      "R0-P2": 1080,
+      "R0-P3": 1080,
+      "R1-P1": 1079,
+      "R1-P2": 1079,
+      "R1-P3": 1079
+    },
+    "planned_original_judgments": 18,
+    "reference_policy_correct": {
+      "always_invalid": 12,
+      "always_valid": 6,
+      "endpoint_boolean": 9,
+      "endpoint_matches_truth": 12,
+      "exact_checker": 18,
+      "position_1": 10,
+      "position_2": 10,
+      "position_3": 10
+    }
+  },
+  "independence": "Reused independent cycle09 AST state interpreter; no producer imports or program exec.",
+  "limitations": [
+    "Eighteen judgments on two endpoint variants of one arithmetic skeleton.",
+    "Named response vectors do not identify internal reasoning or exclude unlisted shortcuts.",
+    "No empirical solver outcome, source independence, causal effect or launch is implied."
+  ],
+  "prepared_manifest_sha256": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+  "schema_version": 1,
+  "status": "passed",
+  "truth_python_bytes": "verified"
+}

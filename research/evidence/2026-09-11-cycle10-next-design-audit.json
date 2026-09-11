@@ -1,0 +1,113 @@
+{
+  "abstract_reference_vectors": {
+    "always_false": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "always_true": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "exact_replay": [
+      false,
+      true,
+      false,
+      true
+    ],
+    "fixed_slot_1": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "fixed_slot_2": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "fixed_slot_3": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "fixed_slot_4": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "majority": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "minority": [
+      false,
+      false,
+      true,
+      true
+    ]
+  },
+  "answer_correct_of_four": {
+    "always_false": 2,
+    "always_true": 2,
+    "exact_replay": 4,
+    "fixed_slot_1": 2,
+    "fixed_slot_2": 2,
+    "fixed_slot_3": 2,
+    "fixed_slot_4": 2,
+    "majority": 2,
+    "minority": 2
+  },
+  "checks_passed": 78,
+  "consequential_findings": [],
+  "created_at_utc": "2026-09-11T05:15:08.114870+00:00",
+  "deduplicated_vote": {
+    "abstentions": 4,
+    "accuracy": null,
+    "answered": 0,
+    "tied_cases": 4
+  },
+  "inputs_sha256": {
+    "_sessions/cycles/2026-09-11-cycle10-review-integration.md": "7d8ad1f0bfd0ffdd828a0c37ae7115d6a305cb516e07fcf165ce5bdc4ab3ee82",
+    "_sessions/cycles/2026-09-11-cycle11-evidence-selection-design.md": "03a0d066025b8ade11bf62aa5e4bf8d5033bd1295cda5f2c6595c7e064af586f",
+    "results/cycle10-2026-09-11/prepared/cases.md": "58c4fe32c6e93529e1ee6f606b4a47650ef6cd488e0e7c0b8d98939b7aff88ff",
+    "results/cycle10-2026-09-11/prepared/certificates/R0-F.json": "d4ead90b47c6e8d7edc7d425b85e8b6a93a49430b2b77faeb79cd96b4e664389",
+    "results/cycle10-2026-09-11/prepared/certificates/R0-V.json": "2871f2a39c8f9dc33c4c3deaf7b557fbec871ee14179913459795bea30edd906",
+    "results/cycle10-2026-09-11/prepared/certificates/R1-F.json": "2871f2a39c8f9dc33c4c3deaf7b557fbec871ee14179913459795bea30edd906",
+    "results/cycle10-2026-09-11/prepared/certificates/R1-V.json": "d4ead90b47c6e8d7edc7d425b85e8b6a93a49430b2b77faeb79cd96b4e664389",
+    "results/cycle10-2026-09-11/prepared/fixture.json": "fe748cb2dd9c4e32face6b559d2c2ba45712966b8cefac3bbb4b7d55bdaf1aea",
+    "results/cycle10-2026-09-11/prepared/manifest.json": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+    "results/cycle10-2026-09-11/prepared/programs/R0.py": "fc675c64e70f02ab225f037d686ed794fe16400890ade443ce9420331e2a5b65",
+    "results/cycle10-2026-09-11/prepared/programs/R1.py": "3f7197c4101c46e807229a6334d302cd98514b8739fef42ed9892604bb27c165"
+  },
+  "limitations": [
+    "No cycle11 program, certificate, packet or submission ID was materialized. Abstract labels and existing frozen bytes only.",
+    "No research source imported, no tests rerun, no RNG or provider calls, and no code, Git or shared-document edits.",
+    "This audits the prospective prose contract; it does not certify a future implementation or launch."
+  ],
+  "reviewed_contracts": [
+    "Four cases cross two truths and minority/majority regimes; each slot balances V/F within each truth. There are four planned answers and sixteen planned validity judgments.",
+    "R0 V and R1 F certificate files are byte-identical; R0 F and R1 V likewise. Their existing program-conditioned root IDs differ and must remain distinct.",
+    "Consistency compares the returned answer with the unique endpoint among submissions marked valid. Empty or conflicting endpoint support is undefined, with explicit reason; duplicate-root judgment disagreement is separately retained.",
+    "New answer-plus-four-ID validity schema is explicit, terminal-only, Boolean-only, duplicate-rejecting and all-or-nothing. Old three-ID parser is explicitly insufficient.",
+    "Complete primary requires all four accepted maps. Partial/invalid/unsent and accepted wrong decisions remain distinct. A separate execution decision is required; no automatic calls, retries or follow-up probes.",
+    "Review integration and design preserve output-level interpretation, nonindependence, measured future costs and no claim of causal copying effect or identified internal strategy."
+  ],
+  "schema_version": 1,
+  "scope": "Independent bounded prospective cycle11 design audit using only existing cycle10 artifacts and abstract V/F labels; no construction or execution approval.",
+  "status": "passed",
+  "validity_correct_of_sixteen": {
+    "always_invalid": 8,
+    "always_valid": 8,
+    "endpoint_agreement": 16,
+    "exact_replay": 16
+  }
+}

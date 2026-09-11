@@ -121,7 +121,7 @@ was designed to make that contrast exact before testing a model. This is a resea
 choice about information value, not a claim of improved model reasoning.
 [Cycle08 local result and cases](../results/cycle08-2026-09-10/REPORT.md)
 
-**Current frontier.** The certificate test then returned all six planned
+**A correct answer can have invalid support.** The certificate test then returned all six planned
 judgments correctly: three traces, judged before and after copying one invalid
 trace twice. The model rejected an invalid intermediate step even though its
 trace ended with the right answer. However, the valid trace happened to be first,
@@ -130,6 +130,17 @@ instead of treating success as proof of a checking strategy. The next design
 uses a small balanced panel to separate position and endpoint policies from
 exact verification. No multiagent advantage or general ability is established.
 [Cycle09 result and certificate cases](../results/cycle09-2026-09-11/REPORT.md)
+
+**Current frontier.** The follow-up fixed the program values and varied report
+position and final-answer values. All 18 judgments were correct. A fixed-position
+rule would score 10/18 and endpoint-only checking 12/18; the observed vector differs
+from both. That closes a specific ambiguity, while leaving the internal checking
+method unknown. The next four-case design returns to the original minority
+question: does valid minority evidence guide a decision against repeated bad
+support, and can the same verifier resist an invalid minority? If that simple
+verifier succeeds completely, we will park multiagent work in this small
+laboratory. More agents need a demonstrated problem to solve.
+[Cycle10 result and verified cases](../results/cycle10-2026-09-11/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout

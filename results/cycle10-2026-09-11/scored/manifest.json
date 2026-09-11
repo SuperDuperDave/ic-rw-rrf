@@ -1,0 +1,21 @@
+{
+  "coverage": {
+    "accepted": 18,
+    "correct": 18,
+    "planned": 18
+  },
+  "finished_utc": "2026-09-11T05:02:18.923834+00:00",
+  "input_sha256": {
+    "_sessions/tools/score_cycle10_verifier.py": "7827b6fb376d9ea97a62a6369d915417a063b17bfdd8be3b0b5b4b09e088480d",
+    "results/cycle10-2026-09-11/observations/manifest.json": "57b7388ffc37f60b30c5e3bb3f08c2c9db98f8a54a4cd5170125be6684dc7982",
+    "results/cycle10-2026-09-11/observations/responses.json": "e7cea3c7b97d48579384a0d8e506e2f34f1fdfea25f3de8071d5cf7f30ce2774"
+  },
+  "measurement_status": "complete",
+  "output_sha256": {
+    "manifest-start.json": "90efcf5ff2d5703e50b023beb9d037730fe31ca56352f564c806244f4ea8798e",
+    "scores.json": "c1b84e391baf464a7e225af2b49de81d011aae44d2c506e64a8b314039273f35"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-09-11T05:02:18.922519+00:00",
+  "status": "complete"
+}

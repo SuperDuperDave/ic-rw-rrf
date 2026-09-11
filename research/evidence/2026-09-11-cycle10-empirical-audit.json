@@ -1,0 +1,973 @@
+{
+  "accounting": {
+    "all_observed_costs_known": true,
+    "collection_wall_seconds": 19.69404851802392,
+    "max_observed_message_output_tokens": 152,
+    "messages_per_invocation": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "missing_thinking_counters": 0,
+    "native_cost_usd": "0.088035000000000004",
+    "output_tokens": 879,
+    "provider_message_count": 6,
+    "thinking_tokens": 561
+  },
+  "checked_utc": "2026-09-11T05:03:30.540937+00:00",
+  "checker_sha256": "81adf5a6974a84fe081cbf524e2c5efd8a96b039f3cf11e6607bba2fc260d96c",
+  "checks_passed": 3990,
+  "collection_manifest_sha256": "57b7388ffc37f60b30c5e3bb3f08c2c9db98f8a54a4cd5170125be6684dc7982",
+  "execution_manifest_sha256": "1584c3f3dce17e1759e6ec03b52acd05ac16fdfe09e3bb1347d378a63abe35ba",
+  "independent_helper_sha256": {
+    "check_cycle07_evidence.py": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+    "check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "check_cycle09_observations.py": "153b44480b0bbc8673ae068e1bbcdaaf95bd3da3127b8c32f5d2fd7b25a2adcf",
+    "check_cycle10_evidence.py": "ca332f32788281112b97b70631c5b782362481f26d3f36cc06b8f3979953c42a"
+  },
+  "limitations": [
+    "18 judgments on six roots from two endpoint variants of one arithmetic skeleton, not independent tasks.",
+    "Vector agreement or difference addresses only the eight named output policies, not internal strategy.",
+    "Fixed order and unlisted shortcuts preclude isolated causal position/endpoint claims.",
+    "Raw streams are explicitly unverified when absent or --public-only is used.",
+    "Missing usage counters remain unverified; native cost is not subscription billing."
+  ],
+  "native_binary_bytes": "verified",
+  "prepared_manifest_sha256": "6647f0ae806ada137668252ffe03839caeab3e13ae2ccf8127dcc6b67cf203cd",
+  "raw_checks": [
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014775",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R0-P1",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4hzGCYRA6jgFh7vi6k"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1104,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 149,
+        "output_tokens_details": {
+          "thinking_tokens": 93
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014305000000000002",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R1-P2",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4iEyEa1DyuPnaqBkpe"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1092,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 135,
+        "output_tokens_details": {
+          "thinking_tokens": 85
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014910000000000001",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R0-P3",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4iXHFeyadgmawbi9zw"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1110,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 152,
+        "output_tokens_details": {
+          "thinking_tokens": 96
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014605",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R1-P1",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4imYVmZpmDhw7SCuCp"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1092,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 147,
+        "output_tokens_details": {
+          "thinking_tokens": 97
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014785",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R0-P2",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4izwQgkrLmcYZjkvj3"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1110,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 147,
+        "output_tokens_details": {
+          "thinking_tokens": 91
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014655000000000001",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "R1-P3",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew4jE7vETgKvNwqhMHnr"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1092,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 149,
+        "output_tokens_details": {
+          "thinking_tokens": 99
+        }
+      },
+      "valid_answer": true
+    }
+  ],
+  "raw_streams_unavailable": 0,
+  "raw_streams_verified": 6,
+  "schema_version": 1,
+  "score_check": {
+    "by_root_position": {
+      "r_07f8548c5b839904": [
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 2,
+          "private_type": "V",
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 1,
+          "private_type": "V",
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 3,
+          "private_type": "V",
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        }
+      ],
+      "r_2d9aaba0809eb3ea": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 2,
+          "private_type": "I",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 1,
+          "private_type": "I",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 3,
+          "private_type": "I",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "r_4b61b62bf4ebb888": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 3,
+          "private_type": "F",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 2,
+          "private_type": "F",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 1,
+          "private_type": "F",
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "r_53a36be6236c8c95": [
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 1,
+          "private_type": "F",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 3,
+          "private_type": "F",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 2,
+          "private_type": "F",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "r_926fd49e10515fb3": [
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 3,
+          "private_type": "I",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 2,
+          "private_type": "I",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 1,
+          "private_type": "I",
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "r_fd33def23bfb8121": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 1,
+          "private_type": "V",
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 3,
+          "private_type": "V",
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 2,
+          "private_type": "V",
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        }
+      ]
+    },
+    "by_type_endpoint": {
+      "F": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 3,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 1,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 2,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 3,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 1,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 2,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "I": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 2,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 3,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 1,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 2,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 3,
+          "program_id": "R0",
+          "returned_validity": false,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 1,
+          "program_id": "R1",
+          "returned_validity": false,
+          "status": "accepted"
+        }
+      ],
+      "V": [
+        {
+          "correct": true,
+          "packet_id": "R0-P1",
+          "position": 1,
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P2",
+          "position": 2,
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P3",
+          "position": 3,
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P1",
+          "position": 1,
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R0-P2",
+          "position": 2,
+          "program_id": "R0",
+          "returned_validity": true,
+          "status": "accepted"
+        },
+        {
+          "correct": true,
+          "packet_id": "R1-P3",
+          "position": 3,
+          "program_id": "R1",
+          "returned_validity": true,
+          "status": "accepted"
+        }
+      ]
+    },
+    "decisions": [
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_fd33def23bfb8121",
+        "packet_id": "R0-P1",
+        "position": 1,
+        "private_type": "V",
+        "program_id": "R0",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_2d9aaba0809eb3ea",
+        "packet_id": "R0-P1",
+        "position": 2,
+        "private_type": "I",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_4b61b62bf4ebb888",
+        "packet_id": "R0-P1",
+        "position": 3,
+        "private_type": "F",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_53a36be6236c8c95",
+        "packet_id": "R1-P2",
+        "position": 1,
+        "private_type": "F",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_07f8548c5b839904",
+        "packet_id": "R1-P2",
+        "position": 2,
+        "private_type": "V",
+        "program_id": "R1",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_926fd49e10515fb3",
+        "packet_id": "R1-P2",
+        "position": 3,
+        "private_type": "I",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_2d9aaba0809eb3ea",
+        "packet_id": "R0-P3",
+        "position": 1,
+        "private_type": "I",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_4b61b62bf4ebb888",
+        "packet_id": "R0-P3",
+        "position": 2,
+        "private_type": "F",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_fd33def23bfb8121",
+        "packet_id": "R0-P3",
+        "position": 3,
+        "private_type": "V",
+        "program_id": "R0",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_07f8548c5b839904",
+        "packet_id": "R1-P1",
+        "position": 1,
+        "private_type": "V",
+        "program_id": "R1",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_926fd49e10515fb3",
+        "packet_id": "R1-P1",
+        "position": 2,
+        "private_type": "I",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_53a36be6236c8c95",
+        "packet_id": "R1-P1",
+        "position": 3,
+        "private_type": "F",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_4b61b62bf4ebb888",
+        "packet_id": "R0-P2",
+        "position": 1,
+        "private_type": "F",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_fd33def23bfb8121",
+        "packet_id": "R0-P2",
+        "position": 2,
+        "private_type": "V",
+        "program_id": "R0",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_2d9aaba0809eb3ea",
+        "packet_id": "R0-P2",
+        "position": 3,
+        "private_type": "I",
+        "program_id": "R0",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_926fd49e10515fb3",
+        "packet_id": "R1-P3",
+        "position": 1,
+        "private_type": "I",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_53a36be6236c8c95",
+        "packet_id": "R1-P3",
+        "position": 2,
+        "private_type": "F",
+        "program_id": "R1",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_07f8548c5b839904",
+        "packet_id": "R1-P3",
+        "position": 3,
+        "private_type": "V",
+        "program_id": "R1",
+        "returned_validity": true,
+        "status": "accepted"
+      }
+    ],
+    "full_primary": {
+      "counts": {
+        "accepted": 18,
+        "correct": 18,
+        "planned": 18
+      },
+      "policy_comparisons": {
+        "always_invalid": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 6,
+          "planned": 18
+        },
+        "always_valid": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 12,
+          "planned": 18
+        },
+        "endpoint_boolean": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 9,
+          "planned": 18
+        },
+        "endpoint_matches_truth": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 6,
+          "planned": 18
+        },
+        "exact_checker": {
+          "compared": 18,
+          "matches_full_vector": true,
+          "mismatches": 0,
+          "planned": 18
+        },
+        "position_1": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 8,
+          "planned": 18
+        },
+        "position_2": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 8,
+          "planned": 18
+        },
+        "position_3": {
+          "compared": 18,
+          "matches_full_vector": false,
+          "mismatches": 8,
+          "planned": 18
+        }
+      }
+    },
+    "independent_task_count": null,
+    "interpretation": "18 judgments on six certificates from two endpoint variants of one arithmetic skeleton; named output policies, not internal mechanisms.",
+    "invocations": {
+      "accepted": 6,
+      "invalid": 0,
+      "planned": 6,
+      "unsent": 0
+    },
+    "observed_counts": {
+      "accepted": 18,
+      "correct": 18,
+      "planned": 18
+    },
+    "per_packet": {
+      "R0-P1": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "R0-P2": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "R0-P3": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "R1-P1": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "R1-P2": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "R1-P3": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      }
+    },
+    "policy_comparisons": {
+      "always_invalid": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 6,
+        "planned": 18
+      },
+      "always_valid": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 12,
+        "planned": 18
+      },
+      "endpoint_boolean": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 9,
+        "planned": 18
+      },
+      "endpoint_matches_truth": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 6,
+        "planned": 18
+      },
+      "exact_checker": {
+        "compared": 18,
+        "matches_full_vector": true,
+        "mismatches": 0,
+        "planned": 18
+      },
+      "position_1": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 8,
+        "planned": 18
+      },
+      "position_2": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 8,
+        "planned": 18
+      },
+      "position_3": {
+        "compared": 18,
+        "matches_full_vector": false,
+        "mismatches": 8,
+        "planned": 18
+      }
+    },
+    "reference_policy_totals": {
+      "always_invalid": {
+        "correct": 12,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "always_valid": {
+        "correct": 6,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "endpoint_boolean": {
+        "correct": 9,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "endpoint_matches_truth": {
+        "correct": 12,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "exact_checker": {
+        "correct": 18,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": false
+      },
+      "position_1": {
+        "correct": 10,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "position_2": {
+        "correct": 10,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      },
+      "position_3": {
+        "correct": 10,
+        "planned": 18,
+        "valid": 18,
+        "vector_differs_from_exact": true
+      }
+    },
+    "schema_version": 1,
+    "status": "complete"
+  },
+  "scoring_manifest_sha256": "7ef88895e79e12af1398f3cde28e4cd57b0bed73cd46a25ea74d4ea0beb9bba3",
+  "status": "passed"
+}
