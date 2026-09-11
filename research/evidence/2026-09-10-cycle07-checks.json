@@ -1,0 +1,54 @@
+{
+  "timestamp_utc": "2026-09-11T03:24:18.289571+00:00",
+  "status": "passed",
+  "scientific_primary_status": "complete",
+  "observability_gate_passed": false,
+  "starting_commit": "02fd80499754fc695d19c22b57e4bb24de4becab",
+  "research_tests": {
+    "passed": 117,
+    "command": "python3 -B -m unittest discover -s evaluation/tests"
+  },
+  "helper_tests": {
+    "passed": 94,
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests"
+  },
+  "tests_total": 211,
+  "independent_prepared_checks": 13983,
+  "independent_full_checks": 16402,
+  "private_raw_streams_verified": 16,
+  "public_only_checks": 15986,
+  "local_markdown_links_checked": 132,
+  "missing_links": [],
+  "readable_development_cases_matched": 8,
+  "reserved_items_unsent": 16,
+  "collection_source_hashes_match": true,
+  "all_previous_cycle06_checkpoint_hashes_match": true,
+  "private_runtime_and_provider_paths_ignored": true,
+  "credential_signature_findings": [],
+  "relay_final_sequence": 44,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": [],
+  "native_empirical_list_accounting_usd": "0.166275",
+  "native_interpretation_review_list_accounting_usd": "0.21782825",
+  "native_total_list_accounting_usd": "0.38410325",
+  "review_capsule_example_correction": "Original sent example label37 corrected to23 using unchanged frozen case metadata; no experiment inputs/truths/scores changed.",
+  "artifact_sha256": {
+    "results/cycle07-2026-09-10/prepared/manifest.json": "7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708",
+    "results/cycle07-2026-09-10/observations/manifest.json": "3fa1294e76d3165b03815099b9c666ed14519337d957b6d1fac22ff94dbaceef",
+    "results/cycle07-2026-09-10/scored/manifest.json": "23541c1b2625567b400ec712ebeb0c651954b41a5ae95ac605f1bafd5ce85d16",
+    "results/cycle07-2026-09-10/scored/scores.json": "acf02990e772766953d8311aa0279a2bf0f964fad8032ccdb85baee3f28778e0",
+    "results/cycle07-2026-09-10/REPORT.md": "1aa470ec996463695529303f7dc04f146147d0ffa924c95bae1194c97431e746",
+    "results/cycle07-2026-09-10/development-cases.md": "4f3d9a19e42eca3d6eb8f35d4532cc623c7c17f90ad4c0d26a9bb83db00d5795",
+    "_sessions/evidence/2026-09-10-cycle07-independent-check.json": "7bd1cc1fc0e91c443a03c88337113552598c31a2fd96695dd57f0b2e4f879f4b",
+    "_sessions/evidence/2026-09-10-cycle07-review-receipt.json": "5991fc836cbb88d135c3eab6715e00222548dfe06c1cf831fd927599f15e0fdc",
+    "_sessions/cycles/2026-09-10-cycle08-loopbound-design.md": "d40d0f04de92489ed828d020e473ca9490fb0b2c7b4cca46a6ce46995ce9b667"
+  },
+  "limitations": [
+    "No observed errors or disagreements on eight selected development items; no general solver accuracy or independence claim.",
+    "The accepted first-candidate prefix is syntactically narrow; templates are not independent program families.",
+    "Native list accounting is not subscription billing; hidden wire attempts and provider weights are incompletely observable.",
+    "Normal native use verified the observer path; no new refusal occurred to test refusal handling.",
+    "Cycle08 is a prospective local preparation design, not a provider execution freeze."
+  ]
+}

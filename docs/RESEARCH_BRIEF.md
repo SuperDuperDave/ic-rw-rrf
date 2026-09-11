@@ -90,7 +90,7 @@ supports supplied-model reasoning, not real-world cabal detection or learned
 source reliability. A follow-up gives provenance a known chance of being wrong.
 [Empirical result and figure](../results/cycle05-replication-2026-09-10/REPORT.md)
 
-**Current frontier.** That follow-up produced three probabilities close to their
+**Uncertain provenance.** That follow-up produced three probabilities close to their
 noise-aware references, then a provider refusal stopped the planned eight-input
 batch. The full primary remains incomplete. One observed hint contrast is useful
 partial evidence; the missing cases remain unknown. An independent audit also
@@ -100,6 +100,15 @@ The next checkpoint asks whether small, mechanically verified program tasks
 produce enough differing and shared solver errors to study actual evidence
 quality. Separate sessions alone will not establish independence.
 [Cycle06 result and figure](../results/cycle06-2026-09-10/REPORT.md)
+
+**Current frontier.** The mechanically verified program panel then completed:
+two solver prompts each answered all eight development cases correctly. That
+sounds successful, but it failed the research gate—there were no errors or
+disagreements to compare. The reserved cases remain unused. The next step first
+checks whether changing only a loop bound creates an informative contrast;
+more execution steps do not necessarily require more reasoning, especially
+when a program has a simple recurrence or shortcut.
+[Cycle07 result and readable cases](../results/cycle07-2026-09-10/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -117,7 +126,11 @@ checked disagreements, not agreement alone.
 A further tools-disabled Fable review helped choose noisy provenance as the next
 axis. Independent algebra made the proposed error channel precise and reduced
 the experiment to eight inputs. Large agent counts were unnecessary when one
-coordinator already reproduced the fully supplied calculation.
+coordinator already reproduced the fully supplied calculation. The later review
+also caught an incorrect statement-count label in our capsule; the verified
+experiment records were already correct. We retained the original handoff and
+documented the correction, then refined its proposed difficulty experiment to
+avoid changing nesting and loop bounds together.
 
 ## What the project demonstrates
 
@@ -147,5 +160,5 @@ The existing specifications and May notebooks are historical artifacts. Current
 qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
 research process now; a new technical contribution still needs its own related
 work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next actual-error observation checkpoint from parked algorithm promotion. The separate
+the next local loop-bound audit from parked algorithm promotion. The separate
 website task owns integration and publication.

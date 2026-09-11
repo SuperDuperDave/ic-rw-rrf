@@ -1,0 +1,10 @@
+{
+  "input_sha256": {
+    "_sessions/tools/score_cycle07_programs.py": "1005fbc950ae30f32db9630e24f14899b0be1b05b4bb55cc83d479ce1d7a64d2",
+    "results/cycle07-2026-09-10/observations/manifest.json": "3fa1294e76d3165b03815099b9c666ed14519337d957b6d1fac22ff94dbaceef",
+    "results/cycle07-2026-09-10/observations/responses.json": "e82fc4258cc2f46b6177fbc5e56e64744d2ac18ab31665b98c5d21367e9d99f1"
+  },
+  "schema_version": 1,
+  "started_utc": "2026-09-11T03:13:29.484928+00:00",
+  "status": "started"
+}

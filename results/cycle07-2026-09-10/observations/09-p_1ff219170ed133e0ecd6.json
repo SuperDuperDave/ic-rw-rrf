@@ -1,0 +1,113 @@
+{
+  "answer": false,
+  "distinct_observed_message_count": 1,
+  "exit_code": 0,
+  "finished_utc": "2026-09-11T03:12:55.514618+00:00",
+  "init": {
+    "mcp_servers": [],
+    "model": "claude-opus-5",
+    "permissionMode": "dontAsk",
+    "plugins": [],
+    "skills": [],
+    "tools": []
+  },
+  "interrupted": false,
+  "issues": [],
+  "local_error_records": [],
+  "messages": {
+    "msg_011CevvQv14aAjXzjUsrAgrP": {
+      "model": "claude-opus-5",
+      "stop_reason": "end_turn",
+      "usage": {
+        "cache_creation_input_tokens": 551,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 315,
+        "output_tokens_details": {
+          "thinking_tokens": 306
+        }
+      }
+    }
+  },
+  "model_usage": {
+    "claude-opus-5": {
+      "cacheCreationInputTokens": 551,
+      "cacheReadInputTokens": 0,
+      "canonicalModel": "claude-opus-5",
+      "contextWindow": 1000000,
+      "costUSD": 0.013394999999999999,
+      "inputTokens": 2,
+      "maxOutputTokens": 64000,
+      "outputTokens": 315,
+      "provider": "firstParty",
+      "thinkingTokens": 306
+    }
+  },
+  "native_acceptable": true,
+  "native_cost_usd": "0.013394999999999999",
+  "native_is_error": false,
+  "native_stop_reason": "end_turn",
+  "native_subtype": "success",
+  "num_turns": 1,
+  "observed_models": [
+    "claude-opus-5"
+  ],
+  "ordinal": 9,
+  "packet_id": "p_1ff219170ed133e0ecd6",
+  "parse_failure": null,
+  "payload_sha256": "1ff219170ed133e0ecd647168353f1c189faa7806b00720d1d6216d4add09c8c",
+  "provider_refusals": [],
+  "recovery_markers": [],
+  "requesting_status_count": 1,
+  "scheduled_remaining_native_usd": "0.915880000000000003",
+  "scheduled_timeout_seconds": 120,
+  "session_id": "8021975d-3e06-4757-a5b3-c01dce7ea0d7",
+  "started_utc": "2026-09-11T03:12:51.676942+00:00",
+  "stderr_path": "_sessions/local/cycle07/94635f00-a1ba-4524-b9dd-4d1682be4e11/09.stderr",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_path": "_sessions/local/cycle07/94635f00-a1ba-4524-b9dd-4d1682be4e11/09.jsonl",
+  "stdout_sha256": "9eaf2d2f7f3e477802302627aa23a4d9b0df5acd3a6564e90573f8421858cccb",
+  "subagent_statistics": [
+    {
+      "counts": {
+        "by_type": {},
+        "completed": 0,
+        "failed": 0,
+        "killed": {
+          "parent": 0,
+          "system": 0,
+          "user": 0
+        },
+        "max_depth": 0,
+        "refused": {
+          "budget": 0,
+          "concurrency_limit": 0,
+          "depth_limit": 0
+        },
+        "requested": {
+          "background": 0,
+          "foreground": 0,
+          "unset": 0
+        },
+        "spawned": 0,
+        "spawned_by_subagents": 0,
+        "started_in_background": 0
+      },
+      "field": "subagent_stats"
+    }
+  ],
+  "system_prompt_sha256": "4524b7124c3540ca5e6292ec6fdc0ca7f67e815aadfa9f3ec3433bc67710a984",
+  "terminal_session_id": "8021975d-3e06-4757-a5b3-c01dce7ea0d7",
+  "terminal_text_sha256": "0bdf984955773cca06e16932f89e3f8940dad8b8f8dc153cc933941ba2490f88",
+  "timed_out": false,
+  "usage": {
+    "cache_creation_input_tokens": 551,
+    "cache_read_input_tokens": 0,
+    "input_tokens": 2,
+    "output_tokens": 315,
+    "output_tokens_details": {
+      "thinking_tokens": 306
+    }
+  },
+  "wall_seconds": 3.837542826018762
+}

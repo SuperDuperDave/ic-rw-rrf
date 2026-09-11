@@ -1,0 +1,36 @@
+{
+  "batch": null,
+  "checked_utc": "2026-09-11T03:11:36.885894+00:00",
+  "checker_sha256": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+  "checks_passed": 13983,
+  "independence": "Standard-library AST interpreter and direct event counting; no production imports or execution.",
+  "limitations": [
+    "Fresh contexts establish no supplied shared conversation history, not statistical independence.",
+    "Eight deliberately balanced development items do not estimate natural task prevalence or population performance.",
+    "Truth-conditioned joint-error excess does not isolate shared item difficulty or causal dependence.",
+    "The observability gate checks denominator feasibility; passing is not precision, power or a useful effect.",
+    "Full primary requires all eight valid pairs; partial valid pairs form a selected denominator.",
+    "Syntactic structural distinctness is not proof of semantic inequivalence or independent task sampling.",
+    "Native streams do not enumerate hidden transport attempts; unavailable message usage remains unverified.",
+    "Native accounting is not subscription billing; per-response output ceilings do not cap aggregate invocation tokens.",
+    "Public-only checks cannot verify absent private streams or installed binaries."
+  ],
+  "prepared_manifest_sha256": "7bad23c670b61b36d2bd17daf27ad83200dddc0f1088edc3035a26a36d933708",
+  "prepared_oracle": {
+    "all_python_answers_final_states_and_ASTs_match": true,
+    "all_templates_distinct_after_literal_alpha_and_predicate_normalization": true,
+    "candidate_attempts": 48,
+    "development_invocations": 16,
+    "development_items": 8,
+    "exclusion_counts": {
+      "cell_full": 24
+    },
+    "item_count": 24,
+    "reserve_absent_from_provider_payloads": true,
+    "reserved_items": 16,
+    "seed42_split_and_call_order_reconstructed": true
+  },
+  "schema_version": 1,
+  "status": "passed_prepared_only",
+  "truth_python_bytes": "verified"
+}

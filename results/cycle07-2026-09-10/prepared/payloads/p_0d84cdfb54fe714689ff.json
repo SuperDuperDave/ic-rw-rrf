@@ -1,0 +1,1 @@
+{"program":"a = 1\nb = 4\nc = 3\na = a + b\nb = (a + c) % 6\nif b > c:\n    a = a * c\nc = c + b\nif a % 2 == 0:\n    b = b + a\na = (a + b) + c\nresult = (a % 3 == 0)\n","role_instruction":"Evaluate the supplied program and answer the final Boolean question."}

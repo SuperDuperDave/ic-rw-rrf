@@ -1,0 +1,1 @@
+{"program":"a = 5\nb = 5\nc = 5\nfor i in range(3):\n    a = a + b\n    b = (b + i) % 5\n    if b == c:\n        a = a + i\n    c = (c + a) % 11\nb = b + c\na = (a + b) - c\nresult = (a % 3 == 1)\n","role_instruction":"Evaluate the supplied program and answer the final Boolean question."}

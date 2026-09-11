@@ -1,0 +1,1 @@
+{"program":"a = 7\nb = 3\nc = 6\na = a + b\nb = (a + c) % 7\nif b < c:\n    a = a + c\nc = c + b\nif a % 2 == 0:\n    b = b + a\na = (a + b) + c\nresult = (a % 3 == 2)\n","role_instruction":"Check sequential updates, loop bounds and branch conditions when evaluating the supplied program, then answer the final Boolean question."}
