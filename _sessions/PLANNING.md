@@ -184,26 +184,44 @@ Do not infer error independence or general solver perfection. Changed families
 or configurations need their own development/untouched separation; the old
 reserve does not become a source of replacement tasks.
 
-### R10 — NEXT: inspect a matched loop-bound intervention locally
+### R10 — DONE 2026-09-11: local gate passed; arithmetic provider batch parked
 
-The [cycle08 design](cycles/2026-09-10-cycle08-loopbound-design.md) owns a finite
-local preparation audit before new provider spending. Hold template topology,
-parameters, G instruction and prospective model/resources fixed while changing
-one literal loop bound. Four fresh templates at two bounds are a candidate for
-at most eight later G-only calls, not an already frozen execution experiment.
+The [cycle08 report](../results/cycle08-2026-09-10/REPORT.md) records four templates
+×two bounds, all truths/states checked, and no local gate failure. All short
+answers are false; two long answers are false. An always-false reference policy
+would mimic a 4/4→2/4 accuracy decline. This is an interpretation limit, not a
+retrospective gate change. No replacements, solver calls or reserve consumption.
 
-**First action:** freeze a small new grammar/candidate order, generate bounded
-matched programs, independently verify both truths/states and execution counts,
-and inventory unchanged answers, cycles or simple shortcuts. Longer execution
-is not a proof of harder reasoning. Report finite selection and all exclusions;
-no search for observed model failures, nesting change or old reserve consumption.
+The independent checker passed 24,968 checks; all 236 tests passed before
+enumeration. Claude recommended evidence-content verification, with arithmetic,
+novelty and efficiency overclaims corrected in the review integration. Park the
+eight-call G-only candidate on information value; do not automatically resume it
+or balance its labels by changing the seed. Reopening requires a concrete
+natural-error question and a separately reviewed execution/comparison contract.
 
-**Checkpoint:** complete the local audit and decide whether its observable
-contrast justifies a separate execution freeze. Stop or park if it does not.
-Any later eight-call development batch has a fixed stop, named comparisons,
-actual resource controls and its own budget; no first-mixed-result selection,
-S calls or exposure arm is automatically authorized by the proposed design.
-Dave's standing research authority continues; no new permission ritual is needed.
+### R11 — NEXT: locally construct a certificate-content contrast
+
+The [cycle09 design](cycles/2026-09-10-cycle09-certificate-design.md) owns the
+next preparation. One fresh six-assignment program has three certificate types:
+valid; invalid at row3 but with the correct final Boolean; and invalid only at
+the final predicate. A second packet adds exact copies of the final-error trace.
+The seed, signed-literal syntax, row/type schema, copy boundaries, IDs/order,
+serialization and failure stops are fixed before any parameter draws.
+
+**First action:** implement bounded Python execution and an independent full-state
+transition checker, verify synthetic edge cases, freeze source identities, then
+generate exactly the first candidate. Check all intended validity/first-error
+properties, the parity-preserving negative control, payload identity and leakage.
+No parameter/corruption replacement or old reserve use. Coordinator owns shared
+records; disjoint workers may own implementation and independent checks.
+
+**Checkpoint:** a truthful local fixture and evidence/value review before any
+separately frozen solver calls. Checking whole traces need not beat replay in
+cost. Always-valid/invalid reference policies and repeated-root rejection remain
+alternative explanations; repeated text changes context exposure as well as
+multiplicity. Verification, redundancy robustness and collaboration advantage
+are separate. Any future multiagent comparison needs the same evidence and total
+inference budget as a single verifier. No next-cycle cases currently exist.
 
 ## Communication and operations
 

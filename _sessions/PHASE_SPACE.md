@@ -32,7 +32,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H7 | `[observed, narrow]` Actual Opus5 uses the fully supplied calibration/lineage model on the fixed diagnostic | Twenty valid fresh responses, all reference decisions, max probability error3.37e-8; source detection and general ability remain open |
 | H8 | `[partial, incomplete]` Three returned probabilities track noise-aware inference; full eight-input primary unavailable | One weak hint contrast observed; strong independent-hint cases unsent after refusal; park further supplied tables |
 | H9 | `[observed, gate failed]` This small program panel exposed no differing or shared errors | Both roles correct on all8items; park exact configuration, reserve unsent; no general independence/accuracy claim |
-| H10 | `[next, local audit]` A longer execution path may expose useful variation, or remain simple through recurrence/shortcuts | Inspect four matched fresh templates at two loop bounds before considering eight G-only calls; execution count is not reasoning difficulty |
+| H10 | `[observed locally; provider batch parked]` All four pairs change final state and pass the local gate, but an always-false policy mimics a 4/4→2/4 accuracy decline | Preserve the panel; no model difficulty/error claim. Certificate content offers a more direct evidence question |
+| H11 | `[next, local construction]` A correct final answer can accompany an invalid explanation; repeated artifacts need not add valid support | Construct one program and three trace types with local validity/first-error checks before any solver test; provenance and correct bits alone do not identify checking strategy |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -122,3 +123,13 @@ found relevant prior work; it does not constitute novelty clearance.
   another provider wave. Distinguish execution length from reasoning difficulty,
   nesting from iteration count, and observed tokens from causal compute benefit.
   Correct the capsule's example count using unchanged source evidence.
+
+- **Cycle08 local measurement:** four candidates produce eight verified programs;
+  the committed gate passes. The truth imbalance admits an always-false reference
+  policy with a short/long accuracy decline. Distinct end states and two Boolean
+  flips are local effects of N; they do not establish harder reasoning.
+- **Cycle08 review transition:** park the provider batch despite the passed gate
+  and move to certificate-content verification. Preserve independent criticism
+  of unsupported chance/novelty claims and a cheaper-than-replay gate. One fresh
+  short construction can separate a correct answer from valid support without
+  inducing spontaneous solver errors. [Cycle09 design](cycles/2026-09-10-cycle09-certificate-design.md).

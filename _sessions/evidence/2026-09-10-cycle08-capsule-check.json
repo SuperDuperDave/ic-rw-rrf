@@ -1,0 +1,9 @@
+{
+  "source_artifacts_sha256": {
+    "results/cycle08-2026-09-10/prepared/panel.json": "a01ff4c68422cbf831a38df06f8e024675fa5d952dac55ad392df1656ede3707",
+    "results/cycle08-2026-09-10/prepared/manifest.json": "315b0282dc765569f9d4acc6f47a6a56ca3b65eaea12d7ae037b0886c5873a0d"
+  },
+  "generator_sha256": "30b554d92873a9e2dd41b853e553a4606decb143486ac685d018e121107521b4",
+  "mission_sha256": "235baecc10d4c60200da5bcf35ddca41bc42e0f53531381a076fe134b1b796dc",
+  "numeric_capsule_source": "Program/count/truth/gate table and source copied programmatically from sealed panel; no handwritten case labels."
+}

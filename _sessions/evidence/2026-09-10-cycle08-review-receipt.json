@@ -1,0 +1,52 @@
+{
+  "session_id": "9cc0f1aa-02d2-4b47-aacd-89ef97fbacb1",
+  "marker": "cycle08-review-5426d05e99",
+  "mission_sha256": "235baecc10d4c60200da5bcf35ddca41bc42e0f53531381a076fe134b1b796dc",
+  "exit_code": 0,
+  "timed_out": false,
+  "wall_seconds": 31.349907077965327,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "native_cost_usd": 0.19646825,
+  "native_model_usage": {
+    "claude-fable-5-1": {
+      "inputTokens": 2,
+      "outputTokens": 2033,
+      "cacheReadInputTokens": 3913,
+      "cacheCreationInputTokens": 4691,
+      "webSearchRequests": 0,
+      "costUSD": 0.19646825,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 1212,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "output_word_count": 392,
+  "advisory_word_target": 350,
+  "native_max_budget_usd": 1,
+  "process_wall_limit_seconds": 180,
+  "model_tools": [],
+  "agent_dispatch_count": 0,
+  "raw_stdout_sha256": "4cf1ce03950d3526529ccee349b98e8d9ba2db8c2825141d913e9b7354cd774b",
+  "memo_sha256": "0e2aaa47e0b8e839dc99665d5d8326a860f094a876044cf6dd9deb11a38df791",
+  "memo_extraction": "All assistant text blocks in order, excluding thinking; terminal result also contains the complete memo.",
+  "relay_request_seq": 45,
+  "relay_lifecycle_seq": [
+    46,
+    47,
+    48
+  ],
+  "relay_ack_seq": 49,
+  "relay_ack_recorded_by": "Codex after reading exact request and complete memo, on Claude request",
+  "relay_final_pending_signals": [],
+  "relay_final_active_claims": [],
+  "source_access": "Artifact-derived local result table and one synthetic program only; no reserved data, independent file inspection or raw provider streams.",
+  "review_distinct_from_empirical_measurements": true,
+  "empirical_solver_invocations": 0,
+  "requested_model": "claude-fable-5-1",
+  "requested_effort": "high",
+  "native_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0"
+}

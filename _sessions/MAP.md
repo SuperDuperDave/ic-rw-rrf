@@ -1,6 +1,6 @@
 # IC(R/W)-RRF — map
 
-Role map, refreshed 2026-09-10. Verify symbols at edit time; line numbers drift.
+Role map, refreshed 2026-09-11. Verify symbols at edit time; line numbers drift.
 Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 
 | Path | Role / when to read |
@@ -36,13 +36,18 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/tools/run_cycle06_coordinator.py`, `score_cycle06_coordinator.py` | Frozen scoped adapters reusing prior native/custody controls |
 | `_sessions/tools/check_cycle06_evidence.py` | Independent likelihood/direct-loss and raw observation audit; preserves failed-message discrepancies |
 | `_sessions/tools/native_stream_observer.py` | Future-only correction for precise no-fallback/local API-error shape; original collectors unchanged |
-| `_sessions/cycles/2026-09-10-cycle07-observation-design.md` | Prospective actual paired-error feasibility; preparation and execution freeze still required |
+| `_sessions/cycles/2026-09-10-cycle07-observation-design.md` | Historical frozen paired-error feasibility design; complete all-correct result in cycle07 report |
 | `results/cycle06-2026-09-10/REPORT.md`, `prepared/`, `observations/`, `scored/` | Incomplete3/8 noisy-hint result, frozen original metadata and exact subset losses |
 | `evaluation/cycle07_program_errors.py` | Frozen bounded program generator, Python truth checks, strict Boolean parser, split/custody and paired-error scorer |
 | `_sessions/tools/check_cycle07_evidence.py` | Independent AST interpreter, candidate/split reconstruction, joint counts and private native-stream audit |
 | `_sessions/tools/run_cycle07_programs.py`, `score_cycle07_programs.py` | Development-only16-call collection and immutable offline scoring; format failure stops scheduling |
 | `results/cycle07-2026-09-10/REPORT.md`, `development-cases.md` | Complete all-correct result, failed observation gate and readable actual tasks |
-| `_sessions/cycles/2026-09-10-cycle08-loopbound-design.md` | Next local matched-program audit; no provider execution freeze yet |
+| `_sessions/cycles/2026-09-10-cycle08-loopbound-design.md`, `cycle08-local-protocol.md` | Frozen local matched-program audit; passed gate and separately parked provider candidate |
+| `evaluation/cycle08_loopbound.py` | Exact-skeleton Python execution, candidate order, full traces, source review, immutable local artifacts |
+| `_sessions/tools/check_cycle08_evidence.py` | Independent AST/state/candidate reconstruction and local custody audit |
+| `_sessions/tools/build_cycle08_review_capsule.py` | Artifact-derived Claude review table and example, with source/mission hashes |
+| `results/cycle08-2026-09-10/REPORT.md`, `prepared/` | Passed local gate, always-false reference-policy limitation, preserved cases and certificate pivot |
+| `_sessions/cycles/2026-09-10-cycle09-certificate-design.md` | Next local certificate audit: correct endpoint with invalid evidence, exact copy intervention and claim boundaries |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

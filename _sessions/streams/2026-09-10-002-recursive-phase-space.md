@@ -2,10 +2,10 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle07 closed with16valid responses/8pairs, both roles allcorrect. Fullprimary complete, observabilitygatefailed;16reserveitemsunsent. All211tests and16,402independentchecks pass.
-- Next: R10 / cycle08-loopbound-design owns local matched-program observability audit before any separately frozen eight-call G-only candidate. H9configurationparked; H8stillincomplete. Do not consume oldreserves or silently add a difficulty/exposure wave.
-- In flight: no provider process or live collaborator; Relay44clear. Finalchecks complete; coordinator owns the Git checkpoint.
-- Preserve: all historical/cycle01–07 frozen evidence. Reviewcapsule examplecount37→23 is corrected in integration, original experimentdataunchanged. Raw provider text stays ignored.
+- Now: cycle08 local audit complete: four templates/eight programs, passed gate, 24,968 independent checks and 236 tests. No empirical solver calls. Arithmetic batch separately parked because of interpretation limits and a better evidence-content question.
+- Next: R11 / cycle09 certificate design owns local construction before any solver execution freeze. First implement and independently check the three trace types and parity-preserving negative control; no parameter draw has occurred.
+- In flight: no provider process or live collaborator. Claude review45 consumed at ACK49; Relay clear. Final evidence/documentation checks pass; Git history records this turn’s preservation checkpoint.
+- Preserve: all historical/cycle01–08 frozen evidence, including the cycle08 passed gate and cycle07's16 unsent reserve items. Do not repair the loop panel or silently launch its arithmetic batch. Raw provider text stays ignored.
 
 ## Scope and authority
 Dave explicitly authorized recursive project exploration, necessary context sharing with Claude, intentional Fable5.1/Opus5 use, phased subagents, and local restructures/experiments. Charter owns standing intent. Do not repeatedly ask for ordinary in-scope permission. No website publication or unrelated-session changes are part of this cycle. The preservation follow-up below records explicit GitHub commit/push authorization.
@@ -214,3 +214,29 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
 - Reuse thisstream andpreservefrozenevidence. Finalchecks andGitHub checkpoint ownturnpreservation; no websitepublication or unrelatedrepochanges.
 
 - Finalverification: all211tests passed; independent16,402raw/truth/scorechecks, public-only15,986. All8readablecases matchfrozenrecords;132locallinksresolve; priorcycle06checkpoint hashesandcurrentcollectionsourcesunchanged. Independentprose/next-designboundsreview foundnomaterialmismatch. Finalreceipt:evidence/2026-09-10-cycle07-checks.json.
+
+## Cycle08 — local observability preparation
+
+- Continued from83d45ab with clean worktree, same coordinating stream and Relay44clear. No blocking NEEDS DAVE item. Frozen design fixes four structural templates ×N{4,64}, candidate seed420008 and the explicit parking rule.
+- Two independent implementations prepare before actual enumeration. The local protocol clarifies that finite constant Boolean traces/equal endpoint Booleans are descriptive, not newly added gate failures; full-state cycles and identical final triples retain their original gates.
+- A separate read-only lens checks the bridge from arithmetic feasibility to the original minority-evidence/consensus question. This cycle stops after local audit and interpretation; further empirical work needs its own execution freeze.
+
+## Cycle08 — evidence, interpretation and checkpoint
+
+- Full preflight: 131 research +105 helper tests pass (236 total) before actual enumeration. First four candidates produce four templates/eight programs, no exclusions. Manifest315b0282dc765569f9d4acc6f47a6a56ca3b65eaea12d7ae037b0886c5873a0d; local generation/truth0.09357735799858347seconds. Independent24,968 checks match all truths/states/branches/counts/candidate order and old structural-hash provenance.
+- All pairs change final(a,b,c); two change Boolean. No full-state recurrence or constant Boolean prefix path in the observed65states. Counts28–29 versus355–364; maxabsolute965,150. Local gate passes. No implied harder reasoning or research novelty.
+- Independent audit identifies all four short truths false versus two long false. Always-false reference gives4/4→2/4 with no difficulty response. Keep original gate passed; park proposed solver batch on information value, without replacements or empirical calls.
+- One compact Fable5.1/high review succeeds31.35seconds,$0.19646825,2,033output incl1,212thinking;392words versus350advisory. Request45 marker returns, lifecycle46–48 closes, exact requested consumptionACK49 recorded; finalbrief clear. No tools/scouts or task-owned live provider.
+- Adopt certificate-content branch; correct unsupported chance reading of endpoint flips, novelty shorthand and cheaper-than-replay gate. A changed Boolean is a finite effect of N, not difficulty proof. Cycle07 only established no observed errors on its own panel. Preserve original public memo and corrections separately.
+- Next cycle09 freezes one fresh short program and three trace variants, including invalid transition/correct final parity; exact local state verification before any provider call. Independent algebra confirms first invalid rows3/6 and ±29 bound. Complete-state/types, signed literals, exact copying/IDs and serialization clarified before generation. F-only repetition has a heuristic cue and adds text; no pure-copy mechanism or internal-checking claim.
+- Ratchet: F22 SUBTRACT manual case facts using artifact-derived review builder. Actual four-row table/source/hash independently match and were sent successfully. Interpretation completeness remains separate. PROMOTE simple-policy alternatives and origin-relevance decision into PHASE_SPACE/R10/R11; no new tuning gate. DROP transient source-review schema mismatch caught before enumeration, and reuse existing F5 host-context Relay resolution without reinstalling or adding a permission ritual.
+
+## Current cycle08 carryforward
+
+- R11 / cycle09-certificate-design: implement, independently verify, then draw one candidate for local audit. No cycle09 source or provider packet exists yet.
+- R10's arithmetic provider candidate stays parked despite the passed local gate. R9's all-correct result and R8's incomplete result retain their distinct limitations; old reserves remain unsent.
+- Reuse this stream. Final checks and GitHub commit/push preserve this turn; website publication and other projects remain separate.
+
+- Final verification (wrap crossed into2026-09-11; same stream retained): all236 tests pass, standard-library demo exits0, independent24,968 checks pass, eight readable cases and the actual review capsule match, and139 current local links resolve. Prior cycle07 checkpoint artifacts and all cycle08 prepared sources/bytes remain unchanged. Private runtime remains ignored; no credential signatures detected in changed public files. Receipt:evidence/2026-09-10-cycle08-checks.json. No live worker or provider job.
+
+- Staged review found one harmless extra EOF blank in the already frozen new test; retained its exact bytes rather than invalidating source custody. All other staged whitespace checks pass. F23 promotes inclusion of untracked files in pre-freeze review; future early-detection outcome remains unverified.

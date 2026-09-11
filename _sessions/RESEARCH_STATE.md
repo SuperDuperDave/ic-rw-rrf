@@ -17,6 +17,36 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle08: valid local manipulation, then an evidence-content pivot
+
+The [local report](../results/cycle08-2026-09-10/REPORT.md) verifies four matched
+program templates at N=4 and N=64: eight programs from four attempts, with no
+exclusions. Python and an independent AST evaluator agree; 24,968 checks pass.
+There are no cycles within the observed states or identical final triples.
+Actual statement counts rise from 28–29 to 355–364. The committed local gate
+passes; no minimum reasoning difficulty or model error has been measured.
+
+All four short-program truths are false; two long-program truths are false.
+An always-false reference policy therefore scores 4/4 versus 2/4. This apparent
+accuracy decline requires no response to difficulty. Preserve that finite
+panel and its passed gate; the proposed empirical batch is separately parked
+because its information value is weaker than a direct evidence-content test.
+No empirical solver or reserve calls followed.
+
+One Fable5.1/high interpretation review succeeded in 31.35 seconds at $0.19646825
+native accounting, without tools or scouts. We adopted the certificate direction
+while correcting its unsupported chance interpretation, novelty wording and
+cheaper-than-replay requirement. [Integration](cycles/2026-09-10-cycle08-review-integration.md).
+The capsule's table and source were artifact-derived and checked independently.
+
+**Next: R11 / [cycle09 certificate construction](cycles/2026-09-10-cycle09-certificate-design.md).**
+Locally construct one valid trace, one invalid transition with a correct final
+answer, and one wrong final predicate; compare original and repeated erroneous
+support. No cases have been generated. This tests a prospective evidence
+verification contrast; neither copy identity nor correct judgments alone proves
+independent evidence or a particular internal checking strategy. Multiagent
+benefit would require its own fair single-verifier comparison.
+
 ## Cycle07: actual program answers, but no error variation
 
 The [cycle07 report](../results/cycle07-2026-09-10/REPORT.md) records16 valid
@@ -39,7 +69,7 @@ One Fable review completed at$.21782825 and suggested G-only difficulty
 calibration. Integration corrects our review-example count(23, not37), distinguishes
 loop-bound intervention from nesting, and rejects causal conclusions from token
 counts. Actual experiment metadata never changed. Total native cycle$.38410325.
-**Next: R10 / [cycle08 local loop-bound audit](cycles/2026-09-10-cycle08-loopbound-design.md)**
+**Subsequent checkpoint: R10 / [cycle08 local loop-bound audit](cycles/2026-09-10-cycle08-loopbound-design.md)**
 before any separately frozen G-only batch. Longer execution need not require
 longer reasoning; unchanged outcomes or simple recurrence structure may make
 another provider run uninformative. [Review integration](cycles/2026-09-10-cycle07-review-integration.md).

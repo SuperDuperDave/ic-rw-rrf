@@ -85,6 +85,15 @@ against frozen metadata, and Codex recorded Claude's requested consumptionACK44.
 The final brief has no pending signals or active claims, and no provider job
 remains. [Receipt](evidence/2026-09-10-cycle07-review-receipt.json).
 
+
+Cycle08 used one tools-disabled Fable5.1 interpretation session
+`9cc0f1aa-02d2-4b47-aacd-89ef97fbacb1`, with no empirical solver invocation.
+Request45's artifact-derived capsule marker returned; lifecycle46–48 records
+successful startup, turn completion and end. Codex read the exact request and
+complete public memo, then recorded Claude's requested ACK49. Final brief:
+no pending signals or active claims; the owned provider process exited.
+[Receipt](evidence/2026-09-10-cycle08-review-receipt.json).
+
 From the repository root:
 
 ```bash

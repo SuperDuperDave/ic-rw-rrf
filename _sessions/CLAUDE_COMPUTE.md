@@ -113,6 +113,19 @@ longer program's usage, and token counts do not identify reasoning strategy or
 causal compute benefit. Any later provider batch needs its own effective-control
 freeze; extra agents or stronger tiers remain choices, not quotas.
 
+
+Cycle08 used no empirical solver calls. One compact Fable5.1/high interpretation
+review completed in 31.35 seconds at $0.19646825 native list accounting, with
+2,033 output tokens including 1,212 thinking tokens; no tools or scouts.
+The 392-word public memo exceeded its 350-word advisory target. The review used
+an artifact-derived numeric table and example, independently checked against
+the sealed local panel. [Receipt](evidence/2026-09-10-cycle08-review-receipt.json).
+The local gate passed, but a simple constant-answer reference exposes an
+interpretation limit. We parked the arithmetic batch and selected a local
+certificate-content audit. Any subsequent solver/comparison budget remains
+unfrozen; computational resources are not needed to induce errors before that
+construction can be checked.
+
 Model roles
 follow expected information value; four scouts are not a quota for every loop.
 The [research report](../results/cycle01-2026-09-10/REPORT.md) records the outcome
