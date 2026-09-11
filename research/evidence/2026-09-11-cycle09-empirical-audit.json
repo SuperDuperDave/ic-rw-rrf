@@ -1,0 +1,321 @@
+{
+  "accounting": {
+    "all_observed_costs_known": true,
+    "collection_wall_seconds": 6.0148106789565645,
+    "max_observed_message_output_tokens": 159,
+    "messages_per_invocation": [
+      1,
+      1
+    ],
+    "missing_thinking_counters": 0,
+    "native_cost_usd": "0.032690",
+    "output_tokens": 296,
+    "provider_message_count": 2,
+    "thinking_tokens": 194
+  },
+  "checked_utc": "2026-09-11T04:42:26.093621+00:00",
+  "checker_sha256": "153b44480b0bbc8673ae068e1bbcdaaf95bd3da3127b8c32f5d2fd7b25a2adcf",
+  "checks_passed": 1298,
+  "collection_manifest_sha256": "e9fb9c291506a27efb338bb0addeaff5373f614f14527f792136d0c9ef5deed3",
+  "execution_manifest_sha256": "43b5fb9e6bf85b7679a192a48f0f1e66b7091070880c565f0841e1235f96cccc",
+  "independent_helper_sha256": {
+    "check_cycle07_evidence.py": "d267b026560f12e716ea1509ae3fb26336cfcdc0e31e456cc10cb2b7dee3a340",
+    "check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab"
+  },
+  "limitations": [
+    "Six judgments repeat three originals on one all-zero program; not six independent tasks.",
+    "First-original-only is also perfect here; correct bits do not identify verification strategy.",
+    "F-only copies add text and a provenance cue; this is not a pure copying causal contrast.",
+    "Raw streams are explicitly unverified when absent or --public-only is used.",
+    "Missing usage counters remain unverified; native cost is not subscription billing.",
+    "The raw-frame and AST helpers are independent checkers, not empirical production implementations."
+  ],
+  "native_binary_bytes": "verified",
+  "prepared_manifest_sha256": "0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250",
+  "raw_checks": [
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.014325",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "base",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew2q7wmTpuJcPms19rGx"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1089,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 137,
+        "output_tokens_details": {
+          "thinking_tokens": 86
+        }
+      },
+      "valid_answer": true
+    },
+    {
+      "local_error_records": [],
+      "messages_without_output_usage": 0,
+      "native_acceptable": true,
+      "native_cost_usd": "0.018365",
+      "observed_models": [
+        "claude-opus-5"
+      ],
+      "packet_id": "repeat",
+      "provider_message_count": 1,
+      "provider_message_ids": [
+        "msg_011Cew2qMfHRe6MCfSbGE6LJ"
+      ],
+      "provider_refusals": [],
+      "recovery_markers": [],
+      "requesting_status_count": 1,
+      "status": "verified",
+      "usage": {
+        "cache_creation_input_tokens": 1438,
+        "cache_read_input_tokens": 0,
+        "input_tokens": 2,
+        "output_tokens": 159,
+        "output_tokens_details": {
+          "thinking_tokens": 108
+        }
+      },
+      "valid_answer": true
+    }
+  ],
+  "raw_streams_unavailable": 0,
+  "raw_streams_verified": 2,
+  "schema_version": 1,
+  "score_check": {
+    "decisions": [
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_0aca22452026840f",
+        "packet_id": "base",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_c463a1cf3935cd27",
+        "packet_id": "base",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_6d18d67f91285e4b",
+        "packet_id": "base",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": true,
+        "original_id": "r_0aca22452026840f",
+        "packet_id": "repeat",
+        "returned_validity": true,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_c463a1cf3935cd27",
+        "packet_id": "repeat",
+        "returned_validity": false,
+        "status": "accepted"
+      },
+      {
+        "collection_failure": null,
+        "correct": true,
+        "expected_validity": false,
+        "original_id": "r_6d18d67f91285e4b",
+        "packet_id": "repeat",
+        "returned_validity": false,
+        "status": "accepted"
+      }
+    ],
+    "full_primary": {
+      "counts": {
+        "accepted": 6,
+        "correct": 6,
+        "planned": 6
+      },
+      "transitions": [
+        {
+          "base_correct": true,
+          "base_validity": true,
+          "original_id": "r_0aca22452026840f",
+          "repeat_correct": true,
+          "repeat_validity": true
+        },
+        {
+          "base_correct": true,
+          "base_validity": false,
+          "original_id": "r_c463a1cf3935cd27",
+          "repeat_correct": true,
+          "repeat_validity": false
+        },
+        {
+          "base_correct": true,
+          "base_validity": false,
+          "original_id": "r_6d18d67f91285e4b",
+          "repeat_correct": true,
+          "repeat_validity": false
+        }
+      ]
+    },
+    "independent_task_count": null,
+    "interpretation": "Six planned judgments repeat three certificates on one program; no population or mechanism inference.",
+    "invocations": {
+      "accepted": 2,
+      "invalid": 0,
+      "planned": 2,
+      "unsent": 0
+    },
+    "observed_counts": {
+      "accepted": 6,
+      "correct": 6,
+      "planned": 6
+    },
+    "per_packet": {
+      "base": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      },
+      "repeat": {
+        "accepted": 3,
+        "correct": 3,
+        "planned": 3,
+        "status": "accepted"
+      }
+    },
+    "reference_policies": {
+      "base": {
+        "always_invalid": {
+          "correct": 2,
+          "decisions": {
+            "r_0aca22452026840f": false,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "always_valid": {
+          "correct": 1,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": true,
+            "r_c463a1cf3935cd27": true
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "exact_checker": {
+          "correct": 3,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "final_answer_only": {
+          "correct": 2,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": true
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "first_original_only": {
+          "correct": 3,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        }
+      },
+      "repeat": {
+        "always_invalid": {
+          "correct": 2,
+          "decisions": {
+            "r_0aca22452026840f": false,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "always_valid": {
+          "correct": 1,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": true,
+            "r_c463a1cf3935cd27": true
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "exact_checker": {
+          "correct": 3,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "final_answer_only": {
+          "correct": 2,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": true
+          },
+          "planned": 3,
+          "valid": 3
+        },
+        "first_original_only": {
+          "correct": 3,
+          "decisions": {
+            "r_0aca22452026840f": true,
+            "r_6d18d67f91285e4b": false,
+            "r_c463a1cf3935cd27": false
+          },
+          "planned": 3,
+          "valid": 3
+        }
+      }
+    },
+    "schema_version": 1,
+    "status": "complete"
+  },
+  "scoring_manifest_sha256": "b05adfbc3371ac4a9c3eff377367b5e3909adeeb2bec52fc48444c91fb06929d",
+  "status": "passed"
+}

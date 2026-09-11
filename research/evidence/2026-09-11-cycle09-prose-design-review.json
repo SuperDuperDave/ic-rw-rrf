@@ -1,0 +1,145 @@
+{
+  "actions": {
+    "git_operations": 0,
+    "provider_calls": 0,
+    "rng_calls": 0,
+    "source_or_shared_document_edits": 0
+  },
+  "checks": [
+    "cycle09 reported parameters match stored preparation",
+    "cycle09 valid certificate occupies first original position",
+    "independent transitions on stored cycle09 rows match reported invalid rows",
+    "stored cycle09 endpoint answers match report",
+    "cycle09 has two base-then-repeat observations",
+    "both public native receipts are acceptable with valid maps",
+    "base observed map equals exact stored reference",
+    "base observation also equals first-original-only policy",
+    "base observation differs from endpoint-agreement policy",
+    "base all reference policy counts match report",
+    "repeat observed map equals exact stored reference",
+    "repeat observation also equals first-original-only policy",
+    "repeat observation differs from endpoint-agreement policy",
+    "repeat all reference policy counts match report",
+    "all six planned judgments accepted and correct",
+    "six-decision score counts match report",
+    "three original validity judgments unchanged across packets",
+    "reported packet byte lengths and 586-byte increment are exact",
+    "public receipt token and message totals match report",
+    "public receipts record no refusals/recovery and one turn each",
+    "empirical native cost matches report",
+    "review plus empirical cost rounds to reported cycle total",
+    "reported elapsed times match receipts at stated precision",
+    "preflight receipt supports reported test total; tests not rerun in prose review",
+    "prepared manifest hash matches report",
+    "execution manifest hash matches report",
+    "cycle10 valid and row3-perturbed final a are 7 and 9",
+    "cycle10 planned judgments comprise two endpoint variants by three orders by three originals",
+    "cycle10 endpoint balance for V at position 1",
+    "cycle10 endpoint balance for V at position 2",
+    "cycle10 endpoint balance for V at position 3",
+    "cycle10 endpoint balance for I at position 1",
+    "cycle10 endpoint balance for I at position 2",
+    "cycle10 endpoint balance for I at position 3",
+    "cycle10 endpoint balance for F at position 1",
+    "cycle10 endpoint balance for F at position 2",
+    "cycle10 endpoint balance for F at position 3",
+    "every cycle10 reference count independently reconstructs",
+    "every named heuristic vector differs from exact validity",
+    "cycle10 has nine true and nine false recorded endpoints",
+    "final draft clarifies report/certificate byte invariance versus reordered packet bytes"
+  ],
+  "checks_passed": 41,
+  "consequential_findings": [],
+  "cycle09": {
+    "combined_native_cost_usd_at_report_precision": "0.24309825",
+    "empirical_native_cost_usd": "0.032690",
+    "endpoint_answers": {
+      "F": false,
+      "I": true,
+      "V": true
+    },
+    "interpretation": "Observed vector differs from final-answer-only but coincides with first-original-only; step checking is not identified.",
+    "invalid_rows_reconstructed_from_existing_certificates": {
+      "F": [
+        6
+      ],
+      "I": [
+        3
+      ],
+      "V": []
+    },
+    "packet_bytes": {
+      "base": 1079,
+      "repeat": 1665
+    },
+    "public_usage_totals": {
+      "output_tokens": 296,
+      "provider_messages": 2,
+      "thinking_tokens": 194
+    },
+    "reported_judgments_correct_accepted_planned": [
+      6,
+      6,
+      6
+    ]
+  },
+  "cycle10": {
+    "claim_boundary": "A future exact output vector distinguishes the named fixed policies on this related finite panel, not unlisted shortcuts or internal reasoning.",
+    "derivation": "V: row3 a=A+B; row4 b=A; row5 a=2A+B=7. I: row3 a=A+B+1; row4 b=A+1; row5 a=2A+B+2=9.",
+    "each_type_position_endpoint_counts": {
+      "false": 1,
+      "true": 1
+    },
+    "endpoint_boolean_derivation": "R=0 has one correct per packet across three orders; R=1 has two correct per packet across three orders: 3*1+3*2=9.",
+    "endpoint_by_R": {
+      "0": {
+        "F": true,
+        "I": false,
+        "V": false
+      },
+      "1": {
+        "F": false,
+        "I": true,
+        "V": true
+      }
+    },
+    "final_a": {
+      "I": 9,
+      "V": 7
+    },
+    "fixed_position_derivation": "For any fixed accepted position, V is there in two packets (three correct each); it is elsewhere in four (one correct each): 2*3+4*1=10.",
+    "materialization": "Abstract labels, positions and Boolean policy algebra only; no program source, certificate rows, IDs or packets generated.",
+    "reference_correct_out_of_18": {
+      "always_invalid": 12,
+      "always_valid": 6,
+      "endpoint_agreement": 12,
+      "endpoint_boolean": 9,
+      "exact_checker": 18,
+      "fixed_position_1": 10,
+      "fixed_position_2": 10,
+      "fixed_position_3": 10
+    }
+  },
+  "input_sha256": {
+    "_sessions/cycles/2026-09-11-cycle10-discriminating-design.md": "0b00c41b4c76e9526c65b6cc36574f903fb02179859c2bc1b9a16237ba6c0a10",
+    "_sessions/evidence/2026-09-11-cycle09-execution-preflight.json": "22253a5e34af850fbebb6ecf4e459bae4d5b0869706ce4e4d200e14705175edb",
+    "_sessions/evidence/2026-09-11-cycle09-review-receipt.json": "d0c9db08f7b630b0a7bf7bc34198944e5ceb7a4ebeefe92f917d330dd1f07278",
+    "results/cycle09-2026-09-11/REPORT.md": "f689329b080d3f6a1206763db3b3f95165d4d054eb84db9b4a334ae1290b92e3",
+    "results/cycle09-2026-09-11/execution/manifest.json": "43b5fb9e6bf85b7679a192a48f0f1e66b7091070880c565f0841e1235f96cccc",
+    "results/cycle09-2026-09-11/observations/manifest.json": "e9fb9c291506a27efb338bb0addeaff5373f614f14527f792136d0c9ef5deed3",
+    "results/cycle09-2026-09-11/observations/responses.json": "58eec566b098a62857d0312f7e555b4c941cf4f1edf1146436b5523b2c4e41b0",
+    "results/cycle09-2026-09-11/prepared/fixture.json": "a90df83e8acfc40172db892d58edfa63ba5f123480d07e68344641a9757a7475",
+    "results/cycle09-2026-09-11/prepared/manifest.json": "0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250",
+    "results/cycle09-2026-09-11/scored/scores.json": "1ee3890d093e9324dbc1ee850980b1c7bf188b93250852868327963c50dfed6f"
+  },
+  "limitations": [
+    "Raw native streams were not read; their independent audit remains separately owned.",
+    "Recorded RNG parameters were compared with the report; neither RNG was rerun.",
+    "The 270-test total was checked against the preflight receipt, not rerun here.",
+    "No cycle10 implementation, materialized fixture, launch, or empirical validity is certified."
+  ],
+  "reviewed_utc": "2026-09-11T04:44:57.766429+00:00",
+  "schema_version": 1,
+  "scope": "Independent prose/public-artifact consistency and cycle10 abstract policy algebra review.",
+  "status": "passed"
+}

@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-09-11T04:26:27.523486+00:00",
+  "starting_commit": "d739a949e891d143e93705c285fb8f7bd5aac266",
+  "local_tests": [
+    {
+      "command": "python3 -B -m unittest evaluation.tests.test_cycle09_certificates",
+      "passed": 15
+    },
+    {
+      "command": "python3 -B -m unittest discover -s _sessions/tools/tests -p test_cycle09_audit.py",
+      "passed": 8
+    }
+  ],
+  "local_tests_passed": 23,
+  "source_sha256": {
+    "evaluation/cycle09_certificates.py": "7b5aa4ed5b454fa6fe55ed71914c7b8fe8deb69606e5f3c74f8de0c8f6c8146a",
+    "evaluation/tests/test_cycle09_certificates.py": "532336e022b2bf15d7b7246e6611455e887cc7daa837868ff65be5a49041253e",
+    "_sessions/tools/check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "_sessions/tools/tests/test_cycle09_audit.py": "b2b032a64894d6f5deaa180cabe4652842d095ba882485392d57c004bddea14f",
+    "_sessions/cycles/2026-09-10-cycle09-certificate-design.md": "22cd5df70ac14829261302911f02bb1550fcf1986bd0d2436b08872825da199c",
+    "_sessions/cycles/2026-09-11-cycle09-local-protocol.md": "aabd844026cfe437ce3c45a466abb24a7c1b3c9919b7ee7ffa1487935b972358"
+  },
+  "all_new_source_files_whitespace_checked": true,
+  "whitespace_findings": 0,
+  "git_no_index_semantics": "Exit1 with empty diagnostics reports file differences; neither whitespace diagnostics nor process errors were present.",
+  "actual_seed_draws_performed": false,
+  "provider_calls": 0,
+  "relay_last_seq": 49
+}

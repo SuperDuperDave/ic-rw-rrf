@@ -1,0 +1,24 @@
+{
+  "utc": "2026-09-11T04:36:47.867291+00:00",
+  "research_tests_passed": 146,
+  "helper_tests_passed_before_parser_fix": 123,
+  "cycle09_native_tests_passed_after_fix": 11,
+  "total_test_cases": 270,
+  "new_files_whitespace_checked": 30,
+  "source_sha256": {
+    "_sessions/tools/build_cycle09_review_capsule.py": "650408ade9d71ee33ce0fb082e4dc91da7321e531d19b53589d3bc0c934e1a72",
+    "_sessions/tools/check_cycle09_evidence.py": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+    "_sessions/tools/run_cycle09_verifier.py": "728668d998bc0d5d865218dea46b195ef3bb1ea42b8c3fa7ba9414341c215f10",
+    "_sessions/tools/score_cycle09_verifier.py": "2d2233b76ed4056f00a5c7cd0b68fbbb151270cfc31063e7361c5f762ab09a74",
+    "_sessions/tools/tests/test_cycle09_audit.py": "b2b032a64894d6f5deaa180cabe4652842d095ba882485392d57c004bddea14f",
+    "_sessions/tools/tests/test_cycle09_runner.py": "b75260d409c76f189515e882a0f3e3d5c3c385e01027ae4bc42dd34dfe0a24b2",
+    "evaluation/cycle09_certificates.py": "7b5aa4ed5b454fa6fe55ed71914c7b8fe8deb69606e5f3c74f8de0c8f6c8146a",
+    "evaluation/cycle09_verifier.py": "5855ab8ebf9b6bfe4527d9e9c27109d2f7a22587b4f5ead6fb44f255080f4386",
+    "evaluation/tests/test_cycle09_certificates.py": "532336e022b2bf15d7b7246e6611455e887cc7daa837868ff65be5a49041253e",
+    "results/cycle09-2026-09-11/prepared/program.py": "fd772960654002801cd5a1445bf45795f087af64dbccf15bfc02eb1e98ca9ff5"
+  },
+  "local_prepared_preserved": true,
+  "empirical_calls_before_freeze": 0,
+  "review_ack_seq": 54,
+  "parser_fix": "Normalize JSON decoder ValueError while preserving named MapParseError; oversized numeric value regression passed."
+}

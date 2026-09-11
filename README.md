@@ -2,17 +2,15 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** a local audit verified eight programs
-at two loop lengths. The construction gate passed, but a simple always-false
-policy would score 100% on the short programs and 50% on the long ones. We parked
-the proposed solver batch and, with Claude's review, chose a more direct question:
-can a solver distinguish valid evidence from an invalid explanation with a
-correct answer, then preserve that judgment when bad evidence is repeated?
-No empirical solver calls were made in this cycle.
-Read the [latest report and verified cases](results/cycle08-2026-09-10/REPORT.md),
-[preceding all-correct pilot](results/cycle07-2026-09-10/REPORT.md),
+**September 2026 research checkpoint:** two model calls correctly judged a valid
+program trace, an invalid trace with a correct final answer, and a trace with a
+wrong final answer. All judgments stayed the same when the last trace was copied
+twice. That is useful feasibility evidence, but accepting only the first original
+would also score perfectly on this case. The next test must separate those
+explanations before any claim about checking strategy or collaboration benefit.
+Read the [latest report and verified cases](results/cycle09-2026-09-11/REPORT.md),
+[preceding local audit](results/cycle08-2026-09-10/REPORT.md),
 [current research state](_sessions/RESEARCH_STATE.md),
-[next local certificate design](_sessions/cycles/2026-09-10-cycle09-certificate-design.md),
 and [case-study draft](docs/RESEARCH_BRIEF.md). Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results

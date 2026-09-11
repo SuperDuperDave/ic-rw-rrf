@@ -1,0 +1,59 @@
+{
+  "checked_utc": "2026-09-11T04:26:40.436306+00:00",
+  "checker_sha256": "fd5a5f4b1a597e7780139426f92fffb0039319be7b1c2e3cb72d45f569b029ab",
+  "checks_passed": 761,
+  "fixture_check": {
+    "all_truths_full_state_transitions_and_copy_bytes_match": true,
+    "candidate_attempts": 1,
+    "distinct_original_certificates": 3,
+    "empirical_launch_authorized": false,
+    "information_boundary_and_both_RNG_sequences_verified": true,
+    "negative_control": {
+      "F_answer_flipped": true,
+      "I_final_a_delta": 2,
+      "I_parity_preserved": true,
+      "final_answers": {
+        "F": false,
+        "I": true,
+        "V": true
+      },
+      "first_invalid_step": {
+        "F": 6,
+        "I": 3,
+        "V": null
+      },
+      "whole_certificate_validity": {
+        "F": false,
+        "I": false,
+        "V": true
+      }
+    },
+    "packet_count": 2,
+    "reference_policy_correct_across_two_packets": {
+      "always_invalid": 4,
+      "always_valid": 2,
+      "exact_checker": 6
+    },
+    "reference_policy_correct_per_packet": {
+      "always_invalid": 2,
+      "always_valid": 1,
+      "exact_checker": 3
+    },
+    "repeated_judgments_across_packets": 6,
+    "validity_judgments_per_packet": 3
+  },
+  "independence": "Independent standard-library AST state interpreter; no production imports or program execution.",
+  "limitations": [
+    "This is one program construction with three original certificates, not six independent cases.",
+    "No empirical solver outcome or launch is implied by successful local construction.",
+    "Correct validity bits alone cannot identify an internal verification strategy.",
+    "Only F is copied; rejecting repeated roots is an alternative way to identify F in the repeat packet.",
+    "Repeats replace empty slots and add text, so the contrast does not isolate a pure copying mechanism.",
+    "Distinct artifact roots do not establish independent authors or errors.",
+    "Machine checking is a practical correctness baseline; no multiagent advantage is measured."
+  ],
+  "prepared_manifest_sha256": "0cdb62969bb8a0d365d2b5bd7a225773d938c4a9f66cdc62971d123f62a6d250",
+  "schema_version": 1,
+  "status": "passed",
+  "truth_python_bytes": "verified"
+}
