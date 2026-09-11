@@ -1,0 +1,58 @@
+{
+  "checked_source_sha256": {
+    "_sessions/cycles/2026-09-10-cycle03-review-integration.md": "128121cda218276fa318b0b72b58b84b6d14c5c6805a853726ccbb2334c3677f",
+    "_sessions/cycles/2026-09-11-cycle11-review-integration.md": "0df483322e1a0c7e2916ef5f203c9a3612407ce3026edea253dcac3e122c434f",
+    "_sessions/evidence/2026-09-10-cycle03-review-receipt.json": "a7b85b45e604a8810097561185c1115c7902ca4184fd551673344042f74929a7",
+    "_sessions/evidence/2026-09-10-cycle06-independent-check.json": "0bcf3290036b74c061dbe0b6295bac09d3cb7a0b0c01f6aec0475147ff35005f",
+    "_sessions/evidence/2026-09-11-cycle12-feasibility.json": "c930bc13f8743c06935ef66879ab0f2269f89d56c9a8603d01bf65f1185b8057",
+    "data/README.md": "1be84509830774ae4c7cf53d3dee16921f18ed0d532738ed48c64aaa7a8a1bdb",
+    "data/cycle02/README.md": "f7905e766c2ed5653c78876aba9afa2194f383d9e185ebefe0d48ca7eff95a6d",
+    "data/cycle02/acquired/source-manifest.json": "ed3486c1f468eec8ebcb83f1e321b6d0e2eccaaee6ee786bd1ea7e3687d8e0ab",
+    "data/cycle02/source-selection.json": "a360bcedcc81c8b4afc87161f49e8d9ba0ac535cd73fc40d094d3768d470af8b",
+    "docs/RESEARCH_SYNTHESIS.md": "5112929a096900d3a5035fb4e77270c6fec05cd395bec44d01f8bf74b9a69398",
+    "results/cycle06-2026-09-10/observations/04-p_d52a21de38a2a5a8c21d.json": "5f33cf3187b93c2a656109cea909506f9f5ce089c88ef4c55f80193f0cb35a13"
+  },
+  "checked_utc": "2026-09-11T09:12:29.383254+00:00",
+  "discrepancies": [],
+  "findings": {
+    "actual_fallback_model_observed": false,
+    "cache_queries": 97,
+    "cache_schema_matches": true,
+    "candidate_appearances": 97000,
+    "distinct_acquisition_policy_evaluated": false,
+    "feasibility_gate": "not_passed",
+    "git_lookup_matching_paths": [
+      "5b49a464cda025e193c90ea1fb765b1b785a6121:_sessions/evidence/2026-09-10-cycle06-independent-check.json"
+    ],
+    "initial_receipt_already_contains_no_fallback_marker": true,
+    "local_synthetic_error_message_count": 1,
+    "original_top1000_tsv_files_absent": true,
+    "provider_message_count": 2,
+    "provider_models": [
+      "claude-opus-5"
+    ],
+    "relevance_grades_are_factual_answer_keys": false,
+    "retrieval_case_established": false
+  },
+  "limitations": [
+    "The repeated Git lookup verifies the recorded comparator result; it is not another acquisition-policy trial.",
+    "The inspectors know the old outcome, and the initial receipt already contains a no-fallback marker.",
+    "Cache contents were inventoried structurally; no conclusion that useful factual passages are absent.",
+    "Observed native metadata does not establish hidden transport completeness.",
+    "No model-policy advantage, equal-budget comparison or search/reasoning-cost measurement is established."
+  ],
+  "schema_version": 1,
+  "scope": "Read-only independent verification of retrospective feasibility facts, existing cache schemas/hashes, preserved operational metadata and one frozen-commit lookup; no semantic case screening or model evaluation.",
+  "status": "verified_with_scope_limits",
+  "verification_activity": {
+    "cache_cases_semantically_screened": 0,
+    "frozen_git_lookup_replayed_once_for_audit": true,
+    "new_external_acquisitions": 0,
+    "new_solver_calls": 0
+  },
+  "verified_private_input_sha256": {
+    "cycle06_invocation4_stream": "c0d36e01766b944a894d1619fd87c83be4724c4fc7a0c965a39191bc4a4e1737",
+    "dl2019_cache": "8512956158334aeedc2a7e3b332eb59b5cca1cc56e73c4d8c26aeed38caf9831",
+    "dl2020_cache": "ba03baf6867cc1e5538bc24aee3856d26558c3e2956389d55cb45c32ad4c81e5"
+  }
+}

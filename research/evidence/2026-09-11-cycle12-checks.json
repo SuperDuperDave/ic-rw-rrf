@@ -1,0 +1,84 @@
+{
+  "timestamp_utc": "2026-09-11T09:31:21.103774+00:00",
+  "status": "passed_with_preserved_mission_whitespace_exception",
+  "starting_commit": "5b49a464cda025e193c90ea1fb765b1b785a6121",
+  "previous_cycle11_checkpoint_artifacts_verified": 47,
+  "inventory_source_hashes_verified": 10,
+  "replay_commands": [
+    "python3 _sessions/tools/check_cycle12_feasibility.py",
+    "python3 _sessions/tools/check_cycle12_feasibility.py --public-only"
+  ],
+  "full_replay": {
+    "caches_verified": 2,
+    "native_raw": "metadata_verified",
+    "frozen_lookup_matches": 1
+  },
+  "public_only_replay": {
+    "caches_explicitly_unavailable": 2,
+    "native_raw": "unavailable",
+    "frozen_lookup_matches": 1
+  },
+  "adversarial_replay_cases_rejected": [
+    "empty cache inventory",
+    "truncated cache inventory",
+    "reordered cache inventory"
+  ],
+  "independent_review": "Source/cache/native metadata audit and read-only case/paper-comparison review; no further network or model test.",
+  "prior_tests_not_rerun": 323,
+  "reason_no_full_suite_rerun": "Research harness and native collectors unchanged; cycle12 adds only a small read-only inventory replay and documentation.",
+  "public_http200_hash_records_checked": 3,
+  "network_requests_repeated_for_final_verification": 0,
+  "review_capsules_and_boundary_hashes_verified": true,
+  "public_excerpt_bytes_verified_against_named_original_sources": true,
+  "review_raw_memo_usage_marker_verified": true,
+  "initial_denied_review_executed": false,
+  "unpublished_inventory_sent_to_claude": false,
+  "review_provider_invocations": 1,
+  "empirical_solver_invocations": 0,
+  "new_dataset_acquisitions": 0,
+  "review_native_list_accounting_usd_report_precision": "0.2276195",
+  "local_markdown_links_checked": 188,
+  "verbatim_excerpt_links_checked_from_original_source_base": 14,
+  "missing_links": [],
+  "tracked_and_untracked_whitespace_checked": true,
+  "preserved_whitespace_exceptions": [
+    {
+      "path": "_sessions/cycles/2026-09-11-cycle12-public-review-mission.md",
+      "diagnostic": "line143: new blank line at EOF",
+      "reason": "Preserve exact already-sent provider-input bytes; source hash unchanged."
+    }
+  ],
+  "credential_signature_findings": [],
+  "private_runtime_and_provider_paths_ignored": true,
+  "relay_final_sequence": 69,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": 0,
+  "live_workers": 0,
+  "arithmetic_multiagent_lab": "parked",
+  "R14": "complete",
+  "R15": "paper comparison complete; empirical comparison parked",
+  "artifact_sha256": {
+    "_sessions/cycles/2026-09-11-cycle12-claude-review.md": "aa36e2a48e66a0140fe457b08cade9906ec5256c93c8513759829838629145ac",
+    "_sessions/cycles/2026-09-11-cycle12-public-artifact-case.md": "c08be111d2b5aaefc6f7c359f706be779aa1fef50c0205c456dc58a6fa3f0bb2",
+    "_sessions/cycles/2026-09-11-cycle12-public-review-mission.md": "57b7acc5c1dead79ee6b993c3027e4ce8543ab629dfdcfd21287d933a22a00a5",
+    "_sessions/cycles/2026-09-11-cycle12-review-integration.md": "d53f21bc149eaffb380dd5bf1655b2bc263c9aa62ad3690e444c900a52a8aa52",
+    "_sessions/cycles/2026-09-11-cycle12-review-mission.md": "c981048da0bca7036e517787ce49cdada8654a6c651c6374ff3079ab6ecae394",
+    "_sessions/evidence/2026-09-11-cycle12-feasibility.json": "c930bc13f8743c06935ef66879ab0f2269f89d56c9a8603d01bf65f1185b8057",
+    "_sessions/evidence/2026-09-11-cycle12-independent-check.json": "235654f68d0fe709537c45637277fea578bd2fe34489df76838c1ecbcead891f",
+    "_sessions/evidence/2026-09-11-cycle12-public-review-capsule.json": "2410efe828a6dac24999d1f32d8ccdc610f46738d19357320a093eb2c2eb811b",
+    "_sessions/evidence/2026-09-11-cycle12-public-source-check.json": "b2e55cf0249c9515a0ab1e019220cf5d553f766cd1030257d7a8da9276901aee",
+    "_sessions/evidence/2026-09-11-cycle12-review-boundary.json": "e17c09cf16d97fbf45ed054fab4e400e045371c31740417d44f5ca79b697105e",
+    "_sessions/evidence/2026-09-11-cycle12-review-capsule.json": "38934283e4d91bbfb071203aae5dd3fcad7805902e0a3944d5dffb91552c716e",
+    "_sessions/evidence/2026-09-11-cycle12-review-receipt.json": "d755abcde09792e4b4e637df2fff0c631033c24a594e066d179e02f635c52710",
+    "_sessions/tools/check_cycle12_feasibility.py": "8b7796d005c9a3cf9af50e07da699d9286c525fa90c2b7ddd45b12ea1bc616b7",
+    "results/cycle12-2026-09-11/REPORT.md": "48b77ea6f6c04db9470575f599859cd0b200db6718e313d58f2b8a1c1de4c2dd"
+  },
+  "limitations": [
+    "Retrospective inventory and naturally arising known-outcome case, not held-out model evaluation.",
+    "No semantic passage adjudication or model policy/cost comparison.",
+    "Public HTTP proof retains observed statuses/hashes, not exact request timestamps, headers or latency.",
+    "Claude reviewed verified old public excerpts, not the new inventory or later case card.",
+    "Review final per-message usage/stop telemetry unavailable; native accounting excludes Codex and subscription billing."
+  ]
+}
