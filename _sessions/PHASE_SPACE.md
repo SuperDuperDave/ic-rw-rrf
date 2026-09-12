@@ -38,6 +38,7 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H13 | `[observed, narrow; lab parked]` All4 answers and16 validity judgments are correct under valid-minority/majority copied support | Prespecified stop met; no internal evidence-use, copying-effect or multiagent claim |
 | H14 | `[concrete case; comparative value open]` Exact public artifact retrieval supplies a provenance fact that a stale repository label does not | Case and paper comparison recorded; direct-fetch baseline already supplies it. No new policy benefit or empirical comparison established |
 | H15 | `[observed, finite panel]` Fixed source addition has positive annual top10 metric bounds under every allowed missing-grade completion, with9 query reversals | Annual direction needs no new grades. Projected width gains do not imply a needed decision; prospective transfer needs a new panel and explicit metric/candidate semantics |
+| H16 | `[prepared, untested]` Fixed source addition may improve binary nDCG on SciFact; fusion may still trail the added source or a simple hybrid | One five-arm transfer under the cycle14 protocol; interpret B−A, B−S and B−H separately, with candidate access and missing judgments explicit |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -186,3 +187,11 @@ found relevant prior work; it does not constitute novelty clearance.
   stop label acquisition for that question, and prepare a prospective transfer
   test rather than tuning on these outcomes. Input-depth validation caught a
   false protocol premise; the separate correction preserves full actual lists.
+
+- **Cycle14:** found a pinned SciFact input route before any new effectiveness.
+  Local audit exposed candidate-union statistics, source/fusion tie differences
+  and incomplete original first-stage provenance. The transfer preserves the
+  implemented lexical system with a declared new candidate source. Add standalone
+  SPLADE and simple BM25+SPLADE RRF references before scoring: source addition
+  and fusion value are different questions. Candidate/judgment coverage will be
+  descriptive, not a causal decomposition. R18 owns one bounded execution.

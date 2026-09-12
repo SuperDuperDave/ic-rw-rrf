@@ -70,6 +70,8 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/cycles/2026-09-11-cycle13-judgment-protocol.md`, `cycle13-design-integration.md` | Fixed fusion comparison, exact partial-judgment bounds, acquisition projections and reviewed scope |
 | `evaluation/cycle13_judgment_acquisition.py`, `evaluation/cycle13_retained_inputs.py` | Frozen bound mathematics plus corrected actual-input adapter; original depth failure preserved |
 | `results/cycle13-2026-09-11/REPORT.md`, `corrected/`, `_sessions/evidence/2026-09-11-cycle13-independent-check.json` | Completed finite-panel intervals, projected judging widths and independent raw reconstruction |
+| `_sessions/cycles/2026-09-11-cycle14-transfer-protocol.md`, `_sessions/evidence/2026-09-11-cycle14-input-plan.json` | Prospective SciFact five-arm comparison, immutable input identities and execution gates; no new data scores yet |
+| `results/cycle14-2026-09-11/REPORT.md`, `_sessions/cycles/2026-09-11-cycle14-*-audit.md` | Transfer preparation, local/source/metric audits and qualified Claude critique |
 | `evaluation/tests/` | Comparison, selection, geometry, and observation-process edge cases |
 | `evaluation/generate_diverse_runs.py` | Generate lexical and character-hash rerankings from supplied MS MARCO passages; optional NumPy/SciPy |
 | `data/README.md` | Input provenance and optional raw-data download instructions |

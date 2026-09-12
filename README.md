@@ -2,13 +2,18 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** which missing relevance judgments would
-matter to a fixed fusion comparison? Adding SPLADE++ to four-source k60 RRF has
+**September 2026 research checkpoint:** a prospective SciFact transfer is prepared,
+with pinned inputs and a fixed comparison against the added source alone and a
+simple hybrid. No SciFact effectiveness has been measured yet.
+[Preparation and execution contract](results/cycle14-2026-09-11/REPORT.md).
+
+The preceding judgment audit asked which missing labels would matter to a fixed
+fusion comparison. Adding SPLADE++ to four-source k60 RRF has
 positive annual mean bounds on both existing panels, even under every allowed
 completion of missing grades, for an explicit top10 RBP diagnostic. Nine queries
 still favor the four-source fusion. This is a finite-panel result under that
 metric, not an nDCG, generalization or uniform-benefit claim.
-[Latest report and evidence map](results/cycle13-2026-09-11/REPORT.md).
+[Measured result and evidence map](results/cycle13-2026-09-11/REPORT.md).
 
 Earlier [agent diagnostics](results/cycle11-2026-09-11/REPORT.md) ended all correct
 with one verifier, so that arithmetic laboratory remains parked. A later

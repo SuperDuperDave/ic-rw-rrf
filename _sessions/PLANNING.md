@@ -316,21 +316,36 @@ research tests pass. Width-optimal priorities differ from pooled-head on some
 queries, but further labels are unnecessary for the annual sign. No new
 association sweep, router fitted to reversals, or nDCG promotion follows.
 
-### R17 — NEXT, PROSPECTIVE PREPARATION: transfer beyond the reused panel
+### R17 — DONE: prospective SciFact transfer preparation
 
-Prepare one collection not previously analyzed in this project to test whether
-the fixed source-addition finding extends beyond the current development data.
-Before score inspection, identify one auditable input/ranker family and pin its
-collection revision, query eligibility, qrels, rank origin, candidate access,
-retained depths and available scores. Prefer reusable public runs or an economical
-reproducible retrieval path. Do not pick a collection because a method wins there.
+The [cycle14 report](../results/cycle14-2026-09-11/REPORT.md) records selection of
+SciFact before source/performance inspection and an accessible pinned-input route.
+Two top1000 caches plus corpus/query/qrel mirrors total1,000,472,770 advertised
+bytes. No full data body, package installation or new effectiveness measurement.
+Independent local/source/metric audits and one Fable critique define the limits.
 
-Define the relation to the original nDCG objective explicitly; cycle13's linear
-diagnostic is not an nDCG estimate. Freeze comparison, primary metric and stopping
-rule before evaluating. Reuse existing readers/metrics; perform R1 maintenance
-only where the selected design actually needs it. This preparation may conclude
-that comparable inputs are unavailable, without an acquisition or tuning sweep.
-Keep the old arithmetic/association stops and current annual-sign closure intact.
+The [protocol](cycles/2026-09-11-cycle14-transfer-protocol.md) preserves four local
+lexical scorers over BM25 candidates and adds SPLADE, with source-alone and simple
+hybrid baselines. Original first-stage provenance is incomplete: mechanism-level
+adaptation, not exact-pair replication. Binary nDCG is primary; explicit metric,
+cohort, input and body-integrity gates precede future scoring. R18 owns execution.
+
+### R18 — NEXT: one frozen SciFact transfer
+
+Implement the small adapter and five-arm driver under the cycle14 protocol and
+[input plan](evidence/2026-09-11-cycle14-input-plan.json). Reuse existing scoring,
+strict readers, canonical RRF and binary nDCG; avoid legacy CLI extra methods,
+query intersection and label diagnostics. The only optional data dependency is
+the pinned Parquet decoder for corpus/query identity checks. Build the pinned
+official evaluator and cross-check synthetic cases before new effectiveness.
+
+Acquire only the five frozen inputs within their byte/time bounds, validate full
+cohort/grade/text/ID/depth semantics, then run the fixed comparison once. Preserve
+null, mixed or reversed results. No source/dataset/parameter selection from the
+outcomes, automatic inference fallback, or router tuning on old reversals. Input
+or evaluator failure stops; corrections record whether any scores were already
+seen. Finish with independent result reconstruction, claim-limited synthesis and
+the normal GitHub checkpoint. Existing arithmetic/association parks remain intact.
 
 ## Communication and operations
 

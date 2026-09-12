@@ -1,0 +1,111 @@
+{
+  "status": "prospective; no input body acquired",
+  "starting_commit": "cc421896df9c2c35b88c795bbd307273abfc6481",
+  "collection": "BEIR SciFact test",
+  "selected_before_source_or_effectiveness_inspection": true,
+  "selection_reason": "Small scientific-abstract domain outside project-used MS MARCO passage panels; no performance criterion.",
+  "inputs": [
+    {
+      "role": "candidate_pool",
+      "dataset": "castorini/rank_llm_data",
+      "revision": "39db0a25a552dd2a12012df22029686bf7fdc050",
+      "path": "retrieve_results/BM25/retrieve_results_scifact_top1000.jsonl",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/BM25/retrieve_results_scifact_top1000.jsonl",
+      "expected_bytes": 512484847,
+      "identity_algorithm": "sha256",
+      "expected_digest": "c407ca6ea66a3cd79b40241a5314eca3c1727ce6cdf203b4b7ec70172b49b359",
+      "body_downloaded": false
+    },
+    {
+      "role": "added_source",
+      "dataset": "castorini/rank_llm_data",
+      "revision": "39db0a25a552dd2a12012df22029686bf7fdc050",
+      "path": "retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_scifact_top1000.jsonl",
+      "url": "https://huggingface.co/datasets/castorini/rank_llm_data/resolve/39db0a25a552dd2a12012df22029686bf7fdc050/retrieve_results/SPLADE_P_P_ENSEMBLE_DISTIL/retrieve_results_scifact_top1000.jsonl",
+      "expected_bytes": 483447636,
+      "identity_algorithm": "sha256",
+      "expected_digest": "47f5a37a79417fc1403a0284bda265015e3c51c8a0e5fdf9ec7d54482a45b091",
+      "body_downloaded": false
+    },
+    {
+      "role": "corpus",
+      "dataset": "BeIR/scifact",
+      "revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+      "path": "corpus/corpus-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/corpus/corpus-00000-of-00001.parquet",
+      "expected_bytes": 4469916,
+      "identity_algorithm": "sha256",
+      "expected_digest": "243324b35f03d82bd6d98a5f575966876e86cad7ce16e5333a35b1b793dc4f45",
+      "body_downloaded": false
+    },
+    {
+      "role": "query_texts",
+      "dataset": "BeIR/scifact",
+      "revision": "b3b5335604bf5ee3c4447671af975ea25143d4f5",
+      "path": "queries/queries-00000-of-00001.parquet",
+      "url": "https://huggingface.co/datasets/BeIR/scifact/resolve/b3b5335604bf5ee3c4447671af975ea25143d4f5/queries/queries-00000-of-00001.parquet",
+      "expected_bytes": 64982,
+      "identity_algorithm": "sha256",
+      "expected_digest": "1c37956c5dc8b810b60302323c24d1a9e79e26411ba8f5ad9d0888642e2a9034",
+      "body_downloaded": false
+    },
+    {
+      "role": "test_qrels",
+      "dataset": "BeIR/scifact-qrels",
+      "revision": "2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029",
+      "path": "test.tsv",
+      "url": "https://huggingface.co/datasets/BeIR/scifact-qrels/resolve/2938d17dc3b09882fdb8c12bbbe2e2dc0e75a029/test.tsv",
+      "expected_bytes": 5389,
+      "identity_algorithm": "git-blob-sha1",
+      "expected_digest": "c62f58c75f10c0cee23483b7269bff2902ae4080",
+      "body_downloaded": false
+    }
+  ],
+  "expected_raw_input_bytes": 1000472770,
+  "raw_input_byte_cap": 1050000000,
+  "download_wall_cap_seconds": 1200,
+  "scoring_wall_cap_seconds": 600,
+  "optional_parquet_decoder": {
+    "purpose": "Decode only pinned SciFact corpus/query Parquet during metadata validation; not retrieval or metric computation.",
+    "metadata_url": "https://pypi.org/pypi/pyarrow/json",
+    "version": "25.0.1",
+    "requires_python": ">=3.10",
+    "requires_dist": null,
+    "filename": "pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+    "url": "https://files.pythonhosted.org/packages/60/c9/711ca85d79f1ec98f29a5eae2b051e25b4ecec5de3e3c0e2d5c5dcb15664/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+    "expected_bytes": 50102437,
+    "expected_sha256": "5389cdf79447ed1515c9e31620e6e1e2302249564d603f2ad727d4f6d313e4c3",
+    "not_installed_or_downloaded": true
+  },
+  "optional_decoder_byte_cap": 60000000,
+  "official_evaluator_source_byte_cap": 10000000,
+  "required_grade_domain": [
+    0,
+    1
+  ],
+  "cohort": "ascending string test qids with positive IDCG; exact vector frozen after complete input validation, never source intersection",
+  "arms": [
+    "P",
+    "S",
+    "A",
+    "B",
+    "H"
+  ],
+  "primary": "equal-query mean binary nDCG@10(B)-nDCG@10(A)",
+  "secondary_ndcg_contrasts": [
+    "B-S",
+    "B-P",
+    "A-P",
+    "B-H"
+  ],
+  "secondary_metric": "top10 RBP contribution p=4/5 with binary gain and absent-as-zero, A and B only",
+  "source_audit": "_sessions/cycles/2026-09-11-cycle14-source-audit.md",
+  "protocol": "_sessions/cycles/2026-09-11-cycle14-transfer-protocol.md",
+  "interpretation_limits": [
+    "same documented added model family; historical exact cache model/index/command provenance incomplete",
+    "new first-stage candidate source and collection: mechanism adaptation, not exact-pair replication",
+    "corpus and query mirror alignment to cached historical indexes unverified until bodies acquired",
+    "positive-only/absent-as-zero benchmark scores are not sharp missing-judgment bounds",
+    "H changes candidate access/depth versus B; system comparison not causal ablation"
+  ]
+}

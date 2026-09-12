@@ -1,0 +1,68 @@
+{
+  "status": "completed; public memo consumed and critique integrated separately",
+  "native_session_id": "9d3f3b08-a155-4551-9d99-43d3c44b96df",
+  "requested_model": "claude-fable-5-1",
+  "observed_models": [
+    "claude-fable-5-1"
+  ],
+  "effort": "high",
+  "exit_code": 0,
+  "timed_out": false,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "wall_seconds": 128.89982204296393,
+  "native_list_accounting_usd": 0.7789435,
+  "native_model_usage": {
+    "inputTokens": 10,
+    "outputTokens": 8457,
+    "cacheReadInputTokens": 12694,
+    "cacheCreationInputTokens": 17641,
+    "webSearchRequests": 0,
+    "costUSD": 0.7789435,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6859,
+    "canonicalModel": "claude-fable-5-1",
+    "provider": "firstParty",
+    "costBasis": "list"
+  },
+  "native_num_turns": 1,
+  "observed_message_ids": [
+    "msg_011CexqgcRGAfwFMj8JwafQ5",
+    "msg_011CexqkpJFTBuLKwDV8yH6p",
+    "msg_011CexqpwgNKnNUQWhKCc8Th"
+  ],
+  "configured_per_response_output_tokens": 4000,
+  "configured_native_budget_usd": 1.5,
+  "configured_wall_seconds": 180,
+  "final_per_message_usage_and_stop_reasons": "unavailable; emitted assistant usage is initial, not final",
+  "public_text_fragments": 2,
+  "public_memo_words": 747,
+  "advisory_memo_word_target": 500,
+  "terminal_result_complete_memo": false,
+  "tools_or_scouts_observed": false,
+  "raw_stream_sha256": "f8ebb70e6a83f12160b7fe788b535ee3714217dc17e855acd533924c765d65aa",
+  "launcher_sha256": "d076a90ee517b6ba8178ed17702b5fde0c6fd5eb3cb14b91071080ac002cb640",
+  "claude_binary_sha256": "0399c793ff571d5946ef923d80b4f330d05ac4b6842a6b0775468f5d389403c0",
+  "mission_sha256": "cc1b5d48d2d3dd7e1347b7a16168ed161f2005bdd80ca992c5ac9cdb6f8c4233",
+  "memo_sha256": "30d18f8b90ec21116af6a60960765cdc77a5d2c963fe6b29f663ffb76714ee76",
+  "review_marker": "cycle14-review-1aa040ac7f",
+  "request_sequence": 75,
+  "lifecycle_sequences": [
+    76,
+    77,
+    78
+  ],
+  "coordinator_recorded_requested_ack": 79,
+  "final_relay_sequence": 79,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": 0,
+  "scope": "Tools-disabled critique of self-contained unpublished design packet; no external source or cache inspection; H and final details separately reviewed by Codex.",
+  "limits": [
+    "Native list accounting is not subscription billing and excludes Codex.",
+    "Three native message IDs despite one max-turns invocation; configured response limit does not bound total output.",
+    "Terminal result is only final public fragment; full public text preserved including split word.",
+    "No actual transfer result or new data body was reviewed."
+  ]
+}

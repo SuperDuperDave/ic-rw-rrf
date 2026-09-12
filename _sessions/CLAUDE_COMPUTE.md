@@ -206,6 +206,17 @@ was accepted for the actual unpublished payload. Request70 consumed/ACK74;
 [integration](cycles/2026-09-11-cycle13-design-integration.md) record corrected
 assumptions and the one local audit decision.
 
+Cycle14 used one Fable5.1/high transfer-design review, tools/scouts disabled,
+under fixed$1.50/180second limits. Native success took128.89982seconds and
+$.7789435 list accounting, with8,457 output tokens including6,859 thinking tokens
+across three observed message IDs. The configured4,000-token response limit and
+one native turn did not imply one message or4,000 total tokens. Final per-message
+usage/stops remain unavailable. Full747-word public text was recovered from two
+fragments; the500-word target was advisory. No further provider wave followed.
+The [receipt](evidence/2026-09-11-cycle14-review-receipt.json) and
+[integration](../results/cycle14-2026-09-11/REPORT.md) preserve the scope and
+correct unsupported causal/source-strength/baseline assumptions.
+
 ## Select the requested models exactly
 
 | Role / property | Fable 5.1 | Opus 5 |

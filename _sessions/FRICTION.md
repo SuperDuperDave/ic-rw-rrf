@@ -56,6 +56,16 @@ the original failure and frozen sources. Independent inspection matches the old
 cycle02 depth records. This repairs the concrete input contract; future prevention
 is unverified. Reuse the original query mathematics in the corrected adapter.
 
+Cycle14 **SUBTRACT**: corrected the current data README's unigram TF-IDF cosine
+label and made its supplied-candidate scope explicit, based on the unchanged
+implementation. The documentation-to-code mismatch is fixed; reader comprehension
+or future research efficiency has not been measured. **PROMOTE** the consequential
+metric/denominator/rank-export and body-identity checks into the single transfer
+protocol (R18), with actual execution verification pending. F21 again recovered
+the complete two-fragment public memo without another provider call. **DROP**
+resolved API/default-branch/DNS and bounded-fork launch retries as new framework
+work: existing explicit revision, supported escalation and bounded forks sufficed.
+
 When a later session demonstrates that a change removed the original cost,
 record the evidence in its stream and retire the row. Do not mark a process fix
 effective merely because its documentation or helper was added.

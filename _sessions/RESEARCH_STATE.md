@@ -17,6 +17,27 @@ experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
 
+## Cycle14: transfer inputs found, comparison prepared before scores
+
+The [preparation report](../results/cycle14-2026-09-11/REPORT.md) selects BEIR
+SciFact for a different domain/document unit before inspecting source availability
+or effectiveness. Immutable BM25 and same-family SPLADE top1000 caches are served;
+their bodies, cohort and corpus alignment remain unverified until acquisition.
+No new collection scores, labels or retrieval-model calls were produced.
+
+Local audit clarified that the four lexical sources rerank supplied candidates
+with pooled candidate-union statistics; the old first-stage generator is unpinned.
+The future test is a mechanism-level adaptation. Fixed source-alone and simple
+hybrid references ask whether fusion adds anything beyond the new source itself.
+Binary nDCG@10 B−A is primary; binary-domain and authoritative-evaluator checks,
+complete cohort and rank-preserving export are required before scoring. Historical
+graded metrics are not retroactively validated by this binary contract.
+
+One bounded Fable review supported the direction; independent Codex audits fixed
+the final input/protocol details and corrected causal/baseline overclaims. R17 is
+complete; R18 owns the single frozen execution. The [protocol](cycles/2026-09-11-cycle14-transfer-protocol.md)
+and [input plan](evidence/2026-09-11-cycle14-input-plan.json) are the next entry points.
+
 ## Cycle13: existing judgments already settle a fixed annual fusion comparison
 
 The [evidence map](../results/cycle13-2026-09-11/REPORT.md) returns to retrieval
@@ -42,9 +63,8 @@ reconstruction matches194 fused rankings,97 records,291 budget plans and both
 annual summaries. The original sources, failures and all prior checkpoints remain
 unchanged. The Fable review concerned design, not the later measured results.
 
-R16 is complete. R17 proposes prospective transfer preparation on a collection
-not yet analyzed here, with explicit metric and candidate semantics before
-score inspection. Do not tune on the nine observed reversals or acquire labels
+R16 is complete; cycle14 completed R17's prospective transfer preparation, and
+R18 owns the future execution. Do not tune on the nine observed reversals or acquire labels
 merely to settle the already-established annual direction. Dave's expanded
 sharing authorization worked for the actual unpublished Claude handoff.
 
