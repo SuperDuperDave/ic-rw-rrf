@@ -1,0 +1,17 @@
+{
+  "command": [
+    "evaluation/cycle15_scifact_transfer.py",
+    "validate",
+    "--inputs",
+    "_sessions/local/cycle15/acquisition/manifest.json",
+    "--decoder-path",
+    "_sessions/local/cycle15/runtime/decoder",
+    "--decoder-wheel",
+    "_sessions/local/cycle15/acquisition/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+    "--output",
+    "results/cycle15-2026-09-12/validation"
+  ],
+  "failure": "corpus: unsupported Parquet schema (expected three string fields)",
+  "status": "gate_failed_before_scoring",
+  "type": "ContractError"
+}

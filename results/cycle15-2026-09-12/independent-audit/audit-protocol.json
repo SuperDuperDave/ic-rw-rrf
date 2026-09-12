@@ -1,0 +1,41 @@
+{
+  "acquisition_sha256": "7941e43bdbdf729c6320066ac08e61873bf60d4b4db9927972335e4b21fe4769",
+  "build_receipt_sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c",
+  "command": [
+    "_sessions/tools/audit_cycle15_results.py",
+    "--acquisition",
+    "_sessions/evidence/2026-09-12-cycle15-acquisition.json",
+    "--build-receipt",
+    "_sessions/evidence/2026-09-12-cycle15-evaluator-build.json",
+    "--results",
+    "results/cycle15-2026-09-12/transfer",
+    "--metric-gate",
+    "results/cycle15-2026-09-12/metric-gate/metric-gate.json",
+    "--preflight",
+    "_sessions/evidence/2026-09-12-cycle15-correction-preflight.json",
+    "--output",
+    "_sessions/evidence/2026-09-12-cycle15-result-audit.json",
+    "--artifacts",
+    "results/cycle15-2026-09-12/independent-audit"
+  ],
+  "evaluator_revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+  "floating_point_policy": "Query occurrence order/grouping retained for scores; independent nDCG sums use math.fsum. Ranking order must match exactly.",
+  "hypothesis": "Independent frozen-formula reconstruction reproduces every ranking and reported result.",
+  "new_experiment": false,
+  "official_timeout_seconds_per_arm": 30,
+  "prediction": "Exact document order/depth and stipulated numerical tolerances hold for all queries and arms.",
+  "production_code_imports": [],
+  "reconstruction_wall_cap_seconds": 600,
+  "result_manifest_sha256": "0d2ac1cd0c64e88c5cace0b7f5a5dd3782b2cf2b6f3ae52ce895554e87d9c3cd",
+  "rng_used": false,
+  "source_sha256": "62e5dea00e4d67caf673d5dd82de071f978005e7d340248deaee4cbdad431f6d",
+  "status": "frozen_before_raw_input_reads",
+  "stopping_rule": "One complete reconstruction and one official invocation per fixed arm; preserve any discrepancy.",
+  "tolerance": {
+    "numeric_absolute": 1e-12,
+    "official_absolute": 5.00001e-05,
+    "rank_order": "exact",
+    "ranking_score_relative": 1e-12,
+    "source_scores": "exact"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "timestamp_utc": "2026-09-12T11:17:14.420428+00:00",
+  "original_failure": {
+    "path": "results/cycle15-2026-09-12/validation/failure.json",
+    "sha256": "2cf86ac8f26eda981599901b531680bbce4d11ec925e35050e390d83e3e06edd"
+  },
+  "attempt_boundary": "all five input identities and decoder verified; corpus schema read; no row iteration, qrels, cache records, lexical stats, scoring, fusion or collection effectiveness",
+  "subsequent_inspection": "Parquet footer/schema metadata only for both text files",
+  "metadata": {
+    "corpus": {
+      "num_rows": 5183,
+      "fields": [
+        {
+          "name": "_id",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "title",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "text",
+          "type": "large_string",
+          "nullable": true
+        }
+      ]
+    },
+    "query_texts": {
+      "num_rows": 1109,
+      "fields": [
+        {
+          "name": "_id",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "title",
+          "type": "large_string",
+          "nullable": true
+        },
+        {
+          "name": "text",
+          "type": "large_string",
+          "nullable": true
+        }
+      ]
+    }
+  },
+  "correction_protocol": "_sessions/cycles/2026-09-12-cycle15-string-correction.md",
+  "actual_collection_effectiveness_at_correction": 0
+}

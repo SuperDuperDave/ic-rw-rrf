@@ -1,0 +1,12 @@
+ndcg_cut_10           	00101	1.0000
+ndcg_cut_10           	empty	0.0000
+ndcg_cut_10           	ideal_cutoff	0.2837
+ndcg_cut_10           	multiple	0.4982
+ndcg_cut_10           	rank1	1.0000
+ndcg_cut_10           	rank10	0.2891
+ndcg_cut_10           	rank11	0.0000
+ndcg_cut_10           	rank2	0.6309
+ndcg_cut_10           	short_miss	0.0000
+ndcg_cut_10           	tied_original	1.0000
+ndcg_cut_10           	unjudged	0.5000
+ndcg_cut_10           	all	0.4729

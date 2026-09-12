@@ -2,10 +2,13 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** a prospective SciFact transfer is prepared,
-with pinned inputs and a fixed comparison against the added source alone and a
-simple hybrid. No SciFact effectiveness has been measured yet.
-[Preparation and execution contract](results/cycle14-2026-09-11/REPORT.md).
+**September 2026 research checkpoint:** on 300 SciFact queries, adding SPLADE
+improved the fixed lexical fusion from 0.6673 to 0.6867 nDCG@10. SPLADE alone
+(0.7036) and a simple BM25+SPLADE hybrid (0.7054) still led. The source-addition
+prediction held on this collection; the extra fusion machinery showed no mean
+advantage over those stronger references. All numerical rankings were independently
+reconstructed; nDCG for all five arms agreed with the official evaluator.
+[Measured transfer and limitations](results/cycle15-2026-09-12/REPORT.md).
 
 The preceding judgment audit asked which missing labels would matter to a fixed
 fusion comparison. Adding SPLADE++ to four-source k60 RRF has

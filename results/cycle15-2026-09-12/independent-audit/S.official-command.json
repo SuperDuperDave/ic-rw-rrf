@@ -1,0 +1,15 @@
+{
+  "absolute_tolerance": 5.00001e-05,
+  "command": [
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+    "-q",
+    "-c",
+    "-m",
+    "ndcg_cut.10",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/independent-audit/official.qrels",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/independent-audit/S.rank-proxy.trec"
+  ],
+  "qrels_sha256": "bb36d0c703801cf1bf6c48082ddb9470fb349cd5fc7568bcb803aa5fcf4acc0f",
+  "run_sha256": "03d8dab74559b18c4ec4df9e8203e3284781555300f9fefe81b879da74ac3aba",
+  "timeout_seconds": 30
+}

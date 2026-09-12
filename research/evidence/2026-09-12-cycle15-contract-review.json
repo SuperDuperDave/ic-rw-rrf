@@ -1,0 +1,78 @@
+{
+  "status": "passed_pre_execution_contract_review",
+  "reviewer": "bounded independent Codex contract worker",
+  "starting_commit": "9dd01eaad023b7223863271a775df76c7ef71804",
+  "scope": "Static review of the frozen protocol, input identities, acquisition, runtime preparation, strict validation, lexical ranking, five-arm fusion, synthetic metric gate and failure-stop boundaries before new data acquisition or effectiveness.",
+  "reviewed_source_sha256": {
+    "_sessions/tools/acquire_cycle15_inputs.py": "a7f13fd4a695973d0273b44ac9fb56566f8526140a97ec623b044640ee81319d",
+    "_sessions/tools/prepare_cycle15_runtime.py": "c6344a7c441e2aacbbcdff7a66a19838cbe9b552f090d9cfa63fe47b14b5eb7a",
+    "_sessions/tools/check_cycle15_metric.py": "b244424dfd0910426eee8e98b844087ee41c4f159169fbd6dd493fcb868cc949",
+    "evaluation/cycle15_scifact_transfer.py": "07e721880bd324bb016e08c08fb950b95151017cb634a35be8a7a21ec674e37c",
+    "_sessions/tools/tests/test_acquire_cycle15_inputs.py": "0349de64881d5cd6632fe98cd7b758f7f3353afaeebdfd044285fff7d9fe7f86",
+    "_sessions/tools/tests/test_cycle15_metric.py": "bc5f0fbe4ec6ed15f6c0a2d9f6e6589dcbd6c10f0ff6f88177b9fdb3268f14d7",
+    "evaluation/tests/test_cycle15_scifact_transfer.py": "c08d3ae813725b5a610324b1c9967d2e37cb9a0764a8f6dd446fdcc09ab01d3a"
+  },
+  "reviewed_contracts": [
+    "_sessions/cycles/2026-09-11-cycle14-transfer-protocol.md",
+    "_sessions/evidence/2026-09-11-cycle14-input-plan.json",
+    "_sessions/cycles/2026-09-11-cycle14-metric-audit.md",
+    "_sessions/cycles/2026-09-11-cycle14-source-audit.md",
+    "_sessions/cycles/2026-09-11-cycle14-local-input-audit.md",
+    "_sessions/cycles/2026-09-12-cycle15-execution.md"
+  ],
+  "contract_checks": {
+    "input_identity": "Frozen input-plan identity, exact byte sizes, four SHA256 bodies and one Git-blob SHA1 body; both identity forms independently recomputed before parsing.",
+    "resource_and_stop": "One fresh ignored acquisition directory, no reuse/retry/mirror substitution, aggregate 1200-second hard timer and per-read checks; five fixed raw inputs remain below 1.05GB, wheel/archive separately capped. Partial failures retained.",
+    "runtime_support": "Pinned wheel identity and platform checks, bounded safe extraction, immutable evaluator revision route and pinned metric source hash, make command and binary receipt; no global installation or retrieval.",
+    "cohort": "Validate the entire binary qrel domain before exclusions; complete cache coverage includes zero-IDCG test queries. Positive-IDCG cohort is ascending string IDs; no source intersection or retrieval-success eligibility. Query-text source may contain additional non-test rows.",
+    "text_and_identity": "Strict cache/Parquet schemas, string IDs, duplicate and mismatch rejection, exact title-newline-body and pinned corpus/query text agreement. Query and document namespaces remain separate.",
+    "statistics": "Unchanged build_collection_stats sees unique P-candidate documents across only the frozen retained cohort. SPLADE-only, excluded-query-only and unretrieved qrel documents do not enter the statistics pool.",
+    "lexical_order": "Four unchanged fixed scorers, full P candidate scoring before top200 cap, captured unrounded scores and original stable descending order; exact ties retain P array order. Tokenized-empty queries stop.",
+    "fusion": "P and S retain supplied order/depth up to1000; A has four lexical lists, B adds S, H has P plus S. Canonical k60 uses one-based ranks, unit weights, fsum and ascending string-ID computed-score ties.",
+    "metrics_and_diagnostics": "All five equal-query binary nDCG means and B-A/B-S/B-P/A-P/B-H contrasts use complete qrels IDCG and preserve unjudged positions. A/B truncated binary RBP uses p=4/5 without mass normalization. Actual top10 denominators and candidate/judgedness diagnostics are retained; no p-values or confidence intervals.",
+    "authoritative_gate": "Eleven fixed synthetic queries cover ranks1/2/10/11, multiple and unretrieved positives, IDCG cutoff, absent versus explicit-zero qrels, short/empty lists, tied original scores and identical query/document strings. Strict decreasing rank-proxy export, binary domain, named numeric tolerances and complete output keys are required.",
+    "code_and_failure_identity": "A required passed preflight rechecks source hashes before scoring. Immutable execution/effectiveness start records precede metrics; all numeric rankings are persisted first and each completed query outcome is flushed. Failure receipts distinguish whether effectiveness began or completed. No automatic recovery run is implemented."
+  },
+  "findings": [
+    {
+      "id": "C15-FAILURE-PHASE",
+      "initial_issue": "The initial driver computed metrics before persisting rankings and lacked phase/effectiveness flags, so an error during metrics could lose first-run outcomes without identifying a post-effectiveness failure.",
+      "resolution": "Landed before acquisition: numeric rankings precede analyze; effectiveness-start.json, streamed per-query.jsonl, phase and started/completed flags preserve the boundary. The focused synthetic second-query fault test exercises retention of first-query outcomes and all rankings.",
+      "status": "resolved_in_reviewed_source",
+      "friction_disposition": "SUBTRACT",
+      "durable_home": "evaluation/cycle15_scifact_transfer.py",
+      "evidence_limit": "Source and targeted test reviewed; no real-run improvement observed."
+    },
+    {
+      "id": "C15-RUNTIME-PRECONDITION-RECEIPT",
+      "initial_issue": "Runtime precondition failures occurred before the helper's receipt try/finally, leaving only a traceback.",
+      "resolution": "Landed CLI fallback writes failed_before_runtime_prepare with error type and explicit false SciFact parsing/effectiveness flag when no receipt exists.",
+      "status": "resolved_in_reviewed_source",
+      "friction_disposition": "SUBTRACT",
+      "durable_home": "_sessions/tools/prepare_cycle15_runtime.py",
+      "evidence_limit": "Source reviewed; coordinator reports a successful synthetic missing-support reproduction. No real setup failure observed."
+    }
+  ],
+  "resolved_uncertainty": {
+    "question": "Does pinned trec_eval -q -c emit an empty-result query as well as include it in the aggregate denominator?",
+    "resolution": "Metric worker inspected exact pinned trec_eval.c: missing query receives bogus_ranking, then common per-query printing and accumulation. Current parser requirement is supported; no contract correction needed.",
+    "evidence_limit": "Primary-source interpretation was supplied by the metric worker; this review did not fetch that source or run the evaluator. The authoritative gate remains required."
+  },
+  "open_consequential_findings": [],
+  "review_actions": [
+    "Read project agreements and relevant frozen/current contracts.",
+    "Read implementation and synthetic test sources; compare to the declared contract and local unchanged scorer/fusion functions.",
+    "Inspect final phase/preflight/runtime corrections and compute reviewed file SHA256 identities.",
+    "Return findings and follow-up review to coordinator and bounded implementation workers."
+  ],
+  "limits": [
+    "No new dataset bodies downloaded, parsed or inspected by this reviewer.",
+    "No real collection effectiveness, source/model retrieval, provider calls, authoritative evaluator invocation, build or package installation performed by this reviewer.",
+    "Synthetic test source review is distinct from independently executing those tests; coordinator and implementers own execution receipts.",
+    "Static contract agreement does not establish actual cache schema, complete input identity/text compatibility, successful runtime setup or a passed authoritative metric gate.",
+    "Independent reconstruction of actual rankings and outcomes remains future work after the frozen run."
+  ],
+  "worker_owned_live_processes": 0,
+  "worker_owned_provider_calls": 0,
+  "git_operations": "none; coordinator owns checkpoint"
+}

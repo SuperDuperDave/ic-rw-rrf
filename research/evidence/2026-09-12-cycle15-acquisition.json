@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "input_plan_sha256": "051aed306d99e3431aa0cf60f17b7acdf1341becc20d37259c283155c134d18a",
+  "acquirer_sha256": "a7f13fd4a695973d0273b44ac9fb56566f8526140a97ec623b044640ee81319d",
+  "inputs": {
+    "candidate_pool": "_sessions/local/cycle15/acquisition/candidate_pool.jsonl",
+    "added_source": "_sessions/local/cycle15/acquisition/added_source.jsonl",
+    "corpus": "_sessions/local/cycle15/acquisition/corpus.parquet",
+    "query_texts": "_sessions/local/cycle15/acquisition/query_texts.parquet",
+    "test_qrels": "_sessions/local/cycle15/acquisition/test_qrels.tsv"
+  },
+  "files": [
+    {
+      "role": "candidate_pool",
+      "path": "_sessions/local/cycle15/acquisition/candidate_pool.jsonl",
+      "bytes": 512484847,
+      "sha256": "c407ca6ea66a3cd79b40241a5314eca3c1727ce6cdf203b4b7ec70172b49b359",
+      "identity_algorithm": "sha256",
+      "identity_digest": "c407ca6ea66a3cd79b40241a5314eca3c1727ce6cdf203b4b7ec70172b49b359",
+      "published_identity_verified": true
+    },
+    {
+      "role": "added_source",
+      "path": "_sessions/local/cycle15/acquisition/added_source.jsonl",
+      "bytes": 483447636,
+      "sha256": "47f5a37a79417fc1403a0284bda265015e3c51c8a0e5fdf9ec7d54482a45b091",
+      "identity_algorithm": "sha256",
+      "identity_digest": "47f5a37a79417fc1403a0284bda265015e3c51c8a0e5fdf9ec7d54482a45b091",
+      "published_identity_verified": true
+    },
+    {
+      "role": "corpus",
+      "path": "_sessions/local/cycle15/acquisition/corpus.parquet",
+      "bytes": 4469916,
+      "sha256": "243324b35f03d82bd6d98a5f575966876e86cad7ce16e5333a35b1b793dc4f45",
+      "identity_algorithm": "sha256",
+      "identity_digest": "243324b35f03d82bd6d98a5f575966876e86cad7ce16e5333a35b1b793dc4f45",
+      "published_identity_verified": true
+    },
+    {
+      "role": "query_texts",
+      "path": "_sessions/local/cycle15/acquisition/query_texts.parquet",
+      "bytes": 64982,
+      "sha256": "1c37956c5dc8b810b60302323c24d1a9e79e26411ba8f5ad9d0888642e2a9034",
+      "identity_algorithm": "sha256",
+      "identity_digest": "1c37956c5dc8b810b60302323c24d1a9e79e26411ba8f5ad9d0888642e2a9034",
+      "published_identity_verified": true
+    },
+    {
+      "role": "test_qrels",
+      "path": "_sessions/local/cycle15/acquisition/test_qrels.tsv",
+      "bytes": 5389,
+      "sha256": "0864bb985e0ca2367ba217977e72004d549054b2b06666ed9d4825ac7c21284c",
+      "identity_algorithm": "git-blob-sha1",
+      "identity_digest": "c62f58c75f10c0cee23483b7269bff2902ae4080",
+      "published_identity_verified": true
+    },
+    {
+      "role": "decoder",
+      "path": "_sessions/local/cycle15/acquisition/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "bytes": 50102437,
+      "sha256": "5389cdf79447ed1515c9e31620e6e1e2302249564d603f2ad727d4f6d313e4c3",
+      "identity_algorithm": "sha256",
+      "identity_digest": "5389cdf79447ed1515c9e31620e6e1e2302249564d603f2ad727d4f6d313e4c3",
+      "published_identity_verified": true
+    },
+    {
+      "role": "evaluator_source",
+      "path": "_sessions/local/cycle15/acquisition/evaluator_source.tar.gz",
+      "bytes": 1025119,
+      "sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a",
+      "identity_algorithm": "sha256",
+      "identity_digest": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a",
+      "published_identity_verified": false
+    }
+  ],
+  "download_wall_cap_seconds": 1200,
+  "network_requests_attempted": 7,
+  "retries": 0,
+  "wall_seconds": 34.057087411987595,
+  "partial_files": [],
+  "local_manifest_sha256": "42bf439ca99f2e2ce8e7157883eb49726e6f239dbf2d57f57c8ad209737dc4c0",
+  "scope": "Verified bytes only; no SciFact records parsed or effectiveness computed by acquisition."
+}

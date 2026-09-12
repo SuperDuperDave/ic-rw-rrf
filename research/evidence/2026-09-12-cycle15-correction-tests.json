@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-09-12T11:21:13.625383+00:00",
+  "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "evaluation/tests"
+  ],
+  "environment": {
+    "CYCLE15_TEST_DECODER_PATH": "_sessions/local/cycle15/runtime/decoder",
+    "CYCLE15_TEST_DECODER_WHEEL": "_sessions/local/cycle15/acquisition/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl"
+  },
+  "research_tests_passed": 211,
+  "correction_tests_passed": 10,
+  "real_synthetic_parquet_width_test_enabled": true,
+  "seconds": 8.484,
+  "exit_code": 0,
+  "unchanged_helper_tests_passed_previously": 180,
+  "total_current_tests_passed": 391,
+  "source_sha256": {
+    "evaluation/cycle15_large_string_adapter.py": "1871891bb58a9c4e9a8f0f40b1191e3e4023ae91b5df5be020c5aa24df3368c8",
+    "evaluation/tests/test_cycle15_large_string_adapter.py": "dcc5a00d3654068f8cb6448946127b58017e5fdb78e0afcaad2ab162f6f796c4"
+  },
+  "actual_collection_row_or_effectiveness_reads_in_tests": 0
+}
