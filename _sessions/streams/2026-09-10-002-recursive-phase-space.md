@@ -2,9 +2,9 @@
 
 ## Resume
 - Goal: autonomous, curiosity-led research with Codex and Claude; continue through meaningful evidence checkpoints.
-- Now: cycle14 preparation is complete. SciFact was selected before source inspection; immutable top1000 BM25/SPLADE and corpus/query/qrel inputs total1,000,472,770 advertised bytes. No new data bodies, package installation or effectiveness measurements.
-- Next: PLANNING R18 / cycle14-transfer-protocol.md owns the small adapter, bounded acquisition, body/evaluator gates and one five-arm transfer. Primary binary nDCG B−A; source-alone/simple-hybrid references separate source addition from fusion value.
-- In flight: all three Codex workers and the Fable reviewer finished. Request75 consumed/ACK79; Relay clear. Root owns final local verification and GitHub checkpoint.
+- Now: cycle15 completed one fixed 300-query SciFact comparison. B−A=+.019348 nDCG, but B trails standalone S and simple H. All 1,669,294 ranking rows independently reconstructed, all five official metric checks and 402 tests pass. Original schema failure/correction and ancillary receipt recovery preserved.
+- Next: PLANNING R19 — check primary literature and prepare one matched lexical-family weighting question before any new comparative outcomes. No SciFact retuning or automatic experiment.
+- In flight: no worker, scoring, audit or provider process remains. Claude request80 consumed/ACK84; verified Relay brief clear. All artifact/link/publication-boundary checks passed; Git commit and remote verification supply the preservation record.
 - Preserve: all historical/cycle01–11 frozen evidence, arithmetic multiagent laboratory park, cycle08 parked batch and cycle07's16 unsent reserves. No arithmetic hardening or automatic repair probe.
 
 ## Scope and authority
@@ -488,3 +488,71 @@ The next research action remains PLANNING R3 / cycle02 source feasibility.
   framework work. F21 public-fragment extraction worked on this actual review.
 - Carryforward: R18 only for the next execution; preserve old arithmetic/association
   parks, reserves and all frozen evidence. No website or unrelated-project changes.
+
+## Cycle15 — measured SciFact transfer and qualified source-addition result
+
+- Continued R18 from checkpoint9dd01ea with all sources/arms/outcomes fixed before
+  new effectiveness. The first preflight passed201 research and180 helper tests.
+  One acquisition verified five raw bodies totaling1,000,472,770bytes in34.057s,
+  with pinned decoder/evaluator support and no retries, retrieval inference,
+  new judgments, global installation or source substitution.
+- Official NIST evaluator built from the frozen revision; all11 synthetic queries
+  passed before SciFact scoring. The first input gate then rejected Arrow
+  large_string at corpus schema, before any rows/qrels/cache/statistics. A separate
+  adapter/protocol/preflight accepted both string offset widths with unchanged
+  value checks and original research code. The preserved failure is not erased.
+- Corrected actual validation retains all300 official queries, zero exclusions;
+  both complete caches match pinned text and IDs. Qrel domain is grade1 only.
+  P depths66..1000, S all1000; pooled P union equals the5,183-document corpus.
+  This aggregate coverage does not make each per-query pool full-corpus.
+- One completed run took116.099s. Mean binary nDCG P=.678909, S=.703635,
+  A=.667303, B=.686651, H=.705391. Primary B−A=+.019348 with47/241/12
+  positive/equal/negative query differences. B−S=−.016984, B−H=−.018741;
+  A−P=−.011607. Source addition helps this fixed system; extra lexical apparatus
+  has no demonstrated mean advantage over strong simple references here.
+- B top10 outside its original P pool is0/3000. This limits the access observation
+  without identifying a cause; S can affect ordering or supply documents outside
+  retained lexical top200. Depth, quality and weight explanations remain open.
+  Secondary binary top10 RBP B−A=+.004326 is not the prior sharp-label bound.
+- Independent raw reconstruction matches1,669,294 numeric rows with exact scores,
+  order and depths, all300 query records and every summary. Largest per-query
+  floating difference2.22e-16; official NIST output agrees for allfive arms and
+  complete300-query aggregates within frozen rounding tolerance. Audit17.965s.
+  All211 research and191 helper tests pass, including real synthetic Parquet
+  offset-width fixtures. Dependency-free demo passed; its source stays unchanged.
+- A worker's ancillary review receipt changed five formatting spaces after the
+  coordinator froze its hash. Exact bound bytes restored, later version and
+  chronology preserved; all21 code/protocol/failure hashes stayed unchanged.
+  No outcome rerun. WORKFLOW now waits for stable-file handoff before freezing;
+  repair verified, future race prevention unverified.
+- One tools-disabled Fable review succeeded in132.031s, $.85376025 native list
+  accounting. Native init2.1.269 differs from earlier2.1.267 audit; allassistant
+  messages Fable, native usage also has17 Haiku output tokens of unknown role.
+  num_turns3 despite configured1; retain observed accounting and independent
+  wall cap, no claim of dispatched scouts or a purely single-model native path.
+  Read full two-fragment public memo and exact Relay80; requested ACK84 recorded,
+  final brief clear, no owned provider job. Raw streams remain ignored.
+- Integrated Claude's useful weight-versus-content question; corrected reversed
+  judgedness counts, unsupported tie explanation, null-versus-unidentified
+  mechanism language and causal interpretation of proposed future patterns.
+  R19 narrows five proposed new systems to one matched future weight intervention,
+  with prior-art/value check and strong S/H references. No current-panel tuning,
+  new experiment, novelty, population effect or dependence claim is promoted.
+- Report, state, README, public case-study draft, phase map and backlog updated.
+  R18 complete; R19 owns next preparation. Friction SUBTRACT/PROMOTE/DROP and
+  observed-versus-pending improvements live in FRICTION. No website publication.
+
+## Cycle15 carryforward
+
+- Start with PLANNING R19 and cycle15 review integration; inspect related work
+  and define a prospective contract or park if information value is weak.
+- Preserve all prior frozen evidence, the original schema failure/correction,
+  completed transfer and independent official audit. No automatic rerun.
+- R1's binary nDCG gate is complete; historical graded metrics, nested selection
+  and deterministic regeneration remain scoped maintenance when needed.
+
+Cycle15 final checks: 87 artifact/hash checks, 214 local Markdown links inspected,
+3,099,124 numeric-only TREC rows including official rank proxies, no new broken
+links or whitespace errors. The [check receipt](../evidence/2026-09-12-cycle15-checks.json)
+records verification scope; Git commit metadata and verified upstream provide
+the preservation receipt. All live work has ended at this research checkpoint.

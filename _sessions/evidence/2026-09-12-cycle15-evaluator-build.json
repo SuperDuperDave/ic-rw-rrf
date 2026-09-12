@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "evaluator_revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+  "acquisition_manifest_sha256": "42bf439ca99f2e2ce8e7157883eb49726e6f239dbf2d57f57c8ad209737dc4c0",
+  "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a",
+  "decoder_wheel_sha256": "5389cdf79447ed1515c9e31620e6e1e2302249564d603f2ad727d4f6d313e4c3",
+  "setup_source_sha256": "c6344a7c441e2aacbbcdff7a66a19838cbe9b552f090d9cfa63fe47b14b5eb7a",
+  "build_exit_code": 0,
+  "source_directory": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+  "binary_path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+  "binary_sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17",
+  "metric_source_sha256": "d5a369ec235a35726b4980b10ad161a1174dfe64aaf5159b1234e99fbdb92ed9",
+  "local_metric_sha256": "0b437034007e0e6ccfd8979c3eee6603374afb2234b895bccc47546347c9b85b",
+  "build_command": [
+    "make",
+    "-C",
+    "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c"
+  ],
+  "decoder_path": "_sessions/local/cycle15/runtime/decoder",
+  "observed_decoder_version": "25.0.1",
+  "decoder_import_path": "_sessions/local/cycle15/runtime/decoder/pyarrow/__init__.py",
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "wall_seconds": 5.041399995039683
+}

@@ -1,0 +1,304 @@
+{
+  "baseline": "Hand expectations at fixed relevant ranks using d(r)=1/log2(r+1).",
+  "binary_sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17",
+  "build_command": [
+    "make",
+    "-C",
+    "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c"
+  ],
+  "build_receipt_sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c",
+  "command": [
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+    "-q",
+    "-c",
+    "-m",
+    "ndcg_cut.10",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/metric-gate/fixtures.qrels",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/metric-gate/fixtures.run"
+  ],
+  "distinguishing_prediction": "Every per-query value and full-cohort mean meets the frozen tolerances.",
+  "empty_ranking_policy": "No exported run rows; require official -c per-query zero and inclusion in mean.",
+  "environment_overrides": {
+    "LC_ALL": "C"
+  },
+  "evaluator_revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+  "fixture_sha256": {
+    "qrels": "3513f4a045527c4786d38134c0b6297100c4e0589479c3346cdfb4f517298de5",
+    "run": "0dd39dd075e3f826478962add182efd70b6db7a89eded926a399ef26cb358498"
+  },
+  "fixtures": [
+    {
+      "expected": 1.0,
+      "expected_formula": "d(1); identical query/document strings are separate namespaces",
+      "original_scores": [
+        100.0,
+        99.0
+      ],
+      "qid": "00101",
+      "qrels": {
+        "00101": 1
+      },
+      "ranking": [
+        "00101",
+        "other"
+      ]
+    },
+    {
+      "expected": 0.0,
+      "expected_formula": "0 (empty ranking; included in denominator)",
+      "original_scores": [],
+      "qid": "empty",
+      "qrels": {
+        "unretrieved": 1
+      },
+      "ranking": []
+    },
+    {
+      "expected": 0.28371255449703187,
+      "expected_formula": "(d(1)+d(10))/sum(d(r),r=1..10); twelve qrel positives",
+      "original_scores": [
+        100.0,
+        99.0,
+        98.0,
+        97.0,
+        96.0,
+        95.0,
+        94.0,
+        93.0,
+        92.0,
+        91.0
+      ],
+      "qid": "ideal_cutoff",
+      "qrels": {
+        "p1": 1,
+        "p10": 1,
+        "p11": 1,
+        "p12": 1,
+        "p2": 1,
+        "p3": 1,
+        "p4": 1,
+        "p5": 1,
+        "p6": 1,
+        "p7": 1,
+        "p8": 1,
+        "p9": 1
+      },
+      "ranking": [
+        "p1",
+        "u2",
+        "u3",
+        "u4",
+        "u5",
+        "u6",
+        "u7",
+        "u8",
+        "u9",
+        "p2"
+      ]
+    },
+    {
+      "expected": 0.49818925746641285,
+      "expected_formula": "(d(2)+d(4))/(d(1)+d(2)+d(3)); third positive unretrieved",
+      "original_scores": [
+        100.0,
+        99.0,
+        98.0,
+        97.0
+      ],
+      "qid": "multiple",
+      "qrels": {
+        "p1": 1,
+        "p2": 1,
+        "unretrieved": 1,
+        "zero": 0
+      },
+      "ranking": [
+        "unjudged",
+        "p1",
+        "zero",
+        "p2"
+      ]
+    },
+    {
+      "expected": 1.0,
+      "expected_formula": "d(1)",
+      "original_scores": [
+        100.0
+      ],
+      "qid": "rank1",
+      "qrels": {
+        "positive": 1
+      },
+      "ranking": [
+        "positive"
+      ]
+    },
+    {
+      "expected": 0.2890648263178879,
+      "expected_formula": "d(10)",
+      "original_scores": [
+        100.0,
+        99.0,
+        98.0,
+        97.0,
+        96.0,
+        95.0,
+        94.0,
+        93.0,
+        92.0,
+        91.0
+      ],
+      "qid": "rank10",
+      "qrels": {
+        "positive": 1
+      },
+      "ranking": [
+        "u1",
+        "u2",
+        "u3",
+        "u4",
+        "u5",
+        "u6",
+        "u7",
+        "u8",
+        "u9",
+        "positive"
+      ]
+    },
+    {
+      "expected": 0.0,
+      "expected_formula": "0 (positive below cutoff)",
+      "original_scores": [
+        100.0,
+        99.0,
+        98.0,
+        97.0,
+        96.0,
+        95.0,
+        94.0,
+        93.0,
+        92.0,
+        91.0,
+        90.0
+      ],
+      "qid": "rank11",
+      "qrels": {
+        "positive": 1
+      },
+      "ranking": [
+        "u1",
+        "u2",
+        "u3",
+        "u4",
+        "u5",
+        "u6",
+        "u7",
+        "u8",
+        "u9",
+        "u10",
+        "positive"
+      ]
+    },
+    {
+      "expected": 0.6309297535714575,
+      "expected_formula": "d(2)",
+      "original_scores": [
+        100.0,
+        99.0
+      ],
+      "qid": "rank2",
+      "qrels": {
+        "positive": 1
+      },
+      "ranking": [
+        "u1",
+        "positive"
+      ]
+    },
+    {
+      "expected": 0.0,
+      "expected_formula": "0 (short ranking without a positive)",
+      "original_scores": [
+        100.0,
+        99.0
+      ],
+      "qid": "short_miss",
+      "qrels": {
+        "unretrieved": 1,
+        "zero": 0
+      },
+      "ranking": [
+        "unjudged",
+        "zero"
+      ]
+    },
+    {
+      "expected": 1.0,
+      "expected_formula": "d(1); preserve chosen a-before-z order despite tied original scores",
+      "original_scores": [
+        7.0,
+        7.0
+      ],
+      "qid": "tied_original",
+      "qrels": {
+        "a_positive": 1,
+        "z_zero": 0
+      },
+      "ranking": [
+        "a_positive",
+        "z_zero"
+      ]
+    },
+    {
+      "expected": 0.5,
+      "expected_formula": "d(3); unjudged and explicit zero both retain rank positions",
+      "original_scores": [
+        100.0,
+        99.0,
+        98.0
+      ],
+      "qid": "unjudged",
+      "qrels": {
+        "positive": 1,
+        "zero": 0
+      },
+      "ranking": [
+        "unjudged",
+        "zero",
+        "positive"
+      ]
+    }
+  ],
+  "gate_code_sha256": "b244424dfd0910426eee8e98b844087ee41c4f159169fbd6dd493fcb868cc949",
+  "hypothesis": "The pinned local metric agrees with hand binary expectations and official trec_eval.",
+  "local_metric_sha256": "0b437034007e0e6ccfd8979c3eee6603374afb2234b895bccc47546347c9b85b",
+  "metric": "binary nDCG@10",
+  "official_tolerance_basis": "Half of the default four-decimal output unit plus 1e-10 for representation.",
+  "primary_metric": "binary nDCG@10 on eleven synthetic qrel queries, including one empty ranking",
+  "query_denominator": 11,
+  "query_vector": [
+    "00101",
+    "empty",
+    "ideal_cutoff",
+    "multiple",
+    "rank1",
+    "rank10",
+    "rank11",
+    "rank2",
+    "short_miss",
+    "tied_original",
+    "unjudged"
+  ],
+  "rank_export": "Supplied ranking order with one-based rank and strictly decreasing score=-rank.",
+  "real_collection_effectiveness": false,
+  "rng_used": false,
+  "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a",
+  "status": "frozen_before_evaluator_invocation",
+  "stopping_rule": "One official invocation; any identity, key, exit, or numeric mismatch fails the gate.",
+  "timeout_seconds": 30,
+  "tolerance": {
+    "local_absolute": 1e-12,
+    "official_absolute": 5.00001e-05,
+    "relative": 0.0
+  }
+}

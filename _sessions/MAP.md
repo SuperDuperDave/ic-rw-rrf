@@ -1,6 +1,6 @@
 # IC(R/W)-RRF — map
 
-Role map, refreshed 2026-09-11. Verify symbols at edit time; line numbers drift.
+Role map, refreshed 2026-09-12. Verify symbols at edit time; line numbers drift.
 Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 
 | Path | Role / when to read |
@@ -13,6 +13,10 @@ Start with [research state](RESEARCH_STATE.md) and [backlog](PLANNING.md).
 | `_sessions/PHASE_SPACE.md` | Evolving hypotheses, design axes, and evidence-driven branch changes |
 | `_sessions/CLAUDE_COMPUTE.md` | Verified Fable5.1/Opus5 roles, phased orchestration, actual usage receipts |
 | `_sessions/cycles/` | Frozen experiment protocols, checked sources, and qualified Claude review memos |
+| `evaluation/cycle15_scifact_transfer.py`, `cycle15_large_string_adapter.py` | Frozen five-arm SciFact driver and separately preserved Arrow offset-width correction |
+| `_sessions/tools/acquire_cycle15_inputs.py`, `prepare_cycle15_runtime.py` | One-attempt pinned acquisition and isolated decoder/evaluator setup |
+| `_sessions/tools/check_cycle15_metric.py`, `audit_cycle15_results.py` | Authoritative synthetic metric gate and independent full raw-to-result reconstruction |
+| `results/cycle15-2026-09-12/REPORT.md` | Measured transfer, stronger simple references, original failure, corrected validation and official metric evidence |
 | `_sessions/tools/session.py` | Portable status and exclusive-create stream helper |
 | `_sessions/tools/check_cycle02_evidence.py` | Independent raw-to-TREC and per-query observation reconstruction; raw ignored cache required |
 | `_sessions/tools/acquire_cycle02_source.py` | Bounded checksum-verified external retrieval acquisition; strips passage/query text from durable ranks |

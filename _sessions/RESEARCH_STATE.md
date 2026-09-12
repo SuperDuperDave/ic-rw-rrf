@@ -1,4 +1,4 @@
-# Research state — 2026-09-11
+# Research state — 2026-09-12
 
 The live frontier is **distinguishing useful independent evidence from repeated
 agreement, with enough observations to test the distinction**. Cycle01 repaired
@@ -16,6 +16,36 @@ checks. The subsequent autonomous cycle added a canonical contract and two new
 experiment runners without changing the historical probes or inputs. It used
 real phased Fable5.1/Opus5 collaboration, documented in the cycle report and
 [compute policy](CLAUDE_COMPUTE.md). No external novelty was established.
+
+## Cycle15: source addition transfers, while simpler references lead
+
+The [SciFact result](../results/cycle15-2026-09-12/REPORT.md) completes the frozen
+five-system comparison on all 300 official test queries. Mean binary nDCG@10:
+P=.678909, S=.703635, A=.667303, B=.686651, H=.705391. A is the fixed four-list
+lexical RRF, B adds SPLADE S, and H is simple cached BM25 P plus S. Primary
+B−A=+.019348 supports the finite-panel direction, with 47 positive, 241 equal
+and 12 negative query differences. B trails S by .016984 and H by .018741;
+A also trails P. No new fusion algorithm or general advantage is established.
+
+All B top10 documents were in that query's original P pool (0/3,000 outside).
+The pooled P union covers all 5,183 corpus documents, while individual P lists
+vary from 66 to 1,000. These are access facts, not a causal separation of ranking,
+retained depth, source quality or lexical vote weight. Missing qrels are benchmark
+zeroes without being proven irrelevant. Secondary binary RBP has the same positive
+mean direction, not the old missing-grade guarantee.
+
+The first input gate rejected Arrow's large_string type before row/qrel reads.
+A separately frozen width-only adapter preserved original sources and the failed
+attempt. All original and corrected source identities remain intact. Independent
+reconstruction matched 1,669,294 ranking rows and every summary; the official NIST
+evaluator matched all five arms. All 402 tests pass. R18 is complete; preserve
+this single-run stop and the parked arithmetic/old-panel tuning branches.
+
+Claude's completed review supports a narrower next question about relative
+lexical-family weight. Its judgment-coverage reversal and causal overclaims were
+corrected in the [integration](cycles/2026-09-12-cycle15-review-integration.md).
+R19 prepares a matched, prospective weighting intervention and a prior-art check;
+it is not another run or a mechanism conclusion from these outcomes.
 
 ## Cycle14: transfer inputs found, comparison prepared before scores
 
@@ -64,8 +94,8 @@ annual summaries. The original sources, failures and all prior checkpoints remai
 unchanged. The Fable review concerned design, not the later measured results.
 
 R16 is complete; cycle14 completed R17's prospective transfer preparation, and
-R18 owns the future execution. Do not tune on the nine observed reversals or acquire labels
-merely to settle the already-established annual direction. Dave's expanded
+R18 completed that execution in cycle15 above. Do not tune on the nine observed
+reversals or acquire labels merely to settle the already-established annual direction. Dave's expanded
 sharing authorization worked for the actual unpublished Claude handoff.
 
 ## Cycle12: a concrete provenance case; comparative value remains unestablished
@@ -439,9 +469,9 @@ The cycle01 canonical contract, training-only k grid, query aggregation, and
 source/input/output manifests are complete. Do not repeat them on unchanged data
 at initialization. The [phase-space map](PHASE_SPACE.md) and editable
 [PLANNING](PLANNING.md) own the next discriminating experiment and residual
-work. Legacy PQAS nested selection, an authoritative metric cross-check, and
-deterministic regeneration remain open; new experiments should use the canonical
-contract. An untouched diverse panel is needed for any performance promotion.
+work. Legacy PQAS nested selection, graded-domain metric cross-checks, and
+deterministic regeneration remain open. The binary metric gate passed in cycle15;
+new experiments should use the canonical contract. An untouched diverse panel is needed for any performance promotion.
 
 ## Portfolio boundaries
 

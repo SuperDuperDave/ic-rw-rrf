@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-09-12T11:22:37.785851+00:00",
+  "original_preflight": {
+    "path": "_sessions/evidence/2026-09-12-cycle15-preflight.json",
+    "sha256": "ac17ff0c5950fd89d3de962180dcfac6acaf3d7f523da388142cd994173fabe4"
+  },
+  "source_sha256": {
+    "_sessions/tools/acquire_cycle15_inputs.py": "a7f13fd4a695973d0273b44ac9fb56566f8526140a97ec623b044640ee81319d",
+    "_sessions/tools/prepare_cycle15_runtime.py": "c6344a7c441e2aacbbcdff7a66a19838cbe9b552f090d9cfa63fe47b14b5eb7a",
+    "_sessions/tools/check_cycle15_metric.py": "b244424dfd0910426eee8e98b844087ee41c4f159169fbd6dd493fcb868cc949",
+    "evaluation/cycle15_scifact_transfer.py": "07e721880bd324bb016e08c08fb950b95151017cb634a35be8a7a21ec674e37c",
+    "_sessions/tools/tests/test_acquire_cycle15_inputs.py": "0349de64881d5cd6632fe98cd7b758f7f3353afaeebdfd044285fff7d9fe7f86",
+    "_sessions/tools/tests/test_cycle15_metric.py": "bc5f0fbe4ec6ed15f6c0a2d9f6e6589dcbd6c10f0ff6f88177b9fdb3268f14d7",
+    "evaluation/tests/test_cycle15_scifact_transfer.py": "c08d3ae813725b5a610324b1c9967d2e37cb9a0764a8f6dd446fdcc09ab01d3a",
+    "_sessions/cycles/2026-09-12-cycle15-execution.md": "686b51e15c73ee815359694e0fe9eb23110bc534f3b76d11928f07e949058037",
+    "_sessions/cycles/2026-09-12-cycle15-metric-protocol.md": "66fd408acc4ba81a049beb9190e69cb44e6e52b6b720e8bde20494699241832c",
+    "_sessions/cycles/2026-09-11-cycle14-transfer-protocol.md": "1ed94aea29e5a662f2a37f20047201c3dd4e7e3dd5f886038332ba5722342d5a",
+    "_sessions/evidence/2026-09-11-cycle14-input-plan.json": "051aed306d99e3431aa0cf60f17b7acdf1341becc20d37259c283155c134d18a",
+    "_sessions/evidence/2026-09-11-cycle14-metric-sources.json": "d7ff25fb7c148268c3d83d39b8667375dbee392688d0bc42345bc3224b8d7993",
+    "evaluation/generate_diverse_runs.py": "0702155886c270c507b5c4a3f21e1145782ba25d8b4fd430fc10dac7ef0233f8",
+    "evaluation/trec_eval_harness.py": "0b437034007e0e6ccfd8979c3eee6603374afb2234b895bccc47546347c9b85b",
+    "evaluation/fusion_contract.py": "72dd915f052c84dc79d1e6a604778a925e38be398dabcbd66c5e5ef63e1fc38f",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6",
+    "evaluation/cycle15_large_string_adapter.py": "1871891bb58a9c4e9a8f0f40b1191e3e4023ae91b5df5be020c5aa24df3368c8",
+    "evaluation/tests/test_cycle15_large_string_adapter.py": "dcc5a00d3654068f8cb6448946127b58017e5fdb78e0afcaad2ab162f6f796c4",
+    "_sessions/cycles/2026-09-12-cycle15-string-correction.md": "131e7baf66f67500946fe24151b0a2da3048e855ef0d95900c4c3e7275e7b1f2",
+    "results/cycle15-2026-09-12/validation/failure.json": "2cf86ac8f26eda981599901b531680bbce4d11ec925e35050e390d83e3e06edd",
+    "_sessions/evidence/2026-09-12-cycle15-schema-failure.json": "415ed7741c27eb2b3710d90ff82614684034f6e4e19224ee58b63ef19c28bb82"
+  },
+  "commands": {
+    "validation": [
+      "python3",
+      "-B",
+      "evaluation/cycle15_large_string_adapter.py",
+      "validate",
+      "--inputs",
+      "_sessions/local/cycle15/acquisition/manifest.json",
+      "--decoder-path",
+      "_sessions/local/cycle15/runtime/decoder",
+      "--decoder-wheel",
+      "_sessions/local/cycle15/acquisition/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "--preflight",
+      "_sessions/evidence/2026-09-12-cycle15-correction-preflight.json",
+      "--output",
+      "results/cycle15-2026-09-12/corrected-validation"
+    ],
+    "transfer": [
+      "python3",
+      "-B",
+      "evaluation/cycle15_large_string_adapter.py",
+      "run",
+      "--inputs",
+      "_sessions/local/cycle15/acquisition/manifest.json",
+      "--decoder-path",
+      "_sessions/local/cycle15/runtime/decoder",
+      "--decoder-wheel",
+      "_sessions/local/cycle15/acquisition/pyarrow-25.0.1-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "--preflight",
+      "_sessions/evidence/2026-09-12-cycle15-correction-preflight.json",
+      "--metric-gate",
+      "results/cycle15-2026-09-12/metric-gate/metric-gate.json",
+      "--output",
+      "results/cycle15-2026-09-12/transfer"
+    ]
+  },
+  "independent_correction_review": {
+    "path": "_sessions/evidence/2026-09-12-cycle15-correction-review.json",
+    "sha256": "d6ca80d3f4fac5983fe267821290a1b2c41138e6c2482ea8c4d0c1d6482e6e6a"
+  },
+  "correction_test_receipt": "_sessions/evidence/2026-09-12-cycle15-correction-tests.json",
+  "actual_collection_effectiveness_at_freeze": 0,
+  "prior_data_access": "five raw body hashes; both Parquet footer schemas only; no row/qrel/cache parsing before correction",
+  "original_failed_validation_preserved": true,
+  "reused_metric_gate": {
+    "path": "results/cycle15-2026-09-12/metric-gate/metric-gate.json",
+    "sha256": "d545787fb922f5e7c980f0c2c02a9c852ab23de411cbd2afb304040222e92dca"
+  },
+  "correction_test_receipt_sha256": "0685d431566805ef6e29ca6b3159f126959400220effc4211469b9ff9a50136f"
+}

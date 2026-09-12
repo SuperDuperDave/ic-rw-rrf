@@ -263,3 +263,14 @@ two-fragment public memo, then recorded Claude's requested consumptionACK79.
 Final brief79 is clear; no task-owned provider remains. The review covers the
 packet's proposed comparison, not acquired inputs, the later final contract or
 new effectiveness. [Receipt](evidence/2026-09-11-cycle14-review-receipt.json).
+
+## Cycle15 completed review — 2026-09-12
+
+Native session `534ccf98-bdaa-4328-a16a-599baceab121` consumed request80's marker
+and completed the tools-disabled Fable review. Lifecycle81–83 records startup,
+turn completion and end. Codex read the exact request and all public text
+fragments, integrated the critique with corrections, then recorded Claude's
+requested consumption ACK84. The verified brief has no pending signals or active
+claims; no task-owned provider remains. Native2.1.269 accounting details and
+its small additional Haiku entry are preserved in the [receipt](evidence/2026-09-12-cycle15-review-receipt.json),
+not inferred from requested flags. Raw provider transcripts stay ignored.

@@ -1,0 +1,36 @@
+{
+  "status": "exact_frozen_review_bytes_restored",
+  "frozen_preflight": {
+    "path": "_sessions/evidence/2026-09-12-cycle15-correction-preflight.json",
+    "sha256": "8bdd8555e9fd7a4f978c11ecc17bc248ae651c986c0e1c867d328f9f34ef832c",
+    "timestamp_utc": "2026-09-12T11:22:37.785851+00:00"
+  },
+  "frozen_review": {
+    "path": "_sessions/evidence/2026-09-12-cycle15-correction-review.json",
+    "sha256": "d6ca80d3f4fac5983fe267821290a1b2c41138e6c2482ea8c4d0c1d6482e6e6a",
+    "bytes": 4031
+  },
+  "preserved_spacing_revision": {
+    "path": "_sessions/evidence/2026-09-12-cycle15-correction-review-compact.json",
+    "sha256": "0da5e2be50a75b12f0dbf88c40ac62045c9bbc668bcbf26320b0045248df8c8f",
+    "bytes": 4036
+  },
+  "chronology": "The initial long review was condensed at coordinator request. The coordinator froze the first compact receipt. The reviewer then added five spaces across three text fields, racing with that freeze. The frozen identity was therefore the first compact version, not the initial long version.",
+  "changed_text": "Spacing only: all16/final3/and3, reports10 and Utf832-bit became all 16/final 3/and 3, reports 10 and Utf8 32-bit. No findings, reviewed-source hashes, custody requirements or conclusions changed.",
+  "recovery": "Reversed only those spacing edits in memory, verified exact SHA256 against the unchanged preflight, preserved the later spacing revision separately, then atomically restored the frozen bytes.",
+  "timing": {
+    "spacing_revision_file_mtime_observed_utc": "2026-09-12T11:22:50.580346+00:00",
+    "restoration_started_utc": "2026-09-12T11:26:02.940534+00:00",
+    "restoration_verified_utc": "2026-09-12T11:26:02.944368+00:00",
+    "execution_state_reported_by_coordinator": "Corrected validation passed and comparison was active when the ancillary receipt discrepancy was noticed; reviewer did not inspect execution outputs."
+  },
+  "source_hashes_verified_unchanged": 21,
+  "research_code_protocol_input_or_outcome_changes": false,
+  "actual_collection_rows_or_effectiveness_read_by_reviewer": false,
+  "friction": {
+    "classification": "SUBTRACT",
+    "durable_home": "_sessions/evidence/2026-09-12-cycle15-review-custody.json",
+    "landed_fix": "Recovered and restored the exact frozen receipt bytes; preserved the later formatting revision separately.",
+    "limit": "This repairs ancillary artifact custody; it is not a new research result or evidence of improved execution."
+  }
+}

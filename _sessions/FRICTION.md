@@ -66,6 +66,24 @@ the complete two-fragment public memo without another provider call. **DROP**
 resolved API/default-branch/DNS and bounded-fork launch retries as new framework
 work: existing explicit revision, supported escalation and bounded forks sufficed.
 
+Cycle15 **SUBTRACT**: a separate Arrow string-width adapter removes a concrete
+publisher-schema/decoder mismatch while preserving every original row check,
+source and failed attempt. The corrected actual input gate passed all 300 queries;
+this path is outcome-verified, without claiming future prevention. **PROMOTE**:
+the binary-domain metric contract now has observed success on 11 synthetic
+fixtures and all five actual systems against NIST, with independent numerical
+reconstruction; the graded historical metric remains outside that validation.
+Durable homes are the corrected adapter and cycle15 metric/audit receipts.
+
+Cycle15 also **SUBTRACT**s a handoff race: the coordinator froze a review receipt
+before its owner finished formatting. The exact bound bytes were recovered,
+the five-space revision preserved, and all code/protocol/outcome hashes stayed
+unchanged. WORKFLOW now requires the worker's stable-file handoff before freezing
+and a separate path for later revisions. Recovery is verified in the cycle15
+review-custody receipt; prevention on a future session remains unverified.
+**DROP** transient missing-path/navigation and resolved transport issues as new
+framework work. No new approval ceremony or permanent provider listener.
+
 When a later session demonstrates that a change removed the original cost,
 record the evidence in its stream and retire the row. Do not mark a process fix
 effective merely because its documentation or helper was added.

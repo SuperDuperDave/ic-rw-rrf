@@ -1,0 +1,151 @@
+{
+  "aggregate": {
+    "independent_formula": 0.47289967198661725,
+    "local": 0.47289967198661725,
+    "official": 0.4729,
+    "official_absolute_error": 3.2801338273324987e-07
+  },
+  "aggregate_denominator": 11,
+  "binary_sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17",
+  "build_command": [
+    "make",
+    "-C",
+    "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c"
+  ],
+  "build_receipt_sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c",
+  "command": [
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+    "-q",
+    "-c",
+    "-m",
+    "ndcg_cut.10",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/metric-gate/fixtures.qrels",
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle15-2026-09-12/metric-gate/fixtures.run"
+  ],
+  "elapsed_seconds": 0.0013905050000175834,
+  "empty_query_ids": [
+    "empty"
+  ],
+  "evaluator_exit_code": 0,
+  "evaluator_revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+  "gate_code_sha256": "b244424dfd0910426eee8e98b844087ee41c4f159169fbd6dd493fcb868cc949",
+  "local_metric_sha256": "0b437034007e0e6ccfd8979c3eee6603374afb2234b895bccc47546347c9b85b",
+  "max_local_absolute_error": 0.0,
+  "max_official_absolute_error": 3.5173682112144e-05,
+  "metric": "binary nDCG@10",
+  "per_fixture": {
+    "00101": {
+      "expected_formula": "d(1); identical query/document strings are separate namespaces",
+      "independent_formula": 1.0,
+      "local": 1.0,
+      "local_absolute_error": 0.0,
+      "official": 1.0,
+      "official_absolute_error": 0.0
+    },
+    "empty": {
+      "expected_formula": "0 (empty ranking; included in denominator)",
+      "independent_formula": 0.0,
+      "local": 0.0,
+      "local_absolute_error": 0.0,
+      "official": 0.0,
+      "official_absolute_error": 0.0
+    },
+    "ideal_cutoff": {
+      "expected_formula": "(d(1)+d(10))/sum(d(r),r=1..10); twelve qrel positives",
+      "independent_formula": 0.28371255449703187,
+      "local": 0.28371255449703187,
+      "local_absolute_error": 0.0,
+      "official": 0.2837,
+      "official_absolute_error": 1.255449703185807e-05
+    },
+    "multiple": {
+      "expected_formula": "(d(2)+d(4))/(d(1)+d(2)+d(3)); third positive unretrieved",
+      "independent_formula": 0.49818925746641285,
+      "local": 0.49818925746641285,
+      "local_absolute_error": 0.0,
+      "official": 0.4982,
+      "official_absolute_error": 1.0742533587126957e-05
+    },
+    "rank1": {
+      "expected_formula": "d(1)",
+      "independent_formula": 1.0,
+      "local": 1.0,
+      "local_absolute_error": 0.0,
+      "official": 1.0,
+      "official_absolute_error": 0.0
+    },
+    "rank10": {
+      "expected_formula": "d(10)",
+      "independent_formula": 0.2890648263178879,
+      "local": 0.2890648263178879,
+      "local_absolute_error": 0.0,
+      "official": 0.2891,
+      "official_absolute_error": 3.5173682112144e-05
+    },
+    "rank11": {
+      "expected_formula": "0 (positive below cutoff)",
+      "independent_formula": 0.0,
+      "local": 0.0,
+      "local_absolute_error": 0.0,
+      "official": 0.0,
+      "official_absolute_error": 0.0
+    },
+    "rank2": {
+      "expected_formula": "d(2)",
+      "independent_formula": 0.6309297535714575,
+      "local": 0.6309297535714575,
+      "local_absolute_error": 0.0,
+      "official": 0.6309,
+      "official_absolute_error": 2.9753571457513672e-05
+    },
+    "short_miss": {
+      "expected_formula": "0 (short ranking without a positive)",
+      "independent_formula": 0.0,
+      "local": 0.0,
+      "local_absolute_error": 0.0,
+      "official": 0.0,
+      "official_absolute_error": 0.0
+    },
+    "tied_original": {
+      "expected_formula": "d(1); preserve chosen a-before-z order despite tied original scores",
+      "independent_formula": 1.0,
+      "local": 1.0,
+      "local_absolute_error": 0.0,
+      "official": 1.0,
+      "official_absolute_error": 0.0
+    },
+    "unjudged": {
+      "expected_formula": "d(3); unjudged and explicit zero both retain rank positions",
+      "independent_formula": 0.5,
+      "local": 0.5,
+      "local_absolute_error": 0.0,
+      "official": 0.5,
+      "official_absolute_error": 0.0
+    }
+  },
+  "protocol_sha256": "d2bfc9520dbaa8e2dc53892c2544382ce24f6f86a6f096b5a71138b3512e8684",
+  "query_count": 11,
+  "query_vector": [
+    "00101",
+    "empty",
+    "ideal_cutoff",
+    "multiple",
+    "rank1",
+    "rank10",
+    "rank11",
+    "rank2",
+    "short_miss",
+    "tied_original",
+    "unjudged"
+  ],
+  "real_collection_effectiveness": false,
+  "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a",
+  "status": "passed",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "ea6eb3df4424c0eb36c6b090e011d5ae8940326bd8edcacb0571fc1fa91f53c0",
+  "tolerance": {
+    "local_absolute": 1e-12,
+    "official_absolute": 5.00001e-05,
+    "relative": 0.0
+  }
+}

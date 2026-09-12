@@ -70,9 +70,13 @@ aggregation, two frozen protocols, immutable numerical evidence and input/source
 hashes. The five-configuration cycle reproduces and explains the baseline
 convention differences. Cycle01 has 25 research tests; cycle02 adds 13 observation tests.
 
-**Remaining:** independently cross-check general metrics against an authoritative
-evaluator; repair legacy PQAS nested selection/unequal-fold aggregation if that
-branch resumes; make raw run regeneration deterministic by replacing/controlling
+**Cycle15 landed:** official binary nDCG@10 fixtures and all five actual SciFact
+arms agree with the pinned NIST evaluator, with complete query denominators and
+rank-preserving export. This does not validate historical graded outcomes.
+
+**Remaining:** independently cross-check graded-domain and other general metrics
+against an authoritative evaluator; repair legacy PQAS nested selection and
+unequal-fold aggregation if that branch resumes; make raw run regeneration deterministic by replacing/controlling
 Python hash. Inventory the historical search budget before future promotion.
 Align the clone helper's positive-qrel eligibility filter before using a new
 panel (all current queries have positive qrels, so cycle01 is unaffected).
@@ -330,22 +334,49 @@ hybrid baselines. Original first-stage provenance is incomplete: mechanism-level
 adaptation, not exact-pair replication. Binary nDCG is primary; explicit metric,
 cohort, input and body-integrity gates precede future scoring. R18 owns execution.
 
-### R18 — NEXT: one frozen SciFact transfer
+### R18 — DONE: one frozen SciFact transfer
 
-Implement the small adapter and five-arm driver under the cycle14 protocol and
-[input plan](evidence/2026-09-11-cycle14-input-plan.json). Reuse existing scoring,
-strict readers, canonical RRF and binary nDCG; avoid legacy CLI extra methods,
-query intersection and label diagnostics. The only optional data dependency is
-the pinned Parquet decoder for corpus/query identity checks. Build the pinned
-official evaluator and cross-check synthetic cases before new effectiveness.
+The [cycle15 report](../results/cycle15-2026-09-12/REPORT.md) preserves one complete
+300-query comparison after the original schema failure and a separately frozen
+string-width correction. All five pinned input bodies passed integrity/text/cohort
+checks; the NIST binary metric gate passed before effectiveness. All 402 tests,
+independent reconstruction of 1,669,294 ranking rows and five actual official
+metric comparisons pass. No retrieval inference, new judgments or parameter search.
 
-Acquire only the five frozen inputs within their byte/time bounds, validate full
-cohort/grade/text/ID/depth semantics, then run the fixed comparison once. Preserve
-null, mixed or reversed results. No source/dataset/parameter selection from the
-outcomes, automatic inference fallback, or router tuning on old reversals. Input
-or evaluator failure stops; corrections record whether any scores were already
-seen. Finish with independent result reconstruction, claim-limited synthesis and
-the normal GitHub checkpoint. Existing arithmetic/association parks remain intact.
+B−A=+.019348 nDCG@10, while B−S=−.016984 and B−H=−.018741. A also trails P.
+Source addition helps this fixed system; it does not establish a benefit for the
+extra lexical apparatus. No B top10 document is outside its query's P pool, but
+ranking quality, retained depth and lexical vote weight remain bundled. Preserve
+the finite-panel scope and single-run stop. Claude's completed critique and
+independently corrected overclaims inform R19; no additional experiment is part
+of this execution.
+
+### R19 — NEXT: define a matched lexical-family weighting question
+
+Use the [cycle15 integration](cycles/2026-09-12-cycle15-review-integration.md)
+to prepare one prospective intervention, not another weight search. Question:
+with exactly B's lists and candidate access held fixed, does assigning each of
+four lexical sources weight1/4 and S weight1 improve the resulting fusion C
+against B's unit-per-list weights? Keep canonical k60, the same rank/tie contract,
+fixed cohort and binary nDCG. Source-family grouping is an explicit convention;
+it does not establish copying, dependence or an intrinsic unit of information.
+
+First check relevant primary literature and whether this answers a useful
+unresolved question beyond known weighted RRF. Choose a new collection before
+inspecting comparative performance, inventory a compatible pinned route, and
+write exact prediction, comparator, eligibility, metric, resource and stop rules.
+C−B measures the specified weighting intervention; C−S and C−H remain usefulness
+references. A local C−B win cannot by itself identify correlation as the cause,
+and a null cannot prove a depth/content mechanism. Avoid the review's larger
+singleton-fusion grid unless a separate prediction justifies it.
+
+Stop preparation at a reviewable contract or a reason to park. No current-SciFact
+performance tuning, new solver batch, website publication or automatic inference
+fallback. Any current-panel mechanism probe would be post hoc development work;
+future performance claims need evaluation outside the data that motivated them.
+The backlog can pivot if the literature or feasibility check yields a better
+question. Coordinator owns design; bounded source and skeptical reviews may run
+independently under the existing research/Claude authorization.
 
 ## Communication and operations
 

@@ -352,3 +352,20 @@ new information gained and remaining uncertainty; do not continue generating
 agents after independent checks cease to change the decision. Existing signed-in
 native access, Relay observation, successful model output, consumed handoff,
 verified experiment, and research improvement are distinct evidence claims.
+
+## Cycle15 observed native update — 2026-09-12
+
+The cycle15 native init event identifies **2.1.269**, newer than the earlier
+2.1.267 inspection above. This research task did not install or upgrade Claude.
+The [review receipt](evidence/2026-09-12-cycle15-review-receipt.json) records the
+version and post-review binary path/hash; no pre-launch digest was frozen.
+Tools and MCP were empty in init, no tool/scout use was observed, and the bounded
+review completed successfully in 132.031 seconds for $0.85376025 native accounting.
+
+All emitted assistant messages identify Fable5.1. Aggregate native usage also
+includes Haiku4.5 (17 output tokens, $0.003546); its internal role was not
+established, so this is not an intentionally dispatched scout or proof of a
+fallback. Native num_turns is3 despite configured max-turns1. Continue to record
+observed work separately from flags and enforce the independent process wall cap.
+A future native launch should check the current executable/version before hashing
+its invocation; do not assume the older installed binary is still current.

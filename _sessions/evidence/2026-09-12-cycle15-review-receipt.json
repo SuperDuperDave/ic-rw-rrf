@@ -1,0 +1,93 @@
+{
+  "status": "native_success; complete public memo consumed; qualified integration recorded separately",
+  "native_session_id": "534ccf98-bdaa-4328-a16a-599baceab121",
+  "requested_model": "claude-fable-5-1",
+  "observed_assistant_models": [
+    "claude-fable-5-1"
+  ],
+  "models_in_native_accounting": [
+    "claude-haiku-4-5-20251001",
+    "claude-fable-5-1"
+  ],
+  "effort": "high",
+  "exit_code": 0,
+  "timed_out": false,
+  "native_subtype": "success",
+  "native_is_error": false,
+  "wall_seconds": 132.03067982802168,
+  "native_list_accounting_usd": 0.85376025,
+  "native_model_usage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 3461,
+      "outputTokens": 17,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.003546,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "thinkingTokens": 0,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    },
+    "claude-fable-5-1": {
+      "inputTokens": 8,
+      "outputTokens": 8427,
+      "cacheReadInputTokens": 14497,
+      "cacheCreationInputTokens": 21258,
+      "webSearchRequests": 0,
+      "costUSD": 0.85021425,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "thinkingTokens": 6937,
+      "canonicalModel": "claude-fable-5-1",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "native_num_turns": 3,
+  "observed_assistant_message_ids": [
+    "msg_011CeyTzo1BkTnd1K3XZCMge",
+    "msg_011CeyU56tq7jCKA3N8QjVLz",
+    "msg_011CeyU9VwGyPc7FwmEC87mW"
+  ],
+  "configured_native_max_turns": 1,
+  "configured_per_response_output_tokens": 4000,
+  "configured_native_budget_usd": 1.5,
+  "configured_wall_seconds": 180,
+  "tools_or_scouts_observed": false,
+  "public_text_fragments": 2,
+  "public_memo_words": 748,
+  "advisory_memo_word_target": 550,
+  "terminal_result_complete_memo": false,
+  "final_per_message_usage_and_stop_reasons": "unavailable; emitted assistant usage is initial, not final",
+  "raw_stream_sha256": "2a898657eb0011bb3923375d2d0ddbc94c225c1dea05b1b7cbdd80d61c53d193",
+  "launcher_sha256": "a8cbc58b9ce7200215008e23b1f631dc0caded926e28952437f8545720c9776c",
+  "mission_sha256": "b99ac8ddfd994b62a2251373651b3c9b6831542aff64d67339c12eeafb2d4f15",
+  "memo_sha256": "73274514dc741cd0e60bd870a7e76e36b4010d3feb52e9ab794e23d851901cc8",
+  "review_marker": "cycle15-review-f24f65891e",
+  "request_sequence": 80,
+  "lifecycle_sequences": [
+    81,
+    82,
+    83
+  ],
+  "coordinator_recorded_requested_ack": 84,
+  "final_relay_sequence": 84,
+  "pending_signals": [],
+  "active_claims": [],
+  "live_provider_jobs": 0,
+  "scope": "Tools-disabled critique of supplied measured results and proposed next question; independent audit was still pending in the sent packet and passed locally during review. No source/body inspection by Claude.",
+  "limits": [
+    "Native list accounting is not subscription billing and excludes Codex.",
+    "All emitted assistant messages identify Fable5.1; native usage also reports Haiku4.5 with17 output tokens and $0.003546. Its internal role is not established by this observation; do not claim an intentional Haiku scout or entirely single-model native workflow.",
+    "Three native turns/message IDs were reported despite configured max-turns1; bounded invocation completed in132seconds. Configured turn/response settings are not treated as observed total limits.",
+    "Public memo contains factual/causal overclaims corrected in the separate integration; review agreement is not numerical verification.",
+    "Native init identifies2.1.269, newer than prior2.1.267 audit. Binary hash was measured after review; no pre-launch binary digest was frozen this cycle. Installed-version changes were not performed by this research task."
+  ],
+  "observed_native_version": "2.1.269",
+  "native_version_evidence": "system init event",
+  "claude_binary_sha256_after_review": "25e44883f54419569a3d739f38cbbdaebe83b09895da0f343e1b003710a4775b",
+  "resolved_binary_path_after_review": "/home/david-wsl/.local/share/claude/versions/2.1.269"
+}

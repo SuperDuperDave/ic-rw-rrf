@@ -38,6 +38,11 @@ Give independent workers concrete questions and evidence access. Parallelize
 useful separate lenses; reserve shared-file edits for named owners. Relay
 records coordination facts, while the coordinator checks the underlying result.
 
+Before freezing a worker-owned artifact, wait for its explicit stable-file handoff;
+file existence alone does not mean editing is finished. Read and hash the delivered
+bytes, then tell the worker they are frozen. Later revisions use a separate path
+and an explicit link to the preserved version, including formatting-only edits.
+
 ## Start and resume
 
 Read the shared agreement, [charter](RESEARCH_CHARTER.md), [file map](MAP.md),

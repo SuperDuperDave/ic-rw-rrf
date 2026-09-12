@@ -1,0 +1,56 @@
+{
+  "status": "passed_pre_outcome_correction_review",
+  "scope": "Independent pre-outcome review of the separate Arrow string-width correction; original attempt and contract review preserved.",
+  "reviewed_source_sha256": {
+    "evaluation/cycle15_large_string_adapter.py": "1871891bb58a9c4e9a8f0f40b1191e3e4023ae91b5df5be020c5aa24df3368c8",
+    "evaluation/tests/test_cycle15_large_string_adapter.py": "dcc5a00d3654068f8cb6448946127b58017e5fdb78e0afcaad2ab162f6f796c4",
+    "_sessions/cycles/2026-09-12-cycle15-string-correction.md": "131e7baf66f67500946fe24151b0a2da3048e855ef0d95900c4c3e7275e7b1f2"
+  },
+  "ancestry": {
+    "original_preflight": {
+      "path": "_sessions/evidence/2026-09-12-cycle15-preflight.json",
+      "sha256": "ac17ff0c5950fd89d3de962180dcfac6acaf3d7f523da388142cd994173fabe4"
+    },
+    "original_failure": {
+      "path": "results/cycle15-2026-09-12/validation/failure.json",
+      "sha256": "2cf86ac8f26eda981599901b531680bbce4d11ec925e35050e390d83e3e06edd"
+    },
+    "schema_failure_metadata": {
+      "path": "_sessions/evidence/2026-09-12-cycle15-schema-failure.json",
+      "sha256": "415ed7741c27eb2b3710d90ff82614684034f6e4e19224ee58b63ef19c28bb82"
+    },
+    "original_preflight_source_hashes_independently_checked_unchanged": 16
+  },
+  "comparison_invariance": {
+    "only_value_gate_change": "Accept string or large_string for exactly three unique _id/title/text fields; no cast, normalization, repair, row dropping or other type relaxation.",
+    "row_gate_structural_check": "Row loop and return AST identical to original after normalizing original._id/ContractError namespace prefixes.",
+    "research_delegation": "Original identity/decoder, qrels/cache/cohort/statistics, lexical/fusion/metric, 600-second timer and output-failure functions remain unchanged. Reusing the original authoritative metric gate is coherent.",
+    "pre_outcome_boundary": "Original corpus schema failure precedes row iteration, query rows, qrels, caches, statistics, scoring and effectiveness; saved failure and metadata inspection agree with source order."
+  },
+  "custody": {
+    "both_modes": "Corrected validate and run require adapter/test/correction-document hashes, hashed original preflight and every unchanged original source entry. Run rechecks ancestry before original execute().",
+    "failure_binding": "Final CUSTODY_SOURCES requires original failure and schema-failure metadata in the checked source_sha256 map; closes the initial missing direct failure-identity requirement.",
+    "execution_condition": "Coordinator must freeze corrected preflight and exact commands before one new validation and conditional comparison in fresh output directories; any further failure is preserved and stops."
+  },
+  "open_consequential_findings": [],
+  "checks": {
+    "independently_executed": "AST equivalence; all 16 original source hashes unchanged; final 3 source and 3 ancestry hashes verified.",
+    "synthetic_tests": "Ten tests inspected; implementer reports 10 passed including tiny real Parquet Unicode fixtures with pinned decoder. Reviewer did not rerun suite.",
+    "primary_reference": "Official Arrow format table assigns Utf8 32-bit and Large Utf8 64-bit offsets; both linked primary pages read without collection data.",
+    "sources": [
+      "https://arrow.apache.org/docs/format/Columnar.html",
+      "https://arrow.apache.org/docs/python/generated/pyarrow.large_string.html"
+    ]
+  },
+  "friction": {
+    "classification": "SUBTRACT",
+    "durable_home": "evaluation/cycle15_large_string_adapter.py",
+    "fix": "Required direct failure-record hash custody landed; real corrected validation benefit not yet observed."
+  },
+  "limits": [
+    "No actual collection rows, qrels, caches, rankings or effectiveness inspected by reviewer.",
+    "No collection downloads, provider calls, package installation or Git operations by reviewer.",
+    "Static correction agreement does not establish that actual input validation or the transfer will succeed."
+  ],
+  "worker_owned_live_processes": 0
+}

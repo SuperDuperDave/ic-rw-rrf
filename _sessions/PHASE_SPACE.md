@@ -38,7 +38,8 @@ interpretability, and cost. An improvement on one axis may trade off another.
 | H13 | `[observed, narrow; lab parked]` All4 answers and16 validity judgments are correct under valid-minority/majority copied support | Prespecified stop met; no internal evidence-use, copying-effect or multiagent claim |
 | H14 | `[concrete case; comparative value open]` Exact public artifact retrieval supplies a provenance fact that a stale repository label does not | Case and paper comparison recorded; direct-fetch baseline already supplies it. No new policy benefit or empirical comparison established |
 | H15 | `[observed, finite panel]` Fixed source addition has positive annual top10 metric bounds under every allowed missing-grade completion, with9 query reversals | Annual direction needs no new grades. Projected width gains do not imply a needed decision; prospective transfer needs a new panel and explicit metric/candidate semantics |
-| H16 | `[prepared, untested]` Fixed source addition may improve binary nDCG on SciFact; fusion may still trail the added source or a simple hybrid | One five-arm transfer under the cycle14 protocol; interpret B−A, B−S and B−H separately, with candidate access and missing judgments explicit |
+| H16 | `[observed, finite panel]` SciFact B−A is +.019348 binary nDCG, but B trails standalone S and simple H; A also trails P | Completed fixed transfer; distinguish source-addition success from fusion benefit. Relative lexical vote weight, local scorer quality and depth remain competing explanations |
+| H17 | `[proposed]` A declared lexical-family weight may change B's performance while holding its rankings and candidate access fixed | R19 checks prior art and prepares C−B with lexical weights1/4 and S weight1; preserve S/H references, prospective collection choice and noncausal interpretation |
 
 Evidence lives in the [cycle01 report](../results/cycle01-2026-09-10/REPORT.md).
 Existing DL2019/2020 queries are heavily used development data. Cycle01 cannot
@@ -195,3 +196,18 @@ found relevant prior work; it does not constitute novelty clearance.
   SPLADE and simple BM25+SPLADE RRF references before scoring: source addition
   and fusion value are different questions. Candidate/judgment coverage will be
   descriptive, not a causal decomposition. R18 owns one bounded execution.
+
+- **Cycle15:** the fixed source addition improves the 300-query SciFact mean,
+  while standalone SPLADE and a simple two-source hybrid lead the more elaborate
+  B system. All B top10 documents were already in P's per-query pool, so the
+  observed result did not surface outside-P documents into that cutoff. This
+  leaves differences in ordering, retained lexical depth, scorer quality and
+  source-family weight unresolved. The initial Arrow string-width gate failed
+  before rows; a separate correction and full independent reconstruction preserve
+  the comparison. Stop this experiment; choose the next question from this
+  changed evidence rather than treating a positive primary as a new algorithm.
+
+  Claude's critique helped narrow the next question to a matched family-weight
+  intervention. Independent checks corrected its reversed judgedness fractions
+  and causal claims. R19 starts with prior art and a prospective contract;
+  no new weighting result or mechanism is promoted from this cycle.

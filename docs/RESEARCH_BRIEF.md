@@ -172,13 +172,16 @@ with no nDCG or generalization claim. An incorrect list-depth assumption was
 caught before scoring, preserved and corrected using existing input metadata.
 [Cycle13 evidence map](../results/cycle13-2026-09-11/REPORT.md)
 
-**Preparing a fair transfer.** A new SciFact comparison is specified before
-scoring, including SPLADE alone and a simple hybrid as references. The source
-audit found usable pinned caches; the implementation audit clarified that the
-old lexical ensemble reranks one supplied candidate pool. A future win over
-that ensemble will therefore be distinguished from a benefit beyond using the
-added source itself. No SciFact effectiveness result exists yet.
-[Cycle14 preparation](../results/cycle14-2026-09-11/REPORT.md)
+**The stronger reference changes the lesson.** We fixed a SciFact comparison
+before scoring, including SPLADE alone and a simple hybrid. On all 300 test
+queries, adding SPLADE improved four-source lexical fusion from 0.6673 to 0.6867
+nDCG@10. Yet SPLADE alone reached 0.7036 and simple BM25+SPLADE fusion reached
+0.7054. The source helped; the extra lexical machinery showed no mean advantage
+over those references. Twelve queries still favored the original four-source
+fusion. All 1.67 million ranking rows were independently reconstructed, and
+nDCG for all five systems agreed with the official evaluator. This is one collection under binary benchmark
+judgments, with no established causal explanation or general superiority.
+[Cycle15 transfer and limitations](../results/cycle15-2026-09-12/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
@@ -230,5 +233,5 @@ The existing specifications and May notebooks are historical artifacts. Current
 qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
 research process now; a new technical contribution still needs its own related
 work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next local loop-bound audit from parked algorithm promotion. The separate
+the next research question from parked algorithm promotion. The separate
 website task owns integration and publication.

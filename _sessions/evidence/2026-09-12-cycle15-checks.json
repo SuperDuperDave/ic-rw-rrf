@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "timestamp_utc": "2026-09-12T11:38:58.042563+00:00",
+  "starting_commit": "9dd01eaad023b7223863271a775df76c7ef71804",
+  "research_tests": {
+    "passed": 211,
+    "command": "CYCLE15_TEST_DECODER_PATH=<isolated decoder> CYCLE15_TEST_DECODER_WHEEL=<pinned wheel> python3 -B -m unittest discover -s evaluation/tests",
+    "real_synthetic_parquet_fixtures_enabled": true,
+    "seconds": 8.484
+  },
+  "helper_tests": {
+    "passed": 191,
+    "command": "python3 -B -m unittest discover -s _sessions/tools/tests",
+    "seconds": 3.65
+  },
+  "total_tests_passed": 402,
+  "standard_library_demo": "passed before acquisition; source remains frozen",
+  "artifact_hash_checks": 87,
+  "public_json_files_parsed": 30,
+  "local_markdown_links_inspected": 214,
+  "new_broken_links": [],
+  "new_text_whitespace_errors": [],
+  "numeric_only_trec_rows_checked": 3099124,
+  "raw_runtime_or_provider_files_in_checkpoint": false,
+  "historical_code_data_and_cycle01_to14_artifacts_unchanged": true,
+  "independent_result_audit": "passed;1669294 exact ranking rows,300 per-query records,5 official arm checks",
+  "independent_narrative_review": "passed after correcting README nine-rankings versus five-official-arms wording",
+  "relay_final_sequence": 84,
+  "live_provider_or_worker_jobs": 0,
+  "git_preservation": "coordinator will review staged work, commit and verify push after this receipt",
+  "limitations": [
+    "Binary-domain metric validation does not validate legacy graded results.",
+    "This fixed collection comparison is not general superiority or causal dependence evidence.",
+    "No new-family-weight experiment, new label, retrieval-model inference, website publication or source substitution."
+  ]
+}
