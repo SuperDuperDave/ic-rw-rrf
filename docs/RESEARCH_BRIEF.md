@@ -172,6 +172,14 @@ with no nDCG or generalization claim. An incorrect list-depth assumption was
 caught before scoring, preserved and corrected using existing input metadata.
 [Cycle13 evidence map](../results/cycle13-2026-09-11/REPORT.md)
 
+**Preparing a fair transfer.** A new SciFact comparison is specified before
+scoring, including SPLADE alone and a simple hybrid as references. The source
+audit found usable pinned caches; the implementation audit clarified that the
+old lexical ensemble reranks one supplied candidate pool. A future win over
+that ensemble will therefore be distinguished from a benefit beyond using the
+added source itself. No SciFact effectiveness result exists yet.
+[Cycle14 preparation](../results/cycle14-2026-09-11/REPORT.md)
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated

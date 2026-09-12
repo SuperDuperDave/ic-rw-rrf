@@ -1,0 +1,31 @@
+{
+  "starting_commit": "cc421896df9c2c35b88c795bbd307273abfc6481",
+  "inspection": "primary evaluator source only; no metric execution",
+  "sources": {
+    "trec_eval": {
+      "commit": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+      "revision_method": "git ls-remote https://github.com/usnistgov/trec_eval.git HEAD",
+      "source_url": "https://raw.githubusercontent.com/usnistgov/trec_eval/ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/m_ndcg_cut.c",
+      "source_sha256": "d5a369ec235a35726b4980b10ad161a1174dfe64aaf5159b1234e99fbdb92ed9",
+      "source_bytes": 4732
+    },
+    "beir": {
+      "commit": "ef83d29307061c65d04b035b4f4e7c18bd8374af",
+      "revision_method": "git ls-remote https://github.com/beir-cellar/beir.git HEAD",
+      "source_url": "https://raw.githubusercontent.com/beir-cellar/beir/ef83d29307061c65d04b035b4f4e7c18bd8374af/beir/retrieval/evaluation.py",
+      "source_sha256": "f346bd20f258e552895e438257e3cc91308b65e0b1ee6c09422e987084bc3bd0",
+      "source_bytes": 5441
+    }
+  },
+  "local_sources": {
+    "evaluation/generate_diverse_runs.py": "0702155886c270c507b5c4a3f21e1145782ba25d8b4fd430fc10dac7ef0233f8",
+    "evaluation/trec_eval_harness.py": "0b437034007e0e6ccfd8979c3eee6603374afb2234b895bccc47546347c9b85b",
+    "evaluation/fusion_contract.py": "72dd915f052c84dc79d1e6a604778a925e38be398dabcbd66c5e5ef63e1fc38f",
+    "evaluation/cycle02_observation_audit.py": "9aeac57cb201336f81ce78439dbea4b8fe4f26817eef2339aa3cea63b4c224f6"
+  },
+  "limits": [
+    "trec_eval and pytrec_eval not installed in active environment",
+    "binary-gain identity follows formulas; official binary fixture cross-check deferred to execution",
+    "initial trec_eval API request for master returned HTTP422; actual HEAD resolved with git ls-remote"
+  ]
+}
