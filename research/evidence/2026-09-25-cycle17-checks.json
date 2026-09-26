@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T02:49:43.517834+00:00",
+  "status": "passed",
+  "scope": "Cycle17 final verification before staging. Commit/push receipt is Git history and the coordinator final response; not asserted by this file.",
+  "targeted_tests": {
+    "command": "python3 -B -m unittest evaluation.tests.test_cycle17_minority_exchange evaluation.tests.test_cycle17_minority_exchange_corrected evaluation.tests.test_cycle17_minority_exchange_compatible evaluation.tests.test_cycle17_scoped_labels evaluation.tests.test_cycle17_candidate_revelation -v",
+    "count": 48,
+    "exit_code": 0,
+    "log_sha256": "e4566e14a79fd50a2b000cb6bb860bdd5a3d606f4b5687123893d4607233dd13"
+  },
+  "standard_library_demo": {
+    "command": "python3 -B evaluation/trec_eval_harness.py --demo",
+    "exit_code": 0,
+    "log_sha256": "6afcb9de9de669aa21e030d32ec7e778fec8d3577b3de2aba2f7d84560199a46",
+    "interpretation": "Smoke check of historical harness, not new cycle17 scientific evidence."
+  },
+  "independent_artifacts": {
+    "checkpoint-audit.json": {
+      "sha256": "f6dfb32cfc2db75b1aa53f8df2299dc807547ba3d554af92d8a73205516c817f",
+      "status": "passed"
+    },
+    "candidate-revelation/independent-check.json": {
+      "sha256": "d903f2001d86be38d096694e0a022d3e41b3ee067c3f3fc27ced8cff82294cf3",
+      "status": "passed"
+    },
+    "early-official-metric-check.json": {
+      "sha256": "ed45065927c985d12744bf7bf47ea902f21807e2c81553de1f9f499f72a75e08",
+      "status": "passed",
+      "comparisons": {
+        "means": 5,
+        "per_query": 150
+      }
+    },
+    "candidate-official-metric-check.json": {
+      "sha256": "8ba0f7472e8157cf97f72aa59bd3ab578e56c2e878ddaf5af1019114c5379e66",
+      "status": "passed",
+      "comparisons": {
+        "means": 5,
+        "per_query": 150
+      }
+    },
+    "final/early/analysis.json": {
+      "sha256": "35ee9712899d797c7ab4f5f1ed793f4aa0ab3429325db66967994e521ffbde4d"
+    },
+    "candidate-revelation/late.json": {
+      "sha256": "ecb5e779e2a4536f93d20117bebf7b2a2e29789c6e12fda1cbe5a89e8e2e7bfa"
+    },
+    "candidate-revelation/revelation.json": {
+      "sha256": "f12b52c384aa61488991c19865e18230d7826b2d4b8ac848f02b64aef7189ee2"
+    },
+    "candidate-revelation/scope.json": {
+      "sha256": "05df12e6b24fe77a3dd675520fa6f3ed8b8ad0d7f3147f647643e62a4646b453"
+    },
+    "residual-labels.json": {
+      "sha256": "65430f65beaba37a78088c9aa9e0f32454b60d420009a10f65b121da1ad5742a"
+    }
+  },
+  "public_replay": {
+    "path": "_sessions/evidence/2026-09-25-cycle17-public-replay-check.json",
+    "sha256": "458948dd52311e9514e419d6cf2a4cc379b0e9001a779f5a7da6a722c640cf49",
+    "status": "passed",
+    "private_receipt_read_attempts": 0
+  },
+  "final_identity_and_document_checks": {
+    "frozen_files_verified": 55,
+    "markdown_local_links_checked": 196,
+    "broken_links": [],
+    "private_receipts_ignored": [
+      "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json",
+      "_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json",
+      "_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json"
+    ],
+    "public_receipts_checked": 5
+  },
+  "git_diff_check": "passed",
+  "acquisition": {
+    "downloaded_files": 5,
+    "total_bytes": 3497301,
+    "repeat_downloads": 0
+  },
+  "preserved_failed_attempts": [
+    "prepared/failure.json",
+    "corrected/prepared/failure.json",
+    "compatible/early/failure.json",
+    "final/late/failure.json"
+  ],
+  "collaboration": {
+    "opus_receipts": [
+      {
+        "path": "_sessions/evidence/2026-09-25-cycle17-opus-opening-receipt.json",
+        "sha256": "6af7cea7ced2fd55ddbe18b28994fee431ee9ff8b89f748b7a95233e1fbf701c",
+        "phase": "opening",
+        "cumulative_native_list_usd": 0.22602499999999998,
+        "relay_ack_seq": 104
+      },
+      {
+        "path": "_sessions/evidence/2026-09-25-cycle17-opus-synthesis-receipt.json",
+        "sha256": "8f6cd084f588be2f3d47ea6f4b3e216c0b64d76d8786caf5f2d9771fad323bc2",
+        "phase": "synthesis",
+        "cumulative_native_list_usd": 0.7324058,
+        "relay_ack_seq": 109
+      },
+      {
+        "path": "_sessions/evidence/2026-09-25-cycle17-opus-results-receipt.json",
+        "sha256": "d29acb9d1d6e3c184f3c4d21095e273ff08e373dfe1eb40aa4d0dd5f28171994",
+        "phase": "results",
+        "cumulative_native_list_usd": 0.926856,
+        "relay_ack_seq": 114
+      }
+    ],
+    "model": "claude-opus-5-5",
+    "effort": "high",
+    "native_session": "99f16ac0-c6c7-4118-8090-3e9f8ea2d040",
+    "native_cumulative_list_usd": 0.926856,
+    "accounting_note": "Resumed totals are cumulative: do not sum. Not subscription billing or total research compute.",
+    "buddy_receipt": "_sessions/evidence/2026-09-25-cycle17-buddy-receipt.json",
+    "buddy_status": "Substantive reply assessed and returned to Opus; no pending task.",
+    "relay_final_brief": {
+      "command": "python3 _sessions/tools/relay.py --json brief --agent claude",
+      "last_seq": 114,
+      "active_claims": [],
+      "pending_signals": []
+    },
+    "bounded_workers": "All three completed; final read-only narrative audit corrected overly broad M wording in R20."
+  },
+  "limits": [
+    "Fixed retrospective 30-query panel; no untouched or population-level claim.",
+    "Original global late-preservation phase failed; candidate-scoped observation was separately frozen post hoc.",
+    "Exact missing-label intervals are not confidence intervals.",
+    "No ranking-method or multiagent-workflow superiority promoted."
+  ]
+}

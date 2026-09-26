@@ -1,0 +1,225 @@
+{
+  "additional_bytes_downloaded": 0,
+  "frozen": {
+    "_sessions/cycles/2026-09-25-cycle17-docids-correction.md": "cb02047fbd8c09ed7e0158e44fca781787523eb72b95304fb0a59af3253f6cc2",
+    "_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf",
+    "_sessions/cycles/2026-09-25-cycle17-input-plan.json": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe",
+    "_sessions/evidence/2026-09-25-cycle17-docids-format-audit.json": "49f1fe4b48f6aaf58611f0ceeddb177fcc93a043eed77c06a5be819d905caf18",
+    "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9",
+    "_sessions/evidence/2026-09-25-cycle17-preflight.json": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3",
+    "_sessions/tools/acquire_cycle17_inputs.py": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1",
+    "_sessions/tools/check_cycle17_exchange.py": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10",
+    "_sessions/tools/check_cycle17_exchange_corrected.py": "39dc333fcacea94dd226f217b1fda4653461336ca6388cd988fff45d8c218789",
+    "_sessions/tools/check_cycle17_official_metric.py": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a",
+    "evaluation/cycle17_minority_exchange.py": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e",
+    "evaluation/cycle17_minority_exchange_corrected.py": "6e5bc712d756613919748f5586fe60462384489ccb51e665fcc1d1ac49949462",
+    "evaluation/tests/test_cycle17_minority_exchange.py": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1",
+    "evaluation/tests/test_cycle17_minority_exchange_corrected.py": "19ef1ff025ddd1bc133580c94210c1115723e0566593e7fed1ea606fae8c47f7",
+    "results/cycle17-2026-09-25/prepared/failure.json": "77a13c07f1cd1e447adc7425f441752ea6ef31acbbd41614429a6856cc36d825"
+  },
+  "http_header_scope": "Selected public metadata only; response cookies omitted.",
+  "inputs": {
+    "A.run": {
+      "bytes": 1005528,
+      "sha256": "2952bb4c58103119dbcb364b3f5f17a40f4208d79f2ea5554beefe8c06899209"
+    },
+    "S.run": {
+      "bytes": 1529551,
+      "sha256": "16a11c75a13c1deba3e41896b6801d7a57285ead28c7ed12e88cb67f848f9821"
+    },
+    "docids.txt": {
+      "bytes": 459972,
+      "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+    },
+    "early.qrels": {
+      "bytes": 141419,
+      "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+    }
+  },
+  "kind": "derived_identity_binding_not_network_acquisition",
+  "max_attempts_per_file": 1,
+  "original_receipt_sha256": "a7a732941d1d21c1ccb2ebd855e780e62241ea93d9bd5a9a5e87dc632967268c",
+  "phase": "initial",
+  "preflight_sha256": "364a78b83b667b1896580817219f55c442fffad9fff7e17dead1c6392d9ae79b",
+  "recorded_at_utc": "2026-09-26T02:10:37.060080+00:00",
+  "schema": 1,
+  "source_acquisition": {
+    "path": "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json",
+    "sha256": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9"
+  },
+  "source_preflight": {
+    "path": "_sessions/evidence/2026-09-25-cycle17-preflight.json",
+    "sha256": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3"
+  },
+  "status": "passed",
+  "transport": {
+    "A": {
+      "command": [
+        "curl",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-redirs",
+        "2",
+        "--proto",
+        "=https",
+        "--proto-redir",
+        "=https",
+        "--max-time",
+        "60",
+        "--max-filesize",
+        "4194304",
+        "--retry",
+        "0",
+        "--header",
+        "Accept-Encoding: identity",
+        "--dump-header",
+        "_sessions/local/cycle17/inputs/A.run.headers",
+        "--output",
+        "_sessions/local/cycle17/inputs/A.run",
+        "--write-out",
+        "%{json}",
+        "https://ir.nist.gov/trec-covid/archive/round1/BITEM_BL"
+      ],
+      "curl_exit": 0,
+      "effective_url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_BL",
+      "headers": {
+        "cache-control": "private",
+        "content-length": "1005528",
+        "date": "Sat, 26 Sep 2026 02:06:22 GMT",
+        "etag": "\"f57d8-5a49a6d58ac80\"",
+        "last-modified": "Fri, 01 May 2020 18:34:10 GMT"
+      },
+      "http_code": 200,
+      "stderr": "",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_BL"
+    },
+    "S": {
+      "command": [
+        "curl",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-redirs",
+        "2",
+        "--proto",
+        "=https",
+        "--proto-redir",
+        "=https",
+        "--max-time",
+        "60",
+        "--max-filesize",
+        "4194304",
+        "--retry",
+        "0",
+        "--header",
+        "Accept-Encoding: identity",
+        "--dump-header",
+        "_sessions/local/cycle17/inputs/S.run.headers",
+        "--output",
+        "_sessions/local/cycle17/inputs/S.run",
+        "--write-out",
+        "%{json}",
+        "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb"
+      ],
+      "curl_exit": 0,
+      "effective_url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb",
+      "headers": {
+        "cache-control": "private",
+        "content-length": "1529551",
+        "date": "Sat, 26 Sep 2026 02:06:22 GMT",
+        "etag": "\"1756cf-5a49a6d67eec0\"",
+        "last-modified": "Fri, 01 May 2020 18:34:11 GMT"
+      },
+      "http_code": 200,
+      "stderr": "",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb"
+    },
+    "docids": {
+      "command": [
+        "curl",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-redirs",
+        "2",
+        "--proto",
+        "=https",
+        "--proto-redir",
+        "=https",
+        "--max-time",
+        "60",
+        "--max-filesize",
+        "1048576",
+        "--retry",
+        "0",
+        "--header",
+        "Accept-Encoding: identity",
+        "--dump-header",
+        "_sessions/local/cycle17/inputs/docids.txt.headers",
+        "--output",
+        "_sessions/local/cycle17/inputs/docids.txt",
+        "--write-out",
+        "%{json}",
+        "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt"
+      ],
+      "curl_exit": 0,
+      "effective_url": "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt",
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/plain",
+        "date": "Sat, 26 Sep 2026 02:06:23 GMT",
+        "etag": "W/\"704c4-5a31f721ed920-gzip\"",
+        "last-modified": "Sun, 12 Apr 2020 22:25:37 GMT"
+      },
+      "http_code": 200,
+      "stderr": "",
+      "url": "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt"
+    },
+    "early": {
+      "command": [
+        "curl",
+        "--fail",
+        "--silent",
+        "--show-error",
+        "--location",
+        "--max-redirs",
+        "2",
+        "--proto",
+        "=https",
+        "--proto-redir",
+        "=https",
+        "--max-time",
+        "60",
+        "--max-filesize",
+        "1048576",
+        "--retry",
+        "0",
+        "--header",
+        "Accept-Encoding: identity",
+        "--dump-header",
+        "_sessions/local/cycle17/inputs/early.qrels.headers",
+        "--output",
+        "_sessions/local/cycle17/inputs/early.qrels",
+        "--write-out",
+        "%{json}",
+        "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt"
+      ],
+      "curl_exit": 0,
+      "effective_url": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt",
+      "headers": {
+        "cache-control": "private",
+        "content-type": "text/plain",
+        "date": "Sat, 26 Sep 2026 02:06:23 GMT",
+        "etag": "W/\"2286b-5b78ca1c1591b-gzip\"",
+        "last-modified": "Mon, 28 Dec 2020 21:05:20 GMT"
+      },
+      "http_code": 200,
+      "stderr": "",
+      "url": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt"
+    }
+  }
+}

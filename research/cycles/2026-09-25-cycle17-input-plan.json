@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "selection": "metadata-selected convenience pair; no selected-run outcomes inspected",
+  "initial_keys": [
+    "A",
+    "S",
+    "docids",
+    "early"
+  ],
+  "late_keys": [
+    "late"
+  ],
+  "timeout_seconds": 60,
+  "max_attempts_per_file": 1,
+  "max_total_bytes": 12582912,
+  "items": {
+    "A": {
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_BL",
+      "filename": "A.run",
+      "max_bytes": 4194304,
+      "expected_bytes": 1005528,
+      "etag": "\"f57d8-5a49a6d58ac80\"",
+      "last_modified": "Fri, 01 May 2020 18:34:10 GMT"
+    },
+    "S": {
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb",
+      "filename": "S.run",
+      "max_bytes": 4194304,
+      "expected_bytes": 1529551,
+      "etag": "\"1756cf-5a49a6d67eec0\"",
+      "last_modified": "Fri, 01 May 2020 18:34:11 GMT"
+    },
+    "docids": {
+      "url": "https://ir.nist.gov/trec-covid/data/docids-rnd1.txt",
+      "filename": "docids.txt",
+      "max_bytes": 1048576
+    },
+    "early": {
+      "url": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-1.txt",
+      "filename": "early.qrels",
+      "max_bytes": 1048576,
+      "last_modified": "Mon, 28 Dec 2020 21:05:20 GMT"
+    },
+    "late": {
+      "url": "https://ir.nist.gov/trec-covid/data/qrels-covid_d1_j0.5-5.txt",
+      "filename": "late.qrels",
+      "max_bytes": 2097152,
+      "last_modified": "Thu, 07 Jan 2021 20:49:04 GMT"
+    }
+  }
+}

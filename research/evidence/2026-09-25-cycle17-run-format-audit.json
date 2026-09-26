@@ -1,0 +1,112 @@
+{
+  "schema": 1,
+  "qrel_rows_parsed": false,
+  "source_acquisition": "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json",
+  "scope": "Label-free syntax only, all run rows; no policy/metric computation.",
+  "runs": {
+    "A.run": {
+      "rows": 30000,
+      "columns": {
+        "6": 30000
+      },
+      "query_counts": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000,
+        "6": 1000,
+        "7": 1000,
+        "8": 1000,
+        "9": 1000,
+        "10": 1000,
+        "11": 1000,
+        "12": 1000,
+        "13": 1000,
+        "14": 1000,
+        "15": 1000,
+        "16": 1000,
+        "17": 1000,
+        "18": 1000,
+        "19": 1000,
+        "20": 1000,
+        "21": 1000,
+        "22": 1000,
+        "23": 1000,
+        "24": 1000,
+        "25": 1000,
+        "26": 1000,
+        "27": 1000,
+        "28": 1000,
+        "29": 1000,
+        "30": 1000
+      },
+      "rank_min": 0,
+      "rank_max": 999,
+      "zero_supplied_ranks": 30,
+      "negative_ranks": 0,
+      "all_rank_tokens_canonical_nonnegative": true,
+      "all_scores_finite": true,
+      "duplicate_pairs": 0,
+      "outside_full_line_ID_set": 0,
+      "placeholder_tokens": [
+        "Q0"
+      ],
+      "tags": [
+        "BITEM_BL"
+      ]
+    },
+    "S.run": {
+      "rows": 30000,
+      "columns": {
+        "6": 30000
+      },
+      "query_counts": {
+        "1": 1000,
+        "2": 1000,
+        "3": 1000,
+        "4": 1000,
+        "5": 1000,
+        "6": 1000,
+        "7": 1000,
+        "8": 1000,
+        "9": 1000,
+        "10": 1000,
+        "11": 1000,
+        "12": 1000,
+        "13": 1000,
+        "14": 1000,
+        "15": 1000,
+        "16": 1000,
+        "17": 1000,
+        "18": 1000,
+        "19": 1000,
+        "20": 1000,
+        "21": 1000,
+        "22": 1000,
+        "23": 1000,
+        "24": 1000,
+        "25": 1000,
+        "26": 1000,
+        "27": 1000,
+        "28": 1000,
+        "29": 1000,
+        "30": 1000
+      },
+      "rank_min": 1,
+      "rank_max": 1000,
+      "zero_supplied_ranks": 0,
+      "negative_ranks": 0,
+      "all_rank_tokens_canonical_nonnegative": true,
+      "all_scores_finite": true,
+      "duplicate_pairs": 0,
+      "outside_full_line_ID_set": 0,
+      "placeholder_tokens": [
+        "Q0"
+      ],
+      "tags": [
+        "BioinfoUA-emb"
+      ]
+    }
+  }
+}

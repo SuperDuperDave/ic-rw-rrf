@@ -17,6 +17,20 @@ from its top10 on all300queries, with exact score certificates. This identifies
 an admission barrier, without establishing a beneficial remedy. An exact toy
 also disproves the claim that increasing a stronger source's weight must help.
 
+A [public-run experiment](results/cycle17-2026-09-25/REPORT.md) then tested a
+concrete remedy on 30 TREC-COVID topics: reserve one hybrid result for a minority
+source. The rule admitted seven known relevant results but displaced seven known
+relevant results. Its net P@10 change is bounded between −0.3333 and 0 percentage
+points, so positive improvement is excluded on this fixed panel. A generic
+one-slot policy does slightly better. Finding a useful document and improving
+a fixed-size result list are different accomplishments.
+
+A separately recorded follow-up revealed 1,070 later judgments within the same
+candidate sets. They establish at least 4 percentage points of hybrid advantage
+over the lexical source, while hybrid versus the neural source remains unresolved.
+The minority-slot result does not change. More evidence answered one comparison
+without changing another; every ranking stayed fixed.
+
 The preceding judgment audit asked which missing labels would matter to a fixed
 fusion comparison. Adding SPLADE++ to four-source k60 RRF has
 positive annual mean bounds on both existing panels, even under every allowed

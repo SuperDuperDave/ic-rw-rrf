@@ -1,0 +1,17 @@
+{
+  "command": [
+    "evaluation/cycle17_minority_exchange.py",
+    "prepare",
+    "--inputs",
+    "_sessions/local/cycle17/inputs",
+    "--acquisition",
+    "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json",
+    "--output",
+    "results/cycle17-2026-09-25/prepared"
+  ],
+  "elapsed_seconds": 0.015915376017801464,
+  "error": "docids line 807: duplicate ID",
+  "error_type": "ContractError",
+  "phase": "prepare",
+  "status": "failed"
+}

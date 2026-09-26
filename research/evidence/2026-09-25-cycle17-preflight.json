@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T02:06:16.309165+00:00",
+  "starting_commit": "d341a00569783a469707e1886b3577fa3ded706e",
+  "frozen": {
+    "_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf",
+    "_sessions/cycles/2026-09-25-cycle17-input-plan.json": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe",
+    "evaluation/cycle17_minority_exchange.py": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e",
+    "evaluation/tests/test_cycle17_minority_exchange.py": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1",
+    "_sessions/tools/acquire_cycle17_inputs.py": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1",
+    "_sessions/tools/check_cycle17_exchange.py": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10"
+  },
+  "stable_worker_handoffs": true,
+  "primary_tests": {
+    "command": "python3 -B -m unittest evaluation.tests.test_cycle17_minority_exchange -v",
+    "passed": 21
+  },
+  "independent_synthetic_check": {
+    "command": "python3 -B _sessions/tools/check_cycle17_exchange.py --self-test",
+    "partial_tables": 81,
+    "complete_assignments": 256,
+    "passed": true
+  },
+  "selected_run_qrel_bodies_acquired": false,
+  "selected_pair_scores_seen": false,
+  "metadata_prior_exposure": "Disclosed in protocol and feasibility note; no pristine collection claim.",
+  "buddy_assessment_recorded_before_acquisition": true,
+  "pre_acquisition_assessment_sha256": "995573dfee726d37fb5262d321b11c93d47945cdeb5bda176d37371f7fb95339",
+  "feasibility_note_sha256": "a551bc0d16a6afa6d5d36ae488e44a5ff8e53a1edfe810f61e86c81a6c0e80d7"
+}

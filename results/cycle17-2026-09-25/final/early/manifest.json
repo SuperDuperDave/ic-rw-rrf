@@ -1,0 +1,439 @@
+{
+  "command": [
+    "evaluation/cycle17_scoped_labels.py",
+    "early",
+    "--prepared",
+    "results/cycle17-2026-09-25/final/prepared",
+    "--output",
+    "results/cycle17-2026-09-25/final/early"
+  ],
+  "frozen": {
+    "_sessions/cycles/2026-09-25-cycle17-docids-correction.md": "cb02047fbd8c09ed7e0158e44fca781787523eb72b95304fb0a59af3253f6cc2",
+    "_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf",
+    "_sessions/cycles/2026-09-25-cycle17-input-plan.json": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe",
+    "_sessions/cycles/2026-09-25-cycle17-qrel-scope-correction.md": "8118dbf34f8b2b830a6483ec7a1bb17a32b79f61b62f91f36d5744a404899335",
+    "_sessions/cycles/2026-09-25-cycle17-rank-column-correction.md": "377e7722663832b885a6c2f21c88a797fd66fa5a4ba127b6eca83b60f742da88",
+    "_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json": "05151617c561291a9f2a3fceeb7380664efcf538612f1abd6ea7d5c0458bcace",
+    "_sessions/evidence/2026-09-25-cycle17-compatible-preflight.json": "58aa991859935a2801f938ccab4288d616833eb48c088cc1d426193dbc2411b1",
+    "_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json": "a7a732941d1d21c1ccb2ebd855e780e62241ea93d9bd5a9a5e87dc632967268c",
+    "_sessions/evidence/2026-09-25-cycle17-corrected-preflight.json": "364a78b83b667b1896580817219f55c442fffad9fff7e17dead1c6392d9ae79b",
+    "_sessions/evidence/2026-09-25-cycle17-docids-format-audit.json": "49f1fe4b48f6aaf58611f0ceeddb177fcc93a043eed77c06a5be819d905caf18",
+    "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9",
+    "_sessions/evidence/2026-09-25-cycle17-preflight.json": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3",
+    "_sessions/evidence/2026-09-25-cycle17-qrel-universe-audit.json": "b0c95c61b266925eb2da6860ae9fa793ab1fd42a9e9463a97cf6d4b80717fdb5",
+    "_sessions/evidence/2026-09-25-cycle17-run-format-audit.json": "e718101940b511052cebc949b8beb0e04cb1fc2e4f712ff73c913632daa7bbac",
+    "_sessions/tools/acquire_cycle17_inputs.py": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1",
+    "_sessions/tools/acquire_cycle17_public_inputs.py": "f0fbc221af22478198552ec22ba402a4dcdfe14cd271555c0fc002aa3fd81a0c",
+    "_sessions/tools/check_cycle17_exchange.py": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10",
+    "_sessions/tools/check_cycle17_exchange_compatible.py": "4585d988f1520c4552cb6d6be8370f600201af5e4614b818e3afde80cf0cb18c",
+    "_sessions/tools/check_cycle17_exchange_corrected.py": "39dc333fcacea94dd226f217b1fda4653461336ca6388cd988fff45d8c218789",
+    "_sessions/tools/check_cycle17_official_metric.py": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a",
+    "_sessions/tools/check_cycle17_scoped_labels.py": "f9af55892a9b0345b297941c418f4c23fea070991e5c9ad1ce98364106b197fe",
+    "_sessions/tools/public_cycle17_receipts.py": "8ed4891bcd28fac5c960fccc84039f6b87e5f4ccae8c72d74e32d5b5f14b3fb0",
+    "evaluation/cycle17_minority_exchange.py": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e",
+    "evaluation/cycle17_minority_exchange_compatible.py": "308714cad5f9cfd54c0ee9b2d7dc21191a3f4acb661280681568b86d06e2d132",
+    "evaluation/cycle17_minority_exchange_corrected.py": "6e5bc712d756613919748f5586fe60462384489ccb51e665fcc1d1ac49949462",
+    "evaluation/cycle17_scoped_labels.py": "d254c2c33fd6775619ff750899df7e3a66933c3b1960da2c86162609fdcd8107",
+    "evaluation/tests/test_cycle17_minority_exchange.py": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1",
+    "evaluation/tests/test_cycle17_minority_exchange_compatible.py": "7614c4e5980ddb4be02d7124cacd085da6035799fea19da4f73bac8ec6235e17",
+    "evaluation/tests/test_cycle17_minority_exchange_corrected.py": "19ef1ff025ddd1bc133580c94210c1115723e0566593e7fed1ea606fae8c47f7",
+    "evaluation/tests/test_cycle17_scoped_labels.py": "5f15621bef766e4ded1fd92e14ba943fe998f760ec3e180f727456e466901f08",
+    "results/cycle17-2026-09-25/compatible/early/failure.json": "fad839cbf9e68744e31f09e074c741c40c216bd21e40cfaecba62d284492c553",
+    "results/cycle17-2026-09-25/compatible/prepared/manifest.json": "8a5e488ded05e507ba881cd36ca05c1cc094bf9e07e79860854c4c79263a3c96",
+    "results/cycle17-2026-09-25/compatible/prepared/policies.json": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd",
+    "results/cycle17-2026-09-25/compatible/prepared/success.json": "440b2ccacc187f9db893109aa07ca251b6ab3c73c673271f5614a5190737f143",
+    "results/cycle17-2026-09-25/corrected/prepared/failure.json": "0b86a80e23733a218453c76795ba84d6a0bf4450bcb192b7336246da0381fdd6",
+    "results/cycle17-2026-09-25/prepared/failure.json": "77a13c07f1cd1e447adc7425f441752ea6ef31acbbd41614429a6856cc36d825"
+  },
+  "inputs": {
+    "A.run": {
+      "bytes": 1005528,
+      "path": "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/A.run",
+      "sha256": "2952bb4c58103119dbcb364b3f5f17a40f4208d79f2ea5554beefe8c06899209"
+    },
+    "S.run": {
+      "bytes": 1529551,
+      "path": "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/S.run",
+      "sha256": "16a11c75a13c1deba3e41896b6801d7a57285ead28c7ed12e88cb67f848f9821"
+    },
+    "docids.txt": {
+      "bytes": 459972,
+      "path": "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/docids.txt",
+      "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+    },
+    "early.qrels": {
+      "bytes": 141419,
+      "path": "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+      "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+    }
+  },
+  "outputs": {
+    "analysis.json": {
+      "bytes": 218094,
+      "sha256": "35ee9712899d797c7ab4f5f1ed793f4aa0ab3429325db66967994e521ffbde4d"
+    }
+  },
+  "phase": "early",
+  "policies": {
+    "bytes": 11054679,
+    "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+  },
+  "prepared": "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared",
+  "schema": 1,
+  "tracked_after": {
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-docids-correction.md": {
+      "bytes": 3681,
+      "sha256": "cb02047fbd8c09ed7e0158e44fca781787523eb72b95304fb0a59af3253f6cc2"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": {
+      "bytes": 10562,
+      "sha256": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-input-plan.json": {
+      "bytes": 1444,
+      "sha256": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-qrel-scope-correction.md": {
+      "bytes": 4301,
+      "sha256": "8118dbf34f8b2b830a6483ec7a1bb17a32b79f61b62f91f36d5744a404899335"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-rank-column-correction.md": {
+      "bytes": 3355,
+      "sha256": "377e7722663832b885a6c2f21c88a797fd66fa5a4ba127b6eca83b60f742da88"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json": {
+      "bytes": 11076,
+      "sha256": "05151617c561291a9f2a3fceeb7380664efcf538612f1abd6ea7d5c0458bcace"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-compatible-preflight.json": {
+      "bytes": 3954,
+      "sha256": "58aa991859935a2801f938ccab4288d616833eb48c088cc1d426193dbc2411b1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json": {
+      "bytes": 9798,
+      "sha256": "a7a732941d1d21c1ccb2ebd855e780e62241ea93d9bd5a9a5e87dc632967268c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-corrected-preflight.json": {
+      "bytes": 2749,
+      "sha256": "364a78b83b667b1896580817219f55c442fffad9fff7e17dead1c6392d9ae79b"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-docids-format-audit.json": {
+      "bytes": 4368,
+      "sha256": "49f1fe4b48f6aaf58611f0ceeddb177fcc93a043eed77c06a5be819d905caf18"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json": {
+      "bytes": 8231,
+      "sha256": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-preflight.json": {
+      "bytes": 1712,
+      "sha256": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-qrel-universe-audit.json": {
+      "bytes": 1083,
+      "sha256": "b0c95c61b266925eb2da6860ae9fa793ab1fd42a9e9463a97cf6d4b80717fdb5"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-run-format-audit.json": {
+      "bytes": 2366,
+      "sha256": "e718101940b511052cebc949b8beb0e04cb1fc2e4f712ff73c913632daa7bbac"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-scoped-initial-acquisition.json": {
+      "bytes": 10952,
+      "sha256": "56e6c186af27f519db092f83443a3928ceed9f77a607956558e4172b7a0259aa"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/A.run": {
+      "bytes": 1005528,
+      "sha256": "2952bb4c58103119dbcb364b3f5f17a40f4208d79f2ea5554beefe8c06899209"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/S.run": {
+      "bytes": 1529551,
+      "sha256": "16a11c75a13c1deba3e41896b6801d7a57285ead28c7ed12e88cb67f848f9821"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/docids.txt": {
+      "bytes": 459972,
+      "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels": {
+      "bytes": 141419,
+      "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/acquire_cycle17_inputs.py": {
+      "bytes": 6775,
+      "sha256": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/acquire_cycle17_public_inputs.py": {
+      "bytes": 398,
+      "sha256": "f0fbc221af22478198552ec22ba402a4dcdfe14cd271555c0fc002aa3fd81a0c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange.py": {
+      "bytes": 31604,
+      "sha256": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange_compatible.py": {
+      "bytes": 5023,
+      "sha256": "4585d988f1520c4552cb6d6be8370f600201af5e4614b818e3afde80cf0cb18c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange_corrected.py": {
+      "bytes": 4266,
+      "sha256": "39dc333fcacea94dd226f217b1fda4653461336ca6388cd988fff45d8c218789"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_official_metric.py": {
+      "bytes": 14400,
+      "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_scoped_labels.py": {
+      "bytes": 5873,
+      "sha256": "f9af55892a9b0345b297941c418f4c23fea070991e5c9ad1ce98364106b197fe"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/public_cycle17_receipts.py": {
+      "bytes": 1224,
+      "sha256": "8ed4891bcd28fac5c960fccc84039f6b87e5f4ccae8c72d74e32d5b5f14b3fb0"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange.py": {
+      "bytes": 27585,
+      "sha256": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange_compatible.py": {
+      "bytes": 3162,
+      "sha256": "308714cad5f9cfd54c0ee9b2d7dc21191a3f4acb661280681568b86d06e2d132"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange_corrected.py": {
+      "bytes": 2354,
+      "sha256": "6e5bc712d756613919748f5586fe60462384489ccb51e665fcc1d1ac49949462"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_scoped_labels.py": {
+      "bytes": 2930,
+      "sha256": "d254c2c33fd6775619ff750899df7e3a66933c3b1960da2c86162609fdcd8107"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange.py": {
+      "bytes": 19621,
+      "sha256": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange_compatible.py": {
+      "bytes": 5132,
+      "sha256": "7614c4e5980ddb4be02d7124cacd085da6035799fea19da4f73bac8ec6235e17"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange_corrected.py": {
+      "bytes": 4997,
+      "sha256": "19ef1ff025ddd1bc133580c94210c1115723e0566593e7fed1ea606fae8c47f7"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_scoped_labels.py": {
+      "bytes": 5538,
+      "sha256": "5f15621bef766e4ded1fd92e14ba943fe998f760ec3e180f727456e466901f08"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/early/failure.json": {
+      "bytes": 405,
+      "sha256": "fad839cbf9e68744e31f09e074c741c40c216bd21e40cfaecba62d284492c553"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/manifest.json": {
+      "bytes": 16157,
+      "sha256": "8a5e488ded05e507ba881cd36ca05c1cc094bf9e07e79860854c4c79263a3c96"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/policies.json": {
+      "bytes": 11054679,
+      "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/success.json": {
+      "bytes": 147,
+      "sha256": "440b2ccacc187f9db893109aa07ca251b6ab3c73c673271f5614a5190737f143"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/corrected/prepared/failure.json": {
+      "bytes": 503,
+      "sha256": "0b86a80e23733a218453c76795ba84d6a0bf4450bcb192b7336246da0381fdd6"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/manifest.json": {
+      "bytes": 23223,
+      "sha256": "03fe2e3867cd984b10e46db0599140e6af8cdf11b08ff6d23288e63924156810"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/policies.json": {
+      "bytes": 11054679,
+      "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/success.json": {
+      "bytes": 147,
+      "sha256": "5067e37f27e9d43298828680c25c2f451f5a6e239ee607fe2481c11e9a2a4d43"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/prepared/failure.json": {
+      "bytes": 452,
+      "sha256": "77a13c07f1cd1e447adc7425f441752ea6ef31acbbd41614429a6856cc36d825"
+    }
+  },
+  "tracked_before": {
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-docids-correction.md": {
+      "bytes": 3681,
+      "sha256": "cb02047fbd8c09ed7e0158e44fca781787523eb72b95304fb0a59af3253f6cc2"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": {
+      "bytes": 10562,
+      "sha256": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-input-plan.json": {
+      "bytes": 1444,
+      "sha256": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-qrel-scope-correction.md": {
+      "bytes": 4301,
+      "sha256": "8118dbf34f8b2b830a6483ec7a1bb17a32b79f61b62f91f36d5744a404899335"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/cycles/2026-09-25-cycle17-rank-column-correction.md": {
+      "bytes": 3355,
+      "sha256": "377e7722663832b885a6c2f21c88a797fd66fa5a4ba127b6eca83b60f742da88"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json": {
+      "bytes": 11076,
+      "sha256": "05151617c561291a9f2a3fceeb7380664efcf538612f1abd6ea7d5c0458bcace"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-compatible-preflight.json": {
+      "bytes": 3954,
+      "sha256": "58aa991859935a2801f938ccab4288d616833eb48c088cc1d426193dbc2411b1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json": {
+      "bytes": 9798,
+      "sha256": "a7a732941d1d21c1ccb2ebd855e780e62241ea93d9bd5a9a5e87dc632967268c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-corrected-preflight.json": {
+      "bytes": 2749,
+      "sha256": "364a78b83b667b1896580817219f55c442fffad9fff7e17dead1c6392d9ae79b"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-docids-format-audit.json": {
+      "bytes": 4368,
+      "sha256": "49f1fe4b48f6aaf58611f0ceeddb177fcc93a043eed77c06a5be819d905caf18"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json": {
+      "bytes": 8231,
+      "sha256": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-preflight.json": {
+      "bytes": 1712,
+      "sha256": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-qrel-universe-audit.json": {
+      "bytes": 1083,
+      "sha256": "b0c95c61b266925eb2da6860ae9fa793ab1fd42a9e9463a97cf6d4b80717fdb5"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-run-format-audit.json": {
+      "bytes": 2366,
+      "sha256": "e718101940b511052cebc949b8beb0e04cb1fc2e4f712ff73c913632daa7bbac"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/evidence/2026-09-25-cycle17-scoped-initial-acquisition.json": {
+      "bytes": 10952,
+      "sha256": "56e6c186af27f519db092f83443a3928ceed9f77a607956558e4172b7a0259aa"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/A.run": {
+      "bytes": 1005528,
+      "sha256": "2952bb4c58103119dbcb364b3f5f17a40f4208d79f2ea5554beefe8c06899209"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/S.run": {
+      "bytes": 1529551,
+      "sha256": "16a11c75a13c1deba3e41896b6801d7a57285ead28c7ed12e88cb67f848f9821"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/docids.txt": {
+      "bytes": 459972,
+      "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels": {
+      "bytes": 141419,
+      "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/acquire_cycle17_inputs.py": {
+      "bytes": 6775,
+      "sha256": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/acquire_cycle17_public_inputs.py": {
+      "bytes": 398,
+      "sha256": "f0fbc221af22478198552ec22ba402a4dcdfe14cd271555c0fc002aa3fd81a0c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange.py": {
+      "bytes": 31604,
+      "sha256": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange_compatible.py": {
+      "bytes": 5023,
+      "sha256": "4585d988f1520c4552cb6d6be8370f600201af5e4614b818e3afde80cf0cb18c"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_exchange_corrected.py": {
+      "bytes": 4266,
+      "sha256": "39dc333fcacea94dd226f217b1fda4653461336ca6388cd988fff45d8c218789"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_official_metric.py": {
+      "bytes": 14400,
+      "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/check_cycle17_scoped_labels.py": {
+      "bytes": 5873,
+      "sha256": "f9af55892a9b0345b297941c418f4c23fea070991e5c9ad1ce98364106b197fe"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/_sessions/tools/public_cycle17_receipts.py": {
+      "bytes": 1224,
+      "sha256": "8ed4891bcd28fac5c960fccc84039f6b87e5f4ccae8c72d74e32d5b5f14b3fb0"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange.py": {
+      "bytes": 27585,
+      "sha256": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange_compatible.py": {
+      "bytes": 3162,
+      "sha256": "308714cad5f9cfd54c0ee9b2d7dc21191a3f4acb661280681568b86d06e2d132"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_minority_exchange_corrected.py": {
+      "bytes": 2354,
+      "sha256": "6e5bc712d756613919748f5586fe60462384489ccb51e665fcc1d1ac49949462"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/cycle17_scoped_labels.py": {
+      "bytes": 2930,
+      "sha256": "d254c2c33fd6775619ff750899df7e3a66933c3b1960da2c86162609fdcd8107"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange.py": {
+      "bytes": 19621,
+      "sha256": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange_compatible.py": {
+      "bytes": 5132,
+      "sha256": "7614c4e5980ddb4be02d7124cacd085da6035799fea19da4f73bac8ec6235e17"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_minority_exchange_corrected.py": {
+      "bytes": 4997,
+      "sha256": "19ef1ff025ddd1bc133580c94210c1115723e0566593e7fed1ea606fae8c47f7"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/evaluation/tests/test_cycle17_scoped_labels.py": {
+      "bytes": 5538,
+      "sha256": "5f15621bef766e4ded1fd92e14ba943fe998f760ec3e180f727456e466901f08"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/early/failure.json": {
+      "bytes": 405,
+      "sha256": "fad839cbf9e68744e31f09e074c741c40c216bd21e40cfaecba62d284492c553"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/manifest.json": {
+      "bytes": 16157,
+      "sha256": "8a5e488ded05e507ba881cd36ca05c1cc094bf9e07e79860854c4c79263a3c96"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/policies.json": {
+      "bytes": 11054679,
+      "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/compatible/prepared/success.json": {
+      "bytes": 147,
+      "sha256": "440b2ccacc187f9db893109aa07ca251b6ab3c73c673271f5614a5190737f143"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/corrected/prepared/failure.json": {
+      "bytes": 503,
+      "sha256": "0b86a80e23733a218453c76795ba84d6a0bf4450bcb192b7336246da0381fdd6"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/manifest.json": {
+      "bytes": 23223,
+      "sha256": "03fe2e3867cd984b10e46db0599140e6af8cdf11b08ff6d23288e63924156810"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/policies.json": {
+      "bytes": 11054679,
+      "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/final/prepared/success.json": {
+      "bytes": 147,
+      "sha256": "5067e37f27e9d43298828680c25c2f451f5a6e239ee607fe2481c11e9a2a4d43"
+    },
+    "/home/david-wsl/repos/ic-rw-rrf/results/cycle17-2026-09-25/prepared/failure.json": {
+      "bytes": 452,
+      "sha256": "77a13c07f1cd1e447adc7425f441752ea6ef31acbbd41614429a6856cc36d825"
+    }
+  }
+}

@@ -1,0 +1,1144 @@
+{
+  "after": {
+    "evaluator": {
+      "P_source": {
+        "bytes": 3008,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/m_P.c",
+        "sha256": "46f2a5f6b7cfc1c05d0c9cd2f6f8c59bd1e15a61355be4bfbbb38cadf578c057"
+      },
+      "binary": {
+        "bytes": 454960,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+        "sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17"
+      },
+      "build_receipt": {
+        "bytes": 1509,
+        "path": "_sessions/evidence/2026-09-12-cycle15-evaluator-build.json",
+        "sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c"
+      },
+      "revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+      "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a"
+    },
+    "files": {
+      "_sessions/local/cycle17/inputs/early.qrels": {
+        "bytes": 141419,
+        "path": "_sessions/local/cycle17/inputs/early.qrels",
+        "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+      },
+      "_sessions/tools/check_cycle17_early_metric.py": {
+        "bytes": 4324,
+        "path": "_sessions/tools/check_cycle17_early_metric.py",
+        "sha256": "dc699f06ac1ee9410d124684918dffe2d7a20904d29cb0b37eafe1c3b1388f4f"
+      },
+      "_sessions/tools/check_cycle17_official_metric.py": {
+        "bytes": 14400,
+        "path": "_sessions/tools/check_cycle17_official_metric.py",
+        "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+      },
+      "results/cycle17-2026-09-25/final/early/analysis.json": {
+        "bytes": 218094,
+        "path": "results/cycle17-2026-09-25/final/early/analysis.json",
+        "sha256": "35ee9712899d797c7ab4f5f1ed793f4aa0ab3429325db66967994e521ffbde4d"
+      },
+      "results/cycle17-2026-09-25/final/prepared/policies.json": {
+        "bytes": 11054679,
+        "path": "results/cycle17-2026-09-25/final/prepared/policies.json",
+        "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+      }
+    }
+  },
+  "before": {
+    "evaluator": {
+      "P_source": {
+        "bytes": 3008,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/m_P.c",
+        "sha256": "46f2a5f6b7cfc1c05d0c9cd2f6f8c59bd1e15a61355be4bfbbb38cadf578c057"
+      },
+      "binary": {
+        "bytes": 454960,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+        "sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17"
+      },
+      "build_receipt": {
+        "bytes": 1509,
+        "path": "_sessions/evidence/2026-09-12-cycle15-evaluator-build.json",
+        "sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c"
+      },
+      "revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+      "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a"
+    },
+    "files": {
+      "_sessions/local/cycle17/inputs/early.qrels": {
+        "bytes": 141419,
+        "path": "_sessions/local/cycle17/inputs/early.qrels",
+        "sha256": "dff92d8a9a7165abeb9d5a70fa4f282c89c03d60e46bd5f472c9b31b89a2cb6d"
+      },
+      "_sessions/tools/check_cycle17_early_metric.py": {
+        "bytes": 4324,
+        "path": "_sessions/tools/check_cycle17_early_metric.py",
+        "sha256": "dc699f06ac1ee9410d124684918dffe2d7a20904d29cb0b37eafe1c3b1388f4f"
+      },
+      "_sessions/tools/check_cycle17_official_metric.py": {
+        "bytes": 14400,
+        "path": "_sessions/tools/check_cycle17_official_metric.py",
+        "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+      },
+      "results/cycle17-2026-09-25/final/early/analysis.json": {
+        "bytes": 218094,
+        "path": "results/cycle17-2026-09-25/final/early/analysis.json",
+        "sha256": "35ee9712899d797c7ab4f5f1ed793f4aa0ab3429325db66967994e521ffbde4d"
+      },
+      "results/cycle17-2026-09-25/final/prepared/policies.json": {
+        "bytes": 11054679,
+        "path": "results/cycle17-2026-09-25/final/prepared/policies.json",
+        "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+      }
+    }
+  },
+  "comparisons": {
+    "means": 5,
+    "per_query": 150
+  },
+  "late_inputs_read": false,
+  "mean_rounding_tolerance_exact": "1/20000",
+  "output_artifacts": {
+    "_sessions/local/cycle17/early-official-metric/A.run": {
+      "bytes": 10770,
+      "path": "_sessions/local/cycle17/early-official-metric/A.run",
+      "sha256": "e2b53ae996df9a96d717ca7456d458d2638ee20db82a4a374df02ac803fd2caf"
+    },
+    "_sessions/local/cycle17/early-official-metric/H.run": {
+      "bytes": 10770,
+      "path": "_sessions/local/cycle17/early-official-metric/H.run",
+      "sha256": "a5117ec6d7ee634dc0c530eab809b6e56a5d3f6fbd329911170aa03bc9ad1f6a"
+    },
+    "_sessions/local/cycle17/early-official-metric/J.run": {
+      "bytes": 10770,
+      "path": "_sessions/local/cycle17/early-official-metric/J.run",
+      "sha256": "1511e619a13623faecefe612ef05405290abcbb50bf514cefe0447ec46629709"
+    },
+    "_sessions/local/cycle17/early-official-metric/M.run": {
+      "bytes": 10770,
+      "path": "_sessions/local/cycle17/early-official-metric/M.run",
+      "sha256": "ac5fff6de0e71df7abdff523827b85690dcd42100e92173b3bafd81be2792006"
+    },
+    "_sessions/local/cycle17/early-official-metric/S.run": {
+      "bytes": 10770,
+      "path": "_sessions/local/cycle17/early-official-metric/S.run",
+      "sha256": "3ad2f37fa11986a8d7aca6b11e945fcce91e054e3f3619238cf3e66b958ddc14"
+    },
+    "_sessions/local/cycle17/early-official-metric/after.json": {
+      "bytes": 2070,
+      "path": "_sessions/local/cycle17/early-official-metric/after.json",
+      "sha256": "232d70e0b0823e0cf58c536e84f8c163b4ced833ffa8f7170957e1d1eb7dfe66"
+    },
+    "_sessions/local/cycle17/early-official-metric/before.json": {
+      "bytes": 2070,
+      "path": "_sessions/local/cycle17/early-official-metric/before.json",
+      "sha256": "232d70e0b0823e0cf58c536e84f8c163b4ced833ffa8f7170957e1d1eb7dfe66"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-A.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle17/early-official-metric/early-A.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-A.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle17/early-official-metric/early-A.stdout",
+      "sha256": "37a3fdaea1ad7531dcdd9c5a6dd2629ac179ff1e609ddbfd775ba225e82e6f00"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-H.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle17/early-official-metric/early-H.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-H.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle17/early-official-metric/early-H.stdout",
+      "sha256": "2a1fbbfe594cf8d75777ff136097dac50431fbc56ef9f5418d6b9b3fabd1e43b"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-J.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle17/early-official-metric/early-J.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-J.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle17/early-official-metric/early-J.stdout",
+      "sha256": "7eccff2df693976b56d584acb1db12b731d2a9ac247755dda947a7b7f22b6d44"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-M.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle17/early-official-metric/early-M.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-M.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle17/early-official-metric/early-M.stdout",
+      "sha256": "2352ba70b2e8f738e7c427ffb32952f0b204f8842d4c4d51ea538666713e298d"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-S.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle17/early-official-metric/early-S.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle17/early-official-metric/early-S.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle17/early-official-metric/early-S.stdout",
+      "sha256": "d06f577a733e5a893376ca57675d4ab4a6ed74aa38abfbfd8e5749de4a352c00"
+    }
+  },
+  "per_query_tolerance": "0",
+  "policies": {
+    "A": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/early-official-metric/A.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 10770,
+          "path": "_sessions/local/cycle17/early-official-metric/A.run",
+          "sha256": "e2b53ae996df9a96d717ca7456d458d2638ee20db82a4a374df02ac803fd2caf"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle17/early-official-metric/early-A.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle17/early-official-metric/early-A.stdout",
+          "sha256": "37a3fdaea1ad7531dcdd9c5a6dd2629ac179ff1e609ddbfd775ba225e82e6f00"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.3367",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "101/300"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "28": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        }
+      },
+      "query_count": 30
+    },
+    "H": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/early-official-metric/H.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 10770,
+          "path": "_sessions/local/cycle17/early-official-metric/H.run",
+          "sha256": "a5117ec6d7ee634dc0c530eab809b6e56a5d3f6fbd329911170aa03bc9ad1f6a"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle17/early-official-metric/early-H.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle17/early-official-metric/early-H.stdout",
+          "sha256": "2a1fbbfe594cf8d75777ff136097dac50431fbc56ef9f5418d6b9b3fabd1e43b"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "0",
+        "official": "0.5500",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "11/20"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        }
+      },
+      "query_count": 30
+    },
+    "J": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/early-official-metric/J.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 10770,
+          "path": "_sessions/local/cycle17/early-official-metric/J.run",
+          "sha256": "1511e619a13623faecefe612ef05405290abcbb50bf514cefe0447ec46629709"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle17/early-official-metric/early-J.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle17/early-official-metric/early-J.stdout",
+          "sha256": "7eccff2df693976b56d584acb1db12b731d2a9ac247755dda947a7b7f22b6d44"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.5533",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "83/150"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        }
+      },
+      "query_count": 30
+    },
+    "M": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/early-official-metric/M.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 10770,
+          "path": "_sessions/local/cycle17/early-official-metric/M.run",
+          "sha256": "ac5fff6de0e71df7abdff523827b85690dcd42100e92173b3bafd81be2792006"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle17/early-official-metric/early-M.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle17/early-official-metric/early-M.stdout",
+          "sha256": "2352ba70b2e8f738e7c427ffb32952f0b204f8842d4c4d51ea538666713e298d"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "0",
+        "official": "0.5500",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "11/20"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        }
+      },
+      "query_count": 30
+    },
+    "S": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/early.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/early-official-metric/S.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 10770,
+          "path": "_sessions/local/cycle17/early-official-metric/S.run",
+          "sha256": "3ad2f37fa11986a8d7aca6b11e945fcce91e054e3f3619238cf3e66b958ddc14"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle17/early-official-metric/early-S.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle17/early-official-metric/early-S.stdout",
+          "sha256": "d06f577a733e5a893376ca57675d4ab4a6ed74aa38abfbfd8e5749de4a352c00"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.5533",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "83/150"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "5": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        }
+      },
+      "query_count": 30
+    }
+  },
+  "query_count": 30,
+  "rank_export": "Frozen supplied head order; one-based rank; score=-rank, without ties.",
+  "schema": "cycle17-early-official-metric-check-v1",
+  "scope": "Early phase only; frozen binary P@10, unknown-zero benchmark convention.",
+  "status": "passed"
+}

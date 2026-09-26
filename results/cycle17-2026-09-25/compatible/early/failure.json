@@ -1,0 +1,15 @@
+{
+  "command": [
+    "evaluation/cycle17_minority_exchange_compatible.py",
+    "early",
+    "--prepared",
+    "results/cycle17-2026-09-25/compatible/prepared",
+    "--output",
+    "results/cycle17-2026-09-25/compatible/early"
+  ],
+  "elapsed_seconds": 0.1204471539822407,
+  "error": "qrels line 434: ID outside Round1 universe",
+  "error_type": "ContractError",
+  "phase": "early",
+  "status": "failed"
+}

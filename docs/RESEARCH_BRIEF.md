@@ -192,6 +192,25 @@ needed corrections before adoption. The disagreement helped redirect the work
 from another weight trial toward the original minority-support question.
 [Cycle16 evidence and assessed collaboration](../results/cycle16-2026-09-25/REPORT.md)
 
+**Testing the cost of an escape route.** A new experiment used two actual
+submitted search runs on 30 TREC-COVID topics. We reserved one slot for a result
+supported only by the minority source's retained list. Seven relevant admissions
+sounded promising until we counted what they displaced: seven known relevant
+incumbents. Exact missing-label bounds exclude a positive mean improvement for
+this fixed policy. A simpler one-slot rule did slightly better. Buddy challenged
+what “rescue” meant; Opus and Codex worked through the distinction between finding
+a relevant document and improving the displayed result list. Independent code
+reconstructed every result, and NIST's evaluator confirmed all early point scores.
+[Cycle17 experiment and limitations](../results/cycle17-2026-09-25/REPORT.md)
+
+We then kept every ranking fixed and revealed 1,070 additional judgments inside
+those candidate sets. That evidence established a positive hybrid-versus-lexical
+comparison while leaving hybrid-versus-neural unresolved. It supplied no new
+information about the slot-exchange decision. The global label-preservation
+check had first failed on two irrelevant-to-the-comparison records; we preserved
+that failure and declared the narrower observation separately. All results were
+independently reconstructed, rather than treating collaborator agreement as proof.
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated

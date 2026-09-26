@@ -1,0 +1,21 @@
+{
+  "command": [
+    "evaluation/cycle17_scoped_labels.py",
+    "late",
+    "--prepared",
+    "results/cycle17-2026-09-25/final/prepared",
+    "--early",
+    "results/cycle17-2026-09-25/final/early",
+    "--late-input",
+    "_sessions/local/cycle17/inputs/late.qrels",
+    "--late-acquisition",
+    "_sessions/evidence/2026-09-25-cycle17-late-acquisition.json",
+    "--output",
+    "results/cycle17-2026-09-25/final/late"
+  ],
+  "elapsed_seconds": 0.2389828489976935,
+  "error": "late qrels removed or revised early grades; see label-preservation.json",
+  "error_type": "ContractError",
+  "phase": "late",
+  "status": "failed"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-26T02:20:22.597906+00:00",
+  "before_first_completed_label_join": true,
+  "before": "results/cycle17-2026-09-25/compatible/prepared/policies.json",
+  "after": "results/cycle17-2026-09-25/final/prepared/policies.json",
+  "identical_bytes": true,
+  "sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd"
+}

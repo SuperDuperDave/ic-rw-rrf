@@ -1,0 +1,352 @@
+{
+  "arithmetic_audit": {
+    "integer_denominator": "117671955487901874837890815641362681946988303003141220897970719568000",
+    "queries": [
+      {
+        "computed_tie_groups": 100,
+        "exact_tie_groups": 100,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "1"
+      },
+      {
+        "computed_tie_groups": 91,
+        "exact_tie_groups": 91,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "2"
+      },
+      {
+        "computed_tie_groups": 98,
+        "exact_tie_groups": 98,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "3"
+      },
+      {
+        "computed_tie_groups": 88,
+        "exact_tie_groups": 88,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "4"
+      },
+      {
+        "computed_tie_groups": 94,
+        "exact_tie_groups": 94,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "5"
+      },
+      {
+        "computed_tie_groups": 80,
+        "exact_tie_groups": 80,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "6"
+      },
+      {
+        "computed_tie_groups": 79,
+        "exact_tie_groups": 79,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "7"
+      },
+      {
+        "computed_tie_groups": 89,
+        "exact_tie_groups": 89,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "8"
+      },
+      {
+        "computed_tie_groups": 92,
+        "exact_tie_groups": 92,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "9"
+      },
+      {
+        "computed_tie_groups": 33,
+        "exact_tie_groups": 33,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "10"
+      },
+      {
+        "computed_tie_groups": 95,
+        "exact_tie_groups": 95,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "11"
+      },
+      {
+        "computed_tie_groups": 63,
+        "exact_tie_groups": 63,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "12"
+      },
+      {
+        "computed_tie_groups": 96,
+        "exact_tie_groups": 96,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "13"
+      },
+      {
+        "computed_tie_groups": 90,
+        "exact_tie_groups": 90,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "14"
+      },
+      {
+        "computed_tie_groups": 90,
+        "exact_tie_groups": 90,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "15"
+      },
+      {
+        "computed_tie_groups": 96,
+        "exact_tie_groups": 96,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "16"
+      },
+      {
+        "computed_tie_groups": 86,
+        "exact_tie_groups": 86,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "17"
+      },
+      {
+        "computed_tie_groups": 85,
+        "exact_tie_groups": 85,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "18"
+      },
+      {
+        "computed_tie_groups": 100,
+        "exact_tie_groups": 100,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "19"
+      },
+      {
+        "computed_tie_groups": 92,
+        "exact_tie_groups": 92,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "20"
+      },
+      {
+        "computed_tie_groups": 80,
+        "exact_tie_groups": 80,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "21"
+      },
+      {
+        "computed_tie_groups": 77,
+        "exact_tie_groups": 77,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "22"
+      },
+      {
+        "computed_tie_groups": 69,
+        "exact_tie_groups": 69,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "23"
+      },
+      {
+        "computed_tie_groups": 75,
+        "exact_tie_groups": 75,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "24"
+      },
+      {
+        "computed_tie_groups": 98,
+        "exact_tie_groups": 98,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "25"
+      },
+      {
+        "computed_tie_groups": 91,
+        "exact_tie_groups": 91,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "26"
+      },
+      {
+        "computed_tie_groups": 69,
+        "exact_tie_groups": 69,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "27"
+      },
+      {
+        "computed_tie_groups": 64,
+        "exact_tie_groups": 64,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "28"
+      },
+      {
+        "computed_tie_groups": 72,
+        "exact_tie_groups": 72,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "29"
+      },
+      {
+        "computed_tie_groups": 68,
+        "exact_tie_groups": 68,
+        "nonexact_inversions": [],
+        "order_differences": [],
+        "query_id": "30"
+      }
+    ]
+  },
+  "custody": {
+    "all_raw_input_hashes_verified": true,
+    "early_manifest_sha256": "6ac4d9e2f31d3d5aab83cfa85c6834db17e7cee64e1a8e57ea34b0694634fc06",
+    "late_acquisition_sha256": "72dbf3caae2f06710f1fa32b815003646852fbc019c6dbc863ed001fb9d65703",
+    "late_failure_sha256": "a9ddccb88424273d49ad20e4a33918f6b32955ed785f4c47dbbbb9b9537b4cb2",
+    "late_preservation_sha256": "71f8267af7113e48e62c69d2756c920075c43b797f4eaf7c89f2bffec89346d0",
+    "limitation": null,
+    "mode": "full_local_receipt_bytes",
+    "policies_sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd",
+    "private_receipt_substitutions": {},
+    "received_bytes": 3497301
+  },
+  "kind": "early_complete_global_late_stop_audit",
+  "late_effectiveness_metrics_computed": false,
+  "limits": [
+    "Independent audit reuses only frozen independent helpers; no primary algorithm imported.",
+    "Late labels are read solely to reproduce preservation, not to compute later effectiveness.",
+    "Any candidate-scoped later-label analysis requires a separately recorded amendment.",
+    "Exact integer RRF ordering is audited separately from the saved floating-point policy order."
+  ],
+  "mismatch_candidate_membership": [
+    {
+      "docid": "ccq171wm",
+      "early_grade": 0,
+      "in_frozen_candidate_union": false,
+      "in_valid_inventory": false,
+      "kind": "removed",
+      "late_grade": null,
+      "qid": "2"
+    },
+    {
+      "docid": "iu0k7rqc",
+      "early_grade": 0,
+      "in_frozen_candidate_union": false,
+      "in_valid_inventory": false,
+      "kind": "removed",
+      "late_grade": null,
+      "qid": "20"
+    }
+  ],
+  "preservation": {
+    "early_pair_count": 8691,
+    "mismatches": [
+      {
+        "docid": "ccq171wm",
+        "early_grade": 0,
+        "kind": "removed",
+        "late_grade": null,
+        "qid": "2"
+      },
+      {
+        "docid": "iu0k7rqc",
+        "early_grade": 0,
+        "kind": "removed",
+        "late_grade": null,
+        "qid": "20"
+      }
+    ],
+    "passed": false
+  },
+  "public_numerical_replay_custody": {
+    "all_raw_input_hashes_verified": true,
+    "early_manifest_sha256": "6ac4d9e2f31d3d5aab83cfa85c6834db17e7cee64e1a8e57ea34b0694634fc06",
+    "late_acquisition_sha256": "72dbf3caae2f06710f1fa32b815003646852fbc019c6dbc863ed001fb9d65703",
+    "late_failure_sha256": "a9ddccb88424273d49ad20e4a33918f6b32955ed785f4c47dbbbb9b9537b4cb2",
+    "late_preservation_sha256": "71f8267af7113e48e62c69d2756c920075c43b797f4eaf7c89f2bffec89346d0",
+    "limitation": "Original private HTTP receipt bytes are not rehashed; sanitized statements bind their claimed hashes and preserve the checked raw input identities.",
+    "mode": "public_identity_statements",
+    "policies_sha256": "888b101919af30f36bc1d12d15c3c7c028bb42a017d71c417cf5bd02360a14cd",
+    "private_receipt_substitutions": {
+      "_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json": {
+        "asserted_original_sha256": "05151617c561291a9f2a3fceeb7380664efcf538612f1abd6ea7d5c0458bcace",
+        "original_bytes_rehashed": false,
+        "public_path": "_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition-public.json",
+        "public_sha256": "b9515b544d7f8d3916d71fae75ee25277b71df44905efdd787b09f13ba307eed"
+      },
+      "_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json": {
+        "asserted_original_sha256": "a7a732941d1d21c1ccb2ebd855e780e62241ea93d9bd5a9a5e87dc632967268c",
+        "original_bytes_rehashed": false,
+        "public_path": "_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition-public.json",
+        "public_sha256": "404ee37e0315c73d36a4bb880a9627593c5f1308f41623a8edbf997cc78d3c0f"
+      },
+      "_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json": {
+        "asserted_original_sha256": "9ee033f69bfa109cf5f278c5a28cdd488d404629c5f0525020db0686cce735e9",
+        "original_bytes_rehashed": false,
+        "public_path": "_sessions/evidence/2026-09-25-cycle17-initial-acquisition-public.json",
+        "public_sha256": "60cb761460cf2df9b17238fe553f059a4a47c55c244b658f8e4605ee87349b26"
+      }
+    },
+    "received_bytes": 3497301
+  },
+  "schema": 1,
+  "status": "passed",
+  "synthetic_checks": {
+    "inert_label_retained": true,
+    "off_candidate_bound_invariant": true,
+    "other_qrel_rejections": 4,
+    "prior_synthetic_checks": {
+      "invalid_rank_tokens_rejected": 3,
+      "one_based_score_ranks_preserved": true,
+      "prior_synthetic_checks": {
+        "edge_spaces_preserved": true,
+        "exact_duplicate_deduplication": true,
+        "opaque_multiword_preservation": true,
+        "optional_terminal_lf": true,
+        "original_synthetic_checks": {
+          "addition_nesting": true,
+          "binary_completions": 256,
+          "duplicate_rejection": true,
+          "exact_decimal_ties": true,
+          "exchange_categories": true,
+          "m_equals_j_and_differs": true,
+          "no_eligibility": true,
+          "partial_tables": 81,
+          "qrel_preservation_gate": true,
+          "shared_cancellation": true
+        },
+        "rejected_invalid_patterns": 10
+      },
+      "raw_disagreement_count": true,
+      "zero_rank_accepted_and_preserved": true
+    }
+  },
+  "verified": {
+    "all_early_policy_and_analysis_fields": true,
+    "canonical_sources": 2,
+    "global_late_preservation_failure": true,
+    "policies_per_query": 5,
+    "queries": 30,
+    "unchanged_policy_bytes_across_label_scope_correction": true
+  },
+  "verifier": {
+    "bytes": 13502,
+    "sha256": "5860567ee78957ee5c54e5fad01959862c49b7c51c5e708b11ef6701df28205c"
+  }
+}

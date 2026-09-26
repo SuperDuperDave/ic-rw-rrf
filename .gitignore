@@ -21,3 +21,8 @@ Thumbs.db
 .relay/
 _sessions/local/
 /.audit/buddy-bridge/
+# Frozen original HTTP receipts contain transient response cookies. Public
+# counterparts omit those headers; numerical/input identities remain published.
+/_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json
+/_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json
+/_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json

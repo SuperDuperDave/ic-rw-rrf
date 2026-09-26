@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "kind": "derived_residual_label_identity_not_new_experiment",
+  "input": "results/cycle17-2026-09-25/candidate-revelation/late.json",
+  "input_sha256": "ecb5e779e2a4536f93d20117bebf7b2a2e29789c6e12fda1cbe5a89e8e2e7bfa",
+  "contrast": "H-S",
+  "query_mean_denominator": 30,
+  "known_mean": "-1/300",
+  "unknown_pair_count": 10,
+  "distinct_topics": 9,
+  "coefficient_per_pair_in_mean": "1/300",
+  "formula": "(k - 1) / 300, where k is the number of positive labels among the listed pairs",
+  "zero_positives": "strict_negative",
+  "exactly_one_positive": "equal",
+  "at_least_two_positives": "strict_positive",
+  "labels_acquired": false,
+  "units": [
+    {
+      "qid": "3",
+      "coefficient": "1/10",
+      "docid": "92smham8",
+      "grade": null
+    },
+    {
+      "qid": "4",
+      "coefficient": "1/10",
+      "docid": "yjay3t38",
+      "grade": null
+    },
+    {
+      "qid": "5",
+      "coefficient": "1/10",
+      "docid": "2g5uxglk",
+      "grade": null
+    },
+    {
+      "qid": "5",
+      "coefficient": "1/10",
+      "docid": "ezmiwwzi",
+      "grade": null
+    },
+    {
+      "qid": "7",
+      "coefficient": "1/10",
+      "docid": "u5tvbej3",
+      "grade": null
+    },
+    {
+      "qid": "13",
+      "coefficient": "1/10",
+      "docid": "1xxrnpg3",
+      "grade": null
+    },
+    {
+      "qid": "16",
+      "coefficient": "1/10",
+      "docid": "o44k9zll",
+      "grade": null
+    },
+    {
+      "qid": "17",
+      "coefficient": "1/10",
+      "docid": "201jppkd",
+      "grade": null
+    },
+    {
+      "qid": "25",
+      "coefficient": "1/10",
+      "docid": "betpeary",
+      "grade": null
+    },
+    {
+      "qid": "26",
+      "coefficient": "1/10",
+      "docid": "kv3363qh",
+      "grade": null
+    }
+  ],
+  "limits": "Official labels remain absent. No calibrated relevance probability or independent-sample claim."
+}

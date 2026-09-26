@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "private_receipt_reads_blocked_by_guard": true,
+  "private_read_attempts": [],
+  "checks": [
+    {
+      "script": "_sessions/tools/check_cycle17_checkpoint.py",
+      "output_sha256": "48d4af5a030610d28c9b02679dfc046ce5953b0c6cb52641075f9ce11eecc6f4",
+      "status": "passed"
+    },
+    {
+      "script": "_sessions/tools/check_cycle17_candidate_revelation.py",
+      "output_sha256": "63095e73b48a41cb9e756a1d4517e37eb8c5f02ae45caaf72b57fba88a50ab16",
+      "status": "passed"
+    }
+  ],
+  "scope": "Public numerical replay succeeds while every open of the three original cookie-bearing receipts raises PermissionError. Raw hash-matching public run/qrel files remain necessary."
+}

@@ -1,0 +1,20 @@
+{
+  "early_pair_count": 8691,
+  "mismatches": [
+    {
+      "docid": "ccq171wm",
+      "early_grade": 0,
+      "kind": "removed",
+      "late_grade": null,
+      "qid": "2"
+    },
+    {
+      "docid": "iu0k7rqc",
+      "early_grade": 0,
+      "kind": "removed",
+      "late_grade": null,
+      "qid": "20"
+    }
+  ],
+  "passed": false
+}

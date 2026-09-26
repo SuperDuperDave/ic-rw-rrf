@@ -1,0 +1,1989 @@
+{
+  "added_qrels_pairs": 1070,
+  "added_support_labels": [
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "cp6he5mc",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "efarquxn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "nvavj9gk",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "sjyrr2bn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "0qaoam29",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "2",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "tuhesrpb",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "2",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "cfnoxhtd",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "3",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "s4t1pa76",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "3",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "ngsstnpr",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "4",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "z74pb4r2",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "4",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "f65l6tws",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "5",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "avo5jfaj",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "6",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "et5ub85f",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "6",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "m0q7rm6z",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "6",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "lbkt9ld8",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "7",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "0xciml6s",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "5242ns8i",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "8",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "bxwcixd7",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "qx0mpjwx",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "a7u8xdux",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "9",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "m410d4ts",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "ts2tsua7",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "0dxl6t4p",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "ba1br2a0",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "lx6qrufs",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "lijzf396",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "12",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "9eso10is",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "cusk2t80",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "dscr9tz7",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "13",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "n9k0ctn6",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "13",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "q59axo1w",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "qc1mpzli",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "14",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "zwodc16j",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "14",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "157qsh5z",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "15",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "kuuyvf90",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "15",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "x0im3m7v",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "16",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "wicc796j",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "17",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "nvavj9gk",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "18",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "5242ns8i",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "19",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "efarquxn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "19",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "awitk3se",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "20",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "eqk8a34e",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "20",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "ocomp998",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "22",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "09vuwtzr",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "25",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "oknxic4q",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "25",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "tcvqzk3k",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "M-S",
+      "docid": "vuc9loqi",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "e3t1f0rt",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "j8odxs1h",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "yvsusriy",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "26",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "r3cqvf0c",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "27",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "M-S",
+      "docid": "yzrni12u",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "29",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "cp6he5mc",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "efarquxn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "nvavj9gk",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "sjyrr2bn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "0qaoam29",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "2",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "tuhesrpb",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "2",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "cfnoxhtd",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "3",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "s4t1pa76",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "3",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "ngsstnpr",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "4",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "z74pb4r2",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "4",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "f65l6tws",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "5",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "avo5jfaj",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "6",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "et5ub85f",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "6",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "m0q7rm6z",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "6",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "lbkt9ld8",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "7",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "0xciml6s",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "5242ns8i",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "8",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "bxwcixd7",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "qx0mpjwx",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "a7u8xdux",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "9",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "m410d4ts",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "ts2tsua7",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "0dxl6t4p",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "ba1br2a0",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "lx6qrufs",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "lijzf396",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "12",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "9eso10is",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "cusk2t80",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "dscr9tz7",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "13",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "n9k0ctn6",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "13",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "q59axo1w",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "13",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "qc1mpzli",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "14",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "zwodc16j",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "14",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "157qsh5z",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "15",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "kuuyvf90",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "15",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "x0im3m7v",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "16",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "wicc796j",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "17",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "nvavj9gk",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "18",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "5242ns8i",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "19",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "efarquxn",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "19",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "awitk3se",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "20",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "eqk8a34e",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "20",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "ocomp998",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "22",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "09vuwtzr",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "25",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "oknxic4q",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "25",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "tcvqzk3k",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-S",
+      "docid": "vuc9loqi",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "e3t1f0rt",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "j8odxs1h",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "yvsusriy",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "26",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "r3cqvf0c",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "27",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-S",
+      "docid": "yzrni12u",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "29",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "23yi8so0",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "1",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "3b5jzndg",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "1",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "8wzd4j82",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "1",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "aiucp2vw",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "2",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "n0n4n6ut",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "2",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "qz2joxys",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "2",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "0lyxvex0",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "4",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "cusk2t80",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "4",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "ngsstnpr",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "4",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "vx4ayfvg",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "4",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "76ylloqx",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "5",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "8ewqubwy",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "6",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "d3iwlpsr",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "6",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "nkp80h8b",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "6",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "we25f7mb",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "7",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "5qwmij8e",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "fcnkwwpw",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "qx0mpjwx",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "8",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "si1yyg5e",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "8",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "tqtt2mpj",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "xhem8l39",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "zcza30uj",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "9",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "i4yrei8h",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "10",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "xhrcpxfv",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "11",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "i4yrei8h",
+      "grade": 2,
+      "influence": "lowers_upper",
+      "qid": "12",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "qb7rn8ra",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "12",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "imvbkt69",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "14",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "j2sfkhvb",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "15",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "gegboxgs",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "16",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "fob0os8u",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "17",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "rb1r88oq",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "17",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "wicc796j",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "17",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "iv753tly",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "18",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "zssgqpv7",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "19",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "b5y4t0m8",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "21",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "zjmiw6f3",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "21",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "40bi87iz",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "22",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "lopqt0wr",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "22",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "q4h74i2s",
+      "grade": 1,
+      "influence": "lowers_upper",
+      "qid": "22",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "wqwjq51y",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "22",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "mludwtgc",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "23",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "sv7xpi4f",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "23",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "6v9rrazb",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "24",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "ci3k93j2",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "24",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "i6bs536s",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "j1y42oxu",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "25",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "oknxic4q",
+      "grade": 0,
+      "influence": "lowers_upper",
+      "qid": "25",
+      "query_lower_increase": "0/1",
+      "query_upper_decrease": "1/10"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "e3t1f0rt",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "j8odxs1h",
+      "grade": 2,
+      "influence": "raises_lower",
+      "qid": "26",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "1/10",
+      "contrast": "H-A",
+      "docid": "r3cqvf0c",
+      "grade": 1,
+      "influence": "raises_lower",
+      "qid": "27",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "v056i6g7",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "27",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    },
+    {
+      "coefficient": "-1/10",
+      "contrast": "H-A",
+      "docid": "ita2okbx",
+      "grade": 0,
+      "influence": "raises_lower",
+      "qid": "29",
+      "query_lower_increase": "1/10",
+      "query_upper_decrease": "0/1"
+    }
+  ],
+  "any_width_reduced": true,
+  "contrasts": {
+    "H-A": {
+      "added_labels_on_support": 52,
+      "early_decision": "sign_unresolved",
+      "early_sign": "crosses_zero",
+      "early_width": "97/300",
+      "late_decision": "all_completions_positive",
+      "late_sign": "strict_positive",
+      "late_width": "3/20",
+      "sign_changed": true,
+      "width_reduction": "13/75"
+    },
+    "H-S": {
+      "added_labels_on_support": 52,
+      "early_decision": "sign_unresolved",
+      "early_sign": "crosses_zero",
+      "early_width": "31/150",
+      "late_decision": "sign_unresolved",
+      "late_sign": "crosses_zero",
+      "late_width": "1/30",
+      "sign_changed": false,
+      "width_reduction": "13/75"
+    },
+    "M-H": {
+      "added_labels_on_support": 0,
+      "early_decision": "positive_excluded",
+      "early_sign": "nonpositive_with_zero",
+      "early_width": "1/300",
+      "late_decision": "positive_excluded",
+      "late_sign": "nonpositive_with_zero",
+      "late_width": "1/300",
+      "sign_changed": false,
+      "width_reduction": "0/1"
+    },
+    "M-J": {
+      "added_labels_on_support": 0,
+      "early_decision": "positive_excluded",
+      "early_sign": "strict_negative",
+      "early_width": "0/1",
+      "late_decision": "positive_excluded",
+      "late_sign": "strict_negative",
+      "late_width": "0/1",
+      "sign_changed": false,
+      "width_reduction": "0/1"
+    },
+    "M-S": {
+      "added_labels_on_support": 52,
+      "early_decision": "sign_unresolved",
+      "early_sign": "crosses_zero",
+      "early_width": "61/300",
+      "late_decision": "sign_unresolved",
+      "late_sign": "crosses_zero",
+      "late_width": "3/100",
+      "sign_changed": false,
+      "width_reduction": "13/75"
+    }
+  },
+  "design_primary_contrast": "H-S",
+  "design_primary_width_reduced": true,
+  "exchange_category_transitions": [
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "1"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "1"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "2"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "2"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "3"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "3"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "4"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "4"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "5"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "5"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "6"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "6"
+    },
+    {
+      "early_category": "unresolved",
+      "late_category": "unresolved",
+      "policy": "M",
+      "qid": "7"
+    },
+    {
+      "early_category": "unresolved",
+      "late_category": "unresolved",
+      "policy": "J",
+      "qid": "7"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "8"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "8"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "9"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "9"
+    },
+    {
+      "early_category": "harm",
+      "late_category": "harm",
+      "policy": "M",
+      "qid": "10"
+    },
+    {
+      "early_category": "harm",
+      "late_category": "harm",
+      "policy": "J",
+      "qid": "10"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "11"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "11"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "12"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "12"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "13"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "13"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "14"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "14"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "15"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "15"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "16"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "16"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "17"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "17"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "18"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "18"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "19"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "19"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "20"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "20"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "21"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "21"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "22"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "22"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "23"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "23"
+    },
+    {
+      "early_category": "rescue",
+      "late_category": "rescue",
+      "policy": "M",
+      "qid": "24"
+    },
+    {
+      "early_category": "rescue",
+      "late_category": "rescue",
+      "policy": "J",
+      "qid": "24"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "25"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "25"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "M",
+      "qid": "26"
+    },
+    {
+      "early_category": "unchanged",
+      "late_category": "unchanged",
+      "policy": "J",
+      "qid": "26"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "27"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "27"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "28"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "28"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "M",
+      "qid": "29"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "29"
+    },
+    {
+      "early_category": "harm",
+      "late_category": "harm",
+      "policy": "M",
+      "qid": "30"
+    },
+    {
+      "early_category": "neutral",
+      "late_category": "neutral",
+      "policy": "J",
+      "qid": "30"
+    }
+  ],
+  "observation_status": "candidate_scope_only",
+  "primary_width_reduced": false
+}

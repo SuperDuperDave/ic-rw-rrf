@@ -1,0 +1,18 @@
+{
+  "frozen": {
+    "_sessions/cycles/2026-09-25-cycle17-exchange-protocol.md": "447f62b6bbd29f4d1e59ec23240844c37d9fabe418ca50bff1fcc9ae7ee5cbbf",
+    "_sessions/cycles/2026-09-25-cycle17-input-plan.json": "0e3b9fcd61e71339dae5d5179e58bd25ab830cca8adfbafd6938b903c851f0fe",
+    "_sessions/tools/acquire_cycle17_inputs.py": "85be75449cdbe28320b00acdbe6aa0e95640c055df8ced2cc6d01ac872c51fe1",
+    "_sessions/tools/check_cycle17_exchange.py": "53b810518a649c1b388d9d55f5c2f677bd473aebf32e47198268cd01e5315e10",
+    "evaluation/cycle17_minority_exchange.py": "86f3a4c5ab06ae1147bb370637e6a0ff41a3c80c4c51966a6e70681ce29c0b0e",
+    "evaluation/tests/test_cycle17_minority_exchange.py": "a5d592da6106e69153d8a91ccb35df0b927b1c1710ab8bb7a792840bcb2c53b1"
+  },
+  "inputs": {},
+  "max_attempts_per_file": 1,
+  "phase": "initial",
+  "preflight_sha256": "fc6f2c09bcdb93c91713187fd4a048443faf1c7f34fb74f91d71d7f91e2773f3",
+  "schema": 1,
+  "started_at_utc": "2026-09-26T02:06:19.768714+00:00",
+  "status": "started",
+  "transport": {}
+}
