@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "scope": "Descriptive missing-zero points on all30 fixed queries; no query deletion experiment or inference",
+  "contrasts": {
+    "F-S": {
+      "positive_queries": 13,
+      "negative_queries": 11,
+      "ties": 6,
+      "positive_slots": "25",
+      "negative_slots": "-20"
+    },
+    "F-H": {
+      "positive_queries": 9,
+      "negative_queries": 3,
+      "ties": 18,
+      "positive_slots": "9",
+      "negative_slots": "-3"
+    }
+  }
+}

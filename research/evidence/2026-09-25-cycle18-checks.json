@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "recorded_at_utc": "2026-09-26T03:32:28.690014+00:00",
+  "targeted_tests_passed": 65,
+  "standard_library_demo": {
+    "command": "python3 -B evaluation/trec_eval_harness.py --demo",
+    "exit_code": 0,
+    "interpretation": "smoke check only; synthetic demo values are not cycle18 research results"
+  },
+  "frozen_file_count": 24,
+  "all_frozen_identities_unchanged": true,
+  "preflight_sha256": "a09f07b9f2712469c741bd4405bfd232ab2ecbdfb467ec10554b06abb4ed626c",
+  "independent_receipt_sha256": "62a0f262307e72280a47ed9dcc038bae59c1757ef9d8d676384cd8ae8aefb39b",
+  "official_receipt_sha256": "eb9b3008c186c5d7429b81837677f175c5d9e56bfc059232e435a5f2cb0aadf6",
+  "triangle_check_sha256": "d3cf7ac1773c0b3093c0996978b5cff9a3be89e56c25cb68a5e84d6cb23b6ec2",
+  "official_query_comparisons": 180,
+  "official_mean_comparisons": 6,
+  "triangle_binary_completions": 1024,
+  "public_acquisition_cookie_fields_absent": true,
+  "buddy_assessed_return_complete": true,
+  "opus_results_request": 120,
+  "opus_results_consumed": 124,
+  "notes": "Preserves fixed primary F-H unresolved and positive predeclared secondary contrasts. No historical frozen changes, novelty or generalized performance claim."
+}

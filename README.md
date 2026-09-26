@@ -2,7 +2,16 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**September 2026 research checkpoint:** on 300 SciFact queries, adding SPLADE
+**Latest research checkpoint:** a fixed family hybrid on 30 TREC-COVID development
+topics beats each of its four standalone sources under every allowed completion
+of missing relevance labels. Against the earlier hybrid, its primary P@10
+contrast remains unresolved (−1 to +2 percentage points). For 23 of 30 queries, no
+nonnegative reweighting of the original two sources can reproduce its top-ten
+set. A pre-data bound proves all changes remain inside their original candidate
+pool. These are separate capability and effectiveness findings, with no claim
+that the former caused the latter. [Cycle18 evidence and limits](results/cycle18-2026-09-25/REPORT.md).
+
+**Earlier transfer checkpoint:** on 300 SciFact queries, adding SPLADE
 improved the fixed lexical fusion from 0.6673 to 0.6867 nDCG@10. SPLADE alone
 (0.7036) and a simple BM25+SPLADE hybrid (0.7054) still led. The source-addition
 prediction held on this collection; the extra fusion machinery showed no mean

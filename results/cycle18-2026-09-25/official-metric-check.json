@@ -1,0 +1,1368 @@
+{
+  "after": {
+    "evaluator": {
+      "P_source": {
+        "bytes": 3008,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/m_P.c",
+        "sha256": "46f2a5f6b7cfc1c05d0c9cd2f6f8c59bd1e15a61355be4bfbbb38cadf578c057"
+      },
+      "binary": {
+        "bytes": 454960,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+        "sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17"
+      },
+      "build_receipt": {
+        "bytes": 1509,
+        "path": "_sessions/evidence/2026-09-12-cycle15-evaluator-build.json",
+        "sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c"
+      },
+      "revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+      "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a"
+    },
+    "files": {
+      "_sessions/cycles/2026-09-25-cycle18-input-plan.json": {
+        "bytes": 1625,
+        "path": "_sessions/cycles/2026-09-25-cycle18-input-plan.json",
+        "sha256": "a2b6a17a3b0de389d755c6b576c39ff4aafa45463d4d44255d00da52491f0040"
+      },
+      "_sessions/cycles/2026-09-25-cycle18-protocol.md": {
+        "bytes": 8719,
+        "path": "_sessions/cycles/2026-09-25-cycle18-protocol.md",
+        "sha256": "9cfa971b517b0781e6dcb0464115944f50fc62c1741febb54be0d7a3cdeb02d4"
+      },
+      "_sessions/local/cycle17/inputs/late.qrels": {
+        "bytes": 360831,
+        "path": "_sessions/local/cycle17/inputs/late.qrels",
+        "sha256": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5"
+      },
+      "_sessions/tools/check_cycle17_official_metric.py": {
+        "bytes": 14400,
+        "path": "_sessions/tools/check_cycle17_official_metric.py",
+        "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+      },
+      "_sessions/tools/check_cycle18_official_metric.py": {
+        "bytes": 9839,
+        "path": "_sessions/tools/check_cycle18_official_metric.py",
+        "sha256": "33027f0689715359586f467347450a28435da0b5aed61b589265afe327ae4739"
+      },
+      "results/cycle18-2026-09-25/run/analysis.json": {
+        "bytes": 150614,
+        "path": "results/cycle18-2026-09-25/run/analysis.json",
+        "sha256": "4676a4bd95706a160ab9dc2dc8ea063cd591c7353073b59898ebcc5518e94875"
+      },
+      "results/cycle18-2026-09-25/run/policies.json": {
+        "bytes": 2447074,
+        "path": "results/cycle18-2026-09-25/run/policies.json",
+        "sha256": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305"
+      }
+    }
+  },
+  "before": {
+    "evaluator": {
+      "P_source": {
+        "bytes": 3008,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/m_P.c",
+        "sha256": "46f2a5f6b7cfc1c05d0c9cd2f6f8c59bd1e15a61355be4bfbbb38cadf578c057"
+      },
+      "binary": {
+        "bytes": 454960,
+        "path": "_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+        "sha256": "ceab60f88648fe691c65bd4fdda4d293e2627a8378a22a8795f2e4c3455d0a17"
+      },
+      "build_receipt": {
+        "bytes": 1509,
+        "path": "_sessions/evidence/2026-09-12-cycle15-evaluator-build.json",
+        "sha256": "257f96e8f823c68e2f6c032e44ffcc349f275425ed17de880e24ca8d7c6abb0c"
+      },
+      "revision": "ba38899cbd4de0fb699b47f39b64ef1c107e4a5c",
+      "source_archive_sha256": "d603cd657950aebea3a5ed08cee5ea0e5e836012ed5eb63303d3a7d66e49ba6a"
+    },
+    "files": {
+      "_sessions/cycles/2026-09-25-cycle18-input-plan.json": {
+        "bytes": 1625,
+        "path": "_sessions/cycles/2026-09-25-cycle18-input-plan.json",
+        "sha256": "a2b6a17a3b0de389d755c6b576c39ff4aafa45463d4d44255d00da52491f0040"
+      },
+      "_sessions/cycles/2026-09-25-cycle18-protocol.md": {
+        "bytes": 8719,
+        "path": "_sessions/cycles/2026-09-25-cycle18-protocol.md",
+        "sha256": "9cfa971b517b0781e6dcb0464115944f50fc62c1741febb54be0d7a3cdeb02d4"
+      },
+      "_sessions/local/cycle17/inputs/late.qrels": {
+        "bytes": 360831,
+        "path": "_sessions/local/cycle17/inputs/late.qrels",
+        "sha256": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5"
+      },
+      "_sessions/tools/check_cycle17_official_metric.py": {
+        "bytes": 14400,
+        "path": "_sessions/tools/check_cycle17_official_metric.py",
+        "sha256": "e405e782b257ceb9ae0cde2e7d08b774a9d71839a94685d28cdbed0ff710496a"
+      },
+      "_sessions/tools/check_cycle18_official_metric.py": {
+        "bytes": 9839,
+        "path": "_sessions/tools/check_cycle18_official_metric.py",
+        "sha256": "33027f0689715359586f467347450a28435da0b5aed61b589265afe327ae4739"
+      },
+      "results/cycle18-2026-09-25/run/analysis.json": {
+        "bytes": 150614,
+        "path": "results/cycle18-2026-09-25/run/analysis.json",
+        "sha256": "4676a4bd95706a160ab9dc2dc8ea063cd591c7353073b59898ebcc5518e94875"
+      },
+      "results/cycle18-2026-09-25/run/policies.json": {
+        "bytes": 2447074,
+        "path": "results/cycle18-2026-09-25/run/policies.json",
+        "sha256": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305"
+      }
+    }
+  },
+  "comparisons": {
+    "means": 6,
+    "per_query": 180
+  },
+  "mean_rounding_tolerance_exact": "1/20000",
+  "output_artifacts": {
+    "_sessions/local/cycle18/official-metric/A.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/A.run",
+      "sha256": "fb74ed7305eb9b06f29eae30fe85ce3477717db2de9f8d0a56b003f48c6ec5b5"
+    },
+    "_sessions/local/cycle18/official-metric/A.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/A.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/A.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/A.stdout",
+      "sha256": "c3e8915f10fec8542dc7bae54e9fab5aadfedbd060d0f70a456b674bdadd953d"
+    },
+    "_sessions/local/cycle18/official-metric/D.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/D.run",
+      "sha256": "add9d4ff136152710cd4297ff9e98127b7b6ed3d7d8e510e9b9d1f19c2fef43e"
+    },
+    "_sessions/local/cycle18/official-metric/D.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/D.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/D.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/D.stdout",
+      "sha256": "13e19cd24c8888842facc001a07c588a3c90e0ef9ab7987f72b3b66f556e495b"
+    },
+    "_sessions/local/cycle18/official-metric/F.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/F.run",
+      "sha256": "5cac4b990f3e928d24e6b9043c435704264095f474afe4bfc854d17db6f66516"
+    },
+    "_sessions/local/cycle18/official-metric/F.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/F.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/F.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/F.stdout",
+      "sha256": "b338c7ffe7832f9d8eb89bf79e270fa445fba67f1f9279f593451a994171f3e7"
+    },
+    "_sessions/local/cycle18/official-metric/H.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/H.run",
+      "sha256": "fe08d2e981959c5a24f9f96cc38046b7da6575673b84c088e6918a1b68596b57"
+    },
+    "_sessions/local/cycle18/official-metric/H.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/H.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/H.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/H.stdout",
+      "sha256": "cf5be81e9e02c383eceface74767fc37fce32ab74a0b8cda668d3137fc2ae679"
+    },
+    "_sessions/local/cycle18/official-metric/S.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/S.run",
+      "sha256": "8bcf11b23148fa58ad1697c484efa166c9dcaa36f876c4c41de4e7063910c4df"
+    },
+    "_sessions/local/cycle18/official-metric/S.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/S.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/S.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/S.stdout",
+      "sha256": "71d60f1e2290de042adbc9dc32f122c942824ed19292f55c02acc705e72110d7"
+    },
+    "_sessions/local/cycle18/official-metric/T.run": {
+      "bytes": 8970,
+      "path": "_sessions/local/cycle18/official-metric/T.run",
+      "sha256": "d4a8d7a9f2e69f0b4d1717bd9c2e68d8aa307816dcf17d55dbd011e89950229b"
+    },
+    "_sessions/local/cycle18/official-metric/T.stderr": {
+      "bytes": 0,
+      "path": "_sessions/local/cycle18/official-metric/T.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "_sessions/local/cycle18/official-metric/T.stdout": {
+      "bytes": 1015,
+      "path": "_sessions/local/cycle18/official-metric/T.stdout",
+      "sha256": "d6e0e318a6c0a019cfaede19a0d916650102d6cf844f80abdf497d8f10669a51"
+    },
+    "_sessions/local/cycle18/official-metric/after.json": {
+      "bytes": 2509,
+      "path": "_sessions/local/cycle18/official-metric/after.json",
+      "sha256": "abf84b7d26ddc199c710ebb8ff0d0ebf0da3134a5214fe06c6edccaeffdd3f11"
+    },
+    "_sessions/local/cycle18/official-metric/before.json": {
+      "bytes": 2509,
+      "path": "_sessions/local/cycle18/official-metric/before.json",
+      "sha256": "abf84b7d26ddc199c710ebb8ff0d0ebf0da3134a5214fe06c6edccaeffdd3f11"
+    }
+  },
+  "per_query_tolerance": "0",
+  "policies": {
+    "A": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/A.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/A.run",
+          "sha256": "fb74ed7305eb9b06f29eae30fe85ce3477717db2de9f8d0a56b003f48c6ec5b5"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/A.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/A.stdout",
+          "sha256": "c3e8915f10fec8542dc7bae54e9fab5aadfedbd060d0f70a456b674bdadd953d"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.3967",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "119/300"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "28": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        }
+      },
+      "query_count": 30
+    },
+    "D": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/D.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/D.run",
+          "sha256": "add9d4ff136152710cd4297ff9e98127b7b6ed3d7d8e510e9b9d1f19c2fef43e"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/D.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/D.stdout",
+          "sha256": "13e19cd24c8888842facc001a07c588a3c90e0ef9ab7987f72b3b66f556e495b"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.4467",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "67/150"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "10": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "28": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        }
+      },
+      "query_count": 30
+    },
+    "F": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/F.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/F.run",
+          "sha256": "5cac4b990f3e928d24e6b9043c435704264095f474afe4bfc854d17db6f66516"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/F.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/F.stdout",
+          "sha256": "b338c7ffe7832f9d8eb89bf79e270fa445fba67f1f9279f593451a994171f3e7"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "0",
+        "official": "0.6000",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "3/5"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        }
+      },
+      "query_count": 30
+    },
+    "H": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/H.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/H.run",
+          "sha256": "fe08d2e981959c5a24f9f96cc38046b7da6575673b84c088e6918a1b68596b57"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/H.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/H.stdout",
+          "sha256": "cf5be81e9e02c383eceface74767fc37fce32ab74a0b8cda668d3137fc2ae679"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "0",
+        "official": "0.5800",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "29/50"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "30": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        }
+      },
+      "query_count": 30
+    },
+    "S": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/S.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/S.run",
+          "sha256": "8bcf11b23148fa58ad1697c484efa166c9dcaa36f876c4c41de4e7063910c4df"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/S.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/S.stdout",
+          "sha256": "71d60f1e2290de042adbc9dc32f122c942824ed19292f55c02acc705e72110d7"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "1/30000",
+        "official": "0.5833",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "7/12"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "28": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "5": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        }
+      },
+      "query_count": 30
+    },
+    "T": {
+      "artifacts": {
+        "command": [
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle15/runtime/trec_eval-ba38899cbd4de0fb699b47f39b64ef1c107e4a5c/trec_eval",
+          "-q",
+          "-c",
+          "-m",
+          "P.10",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle17/inputs/late.qrels",
+          "/home/david-wsl/repos/ic-rw-rrf/_sessions/local/cycle18/official-metric/T.run"
+        ],
+        "exit_code": 0,
+        "run": {
+          "bytes": 8970,
+          "path": "_sessions/local/cycle18/official-metric/T.run",
+          "sha256": "d4a8d7a9f2e69f0b4d1717bd9c2e68d8aa307816dcf17d55dbd011e89950229b"
+        },
+        "stderr": {
+          "bytes": 0,
+          "path": "_sessions/local/cycle18/official-metric/T.stderr",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "stdout": {
+          "bytes": 1015,
+          "path": "_sessions/local/cycle18/official-metric/T.stdout",
+          "sha256": "d6e0e318a6c0a019cfaede19a0d916650102d6cf844f80abdf497d8f10669a51"
+        }
+      },
+      "mean": {
+        "absolute_error_exact": "0",
+        "official": "0.4100",
+        "rounding_tolerance_exact": "1/20000",
+        "saved_exact": "41/100"
+      },
+      "passed": true,
+      "per_query": {
+        "1": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "10": {
+          "matches": true,
+          "official": "0.8000",
+          "saved_exact": "4/5"
+        },
+        "11": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "12": {
+          "matches": true,
+          "official": "0.9000",
+          "saved_exact": "9/10"
+        },
+        "13": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "14": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "15": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "16": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "17": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "18": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "19": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "2": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "20": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "21": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "22": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "23": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "24": {
+          "matches": true,
+          "official": "0.2000",
+          "saved_exact": "1/5"
+        },
+        "25": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "26": {
+          "matches": true,
+          "official": "0.4000",
+          "saved_exact": "2/5"
+        },
+        "27": {
+          "matches": true,
+          "official": "0.5000",
+          "saved_exact": "1/2"
+        },
+        "28": {
+          "matches": true,
+          "official": "1.0000",
+          "saved_exact": "1"
+        },
+        "29": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "3": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "30": {
+          "matches": true,
+          "official": "0.7000",
+          "saved_exact": "7/10"
+        },
+        "4": {
+          "matches": true,
+          "official": "0.0000",
+          "saved_exact": "0"
+        },
+        "5": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "6": {
+          "matches": true,
+          "official": "0.6000",
+          "saved_exact": "3/5"
+        },
+        "7": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        },
+        "8": {
+          "matches": true,
+          "official": "0.3000",
+          "saved_exact": "3/10"
+        },
+        "9": {
+          "matches": true,
+          "official": "0.1000",
+          "saved_exact": "1/10"
+        }
+      },
+      "query_count": 30
+    }
+  },
+  "query_count": 30,
+  "rank_export": "Frozen supplied head order; one-based rank; score=-rank, without ties.",
+  "raw_qrels_unfiltered": true,
+  "schema": "cycle18-official-metric-check-v1",
+  "scope": "Six frozen policies; official binary P@10 on full raw late qrels, missing-zero convention.",
+  "status": "passed"
+}

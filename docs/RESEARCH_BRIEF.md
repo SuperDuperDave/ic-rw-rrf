@@ -211,6 +211,19 @@ check had first failed on two irrelevant-to-the-comparison records; we preserved
 that failure and declared the narrower observation separately. All results were
 independently reconstructed, rather than treating collaborator agreement as proof.
 
+**New combinations and unresolved comparisons.** The next fixed experiment
+replaced two repeated lexical outputs with documented variants while holding
+their total weight fixed. Its hybrid beat each standalone source under every
+allowed completion of the missing judgments. Yet its primary comparison with
+the earlier hybrid remained between −1 and +2 percentage points of precision.
+On 23 of 30 queries, no nonnegative reweighting of the original two sources
+could reproduce its top-ten set. A bound derived before reading the new runs
+showed that these changes all had to occur within the original candidate pool.
+This separates an expanded set of attainable outputs from a measured benefit;
+neither proves the other caused it. The incomplete comparisons also share
+unknown labels, so their uncertainty cannot be added as independent intervals.
+[Cycle18 result and independent checks](../results/cycle18-2026-09-25/REPORT.md)
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated

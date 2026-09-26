@@ -1,0 +1,460 @@
+{
+  "status": "derived from verified fixed artifacts; not an additional experiment",
+  "analysis_sha256": "4676a4bd95706a160ab9dc2dc8ea063cd591c7353073b59898ebcc5518e94875",
+  "policies_sha256": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305",
+  "unknown_support": {
+    "F-H": [
+      {
+        "qid": "3",
+        "coefficient": "-1/10",
+        "docid": "92smham8",
+        "grade": null
+      },
+      {
+        "qid": "4",
+        "coefficient": "-1/10",
+        "docid": "yjay3t38",
+        "grade": null
+      },
+      {
+        "qid": "5",
+        "coefficient": "-1/10",
+        "docid": "2g5uxglk",
+        "grade": null
+      },
+      {
+        "qid": "5",
+        "coefficient": "-1/10",
+        "docid": "ezmiwwzi",
+        "grade": null
+      },
+      {
+        "qid": "7",
+        "coefficient": "-1/10",
+        "docid": "u5tvbej3",
+        "grade": null
+      },
+      {
+        "qid": "13",
+        "coefficient": "-1/10",
+        "docid": "1xxrnpg3",
+        "grade": null
+      },
+      {
+        "qid": "16",
+        "coefficient": "-1/10",
+        "docid": "o44k9zll",
+        "grade": null
+      },
+      {
+        "qid": "25",
+        "coefficient": "-1/10",
+        "docid": "betpeary",
+        "grade": null
+      },
+      {
+        "qid": "26",
+        "coefficient": "-1/10",
+        "docid": "kv3363qh",
+        "grade": null
+      }
+    ],
+    "F-S": [
+      {
+        "qid": "17",
+        "coefficient": "1/10",
+        "docid": "201jppkd",
+        "grade": null
+      }
+    ],
+    "H-S": [
+      {
+        "qid": "3",
+        "coefficient": "1/10",
+        "docid": "92smham8",
+        "grade": null
+      },
+      {
+        "qid": "4",
+        "coefficient": "1/10",
+        "docid": "yjay3t38",
+        "grade": null
+      },
+      {
+        "qid": "5",
+        "coefficient": "1/10",
+        "docid": "2g5uxglk",
+        "grade": null
+      },
+      {
+        "qid": "5",
+        "coefficient": "1/10",
+        "docid": "ezmiwwzi",
+        "grade": null
+      },
+      {
+        "qid": "7",
+        "coefficient": "1/10",
+        "docid": "u5tvbej3",
+        "grade": null
+      },
+      {
+        "qid": "13",
+        "coefficient": "1/10",
+        "docid": "1xxrnpg3",
+        "grade": null
+      },
+      {
+        "qid": "16",
+        "coefficient": "1/10",
+        "docid": "o44k9zll",
+        "grade": null
+      },
+      {
+        "qid": "17",
+        "coefficient": "1/10",
+        "docid": "201jppkd",
+        "grade": null
+      },
+      {
+        "qid": "25",
+        "coefficient": "1/10",
+        "docid": "betpeary",
+        "grade": null
+      },
+      {
+        "qid": "26",
+        "coefficient": "1/10",
+        "docid": "kv3363qh",
+        "grade": null
+      }
+    ]
+  },
+  "pareto_cases": [
+    {
+      "qid": "7",
+      "witness": {
+        "excluded": "llqpfhwg",
+        "head": "6hep2lin"
+      },
+      "documents": {
+        "excluded": {
+          "F": "6623/472626",
+          "H": "214/11253",
+          "contributions": {
+            "A": "1/93",
+            "D": "0/1",
+            "S": "1/121",
+            "T": "1/154"
+          },
+          "decomposition": {
+            "D": {
+              "category": "departure",
+              "value": "-1/279"
+            },
+            "T": {
+              "category": "shared",
+              "value": "-61/42966"
+            }
+          },
+          "delta": "-215/42966",
+          "docid": "llqpfhwg",
+          "in_original_pool": true,
+          "ranks": {
+            "A": 33,
+            "D": null,
+            "S": 61,
+            "T": 94
+          },
+          "grade_if_on_contrast_support": 2,
+          "in_H_head": true,
+          "in_F_head": false
+        },
+        "head": {
+          "F": "1835677/98877240",
+          "H": "268/17835",
+          "contributions": {
+            "A": "1/123",
+            "D": "1/72",
+            "S": "1/145",
+            "T": "1/77"
+          },
+          "decomposition": {
+            "D": {
+              "category": "shared",
+              "value": "17/8856"
+            },
+            "T": {
+              "category": "shared",
+              "value": "46/28413"
+            }
+          },
+          "delta": "2413/681912",
+          "docid": "6hep2lin",
+          "in_original_pool": true,
+          "ranks": {
+            "A": 63,
+            "D": 12,
+            "S": 85,
+            "T": 17
+          },
+          "grade_if_on_contrast_support": 2,
+          "in_H_head": false,
+          "in_F_head": true
+        }
+      },
+      "F-H": {
+        "benchmark_zero": "1/10",
+        "decision": "sign_unresolved",
+        "known": "1/10",
+        "lower": "0/1",
+        "sign": "nonnegative_with_zero",
+        "support": [
+          {
+            "coefficient": "1/10",
+            "docid": "3g75spkc",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "6hep2lin",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "llqpfhwg",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "u5tvbej3",
+            "grade": null
+          }
+        ],
+        "unknown_support": 1,
+        "upper": "1/10",
+        "width": "1/10"
+      },
+      "F-S": {
+        "benchmark_zero": "1/5",
+        "decision": "all_completions_positive",
+        "known": "1/5",
+        "lower": "1/5",
+        "sign": "strict_positive",
+        "support": [
+          {
+            "coefficient": "-1/10",
+            "docid": "1w8epdht",
+            "grade": 0
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "3rhdxzj3",
+            "grade": 0
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "6alsigxk",
+            "grade": 0
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "6hep2lin",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "9595vm0k",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "k6wkpmpn",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "lbkt9ld8",
+            "grade": 0
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "nna0s5mf",
+            "grade": 2
+          }
+        ],
+        "unknown_support": 0,
+        "upper": "1/5",
+        "width": "0/1"
+      }
+    },
+    {
+      "qid": "17",
+      "witness": {
+        "excluded": "h3mdrikn",
+        "head": "wmfcwqfw"
+      },
+      "documents": {
+        "excluded": {
+          "F": "214531/15324750",
+          "H": "33/2450",
+          "contributions": {
+            "A": "1/147",
+            "D": "1/139",
+            "S": "1/150",
+            "T": "1/125"
+          },
+          "decomposition": {
+            "D": {
+              "category": "shared",
+              "value": "8/61299"
+            },
+            "T": {
+              "category": "shared",
+              "value": "22/55125"
+            }
+          },
+          "delta": "4058/7662375",
+          "docid": "h3mdrikn",
+          "in_original_pool": true,
+          "ranks": {
+            "A": 87,
+            "D": 79,
+            "S": 90,
+            "T": 65
+          },
+          "grade_if_on_contrast_support": null,
+          "in_H_head": false,
+          "in_F_head": false
+        },
+        "head": {
+          "F": "11351/692445",
+          "H": "1/159",
+          "contributions": {
+            "A": "0/1",
+            "D": "1/65",
+            "S": "1/159",
+            "T": "1/67"
+          },
+          "decomposition": {
+            "D": {
+              "category": "arrival",
+              "value": "1/195"
+            },
+            "T": {
+              "category": "arrival",
+              "value": "1/201"
+            }
+          },
+          "delta": "44/4355",
+          "docid": "wmfcwqfw",
+          "in_original_pool": true,
+          "ranks": {
+            "A": null,
+            "D": 5,
+            "S": 99,
+            "T": 7
+          },
+          "grade_if_on_contrast_support": 2,
+          "in_H_head": false,
+          "in_F_head": true
+        }
+      },
+      "F-H": {
+        "benchmark_zero": "0/1",
+        "decision": "positive_excluded",
+        "known": "0/1",
+        "lower": "0/1",
+        "sign": "point_zero",
+        "support": [
+          {
+            "coefficient": "-1/10",
+            "docid": "jc9ugexn",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "wmfcwqfw",
+            "grade": 2
+          }
+        ],
+        "unknown_support": 0,
+        "upper": "0/1",
+        "width": "0/1"
+      },
+      "F-S": {
+        "benchmark_zero": "0/1",
+        "decision": "sign_unresolved",
+        "known": "0/1",
+        "lower": "0/1",
+        "sign": "nonnegative_with_zero",
+        "support": [
+          {
+            "coefficient": "-1/10",
+            "docid": "1mjaycee",
+            "grade": 0
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "201jppkd",
+            "grade": null
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "8gncbgot",
+            "grade": 1
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "b31ctbat",
+            "grade": 1
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "fxcv5feh",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "kv9n2qj3",
+            "grade": 0
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "o8j17zzs",
+            "grade": 2
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "qefsrq8l",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "ufcvecwo",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "wicc796j",
+            "grade": 0
+          },
+          {
+            "coefficient": "-1/10",
+            "docid": "wm0forsu",
+            "grade": 2
+          },
+          {
+            "coefficient": "1/10",
+            "docid": "wmfcwqfw",
+            "grade": 2
+          }
+        ],
+        "unknown_support": 1,
+        "upper": "1/10",
+        "width": "1/10"
+      }
+    }
+  ],
+  "case_selection": "Every stored strict Pareto witness, in original numeric query order; not selected by effectiveness."
+}

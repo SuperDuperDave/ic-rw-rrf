@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "selection": "R21 fixed metadata-defined BITEM variants; reused known development panel; no new variant bodies or outcomes read before freeze",
+  "cached": {
+    "A.run": {
+      "path": "_sessions/local/cycle17/inputs/A.run",
+      "bytes": 1005528,
+      "sha256": "2952bb4c58103119dbcb364b3f5f17a40f4208d79f2ea5554beefe8c06899209"
+    },
+    "S.run": {
+      "path": "_sessions/local/cycle17/inputs/S.run",
+      "bytes": 1529551,
+      "sha256": "16a11c75a13c1deba3e41896b6801d7a57285ead28c7ed12e88cb67f848f9821"
+    },
+    "docids.txt": {
+      "path": "_sessions/local/cycle17/inputs/docids.txt",
+      "bytes": 459972,
+      "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+    },
+    "late.qrels": {
+      "path": "_sessions/local/cycle17/inputs/late.qrels",
+      "bytes": 360831,
+      "sha256": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5"
+    }
+  },
+  "timeout_seconds": 60,
+  "max_attempts_per_file": 1,
+  "max_total_bytes": 3000000,
+  "items": {
+    "D": {
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_df",
+      "filename": "D.run",
+      "expected_bytes": 1020890,
+      "max_bytes": 1500000,
+      "etag": "\"f93da-5a49a6d58ac80\"",
+      "last_modified": "Fri, 01 May 2020 18:34:10 GMT"
+    },
+    "T": {
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_stem",
+      "filename": "T.run",
+      "expected_bytes": 1065685,
+      "max_bytes": 1500000,
+      "etag": "\"1042d5-5a49a6d58ac80\"",
+      "last_modified": "Fri, 01 May 2020 18:34:10 GMT"
+    }
+  },
+  "initial_keys": [
+    "D",
+    "T"
+  ]
+}
