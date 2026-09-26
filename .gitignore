@@ -17,12 +17,18 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Project-local Agent Relay state and provider receipts (never publish)
+# The working method: a private repository mounted at _sessions/, and the links into it.
+# _sessions/ is also where the sealed cycle tools expect their historical layout (see README).
+_sessions/
+/AGENTS.md
+.claude/skills
+.claude/settings.local.json
+.agents/
+.codex/
+
+# Multithread's enrolled, machine-local ledger and identity; provider receipts
 .relay/
-_sessions/local/
-/.audit/buddy-bridge/
-# Frozen original HTTP receipts contain transient response cookies. Public
-# counterparts omit those headers; numerical/input identities remain published.
-/_sessions/evidence/2026-09-25-cycle17-initial-acquisition.json
-/_sessions/evidence/2026-09-25-cycle17-corrected-initial-acquisition.json
-/_sessions/evidence/2026-09-25-cycle17-compatible-initial-acquisition.json
+.audit/
+
+# Locally acquired inputs, caches and raw provider output
+local/
