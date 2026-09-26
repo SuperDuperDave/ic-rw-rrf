@@ -196,7 +196,8 @@ Until 2026-09-26 the cycle record lived under `_sessions/`. It now lives under
 | `_sessions/tools/` | `research/tools/` |
 
 Reports, receipts and manifests written before the move cite the earlier paths;
-read them through this table.
+read them through this table. Sealed records keep those paths as written; the
+collaboration files some of them link to are kept private.
 
 The cycle tools, the evaluation modules and their tests were sealed by SHA-256
 while the record lived under `_sessions/`, and each checker verifies the files

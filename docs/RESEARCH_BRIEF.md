@@ -254,28 +254,6 @@ and an independent implementation rebuilt every ranking and numerical field.
 A positive result and unresolved provenance deserve to be visible together.
 [Cycle23 evidence and limits](../results/cycle23-2026-09-26/REPORT.md)
 
-**How collaboration shaped the research.** A Fable5.1 Claude coordinator used
-four Opus5 scouts to examine the design, then resumed with one evidence scout
-to critique the results. Codex implemented the experiments and integrated
-independent checks. Critique changed the experiment, and numerical evidence
-changed the question. A further review of the new source preserved a useful
-association test while an independent check corrected its missing-label bounds.
-Reviewer mistakes were recorded and corrected too. A later native review hit
-its configured budget after emitting a useful memo; its limit is preserved
-alongside the critique, rather than reported as successful execution.
-A fresh compact review subsequently completed under the same cap. It caught
-the redundant next experiment; independent algebra also corrected a conclusion
-both reviewers had accepted. Collaboration improved the research through
-checked disagreements, not agreement alone.
-A further tools-disabled Fable review helped choose noisy provenance as the next
-axis. Independent algebra made the proposed error channel precise and reduced
-the experiment to eight inputs. Large agent counts were unnecessary when one
-coordinator already reproduced the fully supplied calculation. The later review
-also caught an incorrect statement-count label in our capsule; the verified
-experiment records were already correct. We retained the original handoff and
-documented the correction, then refined its proposed difficulty experiment to
-avoid changing nesting and loop bounds together.
-
 ## What the project demonstrates
 
 - Turning an intuition into equations, code, baselines, and falsifiable tests.
