@@ -5,6 +5,13 @@ without suppressing a useful independent minority. It remains a worthwhile
 question. The experiments have clarified several different problems hidden
 inside that sentence; none has produced a broadly superior successor to RRF.
 
+This synthesis covers the earlier conceptual and agent-diagnostic stages below.
+Subsequent retrieval experiments are tracked in the [current research state](../_sessions/RESEARCH_STATE.md).
+The latest [grouped-output comparison](../results/cycle23-2026-09-26/REPORT.md)
+finds a positive mean over a uniform-member hybrid on a complete archive frame,
+with exact missing-label bounds and explicit source-identity limitations. It
+has not yet been tested on fresh topics.
+
 ## Agreement is an observation, not a correctness label
 
 The early adaptive-fusion gain depended on a particular ranker configuration.

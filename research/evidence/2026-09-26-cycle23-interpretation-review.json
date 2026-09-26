@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "recorded_at_utc": "2026-09-26T05:42:36.889141+00:00",
+  "independent_reviewer": "checkpoint_audit; read-only bounded interpretation audit, returned before requested pause",
+  "coordinator_saved_ledger_replay": "Exact Fraction sums independently repeat both contrast endpoints from saved coefficient/grade ledger. No additional experiment or source selection.",
+  "analysis_sha256": "1d7961804dcdc5d996c857fabebda4a1a4858d91d2c0d4ad000a43a06d3fd14a",
+  "independent_check_sha256": "f3a159f1961befa0b8bc586d8e85b981372c1c700a09c7f212588db9991797e3",
+  "primary": {
+    "decision": "positive",
+    "known": {
+      "fraction": "307/5220",
+      "value": 0.058812260536398465
+    },
+    "lower": {
+      "fraction": "127/52200",
+      "value": 0.0024329501915708813
+    },
+    "sign": "positive",
+    "unknown_support": 1377,
+    "upper": {
+      "fraction": "221/3480",
+      "value": 0.06350574712643678
+    },
+    "width": {
+      "fraction": "797/13050",
+      "value": 0.0610727969348659
+    }
+  },
+  "context_G_minus_S": {
+    "decision": "positive",
+    "known": {
+      "fraction": "113/4350",
+      "value": 0.025977011494252873
+    },
+    "lower": {
+      "fraction": "113/4350",
+      "value": 0.025977011494252873
+    },
+    "sign": "positive",
+    "unknown_support": 131,
+    "upper": {
+      "fraction": "379/8700",
+      "value": 0.0435632183908046
+    },
+    "width": {
+      "fraction": "51/2900",
+      "value": 0.017586206896551725
+    }
+  },
+  "mean_team_endpoints": [
+    "53/52200",
+    "3389/52200"
+  ],
+  "scope": "Finite equal-team/query current-archive mean. Shared-label pooling narrows bounds but was not needed to identify a positive sign. No universal-team/best-member/transfer/causal claim.78metadataMD5mismatches remain unresolved."
+}

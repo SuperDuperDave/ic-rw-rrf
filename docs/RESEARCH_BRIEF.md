@@ -1,6 +1,6 @@
 # Adaptive rank fusion: testing an attractive idea against a strong baseline
 
-**Draft for the Independent AI & Product Builder website — 2026-09-10.**
+**Draft for the Independent AI & Product Builder website — updated 2026-09-26.**
 Research in progress. This is a case-study handoff, not a claim of a new
 state-of-the-art retrieval method. See the [current audit](../_sessions/RESEARCH_STATE.md)
 before reusing numerical claims.
@@ -237,6 +237,22 @@ small panel. A useful research loop can end by ruling out its attractive story.
 [Transfer gate](../results/cycle19-2026-09-25/REPORT.md),
 [controlled result and independent reconstruction](../results/cycle20-2026-09-25/REPORT.md)
 
+
+**A broader grouping test.** We then compared all 29 eligible submission groups
+in one public archive. Averaging each group's outputs and adding a fixed partner
+beat uniformly choosing a member with that same partner by 0.24 to 6.35 top-ten
+precision percentage points. The full range stays positive even when every
+missing relevance label is assigned adversarially. The grouped outputs also
+beat the partner alone, although some groups lose. These are still 30 reused
+queries; fresh-topic transfer remains the next question.
+
+A failed checksum gate preceded that result. We preserved the failure, established
+that the digest mismatch also affected earlier cached files, and froze a separate
+experiment explicitly tied to current archive bytes. We did not pretend the
+original checksum passed. All 81 members remained, every mismatch was reported,
+and an independent implementation rebuilt every ranking and numerical field.
+A positive result and unresolved provenance deserve to be visible together.
+[Cycle23 evidence and limits](../results/cycle23-2026-09-26/REPORT.md)
 
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout

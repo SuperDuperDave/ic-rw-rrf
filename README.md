@@ -2,7 +2,21 @@
 
 Exploratory research into rank fusion that adapts per-query, per-document, per-ranker, and by ensemble regime. The lineage includes unsupervised methods and label-light per-corpus selection experiments, with useful negative results alongside local improvements.
 
-**Latest research checkpoint:** a controlled experiment challenged our explanation
+**Latest research checkpoint:** a complete census of 29 submission groups gives
+one positive finite result. Averaging a team's submissions, then combining with
+a fixed companion source, improves mean top-ten precision by **0.24 to 6.35
+percentage points** over uniformly choosing a team member with the same companion.
+Every possible completion of missing labels preserves the positive mean. The
+same grouped outputs also beat the companion alone. Independent reconstruction
+matched all 3,300 ranked outputs and every analysis field.
+
+These are 30 reused development queries, not a transfer result or a win for every
+team. The inputs are explicitly identified current NIST archive files: 78 of 81
+browser metadata checksums differ, and the preceding strict-checksum failure is
+preserved. Historical submitted-byte identity remains unverified for those files.
+[Cycle23 result, provenance and limits](results/cycle23-2026-09-26/REPORT.md).
+
+A preceding controlled experiment challenged our explanation
 for a family hybrid's advantage. We shuffled document identities while preserving
 each source's relevance profile, candidate membership and score mass by class.
 The natural arrangement performed about 1.58 P@10 percentage points worse than

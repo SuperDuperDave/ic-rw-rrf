@@ -1,0 +1,701 @@
+{
+  "schema": 2,
+  "status": "final current-archive-byte plan; effective at passed preflight freeze; no cycle23 acquisitions yet",
+  "inventory": {
+    "path": "results/cycle21-2026-09-26/inventory.json",
+    "sha256": "21666fb75afca9ce4e50506fd90ecca00f51acfb03beadfb6069b58935e6243c"
+  },
+  "groups": {
+    "BRPHJ_NLP": [
+      "BRPHJ_NLP1",
+      "BRPHJ_NLP2",
+      "BRPHJ_NLP3"
+    ],
+    "CSIROmed": [
+      "CSIROmedNIR",
+      "CSIROmed_PE"
+    ],
+    "CincyMedIR": [
+      "CincyMedIR-run1",
+      "CincyMedIR-run2",
+      "CincyMedIR-run3"
+    ],
+    "DA_IICT": [
+      "DA_IICT_all",
+      "DA_IICT_narr",
+      "DA_IICT_narr_qe"
+    ],
+    "Elhuyar_NLP_team": [
+      "elhuyar_indri",
+      "elhuyar_rRnk_cbert",
+      "elhuyar_rRnk_sbert"
+    ],
+    "IRC": [
+      "irc_entrez",
+      "irc_pmc",
+      "irc_pubmed"
+    ],
+    "IRIT_markers": [
+      "IRIT_marked_base",
+      "IRIT_marked_mu_pair",
+      "IRIT_marked_un_pair"
+    ],
+    "IRLabKU": [
+      "KU_run1",
+      "KU_run3"
+    ],
+    "IR_COVID19_CLE": [
+      "ir_covid19_cle_dfr",
+      "ir_covid19_cle_ib",
+      "ir_covid19_cle_lmd"
+    ],
+    "KAROTENE_SYNAPTIQ_UMBC": [
+      "ERST_NARRATIVE",
+      "ERST_PROSE",
+      "ERST_QUESTION"
+    ],
+    "KoreaUniversity_DMIS": [
+      "dmis-rnd1-run1",
+      "dmis-rnd1-run2"
+    ],
+    "SFDC": [
+      "SFDC-23April-run1",
+      "SFDC-23April-run2"
+    ],
+    "SavantX": [
+      "savantx_nist_run_1",
+      "savantx_nist_run_2",
+      "savantx_nist_run_3"
+    ],
+    "THUMSR": [
+      "BERT",
+      "Conv_KNRM",
+      "Meta-Conv-KNRM"
+    ],
+    "TM_IR_HITZ": [
+      "lda400s2000",
+      "lda400s5000",
+      "tm_lda400"
+    ],
+    "TU_Vienna": [
+      "TU_Vienna_TKL_1",
+      "TU_Vienna_TKL_2"
+    ],
+    "Technion": [
+      "Technion-JPD",
+      "Technion-MEDMM",
+      "Technion-RRF"
+    ],
+    "UB_BW": [
+      "CBOWexp.0",
+      "PL2c1.0",
+      "PL2c1.0_Bo1"
+    ],
+    "UIowaS": [
+      "UIowaS_Run1",
+      "UIowaS_Run2",
+      "UIowaS_Run3"
+    ],
+    "abccaba": [
+      "bm25_baseline",
+      "bm25_basline"
+    ],
+    "covidex": [
+      "BM25R2",
+      "T5R1",
+      "T5R3"
+    ],
+    "ielab": [
+      "ielab-prf",
+      "ielab-prf.2query.v3",
+      "ielab-prf.recency"
+    ],
+    "ixa": [
+      "ixa-ir-filter-narr",
+      "ixa-ir-filter-query",
+      "ixa-ir-filter-quest"
+    ],
+    "sabir": [
+      "sab20.1.blind",
+      "sab20.1.merged",
+      "sab20.1.meta.docs"
+    ],
+    "smith": [
+      "smith.bm25",
+      "smith.ql",
+      "smith.rm3"
+    ],
+    "udel_fang": [
+      "udel_fang_run1",
+      "udel_fang_run2",
+      "udel_fang_run3"
+    ],
+    "unipd.it": [
+      "10x10.prf.unipd.it",
+      "10x20.prf.unipd.it",
+      "base.unipd.it"
+    ],
+    "unique_ptr": [
+      "UP-cqqrnd1",
+      "UP-rrf5rnd1",
+      "UP-sdqrnd1"
+    ],
+    "uogTr": [
+      "uogTrDPH_QE",
+      "uogTrDPH_QE_QQ",
+      "uogTrDPH_prox_QQ"
+    ]
+  },
+  "query_ids": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30"
+  ],
+  "items": {
+    "10x10.prf.unipd.it": {
+      "filename": "001.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/10x10.prf.unipd.it",
+      "publisher_md5": "871dd34389cad9cd9c3b751f30d9b2d0",
+      "max_bytes": 16777216,
+      "expected_raw_sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824"
+    },
+    "10x20.prf.unipd.it": {
+      "filename": "002.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/10x20.prf.unipd.it",
+      "publisher_md5": "44f8b615120ca6df113253587c75c995",
+      "max_bytes": 16777216
+    },
+    "BERT": {
+      "filename": "003.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BERT",
+      "publisher_md5": "2e82576a17e61074931d82e6037dd0a0",
+      "max_bytes": 16777216
+    },
+    "BM25R2": {
+      "filename": "004.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BM25R2",
+      "publisher_md5": "a048fb69f82033fa41679cb52747f0a3",
+      "max_bytes": 16777216
+    },
+    "BRPHJ_NLP1": {
+      "filename": "005.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP1",
+      "publisher_md5": "213e8837fb035c69c5f6b546b93e0b0c",
+      "max_bytes": 16777216
+    },
+    "BRPHJ_NLP2": {
+      "filename": "006.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP2",
+      "publisher_md5": "0c30d48a4004cd5adb817c22f0d481a9",
+      "max_bytes": 16777216
+    },
+    "BRPHJ_NLP3": {
+      "filename": "007.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP3",
+      "publisher_md5": "787e6b8f91aae6a81c25788f28198cc9",
+      "max_bytes": 16777216
+    },
+    "CBOWexp.0": {
+      "filename": "008.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CBOWexp.0",
+      "publisher_md5": "b453381b31694714fdee4538f60b63a6",
+      "max_bytes": 16777216
+    },
+    "CSIROmedNIR": {
+      "filename": "009.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CSIROmedNIR",
+      "publisher_md5": "6a85af5026332f73a846088a15ee6e7f",
+      "max_bytes": 16777216
+    },
+    "CSIROmed_PE": {
+      "filename": "010.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CSIROmed_PE",
+      "publisher_md5": "231276205a8a365839aa79c30bff1685",
+      "max_bytes": 16777216
+    },
+    "CincyMedIR-run1": {
+      "filename": "011.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run1",
+      "publisher_md5": "f5b1d88c3f036a01e6957105dc7c0128",
+      "max_bytes": 16777216
+    },
+    "CincyMedIR-run2": {
+      "filename": "012.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run2",
+      "publisher_md5": "d471ffd376a21e177a7c9741a80a481e",
+      "max_bytes": 16777216
+    },
+    "CincyMedIR-run3": {
+      "filename": "013.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run3",
+      "publisher_md5": "d14ceb5d42096658ded120a5433218d2",
+      "max_bytes": 16777216
+    },
+    "Conv_KNRM": {
+      "filename": "014.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Conv_KNRM",
+      "publisher_md5": "e8476aa0a38ac5541156ba36ce0db21a",
+      "max_bytes": 16777216
+    },
+    "DA_IICT_all": {
+      "filename": "015.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_all",
+      "publisher_md5": "5f48158b063bc580e7075b2d5bca8c0e",
+      "max_bytes": 16777216
+    },
+    "DA_IICT_narr": {
+      "filename": "016.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_narr",
+      "publisher_md5": "a50db3feb7c7a41eb7968075ed61731e",
+      "max_bytes": 16777216
+    },
+    "DA_IICT_narr_qe": {
+      "filename": "017.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_narr_qe",
+      "publisher_md5": "5449e23b4ccf98aae09ce3aa0189e63b",
+      "max_bytes": 16777216
+    },
+    "ERST_NARRATIVE": {
+      "filename": "018.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_NARRATIVE",
+      "publisher_md5": "d2adb76bdd32f98fb2d91fd3a0b2f5e0",
+      "max_bytes": 16777216
+    },
+    "ERST_PROSE": {
+      "filename": "019.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_PROSE",
+      "publisher_md5": "939195bd30d5eb0378ff1f5d5f57f939",
+      "max_bytes": 16777216
+    },
+    "ERST_QUESTION": {
+      "filename": "020.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_QUESTION",
+      "publisher_md5": "463474b1b030e0961ed3703456acd969",
+      "max_bytes": 16777216
+    },
+    "IRIT_marked_base": {
+      "filename": "021.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_base",
+      "publisher_md5": "92b931a05982c293989f81c418fcd4a9",
+      "max_bytes": 16777216
+    },
+    "IRIT_marked_mu_pair": {
+      "filename": "022.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_mu_pair",
+      "publisher_md5": "936f88b66b6525b2e154cc4a5796e88c",
+      "max_bytes": 16777216
+    },
+    "IRIT_marked_un_pair": {
+      "filename": "023.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_un_pair",
+      "publisher_md5": "3b0430040584d41ba9922d3b2887d406",
+      "max_bytes": 16777216
+    },
+    "KU_run1": {
+      "filename": "024.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/KU_run1",
+      "publisher_md5": "993cb699ee8213bb14a0e2c06b1f8ff8",
+      "max_bytes": 16777216
+    },
+    "KU_run3": {
+      "filename": "025.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/KU_run3",
+      "publisher_md5": "8ef345bef28eec1f4109a1e1510fc067",
+      "max_bytes": 16777216
+    },
+    "Meta-Conv-KNRM": {
+      "filename": "026.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Meta-Conv-KNRM",
+      "publisher_md5": "bb3351d723a1ae69f343e08a5eda3481",
+      "max_bytes": 16777216
+    },
+    "PL2c1.0": {
+      "filename": "027.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PL2c1.0",
+      "publisher_md5": "7b4988b929dedc3fd4f785ff21d16f02",
+      "max_bytes": 16777216
+    },
+    "PL2c1.0_Bo1": {
+      "filename": "028.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PL2c1.0_Bo1",
+      "publisher_md5": "1ebeba124db1ed778b7323f74ab5fccf",
+      "max_bytes": 16777216
+    },
+    "SFDC-23April-run1": {
+      "filename": "029.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SFDC-23April-run1",
+      "publisher_md5": "0a62c88dfc1130302cfe9aed9eeb9ec5",
+      "max_bytes": 16777216
+    },
+    "SFDC-23April-run2": {
+      "filename": "030.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SFDC-23April-run2",
+      "publisher_md5": "cf5b519cbedd4e6f00a682c7893a8a56",
+      "max_bytes": 16777216
+    },
+    "T5R1": {
+      "filename": "031.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/T5R1",
+      "publisher_md5": "caf8b25915de239d4d2ba49a189e3d77",
+      "max_bytes": 16777216
+    },
+    "T5R3": {
+      "filename": "032.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/T5R3",
+      "publisher_md5": "d62c266c6b3e8f46a48672670b1c70d0",
+      "max_bytes": 16777216
+    },
+    "TU_Vienna_TKL_1": {
+      "filename": "033.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/TU_Vienna_TKL_1",
+      "publisher_md5": "0657ab32a5953d9802a1c8430b4faf3d",
+      "max_bytes": 16777216
+    },
+    "TU_Vienna_TKL_2": {
+      "filename": "034.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/TU_Vienna_TKL_2",
+      "publisher_md5": "d2476ee0394b2655e692ec214449171a",
+      "max_bytes": 16777216
+    },
+    "Technion-JPD": {
+      "filename": "035.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-JPD",
+      "publisher_md5": "3d9fd520a4064c20ad14e481ae03f257",
+      "max_bytes": 16777216
+    },
+    "Technion-MEDMM": {
+      "filename": "036.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-MEDMM",
+      "publisher_md5": "15710d481bf9b5f041ac209e5093e871",
+      "max_bytes": 16777216
+    },
+    "Technion-RRF": {
+      "filename": "037.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-RRF",
+      "publisher_md5": "875e905a3439534443f2d81322c141be",
+      "max_bytes": 16777216
+    },
+    "UIowaS_Run1": {
+      "filename": "038.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run1",
+      "publisher_md5": "efe0f56829fb851e37fd91e0fc5add07",
+      "max_bytes": 16777216
+    },
+    "UIowaS_Run2": {
+      "filename": "039.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run2",
+      "publisher_md5": "e6213ad52ec1b84e9d4c6488564e962c",
+      "max_bytes": 16777216
+    },
+    "UIowaS_Run3": {
+      "filename": "040.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run3",
+      "publisher_md5": "d919acbc8d25fbbdf5d78f604ff88d67",
+      "max_bytes": 16777216
+    },
+    "UP-cqqrnd1": {
+      "filename": "041.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-cqqrnd1",
+      "publisher_md5": "ae32f134c1f8ef0b3446ed40b174573f",
+      "max_bytes": 16777216
+    },
+    "UP-rrf5rnd1": {
+      "filename": "042.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-rrf5rnd1",
+      "publisher_md5": "eed6b472e7ec0563e201a57c8887fd8f",
+      "max_bytes": 16777216
+    },
+    "UP-sdqrnd1": {
+      "filename": "043.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-sdqrnd1",
+      "publisher_md5": "097dd3ea1c74b743bc559bb60abadda4",
+      "max_bytes": 16777216
+    },
+    "base.unipd.it": {
+      "filename": "044.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/base.unipd.it",
+      "publisher_md5": "031b0a8a37b2d925460d08852cd77db6",
+      "max_bytes": 16777216
+    },
+    "bm25_baseline": {
+      "filename": "045.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/bm25_baseline",
+      "publisher_md5": "94cc38c1873e7b89cc35c0832ff0124f",
+      "max_bytes": 16777216
+    },
+    "bm25_basline": {
+      "filename": "046.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/bm25_basline",
+      "publisher_md5": "c73312c31260129ab27a5aa6dd4d9992",
+      "max_bytes": 16777216
+    },
+    "dmis-rnd1-run1": {
+      "filename": "047.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/dmis-rnd1-run1",
+      "publisher_md5": "4cbaf4783a81da616b59927cb1d0f59d",
+      "max_bytes": 16777216
+    },
+    "dmis-rnd1-run2": {
+      "filename": "048.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/dmis-rnd1-run2",
+      "publisher_md5": "6a41ab9e886b2dce8ee83d67c86b05c7",
+      "max_bytes": 16777216
+    },
+    "elhuyar_indri": {
+      "filename": "049.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_indri",
+      "publisher_md5": "1b8322d059a152cc61a2fa0f4cb83277",
+      "max_bytes": 16777216
+    },
+    "elhuyar_rRnk_cbert": {
+      "filename": "050.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_rRnk_cbert",
+      "publisher_md5": "7111a37cad8a12c8ba3680c4d641a7b7",
+      "max_bytes": 16777216
+    },
+    "elhuyar_rRnk_sbert": {
+      "filename": "051.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_rRnk_sbert",
+      "publisher_md5": "8615aa228992997bc281f3a91552c760",
+      "max_bytes": 16777216
+    },
+    "ielab-prf": {
+      "filename": "052.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf",
+      "publisher_md5": "fb3c2d4b7a6367c0a156d41b466a4337",
+      "max_bytes": 16777216
+    },
+    "ielab-prf.2query.v3": {
+      "filename": "053.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf.2query.v3",
+      "publisher_md5": "4ae0c08eb3d7d6b60d4aac27b9e98485",
+      "max_bytes": 16777216
+    },
+    "ielab-prf.recency": {
+      "filename": "054.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf.recency",
+      "publisher_md5": "c9430d4fe111b9d110183419526ba4bc",
+      "max_bytes": 16777216
+    },
+    "ir_covid19_cle_dfr": {
+      "filename": "055.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_dfr",
+      "publisher_md5": "1fbb02c24889b1ce7092565929b7393e",
+      "max_bytes": 16777216
+    },
+    "ir_covid19_cle_ib": {
+      "filename": "056.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_ib",
+      "publisher_md5": "d4f9f8e649a00ad9c205d820df625d0c",
+      "max_bytes": 16777216
+    },
+    "ir_covid19_cle_lmd": {
+      "filename": "057.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_lmd",
+      "publisher_md5": "d2e941cff6790c29af651a8898c1e9f1",
+      "max_bytes": 16777216
+    },
+    "irc_entrez": {
+      "filename": "058.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_entrez",
+      "publisher_md5": "5325f557f420633811a9684a6e61108a",
+      "max_bytes": 16777216
+    },
+    "irc_pmc": {
+      "filename": "059.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_pmc",
+      "publisher_md5": "2b87692a4e586e3e9d76ad6cea0cff08",
+      "max_bytes": 16777216
+    },
+    "irc_pubmed": {
+      "filename": "060.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_pubmed",
+      "publisher_md5": "15874a1065f3c64c1990da103ab5ae27",
+      "max_bytes": 16777216
+    },
+    "ixa-ir-filter-narr": {
+      "filename": "061.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-narr",
+      "publisher_md5": "8acecee90c754bb67690f62860542796",
+      "max_bytes": 16777216
+    },
+    "ixa-ir-filter-query": {
+      "filename": "062.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-query",
+      "publisher_md5": "83338b60068dd232221ea5dde7bbef7b",
+      "max_bytes": 16777216
+    },
+    "ixa-ir-filter-quest": {
+      "filename": "063.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-quest",
+      "publisher_md5": "f1a2a9a4b363d89d8fe9f34eea88b78b",
+      "max_bytes": 16777216
+    },
+    "lda400s2000": {
+      "filename": "064.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/lda400s2000",
+      "publisher_md5": "0d01b54b65ec112e3a735e93c5088f15",
+      "max_bytes": 16777216
+    },
+    "lda400s5000": {
+      "filename": "065.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/lda400s5000",
+      "publisher_md5": "9bb393ca1cc014eecad524622df9e78c",
+      "max_bytes": 16777216
+    },
+    "sab20.1.blind": {
+      "filename": "066.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.blind",
+      "publisher_md5": "e2a462ec68db452032a117ad4ced09f5",
+      "max_bytes": 16777216
+    },
+    "sab20.1.merged": {
+      "filename": "067.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.merged",
+      "publisher_md5": "f658976f3f4b42b90cc3093cc40c2caf",
+      "max_bytes": 16777216
+    },
+    "sab20.1.meta.docs": {
+      "filename": "068.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.meta.docs",
+      "publisher_md5": "33722480a6beaa7194fbb5bcc689dd57",
+      "max_bytes": 16777216
+    },
+    "savantx_nist_run_1": {
+      "filename": "069.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_1",
+      "publisher_md5": "0a71e410779059c635f037008dccd9f8",
+      "max_bytes": 16777216
+    },
+    "savantx_nist_run_2": {
+      "filename": "070.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_2",
+      "publisher_md5": "731a0aa5ae0047fb04ce7e5229a28860",
+      "max_bytes": 16777216
+    },
+    "savantx_nist_run_3": {
+      "filename": "071.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_3",
+      "publisher_md5": "a6c6cc101b08f67da5258a0afad8ac45",
+      "max_bytes": 16777216
+    },
+    "smith.bm25": {
+      "filename": "072.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.bm25",
+      "publisher_md5": "38971e46186511f7b8b8b5768f66710d",
+      "max_bytes": 16777216
+    },
+    "smith.ql": {
+      "filename": "073.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.ql",
+      "publisher_md5": "003a24338e8abce1ec18552b5b705974",
+      "max_bytes": 16777216
+    },
+    "smith.rm3": {
+      "filename": "074.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.rm3",
+      "publisher_md5": "64a92df23f8b90bf1b7692171b52e24e",
+      "max_bytes": 16777216
+    },
+    "tm_lda400": {
+      "filename": "075.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/tm_lda400",
+      "publisher_md5": "af83c25d3868f70b27cf3529d29e36f2",
+      "max_bytes": 16777216
+    },
+    "udel_fang_run1": {
+      "filename": "076.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run1",
+      "publisher_md5": "ffb3235dad903705a6897955723f5fcf",
+      "max_bytes": 16777216
+    },
+    "udel_fang_run2": {
+      "filename": "077.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run2",
+      "publisher_md5": "c68d558398b1f39b14ff88b61c955896",
+      "max_bytes": 16777216
+    },
+    "udel_fang_run3": {
+      "filename": "078.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run3",
+      "publisher_md5": "666988d05f328f3a8eef0ce7f979b3f1",
+      "max_bytes": 16777216
+    },
+    "uogTrDPH_QE": {
+      "filename": "079.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_QE",
+      "publisher_md5": "7261d84ca6337dffdafc6788b856f256",
+      "max_bytes": 16777216
+    },
+    "uogTrDPH_QE_QQ": {
+      "filename": "080.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_QE_QQ",
+      "publisher_md5": "bf933a65333bcf16b149ebc59feab22d",
+      "max_bytes": 16777216
+    },
+    "uogTrDPH_prox_QQ": {
+      "filename": "081.run",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_prox_QQ",
+      "publisher_md5": "253a30e58482e3fe26edd4b4a0c1dd5a",
+      "max_bytes": 16777216
+    }
+  },
+  "S": {
+    "path": "results/cycle18-2026-09-25/run/policies.json",
+    "sha256": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305"
+  },
+  "prior_verification": {
+    "path": "results/cycle18-2026-09-25/independent-check.json",
+    "sha256": "62a0f262307e72280a47ed9dcc038bae59c1757ef9d8d676384cd8ae8aefb39b"
+  },
+  "docids": {
+    "bytes": 459972,
+    "path": "_sessions/local/cycle17/inputs/docids.txt",
+    "sha256": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1"
+  },
+  "qrels": {
+    "bytes": 360831,
+    "path": "_sessions/local/cycle17/inputs/late.qrels",
+    "sha256": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5"
+  },
+  "timeout_seconds": 60,
+  "max_acquisition_seconds": 900,
+  "max_attempts_per_file": 1,
+  "max_total_bytes": 268435456,
+  "max_expanded_per_run": 268435456,
+  "max_total_expanded_bytes": 1073741824,
+  "max_run_count": 180,
+  "identity_contract": "current-nist-archive-bytes-v1",
+  "supersedes_failed_attempt": {
+    "preflight": "_sessions/evidence/2026-09-26-cycle22-preflight.json",
+    "acquisition": "_sessions/evidence/2026-09-26-cycle22-acquisition.json",
+    "preserve_failure": true
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "scope": "synthetic validation only; no empirical run or qrel bodies read",
+  "identity_contract": "current-nist-archive-bytes-v1",
+  "checks": [
+    "unchanged Cycle22 parser/ranking/analysis function identities imported directly",
+    "truthful40match/41mismatch full-panel receipts; original metadata retained",
+    "all source, policy, analysis and new custody fields independently reproduced",
+    "prior failed attempt/preflight/plan hashes preserved; first raw SHA bound",
+    "false checksum claims, changed SHA, raw/decoded disagreement, unsafe transport and incomplete panel rejected",
+    "policies serialized before labels; old strict publisher-MD5 rejection unchanged",
+    "maximum shape2430000rows completes within300seconds"
+  ],
+  "code": {
+    "_sessions/tools/acquire_cycle22_inputs.py": {
+      "bytes": 9764,
+      "md5": "754a26e8f3d8d4246b7faf46862640e2",
+      "sha256": "9dba7314ace4afb7104e7a2f9897a4f919c418b106103827649718b9db5d8d14"
+    },
+    "_sessions/tools/acquire_cycle23_inputs.py": {
+      "bytes": 9629,
+      "md5": "3e29bea66ed736f19a595b6483bbc691",
+      "sha256": "77685347b55d623ba78d33dd05cadfa866e4961ca438b21501c9a64af5352753"
+    },
+    "_sessions/tools/check_cycle22_grouped_outputs.py": {
+      "bytes": 39137,
+      "md5": "a9a5ce57e2e750662097f50224ad8d42",
+      "sha256": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069"
+    },
+    "_sessions/tools/check_cycle23_archived_groups.py": {
+      "bytes": 26033,
+      "md5": "7a98786581218a6a1792d7517237a38a",
+      "sha256": "99e76addbb42ef7fffab2ea255416a9bc55469476a37e18e696a14a426757a8a"
+    },
+    "evaluation/cycle22_grouped_outputs.py": {
+      "bytes": 30025,
+      "md5": "0fbb92a39a87e443338354ee8493d724",
+      "sha256": "fbc195d3bb9634bfa7ee4c123719773bc808d14b31cb4453dddb9a47398bd767"
+    },
+    "evaluation/cycle23_archived_groups.py": {
+      "bytes": 16620,
+      "md5": "ee1cb9851a5b056c2ea7d18deb5be6dc",
+      "sha256": "edd6b9be971f0c793aa18b17f44f33ff7ee654f88b4426a36418e979527c7877"
+    },
+    "evaluation/tests/test_cycle22_acquisition.py": {
+      "bytes": 3991,
+      "md5": "aeb0bdbf276f677fac069dd7f2599d89",
+      "sha256": "a493fca72eeb9fc9958bafaf8cd627cecfc9b6ad96a855b726516282d23269c4"
+    },
+    "evaluation/tests/test_cycle22_grouped_outputs.py": {
+      "bytes": 24536,
+      "md5": "216fa765028e246f7ee300268af1e00f",
+      "sha256": "e846dda8d61c854ffd04db7af7548228a15646cf5e05243dc01c223292f810d6"
+    },
+    "evaluation/tests/test_cycle23_acquisition.py": {
+      "bytes": 7505,
+      "md5": "8d183bffaf00322bdd251ae6171448d0",
+      "sha256": "e3020d557772c6bac025af7262565276dd5fa35ab2a62016f46f1890b02e498a"
+    },
+    "evaluation/tests/test_cycle23_archived_groups.py": {
+      "bytes": 12182,
+      "md5": "d32ccb070486f60a05395836aeaf72d3",
+      "sha256": "20035413160d7465a1d626d158084bdfb3814504eb2e04cd3b31f9dc0555b23d"
+    }
+  },
+  "producer_runs": {
+    "maximum_shape": {
+      "max_rows_per_run_query": 1000,
+      "output": "/tmp/cycle23-synthetic-1000-y3943poo/cycle23-output",
+      "producer_seconds": 10.473946186946705,
+      "publisher_checksums": {
+        "match": 40,
+        "mismatch": 41
+      },
+      "queries": 30,
+      "root": "/tmp/cycle23-synthetic-1000-y3943poo",
+      "runs": 81,
+      "source": {
+        "bytes": 16620,
+        "md5": "ee1cb9851a5b056c2ea7d18deb5be6dc",
+        "sha256": "edd6b9be971f0c793aa18b17f44f33ff7ee654f88b4426a36418e979527c7877"
+      },
+      "synthetic": true,
+      "teams": 29,
+      "tests": {
+        "bytes": 12182,
+        "md5": "d32ccb070486f60a05395836aeaf72d3",
+        "sha256": "20035413160d7465a1d626d158084bdfb3814504eb2e04cd3b31f9dc0555b23d"
+      }
+    },
+    "short_gzip": {
+      "max_rows_per_run_query": 100,
+      "output": "/tmp/cycle23-synthetic-100-i8g5cntj/cycle23-output",
+      "producer_seconds": 2.3350338920135982,
+      "publisher_checksums": {
+        "match": 40,
+        "mismatch": 41
+      },
+      "queries": 30,
+      "root": "/tmp/cycle23-synthetic-100-i8g5cntj",
+      "runs": 81,
+      "source": {
+        "bytes": 16620,
+        "md5": "ee1cb9851a5b056c2ea7d18deb5be6dc",
+        "sha256": "edd6b9be971f0c793aa18b17f44f33ff7ee654f88b4426a36418e979527c7877"
+      },
+      "synthetic": true,
+      "teams": 29,
+      "tests": {
+        "bytes": 12182,
+        "md5": "d32ccb070486f60a05395836aeaf72d3",
+        "sha256": "20035413160d7465a1d626d158084bdfb3814504eb2e04cd3b31f9dc0555b23d"
+      }
+    }
+  },
+  "synthetic_builder": "evaluation.tests.test_cycle23_archived_groups.make_archive_fixture",
+  "synthetic_execution": "Patch only cycle23 producer.ROOT to a wholly synthetic fixture root; call execute(preflight, inputs, acquisition, exclusive_output). Old/new source dependencies use actual repository bytes; the parent plan, receipts, frame, bodies and qrels are synthetic.",
+  "tests": {
+    "command": "python3 -m unittest evaluation.tests.test_cycle22_grouped_outputs evaluation.tests.test_cycle22_acquisition evaluation.tests.test_cycle23_archived_groups evaluation.tests.test_cycle23_acquisition -q",
+    "count": 46,
+    "elapsed_seconds": 16.419,
+    "log": {
+      "bytes": 307,
+      "md5": "13073c5e00e46473f36295413b160d2d",
+      "path": "_sessions/local/cycle23/producer-synthetic/unittest.log",
+      "sha256": "b547a8e00362865000d853e54b78df8e9d9f02943373b5a8941f686cc9d39e8b"
+    },
+    "working_directory": "repository root"
+  },
+  "producer_receipt_sha256": "a38f97fcb83dd1d43fc99b10e40ab73032d31d72b3fc1354a1cecb2f9c7953d6",
+  "independent": {
+    "self-test": {
+      "receipt_path": "_sessions/local/cycle23/independent-synthetic/self-test.json",
+      "receipt_sha256": "a12fb1390ff481af87b13c79118270d2240e613b9391118d6c17e77f0265c7ca",
+      "status": "passed",
+      "elapsed_seconds": 0.027244194003287703,
+      "source_identity": {
+        "bytes": 26033,
+        "sha256": "99e76addbb42ef7fffab2ea255416a9bc55469476a37e18e696a14a426757a8a"
+      }
+    },
+    "short-gzip": {
+      "receipt_path": "_sessions/local/cycle23/independent-synthetic/short-gzip.json",
+      "receipt_sha256": "303a95fc257a69867983885f3a083d8208c094cadd6d567ebd73fde82f5ce1d0",
+      "status": "passed",
+      "elapsed_seconds": 3.3153559289639816,
+      "source_identity": {
+        "bytes": 26033,
+        "sha256": "99e76addbb42ef7fffab2ea255416a9bc55469476a37e18e696a14a426757a8a"
+      },
+      "heads_checked": 3300,
+      "audited_fields": {
+        "analysis.json": "all",
+        "manifest.json": "all identities, disclosures, prior-attempt binding, phase, label gate, custody and wall cap",
+        "policies.json": "all",
+        "sources.json": "all",
+        "success.json": "all"
+      },
+      "method": "new current-archive custody; immutable independent Decimal/Fraction parser, policies and bounds",
+      "limits": [
+        "Current named archive bytes do not establish historical submitted-byte identity or explain publisher MD5 mismatches.",
+        "Acquisition is sequential with cached S, not an atomic archive snapshot.",
+        "Saved custody claims and immutable outputs are verified; this is not an OS trace of fetches or label-read timing.",
+        "Same development queries and fixed qrels; no source-independence or population inference."
+      ],
+      "research_input_bodies_read": false,
+      "publisher_checksums": {
+        "match": 40,
+        "mismatch": 41
+      }
+    },
+    "maximum-shape": {
+      "receipt_path": "_sessions/local/cycle23/independent-synthetic/maximum-shape.json",
+      "receipt_sha256": "267a098ab8b5b3e80d8a52c4889058f0861e90a605b4a10553f607a2719fd5f5",
+      "status": "passed",
+      "elapsed_seconds": 9.609300198033452,
+      "source_identity": {
+        "bytes": 26033,
+        "sha256": "99e76addbb42ef7fffab2ea255416a9bc55469476a37e18e696a14a426757a8a"
+      },
+      "heads_checked": 3300,
+      "audited_fields": {
+        "analysis.json": "all",
+        "manifest.json": "all identities, disclosures, prior-attempt binding, phase, label gate, custody and wall cap",
+        "policies.json": "all",
+        "sources.json": "all",
+        "success.json": "all"
+      },
+      "method": "new current-archive custody; immutable independent Decimal/Fraction parser, policies and bounds",
+      "limits": [
+        "Current named archive bytes do not establish historical submitted-byte identity or explain publisher MD5 mismatches.",
+        "Acquisition is sequential with cached S, not an atomic archive snapshot.",
+        "Saved custody claims and immutable outputs are verified; this is not an OS trace of fetches or label-read timing.",
+        "Same development queries and fixed qrels; no source-independence or population inference."
+      ],
+      "research_input_bodies_read": false,
+      "publisher_checksums": {
+        "match": 40,
+        "mismatch": 41
+      }
+    }
+  }
+}

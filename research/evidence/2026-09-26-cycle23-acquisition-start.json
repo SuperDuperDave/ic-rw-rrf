@@ -1,0 +1,48 @@
+{
+  "schema": 2,
+  "status": "started",
+  "identity_contract": "current-nist-archive-bytes-v1",
+  "started_at_utc": "2026-09-26T05:33:56.708700+00:00",
+  "inputs": {},
+  "transport": {},
+  "max_attempts_per_file": 1,
+  "transfer_bytes_complete_bodies": 0,
+  "expanded_bytes_complete_bodies": 0,
+  "byte_limit_sentinel": 1,
+  "publisher_checksums": {
+    "match": 0,
+    "mismatch": 0
+  },
+  "preflight_sha256": "dbd12488179b21682d48931b5fb4bb2f06b10c0a8c17f41b78d095f2a3c954f5",
+  "frozen": {
+    "evaluation/cycle22_grouped_outputs.py": "fbc195d3bb9634bfa7ee4c123719773bc808d14b31cb4453dddb9a47398bd767",
+    "evaluation/tests/test_cycle22_grouped_outputs.py": "e846dda8d61c854ffd04db7af7548228a15646cf5e05243dc01c223292f810d6",
+    "_sessions/tools/check_cycle22_grouped_outputs.py": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069",
+    "_sessions/tools/acquire_cycle22_inputs.py": "9dba7314ace4afb7104e7a2f9897a4f919c418b106103827649718b9db5d8d14",
+    "evaluation/tests/test_cycle22_acquisition.py": "a493fca72eeb9fc9958bafaf8cd627cecfc9b6ad96a855b726516282d23269c4",
+    "_sessions/cycles/2026-09-26-cycle22-protocol.md": "28501d2986d65ae88b8bf9953a2f44c66cc4c0b7f532c6683b8ed08eb225f1c6",
+    "_sessions/cycles/2026-09-26-cycle22-input-plan.json": "24b7f906e0ef23fdd7df75f38010196d41bdb1690d17729c8c882d1358947729",
+    "_sessions/evidence/2026-09-26-cycle22-synthetic-checks.json": "8848c1755a153ca2c61ba135d56408b7247cf9439dc95b476fe858bcba4fd77e",
+    "results/cycle21-2026-09-26/inventory.json": "21666fb75afca9ce4e50506fd90ecca00f51acfb03beadfb6069b58935e6243c",
+    "results/cycle18-2026-09-25/run/policies.json": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305",
+    "results/cycle18-2026-09-25/independent-check.json": "62a0f262307e72280a47ed9dcc038bae59c1757ef9d8d676384cd8ae8aefb39b",
+    "_sessions/local/cycle17/inputs/docids.txt": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1",
+    "_sessions/local/cycle17/inputs/late.qrels": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5",
+    "_sessions/evidence/2026-09-26-cycle22-preflight.json": "eb56279b12581f115d4770b1e279c07294c8d7945cb09f5ed2d8f0c086ccc36a",
+    "_sessions/evidence/2026-09-26-cycle22-acquisition.json": "54af85d00166df17ce0d45fb7a4ea57501d0ea79daeba36839253e30291bda7f",
+    "_sessions/evidence/2026-09-26-cycle23-synthetic-checks.json": "053e8477d637e59fd20915694ef84e46ef4408d754249cd942a9a34a50a84d3a",
+    "_sessions/cycles/2026-09-26-cycle23-protocol.md": "10f035c9f8543b4fe73f75ed7cce5fa13b1653dafd4d2ccb502c3bc933ead30d",
+    "_sessions/cycles/2026-09-26-cycle23-input-plan.json": "3d04ffd1a181b83e91c1bf94f50f7f60dce02a3386ce5e9db0694f1077a8a23e",
+    "_sessions/tools/acquire_cycle23_inputs.py": "77685347b55d623ba78d33dd05cadfa866e4961ca438b21501c9a64af5352753",
+    "_sessions/tools/check_cycle23_archived_groups.py": "99e76addbb42ef7fffab2ea255416a9bc55469476a37e18e696a14a426757a8a",
+    "evaluation/cycle23_archived_groups.py": "edd6b9be971f0c793aa18b17f44f33ff7ee654f88b4426a36418e979527c7877",
+    "evaluation/tests/test_cycle23_archived_groups.py": "20035413160d7465a1d626d158084bdfb3814504eb2e04cd3b31f9dc0555b23d",
+    "evaluation/tests/test_cycle23_acquisition.py": "e3020d557772c6bac025af7262565276dd5fa35ab2a62016f46f1890b02e498a"
+  },
+  "plan_sha256": "3d04ffd1a181b83e91c1bf94f50f7f60dce02a3386ce5e9db0694f1077a8a23e",
+  "supersedes_failed_attempt": {
+    "preflight": "_sessions/evidence/2026-09-26-cycle22-preflight.json",
+    "acquisition": "_sessions/evidence/2026-09-26-cycle22-acquisition.json",
+    "preserve_failure": true
+  }
+}
