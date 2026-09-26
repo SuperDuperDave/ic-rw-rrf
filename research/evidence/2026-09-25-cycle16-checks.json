@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "date_local": "2026-09-25",
+  "artifact_checks": 267,
+  "local_markdown_links": 223,
+  "stable_handoffs": {
+    "_sessions/cycles/2026-09-25-cycle16-prior-work.md": "7544941950b97c64000603976d0cbfdd6b59672ee93c30749e1d5f90ee7f4014",
+    "_sessions/cycles/2026-09-25-cycle16-weight-geometry.md": "15e877bc624ee3524cea36c75c1adafe596c976faa7866afcf2bb3f48cee8efb",
+    "_sessions/cycles/2026-09-25-cycle16-weight-counterexample.md": "a5545a86f50979244d8fdeb0ee7df85165f2237bb7412fce213114cfc17fe521",
+    "_sessions/cycles/2026-09-25-cycle16-independent-audit.md": "92800754fc68870da8fec1b3553deefeb292f41e5131deddabe9ebd4ab05f565",
+    "evaluation/cycle16_support_census.py": "bc20ff3617844e9c6741754c1b48fb1e75de2b9b6384f8a284229bb3c8ff1906",
+    "evaluation/tests/test_cycle16_support_census.py": "bbd1053ad4ed5f6fac17d4fafb834216b73e3c85c1dbe2b326ab3726740838b5",
+    "_sessions/tools/check_cycle16_census.py": "dec2b055f67e3a16ddf82908b2f76e2d3cc6ec94aa4277ff251151ca51172aea",
+    "results/cycle16-2026-09-25/independent-census.json": "2b52b2311aa2e8d9dd4c4249150b9b5ea5893a9ddd0dec91b322bc7ea9f82521"
+  },
+  "primary_tests": {
+    "command": "python3 -B -m unittest evaluation.tests.test_cycle16_support_census -v",
+    "passed": 12
+  },
+  "session_relay_tests": {
+    "command": "python3 -B -m unittest _sessions.tools.tests.test_session _sessions.tools.tests.test_relay",
+    "passed": 13
+  },
+  "standard_library_demo": {
+    "command": "python3 -B evaluation/trec_eval_harness.py --demo",
+    "exit_code": 0
+  },
+  "verifier_self_test": "passed",
+  "independent_census": "results/cycle16-2026-09-25/independent-census.json",
+  "primary_execution_command": "timeout 300 python3 -B evaluation/cycle16_support_census.py --output results/cycle16-2026-09-25/support-census",
+  "new_effectiveness_computed": false,
+  "all_collaborators_completed": true,
+  "relay_final_seq": 99,
+  "relay_pending_signals": [],
+  "limitations": [
+    "post hoc development on existing SciFact",
+    "positive-only qrels do not identify true relevance of unjudged candidates",
+    "no new collection, rescue method, or C/B evaluation",
+    "literature and argument-audit workers disclosed incidental published-outcome exposure"
+  ]
+}

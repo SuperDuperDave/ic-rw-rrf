@@ -10,6 +10,13 @@ advantage over those stronger references. All numerical rankings were independen
 reconstructed; nDCG for all five arms agreed with the official evaluator.
 [Measured transfer and limitations](results/cycle15-2026-09-12/REPORT.md).
 
+The next [research cycle](results/cycle16-2026-09-25/REPORT.md) found21 known
+relevant documents supplied by SPLADE but absent from all four retained lexical
+lists, including6in SPLADE's top10. The fixed fusion excludes every such candidate
+from its top10 on all300queries, with exact score certificates. This identifies
+an admission barrier, without establishing a beneficial remedy. An exact toy
+also disproves the claim that increasing a stronger source's weight must help.
+
 The preceding judgment audit asked which missing labels would matter to a fixed
 fusion comparison. Adding SPLADE++ to four-source k60 RRF has
 positive annual mean bounds on both existing panels, even under every allowed

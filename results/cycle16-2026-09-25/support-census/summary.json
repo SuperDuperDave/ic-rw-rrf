@@ -1,0 +1,48 @@
+{
+  "B_top10": {
+    "S_only_entries": 0,
+    "denominator": 3000,
+    "explicit_qrel_positive_entries": 0,
+    "queries_with_S_only": 0,
+    "unjudged_entries": 0
+  },
+  "S_only_positive_deep": {
+    "pairs": 15,
+    "queries": 15
+  },
+  "S_only_positive_head": {
+    "pairs": 6,
+    "queries": 6
+  },
+  "S_only_positive_inside_P": {
+    "pairs": 16,
+    "queries": 16
+  },
+  "S_only_positive_outside_P": {
+    "pairs": 5,
+    "queries": 5
+  },
+  "certificate": {
+    "certified_queries": 300,
+    "queries_with_S_only_candidates": 300,
+    "reason_counts": {
+      "strict_T_gt_V": 300
+    }
+  },
+  "decision": "preserve finite development feasibility set; stop after independent verification",
+  "interpretation": "post hoc descriptive development; no effectiveness or relevance inferred for unjudged documents",
+  "known_positive_pairs": 339,
+  "positive_partition": {
+    "S-only": 21,
+    "U-and-S": 314,
+    "U-only": 2,
+    "neither": 2
+  },
+  "positive_partition_query_counts": {
+    "S-only": 21,
+    "U-and-S": 277,
+    "U-only": 2,
+    "neither": 2
+  },
+  "query_count": 300
+}

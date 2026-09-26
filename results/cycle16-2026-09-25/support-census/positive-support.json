@@ -1,0 +1,5087 @@
+[
+  {
+    "B_rank": null,
+    "P_rank": null,
+    "S_rank": null,
+    "docid": "31715818",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "neither",
+    "qid": "1"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4381486",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "100"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "9745001",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1012"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "6277638",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1014"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "11603066",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1019"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "9433958",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 5,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "1020"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "9433958",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 5,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "1021"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5373138",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1024"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "11899391",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1029"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 1,
+    "docid": "13923140",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1029"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 34,
+    "S_rank": 10,
+    "docid": "13940200",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 10,
+      "ql_dirichlet": 8,
+      "tfidf": 14
+    },
+    "partition": "U-and-S",
+    "qid": "1029"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 11,
+    "S_rank": 11,
+    "docid": "16626264",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 9,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "1041"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 3,
+    "S_rank": 6,
+    "docid": "25254425",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 4,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "1041"
+  },
+  {
+    "B_rank": 84,
+    "P_rank": 411,
+    "S_rank": 4,
+    "docid": "12486491",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 156,
+      "bm25_tuned": 189,
+      "ql_dirichlet": null,
+      "tfidf": 121
+    },
+    "partition": "U-and-S",
+    "qid": "1049"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "20381484",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1062"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "39281140",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1086"
+  },
+  {
+    "B_rank": 108,
+    "P_rank": 72,
+    "S_rank": 1,
+    "docid": "37549932",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": 141,
+      "tfidf": 129
+    },
+    "partition": "U-and-S",
+    "qid": "1088"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17628888",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1089"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 4,
+    "S_rank": 5,
+    "docid": "7662206",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 7,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1099"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 5,
+    "S_rank": 4,
+    "docid": "7662206",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 7,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1100"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "3898784",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1104"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "20532591",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1107"
+  },
+  {
+    "B_rank": 894,
+    "P_rank": 936,
+    "S_rank": 849,
+    "docid": "13770184",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1110"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "4456756",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "1121"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "6157837",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "113"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17997584",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1130"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 6,
+    "S_rank": 3,
+    "docid": "33499189",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 7,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1132"
+  },
+  {
+    "B_rank": 21,
+    "P_rank": 38,
+    "S_rank": 13,
+    "docid": "9283422",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 49,
+      "bm25_tuned": 58,
+      "ql_dirichlet": 39,
+      "tfidf": 15
+    },
+    "partition": "U-and-S",
+    "qid": "1132"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "33370",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1137"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12009265",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "1140"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10071552",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1144"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13906581",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1146"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "33872649",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "115"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11369420",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1150"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "15305881",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1163"
+  },
+  {
+    "B_rank": 26,
+    "P_rank": 93,
+    "S_rank": 55,
+    "docid": "31272411",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 28,
+      "bm25_tuned": 33,
+      "ql_dirichlet": 14,
+      "tfidf": 44
+    },
+    "partition": "U-and-S",
+    "qid": "1175"
+  },
+  {
+    "B_rank": 9,
+    "P_rank": 15,
+    "S_rank": 23,
+    "docid": "31272411",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 8,
+      "bm25_tuned": 9,
+      "ql_dirichlet": 16,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "1179"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "6372244",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "118"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 5,
+    "S_rank": 3,
+    "docid": "31272411",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 6,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "1180"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16737210",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1185"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "52873726",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1187"
+  },
+  {
+    "B_rank": 305,
+    "P_rank": 750,
+    "S_rank": 93,
+    "docid": "30655442",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1191"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "11419230",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 2,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "1194"
+  },
+  {
+    "B_rank": 48,
+    "P_rank": 5,
+    "S_rank": 1,
+    "docid": "25649714",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 111,
+      "bm25_tuned": 121,
+      "ql_dirichlet": 179,
+      "tfidf": 99
+    },
+    "partition": "U-and-S",
+    "qid": "1196"
+  },
+  {
+    "B_rank": 50,
+    "P_rank": 5,
+    "S_rank": 2,
+    "docid": "25649714",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 111,
+      "bm25_tuned": 121,
+      "ql_dirichlet": 179,
+      "tfidf": 99
+    },
+    "partition": "U-and-S",
+    "qid": "1197"
+  },
+  {
+    "B_rank": null,
+    "P_rank": null,
+    "S_rank": null,
+    "docid": "16760369",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "neither",
+    "qid": "1199"
+  },
+  {
+    "B_rank": 176,
+    "P_rank": 227,
+    "S_rank": 5,
+    "docid": "3441524",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1200"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "3475317",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1202"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "31141365",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1204"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "18909530",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1207"
+  },
+  {
+    "B_rank": 599,
+    "P_rank": null,
+    "S_rank": 507,
+    "docid": "14407673",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1213"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "24142891",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1216"
+  },
+  {
+    "B_rank": 159,
+    "P_rank": 323,
+    "S_rank": 16,
+    "docid": "19736671",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": 185
+    },
+    "partition": "U-and-S",
+    "qid": "1221"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 3,
+    "docid": "9650982",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1225"
+  },
+  {
+    "B_rank": 28,
+    "P_rank": 142,
+    "S_rank": 26,
+    "docid": "13777138",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 51,
+      "bm25_tuned": 49,
+      "ql_dirichlet": 13,
+      "tfidf": 96
+    },
+    "partition": "U-and-S",
+    "qid": "1226"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13905670",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1232"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4883040",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "124"
+  },
+  {
+    "B_rank": 185,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4427392",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1241"
+  },
+  {
+    "B_rank": 17,
+    "P_rank": 5,
+    "S_rank": 978,
+    "docid": "7662395",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 10,
+      "bm25_tuned": 7,
+      "ql_dirichlet": 9,
+      "tfidf": 27
+    },
+    "partition": "U-and-S",
+    "qid": "1245"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "24341590",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1259"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "44172171",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1262"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 1,
+    "S_rank": 6,
+    "docid": "37480103",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "1266"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "21598000",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 2,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "127"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13900610",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1270"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13768432",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1271"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 12,
+    "S_rank": 8,
+    "docid": "17081238",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 8,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "1272"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11041152",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1273"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 6,
+    "S_rank": 6,
+    "docid": "12428814",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 6,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "1274"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "27731651",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 5,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "1274"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "4406819",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1274"
+  },
+  {
+    "B_rank": 161,
+    "P_rank": 37,
+    "S_rank": 1,
+    "docid": "11335781",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1278"
+  },
+  {
+    "B_rank": 181,
+    "P_rank": 14,
+    "S_rank": 6,
+    "docid": "11335781",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1279"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 2,
+    "S_rank": 812,
+    "docid": "8290953",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "128"
+  },
+  {
+    "B_rank": 18,
+    "P_rank": 34,
+    "S_rank": 15,
+    "docid": "4387784",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 27,
+      "bm25_tuned": 21,
+      "ql_dirichlet": 31,
+      "tfidf": 38
+    },
+    "partition": "U-and-S",
+    "qid": "1280"
+  },
+  {
+    "B_rank": 288,
+    "P_rank": null,
+    "S_rank": 97,
+    "docid": "4387784",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "1281"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "23649163",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1282"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "27768226",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "129"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4687948",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1290"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "56893404",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1292"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11718220",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1298"
+  },
+  {
+    "B_rank": 108,
+    "P_rank": 58,
+    "S_rank": 24,
+    "docid": "1606628",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 140,
+      "bm25_tuned": 114,
+      "ql_dirichlet": 151,
+      "tfidf": null
+    },
+    "partition": "U-and-S",
+    "qid": "13"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "27768226",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "130"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "12631697",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1303"
+  },
+  {
+    "B_rank": 54,
+    "P_rank": 18,
+    "S_rank": 84,
+    "docid": "27910499",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 68,
+      "bm25_tuned": 70,
+      "ql_dirichlet": 38,
+      "tfidf": 58
+    },
+    "partition": "U-and-S",
+    "qid": "1316"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 2,
+    "S_rank": 8,
+    "docid": "16284655",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 7,
+      "ql_dirichlet": 7,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1319"
+  },
+  {
+    "B_rank": 227,
+    "P_rank": 89,
+    "S_rank": 43,
+    "docid": "7975937",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "132"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "16284655",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1320"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 16,
+    "S_rank": 3,
+    "docid": "12640810",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 12,
+      "bm25_tuned": 15,
+      "ql_dirichlet": 10,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "133"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16280642",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 6,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "133"
+  },
+  {
+    "B_rank": 9,
+    "P_rank": 21,
+    "S_rank": 7,
+    "docid": "17934082",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 17,
+      "bm25_tuned": 20,
+      "ql_dirichlet": 19,
+      "tfidf": 7
+    },
+    "partition": "U-and-S",
+    "qid": "133"
+  },
+  {
+    "B_rank": 141,
+    "P_rank": 106,
+    "S_rank": 561,
+    "docid": "38485364",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 146,
+      "bm25_tuned": 172,
+      "ql_dirichlet": 124,
+      "tfidf": 88
+    },
+    "partition": "U-and-S",
+    "qid": "133"
+  },
+  {
+    "B_rank": 13,
+    "P_rank": 25,
+    "S_rank": 6,
+    "docid": "6969753",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 20,
+      "bm25_tuned": 23,
+      "ql_dirichlet": 16,
+      "tfidf": 17
+    },
+    "partition": "U-and-S",
+    "qid": "133"
+  },
+  {
+    "B_rank": 197,
+    "P_rank": 170,
+    "S_rank": 114,
+    "docid": "5304891",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 191,
+      "bm25_tuned": 183,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "U-and-S",
+    "qid": "1332"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "27910499",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1335"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "27910499",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1336"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "20231138",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1337"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "15482274",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1339"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 3,
+    "S_rank": 1,
+    "docid": "9559146",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1344"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12885341",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1352"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11614737",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1359"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 2,
+    "S_rank": null,
+    "docid": "8290953",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-only",
+    "qid": "1362"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 1,
+    "S_rank": null,
+    "docid": "8290953",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 5
+    },
+    "partition": "U-only",
+    "qid": "1363"
+  },
+  {
+    "B_rank": 22,
+    "P_rank": 10,
+    "S_rank": 5,
+    "docid": "2425364",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 31,
+      "bm25_tuned": 23,
+      "ql_dirichlet": 32,
+      "tfidf": 54
+    },
+    "partition": "U-and-S",
+    "qid": "1368"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "26016929",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "137"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 1,
+    "S_rank": 5,
+    "docid": "2425364",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 9,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "1370"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 5,
+    "S_rank": 7,
+    "docid": "16322674",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 3,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "1379"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 3,
+    "S_rank": 5,
+    "docid": "17450673",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "1379"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 10,
+    "S_rank": 3,
+    "docid": "23557241",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 13,
+      "bm25_tuned": 12,
+      "ql_dirichlet": 14,
+      "tfidf": 12
+    },
+    "partition": "U-and-S",
+    "qid": "1379"
+  },
+  {
+    "B_rank": 14,
+    "P_rank": 37,
+    "S_rank": 1,
+    "docid": "27123743",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 26,
+      "bm25_tuned": 33,
+      "ql_dirichlet": 41,
+      "tfidf": 19
+    },
+    "partition": "U-and-S",
+    "qid": "1379"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 9,
+    "S_rank": 1,
+    "docid": "17755060",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 13,
+      "bm25_tuned": 15,
+      "ql_dirichlet": 16,
+      "tfidf": 14
+    },
+    "partition": "U-and-S",
+    "qid": "1382"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "306006",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1385"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "23895668",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "1389"
+  },
+  {
+    "B_rank": 13,
+    "P_rank": 67,
+    "S_rank": 1,
+    "docid": "17717391",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 28,
+      "bm25_tuned": 32,
+      "ql_dirichlet": 17,
+      "tfidf": 60
+    },
+    "partition": "U-and-S",
+    "qid": "1395"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14437255",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "141"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 4,
+    "docid": "6955746",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "141"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10582939",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "142"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10582939",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "143"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10582939",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "146"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1084345",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "148"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "18872233",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "163"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12670680",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "171"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 3,
+    "docid": "16322674",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "179"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 4,
+    "docid": "17450673",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "179"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 11,
+    "S_rank": 8,
+    "docid": "23557241",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 10,
+      "bm25_tuned": 11,
+      "ql_dirichlet": 11,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "179"
+  },
+  {
+    "B_rank": 34,
+    "P_rank": 25,
+    "S_rank": 1,
+    "docid": "27123743",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 59,
+      "bm25_tuned": 72,
+      "ql_dirichlet": 80,
+      "tfidf": 33
+    },
+    "partition": "U-and-S",
+    "qid": "179"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16966326",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "180"
+  },
+  {
+    "B_rank": 9,
+    "P_rank": 2,
+    "S_rank": 3,
+    "docid": "12827098",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 10,
+      "bm25_tuned": 10,
+      "ql_dirichlet": 24,
+      "tfidf": 26
+    },
+    "partition": "U-and-S",
+    "qid": "183"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 7,
+    "docid": "18340282",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 5,
+      "tfidf": 9
+    },
+    "partition": "U-and-S",
+    "qid": "185"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "2177022",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "198"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13519661",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "208"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 11,
+    "S_rank": 4,
+    "docid": "22038539",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 8,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "212"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 6,
+    "S_rank": 8,
+    "docid": "13625993",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 5,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "213"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "21366394",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "216"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "21366394",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "217"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "21366394",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "218"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "21366394",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "219"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "3067015",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "230"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "10536636",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "232"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4388470",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "233"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4388470",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "236"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4942718",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "237"
+  },
+  {
+    "B_rank": 27,
+    "P_rank": 19,
+    "S_rank": 56,
+    "docid": "2251426",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 23,
+      "bm25_tuned": 35,
+      "ql_dirichlet": 81,
+      "tfidf": 9
+    },
+    "partition": "U-and-S",
+    "qid": "238"
+  },
+  {
+    "B_rank": 119,
+    "P_rank": 22,
+    "S_rank": 53,
+    "docid": "14079881",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 133,
+      "bm25_tuned": 127,
+      "ql_dirichlet": null,
+      "tfidf": 100
+    },
+    "partition": "U-and-S",
+    "qid": "239"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1568684",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "248"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "1568684",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "249"
+  },
+  {
+    "B_rank": 81,
+    "P_rank": 8,
+    "S_rank": 8,
+    "docid": "10697096",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 146,
+      "bm25_tuned": 169,
+      "ql_dirichlet": 192,
+      "tfidf": 131
+    },
+    "partition": "U-and-S",
+    "qid": "261"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 3,
+    "S_rank": 4,
+    "docid": "1122279",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 11,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "261"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "970012",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "268"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "970012",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "269"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11614737",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "274"
+  },
+  {
+    "B_rank": 178,
+    "P_rank": 91,
+    "S_rank": 3,
+    "docid": "14241418",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "275"
+  },
+  {
+    "B_rank": 13,
+    "P_rank": 11,
+    "S_rank": 4,
+    "docid": "14819804",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 18,
+      "bm25_tuned": 17,
+      "ql_dirichlet": 33,
+      "tfidf": 21
+    },
+    "partition": "U-and-S",
+    "qid": "275"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "4961038",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "275"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14376683",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "279"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10874408",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "294"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "20310709",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "295"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "39381118",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "298"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "14717500",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "3"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "3553087",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "300"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 20,
+    "S_rank": 141,
+    "docid": "4388470",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "303"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 6,
+    "S_rank": 10,
+    "docid": "6173523",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 7,
+      "tfidf": 14
+    },
+    "partition": "U-and-S",
+    "qid": "312"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 6,
+    "docid": "4347374",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 3,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "314"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 3,
+    "S_rank": 33,
+    "docid": "2014909",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 19,
+      "bm25_tuned": 21,
+      "ql_dirichlet": 21,
+      "tfidf": 12
+    },
+    "partition": "U-and-S",
+    "qid": "324"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17997584",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "327"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "23349986",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "338"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 3,
+    "docid": "5884524",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 4,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "343"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 6,
+    "S_rank": 2,
+    "docid": "7873737",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 7,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "343"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16927286",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "350"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8774475",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "354"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 7,
+    "S_rank": 8,
+    "docid": "11705328",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 10,
+      "ql_dirichlet": 7,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "36"
+  },
+  {
+    "B_rank": 28,
+    "P_rank": 34,
+    "S_rank": 15,
+    "docid": "5152028",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 36,
+      "bm25_tuned": 40,
+      "ql_dirichlet": 30,
+      "tfidf": 37
+    },
+    "partition": "U-and-S",
+    "qid": "36"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "38587347",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "362"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "19005293",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "380"
+  },
+  {
+    "B_rank": 12,
+    "P_rank": 23,
+    "S_rank": 12,
+    "docid": "13770184",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 17,
+      "bm25_tuned": 12,
+      "ql_dirichlet": 27,
+      "tfidf": 20
+    },
+    "partition": "U-and-S",
+    "qid": "384"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 2,
+    "S_rank": 3,
+    "docid": "9767444",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "385"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 5,
+    "S_rank": 2,
+    "docid": "9955779",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 11,
+      "bm25_tuned": 15,
+      "ql_dirichlet": 34,
+      "tfidf": 11
+    },
+    "partition": "U-and-S",
+    "qid": "385"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16495649",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "386"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 8,
+    "docid": "1148122",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 3,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "388"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "791050",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "399"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14924526",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "410"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14924526",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "411"
+  },
+  {
+    "B_rank": 7,
+    "P_rank": 6,
+    "S_rank": 27,
+    "docid": "6309659",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 7,
+      "ql_dirichlet": 6,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "415"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "18174210",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "42"
+  },
+  {
+    "B_rank": 296,
+    "P_rank": 710,
+    "S_rank": 570,
+    "docid": "11172205",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": 111
+    },
+    "partition": "U-and-S",
+    "qid": "421"
+  },
+  {
+    "B_rank": 140,
+    "P_rank": 234,
+    "S_rank": 21,
+    "docid": "28937856",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 164,
+      "bm25_tuned": 171,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "U-and-S",
+    "qid": "431"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14637235",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "436"
+  },
+  {
+    "B_rank": 462,
+    "P_rank": null,
+    "S_rank": 281,
+    "docid": "18399038",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "437"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "4423559",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "439"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "4423559",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "440"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10165258",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "443"
+  },
+  {
+    "B_rank": 71,
+    "P_rank": 416,
+    "S_rank": 3,
+    "docid": "12804937",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": 188,
+      "tfidf": 20
+    },
+    "partition": "U-and-S",
+    "qid": "452"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 79,
+    "S_rank": 9,
+    "docid": "464511",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "452"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 19,
+    "S_rank": 3,
+    "docid": "18678095",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 13,
+      "bm25_tuned": 20,
+      "ql_dirichlet": 8,
+      "tfidf": 12
+    },
+    "partition": "U-and-S",
+    "qid": "475"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "14767844",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "478"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 1,
+    "S_rank": 60,
+    "docid": "13734012",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "48"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5953485",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "49"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "56893404",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "491"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13734012",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "5"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12580014",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "50"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17930286",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "501"
+  },
+  {
+    "B_rank": 117,
+    "P_rank": 109,
+    "S_rank": 786,
+    "docid": "13071728",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 124,
+      "bm25_tuned": 55,
+      "ql_dirichlet": 121,
+      "tfidf": 161
+    },
+    "partition": "U-and-S",
+    "qid": "502"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "30774694",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "507"
+  },
+  {
+    "B_rank": 48,
+    "P_rank": 68,
+    "S_rank": 22,
+    "docid": "13980338",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 49,
+      "bm25_tuned": 48,
+      "ql_dirichlet": 61,
+      "tfidf": 47
+    },
+    "partition": "U-and-S",
+    "qid": "508"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "45638119",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "51"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "13230773",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "513"
+  },
+  {
+    "B_rank": 11,
+    "P_rank": 7,
+    "S_rank": 1,
+    "docid": "16256507",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 14,
+      "bm25_tuned": 15,
+      "ql_dirichlet": 11,
+      "tfidf": 15
+    },
+    "partition": "U-and-S",
+    "qid": "514"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "29564505",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "516"
+  },
+  {
+    "B_rank": 23,
+    "P_rank": 3,
+    "S_rank": 22,
+    "docid": "15663829",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 22,
+      "bm25_tuned": 15,
+      "ql_dirichlet": 52,
+      "tfidf": 39
+    },
+    "partition": "U-and-S",
+    "qid": "517"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "34873974",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "521"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13639330",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "525"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "3863543",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "527"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5476778",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "528"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "45638119",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "53"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12991445",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "532"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "12991445",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "533"
+  },
+  {
+    "B_rank": 172,
+    "P_rank": 333,
+    "S_rank": 25,
+    "docid": "39368721",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": 146,
+      "tfidf": null
+    },
+    "partition": "U-and-S",
+    "qid": "535"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16056514",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "536"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13282296",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "539"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 4,
+    "S_rank": 9,
+    "docid": "49556906",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 8,
+      "bm25_tuned": 9,
+      "ql_dirichlet": 3,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "54"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 7,
+    "S_rank": 4,
+    "docid": "11886686",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 7,
+      "ql_dirichlet": 7,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "540"
+  },
+  {
+    "B_rank": 37,
+    "P_rank": 56,
+    "S_rank": 44,
+    "docid": "25007443",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 52,
+      "bm25_tuned": 56,
+      "ql_dirichlet": 33,
+      "tfidf": 40
+    },
+    "partition": "U-and-S",
+    "qid": "540"
+  },
+  {
+    "B_rank": 7,
+    "P_rank": 5,
+    "S_rank": 6,
+    "docid": "24221369",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 24,
+      "bm25_tuned": 19,
+      "ql_dirichlet": 3,
+      "tfidf": 55
+    },
+    "partition": "U-and-S",
+    "qid": "544"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "9433958",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "549"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "33499189",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 8,
+      "ql_dirichlet": 10,
+      "tfidf": 7
+    },
+    "partition": "U-and-S",
+    "qid": "551"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1471041",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "552"
+  },
+  {
+    "B_rank": 7,
+    "P_rank": 9,
+    "S_rank": 8,
+    "docid": "1049501",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 8,
+      "ql_dirichlet": 11,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "554"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4709641",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "56"
+  },
+  {
+    "B_rank": 279,
+    "P_rank": 284,
+    "S_rank": 142,
+    "docid": "40096222",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "560"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "23460562",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "569"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "4709641",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "57"
+  },
+  {
+    "B_rank": 7,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10300888",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 16,
+      "bm25_tuned": 18,
+      "ql_dirichlet": 13,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "575"
+  },
+  {
+    "B_rank": 248,
+    "P_rank": 7,
+    "S_rank": 67,
+    "docid": "5289038",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "577"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8764879",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "578"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 6,
+    "S_rank": 2,
+    "docid": "16999023",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 7,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "587"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10984005",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "589"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "19675911",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "593"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 8,
+    "S_rank": 4,
+    "docid": "12779444",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 8,
+      "bm25_tuned": 10,
+      "ql_dirichlet": 16,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "597"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "25742130",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "597"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "36355784",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "597"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 10,
+    "S_rank": 7,
+    "docid": "25742130",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 8,
+      "ql_dirichlet": 11,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "598"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "9638032",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "613"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 11,
+    "S_rank": 4,
+    "docid": "20888849",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 8,
+      "ql_dirichlet": 27,
+      "tfidf": 18
+    },
+    "partition": "U-and-S",
+    "qid": "619"
+  },
+  {
+    "B_rank": 249,
+    "P_rank": 392,
+    "S_rank": 69,
+    "docid": "2565138",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "619"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 29,
+    "S_rank": 9,
+    "docid": "17000834",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 15,
+      "bm25_tuned": 16,
+      "ql_dirichlet": 4,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "623"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 6,
+    "S_rank": 1,
+    "docid": "24512064",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 7,
+      "bm25_tuned": 9,
+      "ql_dirichlet": 17,
+      "tfidf": 9
+    },
+    "partition": "U-and-S",
+    "qid": "628"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 1,
+    "S_rank": 3,
+    "docid": "24294572",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 4,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "636"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "25649714",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 8,
+      "bm25_tuned": 9,
+      "ql_dirichlet": 15,
+      "tfidf": 7
+    },
+    "partition": "U-and-S",
+    "qid": "637"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 19,
+    "S_rank": 3,
+    "docid": "31554917",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 11,
+      "bm25_tuned": 12,
+      "ql_dirichlet": 9,
+      "tfidf": 27
+    },
+    "partition": "U-and-S",
+    "qid": "641"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5912283",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "641"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "13619127",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "644"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "12789595",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "649"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 5,
+    "docid": "1215116",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "659"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 1,
+    "S_rank": 294,
+    "docid": "1215116",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "660"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "2095573",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "674"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 3,
+    "docid": "4942718",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "684"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 22,
+    "S_rank": 1,
+    "docid": "18750453",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "690"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "10991183",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "691"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "24088502",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "692"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "24088502",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "693"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 35,
+    "docid": "4414547",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "70"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "5956380",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "70"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "4350400",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "700"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 3,
+    "docid": "4350400",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 2,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "702"
+  },
+  {
+    "B_rank": 19,
+    "P_rank": 22,
+    "S_rank": 28,
+    "docid": "18421962",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 45,
+      "bm25_tuned": 58,
+      "ql_dirichlet": 55,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "715"
+  },
+  {
+    "B_rank": 268,
+    "P_rank": null,
+    "S_rank": 59,
+    "docid": "18421962",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "716"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 4,
+    "S_rank": 4,
+    "docid": "17587795",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 4,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "718"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 4,
+    "S_rank": 1,
+    "docid": "6076903",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 10,
+      "bm25_tuned": 9,
+      "ql_dirichlet": 1,
+      "tfidf": 18
+    },
+    "partition": "U-and-S",
+    "qid": "72"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1834762",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "721"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5531479",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "723"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 3,
+    "docid": "7521113",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "727"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 7,
+    "S_rank": 1,
+    "docid": "36444198",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 6,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "728"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 3,
+    "docid": "7521113",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "728"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 1,
+    "docid": "26851674",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "729"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "32159283",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "742"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 6,
+    "docid": "32159283",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "743"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "8460275",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "744"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 3,
+    "S_rank": 1,
+    "docid": "4387784",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "75"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 8,
+    "S_rank": 3,
+    "docid": "2831620",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 10,
+      "bm25_tuned": 13,
+      "ql_dirichlet": 7,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "756"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1805641",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "759"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 8,
+    "S_rank": 3,
+    "docid": "6421792",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 3,
+      "tfidf": 5
+    },
+    "partition": "U-and-S",
+    "qid": "768"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "15476777",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "770"
+  },
+  {
+    "B_rank": 187,
+    "P_rank": 107,
+    "S_rank": 9,
+    "docid": "32275758",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "775"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "24338780",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "781"
+  },
+  {
+    "B_rank": 10,
+    "P_rank": 26,
+    "S_rank": 12,
+    "docid": "40632104",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 18,
+      "bm25_tuned": 23,
+      "ql_dirichlet": 12,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "783"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "2356950",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 5,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "784"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 1,
+    "S_rank": 94,
+    "docid": "12471115",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "785"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8551160",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 7,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "793"
+  },
+  {
+    "B_rank": 53,
+    "P_rank": 40,
+    "S_rank": 1,
+    "docid": "22543403",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 98,
+      "bm25_tuned": 132,
+      "ql_dirichlet": 159,
+      "tfidf": 59
+    },
+    "partition": "U-and-S",
+    "qid": "800"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "22180793",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "805"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "36606083",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "808"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "19799455",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "811"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "33387953",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "814"
+  },
+  {
+    "B_rank": 67,
+    "P_rank": 32,
+    "S_rank": 28,
+    "docid": "8646760",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 149,
+      "bm25_tuned": 179,
+      "ql_dirichlet": 63,
+      "tfidf": 66
+    },
+    "partition": "U-and-S",
+    "qid": "820"
+  },
+  {
+    "B_rank": 56,
+    "P_rank": 31,
+    "S_rank": 16,
+    "docid": "8646760",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 138,
+      "bm25_tuned": 164,
+      "ql_dirichlet": 63,
+      "tfidf": 64
+    },
+    "partition": "U-and-S",
+    "qid": "821"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "15319019",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "823"
+  },
+  {
+    "B_rank": 8,
+    "P_rank": 9,
+    "S_rank": 66,
+    "docid": "1897324",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 6,
+      "tfidf": 4
+    },
+    "partition": "U-and-S",
+    "qid": "830"
+  },
+  {
+    "B_rank": 18,
+    "P_rank": 17,
+    "S_rank": 258,
+    "docid": "1897324",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 12,
+      "bm25_tuned": 14,
+      "ql_dirichlet": 18,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "831"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "30303335",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "832"
+  },
+  {
+    "B_rank": 25,
+    "P_rank": 41,
+    "S_rank": 80,
+    "docid": "5483793",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 35,
+      "bm25_tuned": 37,
+      "ql_dirichlet": 9,
+      "tfidf": 59
+    },
+    "partition": "U-and-S",
+    "qid": "834"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "15928989",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "837"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1469751",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "839"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17741440",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "845"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16787954",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "847"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 2,
+    "S_rank": 3,
+    "docid": "13843341",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "852"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 3,
+    "S_rank": 2,
+    "docid": "1982286",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "859"
+  },
+  {
+    "B_rank": 592,
+    "P_rank": null,
+    "S_rank": 513,
+    "docid": "195689316",
+    "in_P": false,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "870"
+  },
+  {
+    "B_rank": 18,
+    "P_rank": 44,
+    "S_rank": 6,
+    "docid": "1180972",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 28,
+      "bm25_tuned": 30,
+      "ql_dirichlet": 79,
+      "tfidf": 28
+    },
+    "partition": "U-and-S",
+    "qid": "873"
+  },
+  {
+    "B_rank": 46,
+    "P_rank": 96,
+    "S_rank": 57,
+    "docid": "19307912",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 62,
+      "bm25_tuned": 75,
+      "ql_dirichlet": 45,
+      "tfidf": 45
+    },
+    "partition": "U-and-S",
+    "qid": "873"
+  },
+  {
+    "B_rank": 119,
+    "P_rank": 182,
+    "S_rank": 115,
+    "docid": "27393799",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 155,
+      "bm25_tuned": 161,
+      "ql_dirichlet": 68,
+      "tfidf": 125
+    },
+    "partition": "U-and-S",
+    "qid": "873"
+  },
+  {
+    "B_rank": 30,
+    "P_rank": 7,
+    "S_rank": 1,
+    "docid": "29025270",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 36,
+      "bm25_tuned": 42,
+      "ql_dirichlet": 135,
+      "tfidf": 50
+    },
+    "partition": "U-and-S",
+    "qid": "873"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 18,
+    "S_rank": 5,
+    "docid": "3315558",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 9,
+      "bm25_tuned": 18,
+      "ql_dirichlet": 49,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "873"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8426046",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "879"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8426046",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "880"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "14803797",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "882"
+  },
+  {
+    "B_rank": 878,
+    "P_rank": 11,
+    "S_rank": 834,
+    "docid": "18855191",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "887"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "10648422",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "903"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "7370282",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "904"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "6923961",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "907"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "11254556",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "911"
+  },
+  {
+    "B_rank": 219,
+    "P_rank": 14,
+    "S_rank": 32,
+    "docid": "3203590",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "913"
+  },
+  {
+    "B_rank": 216,
+    "P_rank": 14,
+    "S_rank": 41,
+    "docid": "3203590",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "914"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "1642727",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 2,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "921"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "17077004",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "922"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "5483793",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "936"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 7,
+    "docid": "1215116",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "94"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 1,
+    "docid": "12956194",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 4,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "956"
+  },
+  {
+    "B_rank": 2,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "123859",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 3,
+      "tfidf": 2
+    },
+    "partition": "U-and-S",
+    "qid": "957"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "8780599",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "960"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 2,
+    "docid": "2119889",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "967"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 3,
+    "S_rank": 1,
+    "docid": "8997410",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 5,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "967"
+  },
+  {
+    "B_rank": 3,
+    "P_rank": 2,
+    "S_rank": 2,
+    "docid": "27873158",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 3,
+      "bm25_tuned": 3,
+      "ql_dirichlet": 2,
+      "tfidf": 6
+    },
+    "partition": "U-and-S",
+    "qid": "971"
+  },
+  {
+    "B_rank": 6,
+    "P_rank": 3,
+    "S_rank": 6,
+    "docid": "28617573",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 5,
+      "bm25_tuned": 4,
+      "ql_dirichlet": 5,
+      "tfidf": 8
+    },
+    "partition": "U-and-S",
+    "qid": "971"
+  },
+  {
+    "B_rank": 4,
+    "P_rank": 6,
+    "S_rank": 4,
+    "docid": "46695481",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 4,
+      "bm25_tuned": 6,
+      "ql_dirichlet": 6,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "971"
+  },
+  {
+    "B_rank": 5,
+    "P_rank": 4,
+    "S_rank": 1,
+    "docid": "9764256",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 6,
+      "bm25_tuned": 5,
+      "ql_dirichlet": 4,
+      "tfidf": 10
+    },
+    "partition": "U-and-S",
+    "qid": "971"
+  },
+  {
+    "B_rank": 363,
+    "P_rank": 393,
+    "S_rank": 229,
+    "docid": "5304891",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": null,
+      "bm25_tuned": null,
+      "ql_dirichlet": null,
+      "tfidf": null
+    },
+    "partition": "S-only",
+    "qid": "975"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "2988714",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "982"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "6828370",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "985"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "18810195",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 1,
+      "bm25_tuned": 1,
+      "ql_dirichlet": 1,
+      "tfidf": 1
+    },
+    "partition": "U-and-S",
+    "qid": "99"
+  },
+  {
+    "B_rank": 1,
+    "P_rank": 1,
+    "S_rank": 1,
+    "docid": "16472469",
+    "in_P": true,
+    "lexical_ranks": {
+      "bm25": 2,
+      "bm25_tuned": 2,
+      "ql_dirichlet": 1,
+      "tfidf": 3
+    },
+    "partition": "U-and-S",
+    "qid": "993"
+  }
+]

@@ -183,6 +183,15 @@ nDCG for all five systems agreed with the official evaluator. This is one collec
 judgments, with no established causal explanation or general superiority.
 [Cycle15 transfer and limitations](../results/cycle15-2026-09-12/REPORT.md)
 
+**Checking the reviewers too.** A later collaboration with Claude Opus5.5 at
+high effort and Muse Buddy tested a tempting explanation: if one source is
+better, giving it more weight should improve the mixture. An eight-document
+exact counterexample disproved that inference, and Claude revised its advice.
+Buddy read the pinned repository evidence; its independent perspective also
+needed corrections before adoption. The disagreement helped redirect the work
+from another weight trial toward the original minority-support question.
+[Cycle16 evidence and assessed collaboration](../results/cycle16-2026-09-25/REPORT.md)
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated

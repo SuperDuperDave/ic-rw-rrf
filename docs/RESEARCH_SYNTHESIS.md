@@ -33,6 +33,16 @@ source identities do not establish independent errors; individual calibration
 does not specify the full joint error law.
 [Cycle04 controlled evidence](../results/cycle04-2026-09-10/REPORT.md)
 
+A later exact ranking counterexample makes the distinction concrete even with
+true clones. Four identical lexical lists plus a stronger source give a relevant
+document rank2; reducing the four copies to one effective vote moves it to rank3.
+Every changed pair follows the stronger source's preference, yet nDCG falls.
+Neither a source's standalone mean nor correct duplicate removal guarantees a
+better mixture. Family averaging also fails invariance when only one unequal
+member is copied. These are structural counterexamples, not estimates of how
+often the pattern occurs in retrieval.
+[Cycle16 constructions and research decision](../results/cycle16-2026-09-25/REPORT.md)
+
 When the inference law and needed evidence were supplied, one actual coordinator
 already reproduced the diagnostic probabilities closely. That established a
 bounded ability to use the supplied model, not an ability to discover source

@@ -1,0 +1,86 @@
+{
+  "checkpoint": "19139bdd061fd2e51e529d7411264014e0b093a3",
+  "command": [
+    "python3",
+    "evaluation/cycle16_support_census.py",
+    "--output",
+    "results/cycle16-2026-09-25/support-census"
+  ],
+  "identities": {
+    "_sessions/cycles/2026-09-25-cycle16-support-protocol.md": {
+      "bytes": 5880,
+      "git-blob-sha1": "30cbd8e163ee01a042ebfc9eb17f97ea0dbf262c",
+      "sha256": "5ec795012a244b6ed698e2c85b38df89a9fece9bfaec300221866ed8eda4e7e7"
+    },
+    "evaluation/cycle16_support_census.py": {
+      "bytes": 13352,
+      "git-blob-sha1": "1b828548bd4f40372cb0daa01f8e5cb89c09a08b",
+      "sha256": "bc20ff3617844e9c6741754c1b48fb1e75de2b9b6384f8a284229bb3c8ff1906"
+    },
+    "results/cycle15-2026-09-12/independent-audit/B.official-command.json": {
+      "bytes": 636,
+      "git-blob-sha1": "370672971acca4c47a8bb30d02559d0633841a9a",
+      "sha256": "fe3e386905d2dd5a6634e1f84a0e498f66fc78bd94b1c5fb59b75be615819ac3"
+    },
+    "results/cycle15-2026-09-12/independent-audit/official.qrels": {
+      "bytes": 5702,
+      "git-blob-sha1": "94dfc62235d7fdf490e39259ab28903488f28d61",
+      "sha256": "bb36d0c703801cf1bf6c48082ddb9470fb349cd5fc7568bcb803aa5fcf4acc0f"
+    },
+    "results/cycle15-2026-09-12/transfer/B.trec": {
+      "bytes": 13731637,
+      "git-blob-sha1": "ddfd2104b0e3d07a3868264a6cb49fe106d94bc9",
+      "sha256": "8bf1c342a105b759a2f14afcc8c6374e94737c04ba25300b2400c9f1495dedc4"
+    },
+    "results/cycle15-2026-09-12/transfer/P.trec": {
+      "bytes": 11823838,
+      "git-blob-sha1": "2454520e975e5d3b58ee022550083ce692cbb198",
+      "sha256": "2c5c69267652111ac48f297f67d88bdcfb7031c1d5a38c99065aec8c80c08f1d"
+    },
+    "results/cycle15-2026-09-12/transfer/S.trec": {
+      "bytes": 8904871,
+      "git-blob-sha1": "ebfe2c3d3920250f76080be065c8f10dd4954089",
+      "sha256": "d93c68bc18b38f17b85fc8e4129d0ba7bcd22829f0190067b0c0f900d19e1655"
+    },
+    "results/cycle15-2026-09-12/transfer/bm25.trec": {
+      "bytes": 2540087,
+      "git-blob-sha1": "f61b5d8ea65b6af9263b8a8cae01cf363266e5f6",
+      "sha256": "5b4890f01b048deeedb1ccf161aef76ef649416b16113ad94eb247496ebf0c66"
+    },
+    "results/cycle15-2026-09-12/transfer/bm25_tuned.trec": {
+      "bytes": 2898000,
+      "git-blob-sha1": "068e0bedb3519b59378be39c6d6436e45cea6a9c",
+      "sha256": "d59331425f06f50749bc8e0237e404863fb1e2140466ac970304a886ffdd3d74"
+    },
+    "results/cycle15-2026-09-12/transfer/manifest.json": {
+      "bytes": 83281,
+      "git-blob-sha1": "c4ac80fbcd25dc5ae66e0cc8020c2f9dac1b8dd8",
+      "sha256": "0d2ac1cd0c64e88c5cace0b7f5a5dd3782b2cf2b6f3ae52ce895554e87d9c3cd"
+    },
+    "results/cycle15-2026-09-12/transfer/ql_dirichlet.trec": {
+      "bytes": 3081382,
+      "git-blob-sha1": "1cce97dbb3db10e01c7a8bf33a310368c40d2ef6",
+      "sha256": "1fa5e86c4b2cfc85d41416d98f7eea380690b3c41d44b5a558620d5831db53a6"
+    },
+    "results/cycle15-2026-09-12/transfer/tfidf.trec": {
+      "bytes": 2642404,
+      "git-blob-sha1": "a79dc4eaef9ddef64e10be28a37f8e6af2e71168",
+      "sha256": "5262e3b7304a528d533c1f5d7ce2d21569e9be40472abd51bb00dd6d0a9dcf9f"
+    }
+  },
+  "inputs": {
+    "B": "results/cycle15-2026-09-12/transfer/B.trec",
+    "P": "results/cycle15-2026-09-12/transfer/P.trec",
+    "S": "results/cycle15-2026-09-12/transfer/S.trec",
+    "bm25": "results/cycle15-2026-09-12/transfer/bm25.trec",
+    "bm25_tuned": "results/cycle15-2026-09-12/transfer/bm25_tuned.trec",
+    "ql_dirichlet": "results/cycle15-2026-09-12/transfer/ql_dirichlet.trec",
+    "qrels": "results/cycle15-2026-09-12/independent-audit/official.qrels",
+    "tfidf": "results/cycle15-2026-09-12/transfer/tfidf.trec"
+  },
+  "phase": "before_input_row_parsing",
+  "protocol": "_sessions/cycles/2026-09-25-cycle16-support-protocol.md",
+  "schema": 1,
+  "source": "evaluation/cycle16_support_census.py",
+  "wall_ceiling_seconds": 300
+}
