@@ -1,0 +1,124 @@
+{
+  "failure_receipt": {
+    "bytes": 3055,
+    "md5": "0691e6948c578e88a421e2b382e0067f",
+    "path": "_sessions/evidence/2026-09-26-cycle22-acquisition.json",
+    "sha256": "54af85d00166df17ce0d45fb7a4ea57501d0ea79daeba36839253e30291bda7f"
+  },
+  "interpretation": "The frozen publisher-MD5 gate remains failed unless an exact tested formatting representation matches; no tested transformation authorizes changing the frozen contract or treating bytes as authenticated.",
+  "matches_failure_receipt": true,
+  "matching_transform_names": [],
+  "predeclared_transform_plan": {
+    "bytes": 481,
+    "md5": "86c833049c86e61ebd0fc3d04d43279a",
+    "path": "_sessions/local/cycle22/checksum-diagnostic-plan.json",
+    "sha256": "98f28a0ae80b9f1f4c489f1c383bfdba4c9ae03ce90ddec385621e317344e593"
+  },
+  "published_md5": "871dd34389cad9cd9c3b751f30d9b2d0",
+  "schema": 1,
+  "scope": "One saved first-run body; identity and aggregate syntax only. No ranking order, effectiveness, document inventory, or qrel inspection. No network requests.",
+  "source": "_sessions/local/cycle22/inputs/001.run.download",
+  "source_identity": {
+    "bytes": 1420451,
+    "md5": "7e99300e277da620e1e33f046e9a68f6",
+    "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824"
+  },
+  "source_unchanged": true,
+  "status": "completed",
+  "syntax": {
+    "CRLF_count": 0,
+    "LF_count": 30000,
+    "TAB_count": 150000,
+    "bare_CR_count": 0,
+    "field_count_histogram": {
+      "6": 30000
+    },
+    "gzip_magic": false,
+    "invalid_query_tokens": 0,
+    "invalid_rank_tokens": 0,
+    "line_count": 30000,
+    "nonfinite_or_invalid_score_tokens": 0,
+    "query_counts": {
+      "1": 1000,
+      "10": 1000,
+      "11": 1000,
+      "12": 1000,
+      "13": 1000,
+      "14": 1000,
+      "15": 1000,
+      "16": 1000,
+      "17": 1000,
+      "18": 1000,
+      "19": 1000,
+      "2": 1000,
+      "20": 1000,
+      "21": 1000,
+      "22": 1000,
+      "23": 1000,
+      "24": 1000,
+      "25": 1000,
+      "26": 1000,
+      "27": 1000,
+      "28": 1000,
+      "29": 1000,
+      "3": 1000,
+      "30": 1000,
+      "4": 1000,
+      "5": 1000,
+      "6": 1000,
+      "7": 1000,
+      "8": 1000,
+      "9": 1000
+    },
+    "rows_with_nonprintable_or_nonASCII_tokens": 0,
+    "run_tags": {
+      "10x10.prf.unipd.it": 30000
+    },
+    "terminal_CRLF": false,
+    "terminal_LF": true
+  },
+  "transforms": [
+    {
+      "bytes": 1420451,
+      "matches_published_md5": false,
+      "md5": "7e99300e277da620e1e33f046e9a68f6",
+      "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824",
+      "transform": "identity"
+    },
+    {
+      "bytes": 1450451,
+      "matches_published_md5": false,
+      "md5": "2feb8de1ffc38f300b4f0248d4f59eb6",
+      "sha256": "070dc634c437c5a09bafb8e8a6b43cfbbf2364cbcf2c9ee56bde8c77c86af78a",
+      "transform": "LF bytes replaced by CRLF"
+    },
+    {
+      "bytes": 1420451,
+      "matches_published_md5": false,
+      "md5": "7e99300e277da620e1e33f046e9a68f6",
+      "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824",
+      "transform": "CRLF bytes replaced by LF"
+    },
+    {
+      "bytes": 1420451,
+      "matches_published_md5": false,
+      "md5": "9eab011554ab82e6c204ba36efed726f",
+      "sha256": "977fe8ae88c7d785fd54ae109044eaf1fdba4ac05f29ffa639070849f751352e",
+      "transform": "TAB bytes replaced by single ASCII space"
+    },
+    {
+      "bytes": 1420451,
+      "matches_published_md5": false,
+      "md5": "7e99300e277da620e1e33f046e9a68f6",
+      "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824",
+      "transform": "strip terminal CR/LF bytes then append exactly one LF"
+    },
+    {
+      "bytes": 1420450,
+      "matches_published_md5": false,
+      "md5": "db3c29e45a2cd6f9de1868d1061ab14a",
+      "sha256": "98044cfe1746cdd37551e6056bd70ac31510d8a0d2c7859c409a823a5e0d65de",
+      "transform": "remove one final CRLF or LF if present"
+    }
+  ]
+}

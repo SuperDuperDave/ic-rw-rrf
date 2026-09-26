@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "synthetic_only": true,
+  "targeted_test_command": "python3 -m unittest evaluation.tests.test_cycle22_grouped_outputs evaluation.tests.test_cycle22_acquisition -q",
+  "targeted_tests": 28,
+  "test_log_sha256": "6b2ff919f53ca39d86cf7da9b01f2d2bcb58a3f37e12550cb433b9e2195e820a",
+  "independent": {
+    "self-test": {
+      "receipt_path": "_sessions/local/cycle22/independent-synthetic/self-test.json",
+      "receipt_sha256": "08163e5abc1f9356df6b2b34196c2cea6506b22b7aec18126d4de9673fe70e42",
+      "status": "passed",
+      "elapsed_seconds": 0.026067682018037885,
+      "source_identity": {
+        "bytes": 39137,
+        "sha256": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069"
+      },
+      "tests": [
+        "common-S positive and negative exact witnesses",
+        "opposed shared unknown cancels across teams before bounding",
+        "same document ID on different queries remains two unknown labels",
+        "literal-copy identity independent of labels",
+        "equal-team versus pooled-member normalization",
+        "exhaustive sharpness: 125 coefficient tables, 1000 completions",
+        "whole-line inventory semantics, no control or blank keys",
+        "Decimal precision, canonical ties, ignored rank, valid short lists",
+        "malformed, duplicate, missing-query, invalid-tag, nonfinite parser rejections",
+        "literal qrel grades, positive finite iteration, inert-label duplicate rejection",
+        "label-free policy construction and replay"
+      ]
+    },
+    "short-gzip": {
+      "receipt_path": "_sessions/local/cycle22/independent-synthetic/short-gzip.json",
+      "receipt_sha256": "af5c371e9aa2f461b497a4696eb30db95494228fc689a635e3c4af8b43a4fddb",
+      "status": "passed",
+      "elapsed_seconds": 3.3589004880050197,
+      "source_identity": {
+        "bytes": 39137,
+        "sha256": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069"
+      },
+      "heads_checked": 3300,
+      "audited_fields": {
+        "analysis.json": "all",
+        "manifest.json": "identities, phase, frozen set, complete inputs/cached/outputs, label gate, custody and wall cap",
+        "policies.json": "all",
+        "sources.json": "all",
+        "success.json": "all"
+      },
+      "method": "standalone Decimal parsers and Fraction fusion/bounds; no producer imports",
+      "limits": [
+        "Execution validates saved custody claims and immutable outputs, not an operating-system trace of producer label-read timing.",
+        "Same 30 development queries and fixed label snapshot; no population or source-independence inference."
+      ],
+      "research_input_bodies_read": false
+    },
+    "maximum-shape": {
+      "receipt_path": "_sessions/local/cycle22/independent-synthetic/maximum-shape.json",
+      "receipt_sha256": "69b08737804046160fecfafe1f0388d20018a6310ab5ab81678ee2d696e255e6",
+      "status": "passed",
+      "elapsed_seconds": 10.100848652014975,
+      "source_identity": {
+        "bytes": 39137,
+        "sha256": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069"
+      },
+      "heads_checked": 3300,
+      "audited_fields": {
+        "analysis.json": "all",
+        "manifest.json": "identities, phase, frozen set, complete inputs/cached/outputs, label gate, custody and wall cap",
+        "policies.json": "all",
+        "sources.json": "all",
+        "success.json": "all"
+      },
+      "method": "standalone Decimal parsers and Fraction fusion/bounds; no producer imports",
+      "limits": [
+        "Execution validates saved custody claims and immutable outputs, not an operating-system trace of producer label-read timing.",
+        "Same 30 development queries and fixed label snapshot; no population or source-independence inference."
+      ],
+      "research_input_bodies_read": false
+    }
+  },
+  "producer_timing": [
+    {
+      "root": "/tmp/cycle22-refreshed-100-mzb16ut_",
+      "output": "/tmp/cycle22-refreshed-100-mzb16ut_/output-final2",
+      "synthetic": true,
+      "teams": 29,
+      "runs": 81,
+      "queries": 30,
+      "max_rows_per_run_query": 100,
+      "producer_seconds": 2.453175557020586,
+      "producer_source": {
+        "bytes": 30025,
+        "sha256": "fbc195d3bb9634bfa7ee4c123719773bc808d14b31cb4453dddb9a47398bd767",
+        "md5": "0fbb92a39a87e443338354ee8493d724"
+      },
+      "producer_tests": {
+        "bytes": 24536,
+        "sha256": "e846dda8d61c854ffd04db7af7548228a15646cf5e05243dc01c223292f810d6",
+        "md5": "216fa765028e246f7ee300268af1e00f"
+      }
+    },
+    {
+      "root": "/tmp/cycle22-refreshed-1000-tdo0xos8",
+      "output": "/tmp/cycle22-refreshed-1000-tdo0xos8/output-final2",
+      "synthetic": true,
+      "teams": 29,
+      "runs": 81,
+      "queries": 30,
+      "max_rows_per_run_query": 1000,
+      "producer_seconds": 10.398701936996076,
+      "producer_source": {
+        "bytes": 30025,
+        "sha256": "fbc195d3bb9634bfa7ee4c123719773bc808d14b31cb4453dddb9a47398bd767",
+        "md5": "0fbb92a39a87e443338354ee8493d724"
+      },
+      "producer_tests": {
+        "bytes": 24536,
+        "sha256": "e846dda8d61c854ffd04db7af7548228a15646cf5e05243dc01c223292f810d6",
+        "md5": "216fa765028e246f7ee300268af1e00f"
+      }
+    }
+  ],
+  "standard_library_demo": {
+    "command": "python3 -B evaluation/trec_eval_harness.py --demo",
+    "exit_code": 0,
+    "interpretation": "runnable compatibility only; not cycle22 evidence"
+  },
+  "fixture_custody_note": "Synthetic ROOT redirection uses fixture metadata/placeholder frozen helper files; runtime producer/checker bytes are separately identified. This is not an empirical acquisition receipt."
+}

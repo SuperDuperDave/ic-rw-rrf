@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "started_at_utc": "2026-09-26T05:10:26.338183+00:00",
+  "preflight_sha256": "eb56279b12581f115d4770b1e279c07294c8d7945cb09f5ed2d8f0c086ccc36a",
+  "frozen": {
+    "evaluation/cycle22_grouped_outputs.py": "fbc195d3bb9634bfa7ee4c123719773bc808d14b31cb4453dddb9a47398bd767",
+    "evaluation/tests/test_cycle22_grouped_outputs.py": "e846dda8d61c854ffd04db7af7548228a15646cf5e05243dc01c223292f810d6",
+    "_sessions/tools/check_cycle22_grouped_outputs.py": "c5c5985ad246b016bcabe9dcb4d7ab06a189c924471d82ff1f7fd51d4f838069",
+    "_sessions/tools/acquire_cycle22_inputs.py": "9dba7314ace4afb7104e7a2f9897a4f919c418b106103827649718b9db5d8d14",
+    "evaluation/tests/test_cycle22_acquisition.py": "a493fca72eeb9fc9958bafaf8cd627cecfc9b6ad96a855b726516282d23269c4",
+    "_sessions/cycles/2026-09-26-cycle22-protocol.md": "28501d2986d65ae88b8bf9953a2f44c66cc4c0b7f532c6683b8ed08eb225f1c6",
+    "_sessions/cycles/2026-09-26-cycle22-input-plan.json": "24b7f906e0ef23fdd7df75f38010196d41bdb1690d17729c8c882d1358947729",
+    "_sessions/evidence/2026-09-26-cycle22-synthetic-checks.json": "8848c1755a153ca2c61ba135d56408b7247cf9439dc95b476fe858bcba4fd77e",
+    "results/cycle21-2026-09-26/inventory.json": "21666fb75afca9ce4e50506fd90ecca00f51acfb03beadfb6069b58935e6243c",
+    "results/cycle18-2026-09-25/run/policies.json": "5d065f82672b6ee7744e12857ff3aedddc9bcde9206c6dba46e184ded1c90305",
+    "results/cycle18-2026-09-25/independent-check.json": "62a0f262307e72280a47ed9dcc038bae59c1757ef9d8d676384cd8ae8aefb39b",
+    "_sessions/local/cycle17/inputs/docids.txt": "098c1a7d5075dacd9fe475982f02fe5ce8ca3eb6d9b8bc255ab13ada57af14e1",
+    "_sessions/local/cycle17/inputs/late.qrels": "84f608d302d07df206243b051e52ea0592a09ef0413cf56a12b77c9a30d022f5"
+  },
+  "plan_sha256": "24b7f906e0ef23fdd7df75f38010196d41bdb1690d17729c8c882d1358947729",
+  "inputs": {},
+  "transport": {
+    "10x10.prf.unipd.it": {
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/10x10.prf.unipd.it",
+      "effective_url": "https://ir.nist.gov/trec-covid/archive/round1/10x10.prf.unipd.it",
+      "http_code": 200,
+      "headers": {
+        "Content-Type": "application/pics-rules",
+        "Content-Length": "1420451",
+        "ETag": "\"15aca3-5a49a6d67eec0\"",
+        "Last-Modified": "Fri, 01 May 2020 18:34:11 GMT"
+      }
+    }
+  },
+  "max_attempts_per_file": 1,
+  "transfer_bytes_complete_bodies": 1420451,
+  "expanded_bytes_complete_bodies": 0,
+  "byte_limit_sentinel": 1,
+  "active_run": "10x10.prf.unipd.it",
+  "error_type": "ValueError",
+  "error": "publisher MD5 matches neither representation",
+  "partial_files": {
+    "001.run": {
+      "bytes": 1420451,
+      "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824",
+      "md5": "7e99300e277da620e1e33f046e9a68f6"
+    },
+    "001.run.download": {
+      "bytes": 1420451,
+      "sha256": "d9c84019fddf6fce17d865a25e91c6b443d3ba9f30d06d3da422ca6a31b8b824",
+      "md5": "7e99300e277da620e1e33f046e9a68f6"
+    }
+  },
+  "elapsed_seconds": 0.4544378469581716
+}
