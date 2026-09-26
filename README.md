@@ -75,7 +75,7 @@ with one verifier, so that arithmetic laboratory remains parked. A later
 [provenance case](results/cycle12-2026-09-11/REPORT.md) was settled by direct
 retrieval and hash checking. The [research synthesis](docs/RESEARCH_SYNTHESIS.md),
 [audit of the historical results](docs/AUDIT.md) and [case-study draft](docs/RESEARCH_BRIEF.md)
-explain the findings and limits. Agent sessions start with [AGENTS.md](AGENTS.md).
+explain the findings and limits.
 
 ## Key Results
 
@@ -179,10 +179,45 @@ spec/           Algorithm specifications (v3.0 through v6.0, with falsification 
 evaluation/     Evaluation harness, REF probes, run generation, analysis tools
 diagnostics/    Synthetic mechanism validation (no external data needed)
 data/           TREC DL 2019/2020 qrels and generated run files
-results/        Formatted evaluation results and ablation tables (v5.0 + v6.0)
-_sessions/      Workflow, map, backlog, audit, and dated research working notes
-docs/           Research case-study draft for the portfolio
+results/        Evaluation results and ablation tables, then one report per research cycle
+research/       Cycle protocols, designs and notes; verification receipts; cycle tools and tests
+docs/           Research synthesis, audit of the historical results, case-study draft
 ```
+
+## The Research Record
+
+Until 2026-09-26 the cycle record lived under `_sessions/`. It now lives under
+`research/`, at the same depth, with every file's contents unchanged:
+
+| Earlier path | Current path |
+|---|---|
+| `_sessions/cycles/` | `research/cycles/` |
+| `_sessions/evidence/` | `research/evidence/` |
+| `_sessions/tools/` | `research/tools/` |
+
+Reports, receipts and manifests written before the move cite the earlier paths;
+read them through this table.
+
+The cycle tools, the evaluation modules and their tests were sealed by SHA-256
+while the record lived under `_sessions/`, and each checker verifies the files
+it depends on, earlier checkers included. They stay byte-identical, so they
+expect that layout. To run them, rebuild it in a fresh clone:
+
+```bash
+mkdir _sessions
+cp -R research/cycles research/evidence research/tools _sessions/
+python3 -B _sessions/tools/check_cycle06_evidence.py --public-only --output /tmp/cycle06-check.json
+python3 -B -m unittest discover -s evaluation/tests
+```
+
+Git ignores `_sessions/`. Copy rather than link, because some tools record
+resolved paths. Checks that need inputs acquired outside the repository, such
+as the TREC-COVID runs, the SciFact evaluator build or cached source files, stop
+at the first missing file; each cycle report says how its inputs were acquired.
+
+Notes that integrated reviews from collaborating agents, and the rest of that
+collaboration's working record, are kept in a private repository. Links to them
+from the reports resolve only there.
 
 ## What This Demonstrates
 

@@ -36,7 +36,7 @@ recovered much of the lost ground. Its mean across four 2019 configurations was
 0.3919, alongside 0.3910 for ordinary RRF—too close to establish a general win.
 On the 2020 queries, REF scored 0.4393 versus Vanilla's 0.4483. These historical
 means reproduced in the September restart's
-[validation run](../_sessions/evidence/2026-09-10-ref-validation.txt).
+[validation run](../research/evidence/2026-09-10-ref-validation.txt).
 [Historical result tables](../results/v6.0-regime-aware-fusion-results.md)
 
 **Other directions.** I explored supervised selection and alternatives involving
@@ -301,8 +301,8 @@ compares against v5, not ordinary RRF. There is no supported “minimum 50 label
 threshold, proof of optimality, or novelty claim about tuning k.
 
 The existing specifications and May notebooks are historical artifacts. Current
-qualifications live in RESEARCH_STATE. The brief can showcase an inspectable
-research process now; a new technical contribution still needs its own related
-work and independent evaluation. [PLANNING](../_sessions/PLANNING.md) separates
-the next research question from parked algorithm promotion. The separate
+qualifications live in the [audit](AUDIT.md) and the cycle reports. The brief can
+showcase an inspectable research process now; a new technical contribution still
+needs its own related work and independent evaluation. The next research question
+is kept separate from parked algorithm promotion. The separate
 website task owns integration and publication.

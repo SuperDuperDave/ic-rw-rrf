@@ -21,7 +21,7 @@ These historical run files support evaluation without the original passage TSVs.
 The four lexical sources rerank supplied candidates using statistics pooled over
 their unique document IDs; they are not four independent full-corpus retrievals.
 The exact original candidate-generation configuration and raw TSV hashes were not
-recorded. See the [implementation audit](../_sessions/cycles/2026-09-11-cycle14-local-input-audit.md)
+recorded. See the [implementation audit](../research/cycles/2026-09-11-cycle14-local-input-audit.md)
 for scoring and tie semantics. Later cycles may require separately documented inputs.
 
 ## Not included (download separately)

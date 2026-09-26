@@ -6,7 +6,7 @@ question. The experiments have clarified several different problems hidden
 inside that sentence; none has produced a broadly superior successor to RRF.
 
 This synthesis covers the earlier conceptual and agent-diagnostic stages below.
-Subsequent retrieval experiments are tracked in the [current research state](../_sessions/RESEARCH_STATE.md).
+Subsequent retrieval experiments are reported cycle by cycle in [results](../results/).
 The latest [grouped-output comparison](../results/cycle23-2026-09-26/REPORT.md)
 finds a positive mean over a uniform-member hybrid on a complete archive frame,
 with exact missing-label bounds and explicit source-identity limitations. It
@@ -97,6 +97,6 @@ evidence. Unequal access can explain a gain without better collaboration.
 
 If no such case can be established without another elaborate toy or labels that
 reveal the answer, stop here. No new dataset, fixture, provider batch or budget
-has been scheduled. The next local gate lives in [PLANNING](../_sessions/PLANNING.md).
+has been scheduled.
 The current contribution is a clearer set of questions, reproducible finite
 observations, and a record of which attractive explanations survived checking.
