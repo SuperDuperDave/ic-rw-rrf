@@ -2,7 +2,7 @@
 
 **Draft for the Independent AI & Product Builder website — updated 2026-09-26.**
 Research in progress. This is a case-study handoff, not a claim of a new
-state-of-the-art retrieval method. See the [current audit](../_sessions/RESEARCH_STATE.md)
+state-of-the-art retrieval method. See the [audit of the historical results](AUDIT.md)
 before reusing numerical claims.
 
 ## Short project description

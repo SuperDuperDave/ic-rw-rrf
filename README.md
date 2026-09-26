@@ -74,7 +74,7 @@ Earlier [agent diagnostics](results/cycle11-2026-09-11/REPORT.md) ended all corr
 with one verifier, so that arithmetic laboratory remains parked. A later
 [provenance case](results/cycle12-2026-09-11/REPORT.md) was settled by direct
 retrieval and hash checking. The [research synthesis](docs/RESEARCH_SYNTHESIS.md),
-[current state](_sessions/RESEARCH_STATE.md) and [case-study draft](docs/RESEARCH_BRIEF.md)
+[audit of the historical results](docs/AUDIT.md) and [case-study draft](docs/RESEARCH_BRIEF.md)
 explain the findings and limits. Agent sessions start with [AGENTS.md](AGENTS.md).
 
 ## Key Results
@@ -98,7 +98,7 @@ TREC DL 2019, 43 queries, cross-ensemble sweep over 4-7 lexical rankers, validat
 | v6.0 REF | 0.4393 | +0.0020 | -0.0090 | Tier-1 cross-ensemble crown |
 | **v7.0 PQAS** | **0.4644** | **+0.0271 \*\*** | +0.0161 | **Tier-2 per-corpus supervised, p=0.003** |
 
-Historical within-collection 5-fold CV, 5 seeds averaged. The reported **p=0.003 compares PQAS to v5.0**; its comparison to Vanilla RRF was **p=0.125, not significant**. Hyperparameters were selected on these data and the harness uses a normal approximation for p-values, so treat these as exploratory results. The reported oracle-gap capture was 49.5%; tested cross-collection transfer did not beat the best fixed baseline. A general label-efficiency threshold has not been established. [Full historical v7.0 results](results/v7.0-pqas-results.md), [audit](_sessions/RESEARCH_STATE.md).
+Historical within-collection 5-fold CV, 5 seeds averaged. The reported **p=0.003 compares PQAS to v5.0**; its comparison to Vanilla RRF was **p=0.125, not significant**. Hyperparameters were selected on these data and the harness uses a normal approximation for p-values, so treat these as exploratory results. The reported oracle-gap capture was 49.5%; tested cross-collection transfer did not beat the best fixed baseline. A general label-efficiency threshold has not been established. [Full historical v7.0 results](results/v7.0-pqas-results.md), [audit](docs/AUDIT.md).
 
 ## The Lineage's Structural Insight
 
