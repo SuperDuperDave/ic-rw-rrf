@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "status": "metadata_complete",
+  "protocol_sha256": "41f94b4bf804337f575f1e470d7f52ba70ca54a7926ccf3591b408094dbd8583",
+  "round_order": [
+    3,
+    4,
+    5
+  ],
+  "scope": "Only official run metadata, archive indexes, guidelines and qrels explanation HTML. Dataset bodies and score reports unopened.",
+  "direct_metadata_pages": [
+    {
+      "url": "https://pages.nist.gov/trec-browser/trec-covid/round3/runs/",
+      "retrieved_at_utc": "2026-09-26T03:37:14.209809+00:00",
+      "status": 200,
+      "bytes": 1183957,
+      "sha256": "bb2dc105ebba38d6c86125e4f033c3dc08cccc48cba30093ee4958a1ccaa27e5",
+      "local_path": "_sessions/local/cycle19/round3-runs.html",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 27 Mar 2026 19:09:50 GMT"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/round3.html",
+      "retrieved_at_utc": "2026-09-26T03:37:14.534084+00:00",
+      "status": 200,
+      "bytes": 25048,
+      "sha256": "4b6868ae0541b7368c7868c8b3965d50f1b02d7631f4fedc4bcbddad21f8d984",
+      "local_path": "_sessions/local/cycle19/round3-guidelines.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/archive/archive-round3.html",
+      "retrieved_at_utc": "2026-09-26T03:37:14.794498+00:00",
+      "status": 200,
+      "bytes": 15624,
+      "sha256": "2bb21ebe20613d51c04822d8811b9a095c329231c8544a20a150187e51db4e8c",
+      "local_path": "_sessions/local/cycle19/round3-archive.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://pages.nist.gov/trec-browser/trec-covid/round4/runs/",
+      "retrieved_at_utc": "2026-09-26T03:38:02.075322+00:00",
+      "status": 200,
+      "bytes": 1140654,
+      "sha256": "7e3fa3beeddc08d3bb02349c008a15fc5a04f43eb19f2e1f0be6a305b69feb1b",
+      "local_path": "_sessions/local/cycle19/round4-runs.html",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 27 Mar 2026 19:09:51 GMT"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/round4.html",
+      "retrieved_at_utc": "2026-09-26T03:38:02.330191+00:00",
+      "status": 200,
+      "bytes": 27730,
+      "sha256": "ae34f43919eebaa116580794b84c7a8e8be67916986452fcbf1a14dc0fe9bfb7",
+      "local_path": "_sessions/local/cycle19/round4-guidelines.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/archive/archive-round4.html",
+      "retrieved_at_utc": "2026-09-26T03:38:02.600549+00:00",
+      "status": 200,
+      "bytes": 14428,
+      "sha256": "a3c30fbb71d5295b9350f175134a7a93cbd4a4a46a15f743f6c3883434ebae97",
+      "local_path": "_sessions/local/cycle19/round4-archive.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://pages.nist.gov/trec-browser/trec-covid/round5/runs/",
+      "retrieved_at_utc": "2026-09-26T03:38:25.886954+00:00",
+      "status": 200,
+      "bytes": 1484904,
+      "sha256": "9bb343ca272760c6a5e9129470d78b9cdd5b75fbd17a33f94efcf789a3a99f04",
+      "local_path": "_sessions/local/cycle19/round5-runs.html",
+      "headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 27 Mar 2026 19:09:51 GMT"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/round5.html",
+      "retrieved_at_utc": "2026-09-26T03:38:26.170239+00:00",
+      "status": 200,
+      "bytes": 27925,
+      "sha256": "17473a1d4af39e61fa20c2ace0ee9a377a40af26bff66d2c4dc55511e50eb373",
+      "local_path": "_sessions/local/cycle19/round5-guidelines.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/archive/archive-round5.html",
+      "retrieved_at_utc": "2026-09-26T03:38:26.427336+00:00",
+      "status": 200,
+      "bytes": 22708,
+      "sha256": "69c642660d8a2266e6a7a1a7414a08767ac782763e48ea786f376e607e592931",
+      "local_path": "_sessions/local/cycle19/round5-archive.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/qrels3.html",
+      "retrieved_at_utc": "2026-09-26T03:39:35.406333+00:00",
+      "status": 200,
+      "bytes": 9196,
+      "sha256": "8f4b08109035e76c10c643ae3f7afe4e390d5bd7ac8843ad4b20d6ef5d515976",
+      "local_path": "_sessions/local/cycle19/round3-qrels-metadata.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/qrels4.html",
+      "retrieved_at_utc": "2026-09-26T03:39:35.541740+00:00",
+      "status": 200,
+      "bytes": 8435,
+      "sha256": "28c7c99825812c2b72e35331340ea162fa6f3370eea54cd5dddb26d9176740e9",
+      "local_path": "_sessions/local/cycle19/round4-qrels-metadata.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/qrels5.html",
+      "retrieved_at_utc": "2026-09-26T03:39:35.769509+00:00",
+      "status": 200,
+      "bytes": 9357,
+      "sha256": "503ed0667b9f5ea2b9f7e4e9cc6494113b80decf865755c58dd960f565418a83",
+      "local_path": "_sessions/local/cycle19/round5-qrels-metadata.html",
+      "headers": {
+        "Content-Type": "text/html"
+      }
+    }
+  ],
+  "reused_coordinator_metadata": {
+    "url": "https://ir.nist.gov/trec-covid/data.html",
+    "local_path": "_sessions/local/cycle19/data.html",
+    "bytes": 14931,
+    "sha256": "16caadcc6e26d2f101a5b27e9bf8512c7a94962abb8c49cd694f688003e026cc"
+  },
+  "initial_transport_failure": "One sandbox DNS failure on Round3 run metadata; permitted retry outside network sandbox succeeded. All official pages accessible.",
+  "incidental_exposure": [
+    "Round5 guidelines qualitatively state that high-precision median scores approached their maxima; no numeric scores or team-specific effectiveness seen.",
+    "Round3 qrels explanatory prose says most retrieved documents with changed IDs were relevant; no document grades or selected-team outcomes seen."
+  ],
+  "forbidden_bodies_fetched": false,
+  "effectiveness_reports_opened": false
+}

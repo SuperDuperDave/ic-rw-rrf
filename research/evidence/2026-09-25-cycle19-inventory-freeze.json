@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T03:34:44.026362+00:00",
+  "protocol_path": "_sessions/cycles/2026-09-25-cycle19-inventory-protocol.md",
+  "protocol_sha256": "41f94b4bf804337f575f1e470d7f52ba70ca54a7926ccf3591b408094dbd8583",
+  "base_commit": "bbfc67d8f2364c1dce0b3d293198089c9d629477",
+  "later_round_metadata_opened": false,
+  "later_run_qrel_bodies_opened": false,
+  "scope": "Four-round official metadata inventory only; exact roles and outcome-independent selection"
+}

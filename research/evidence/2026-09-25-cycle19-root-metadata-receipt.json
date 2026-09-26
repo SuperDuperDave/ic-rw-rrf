@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "kind": "official HTML metadata only; run/qrel/docid bodies not fetched",
+  "items": [
+    {
+      "url": "https://pages.nist.gov/trec-browser/trec-covid/round2/runs/",
+      "key": "round2-runs",
+      "exit_code": 63,
+      "http_status": "200",
+      "retrieved_at_utc": "2026-09-26T03:36:30.246548+00:00",
+      "error": "curl: (63) Exceeded the maximum allowed file size (1500000) with 1500000 bytes\n",
+      "partial_bytes": 1500000,
+      "partial_sha256": "56a8d94e409d9da97528b0f1bd63e4040b92f292d27e4c573e631e459d43c863",
+      "complete": false,
+      "interpretation": "Not used for absence; complete official archive supplies team census, web tool supplied specific method sections."
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/round2.html",
+      "key": "round2-guide",
+      "exit_code": 0,
+      "http_status": "200",
+      "retrieved_at_utc": "2026-09-26T03:36:30.545271+00:00",
+      "bytes": 23513,
+      "sha256": "8359500ddb46b95f4bb692e01aa21ed0b5a9a4e0c596b3b8f4d2d4d744d25a70"
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/archive.html",
+      "key": "archive",
+      "exit_code": 0,
+      "http_status": "200",
+      "retrieved_at_utc": "2026-09-26T03:36:30.893349+00:00",
+      "bytes": 7150,
+      "sha256": "6848ae2f0c5d2a983fbf06627ca3fe25990b136986164a1897cc2401792f3420"
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/archive/archive-round2.html",
+      "key": "round2-archive",
+      "exit_code": 0,
+      "http_status": "200",
+      "retrieved_at_utc": "2026-09-26T03:36:31.045770+00:00",
+      "bytes": 24174,
+      "sha256": "e6f6218d522cd8d69fd833646cf79e8f1fc62e577ae7fb645c379622561b065f"
+    },
+    {
+      "url": "https://ir.nist.gov/trec-covid/data.html",
+      "key": "data",
+      "exit_code": 0,
+      "http_status": "200",
+      "retrieved_at_utc": "2026-09-26T03:36:31.187805+00:00",
+      "bytes": 14931,
+      "sha256": "16caadcc6e26d2f101a5b27e9bf8512c7a94962abb8c49cd694f688003e026cc"
+    }
+  ]
+}

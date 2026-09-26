@@ -224,6 +224,20 @@ neither proves the other caused it. The incomplete comparisons also share
 unknown labels, so their uncertainty cannot be added as independent intervals.
 [Cycle18 result and independent checks](../results/cycle18-2026-09-25/REPORT.md)
 
+**Challenging the explanation.** A later metadata search found no exact matching
+source quartet for transfer, so we stopped that route before downloading new
+rankings. We then tested whether the natural arrangement of related rankers
+helped beyond their individual relevance profiles and candidate membership.
+A single frozen experiment shuffled document identities within tightly matched
+classes. The mean of 256 controls beat the natural arrangement by about 1.58
+P@10 percentage points under every possible completion of the missing labels.
+Those controls require relevance labels and cannot serve as a deployed method.
+The result challenges our proposed explanation and closes further tuning of this
+small panel. A useful research loop can end by ruling out its attractive story.
+[Transfer gate](../results/cycle19-2026-09-25/REPORT.md),
+[controlled result and independent reconstruction](../results/cycle20-2026-09-25/REPORT.md)
+
+
 **How collaboration shaped the research.** A Fable5.1 Claude coordinator used
 four Opus5 scouts to examine the design, then resumed with one evidence scout
 to critique the results. Codex implemented the experiments and integrated
