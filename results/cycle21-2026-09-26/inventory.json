@@ -1,0 +1,2049 @@
+{
+  "schema": 1,
+  "source_receipt": "_sessions/evidence/2026-09-26-cycle21-root-metadata.json",
+  "status": "metadata feasible pending independent review and Buddy value assessment",
+  "all_runs": 143,
+  "all_teams": 56,
+  "types": {
+    "automatic": 100,
+    "manual": 43
+  },
+  "excluded_owner_teams": [
+    "BITEM",
+    "BioinformaticsUA"
+  ],
+  "eligible_teams": 29,
+  "eligible_runs": 81,
+  "teams": [
+    {
+      "team": "BBGhelani",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "BBGhelani1",
+        "BBGhelani2"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "BITEM",
+      "eligible": false,
+      "automatic_runs": [
+        "BITEM_BL",
+        "BITEM_df",
+        "BITEM_stem"
+      ],
+      "all_runs": [
+        "BITEM_BL",
+        "BITEM_df",
+        "BITEM_stem"
+      ],
+      "exclusion": "prior-inspected or fixed-partner team"
+    },
+    {
+      "team": "BRPHJ_NLP",
+      "eligible": true,
+      "automatic_runs": [
+        "BRPHJ_NLP1",
+        "BRPHJ_NLP2",
+        "BRPHJ_NLP3"
+      ],
+      "all_runs": [
+        "BRPHJ_NLP1",
+        "BRPHJ_NLP2",
+        "BRPHJ_NLP3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "BioinformaticsUA",
+      "eligible": false,
+      "automatic_runs": [
+        "BioinfoUA-emb",
+        "BioinfoUA-emb-q",
+        "BioinfoUA-noadapt"
+      ],
+      "all_runs": [
+        "BioinfoUA-emb",
+        "BioinfoUA-emb-q",
+        "BioinfoUA-noadapt"
+      ],
+      "exclusion": "prior-inspected or fixed-partner team"
+    },
+    {
+      "team": "CSIROmed",
+      "eligible": true,
+      "automatic_runs": [
+        "CSIROmed_PE",
+        "CSIROmedNIR"
+      ],
+      "all_runs": [
+        "CSIROmed_PE",
+        "CSIROmed_RF",
+        "CSIROmedNIR"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "CincyMedIR",
+      "eligible": true,
+      "automatic_runs": [
+        "CincyMedIR-run1",
+        "CincyMedIR-run2",
+        "CincyMedIR-run3"
+      ],
+      "all_runs": [
+        "CincyMedIR-run1",
+        "CincyMedIR-run2",
+        "CincyMedIR-run3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "DA_IICT",
+      "eligible": true,
+      "automatic_runs": [
+        "DA_IICT_all",
+        "DA_IICT_narr",
+        "DA_IICT_narr_qe"
+      ],
+      "all_runs": [
+        "DA_IICT_all",
+        "DA_IICT_narr",
+        "DA_IICT_narr_qe"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "Elhuyar_NLP_team",
+      "eligible": true,
+      "automatic_runs": [
+        "elhuyar_indri",
+        "elhuyar_rRnk_cbert",
+        "elhuyar_rRnk_sbert"
+      ],
+      "all_runs": [
+        "elhuyar_indri",
+        "elhuyar_rRnk_cbert",
+        "elhuyar_rRnk_sbert"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "Factum",
+      "eligible": false,
+      "automatic_runs": [
+        "factum-1"
+      ],
+      "all_runs": [
+        "factum-1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "GUIR_S2",
+      "eligible": false,
+      "automatic_runs": [
+        "run2"
+      ],
+      "all_runs": [
+        "run1",
+        "run2",
+        "run3"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "IRC",
+      "eligible": true,
+      "automatic_runs": [
+        "irc_entrez",
+        "irc_pmc",
+        "irc_pubmed"
+      ],
+      "all_runs": [
+        "irc_entrez",
+        "irc_pmc",
+        "irc_pubmed"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "IRIT_LSIS_FR",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "Tetralogie0Fr",
+        "Tetralogie1Fr"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "IRIT_markers",
+      "eligible": true,
+      "automatic_runs": [
+        "IRIT_marked_base",
+        "IRIT_marked_mu_pair",
+        "IRIT_marked_un_pair"
+      ],
+      "all_runs": [
+        "IRIT_marked_base",
+        "IRIT_marked_mu_pair",
+        "IRIT_marked_un_pair"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "IRLabKU",
+      "eligible": true,
+      "automatic_runs": [
+        "KU_run1",
+        "KU_run3"
+      ],
+      "all_runs": [
+        "KU_run1",
+        "KU_run2",
+        "KU_run3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "IR_COVID19_CLE",
+      "eligible": true,
+      "automatic_runs": [
+        "ir_covid19_cle_dfr",
+        "ir_covid19_cle_ib",
+        "ir_covid19_cle_lmd"
+      ],
+      "all_runs": [
+        "ir_covid19_cle_dfr",
+        "ir_covid19_cle_ib",
+        "ir_covid19_cle_lmd"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "KAROTENE_SYNAPTIQ_UMBC",
+      "eligible": true,
+      "automatic_runs": [
+        "ERST_NARRATIVE",
+        "ERST_PROSE",
+        "ERST_QUESTION"
+      ],
+      "all_runs": [
+        "ERST_NARRATIVE",
+        "ERST_PROSE",
+        "ERST_QUESTION"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "KoreaUniversity_DMIS",
+      "eligible": true,
+      "automatic_runs": [
+        "dmis-rnd1-run1",
+        "dmis-rnd1-run2"
+      ],
+      "all_runs": [
+        "dmis-rnd1-run1",
+        "dmis-rnd1-run2",
+        "dmis-rnd1-run3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "NI_CCHMC",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "yn-r1-alltext",
+        "yn-r1-concepttext",
+        "yn-r1-hierarchy"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "NTU_NMLab",
+      "eligible": false,
+      "automatic_runs": [
+        "NTU_NMLAB_BM25_ALLQQ"
+      ],
+      "all_runs": [
+        "NTU_NMLAB_BM25_ALLQQ",
+        "NTU_NMLAB_BM25_Hum2",
+        "NTU_NMLAB_BM25_Human"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "OHSU",
+      "eligible": false,
+      "automatic_runs": [
+        "OHSU_RUN1"
+      ],
+      "all_runs": [
+        "OHSU_RUN1",
+        "OHSU_RUN2",
+        "OHSU_RUN3"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "PITTSCI",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "PS-r1-bm25all",
+        "PS-r1-bm25medical",
+        "PS-r1-bm25none"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "POZNAN",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "poznan_run1",
+        "poznan_run2",
+        "poznan_run3"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "RMITB",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "RMITBFuseM2",
+        "RMITBM1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "RUIR",
+      "eligible": false,
+      "automatic_runs": [
+        "RUIR-bm25-at-exp"
+      ],
+      "all_runs": [
+        "RUIR-bm25-at-exp",
+        "RUIR-bm25-mt-exp",
+        "RUIR-doc2vec"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "SFDC",
+      "eligible": true,
+      "automatic_runs": [
+        "SFDC-23April-run1",
+        "SFDC-23April-run2"
+      ],
+      "all_runs": [
+        "SFDC-23April-run1",
+        "SFDC-23April-run2"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "SavantX",
+      "eligible": true,
+      "automatic_runs": [
+        "savantx_nist_run_1",
+        "savantx_nist_run_2",
+        "savantx_nist_run_3"
+      ],
+      "all_runs": [
+        "savantx_nist_run_1",
+        "savantx_nist_run_2",
+        "savantx_nist_run_3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "Sinequa",
+      "eligible": false,
+      "automatic_runs": [
+        "SinequaR1_1"
+      ],
+      "all_runs": [
+        "SinequaR1_1",
+        "SinequaR1_2"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "Sinequa2",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "SINEQUA"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "THUMSR",
+      "eligible": true,
+      "automatic_runs": [
+        "BERT",
+        "Conv_KNRM",
+        "Meta-Conv-KNRM"
+      ],
+      "all_runs": [
+        "BERT",
+        "Conv_KNRM",
+        "Meta-Conv-KNRM"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "TMACC_SeTA",
+      "eligible": false,
+      "automatic_runs": [
+        "TMACC_SeTA_baseline"
+      ],
+      "all_runs": [
+        "TMACC_SeTA_baseline"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "TM_IR_HITZ",
+      "eligible": true,
+      "automatic_runs": [
+        "lda400s2000",
+        "lda400s5000",
+        "tm_lda400"
+      ],
+      "all_runs": [
+        "lda400s2000",
+        "lda400s5000",
+        "tm_lda400"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "TU_Vienna",
+      "eligible": true,
+      "automatic_runs": [
+        "TU_Vienna_TKL_1",
+        "TU_Vienna_TKL_2"
+      ],
+      "all_runs": [
+        "TU_Vienna_TKL_1",
+        "TU_Vienna_TKL_2"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "Technion",
+      "eligible": true,
+      "automatic_runs": [
+        "Technion-JPD",
+        "Technion-MEDMM",
+        "Technion-RRF"
+      ],
+      "all_runs": [
+        "Technion-JPD",
+        "Technion-MEDMM",
+        "Technion-RRF"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "UB_BW",
+      "eligible": true,
+      "automatic_runs": [
+        "CBOWexp.0",
+        "PL2c1.0",
+        "PL2c1.0_Bo1"
+      ],
+      "all_runs": [
+        "CBOWexp.0",
+        "PL2c1.0",
+        "PL2c1.0_Bo1"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "UB_NLP",
+      "eligible": false,
+      "automatic_runs": [
+        "UB_NLP_RUN_1"
+      ],
+      "all_runs": [
+        "UB_NLP_RUN_1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "UIUC_DMG",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "UIUC_DMG_setrank",
+        "UIUC_DMG_setrank_re",
+        "UIUC_DMG_setrank_ret"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "UIowaS",
+      "eligible": true,
+      "automatic_runs": [
+        "UIowaS_Run1",
+        "UIowaS_Run2",
+        "UIowaS_Run3"
+      ],
+      "all_runs": [
+        "UIowaS_Run1",
+        "UIowaS_Run2",
+        "UIowaS_Run3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "UMASS_CIIR",
+      "eligible": false,
+      "automatic_runs": [
+        "sheikh_bm25_all"
+      ],
+      "all_runs": [
+        "sheikh_bm25_all",
+        "sheikh_bm25_manual"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "VirginiaTechHAT",
+      "eligible": false,
+      "automatic_runs": [
+        "baseline"
+      ],
+      "all_runs": [
+        "baseline",
+        "crowd1",
+        "crowd2"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "abccaba",
+      "eligible": true,
+      "automatic_runs": [
+        "bm25_baseline",
+        "bm25_basline"
+      ],
+      "all_runs": [
+        "bm25_baseline",
+        "bm25_basline"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "azimiv",
+      "eligible": false,
+      "automatic_runs": [
+        "azimiv_wk1"
+      ],
+      "all_runs": [
+        "azimiv_wk1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "columbia_university_dbmi",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "cu_dbmi_bm25_1",
+        "cu_dbmi_bm25_2"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "cord19.vespa.ai",
+      "eligible": false,
+      "automatic_runs": [
+        "bm25t5"
+      ],
+      "all_runs": [
+        "bm25t5"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "covidex",
+      "eligible": true,
+      "automatic_runs": [
+        "BM25R2",
+        "T5R1",
+        "T5R3"
+      ],
+      "all_runs": [
+        "BM25R2",
+        "T5R1",
+        "T5R3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "ielab",
+      "eligible": true,
+      "automatic_runs": [
+        "ielab-prf",
+        "ielab-prf.2query.v3",
+        "ielab-prf.recency"
+      ],
+      "all_runs": [
+        "ielab-prf",
+        "ielab-prf.2query.v3",
+        "ielab-prf.recency"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "ixa",
+      "eligible": true,
+      "automatic_runs": [
+        "ixa-ir-filter-narr",
+        "ixa-ir-filter-query",
+        "ixa-ir-filter-quest"
+      ],
+      "all_runs": [
+        "ixa-ir-filter-narr",
+        "ixa-ir-filter-query",
+        "ixa-ir-filter-quest"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "julielab",
+      "eligible": false,
+      "automatic_runs": [
+        "jlrecall"
+      ],
+      "all_runs": [
+        "jlbase",
+        "jlprec",
+        "jlrecall"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "sabir",
+      "eligible": true,
+      "automatic_runs": [
+        "sab20.1.blind",
+        "sab20.1.merged",
+        "sab20.1.meta.docs"
+      ],
+      "all_runs": [
+        "sab20.1.blind",
+        "sab20.1.merged",
+        "sab20.1.meta.docs"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "smith",
+      "eligible": true,
+      "automatic_runs": [
+        "smith.bm25",
+        "smith.ql",
+        "smith.rm3"
+      ],
+      "all_runs": [
+        "smith.bm25",
+        "smith.ql",
+        "smith.rm3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "tcs_ilabs_gg",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "tcs_ilabs_gg_r1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "udel_fang",
+      "eligible": true,
+      "automatic_runs": [
+        "udel_fang_run1",
+        "udel_fang_run2",
+        "udel_fang_run3"
+      ],
+      "all_runs": [
+        "udel_fang_run1",
+        "udel_fang_run2",
+        "udel_fang_run3"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "unipd.it",
+      "eligible": true,
+      "automatic_runs": [
+        "10x10.prf.unipd.it",
+        "10x20.prf.unipd.it",
+        "base.unipd.it"
+      ],
+      "all_runs": [
+        "10x10.prf.unipd.it",
+        "10x20.prf.unipd.it",
+        "base.unipd.it"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "unique_ptr",
+      "eligible": true,
+      "automatic_runs": [
+        "UP-cqqrnd1",
+        "UP-rrf5rnd1",
+        "UP-sdqrnd1"
+      ],
+      "all_runs": [
+        "UP-cqqrnd1",
+        "UP-rrf5rnd1",
+        "UP-sdqrnd1"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "uogTr",
+      "eligible": true,
+      "automatic_runs": [
+        "uogTrDPH_prox_QQ",
+        "uogTrDPH_QE",
+        "uogTrDPH_QE_QQ"
+      ],
+      "all_runs": [
+        "uogTrDPH_prox_QQ",
+        "uogTrDPH_QE",
+        "uogTrDPH_QE_QQ"
+      ],
+      "exclusion": null
+    },
+    {
+      "team": "wistud",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "wistud_bing",
+        "wistud_indri",
+        "wistud_noSearch"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    },
+    {
+      "team": "xj4wang",
+      "eligible": false,
+      "automatic_runs": [],
+      "all_runs": [
+        "xj4wang_run1"
+      ],
+      "exclusion": "fewer than two explicitly automatic runs"
+    }
+  ],
+  "runs": [
+    {
+      "run": "10x10.prf.unipd.it",
+      "team": "unipd.it",
+      "type": "automatic",
+      "publisher_md5": "871dd34389cad9cd9c3b751f30d9b2d0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/10x10.prf.unipd.it",
+      "method_text_sha256": "1bdb757c98ac153daa04935b09bbb64b607c173ab0cc84b2b94b9dba290fb086",
+      "method_words": 8
+    },
+    {
+      "run": "10x20.prf.unipd.it",
+      "team": "unipd.it",
+      "type": "automatic",
+      "publisher_md5": "44f8b615120ca6df113253587c75c995",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/10x20.prf.unipd.it",
+      "method_text_sha256": "372869d7cc86d168cf8294afcf180d13cca1af97dea0285e92b16782d8f11648",
+      "method_words": 8
+    },
+    {
+      "run": "azimiv_wk1",
+      "team": "azimiv",
+      "type": "automatic",
+      "publisher_md5": "546778ef263fde89aa9e3f2071ba3073",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/azimiv_wk1",
+      "method_text_sha256": "462db35d8b7752b336fc6619ced95ec774df9afe619fad151309c0fc06efbc96",
+      "method_words": 106
+    },
+    {
+      "run": "base.unipd.it",
+      "team": "unipd.it",
+      "type": "automatic",
+      "publisher_md5": "031b0a8a37b2d925460d08852cd77db6",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/base.unipd.it",
+      "method_text_sha256": "0806dee0edc9d1139401951998fac9e02f59338d100635fe630a7cbe48056069",
+      "method_words": 9
+    },
+    {
+      "run": "baseline",
+      "team": "VirginiaTechHAT",
+      "type": "automatic",
+      "publisher_md5": "b3c8c235fe3a0f9d137f1e4ae456de28",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/baseline",
+      "method_text_sha256": "bbe59192ae45463f89e06fe9c49a81e3d81efc9f881465b9cea1bf95f18b00cd",
+      "method_words": 9
+    },
+    {
+      "run": "BBGhelani1",
+      "team": "BBGhelani",
+      "type": "manual",
+      "publisher_md5": "137efc24e1c1f76c68790134bc98384f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BBGhelani1",
+      "method_text_sha256": "521b302c2903684834f388bec22b67c9862658f31bd9abed228d7669eea3aa34",
+      "method_words": 54
+    },
+    {
+      "run": "BBGhelani2",
+      "team": "BBGhelani",
+      "type": "manual",
+      "publisher_md5": "1652b468897e20b91aea251c58d4084e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BBGhelani2",
+      "method_text_sha256": "61aa3570e4631574a7d95bc191927019393e08a008536b97b0d01e236348f209",
+      "method_words": 50
+    },
+    {
+      "run": "BERT",
+      "team": "THUMSR",
+      "type": "automatic",
+      "publisher_md5": "2e82576a17e61074931d82e6037dd0a0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BERT",
+      "method_text_sha256": "fe68b73ff439a8da8871d29828a68e00983d91c810aada4730686d7e0f892b58",
+      "method_words": 10
+    },
+    {
+      "run": "BioinfoUA-emb",
+      "team": "BioinformaticsUA",
+      "type": "automatic",
+      "publisher_md5": "80b05c54f15981aa74f49aef0bb65127",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb",
+      "method_text_sha256": "64039b48bef8ae9310dfb5fa8564a45d7b59d2fcda2bcf081702c9e6eb572778",
+      "method_words": 137
+    },
+    {
+      "run": "BioinfoUA-emb-q",
+      "team": "BioinformaticsUA",
+      "type": "automatic",
+      "publisher_md5": "a5baba833498a4dc15c95b3091007a11",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-emb-q",
+      "method_text_sha256": "a224809281a6bd5ece9f107131aac13d28510203ce6dc8ac1ffbfc821dd89f8f",
+      "method_words": 137
+    },
+    {
+      "run": "BioinfoUA-noadapt",
+      "team": "BioinformaticsUA",
+      "type": "automatic",
+      "publisher_md5": "e95cb8dfa075ebb630a8ab69409228c2",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BioinfoUA-noadapt",
+      "method_text_sha256": "9dda82b17724b28b178486b7436e3b19969d567ac5ee5be59eaf294e6f539521",
+      "method_words": 127
+    },
+    {
+      "run": "BITEM_BL",
+      "team": "BITEM",
+      "type": "automatic",
+      "publisher_md5": "e6c33c13f6360539d1296817244d2a09",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_BL",
+      "method_text_sha256": "06a8af10dbf1340842edba5e56fa55407233ea8b6a50b18d96b6f17896d9fd74",
+      "method_words": 27
+    },
+    {
+      "run": "BITEM_df",
+      "team": "BITEM",
+      "type": "automatic",
+      "publisher_md5": "92576af90fc88417cb9e6f456d0fba99",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_df",
+      "method_text_sha256": "940986e04b1c239668d2b78e7d6917176b3c854cae049d6bf1d232e77ed2b20c",
+      "method_words": 15
+    },
+    {
+      "run": "BITEM_stem",
+      "team": "BITEM",
+      "type": "automatic",
+      "publisher_md5": "adb08fd28081f786235798f5757e40f8",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BITEM_stem",
+      "method_text_sha256": "7d47f8ccbf74cd73ae6634e249be9110f009572248da8c636e7223f2eddcad86",
+      "method_words": 4
+    },
+    {
+      "run": "bm25_baseline",
+      "team": "abccaba",
+      "type": "automatic",
+      "publisher_md5": "94cc38c1873e7b89cc35c0832ff0124f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/bm25_baseline",
+      "method_text_sha256": "c2a78f67230a7a355055d5cafaf893ad89a6361fb86abc02303f05c117d113ee",
+      "method_words": 27
+    },
+    {
+      "run": "bm25_basline",
+      "team": "abccaba",
+      "type": "automatic",
+      "publisher_md5": "c73312c31260129ab27a5aa6dd4d9992",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/bm25_basline",
+      "method_text_sha256": "ebdc8856d7f3eebbdd9ecb4d1d124ebe622c2e4aef5a6ece965e6cdcc51ca6c4",
+      "method_words": 16
+    },
+    {
+      "run": "BM25R2",
+      "team": "covidex",
+      "type": "automatic",
+      "publisher_md5": "a048fb69f82033fa41679cb52747f0a3",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BM25R2",
+      "method_text_sha256": "bcd4fd0ef9cdb263b7efd4dfdb38497d88b99651ba4d149aa4b4f0f9aa2b45d9",
+      "method_words": 17
+    },
+    {
+      "run": "bm25t5",
+      "team": "cord19.vespa.ai",
+      "type": "automatic",
+      "publisher_md5": "703f06d58e58e2a065f3cc0118684115",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/bm25t5",
+      "method_text_sha256": "7170998b8f830ac8c90a717b6bcd7097e61db106f03391e602d076d2879f1982",
+      "method_words": 31
+    },
+    {
+      "run": "BRPHJ_NLP1",
+      "team": "BRPHJ_NLP",
+      "type": "automatic",
+      "publisher_md5": "213e8837fb035c69c5f6b546b93e0b0c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP1",
+      "method_text_sha256": "49cf007d3d62d854b1c5e78ee1cee8d8fa81cfc442ab05bf56ee3a8f9fca2301",
+      "method_words": 60
+    },
+    {
+      "run": "BRPHJ_NLP2",
+      "team": "BRPHJ_NLP",
+      "type": "automatic",
+      "publisher_md5": "0c30d48a4004cd5adb817c22f0d481a9",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP2",
+      "method_text_sha256": "612bea3d963b36cf0c7822f2306ba6cc05488623f05ba6b47609a85bcb130444",
+      "method_words": 45
+    },
+    {
+      "run": "BRPHJ_NLP3",
+      "team": "BRPHJ_NLP",
+      "type": "automatic",
+      "publisher_md5": "787e6b8f91aae6a81c25788f28198cc9",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/BRPHJ_NLP3",
+      "method_text_sha256": "8807945c6d74a828b345f8bed810cf4f4a50f15a8993c22495a3fa36e379edb3",
+      "method_words": 48
+    },
+    {
+      "run": "CBOWexp.0",
+      "team": "UB_BW",
+      "type": "automatic",
+      "publisher_md5": "b453381b31694714fdee4538f60b63a6",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CBOWexp.0",
+      "method_text_sha256": "a9b932a9013817ae0087f2676d129ca242a1bdafa0d885beae23a60c457a03af",
+      "method_words": 171
+    },
+    {
+      "run": "CincyMedIR-run1",
+      "team": "CincyMedIR",
+      "type": "automatic",
+      "publisher_md5": "f5b1d88c3f036a01e6957105dc7c0128",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run1",
+      "method_text_sha256": "654b674ec4723bd486a478de120f4a3401a2328f00067143c328027a8bf8d339",
+      "method_words": 12
+    },
+    {
+      "run": "CincyMedIR-run2",
+      "team": "CincyMedIR",
+      "type": "automatic",
+      "publisher_md5": "d471ffd376a21e177a7c9741a80a481e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run2",
+      "method_text_sha256": "3870a492c2da4e463f93db79adee8b76023f51cef17ddb8331a3763c21530439",
+      "method_words": 13
+    },
+    {
+      "run": "CincyMedIR-run3",
+      "team": "CincyMedIR",
+      "type": "automatic",
+      "publisher_md5": "d14ceb5d42096658ded120a5433218d2",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CincyMedIR-run3",
+      "method_text_sha256": "c609f10d48a3b08dc109d8247e9e5e9fac3e6d3a2fd25ea53ece9d07bdbbac09",
+      "method_words": 19
+    },
+    {
+      "run": "Conv_KNRM",
+      "team": "THUMSR",
+      "type": "automatic",
+      "publisher_md5": "e8476aa0a38ac5541156ba36ce0db21a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Conv_KNRM",
+      "method_text_sha256": "40f7834279c7d07dff0f57c7e63b110ed4466897831ab0652fd6465888e91123",
+      "method_words": 10
+    },
+    {
+      "run": "crowd1",
+      "team": "VirginiaTechHAT",
+      "type": "manual",
+      "publisher_md5": "ac82e7bf8673965b83cbaa54d43a7a8d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/crowd1",
+      "method_text_sha256": "29f7d22226333e7272bbcdb9456d5e203b47cbadd1e9f22619b48d356f69c308",
+      "method_words": 9
+    },
+    {
+      "run": "crowd2",
+      "team": "VirginiaTechHAT",
+      "type": "manual",
+      "publisher_md5": "ba19268919ceeebc8ed23a710509e68e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/crowd2",
+      "method_text_sha256": "352cb37fb5684344cc02850b98f7d7dd4df4072baf8aed79c06f7dd2f303f7e9",
+      "method_words": 15
+    },
+    {
+      "run": "CSIROmed_PE",
+      "team": "CSIROmed",
+      "type": "automatic",
+      "publisher_md5": "231276205a8a365839aa79c30bff1685",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CSIROmed_PE",
+      "method_text_sha256": "0d77ca22e6e08d9149c342b2b78890b862d1aab079427e04dcfad492b8713f98",
+      "method_words": 87
+    },
+    {
+      "run": "CSIROmed_RF",
+      "team": "CSIROmed",
+      "type": "manual",
+      "publisher_md5": "d58da66819fd6dbcafa5a00f63ba7f76",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CSIROmed_RF",
+      "method_text_sha256": "a51833d618a34db68aa3e068d0700c62147ca045890e37987288867a584e4afa",
+      "method_words": 80
+    },
+    {
+      "run": "CSIROmedNIR",
+      "team": "CSIROmed",
+      "type": "automatic",
+      "publisher_md5": "6a85af5026332f73a846088a15ee6e7f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/CSIROmedNIR",
+      "method_text_sha256": "c744d6856beeb33985c246fb2b9e5eee8d58380830d76bb27cd9194ba2eb97e7",
+      "method_words": 227
+    },
+    {
+      "run": "cu_dbmi_bm25_1",
+      "team": "columbia_university_dbmi",
+      "type": "manual",
+      "publisher_md5": "931bed72a82ec44a21b86a2ba53b3ecb",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/cu_dbmi_bm25_1",
+      "method_text_sha256": "6e89559d9bc843758fed97e4df6b20ee728195987500b77177ea62f9dd80e460",
+      "method_words": 423
+    },
+    {
+      "run": "cu_dbmi_bm25_2",
+      "team": "columbia_university_dbmi",
+      "type": "manual",
+      "publisher_md5": "f8dd0956837aa4e1aeb0da570c5b23de",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/cu_dbmi_bm25_2",
+      "method_text_sha256": "cc9b676dd594491f320a7bb885dd517a567f3ccac58b1d49e9fbee2bbc733ec7",
+      "method_words": 485
+    },
+    {
+      "run": "DA_IICT_all",
+      "team": "DA_IICT",
+      "type": "automatic",
+      "publisher_md5": "5f48158b063bc580e7075b2d5bca8c0e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_all",
+      "method_text_sha256": "b2b7d6a2e191cfe377459e6976424e84660f573dfd7645a2216c49395dd22bcf",
+      "method_words": 18
+    },
+    {
+      "run": "DA_IICT_narr",
+      "team": "DA_IICT",
+      "type": "automatic",
+      "publisher_md5": "a50db3feb7c7a41eb7968075ed61731e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_narr",
+      "method_text_sha256": "4395ccb861b58ceaa43a3a991cdbf3f91cf907c4259e25a3aa5b393e608eadec",
+      "method_words": 10
+    },
+    {
+      "run": "DA_IICT_narr_qe",
+      "team": "DA_IICT",
+      "type": "automatic",
+      "publisher_md5": "5449e23b4ccf98aae09ce3aa0189e63b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/DA_IICT_narr_qe",
+      "method_text_sha256": "4294489ed136381d456fce24f094828ddc943a85e9a1c6812e78b2489d833846",
+      "method_words": 20
+    },
+    {
+      "run": "dmis-rnd1-run1",
+      "team": "KoreaUniversity_DMIS",
+      "type": "automatic",
+      "publisher_md5": "4cbaf4783a81da616b59927cb1d0f59d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/dmis-rnd1-run1",
+      "method_text_sha256": "41ce68b2c2aa6d13521bbe4a69ea719a64df15586ef67750dab8205e5edc28e4",
+      "method_words": 162
+    },
+    {
+      "run": "dmis-rnd1-run2",
+      "team": "KoreaUniversity_DMIS",
+      "type": "automatic",
+      "publisher_md5": "6a41ab9e886b2dce8ee83d67c86b05c7",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/dmis-rnd1-run2",
+      "method_text_sha256": "0ce60ae143c56257bfcfc470c83e7ce533ad403ecaa91532d1e4f20ce59f0550",
+      "method_words": 162
+    },
+    {
+      "run": "dmis-rnd1-run3",
+      "team": "KoreaUniversity_DMIS",
+      "type": "manual",
+      "publisher_md5": "7de60ebc89b85e1cc7cdc358bc45309b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/dmis-rnd1-run3",
+      "method_text_sha256": "d63c661ca2fca4ab52b79bcc5ab263abb4030e7ce54c8508a95a78ceafa1c621",
+      "method_words": 183
+    },
+    {
+      "run": "elhuyar_indri",
+      "team": "Elhuyar_NLP_team",
+      "type": "automatic",
+      "publisher_md5": "1b8322d059a152cc61a2fa0f4cb83277",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_indri",
+      "method_text_sha256": "0272a67efaabf0e50fcb1fca0b0f41010ae6e19ce8d7780bd210c759ed0564d9",
+      "method_words": 63
+    },
+    {
+      "run": "elhuyar_rRnk_cbert",
+      "team": "Elhuyar_NLP_team",
+      "type": "automatic",
+      "publisher_md5": "7111a37cad8a12c8ba3680c4d641a7b7",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_rRnk_cbert",
+      "method_text_sha256": "6fac394860c4a8beaeba8c4d3721bd2f90f83d3afd1a667a6c19cba518ee4513",
+      "method_words": 161
+    },
+    {
+      "run": "elhuyar_rRnk_sbert",
+      "team": "Elhuyar_NLP_team",
+      "type": "automatic",
+      "publisher_md5": "8615aa228992997bc281f3a91552c760",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/elhuyar_rRnk_sbert",
+      "method_text_sha256": "72da160793b02d366a27fb311895ab7a7606184ce44e36c13257e018ed92e869",
+      "method_words": 123
+    },
+    {
+      "run": "ERST_NARRATIVE",
+      "team": "KAROTENE_SYNAPTIQ_UMBC",
+      "type": "automatic",
+      "publisher_md5": "d2adb76bdd32f98fb2d91fd3a0b2f5e0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_NARRATIVE",
+      "method_text_sha256": "74ae36861731ec928a82d8574ca938546e911dfceb4c393e2cc6a678cf5803b6",
+      "method_words": 31
+    },
+    {
+      "run": "ERST_PROSE",
+      "team": "KAROTENE_SYNAPTIQ_UMBC",
+      "type": "automatic",
+      "publisher_md5": "939195bd30d5eb0378ff1f5d5f57f939",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_PROSE",
+      "method_text_sha256": "586f4f59c3e2fe83d4cb6aa72cada0eb39a97bd05b645b49a2df58db2cf0c75a",
+      "method_words": 30
+    },
+    {
+      "run": "ERST_QUESTION",
+      "team": "KAROTENE_SYNAPTIQ_UMBC",
+      "type": "automatic",
+      "publisher_md5": "463474b1b030e0961ed3703456acd969",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ERST_QUESTION",
+      "method_text_sha256": "4cb0cc01b9041d4ba91f9240ae58f0b9990e221f3dae37ad380db063ee41a05e",
+      "method_words": 31
+    },
+    {
+      "run": "factum-1",
+      "team": "Factum",
+      "type": "automatic",
+      "publisher_md5": "09c50f18a0bb831c071aa47027e4978e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/factum-1",
+      "method_text_sha256": "9348237453f6dd634c24b4dbe7e3244705e51427f2d55740c91984edd4b358ca",
+      "method_words": 26
+    },
+    {
+      "run": "ielab-prf",
+      "team": "ielab",
+      "type": "automatic",
+      "publisher_md5": "fb3c2d4b7a6367c0a156d41b466a4337",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf",
+      "method_text_sha256": "fa8877703ff5401581876ee9612b1d57af4d30231090fce035020b83701f1120",
+      "method_words": 31
+    },
+    {
+      "run": "ielab-prf.2query.v3",
+      "team": "ielab",
+      "type": "automatic",
+      "publisher_md5": "4ae0c08eb3d7d6b60d4aac27b9e98485",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf.2query.v3",
+      "method_text_sha256": "f75562741fcd09047c301dc71d400ebe27ab1162ff816bb70afc17b5c4d9dd40",
+      "method_words": 63
+    },
+    {
+      "run": "ielab-prf.recency",
+      "team": "ielab",
+      "type": "automatic",
+      "publisher_md5": "c9430d4fe111b9d110183419526ba4bc",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ielab-prf.recency",
+      "method_text_sha256": "80af9d9dac6f89cd9e4775d46c8d93f066dcb8fcc78bc050ebfd3e79138ead55",
+      "method_words": 43
+    },
+    {
+      "run": "ir_covid19_cle_dfr",
+      "team": "IR_COVID19_CLE",
+      "type": "automatic",
+      "publisher_md5": "1fbb02c24889b1ce7092565929b7393e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_dfr",
+      "method_text_sha256": "a2c3c1b0737284f5dad9170f7884990a92a0f9f593b4f3e117ba5a5f9be609a5",
+      "method_words": 192
+    },
+    {
+      "run": "ir_covid19_cle_ib",
+      "team": "IR_COVID19_CLE",
+      "type": "automatic",
+      "publisher_md5": "d4f9f8e649a00ad9c205d820df625d0c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_ib",
+      "method_text_sha256": "e6439d046ace7da3a93e7d7894c598a5a5b138a6d614e3157020e8e99e1a8c83",
+      "method_words": 212
+    },
+    {
+      "run": "ir_covid19_cle_lmd",
+      "team": "IR_COVID19_CLE",
+      "type": "automatic",
+      "publisher_md5": "d2e941cff6790c29af651a8898c1e9f1",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ir_covid19_cle_lmd",
+      "method_text_sha256": "d8c9f9623629c7f2bc46caf0cd4f6f8622c77d90824c70fde1b68d396cbc7f4d",
+      "method_words": 226
+    },
+    {
+      "run": "irc_entrez",
+      "team": "IRC",
+      "type": "automatic",
+      "publisher_md5": "5325f557f420633811a9684a6e61108a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_entrez",
+      "method_text_sha256": "762da7858036ae6bbdf19541841b9a109df338b313924b5b28c6cd5a277825cc",
+      "method_words": 163
+    },
+    {
+      "run": "irc_pmc",
+      "team": "IRC",
+      "type": "automatic",
+      "publisher_md5": "2b87692a4e586e3e9d76ad6cea0cff08",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_pmc",
+      "method_text_sha256": "33acb9f8d9bb0fc5c3d262b5901e4cf9c0953937491998fb396e1170e267c032",
+      "method_words": 157
+    },
+    {
+      "run": "irc_pubmed",
+      "team": "IRC",
+      "type": "automatic",
+      "publisher_md5": "15874a1065f3c64c1990da103ab5ae27",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/irc_pubmed",
+      "method_text_sha256": "ea9575c15a8718aa5441c87343b6587873f069e2dec3e187f9aecab34bdfcf02",
+      "method_words": 173
+    },
+    {
+      "run": "IRIT_marked_base",
+      "team": "IRIT_markers",
+      "type": "automatic",
+      "publisher_md5": "92b931a05982c293989f81c418fcd4a9",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_base",
+      "method_text_sha256": "97204b7e1a08b9e17ff46908476234cc77729901a0adee79f4f3b19d5a2b6f04",
+      "method_words": 61
+    },
+    {
+      "run": "IRIT_marked_mu_pair",
+      "team": "IRIT_markers",
+      "type": "automatic",
+      "publisher_md5": "936f88b66b6525b2e154cc4a5796e88c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_mu_pair",
+      "method_text_sha256": "0f6693f424db948de6486028f5eb7baa3185e11436ab8d80934516035b5da714",
+      "method_words": 77
+    },
+    {
+      "run": "IRIT_marked_un_pair",
+      "team": "IRIT_markers",
+      "type": "automatic",
+      "publisher_md5": "3b0430040584d41ba9922d3b2887d406",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/IRIT_marked_un_pair",
+      "method_text_sha256": "0f6693f424db948de6486028f5eb7baa3185e11436ab8d80934516035b5da714",
+      "method_words": 77
+    },
+    {
+      "run": "ixa-ir-filter-narr",
+      "team": "ixa",
+      "type": "automatic",
+      "publisher_md5": "8acecee90c754bb67690f62860542796",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-narr",
+      "method_text_sha256": "7d7d71193ef0960f78aa3676c781d143eb82f1081d63c3ff704df928c65aa76d",
+      "method_words": 108
+    },
+    {
+      "run": "ixa-ir-filter-query",
+      "team": "ixa",
+      "type": "automatic",
+      "publisher_md5": "83338b60068dd232221ea5dde7bbef7b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-query",
+      "method_text_sha256": "6d1fbf9107cd108703f444a85095d84aa1c11990b05d28a8c12f0a9a8908bd64",
+      "method_words": 108
+    },
+    {
+      "run": "ixa-ir-filter-quest",
+      "team": "ixa",
+      "type": "automatic",
+      "publisher_md5": "f1a2a9a4b363d89d8fe9f34eea88b78b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/ixa-ir-filter-quest",
+      "method_text_sha256": "2d99019cfe9dd53dcdd030a118258768eeaa0e8b9278454f0a79144a6d8c199f",
+      "method_words": 108
+    },
+    {
+      "run": "jlbase",
+      "team": "julielab",
+      "type": "manual",
+      "publisher_md5": "e34e6f9d685b1d9488fc034a48769ef4",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/jlbase",
+      "method_text_sha256": "7fb54869625530226a4b3c7567ccf8675514f628d0a124083321e767552012b9",
+      "method_words": 27
+    },
+    {
+      "run": "jlprec",
+      "team": "julielab",
+      "type": "manual",
+      "publisher_md5": "c7bb91155e1a7ed200f63031bed0ed26",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/jlprec",
+      "method_text_sha256": "bf7cdd5fd63a1ac506ac09cd14da2749e6b03d0e98097f623af5759e0f759362",
+      "method_words": 156
+    },
+    {
+      "run": "jlrecall",
+      "team": "julielab",
+      "type": "automatic",
+      "publisher_md5": "b50a73152e81d70364aaa5ef856e4439",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/jlrecall",
+      "method_text_sha256": "c2c84933c16969d92750e6fac9532dc39f68e002a8dd5901fe73de4abf5df239",
+      "method_words": 241
+    },
+    {
+      "run": "KU_run1",
+      "team": "IRLabKU",
+      "type": "automatic",
+      "publisher_md5": "993cb699ee8213bb14a0e2c06b1f8ff8",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/KU_run1",
+      "method_text_sha256": "10de23873b94fa973cf2c871cd29e591134640d2acc3e28766645cbd05b9ae70",
+      "method_words": 32
+    },
+    {
+      "run": "KU_run2",
+      "team": "IRLabKU",
+      "type": "manual",
+      "publisher_md5": "eaad6d525d06f3223fb9a37b394e237b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/KU_run2",
+      "method_text_sha256": "8c8a784d67f1be6e5b7f25014aecc76bdde30c8552c1dc530c9bd63629039b2e",
+      "method_words": 134
+    },
+    {
+      "run": "KU_run3",
+      "team": "IRLabKU",
+      "type": "automatic",
+      "publisher_md5": "8ef345bef28eec1f4109a1e1510fc067",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/KU_run3",
+      "method_text_sha256": "71b3d3b7347d5ef7db9eb319926372c7a9a5d6c6bb7579333c987d0b2c4e453d",
+      "method_words": 86
+    },
+    {
+      "run": "lda400s2000",
+      "team": "TM_IR_HITZ",
+      "type": "automatic",
+      "publisher_md5": "0d01b54b65ec112e3a735e93c5088f15",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/lda400s2000",
+      "method_text_sha256": "499a85ad9e9bfaf8d49d71093124868240ea56a77fd9c413d13f05ce4840d929",
+      "method_words": 71
+    },
+    {
+      "run": "lda400s5000",
+      "team": "TM_IR_HITZ",
+      "type": "automatic",
+      "publisher_md5": "9bb393ca1cc014eecad524622df9e78c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/lda400s5000",
+      "method_text_sha256": "499a85ad9e9bfaf8d49d71093124868240ea56a77fd9c413d13f05ce4840d929",
+      "method_words": 71
+    },
+    {
+      "run": "Meta-Conv-KNRM",
+      "team": "THUMSR",
+      "type": "automatic",
+      "publisher_md5": "bb3351d723a1ae69f343e08a5eda3481",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Meta-Conv-KNRM",
+      "method_text_sha256": "d1c0e07be79b77be48b497a779f42159de890c90701d1a0384c0d38ec063ae82",
+      "method_words": 4
+    },
+    {
+      "run": "NTU_NMLAB_BM25_ALLQQ",
+      "team": "NTU_NMLab",
+      "type": "automatic",
+      "publisher_md5": "ca284fb0e2c43b310c098df7cd06a069",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/NTU_NMLAB_BM25_ALLQQ",
+      "method_text_sha256": "f3d88cf6336d06392eaa4d0f73ec50f28f3b30d0fa735ebac4b1140f249c4f27",
+      "method_words": 33
+    },
+    {
+      "run": "NTU_NMLAB_BM25_Hum2",
+      "team": "NTU_NMLab",
+      "type": "manual",
+      "publisher_md5": "147b6e753862fe928eb874a52f4842a1",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/NTU_NMLAB_BM25_Hum2",
+      "method_text_sha256": "64c680b9bb3289871fbd63397ca9d9a63036d63d69d03b7eb70233bc92a2eaa4",
+      "method_words": 33
+    },
+    {
+      "run": "NTU_NMLAB_BM25_Human",
+      "team": "NTU_NMLab",
+      "type": "manual",
+      "publisher_md5": "312b34c57c3a3bebb8de70baae28f253",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/NTU_NMLAB_BM25_Human",
+      "method_text_sha256": "64c680b9bb3289871fbd63397ca9d9a63036d63d69d03b7eb70233bc92a2eaa4",
+      "method_words": 33
+    },
+    {
+      "run": "OHSU_RUN1",
+      "team": "OHSU",
+      "type": "automatic",
+      "publisher_md5": "77a8a6605717eabfe87c7cf03071d838",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/OHSU_RUN1",
+      "method_text_sha256": "f7dfc0119d0a7de24d0e6433f95159586f4e45f05f369bcd478d9a67b493459f",
+      "method_words": 53
+    },
+    {
+      "run": "OHSU_RUN2",
+      "team": "OHSU",
+      "type": "manual",
+      "publisher_md5": "2ac34e3a2bbb52b379a5a74286d25e2e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/OHSU_RUN2",
+      "method_text_sha256": "c3c936ddf1dc4714f9574eb8302592827812d2e4d7f240543f520c1276257992",
+      "method_words": 100
+    },
+    {
+      "run": "OHSU_RUN3",
+      "team": "OHSU",
+      "type": "manual",
+      "publisher_md5": "c3881bc7886690cea98b20e23c8a74bf",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/OHSU_RUN3",
+      "method_text_sha256": "a98cc772589a19d717eda6a9fd0f3a706608a48ed1439cfb70440992e9a6e54f",
+      "method_words": 101
+    },
+    {
+      "run": "PL2c1.0",
+      "team": "UB_BW",
+      "type": "automatic",
+      "publisher_md5": "7b4988b929dedc3fd4f785ff21d16f02",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PL2c1.0",
+      "method_text_sha256": "aeea88cd218fd603065aee3df82da0b95231b198fa60176e7fec7433f90ef913",
+      "method_words": 154
+    },
+    {
+      "run": "PL2c1.0_Bo1",
+      "team": "UB_BW",
+      "type": "automatic",
+      "publisher_md5": "1ebeba124db1ed778b7323f74ab5fccf",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PL2c1.0_Bo1",
+      "method_text_sha256": "4af0e067cd6ca5336f1e3df67a89a0de95d479afd6888ec0111df2193fe578dd",
+      "method_words": 154
+    },
+    {
+      "run": "poznan_run1",
+      "team": "POZNAN",
+      "type": "manual",
+      "publisher_md5": "0ef76be8d7896a7fd5a57a4eda1cfcb2",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/poznan_run1",
+      "method_text_sha256": "b63998be0f720c0e5960e40661483110731a38d7b61eb835fcd8b4f01a7ea919",
+      "method_words": 20
+    },
+    {
+      "run": "poznan_run2",
+      "team": "POZNAN",
+      "type": "manual",
+      "publisher_md5": "3fcb07ff1e873a461bf68cb2a3ac7413",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/poznan_run2",
+      "method_text_sha256": "cc76791984d958072fcd116a812b32b0f767aae134c2f94a1d739465f3e0732f",
+      "method_words": 28
+    },
+    {
+      "run": "poznan_run3",
+      "team": "POZNAN",
+      "type": "manual",
+      "publisher_md5": "427dd36aa37b8f5b1db84dc842364f82",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/poznan_run3",
+      "method_text_sha256": "c6ebb60f9cdef761aad426d3f67fe706e8e4e41461a12f7c921661dc74470195",
+      "method_words": 24
+    },
+    {
+      "run": "PS-r1-bm25all",
+      "team": "PITTSCI",
+      "type": "manual",
+      "publisher_md5": "da9f7fd2a6391d2dc4ecd3c7c3a4d384",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PS-r1-bm25all",
+      "method_text_sha256": "a161c173f45d2d9d7ca0be99a8647cce4225959bccb505276b8d61bf2761dcd7",
+      "method_words": 93
+    },
+    {
+      "run": "PS-r1-bm25medical",
+      "team": "PITTSCI",
+      "type": "manual",
+      "publisher_md5": "3c39b769942b22073e41bdec9ca9daf2",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PS-r1-bm25medical",
+      "method_text_sha256": "f2111e90f545b61be81bb61557aae72537100b4167fdca0f95574f25cc985952",
+      "method_words": 86
+    },
+    {
+      "run": "PS-r1-bm25none",
+      "team": "PITTSCI",
+      "type": "manual",
+      "publisher_md5": "58252469854828de2cf5cd4682c8a84e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/PS-r1-bm25none",
+      "method_text_sha256": "989897b1c07f785beac3a0185aed77603b2cb4679ade27153e0ff906f3fe616e",
+      "method_words": 57
+    },
+    {
+      "run": "RMITBFuseM2",
+      "team": "RMITB",
+      "type": "manual",
+      "publisher_md5": "6cdc02b8dd10982f0eb4c11bf853530e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/RMITBFuseM2",
+      "method_text_sha256": "c3e9886001cac0d3866e4d7c49d3394c5840f7e340885a7bfaf370580d91b234",
+      "method_words": 38
+    },
+    {
+      "run": "RMITBM1",
+      "team": "RMITB",
+      "type": "manual",
+      "publisher_md5": "a1c9e0821f884df63c41d7fb62f84632",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/RMITBM1",
+      "method_text_sha256": "2ce7715093fb3ae1ec9a505bb20cca7b6c7be3670dab3ee64e928dcaac5bfa13",
+      "method_words": 70
+    },
+    {
+      "run": "RUIR-bm25-at-exp",
+      "team": "RUIR",
+      "type": "automatic",
+      "publisher_md5": "ea368fe83f83d94c2352c16a96baf0d7",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/RUIR-bm25-at-exp",
+      "method_text_sha256": "ecd71bd8ccaf1238cd0732a69e8bf7d1aaf05ef4522a7db39b151901cdf53126",
+      "method_words": 163
+    },
+    {
+      "run": "RUIR-bm25-mt-exp",
+      "team": "RUIR",
+      "type": "manual",
+      "publisher_md5": "7c51ac7d016a8500b87cf65322a8663f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/RUIR-bm25-mt-exp",
+      "method_text_sha256": "86c6f3fd4a90ce04c04f527722560e5ef308912a27a5140d2b2f923a38fd047e",
+      "method_words": 139
+    },
+    {
+      "run": "RUIR-doc2vec",
+      "team": "RUIR",
+      "type": "manual",
+      "publisher_md5": "b9df9c37d217f20bebd9aa22919842c1",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/RUIR-doc2vec",
+      "method_text_sha256": "de5072a28bc9a2c04272726c10718a27eda845ba9121101444db37eb7cbcff1e",
+      "method_words": 138
+    },
+    {
+      "run": "run1",
+      "team": "GUIR_S2",
+      "type": "manual",
+      "publisher_md5": "d56e16849d676166b3aacfca44db1f96",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/run1",
+      "method_text_sha256": "70fda7d59252295d20c89df40c37069dce960bffe4f21d06711be58c4dc815e5",
+      "method_words": 22
+    },
+    {
+      "run": "run2",
+      "team": "GUIR_S2",
+      "type": "automatic",
+      "publisher_md5": "14b4806d1c67e876a9d17afe0618a2df",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/run2",
+      "method_text_sha256": "21b14400604c48b4371eee2509196fb84cb883dd87ae5033b6ef78b807853168",
+      "method_words": 26
+    },
+    {
+      "run": "run3",
+      "team": "GUIR_S2",
+      "type": "manual",
+      "publisher_md5": "ce338293eae452a58aa36c5f027873bc",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/run3",
+      "method_text_sha256": "fe552cdae127dc45d40ecdda25246bbfafd33d45764185cfd9c4f7a2164ccb24",
+      "method_words": 28
+    },
+    {
+      "run": "sab20.1.blind",
+      "team": "sabir",
+      "type": "automatic",
+      "publisher_md5": "e2a462ec68db452032a117ad4ced09f5",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.blind",
+      "method_text_sha256": "7b505aaa1be940e7a7663173664c01532489f92148e20d0baff04683cd2e3786",
+      "method_words": 42
+    },
+    {
+      "run": "sab20.1.merged",
+      "team": "sabir",
+      "type": "automatic",
+      "publisher_md5": "f658976f3f4b42b90cc3093cc40c2caf",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.merged",
+      "method_text_sha256": "4a3200bdd81e90b7b871a184942c2421ce4614ce5146fbc7512c36be8ef59b5c",
+      "method_words": 41
+    },
+    {
+      "run": "sab20.1.meta.docs",
+      "team": "sabir",
+      "type": "automatic",
+      "publisher_md5": "33722480a6beaa7194fbb5bcc689dd57",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sab20.1.meta.docs",
+      "method_text_sha256": "dadbb5c423d9bd538d3e149d7f20f7c3af54c7da8145c2f511e97b2b21e58a7b",
+      "method_words": 31
+    },
+    {
+      "run": "savantx_nist_run_1",
+      "team": "SavantX",
+      "type": "automatic",
+      "publisher_md5": "0a71e410779059c635f037008dccd9f8",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_1",
+      "method_text_sha256": "7922c5e969d1f3d267adc2a38bb277efbf5c3065c5274faa0963e39c5782f330",
+      "method_words": 47
+    },
+    {
+      "run": "savantx_nist_run_2",
+      "team": "SavantX",
+      "type": "automatic",
+      "publisher_md5": "731a0aa5ae0047fb04ce7e5229a28860",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_2",
+      "method_text_sha256": "7922c5e969d1f3d267adc2a38bb277efbf5c3065c5274faa0963e39c5782f330",
+      "method_words": 47
+    },
+    {
+      "run": "savantx_nist_run_3",
+      "team": "SavantX",
+      "type": "automatic",
+      "publisher_md5": "a6c6cc101b08f67da5258a0afad8ac45",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/savantx_nist_run_3",
+      "method_text_sha256": "7922c5e969d1f3d267adc2a38bb277efbf5c3065c5274faa0963e39c5782f330",
+      "method_words": 47
+    },
+    {
+      "run": "SFDC-23April-run1",
+      "team": "SFDC",
+      "type": "automatic",
+      "publisher_md5": "0a62c88dfc1130302cfe9aed9eeb9ec5",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SFDC-23April-run1",
+      "method_text_sha256": "15527f86c143d02c064cd9e7cc3138b8231242f2cbd92d71db3ef3b8a06c52c3",
+      "method_words": 21
+    },
+    {
+      "run": "SFDC-23April-run2",
+      "team": "SFDC",
+      "type": "automatic",
+      "publisher_md5": "cf5b519cbedd4e6f00a682c7893a8a56",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SFDC-23April-run2",
+      "method_text_sha256": "15527f86c143d02c064cd9e7cc3138b8231242f2cbd92d71db3ef3b8a06c52c3",
+      "method_words": 21
+    },
+    {
+      "run": "sheikh_bm25_all",
+      "team": "UMASS_CIIR",
+      "type": "automatic",
+      "publisher_md5": "b1a85c58f0b4befe1e183b4055ff3816",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sheikh_bm25_all",
+      "method_text_sha256": "a14e85845571a7830049020249109fa053983aa57d5bd72e0e93b1e0306d7a11",
+      "method_words": 85
+    },
+    {
+      "run": "sheikh_bm25_manual",
+      "team": "UMASS_CIIR",
+      "type": "manual",
+      "publisher_md5": "c8ef70a1664e41c8d8538f8c73bc1c4f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/sheikh_bm25_manual",
+      "method_text_sha256": "8edd933af31818c30534772e3b753ab5919015f25723f4dd51f0029d50ee25df",
+      "method_words": 14
+    },
+    {
+      "run": "SINEQUA",
+      "team": "Sinequa2",
+      "type": "manual",
+      "publisher_md5": "bf481b44258797f33c6b3537bbd5d75d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SINEQUA",
+      "method_text_sha256": "c55ba80bb4708dcd7f4ca195b4eba108ca10c8b8bae2813e14ee7379d27df0db",
+      "method_words": 23
+    },
+    {
+      "run": "SinequaR1_1",
+      "team": "Sinequa",
+      "type": "automatic",
+      "publisher_md5": "f33d2c072a5fabce06e1f5cdc7c5506f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SinequaR1_1",
+      "method_text_sha256": "82eb5f991f35a1debff0ae24558bc13157d945cc217173371da87c6ac4a74bbc",
+      "method_words": 28
+    },
+    {
+      "run": "SinequaR1_2",
+      "team": "Sinequa",
+      "type": "manual",
+      "publisher_md5": "2c2bed2b7aaddbadcba2e5f36209ccd0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/SinequaR1_2",
+      "method_text_sha256": "d9b993d82917a83ba0669639d2af5148cb210b787c338f4e77844d0a21a5a6a7",
+      "method_words": 42
+    },
+    {
+      "run": "smith.bm25",
+      "team": "smith",
+      "type": "automatic",
+      "publisher_md5": "38971e46186511f7b8b8b5768f66710d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.bm25",
+      "method_text_sha256": "974c57979d100b840b476d7a1b89272bd905d8fc7d94345b6317980bc488c937",
+      "method_words": 10
+    },
+    {
+      "run": "smith.ql",
+      "team": "smith",
+      "type": "automatic",
+      "publisher_md5": "003a24338e8abce1ec18552b5b705974",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.ql",
+      "method_text_sha256": "bf179c7e58615c888c08be1d4d87a2e608635c990a4642440864675a0765791b",
+      "method_words": 10
+    },
+    {
+      "run": "smith.rm3",
+      "team": "smith",
+      "type": "automatic",
+      "publisher_md5": "64a92df23f8b90bf1b7692171b52e24e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/smith.rm3",
+      "method_text_sha256": "a73a7a07f8aa662b40609b368c6b8eabe257eed1dad41ee361bdcb4a557ba36d",
+      "method_words": 19
+    },
+    {
+      "run": "T5R1",
+      "team": "covidex",
+      "type": "automatic",
+      "publisher_md5": "caf8b25915de239d4d2ba49a189e3d77",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/T5R1",
+      "method_text_sha256": "25eb9b60fe245e3871340a687de43e8a350282737275e1a9ce6d1bfdf5c8ade1",
+      "method_words": 25
+    },
+    {
+      "run": "T5R3",
+      "team": "covidex",
+      "type": "automatic",
+      "publisher_md5": "d62c266c6b3e8f46a48672670b1c70d0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/T5R3",
+      "method_text_sha256": "a84ecd4cc5b33a30c4e79f060d98e2354a232274421effc7f9bf4386f5e139d7",
+      "method_words": 25
+    },
+    {
+      "run": "tcs_ilabs_gg_r1",
+      "team": "tcs_ilabs_gg",
+      "type": "manual",
+      "publisher_md5": "d425cfa24fe77c747fc22a990c39136c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/tcs_ilabs_gg_r1",
+      "method_text_sha256": "a821b18e45dc2b4d46b4b47d2288dd26b826844db5c87578d32ee9b18c680337",
+      "method_words": 40
+    },
+    {
+      "run": "Technion-JPD",
+      "team": "Technion",
+      "type": "automatic",
+      "publisher_md5": "3d9fd520a4064c20ad14e481ae03f257",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-JPD",
+      "method_text_sha256": "22c56eabd80cf94e683482b7b97b7d1db57e038d236f1f3d8add19934562254e",
+      "method_words": 279
+    },
+    {
+      "run": "Technion-MEDMM",
+      "team": "Technion",
+      "type": "automatic",
+      "publisher_md5": "15710d481bf9b5f041ac209e5093e871",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-MEDMM",
+      "method_text_sha256": "c0dea50ae0fa812f2fa94f2beea123bddbfb8f83135b1cf5f96af343cce9b0f3",
+      "method_words": 120
+    },
+    {
+      "run": "Technion-RRF",
+      "team": "Technion",
+      "type": "automatic",
+      "publisher_md5": "875e905a3439534443f2d81322c141be",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Technion-RRF",
+      "method_text_sha256": "67fed5f4f82951f7c3378f371b62e0a2693cd4e638cc10595447d8bf1287a605",
+      "method_words": 80
+    },
+    {
+      "run": "Tetralogie0Fr",
+      "team": "IRIT_LSIS_FR",
+      "type": "manual",
+      "publisher_md5": "bc55fcadc2d8f09808f12044ff77dd60",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Tetralogie0Fr",
+      "method_text_sha256": "1ce9efe4c404a1b466480f756e757fbc13349fea0e167314d5a42ab6833e8770",
+      "method_words": 63
+    },
+    {
+      "run": "Tetralogie1Fr",
+      "team": "IRIT_LSIS_FR",
+      "type": "manual",
+      "publisher_md5": "a10233dc8840dad707f35c07d955193a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/Tetralogie1Fr",
+      "method_text_sha256": "4a2185b7a0920c822335c214773251d0b5330f10fd8cf942d9849945acbbc911",
+      "method_words": 69
+    },
+    {
+      "run": "tm_lda400",
+      "team": "TM_IR_HITZ",
+      "type": "automatic",
+      "publisher_md5": "af83c25d3868f70b27cf3529d29e36f2",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/tm_lda400",
+      "method_text_sha256": "3b71cd7082874bf92c083df601f113f54e6b5e1d93193df4e5f13bc8b46d4607",
+      "method_words": 48
+    },
+    {
+      "run": "TMACC_SeTA_baseline",
+      "team": "TMACC_SeTA",
+      "type": "automatic",
+      "publisher_md5": "9f91713016995a35a07032fbb45ce00b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/TMACC_SeTA_baseline",
+      "method_text_sha256": "0c6ccb0e75d69529c8de6f93fd40052d2f67b8be4e0ffecd684c563e8a9585bd",
+      "method_words": 83
+    },
+    {
+      "run": "TU_Vienna_TKL_1",
+      "team": "TU_Vienna",
+      "type": "automatic",
+      "publisher_md5": "0657ab32a5953d9802a1c8430b4faf3d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/TU_Vienna_TKL_1",
+      "method_text_sha256": "aae55e78db9f5f27a7720af7a42b5315073b6ca62acc29cb014acc9afa278cd0",
+      "method_words": 43
+    },
+    {
+      "run": "TU_Vienna_TKL_2",
+      "team": "TU_Vienna",
+      "type": "automatic",
+      "publisher_md5": "d2476ee0394b2655e692ec214449171a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/TU_Vienna_TKL_2",
+      "method_text_sha256": "83397e32fb8bcd04bca342bb076c612645dba683a6eca68131e57341c79ced2e",
+      "method_words": 49
+    },
+    {
+      "run": "UB_NLP_RUN_1",
+      "team": "UB_NLP",
+      "type": "automatic",
+      "publisher_md5": "6a1d33bcdaa611422ec67d9776069ada",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UB_NLP_RUN_1",
+      "method_text_sha256": "92375070e1dc2e36f693176bf735a02ca0984742db46bdea31b586bea8bc90ef",
+      "method_words": 436
+    },
+    {
+      "run": "udel_fang_run1",
+      "team": "udel_fang",
+      "type": "automatic",
+      "publisher_md5": "ffb3235dad903705a6897955723f5fcf",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run1",
+      "method_text_sha256": "de0e6fdec0a808ce72ff4fb59251147dad405d4f0391a38c7e72df1c5ea30949",
+      "method_words": 36
+    },
+    {
+      "run": "udel_fang_run2",
+      "team": "udel_fang",
+      "type": "automatic",
+      "publisher_md5": "c68d558398b1f39b14ff88b61c955896",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run2",
+      "method_text_sha256": "50c247eff03bd1d65351453f0a271027ba21aeca58b209220333b0d752cc1da9",
+      "method_words": 70
+    },
+    {
+      "run": "udel_fang_run3",
+      "team": "udel_fang",
+      "type": "automatic",
+      "publisher_md5": "666988d05f328f3a8eef0ce7f979b3f1",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/udel_fang_run3",
+      "method_text_sha256": "0d1324bcd603a771f9427ffca2b216b0460b1f3810beb2cf946884cf124c4f8e",
+      "method_words": 63
+    },
+    {
+      "run": "UIowaS_Run1",
+      "team": "UIowaS",
+      "type": "automatic",
+      "publisher_md5": "efe0f56829fb851e37fd91e0fc5add07",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run1",
+      "method_text_sha256": "eba672ced13d1290b8368d79439458543b062365b0749a8bc39d408e21e95d3b",
+      "method_words": 56
+    },
+    {
+      "run": "UIowaS_Run2",
+      "team": "UIowaS",
+      "type": "automatic",
+      "publisher_md5": "e6213ad52ec1b84e9d4c6488564e962c",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run2",
+      "method_text_sha256": "43a09a53cfe64a2f42867934de73f3a9d6f496b0c603bc1faa14679cf384f3ae",
+      "method_words": 60
+    },
+    {
+      "run": "UIowaS_Run3",
+      "team": "UIowaS",
+      "type": "automatic",
+      "publisher_md5": "d919acbc8d25fbbdf5d78f604ff88d67",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIowaS_Run3",
+      "method_text_sha256": "9bb1f514584ffa6d1438c4db841154057f7b3f029e7e65a195a61a416ab15fd7",
+      "method_words": 67
+    },
+    {
+      "run": "UIUC_DMG_setrank",
+      "team": "UIUC_DMG",
+      "type": "manual",
+      "publisher_md5": "5bc4ab4f5ae86cb9b8ce594cd200d7f8",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIUC_DMG_setrank",
+      "method_text_sha256": "2217d2734f7412275b58207f264f09feb8c4cd30998e839cfba852deaa8457c6",
+      "method_words": 27
+    },
+    {
+      "run": "UIUC_DMG_setrank_re",
+      "team": "UIUC_DMG",
+      "type": "manual",
+      "publisher_md5": "3ce32914230fad07fb1e459341f7f64b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIUC_DMG_setrank_re",
+      "method_text_sha256": "05d0aaf194b0c68c166f845462e6fd2e14faa716a5f5f60de5d83763001e0590",
+      "method_words": 12
+    },
+    {
+      "run": "UIUC_DMG_setrank_ret",
+      "team": "UIUC_DMG",
+      "type": "manual",
+      "publisher_md5": "8d27b79c9cc0d2715efdc7a0d53ae3c0",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UIUC_DMG_setrank_ret",
+      "method_text_sha256": "5a0400a1e659cdb69d69cc6d18594bf3ecc747c3d6e45f1d32d24ef24266baf3",
+      "method_words": 29
+    },
+    {
+      "run": "uogTrDPH_prox_QQ",
+      "team": "uogTr",
+      "type": "automatic",
+      "publisher_md5": "253a30e58482e3fe26edd4b4a0c1dd5a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_prox_QQ",
+      "method_text_sha256": "f4ac95e30dec4d85d75a778d655ab6bdffe7b62d09eae0f70fa9fbdc17929448",
+      "method_words": 11
+    },
+    {
+      "run": "uogTrDPH_QE",
+      "team": "uogTr",
+      "type": "automatic",
+      "publisher_md5": "7261d84ca6337dffdafc6788b856f256",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_QE",
+      "method_text_sha256": "c48ed27b803d9f3ca43a2060c974fa62c27d0a3790f2ff02b33bb4e0496faf9c",
+      "method_words": 10
+    },
+    {
+      "run": "uogTrDPH_QE_QQ",
+      "team": "uogTr",
+      "type": "automatic",
+      "publisher_md5": "bf933a65333bcf16b149ebc59feab22d",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/uogTrDPH_QE_QQ",
+      "method_text_sha256": "74cc1b136b327f5a67bd9efca3302edfa2dd7803d386f056299af2342ba57f3c",
+      "method_words": 10
+    },
+    {
+      "run": "UP-cqqrnd1",
+      "team": "unique_ptr",
+      "type": "automatic",
+      "publisher_md5": "ae32f134c1f8ef0b3446ed40b174573f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-cqqrnd1",
+      "method_text_sha256": "18da1cc472d7ec6798a75def11c890344cec76cbac53cf4dc7386771be0b17eb",
+      "method_words": 17
+    },
+    {
+      "run": "UP-rrf5rnd1",
+      "team": "unique_ptr",
+      "type": "automatic",
+      "publisher_md5": "eed6b472e7ec0563e201a57c8887fd8f",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-rrf5rnd1",
+      "method_text_sha256": "021aa33f0c41b53cda123b5e78aee99501fe9e558b66eeced8746fa0e68d0e5a",
+      "method_words": 44
+    },
+    {
+      "run": "UP-sdqrnd1",
+      "team": "unique_ptr",
+      "type": "automatic",
+      "publisher_md5": "097dd3ea1c74b743bc559bb60abadda4",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/UP-sdqrnd1",
+      "method_text_sha256": "19f78f2d2b0bd3beb8b881eecf0d4454526fd630509ce132373311dd67914a10",
+      "method_words": 9
+    },
+    {
+      "run": "wistud_bing",
+      "team": "wistud",
+      "type": "manual",
+      "publisher_md5": "c4d071c41405cc888d152935aad6964a",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/wistud_bing",
+      "method_text_sha256": "57fb805d719fc8f7d86f90a5d492c359ab6130ba00542345b2a96dcaee97b342",
+      "method_words": 73
+    },
+    {
+      "run": "wistud_indri",
+      "team": "wistud",
+      "type": "manual",
+      "publisher_md5": "7056c286810f527614da35345be581f9",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/wistud_indri",
+      "method_text_sha256": "918fb58ada1ad4c66f94565750c7f1b955371123a0acb0d3cc4154027a8ca3e0",
+      "method_words": 74
+    },
+    {
+      "run": "wistud_noSearch",
+      "team": "wistud",
+      "type": "manual",
+      "publisher_md5": "a4aa4d753be0649f66314b0b1e8ddba1",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/wistud_noSearch",
+      "method_text_sha256": "c3353b1fc123065818ab5d809e9bf860e5a5b6b58bffec7ff3aa96df061ab542",
+      "method_words": 67
+    },
+    {
+      "run": "xj4wang_run1",
+      "team": "xj4wang",
+      "type": "manual",
+      "publisher_md5": "8acc390ac36b9ae8a71492b6c59e236e",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/xj4wang_run1",
+      "method_text_sha256": "d2925576af9d1d485650383fc8aa09ea0adf476eec2e23d4d08c61f4bf01e9aa",
+      "method_words": 126
+    },
+    {
+      "run": "yn-r1-alltext",
+      "team": "NI_CCHMC",
+      "type": "manual",
+      "publisher_md5": "a116f2578224ea6f1928c994f264fbe4",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/yn-r1-alltext",
+      "method_text_sha256": "8f12316fc40571e0e497b0f519e22e915e071474c7e05c0e51efe553358703f6",
+      "method_words": 124
+    },
+    {
+      "run": "yn-r1-concepttext",
+      "team": "NI_CCHMC",
+      "type": "manual",
+      "publisher_md5": "c208d3cce688eaeacc8b4c1c5c03ad9b",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/yn-r1-concepttext",
+      "method_text_sha256": "8f12316fc40571e0e497b0f519e22e915e071474c7e05c0e51efe553358703f6",
+      "method_words": 124
+    },
+    {
+      "run": "yn-r1-hierarchy",
+      "team": "NI_CCHMC",
+      "type": "manual",
+      "publisher_md5": "b6ddae8fd68ad110c4aa97f928473235",
+      "url": "https://ir.nist.gov/trec-covid/archive/round1/yn-r1-hierarchy",
+      "method_text_sha256": "8f12316fc40571e0e497b0f519e22e915e071474c7e05c0e51efe553358703f6",
+      "method_words": 124
+    }
+  ],
+  "archive_metadata_team_and_run_match": true,
+  "run_bodies_fetched": false,
+  "published_byte_lengths": null,
+  "missing_size_action": "Separate bounded streaming acquisition contract if empirical branch is justified.",
+  "method_text_location": "Complete official source captures and normalized parser text stay local; page and per-method hashes bind this inventory. The review note summarizes scientifically relevant method differences.",
+  "method_normalization": "Preserve literal query/question/narrative/text angle-field names; strip markup; HTML unescape and collapse whitespace. Source capture bytes remain authoritative."
+}

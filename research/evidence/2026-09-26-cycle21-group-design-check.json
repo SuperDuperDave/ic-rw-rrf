@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T04:43:54.943604+00:00",
+  "status": "passed",
+  "review": "_sessions/cycles/2026-09-26-cycle21-group-design-review.md",
+  "review_sha256": "dd36ea6251e0ea3afca051294ab609fa85c6d1ff0e0f1a7f455156dfb558d3ed",
+  "method": "Separate coordinator integer-LCM score construction and Fraction pair coefficients; no project imports or empirical bodies.",
+  "hybrid_tenth": {
+    "R0": "x",
+    "R1": "z",
+    "R2": "x",
+    "R3": "y"
+  },
+  "group_tenth": [
+    "z",
+    "x",
+    "z"
+  ],
+  "group_pair_coefficients": [
+    {
+      "z": "1/20",
+      "x": "-1/20"
+    },
+    {
+      "x": "1/20",
+      "z": "-1/20"
+    },
+    {
+      "z": "1/10",
+      "x": "-1/20",
+      "y": "-1/20"
+    }
+  ],
+  "aggregate_two_team_coefficients": "all zero before any labels",
+  "team_intervals_with_x_known_zero_z_unknown": [
+    "[0,1/20]",
+    "[-1/20,0]"
+  ],
+  "average_team_interval": "[-1/40,1/40]",
+  "sharp_aggregate_interval": "[0,0]",
+  "same_S": true,
+  "depth": 100,
+  "k": 60,
+  "unknown_prefix_cancellation": true,
+  "review_sha256_before_prospective_depth_note": "2ef8d00c45693d0fe7d6389f2c4ca48c66e7851df0f9fe46263137d1dce22644",
+  "subsequent_note_change": "Prospective short-member input gate correction appended; all replayed complete-depth witness definitions and arithmetic unchanged."
+}

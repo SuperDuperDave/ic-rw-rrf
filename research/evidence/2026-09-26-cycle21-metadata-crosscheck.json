@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T04:33:55.401173+00:00",
+  "status": "passed",
+  "records_checked": 143,
+  "all_factual_record_fields_agree": true,
+  "methods_agree_after_colon_whitespace_normalization": true,
+  "colon_whitespace_cases": [
+    "irc_entrez",
+    "irc_pmc",
+    "irc_pubmed"
+  ],
+  "capture_comparison": {
+    "runs": {
+      "same_non_script_content": true,
+      "non_script_sha256": "532b8745183e969c9c0c9dc8f520dc592b90c4a89d4606fce0649f227b893c10"
+    },
+    "archive": {
+      "same_non_script_content": true,
+      "non_script_sha256": "79739ad8af73a8f2e770fbe65c2437b79b559fd71513289d5947e4be01a8c46d"
+    }
+  },
+  "root_parser_repair": "Preserved literal query/question/narrative/text names before markup removal; no eligibility changed. Initial archive regex crossed two anchor tags, corrected before census output.",
+  "no_run_bodies_fetched": true,
+  "inventory_sha256": "21666fb75afca9ce4e50506fd90ecca00f51acfb03beadfb6069b58935e6243c"
+}

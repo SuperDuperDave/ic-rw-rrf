@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T04:29:40.242642+00:00",
+  "status": "passed",
+  "note": "_sessions/cycles/2026-09-26-cycle21-pairing-note.md",
+  "note_sha256": "14753f6cc49bffb1942d33119be5b773a8ff9e00842459760dcf55d8ff1071a7",
+  "method": "Separate coordinator integer-LCM reconstruction; no project implementation or real data loaded.",
+  "rows": [
+    {
+      "state": [
+        "D0",
+        "T0"
+      ],
+      "tenth": "p",
+      "score_numerators_536760": [
+        "15192",
+        "15264",
+        "14910"
+      ]
+    },
+    {
+      "state": [
+        "D0",
+        "T1"
+      ],
+      "tenth": "p",
+      "score_numerators_536760": [
+        "15192",
+        "15193",
+        "14981"
+      ]
+    },
+    {
+      "state": [
+        "D1",
+        "T0"
+      ],
+      "tenth": "p",
+      "score_numerators_536760": [
+        "15192",
+        "15229",
+        "14945"
+      ]
+    },
+    {
+      "state": [
+        "D1",
+        "T1"
+      ],
+      "tenth": "n",
+      "score_numerators_536760": [
+        "15192",
+        "15158",
+        "15016"
+      ]
+    }
+  ],
+  "positive_natural_minus_uniform_mean": "1/40",
+  "negative_natural_minus_uniform_mean": "-3/40",
+  "unknowns": "Same9headunknowns cancel;88fillers never enter.",
+  "scope": "Two exact constructive witnesses, no empirical cause or full Cycle20seed-panel claim."
+}

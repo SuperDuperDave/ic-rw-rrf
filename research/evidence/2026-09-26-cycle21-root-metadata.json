@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-26T04:27:09.431169+00:00",
+  "items": {
+    "runs": {
+      "url": "https://pages.nist.gov/trec-browser/trec-covid/round1/runs/",
+      "resolved_url": "https://pages.nist.gov/trec-browser/trec-covid/round1/runs/",
+      "status": 200,
+      "bytes": 1616385,
+      "sha256": "7718a9fc7a8482f2900a5f3398c99e021b8ad23dfe14b6ef47909e0a86b67431",
+      "complete": true,
+      "public_headers": {
+        "Content-Type": "text/html",
+        "Last-Modified": "Fri, 27 Mar 2026 19:09:50 GMT"
+      }
+    },
+    "archive": {
+      "url": "https://ir.nist.gov/trec-covid/archive/archive-round1.html",
+      "resolved_url": "https://ir.nist.gov/trec-covid/archive/archive-round1.html",
+      "status": 200,
+      "bytes": 24810,
+      "sha256": "6aa98bcda1b5fe56fb4ce841c09aec262034ea2bfdcbd551cc50bc0189ba9084",
+      "complete": true,
+      "public_headers": {
+        "Content-Type": "text/html"
+      }
+    }
+  },
+  "run_bodies_fetched": false,
+  "raw_html_ignored": true
+}
